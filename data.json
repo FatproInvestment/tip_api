@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-05-24T02:22:58.706Z",
+  "timestamp": "2025-05-24T03:23:34.753Z",
   "data": [
     {
       "address": "A8bcY1eSenMiMy75vgSnp6ShMfWHRHjeM6JxfM1CNDL",
@@ -11,11 +11,11 @@
       "created_time": 1745618679,
       "website": "",
       "twitter": "",
-      "holder": 2619,
-      "market_cap": 15487218.6863243,
-      "price": 0.002581223636,
-      "price_change_24h": -21.39,
-      "volume_24h": 779893.795822719,
+      "holder": 2616,
+      "market_cap": 15317830.9370257,
+      "price": 0.002556006505,
+      "price_change_24h": -20.04,
+      "volume_24h": 771057.389804153,
       "ath": 0.0033754226067963765,
       "ath_timestamp": 1747872000,
       "tags": [
@@ -27,8 +27,18 @@
       },
       "metrics": {
         "uniqueWallets": 1,
-        "inflow24h": 2152.303379431156,
+        "inflow24h": 5658.046918843684,
         "trades": [
+          {
+            "timestamp": "2025-05-24T03:13:06.000Z",
+            "type": "BUY",
+            "amount": 1375911.006482,
+            "usdValue": 3505.7435394125305,
+            "wallet": {
+              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+              "name": "凉粉小刀"
+            }
+          },
           {
             "timestamp": "2025-05-23T23:53:57.000Z",
             "type": "BUY",
@@ -115,19 +125,122 @@
         {
           "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
           "name": "凉粉小刀",
-          "balance": 386.560181615,
-          "usdValue": 67600.04167325326,
+          "balance": 366.559683565,
+          "usdValue": 64433.531492118396,
           "tokens": [
             {
               "token_address": "A8bcY1eSenMiMy75vgSnp6ShMfWHRHjeM6JxfM1CNDL",
-              "amount": 11151430171387,
-              "balance": 11151430.171387,
-              "token_price": 0.00253730713226273,
+              "amount": 12527341177869,
+              "balance": 12527341.177869,
+              "token_price": 0.0025256337616661735,
               "token_decimals": 6,
               "token_name": "Candle TV",
               "token_symbol": "CANDLE",
               "token_icon": "https://gateway.irys.xyz/9eSdKkiLvEvsJGgrRmYqw7SCLcvxjVpc75LHSxK1YAxy",
-              "value": 28294.603308790036
+              "value": 31639.475822736833
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "address": "ibRLJrmgVuZh3tdDpjGgU5CQCCxpxuer7B7ckjGdLsv",
+      "symbol": "IBRL",
+      "name": "IBRL",
+      "decimals": 6,
+      "icon": "https://arweave.net/pW_eTwewK3LUetYlIIWgP8LBgAThvIxhw3iUc1-egKQ",
+      "created_time": 1747749618,
+      "website": "",
+      "twitter": "",
+      "holder": 7928,
+      "market_cap": 51126947.7669733,
+      "price": 0.05112701878,
+      "price_change_24h": 88.2,
+      "volume_24h": 7674575.37816132,
+      "ath": 0.05510935630642068,
+      "ath_timestamp": 1748044800,
+      "tags": [],
+      "first_signal": {
+        "timestamp": 1747855805,
+        "price": 0.01690944574
+      },
+      "metrics": {
+        "uniqueWallets": 3,
+        "inflow24h": -24848.22566851679,
+        "trades": [
+          {
+            "timestamp": "2025-05-24T02:56:53.000Z",
+            "type": "BUY",
+            "amount": 11790.646383,
+            "usdValue": 629.5430855023118,
+            "wallet": {
+              "address": "GgG65z3MXpmGnV3ZapKv5ayDqox1x7CJnqP1LD8FaZdt",
+              "name": "y22.sol"
+            }
+          },
+          {
+            "timestamp": "2025-05-23T15:28:09.000Z",
+            "type": "SELL",
+            "amount": 484788.978834,
+            "usdValue": 25410.113007898155,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2025-05-23T10:14:31.000Z",
+            "type": "SELL",
+            "amount": 391.947653,
+            "usdValue": 16.897547847060057,
+            "wallet": {
+              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+              "name": "凉粉小刀"
+            }
+          },
+          {
+            "timestamp": "2025-05-23T10:14:31.000Z",
+            "type": "SELL",
+            "amount": 1175.842955,
+            "usdValue": 50.75819827388597,
+            "wallet": {
+              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+              "name": "凉粉小刀"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "GgG65z3MXpmGnV3ZapKv5ayDqox1x7CJnqP1LD8FaZdt",
+          "name": "y22.sol",
+          "balance": 2.105258642,
+          "usdValue": 370.06047061448714,
+          "tokens": []
+        },
+        {
+          "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+          "name": "cooker",
+          "balance": 2301.280848361,
+          "usdValue": 404517.0777456322,
+          "tokens": []
+        },
+        {
+          "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+          "name": "凉粉小刀",
+          "balance": 366.559683565,
+          "usdValue": 64433.531492118396,
+          "tokens": [
+            {
+              "token_address": "ibRLJrmgVuZh3tdDpjGgU5CQCCxpxuer7B7ckjGdLsv",
+              "amount": 273270577871,
+              "balance": 273270.577871,
+              "token_price": 0.056415533211022606,
+              "token_decimals": 6,
+              "token_name": "IBRL",
+              "token_symbol": "IBRL",
+              "token_icon": "https://arweave.net/pW_eTwewK3LUetYlIIWgP8LBgAThvIxhw3iUc1-egKQ",
+              "value": 15416.70536147674
             }
           ]
         }
@@ -142,11 +255,11 @@
       "created_time": 1747704006,
       "website": "",
       "twitter": "",
-      "holder": 3044,
-      "market_cap": 2274152.46747826,
-      "price": 0.002274192532,
-      "price_change_24h": -18.84,
-      "volume_24h": 1163710.01695938,
+      "holder": 3047,
+      "market_cap": 2395446.63719221,
+      "price": 0.002395488839,
+      "price_change_24h": -4.46,
+      "volume_24h": 1116170.45678898,
       "ath": 0.010038435887078373,
       "ath_timestamp": 1747699200,
       "tags": [
@@ -187,18 +300,18 @@
           "address": "FS3ydDNyxJAmfDy8n4nhhMGo9aWaL7ZTmztX1WqHaeYw",
           "name": "TheGoat",
           "balance": 495.933284762,
-          "usdValue": 86726.75643156227,
+          "usdValue": 87174.70675150146,
           "tokens": [
             {
               "token_address": "9NW7fiBu4uHpLx3rxiMccucyKwADwuptTpb8z2YYj9SH",
               "amount": 698315162671436,
               "balance": 698315.162671436,
-              "token_price": 0.0022847019512795834,
+              "token_price": 0.002384853709962799,
               "token_decimals": 9,
               "token_name": "promptbidder",
               "token_symbol": "PROMPT",
               "token_icon": "https://ipfs.io/ipfs/bafkreif5jogjwerkh4bd7lvhovxzzqne2wx6xxpvytgtbwygwmpqn2t6ry",
-              "value": 1595.4420147635494
+              "value": 1665.3795064202498
             }
           ]
         }
@@ -213,11 +326,11 @@
       "created_time": 1737677895,
       "website": "",
       "twitter": "",
-      "holder": 32408,
-      "market_cap": 170406970.429679,
-      "price": 0.168227721,
-      "price_change_24h": -5.9,
-      "volume_24h": 30511101.9359256,
+      "holder": 32390,
+      "market_cap": 169861360.205359,
+      "price": 0.1700507518,
+      "price_change_24h": -10.7,
+      "volume_24h": 29391061.5000314,
       "ath": 0.1720016172928948,
       "ath_timestamp": 1747958400,
       "tags": [
@@ -267,26 +380,26 @@
         {
           "address": "GgG65z3MXpmGnV3ZapKv5ayDqox1x7CJnqP1LD8FaZdt",
           "name": "y22.sol",
-          "balance": 2.105607857,
-          "usdValue": 368.2199710432002,
+          "balance": 2.105258642,
+          "usdValue": 370.06047061448714,
           "tokens": []
         },
         {
           "address": "3DKfZz4iHgu42LGu3ttQxqz6u4m5z9ptuar8pBsRqkKC",
           "name": "ai16zWhale",
           "balance": 0.29360507,
-          "usdValue": 51.34443719618813,
+          "usdValue": 51.60963513527259,
           "tokens": [
             {
               "token_address": "Ey59PH7Z4BFU4HjyKnyMdWt5GGN76KazTAwQihoUXRnk",
               "amount": 1636890467739688,
               "balance": 1636890.467739688,
-              "token_price": 0.17061847566270746,
+              "token_price": 0.17028607746511318,
               "token_decimals": 9,
               "token_name": "Launch Coin on Believe",
               "token_symbol": "LAUNCHCOIN",
               "token_icon": "https://ipfs.io/ipfs/bafkreibeqt7fvgn2ubl4tha6sljnici2eus42dauxgtrdvfjf6m3vkdkoi",
-              "value": 279283.7564325618
+              "value": 278739.65699142584
             }
           ]
         }
@@ -301,11 +414,11 @@
       "created_time": 1727939120,
       "website": "https://www.popmart.com/us/collection/11/the-monsters",
       "twitter": "https://www.popmart.com/us/collection/11/the-monsters",
-      "holder": 8313,
-      "market_cap": 22658610.5823037,
-      "price": 0.02270958374,
-      "price_change_24h": -13.55,
-      "volume_24h": 7993450.44580776,
+      "holder": 8261,
+      "market_cap": 23997039.1573443,
+      "price": 0.02405102327,
+      "price_change_24h": -1.99,
+      "volume_24h": 7896659.17952889,
       "ath": 0.029485664630016433,
       "ath_timestamp": 1747958400,
       "tags": [],
@@ -453,33 +566,33 @@
         {
           "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
           "name": "DNF 哥",
-          "balance": 1002.010970282,
-          "usdValue": 175227.5236035116,
+          "balance": 1107.072052999,
+          "usdValue": 194600.1297720627,
           "tokens": []
         },
         {
           "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
           "name": "凉粉小刀",
-          "balance": 386.560181615,
-          "usdValue": 67600.04167325326,
+          "balance": 366.559683565,
+          "usdValue": 64433.531492118396,
           "tokens": []
         },
         {
           "address": "FS3ydDNyxJAmfDy8n4nhhMGo9aWaL7ZTmztX1WqHaeYw",
           "name": "TheGoat",
           "balance": 495.933284762,
-          "usdValue": 86726.75643156227,
+          "usdValue": 87174.70675150146,
           "tokens": [
             {
               "token_address": "JB2wezZLdzWfnaCfHxLg193RS3Rh51ThiXxEDWQDpump",
               "amount": 424340922630,
               "balance": 424340.92263,
-              "token_price": 0.022572170172306432,
+              "token_price": 0.023757578369910482,
               "token_decimals": 6,
               "token_name": "LABUBU",
               "token_symbol": "LABUBU",
               "token_icon": "https://ipfs.io/ipfs/QmeYP3cZdnLK81J3sR4EjBp1V8LUe28vSRGLJC3ebRHHaw",
-              "value": 9578.295516677877
+              "value": 10081.312724942345
             }
           ]
         }
@@ -494,11 +607,11 @@
       "created_time": 1745612599,
       "website": "",
       "twitter": "",
-      "holder": 7243,
-      "market_cap": 15435754.3137783,
-      "price": 0.01552575038,
-      "price_change_24h": -12.98,
-      "volume_24h": 4292626.21147913,
+      "holder": 7214,
+      "market_cap": 15289506.1125505,
+      "price": 0.01529120693,
+      "price_change_24h": -18.34,
+      "volume_24h": 3676633.51415916,
       "ath": 0.06127190111165504,
       "ath_timestamp": 1747008000,
       "tags": [
@@ -568,21 +681,109 @@
         {
           "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
           "name": "Winner",
-          "balance": 53.345124292,
-          "usdValue": 9328.77413844878,
+          "balance": 54.342379208,
+          "usdValue": 9552.25454147472,
           "tokens": [
             {
               "token_address": "9wK8yN6iz1ie5kEJkvZCTxyN1x5sTdNfx8yeMY8Ebonk",
               "amount": 956829200440,
               "balance": 956829.20044,
-              "token_price": 0.015445775928519515,
+              "token_price": 0.015355431615685424,
               "token_decimals": 6,
               "token_name": "Hosico cat",
               "token_symbol": "Hosico",
               "token_icon": "https://sapphire-working-koi-276.mypinata.cloud/ipfs/bafkreihev5l3pt2xzyvch2cco5qhimguamdztns2pgpi67tj7punzo34ku",
-              "value": 14778.969431860727
+              "value": 14692.525355247382
             }
           ]
+        }
+      ]
+    },
+    {
+      "address": "5HV956n7UQT1XdJzv43fHPocest5YAmi9ipsuiJx7zt7",
+      "symbol": "memecoin",
+      "name": "Memecoin",
+      "decimals": 6,
+      "icon": "https://cf-ipfs.com/ipfs/QmW8GrpW8RQbVSP44iZ6ZjBq9xkZyuST7rFxYWR3GN7Khi",
+      "created_time": 1710221122,
+      "website": "",
+      "twitter": "",
+      "holder": 4627,
+      "market_cap": 1577423.75142258,
+      "price": 0.001583430949,
+      "price_change_24h": -3.35,
+      "volume_24h": 2633915.90054591,
+      "ath": 0.0105536746805815,
+      "ath_timestamp": 1744675200,
+      "tags": [
+        "moonshot"
+      ],
+      "first_signal": {
+        "timestamp": 1747915713,
+        "price": 0.0009509436779
+      },
+      "metrics": {
+        "uniqueWallets": 2,
+        "inflow24h": -17995.798179368307,
+        "trades": [
+          {
+            "timestamp": "2025-05-24T02:37:04.000Z",
+            "type": "SELL",
+            "amount": 1036327.165457,
+            "usdValue": 2026.8718678303114,
+            "wallet": {
+              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+              "name": "DNF 哥"
+            }
+          },
+          {
+            "timestamp": "2025-05-24T02:18:45.000Z",
+            "type": "SELL",
+            "amount": 3618067.240993,
+            "usdValue": 7813.994097590187,
+            "wallet": {
+              "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+              "name": "Winner"
+            }
+          },
+          {
+            "timestamp": "2025-05-24T02:17:10.000Z",
+            "type": "SELL",
+            "amount": 3618067.240993,
+            "usdValue": 8154.932213947806,
+            "wallet": {
+              "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+              "name": "Winner"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+          "name": "DNF 哥",
+          "balance": 1107.072052999,
+          "usdValue": 194600.1297720627,
+          "tokens": [
+            {
+              "token_address": "5HV956n7UQT1XdJzv43fHPocest5YAmi9ipsuiJx7zt7",
+              "amount": 19690216143693,
+              "balance": 19690216.143693,
+              "token_price": 0.0015865608716222836,
+              "token_decimals": 6,
+              "token_name": "Memecoin",
+              "token_symbol": "memecoin",
+              "token_icon": "https://cf-ipfs.com/ipfs/QmW8GrpW8RQbVSP44iZ6ZjBq9xkZyuST7rFxYWR3GN7Khi",
+              "value": 31239.726487368724
+            }
+          ]
+        },
+        {
+          "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+          "name": "Winner",
+          "balance": 54.342379208,
+          "usdValue": 9552.25454147472,
+          "tokens": []
         }
       ]
     },
@@ -595,11 +796,11 @@
       "created_time": 1725989127,
       "website": "https://x.com/i/communities/1833493731305263473",
       "twitter": "https://x.com/MooDengSOL",
-      "holder": 76308,
-      "market_cap": 261704417.552644,
-      "price": 0.2625093087,
-      "price_change_24h": -18.94,
-      "volume_24h": 8161401.7686931,
+      "holder": 76304,
+      "market_cap": 266504294.891157,
+      "price": 0.2692028669,
+      "price_change_24h": -15.44,
+      "volume_24h": 7531206.94023814,
       "ath": 0.33133536297582383,
       "ath_timestamp": 1747958400,
       "tags": [
@@ -650,67 +851,8 @@
         {
           "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
           "name": "Ansem",
-          "balance": 1.064246732,
-          "usdValue": 186.11105554962813,
-          "tokens": []
-        }
-      ]
-    },
-    {
-      "address": "5HV956n7UQT1XdJzv43fHPocest5YAmi9ipsuiJx7zt7",
-      "symbol": "memecoin",
-      "name": "Memecoin",
-      "decimals": 6,
-      "icon": "https://cf-ipfs.com/ipfs/QmW8GrpW8RQbVSP44iZ6ZjBq9xkZyuST7rFxYWR3GN7Khi",
-      "created_time": 1710221122,
-      "website": "",
-      "twitter": "",
-      "holder": 4548,
-      "market_cap": 1939985.73906001,
-      "price": 0.001999965285,
-      "price_change_24h": 27.86,
-      "volume_24h": 2514314.76200656,
-      "ath": 0.0105536746805815,
-      "ath_timestamp": 1744675200,
-      "tags": [
-        "moonshot"
-      ],
-      "first_signal": {
-        "timestamp": 1747915713,
-        "price": 0.0009509436779
-      },
-      "metrics": {
-        "uniqueWallets": 1,
-        "inflow24h": -15968.926311537994,
-        "trades": [
-          {
-            "timestamp": "2025-05-24T02:18:45.000Z",
-            "type": "SELL",
-            "amount": 3618067.240993,
-            "usdValue": 7813.994097590187,
-            "wallet": {
-              "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
-              "name": "Winner"
-            }
-          },
-          {
-            "timestamp": "2025-05-24T02:17:10.000Z",
-            "type": "SELL",
-            "amount": 3618067.240993,
-            "usdValue": 8154.932213947806,
-            "wallet": {
-              "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
-              "name": "Winner"
-            }
-          }
-        ]
-      },
-      "walletPortfolios": [
-        {
-          "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
-          "name": "Winner",
-          "balance": 53.345124292,
-          "usdValue": 9328.77413844878,
+          "balance": 1.064248029,
+          "usdValue": 187.07256134958092,
           "tokens": []
         }
       ]
@@ -724,11 +866,11 @@
       "created_time": 1732434604,
       "website": "",
       "twitter": "",
-      "holder": 13019,
-      "market_cap": 12448627.5557814,
-      "price": 0.01243673307,
-      "price_change_24h": -19.53,
-      "volume_24h": 3064685.02095561,
+      "holder": 13016,
+      "market_cap": 12508115.0082201,
+      "price": 0.01250864226,
+      "price_change_24h": -19.44,
+      "volume_24h": 2986729.0049172,
       "ath": 0.0457483999608052,
       "ath_timestamp": 1745452800,
       "tags": [
@@ -769,8 +911,8 @@
         {
           "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
           "name": "DNF 哥",
-          "balance": 1002.010970282,
-          "usdValue": 175227.5236035116,
+          "balance": 1107.072052999,
+          "usdValue": 194600.1297720627,
           "tokens": []
         }
       ]
@@ -784,11 +926,11 @@
       "created_time": 1740933393,
       "website": "https://www.tiktok.com/discover/animal-brainrot-italy",
       "twitter": "",
-      "holder": 7667,
-      "market_cap": 10100782.4127217,
-      "price": 0.01027413198,
-      "price_change_24h": 3.47,
-      "volume_24h": 2212673.40921572,
+      "holder": 7648,
+      "market_cap": 12873885.616475,
+      "price": 0.01288699184,
+      "price_change_24h": 30.3,
+      "volume_24h": 2257367.7440343,
       "ath": 0.0120563267706854,
       "ath_timestamp": 1745452800,
       "tags": [
@@ -829,18 +971,79 @@
           "address": "Gf9XgdmvNHt8fUTFsWAccNbKeyDXsgJyZN8iFJKg5Pbd",
           "name": "XueZhang",
           "balance": 219.708888996,
-          "usdValue": 38421.77947574063,
+          "usdValue": 38620.23090084809,
           "tokens": [
             {
               "token_address": "BQX1cjcRHXmrqNtoFWwmE5bZj7RPneTmqXB979b2pump",
               "amount": 1000000000000,
               "balance": 1000000,
-              "token_price": 0.01013243264321732,
+              "token_price": 0.012916981335125007,
               "token_decimals": 6,
               "token_name": "Italian Brainrot",
               "token_symbol": "Italianrot",
               "token_icon": "https://ipfs.io/ipfs/QmZLiix8P5kAUk577DGtSMHZohMqJFLem3iHfiWaKqX6RH",
-              "value": 10132.43264321732
+              "value": 12916.981335125007
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "address": "FtUEW73K6vEYHfbkfpdBZfWpxgQar2HipGdbutEhpump",
+      "symbol": "titcoin",
+      "name": "titcoin",
+      "decimals": 6,
+      "icon": "https://ipfs.io/ipfs/QmdnAHMWTbxfRkwdf1QweP8rJL1SCe2XbjFTFzCCjw5oAD",
+      "created_time": 1741280102,
+      "website": "",
+      "twitter": "https://x.com/thetitcoin?s=21",
+      "holder": 23270,
+      "market_cap": 33219691.6215114,
+      "price": 0.03442644288,
+      "price_change_24h": -27.21,
+      "volume_24h": 7307636.47563023,
+      "ath": 0.0494477660513604,
+      "ath_timestamp": 1747958400,
+      "tags": [
+        "moonshot"
+      ],
+      "first_signal": {
+        "timestamp": 1747382481,
+        "price": 0.047320846475273896
+      },
+      "metrics": {
+        "uniqueWallets": 1,
+        "inflow24h": -16591.104465909884,
+        "trades": [
+          {
+            "timestamp": "2025-05-24T03:12:44.000Z",
+            "type": "SELL",
+            "amount": 491744.944307,
+            "usdValue": 16591.104465909884,
+            "wallet": {
+              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+              "name": "DNF 哥"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+          "name": "DNF 哥",
+          "balance": 1107.072052999,
+          "usdValue": 194600.1297720627,
+          "tokens": [
+            {
+              "token_address": "FtUEW73K6vEYHfbkfpdBZfWpxgQar2HipGdbutEhpump",
+              "amount": 9343153941840,
+              "balance": 9343153.94184,
+              "token_price": 0.03452865790793797,
+              "token_decimals": 6,
+              "token_name": "titcoin",
+              "token_symbol": "titcoin",
+              "token_icon": "https://ipfs.io/ipfs/QmdnAHMWTbxfRkwdf1QweP8rJL1SCe2XbjFTFzCCjw5oAD",
+              "value": 322606.5662389956
             }
           ]
         }
@@ -855,11 +1058,11 @@
       "created_time": 1738193350,
       "website": "",
       "twitter": "",
-      "holder": 32229,
-      "market_cap": 29475675.3724143,
-      "price": 0.02955101202,
-      "price_change_24h": -11.62,
-      "volume_24h": 982542.79520348,
+      "holder": 32224,
+      "market_cap": 29456069.4400726,
+      "price": 0.02946012739,
+      "price_change_24h": -11.45,
+      "volume_24h": 936135.349321327,
       "ath": 0.03367777152553414,
       "ath_timestamp": 1747958400,
       "tags": [
@@ -891,7 +1094,7 @@
           "address": "BieeZkdnBAgNYknzo3RH2vku7FcPkFZMZmRJANh2TpW",
           "name": "degenai71x",
           "balance": 4.569613014,
-          "usdValue": 799.114975801361,
+          "usdValue": 803.2424656765404,
           "tokens": []
         }
       ]
@@ -905,11 +1108,11 @@
       "created_time": 1747012609,
       "website": "https://www.reddit.com/r/Eyebleach/comments/1kk10p3/petunia_baby_piglet_loves_showing_off_her_blankets/",
       "twitter": "",
-      "holder": 4715,
-      "market_cap": 1252493.43936074,
-      "price": 0.001255474223,
-      "price_change_24h": -29.97,
-      "volume_24h": 1491812.03362355,
+      "holder": 4674,
+      "market_cap": 1205223.405419,
+      "price": 0.001209024501,
+      "price_change_24h": -34.07,
+      "volume_24h": 1450395.39994006,
       "ath": 0.01317878076769605,
       "ath_timestamp": 1747267200,
       "tags": [
@@ -939,19 +1142,19 @@
         {
           "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
           "name": "DNF 哥",
-          "balance": 1002.010970282,
-          "usdValue": 175227.5236035116,
+          "balance": 1107.072052999,
+          "usdValue": 194600.1297720627,
           "tokens": [
             {
               "token_address": "7tPPYTBKrFLKKnoCwijrsfjAYadyp7GpAmSPUbVwbonk",
               "amount": 8684507970409,
               "balance": 8684507.970409,
-              "token_price": 0.0012631373729960604,
+              "token_price": 0.0012042171197207104,
               "token_decimals": 6,
               "token_name": "Petunia",
               "token_symbol": "Petunia",
               "token_icon": "https://ipfs.io/ipfs/bafkreiaxiq7mjbkur5vo44epbo2k3p4uxdbmykjnae5w2plndkr5o5tmza",
-              "value": 10969.726583505773
+              "value": 10458.03317431748
             }
           ]
         }
@@ -966,11 +1169,11 @@
       "created_time": 1734645206,
       "website": "https://yesnoerror.com",
       "twitter": "https://x.com/yesnoerror",
-      "holder": 13058,
-      "market_cap": 6317127.62672026,
-      "price": 0.00633449905,
-      "price_change_24h": -21.89,
-      "volume_24h": 355095.537095728,
+      "holder": 13055,
+      "market_cap": 6433536.83945069,
+      "price": 0.006379272135,
+      "price_change_24h": -23.51,
+      "volume_24h": 335528.501140457,
       "ath": 0.0424207278023572,
       "ath_timestamp": 1739145600,
       "tags": [
@@ -1002,7 +1205,7 @@
           "address": "FS3ydDNyxJAmfDy8n4nhhMGo9aWaL7ZTmztX1WqHaeYw",
           "name": "TheGoat",
           "balance": 495.933284762,
-          "usdValue": 86726.75643156227,
+          "usdValue": 87174.70675150146,
           "tokens": []
         }
       ]
@@ -1016,11 +1219,11 @@
       "created_time": 1747102831,
       "website": "",
       "twitter": "",
-      "holder": 7696,
-      "market_cap": 5965123.00646043,
-      "price": 0.005965147783,
-      "price_change_24h": -34.09,
-      "volume_24h": 3635118.38283659,
+      "holder": 7691,
+      "market_cap": 6123211.91982749,
+      "price": 0.006296230399,
+      "price_change_24h": -29.88,
+      "volume_24h": 3159231.71305599,
       "ath": 0.027617603125798442,
       "ath_timestamp": 1747526400,
       "tags": [
@@ -1050,8 +1253,8 @@
         {
           "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
           "name": "Ansem",
-          "balance": 1.064246732,
-          "usdValue": 186.11105554962813,
+          "balance": 1.064248029,
+          "usdValue": 187.07256134958092,
           "tokens": []
         }
       ]
@@ -1065,11 +1268,11 @@
       "created_time": 1746407895,
       "website": "",
       "twitter": "",
-      "holder": 4330,
-      "market_cap": 899698.483196452,
-      "price": 0.0009051515921,
-      "price_change_24h": -43.94,
-      "volume_24h": 412319.3975298,
+      "holder": 4366,
+      "market_cap": 883437.387853164,
+      "price": 0.0008861711386,
+      "price_change_24h": -46.16,
+      "volume_24h": 393134.367128545,
       "ath": 0.006831158653385203,
       "ath_timestamp": 1746662400,
       "tags": [
@@ -1100,7 +1303,7 @@
           "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
           "name": "OGmoodeng",
           "balance": 56.587270649,
-          "usdValue": 9895.747249668679,
+          "usdValue": 9946.859539911247,
           "tokens": []
         }
       ]
