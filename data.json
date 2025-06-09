@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-06-09T19:10:02.640Z",
+  "timestamp": "2025-06-09T19:24:49.568Z",
   "data": [
     {
       "address": "3E8muKzsn84HUUmDWdjjd6geRjv5XUpMjdpbrqi3pump",
@@ -12,10 +12,10 @@
       "website": "",
       "twitter": "",
       "holder": 10411,
-      "market_cap": 18397486.7792479,
-      "price": 0.05485782005,
-      "price_change_24h": 6.06,
-      "volume_24h": 10790918.9087745,
+      "market_cap": 17107837.4479545,
+      "price": 0.04880421504,
+      "price_change_24h": -8.59,
+      "volume_24h": 11092364.2696918,
       "pool_address": "solana_7bCauvcdNHTkCKsSmyyaoenkV6ixmG5bD6T8uqTTUW65",
       "ath": 0.09803587371234788,
       "ath_timestamp": 1749427200,
@@ -28,8 +28,28 @@
       },
       "metrics": {
         "uniqueWallets": 5,
-        "inflow24h": 70094.13180958753,
+        "inflow24h": 6215.6262721473795,
         "trades": [
+          {
+            "timestamp": "2025-06-09T19:18:11.000Z",
+            "type": "SWAP",
+            "amount": 997931.719169,
+            "usdValue": 48920.83386571755,
+            "wallet": {
+              "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+              "name": "Ansem"
+            }
+          },
+          {
+            "timestamp": "2025-06-09T19:10:54.000Z",
+            "type": "SELL",
+            "amount": 283674.173041,
+            "usdValue": 14957.671671722585,
+            "wallet": {
+              "address": "ATmKENkRrL1JQQnoUNAQvkiwgjiHKUkzyncxTGxyzQL1",
+              "name": "眼光很好"
+            }
+          },
           {
             "timestamp": "2025-06-09T19:08:22.000Z",
             "type": "BUY",
@@ -154,18 +174,34 @@
       },
       "walletPortfolios": [
         {
+          "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+          "name": "Ansem",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "3E8muKzsn84HUUmDWdjjd6geRjv5XUpMjdpbrqi3pump",
+              "balance": 0,
+              "token_price": 0.04880421504,
+              "token_decimals": 6,
+              "token_symbol": "Mixie",
+              "token_name": "Mixie",
+              "value": 0
+            }
+          ]
+        },
+        {
           "address": "ATmKENkRrL1JQQnoUNAQvkiwgjiHKUkzyncxTGxyzQL1",
           "name": "眼光很好",
           "score": 0.5,
           "tokens": [
             {
               "token_address": "3E8muKzsn84HUUmDWdjjd6geRjv5XUpMjdpbrqi3pump",
-              "balance": 283674.173041,
-              "token_price": 0.05485782005,
+              "balance": 0,
+              "token_price": 0.04880421504,
               "token_decimals": 6,
               "token_symbol": "Mixie",
               "token_name": "Mixie",
-              "value": 15561.746737515738
+              "value": 0
             }
           ]
         },
@@ -177,27 +213,11 @@
             {
               "token_address": "3E8muKzsn84HUUmDWdjjd6geRjv5XUpMjdpbrqi3pump",
               "balance": 65586.930182,
-              "token_price": 0.05485782005,
+              "token_price": 0.04880421504,
               "token_decimals": 6,
               "token_symbol": "Mixie",
               "token_name": "Mixie",
-              "value": 3597.9560135560696
-            }
-          ]
-        },
-        {
-          "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
-          "name": "Ansem",
-          "score": 3,
-          "tokens": [
-            {
-              "token_address": "3E8muKzsn84HUUmDWdjjd6geRjv5XUpMjdpbrqi3pump",
-              "balance": 997931.719169,
-              "token_price": 0.05485782005,
-              "token_decimals": 6,
-              "token_symbol": "Mixie",
-              "token_name": "Mixie",
-              "value": 54744.35867236014
+              "value": 3200.9186444157945
             }
           ]
         },
@@ -209,7 +229,7 @@
             {
               "token_address": "3E8muKzsn84HUUmDWdjjd6geRjv5XUpMjdpbrqi3pump",
               "balance": 0,
-              "token_price": 0.05485782005,
+              "token_price": 0.04880421504,
               "token_decimals": 6,
               "token_symbol": "Mixie",
               "token_name": "Mixie",
@@ -225,11 +245,11 @@
             {
               "token_address": "3E8muKzsn84HUUmDWdjjd6geRjv5XUpMjdpbrqi3pump",
               "balance": 8436.797263,
-              "token_price": 0.05485782005,
+              "token_price": 0.04880421504,
               "token_decimals": 6,
               "token_symbol": "Mixie",
               "token_name": "Mixie",
-              "value": 462.8243060519865
+              "value": 411.75126787233546
             }
           ]
         }
@@ -244,11 +264,11 @@
       "created_time": 1729231505,
       "website": "",
       "twitter": "https://www.infinitebackrooms.com/dreams/conversation-1721540624-scenario-terminal-of-truths-txt",
-      "holder": 158303,
-      "market_cap": 1168765723.67324,
-      "price": 1.1793794507,
-      "price_change_24h": 11.15,
-      "volume_24h": 76663102.8373451,
+      "holder": 158331,
+      "market_cap": 1173207756.46831,
+      "price": 1.1759060862,
+      "price_change_24h": 11.45,
+      "volume_24h": 76825359.1812529,
       "pool_address": "solana_C9U2Ksk6KKWvLEeo5yUQ7Xu46X7NzeBJtd9PBfuXaUSM",
       "ath": 1.6467087032571395,
       "ath_timestamp": 1747958400,
@@ -305,11 +325,11 @@
             {
               "token_address": "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump",
               "balance": 5634.547718,
-              "token_price": 1.1793794507,
+              "token_price": 1.1759060862,
               "token_decimals": 6,
               "token_symbol": "Fartcoin ",
               "token_name": "Fartcoin ",
-              "value": 6645.269792597778
+              "value": 6625.698954580521
             }
           ]
         },
@@ -321,11 +341,11 @@
             {
               "token_address": "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump",
               "balance": 4048.893649,
-              "token_price": 1.1793794507,
+              "token_price": 1.1759060862,
               "token_decimals": 6,
               "token_symbol": "Fartcoin ",
               "token_name": "Fartcoin ",
-              "value": 4775.181967700339
+              "value": 4761.1186842356265
             }
           ]
         }
@@ -341,10 +361,10 @@
       "website": "",
       "twitter": "",
       "holder": 8066,
-      "market_cap": 10043604.1145163,
-      "price": 0.01276107354,
-      "price_change_24h": -13.12,
-      "volume_24h": 2180826.82263875,
+      "market_cap": 9538622.75814471,
+      "price": 0.01218093976,
+      "price_change_24h": -21.17,
+      "volume_24h": 2141352.82234067,
       "pool_address": "solana_AyCkqVLkmMnqYCrCh2fFB1xEj29nymzc5t6PvyRHaCKn",
       "ath": 0.01276107354,
       "ath_timestamp": 1749496200,
@@ -440,7 +460,7 @@
             {
               "token_address": "2AEU9yWk3dEGnVwRaKv4div5TarC4dn7axFLyz6zG4Pf",
               "balance": 0,
-              "token_price": 0.01276107354,
+              "token_price": 0.01218093976,
               "token_decimals": 9,
               "token_symbol": "DIS",
               "token_name": "Distribute.ai",
@@ -456,7 +476,7 @@
             {
               "token_address": "2AEU9yWk3dEGnVwRaKv4div5TarC4dn7axFLyz6zG4Pf",
               "balance": 0,
-              "token_price": 0.01276107354,
+              "token_price": 0.01218093976,
               "token_decimals": 9,
               "token_symbol": "DIS",
               "token_name": "Distribute.ai",
@@ -472,7 +492,7 @@
             {
               "token_address": "2AEU9yWk3dEGnVwRaKv4div5TarC4dn7axFLyz6zG4Pf",
               "balance": 0,
-              "token_price": 0.01276107354,
+              "token_price": 0.01218093976,
               "token_decimals": 9,
               "token_symbol": "DIS",
               "token_name": "Distribute.ai",
@@ -492,10 +512,10 @@
       "website": "",
       "twitter": "",
       "holder": 946,
-      "market_cap": 254806.464403526,
-      "price": 0.0002548151764,
-      "price_change_24h": -1.64,
-      "volume_24h": 108038.445027423,
+      "market_cap": 263600.568792122,
+      "price": 0.0002636095814,
+      "price_change_24h": -2.1,
+      "volume_24h": 109605.841387163,
       "pool_address": "solana_DNTQkygdSvPHJDZK1mZmrLBSwPTSdjqwxnqwZ3qvmyXa",
       "ath": 0.0002548151764,
       "ath_timestamp": 1749496201,
@@ -559,11 +579,11 @@
             {
               "token_address": "CiiwWPxzvCQRTLPtvoGNqbNM5qFtR4aMKvZfYVoTEmDj",
               "balance": 4515610.068837588,
-              "token_price": 0.0002548151764,
+              "token_price": 0.0002636095814,
               "token_decimals": 9,
               "token_symbol": "FLYWHEEL",
               "token_name": "FLYWHEEL",
-              "value": 1150.645976244466
+              "value": 1190.3580800119018
             }
           ]
         },
@@ -575,7 +595,7 @@
             {
               "token_address": "CiiwWPxzvCQRTLPtvoGNqbNM5qFtR4aMKvZfYVoTEmDj",
               "balance": 0,
-              "token_price": 0.0002548151764,
+              "token_price": 0.0002636095814,
               "token_decimals": 9,
               "token_symbol": "FLYWHEEL",
               "token_name": "FLYWHEEL",
@@ -595,10 +615,10 @@
       "website": "",
       "twitter": "https://x.com/benruel58/status/1931111139053850883",
       "holder": 5783,
-      "market_cap": 2576454.55594489,
-      "price": 0.002557917286,
-      "price_change_24h": 378.2,
-      "volume_24h": 12576788.7554946,
+      "market_cap": 2450168.10151098,
+      "price": 0.002448697725,
+      "price_change_24h": 322.34,
+      "volume_24h": 12591581.1280429,
       "pool_address": "solana_Cg4T8JXfSXVC1sAYzKdntu9kUnd5i3CVxAgoyBK7hXyH",
       "ath": 0.006618689511681623,
       "ath_timestamp": 1749340800,
@@ -742,7 +762,7 @@
             {
               "token_address": "766ivvadp4arnHKQ13RB3cD7PyvRDL42N2j7RCoMpump",
               "balance": 0,
-              "token_price": 0.002557917286,
+              "token_price": 0.002448697725,
               "token_decimals": 6,
               "token_symbol": "TAP",
               "token_name": "THE AMERICA PARTY",
@@ -758,7 +778,7 @@
             {
               "token_address": "766ivvadp4arnHKQ13RB3cD7PyvRDL42N2j7RCoMpump",
               "balance": 0,
-              "token_price": 0.002557917286,
+              "token_price": 0.002448697725,
               "token_decimals": 6,
               "token_symbol": "TAP",
               "token_name": "THE AMERICA PARTY",
@@ -774,7 +794,7 @@
             {
               "token_address": "766ivvadp4arnHKQ13RB3cD7PyvRDL42N2j7RCoMpump",
               "balance": 0,
-              "token_price": 0.002557917286,
+              "token_price": 0.002448697725,
               "token_decimals": 6,
               "token_symbol": "TAP",
               "token_name": "THE AMERICA PARTY",
