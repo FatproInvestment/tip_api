@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-06-11T12:38:29.456Z",
+  "timestamp": "2025-06-11T13:19:24.002Z",
   "data": [
     {
       "address": "DtR4D9FtVoTX2569gaL837ZgrB6wNjj6tkmnX9Rdk9B2",
@@ -11,14 +11,14 @@
       "created_time": 1717098847,
       "website": "",
       "twitter": "",
-      "holder": 20596,
-      "market_cap": 83002179.0612405,
-      "price": 0.08582841045,
-      "price_change_24h": 7852.43,
-      "volume_24h": 52251965.0016572,
+      "holder": 21453,
+      "market_cap": 71857997.4526802,
+      "price": 0.07617976883,
+      "price_change_24h": 6570.2,
+      "volume_24h": 54818510.4857634,
       "pool_address": "solana_9ViX1VductEoC2wERTSp2TuDxXPwAf69aeET8ENPJpsN",
-      "ath": 0.06816881642,
-      "ath_timestamp": 1749644037,
+      "ath": 0.07531949035,
+      "ath_timestamp": 1749647660,
       "tags": [],
       "first_signal": {
         "timestamp": 1749642226,
@@ -26,8 +26,28 @@
       },
       "metrics": {
         "uniqueWallets": 4,
-        "inflow24h": -189552.16022144456,
+        "inflow24h": -189569.14829593105,
         "trades": [
+          {
+            "timestamp": "2025-06-11T12:56:12.000Z",
+            "type": "BUY",
+            "amount": 58372.949299,
+            "usdValue": 4519.513391513508,
+            "wallet": {
+              "address": "EJ2jyVUceCYvC1HxY77X2adre7Kcf8sQaucrKaQtVtXs",
+              "name": "justice3.6x"
+            }
+          },
+          {
+            "timestamp": "2025-06-11T12:51:22.000Z",
+            "type": "SELL",
+            "amount": 51751.62753,
+            "usdValue": 4536.501466,
+            "wallet": {
+              "address": "EJ2jyVUceCYvC1HxY77X2adre7Kcf8sQaucrKaQtVtXs",
+              "name": "justice3.6x"
+            }
+          },
           {
             "timestamp": "2025-06-11T12:33:06.000Z",
             "type": "SELL",
@@ -402,6 +422,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "EJ2jyVUceCYvC1HxY77X2adre7Kcf8sQaucrKaQtVtXs",
+          "name": "justice3.6x",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "DtR4D9FtVoTX2569gaL837ZgrB6wNjj6tkmnX9Rdk9B2",
+              "balance": 58372.949299,
+              "token_price": 0.07617976883,
+              "token_decimals": 6,
+              "token_symbol": "aura",
+              "token_name": "aura",
+              "value": 4446.83778352313
+            }
+          ]
+        },
+        {
           "address": "71CPXu3TvH3iUKaY1bNkAAow24k6tjH473SsKprQBABC",
           "name": "王小二",
           "score": 1,
@@ -409,27 +445,11 @@
             {
               "token_address": "DtR4D9FtVoTX2569gaL837ZgrB6wNjj6tkmnX9Rdk9B2",
               "balance": 640000,
-              "token_price": 0.08582841045,
+              "token_price": 0.07617976883,
               "token_decimals": 6,
               "token_symbol": "aura",
               "token_name": "aura",
-              "value": 54930.182688
-            }
-          ]
-        },
-        {
-          "address": "EJ2jyVUceCYvC1HxY77X2adre7Kcf8sQaucrKaQtVtXs",
-          "name": "justice3.6x",
-          "score": 2,
-          "tokens": [
-            {
-              "token_address": "DtR4D9FtVoTX2569gaL837ZgrB6wNjj6tkmnX9Rdk9B2",
-              "balance": 51751.62753,
-              "token_price": 0.08582841045,
-              "token_decimals": 6,
-              "token_symbol": "aura",
-              "token_name": "aura",
-              "value": 4441.75992910036
+              "value": 48755.05205119999
             }
           ]
         },
@@ -441,11 +461,11 @@
             {
               "token_address": "DtR4D9FtVoTX2569gaL837ZgrB6wNjj6tkmnX9Rdk9B2",
               "balance": 1310435.598945,
-              "token_price": 0.08582841045,
+              "token_price": 0.07617976883,
               "token_decimals": 6,
               "token_symbol": "aura",
               "token_name": "aura",
-              "value": 112472.60445454305
+              "value": 99828.68099423268
             }
           ]
         },
@@ -457,7 +477,7 @@
             {
               "token_address": "DtR4D9FtVoTX2569gaL837ZgrB6wNjj6tkmnX9Rdk9B2",
               "balance": 0,
-              "token_price": 0.08582841045,
+              "token_price": 0.07617976883,
               "token_decimals": 6,
               "token_symbol": "aura",
               "token_name": "aura",
@@ -468,235 +488,90 @@
       ]
     },
     {
-      "address": "H2c31USxu35MDkBrGph8pUDUnmzo2e4Rf4hnvL2Upump",
-      "symbol": "Shoggoth",
-      "name": "Shoggoth",
+      "address": "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump",
+      "symbol": "Fartcoin ",
+      "name": "Fartcoin ",
       "decimals": 6,
-      "icon": "https://ipfs.io/ipfs/QmWYkyCNMPfDqsBUQXDmYSon4fam8WUtLeiajmbDHnx6zk",
-      "created_time": 1729087708,
+      "icon": "https://ipfs.io/ipfs/QmQr3Fz4h1etNsF7oLGMRHiCzhB5y9a7GjyodnF7zLHK1g",
+      "created_time": 1729231505,
       "website": "",
-      "twitter": "",
-      "holder": 23753,
-      "market_cap": 9961981.02637005,
-      "price": 0.009972661581,
-      "price_change_24h": 42.52,
-      "volume_24h": 6685893.76802995,
-      "pool_address": "solana_Y8YyWu9gyCYSomE99JkDvsfR4eHNEeQpWtR8quGpBwX",
-      "ath": 0.018020256325228703,
-      "ath_timestamp": 1749600000,
+      "twitter": "https://www.infinitebackrooms.com/dreams/conversation-1721540624-scenario-terminal-of-truths-txt",
+      "holder": 159139,
+      "market_cap": 1378858200.12983,
+      "price": 1.3882785098,
+      "price_change_24h": 6.38,
+      "volume_24h": 96247392.6164433,
+      "pool_address": "solana_C9U2Ksk6KKWvLEeo5yUQ7Xu46X7NzeBJtd9PBfuXaUSM",
+      "ath": 1.6479802036543245,
+      "ath_timestamp": 1747958400,
       "tags": [
         "moonshot",
         "binanceAlpha"
       ],
       "first_signal": {
-        "timestamp": 1747288141,
-        "price": 0.007150606685940336
-      },
-      "metrics": {
-        "uniqueWallets": 2,
-        "inflow24h": 11798.936801390799,
-        "trades": [
-          {
-            "timestamp": "2025-06-11T10:46:37.000Z",
-            "type": "SELL",
-            "amount": 73568.93363,
-            "usdValue": 758.3840312586292,
-            "wallet": {
-              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
-              "name": "凉粉小刀"
-            }
-          },
-          {
-            "timestamp": "2025-06-11T10:46:37.000Z",
-            "type": "SELL",
-            "amount": 1152579.960189,
-            "usdValue": 12109.297818736835,
-            "wallet": {
-              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
-              "name": "凉粉小刀"
-            }
-          },
-          {
-            "timestamp": "2025-06-11T10:03:42.000Z",
-            "type": "SELL",
-            "amount": 664638.928514,
-            "usdValue": 8614.270963887753,
-            "wallet": {
-              "address": "CNudZYFgpbT26fidsiNrWfHeGTBMMeVWqruZXsEkcUPc",
-              "name": "Luce46x"
-            }
-          },
-          {
-            "timestamp": "2025-06-11T09:39:09.000Z",
-            "type": "BUY",
-            "amount": 35826.324062,
-            "usdValue": 498.2400433196992,
-            "wallet": {
-              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
-              "name": "凉粉小刀"
-            }
-          },
-          {
-            "timestamp": "2025-06-11T09:39:09.000Z",
-            "type": "BUY",
-            "amount": 107062.304376,
-            "usdValue": 1494.7201299590977,
-            "wallet": {
-              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
-              "name": "凉粉小刀"
-            }
-          },
-          {
-            "timestamp": "2025-06-11T09:39:09.000Z",
-            "type": "BUY",
-            "amount": 449863.140068,
-            "usdValue": 6311.04054871619,
-            "wallet": {
-              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
-              "name": "凉粉小刀"
-            }
-          },
-          {
-            "timestamp": "2025-06-11T09:38:50.000Z",
-            "type": "BUY",
-            "amount": 75703.212831,
-            "usdValue": 996.4800866393985,
-            "wallet": {
-              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
-              "name": "凉粉小刀"
-            }
-          },
-          {
-            "timestamp": "2025-06-11T09:38:50.000Z",
-            "type": "BUY",
-            "amount": 88566.194194,
-            "usdValue": 1162.5601010792982,
-            "wallet": {
-              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
-              "name": "凉粉小刀"
-            }
-          },
-          {
-            "timestamp": "2025-06-11T09:38:50.000Z",
-            "type": "BUY",
-            "amount": 469127.718288,
-            "usdValue": 6144.960534276291,
-            "wallet": {
-              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
-              "name": "凉粉小刀"
-            }
-          },
-          {
-            "timestamp": "2025-06-11T09:19:51.000Z",
-            "type": "BUY",
-            "amount": 1329277.857029,
-            "usdValue": 16672.888171284045,
-            "wallet": {
-              "address": "CNudZYFgpbT26fidsiNrWfHeGTBMMeVWqruZXsEkcUPc",
-              "name": "Luce46x"
-            }
-          }
-        ]
-      },
-      "walletPortfolios": [
-        {
-          "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
-          "name": "凉粉小刀",
-          "score": 3,
-          "tokens": [
-            {
-              "token_address": "H2c31USxu35MDkBrGph8pUDUnmzo2e4Rf4hnvL2Upump",
-              "balance": 0,
-              "token_price": 0.009972661581,
-              "token_decimals": 6,
-              "token_symbol": "Shoggoth",
-              "token_name": "Shoggoth",
-              "value": 0
-            }
-          ]
-        },
-        {
-          "address": "CNudZYFgpbT26fidsiNrWfHeGTBMMeVWqruZXsEkcUPc",
-          "name": "Luce46x",
-          "score": 0.5,
-          "tokens": [
-            {
-              "token_address": "H2c31USxu35MDkBrGph8pUDUnmzo2e4Rf4hnvL2Upump",
-              "balance": 664638.928515,
-              "token_price": 0.009972661581,
-              "token_decimals": 6,
-              "token_symbol": "Shoggoth",
-              "token_name": "Shoggoth",
-              "value": 6628.219107638547
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "address": "JCeoBX79HfatfaY6xvuNyCHf86hwgkCCWDpEycVHtime",
-      "symbol": "toly",
-      "name": "toly's minutes",
-      "decimals": 6,
-      "icon": "https://d1jed1sess45wk.cloudfront.net/profile-pictures/aeyakovenko.png",
-      "created_time": 1740455009,
-      "website": "",
-      "twitter": "",
-      "holder": 4264,
-      "market_cap": 2656798.6729272,
-      "price": 28.0282417026,
-      "price_change_24h": 4.79,
-      "volume_24h": 95674.1401091838,
-      "pool_address": "solana_8DPPdVemT4gR7MU5paqKkXWuqdUR6KDVvDEr4ewH4m8s",
-      "ath": 67.58949259207458,
-      "ath_timestamp": 1747699200,
-      "tags": [
-        "moonshot"
-      ],
-      "first_signal": {
-        "timestamp": 1747676926,
-        "price": 61.2518585487
+        "timestamp": 1747889600,
+        "price": 1.4836136995
       },
       "metrics": {
         "uniqueWallets": 1,
-        "inflow24h": 3319.1185231325426,
+        "inflow24h": 2999.307291089613,
         "trades": [
           {
-            "timestamp": "2025-06-11T07:09:42.000Z",
+            "timestamp": "2025-06-11T12:40:09.000Z",
             "type": "BUY",
-            "amount": 57.270174,
-            "usdValue": 1659.5592615662713,
+            "amount": 1442.448958,
+            "usdValue": 2000,
             "wallet": {
-              "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
-              "name": "Wizard100x"
+              "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+              "name": "Chillguy32x"
             }
           },
           {
-            "timestamp": "2025-06-11T07:08:37.000Z",
+            "timestamp": "2025-06-10T19:35:39.000Z",
             "type": "BUY",
-            "amount": 58.425027,
-            "usdValue": 1659.5592615662713,
+            "amount": 41.417812,
+            "usdValue": 54.92380216272885,
             "wallet": {
-              "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
-              "name": "Wizard100x"
+              "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+              "name": "Chillguy32x"
+            }
+          },
+          {
+            "timestamp": "2025-06-10T19:35:39.000Z",
+            "type": "BUY",
+            "amount": 335.104805,
+            "usdValue": 444.3834889268841,
+            "wallet": {
+              "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+              "name": "Chillguy32x"
+            }
+          },
+          {
+            "timestamp": "2025-06-10T15:05:46.000Z",
+            "type": "BUY",
+            "amount": 393.851222,
+            "usdValue": 500,
+            "wallet": {
+              "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+              "name": "Chillguy32x"
             }
           }
         ]
       },
       "walletPortfolios": [
         {
-          "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
-          "name": "Wizard100x",
-          "score": 3,
+          "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+          "name": "Chillguy32x",
+          "score": 1,
           "tokens": [
             {
-              "token_address": "JCeoBX79HfatfaY6xvuNyCHf86hwgkCCWDpEycVHtime",
-              "balance": 115.695201,
-              "token_price": 28.0282417026,
+              "token_address": "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump",
+              "balance": 11620.910828,
+              "token_price": 1.3882785098,
               "token_decimals": 6,
-              "token_symbol": "toly",
-              "token_name": "toly's minutes",
-              "value": 3242.733057458889
+              "token_symbol": "Fartcoin ",
+              "token_name": "Fartcoin ",
+              "value": 16133.060766814522
             }
           ]
         }
@@ -711,11 +586,11 @@
       "created_time": 1746886853,
       "website": "",
       "twitter": "https://x.com/theunipcs/status/1921208257399382410",
-      "holder": 10218,
-      "market_cap": 43490724.1663698,
-      "price": 0.043632484,
-      "price_change_24h": 5.6,
-      "volume_24h": 9309115.68065675,
+      "holder": 10213,
+      "market_cap": 43023514.8614508,
+      "price": 0.04275412697,
+      "price_change_24h": -2.8,
+      "volume_24h": 8758795.83876396,
       "pool_address": "solana_Q2sPHPdUWFMg7M7wwrQKLrn619cAucfRsmhVJffodSp",
       "ath": 0.050147159349119175,
       "ath_timestamp": 1749513600,
@@ -728,8 +603,38 @@
       },
       "metrics": {
         "uniqueWallets": 2,
-        "inflow24h": -52894.214193726315,
+        "inflow24h": -44602.36885007635,
         "trades": [
+          {
+            "timestamp": "2025-06-11T12:40:02.000Z",
+            "type": "BUY",
+            "amount": 47340.585691,
+            "usdValue": 2068.81942,
+            "wallet": {
+              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+              "name": "凉粉小刀"
+            }
+          },
+          {
+            "timestamp": "2025-06-11T12:40:02.000Z",
+            "type": "BUY",
+            "amount": 48154.744519,
+            "usdValue": 2115.8288140409877,
+            "wallet": {
+              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+              "name": "凉粉小刀"
+            }
+          },
+          {
+            "timestamp": "2025-06-11T12:40:02.000Z",
+            "type": "BUY",
+            "amount": 93429.028186,
+            "usdValue": 4107.1971096089765,
+            "wallet": {
+              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+              "name": "凉粉小刀"
+            }
+          },
           {
             "timestamp": "2025-06-11T05:46:57.000Z",
             "type": "BUY",
@@ -860,12 +765,12 @@
           "tokens": [
             {
               "token_address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
-              "balance": 243374.086817,
-              "token_price": 0.043632484,
+              "balance": 432298.445213,
+              "token_price": 0.04275412697,
               "token_decimals": 6,
               "token_symbol": "USELESS",
               "token_name": "USELESS COIN",
-              "value": 10619.015949057364
+              "value": 18482.54261557019
             }
           ]
         },
@@ -877,11 +782,246 @@
             {
               "token_address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
               "balance": 580705.902004,
-              "token_price": 0.043632484,
+              "token_price": 0.04275412697,
               "token_decimals": 6,
               "token_symbol": "USELESS",
               "token_name": "USELESS COIN",
-              "value": 25337.6409778951
+              "value": 24827.573866507395
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "address": "H2c31USxu35MDkBrGph8pUDUnmzo2e4Rf4hnvL2Upump",
+      "symbol": "Shoggoth",
+      "name": "Shoggoth",
+      "decimals": 6,
+      "icon": "https://ipfs.io/ipfs/QmWYkyCNMPfDqsBUQXDmYSon4fam8WUtLeiajmbDHnx6zk",
+      "created_time": 1729087708,
+      "website": "",
+      "twitter": "",
+      "holder": 23790,
+      "market_cap": 10940668.8207619,
+      "price": 0.01084242323,
+      "price_change_24h": 53.63,
+      "volume_24h": 6849910.82815963,
+      "pool_address": "solana_Y8YyWu9gyCYSomE99JkDvsfR4eHNEeQpWtR8quGpBwX",
+      "ath": 0.018020256325228703,
+      "ath_timestamp": 1749600000,
+      "tags": [
+        "moonshot",
+        "binanceAlpha"
+      ],
+      "first_signal": {
+        "timestamp": 1747288141,
+        "price": 0.007150606685940336
+      },
+      "metrics": {
+        "uniqueWallets": 2,
+        "inflow24h": 11798.936801390799,
+        "trades": [
+          {
+            "timestamp": "2025-06-11T10:46:37.000Z",
+            "type": "SELL",
+            "amount": 73568.93363,
+            "usdValue": 758.3840312586292,
+            "wallet": {
+              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+              "name": "凉粉小刀"
+            }
+          },
+          {
+            "timestamp": "2025-06-11T10:46:37.000Z",
+            "type": "SELL",
+            "amount": 1152579.960189,
+            "usdValue": 12109.297818736835,
+            "wallet": {
+              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+              "name": "凉粉小刀"
+            }
+          },
+          {
+            "timestamp": "2025-06-11T10:03:42.000Z",
+            "type": "SELL",
+            "amount": 664638.928514,
+            "usdValue": 8614.270963887753,
+            "wallet": {
+              "address": "CNudZYFgpbT26fidsiNrWfHeGTBMMeVWqruZXsEkcUPc",
+              "name": "Luce46x"
+            }
+          },
+          {
+            "timestamp": "2025-06-11T09:39:09.000Z",
+            "type": "BUY",
+            "amount": 35826.324062,
+            "usdValue": 498.2400433196992,
+            "wallet": {
+              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+              "name": "凉粉小刀"
+            }
+          },
+          {
+            "timestamp": "2025-06-11T09:39:09.000Z",
+            "type": "BUY",
+            "amount": 107062.304376,
+            "usdValue": 1494.7201299590977,
+            "wallet": {
+              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+              "name": "凉粉小刀"
+            }
+          },
+          {
+            "timestamp": "2025-06-11T09:39:09.000Z",
+            "type": "BUY",
+            "amount": 449863.140068,
+            "usdValue": 6311.04054871619,
+            "wallet": {
+              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+              "name": "凉粉小刀"
+            }
+          },
+          {
+            "timestamp": "2025-06-11T09:38:50.000Z",
+            "type": "BUY",
+            "amount": 75703.212831,
+            "usdValue": 996.4800866393985,
+            "wallet": {
+              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+              "name": "凉粉小刀"
+            }
+          },
+          {
+            "timestamp": "2025-06-11T09:38:50.000Z",
+            "type": "BUY",
+            "amount": 88566.194194,
+            "usdValue": 1162.5601010792982,
+            "wallet": {
+              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+              "name": "凉粉小刀"
+            }
+          },
+          {
+            "timestamp": "2025-06-11T09:38:50.000Z",
+            "type": "BUY",
+            "amount": 469127.718288,
+            "usdValue": 6144.960534276291,
+            "wallet": {
+              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+              "name": "凉粉小刀"
+            }
+          },
+          {
+            "timestamp": "2025-06-11T09:19:51.000Z",
+            "type": "BUY",
+            "amount": 1329277.857029,
+            "usdValue": 16672.888171284045,
+            "wallet": {
+              "address": "CNudZYFgpbT26fidsiNrWfHeGTBMMeVWqruZXsEkcUPc",
+              "name": "Luce46x"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+          "name": "凉粉小刀",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "H2c31USxu35MDkBrGph8pUDUnmzo2e4Rf4hnvL2Upump",
+              "balance": 0,
+              "token_price": 0.01084242323,
+              "token_decimals": 6,
+              "token_symbol": "Shoggoth",
+              "token_name": "Shoggoth",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "address": "CNudZYFgpbT26fidsiNrWfHeGTBMMeVWqruZXsEkcUPc",
+          "name": "Luce46x",
+          "score": 0.5,
+          "tokens": [
+            {
+              "token_address": "H2c31USxu35MDkBrGph8pUDUnmzo2e4Rf4hnvL2Upump",
+              "balance": 664638.928515,
+              "token_price": 0.01084242323,
+              "token_decimals": 6,
+              "token_symbol": "Shoggoth",
+              "token_name": "Shoggoth",
+              "value": 7206.296558093346
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "address": "JCeoBX79HfatfaY6xvuNyCHf86hwgkCCWDpEycVHtime",
+      "symbol": "toly",
+      "name": "toly's minutes",
+      "decimals": 6,
+      "icon": "https://d1jed1sess45wk.cloudfront.net/profile-pictures/aeyakovenko.png",
+      "created_time": 1740455009,
+      "website": "",
+      "twitter": "",
+      "holder": 4263,
+      "market_cap": 2602894.11748213,
+      "price": 27.6089838935,
+      "price_change_24h": -0.37,
+      "volume_24h": 94169.7068943596,
+      "pool_address": "solana_8DPPdVemT4gR7MU5paqKkXWuqdUR6KDVvDEr4ewH4m8s",
+      "ath": 67.58949259207458,
+      "ath_timestamp": 1747699200,
+      "tags": [
+        "moonshot"
+      ],
+      "first_signal": {
+        "timestamp": 1747676926,
+        "price": 61.2518585487
+      },
+      "metrics": {
+        "uniqueWallets": 1,
+        "inflow24h": 3319.1185231325426,
+        "trades": [
+          {
+            "timestamp": "2025-06-11T07:09:42.000Z",
+            "type": "BUY",
+            "amount": 57.270174,
+            "usdValue": 1659.5592615662713,
+            "wallet": {
+              "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
+              "name": "Wizard100x"
+            }
+          },
+          {
+            "timestamp": "2025-06-11T07:08:37.000Z",
+            "type": "BUY",
+            "amount": 58.425027,
+            "usdValue": 1659.5592615662713,
+            "wallet": {
+              "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
+              "name": "Wizard100x"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
+          "name": "Wizard100x",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "JCeoBX79HfatfaY6xvuNyCHf86hwgkCCWDpEycVHtime",
+              "balance": 115.695201,
+              "token_price": 27.6089838935,
+              "token_decimals": 6,
+              "token_symbol": "toly",
+              "token_name": "toly's minutes",
+              "value": 3194.226940964245
             }
           ]
         }
@@ -896,14 +1036,14 @@
       "created_time": 1747796604,
       "website": "",
       "twitter": "",
-      "holder": 8063,
-      "market_cap": 12794442.8337265,
-      "price": 0.01635317779,
-      "price_change_24h": 44.33,
-      "volume_24h": 2221783.07146697,
+      "holder": 8060,
+      "market_cap": 12660939.3025335,
+      "price": 0.01609582945,
+      "price_change_24h": 35.36,
+      "volume_24h": 2150719.22604237,
       "pool_address": "solana_AyCkqVLkmMnqYCrCh2fFB1xEj29nymzc5t6PvyRHaCKn",
-      "ath": 0.01605392341,
-      "ath_timestamp": 1749644018,
+      "ath": 0.0160380868,
+      "ath_timestamp": 1749647640,
       "tags": [
         "moonshot"
       ],
@@ -936,11 +1076,11 @@
             {
               "token_address": "2AEU9yWk3dEGnVwRaKv4div5TarC4dn7axFLyz6zG4Pf",
               "balance": 175376.048335784,
-              "token_price": 0.01635317779,
+              "token_price": 0.01609582945,
               "token_decimals": 9,
               "token_symbol": "DIS",
               "token_name": "Distribute.ai",
-              "value": 2867.9556985427093
+              "value": 2822.822963627736
             }
           ]
         }
@@ -955,14 +1095,14 @@
       "created_time": 1747332675,
       "website": "",
       "twitter": "",
-      "holder": 4381,
-      "market_cap": 9445054.96472215,
-      "price": 0.009445088995,
-      "price_change_24h": -25.96,
-      "volume_24h": 2459159.18625003,
+      "holder": 4373,
+      "market_cap": 9633458.50990927,
+      "price": 0.009340072834,
+      "price_change_24h": -32.68,
+      "volume_24h": 2397161.39335968,
       "pool_address": "solana_6VKwjoZgzQjfXpxJ9SMo7BYRxHh71xtSLuxzbJ8LXoeF",
-      "ath": 0.008897174446,
-      "ath_timestamp": 1749644018,
+      "ath": 0.0096262987,
+      "ath_timestamp": 1749647640,
       "tags": [
         "moonshot"
       ],
@@ -1135,7 +1275,7 @@
             {
               "token_address": "J27UYHX5oeaG1YbUGQc8BmJySXDjNWChdGB2Pi2TMDAq",
               "balance": 0,
-              "token_price": 0.009445088995,
+              "token_price": 0.009340072834,
               "token_decimals": 9,
               "token_symbol": "PCULE",
               "token_name": "Polycule",
@@ -1151,11 +1291,11 @@
             {
               "token_address": "J27UYHX5oeaG1YbUGQc8BmJySXDjNWChdGB2Pi2TMDAq",
               "balance": 1347953.704603411,
-              "token_price": 0.009445088995,
+              "token_price": 0.009340072834,
               "token_decimals": 9,
               "token_symbol": "PCULE",
               "token_name": "Polycule",
-              "value": 12731.542701119159
+              "value": 12589.985777855982
             }
           ]
         },
@@ -1167,7 +1307,7 @@
             {
               "token_address": "J27UYHX5oeaG1YbUGQc8BmJySXDjNWChdGB2Pi2TMDAq",
               "balance": 0,
-              "token_price": 0.009445088995,
+              "token_price": 0.009340072834,
               "token_decimals": 9,
               "token_symbol": "PCULE",
               "token_name": "Polycule",
@@ -1183,91 +1323,11 @@
             {
               "token_address": "J27UYHX5oeaG1YbUGQc8BmJySXDjNWChdGB2Pi2TMDAq",
               "balance": 0,
-              "token_price": 0.009445088995,
+              "token_price": 0.009340072834,
               "token_decimals": 9,
               "token_symbol": "PCULE",
               "token_name": "Polycule",
               "value": 0
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "address": "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump",
-      "symbol": "Fartcoin ",
-      "name": "Fartcoin ",
-      "decimals": 6,
-      "icon": "https://ipfs.io/ipfs/QmQr3Fz4h1etNsF7oLGMRHiCzhB5y9a7GjyodnF7zLHK1g",
-      "created_time": 1729231505,
-      "website": "",
-      "twitter": "https://www.infinitebackrooms.com/dreams/conversation-1721540624-scenario-terminal-of-truths-txt",
-      "holder": 159116,
-      "market_cap": 1386994054.68386,
-      "price": 1.3822654887,
-      "price_change_24h": 6.26,
-      "volume_24h": 91420067.279154,
-      "pool_address": "solana_C9U2Ksk6KKWvLEeo5yUQ7Xu46X7NzeBJtd9PBfuXaUSM",
-      "ath": 1.6479802036543245,
-      "ath_timestamp": 1747958400,
-      "tags": [
-        "moonshot",
-        "binanceAlpha"
-      ],
-      "first_signal": {
-        "timestamp": 1747889600,
-        "price": 1.4836136995
-      },
-      "metrics": {
-        "uniqueWallets": 1,
-        "inflow24h": 999.307291089613,
-        "trades": [
-          {
-            "timestamp": "2025-06-10T19:35:39.000Z",
-            "type": "BUY",
-            "amount": 41.417812,
-            "usdValue": 54.92380216272885,
-            "wallet": {
-              "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
-              "name": "Chillguy32x"
-            }
-          },
-          {
-            "timestamp": "2025-06-10T19:35:39.000Z",
-            "type": "BUY",
-            "amount": 335.104805,
-            "usdValue": 444.3834889268841,
-            "wallet": {
-              "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
-              "name": "Chillguy32x"
-            }
-          },
-          {
-            "timestamp": "2025-06-10T15:05:46.000Z",
-            "type": "BUY",
-            "amount": 393.851222,
-            "usdValue": 500,
-            "wallet": {
-              "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
-              "name": "Chillguy32x"
-            }
-          }
-        ]
-      },
-      "walletPortfolios": [
-        {
-          "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
-          "name": "Chillguy32x",
-          "score": 1,
-          "tokens": [
-            {
-              "token_address": "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump",
-              "balance": 10178.46187,
-              "token_price": 1.3822654887,
-              "token_decimals": 6,
-              "token_symbol": "Fartcoin ",
-              "token_name": "Fartcoin ",
-              "value": 14069.336570949867
             }
           ]
         }
@@ -1282,11 +1342,11 @@
       "created_time": 1749493448,
       "website": "https://www.verseworld.com/",
       "twitter": "https://x.com/VerseWorld",
-      "holder": 5063,
-      "market_cap": 42614790.4288088,
-      "price": 0.4222670012,
-      "price_change_24h": -25.13,
-      "volume_24h": 14912474.1689004,
+      "holder": 5012,
+      "market_cap": 42316901.9044015,
+      "price": 0.423116125,
+      "price_change_24h": -22.03,
+      "volume_24h": 14707092.6165867,
       "pool_address": "solana_GuWRJCqxdfKs4bduFCnGco8K6qJKkNaZCtXaPAdtxs5V",
       "ath": 0.7476145881430095,
       "ath_timestamp": 1749513600,
@@ -2282,11 +2342,11 @@
             {
               "token_address": "vRseBFqTy9QLmmo5qGiwo74AVpdqqMTnxPqWoWMpump",
               "balance": 575265.688764,
-              "token_price": 0.4222670012,
+              "token_price": 0.423116125,
               "token_decimals": 6,
               "token_symbol": "Verse",
               "token_name": "Verse World",
-              "value": 242915.7172876268
+              "value": 243404.18907527972
             }
           ]
         },
@@ -2298,11 +2358,11 @@
             {
               "token_address": "vRseBFqTy9QLmmo5qGiwo74AVpdqqMTnxPqWoWMpump",
               "balance": 526581.825058,
-              "token_price": 0.4222670012,
+              "token_price": 0.423116125,
               "token_decimals": 6,
               "token_symbol": "Verse",
               "token_name": "Verse World",
-              "value": 222358.1281536647
+              "value": 222805.2613139689
             }
           ]
         },
@@ -2314,7 +2374,7 @@
             {
               "token_address": "vRseBFqTy9QLmmo5qGiwo74AVpdqqMTnxPqWoWMpump",
               "balance": 0,
-              "token_price": 0.4222670012,
+              "token_price": 0.423116125,
               "token_decimals": 6,
               "token_symbol": "Verse",
               "token_name": "Verse World",
