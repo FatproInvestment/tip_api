@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-06-25T02:31:25.617Z",
+  "timestamp": "2025-06-25T03:38:06.601Z",
   "data": [
     {
       "address": "3MUP3dfDk2djNqmHGvodwDcBaMqbWmEi9gt5VLdMpump",
@@ -11,14 +11,14 @@
       "created_time": 1750811814,
       "website": "",
       "twitter": "",
-      "holder": 2981,
-      "market_cap": 1862629.13029782,
-      "price": 0.00186262913,
-      "price_change_24h": 2896.73,
-      "volume_24h": 12267256.9052902,
+      "holder": 2985,
+      "market_cap": 1872731.67502217,
+      "price": 0.001872731675,
+      "price_change_24h": 2819.95,
+      "volume_24h": 13747092.5655899,
       "pool_address": "solana_6Yp2BHfmyMuxuY9dZhYM2kgUXegtQdBh9C4NEE7dNguc",
-      "ath": 0.001887082395,
-      "ath_timestamp": 1750818428,
+      "ath": 0.00214385648,
+      "ath_timestamp": 1750822073,
       "tags": [],
       "first_signal": {
         "timestamp": 1750814767,
@@ -26,8 +26,58 @@
       },
       "metrics": {
         "uniqueWallets": 5,
-        "inflow24h": 60722.325010229186,
+        "inflow24h": 59516.49670160551,
         "trades": [
+          {
+            "timestamp": "2025-06-25T03:35:53.000Z",
+            "type": "SELL",
+            "amount": 677648.9199,
+            "usdValue": 1339.4577538991875,
+            "wallet": {
+              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+              "name": "DNF 哥"
+            }
+          },
+          {
+            "timestamp": "2025-06-25T03:29:51.000Z",
+            "type": "BUY",
+            "amount": 52887.921638,
+            "usdValue": 117.0271949009167,
+            "wallet": {
+              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+              "name": "凉粉小刀"
+            }
+          },
+          {
+            "timestamp": "2025-06-25T03:29:51.000Z",
+            "type": "BUY",
+            "amount": 618385.530784,
+            "usdValue": 1331.1580026871711,
+            "wallet": {
+              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+              "name": "凉粉小刀"
+            }
+          },
+          {
+            "timestamp": "2025-06-25T03:07:40.000Z",
+            "type": "SELL",
+            "amount": 73300.87907,
+            "usdValue": 105.27595968556703,
+            "wallet": {
+              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+              "name": "凉粉小刀"
+            }
+          },
+          {
+            "timestamp": "2025-06-25T03:07:40.000Z",
+            "type": "SELL",
+            "amount": 842960.109305,
+            "usdValue": 1209.2797926270011,
+            "wallet": {
+              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+              "name": "凉粉小刀"
+            }
+          },
           {
             "timestamp": "2025-06-25T02:20:49.000Z",
             "type": "BUY",
@@ -352,18 +402,34 @@
       },
       "walletPortfolios": [
         {
+          "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+          "name": "DNF 哥",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "3MUP3dfDk2djNqmHGvodwDcBaMqbWmEi9gt5VLdMpump",
+              "balance": 6098840.279106,
+              "token_price": 0.001872731675,
+              "token_decimals": 6,
+              "token_symbol": "TECH",
+              "token_name": "Technologia",
+              "value": 11421.491371447648
+            }
+          ]
+        },
+        {
           "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
           "name": "凉粉小刀",
           "score": 3,
           "tokens": [
             {
               "token_address": "3MUP3dfDk2djNqmHGvodwDcBaMqbWmEi9gt5VLdMpump",
-              "balance": 916260.988375,
-              "token_price": 0.00186262913,
+              "balance": 671273.452422,
+              "token_price": 0.001872731675,
               "token_decimals": 6,
               "token_symbol": "TECH",
               "token_name": "Technologia",
-              "value": 1706.6544076298662
+              "value": 1257.1150569372849
             }
           ]
         },
@@ -375,11 +441,11 @@
             {
               "token_address": "3MUP3dfDk2djNqmHGvodwDcBaMqbWmEi9gt5VLdMpump",
               "balance": 132969.141302,
-              "token_price": 0.00186262913,
+              "token_price": 0.001872731675,
               "token_decimals": 6,
               "token_symbol": "TECH",
               "token_name": "Technologia",
-              "value": 247.67219598019133
+              "value": 249.01552271380615
             }
           ]
         },
@@ -391,11 +457,11 @@
             {
               "token_address": "3MUP3dfDk2djNqmHGvodwDcBaMqbWmEi9gt5VLdMpump",
               "balance": 9420181.891338,
-              "token_price": 0.00186262913,
+              "token_price": 0.001872731675,
               "token_decimals": 6,
               "token_symbol": "TECH",
               "token_name": "Technologia",
-              "value": 17546.305200704654
+              "value": 17641.47301217008
             }
           ]
         },
@@ -407,27 +473,11 @@
             {
               "token_address": "3MUP3dfDk2djNqmHGvodwDcBaMqbWmEi9gt5VLdMpump",
               "balance": 9698059.760354,
-              "token_price": 0.00186262913,
+              "token_price": 0.001872731675,
               "token_decimals": 6,
               "token_symbol": "TECH",
               "token_name": "Technologia",
-              "value": 18063.88861411618
-            }
-          ]
-        },
-        {
-          "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-          "name": "DNF 哥",
-          "score": 3,
-          "tokens": [
-            {
-              "token_address": "3MUP3dfDk2djNqmHGvodwDcBaMqbWmEi9gt5VLdMpump",
-              "balance": 6776489.199006,
-              "token_price": 0.00186262913,
-              "token_decimals": 6,
-              "token_symbol": "TECH",
-              "token_name": "Technologia",
-              "value": 12622.086181198942
+              "value": 18161.863699257843
             }
           ]
         }
@@ -442,11 +492,11 @@
       "created_time": 1750777410,
       "website": "https://pump.fun/",
       "twitter": "https://x.com/solana/status/1937526919458881668",
-      "holder": 8316,
-      "market_cap": 5684868.10658725,
-      "price": 0.005684868107,
-      "price_change_24h": 9389.9,
-      "volume_24h": 30162569.4079196,
+      "holder": 8395,
+      "market_cap": 4966367.94440432,
+      "price": 0.004966367944,
+      "price_change_24h": 8239.77,
+      "volume_24h": 32576581.2394608,
       "pool_address": "solana_Dhd8USj4RNAetMN4EE66RGsenA9w3USskffbv5GsmBuF",
       "ath": 0.012287161994760439,
       "ath_timestamp": 1750809600,
@@ -1052,11 +1102,11 @@
             {
               "token_address": "5c74v6Px9RKwdGWCfqLGfEk7UZfE3Y4qJbuYrLbVG63V",
               "balance": 3592945.520667,
-              "token_price": 0.005684868107,
+              "token_price": 0.004966367944,
               "token_decimals": 6,
               "token_symbol": "solami",
               "token_name": "solami",
-              "value": 20425.42140062834
+              "value": 17843.88945837898
             }
           ]
         },
@@ -1068,11 +1118,11 @@
             {
               "token_address": "5c74v6Px9RKwdGWCfqLGfEk7UZfE3Y4qJbuYrLbVG63V",
               "balance": 4533644.204502,
-              "token_price": 0.005684868107,
+              "token_price": 0.004966367944,
               "token_decimals": 6,
               "token_symbol": "solami",
               "token_name": "solami",
-              "value": 25773.169346658804
+              "value": 22515.74524674011
             }
           ]
         },
@@ -1084,7 +1134,7 @@
             {
               "token_address": "5c74v6Px9RKwdGWCfqLGfEk7UZfE3Y4qJbuYrLbVG63V",
               "balance": 0,
-              "token_price": 0.005684868107,
+              "token_price": 0.004966367944,
               "token_decimals": 6,
               "token_symbol": "solami",
               "token_name": "solami",
@@ -1100,11 +1150,11 @@
             {
               "token_address": "5c74v6Px9RKwdGWCfqLGfEk7UZfE3Y4qJbuYrLbVG63V",
               "balance": 1872148.819408,
-              "token_price": 0.005684868107,
+              "token_price": 0.004966367944,
               "token_decimals": 6,
               "token_symbol": "solami",
               "token_name": "solami",
-              "value": 10642.919115010242
+              "value": 9297.779883105335
             }
           ]
         },
@@ -1116,7 +1166,7 @@
             {
               "token_address": "5c74v6Px9RKwdGWCfqLGfEk7UZfE3Y4qJbuYrLbVG63V",
               "balance": 0,
-              "token_price": 0.005684868107,
+              "token_price": 0.004966367944,
               "token_decimals": 6,
               "token_symbol": "solami",
               "token_name": "solami",
@@ -1132,11 +1182,11 @@
             {
               "token_address": "5c74v6Px9RKwdGWCfqLGfEk7UZfE3Y4qJbuYrLbVG63V",
               "balance": 7346938.094888,
-              "token_price": 0.005684868107,
+              "token_price": 0.004966367944,
               "token_decimals": 6,
               "token_symbol": "solami",
               "token_name": "solami",
-              "value": 41766.37405973213
+              "value": 36487.59784100419
             }
           ]
         }
@@ -1151,11 +1201,11 @@
       "created_time": 1750086444,
       "website": "",
       "twitter": "",
-      "holder": 688,
-      "market_cap": 365899.825112269,
-      "price": 0.0003658998251,
-      "price_change_24h": 2592.09,
-      "volume_24h": 406230.791038233,
+      "holder": 684,
+      "market_cap": 328266.481375621,
+      "price": 0.0003282664814,
+      "price_change_24h": 2168,
+      "volume_24h": 413796.364019885,
       "pool_address": "solana_CMRPWy5EqozkG27BxFfhDmDCRqfm5QVhBKUVsyqWsd4z",
       "ath": 0.0004557744199811437,
       "ath_timestamp": 1750809600,
@@ -1259,7 +1309,7 @@
             {
               "token_address": "C4wpLGTqMyAuaW7MUsEPdiUAgMo1WxpS8Eifwz1Jpump",
               "balance": 0,
-              "token_price": 0.0003658998251,
+              "token_price": 0.0003282664814,
               "token_decimals": 6,
               "token_symbol": "imagine",
               "token_name": "this can be anything",
@@ -1275,11 +1325,11 @@
             {
               "token_address": "C4wpLGTqMyAuaW7MUsEPdiUAgMo1WxpS8Eifwz1Jpump",
               "balance": 20002922.527259,
-              "token_price": 0.0003658998251,
+              "token_price": 0.0003282664814,
               "token_decimals": 6,
               "token_symbol": "imagine",
               "token_name": "this can be anything",
-              "value": 7319.065854212918
+              "value": 6566.288995740108
             }
           ]
         }
@@ -1294,11 +1344,11 @@
       "created_time": 1750091825,
       "website": "https://studio.jup.ag",
       "twitter": "",
-      "holder": 3290,
-      "market_cap": 4565733.97268222,
-      "price": 0.04565811676,
-      "price_change_24h": 35.18,
-      "volume_24h": 329074.774974874,
+      "holder": 3266,
+      "market_cap": 4655777.31625247,
+      "price": 0.04607060758,
+      "price_change_24h": 7.56,
+      "volume_24h": 308728.718604875,
       "pool_address": "solana_HD6v6vrx27SXBwGP5VAkC7PGfGaPhR55EFifM42h8Exu",
       "ath": 0.1259208725109059,
       "ath_timestamp": 1750291200,
@@ -1354,11 +1404,11 @@
             {
               "token_address": "DFVeSFxNohR5CVuReaXSz6rGuJ62LsKhxFpWsDbbjups",
               "balance": 1037217.251987,
-              "token_price": 0.04565811676,
+              "token_price": 0.04607060758,
               "token_decimals": 6,
               "token_symbol": "VIBE",
               "token_name": "VIBE CAT",
-              "value": 47357.38639670879
+              "value": 47785.228991499054
             }
           ]
         }
@@ -1373,11 +1423,11 @@
       "created_time": 1749252450,
       "website": "https://knowyourmeme.com/memes/freaky-sonic",
       "twitter": "https://x.com/ZestySol",
-      "holder": 1187,
-      "market_cap": 464789.670784295,
-      "price": 0.0004648182904,
-      "price_change_24h": -31.96,
-      "volume_24h": 220768.938645047,
+      "holder": 1175,
+      "market_cap": 499799.868234992,
+      "price": 0.0004998306436,
+      "price_change_24h": -23.57,
+      "volume_24h": 224494.204373374,
       "pool_address": "solana_FnudgWBJCZLXwZmWS5wqfia7vn7rfApwBehAHTyxeuEw",
       "ath": 0.0008160949342911187,
       "ath_timestamp": 1750723200,
@@ -1421,11 +1471,11 @@
             {
               "token_address": "EDkDcWMPCgP4CAT8JQjd2oeF4TN9akBU21xA8q29pump",
               "balance": 12277944.984218,
-              "token_price": 0.0004648182904,
+              "token_price": 0.0004998306436,
               "token_decimals": 6,
               "token_symbol": "zesty",
               "token_name": "Zesty Sonic",
-              "value": 5707.013397189466
+              "value": 6136.893143547075
             }
           ]
         },
@@ -1437,11 +1487,11 @@
             {
               "token_address": "EDkDcWMPCgP4CAT8JQjd2oeF4TN9akBU21xA8q29pump",
               "balance": 12187964.631121,
-              "token_price": 0.0004648182904,
+              "token_price": 0.0004998306436,
               "token_decimals": 6,
               "token_symbol": "zesty",
               "token_name": "Zesty Sonic",
-              "value": 5665.18888329333
+              "value": 6091.918205747247
             }
           ]
         }
@@ -1456,11 +1506,11 @@
       "created_time": 1747332675,
       "website": "",
       "twitter": "",
-      "holder": 4054,
-      "market_cap": 7796649.32888312,
-      "price": 0.00778867922,
-      "price_change_24h": 12.28,
-      "volume_24h": 888358.653121968,
+      "holder": 4046,
+      "market_cap": 7781224.14545964,
+      "price": 0.007781252181,
+      "price_change_24h": 9.11,
+      "volume_24h": 893608.827366055,
       "pool_address": "solana_6VKwjoZgzQjfXpxJ9SMo7BYRxHh71xtSLuxzbJ8LXoeF",
       "ath": 0.016248694632720776,
       "ath_timestamp": 1749168000,
@@ -1596,11 +1646,11 @@
             {
               "token_address": "J27UYHX5oeaG1YbUGQc8BmJySXDjNWChdGB2Pi2TMDAq",
               "balance": 930425.136693463,
-              "token_price": 0.00778867922,
+              "token_price": 0.007781252181,
               "token_decimals": 9,
               "token_symbol": "PCULE",
               "token_name": "Polycule",
-              "value": 7246.782927930034
+              "value": 7239.872624153232
             }
           ]
         }
