@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-07-06T23:55:51.271Z",
+  "timestamp": "2025-07-07T01:08:06.784Z",
   "data": [
     {
       "address": "31k88G5Mq7ptbRDf3AM13HAq6wRQHXHikR8hik7wPygk",
@@ -11,11 +11,11 @@
       "created_time": 1746101305,
       "website": "",
       "twitter": "",
-      "holder": 6331,
-      "market_cap": 80477531.6306176,
-      "price": 1.292768397,
-      "price_change_24h": 1.48,
-      "volume_24h": 14183115.221027,
+      "holder": 6319,
+      "market_cap": 74862656.3648805,
+      "price": 1.2025726225,
+      "price_change_24h": 2.29,
+      "volume_24h": 14049660.2414124,
       "pool_address": "solana_7YGHXMBpNLcDRLPUJfqzN79WMoh8Qniz52cNuZK6go7b",
       "ath": 1.9495391597187395,
       "ath_timestamp": 1751760000,
@@ -129,11 +129,11 @@
             {
               "token_address": "31k88G5Mq7ptbRDf3AM13HAq6wRQHXHikR8hik7wPygk",
               "balance": 3473.095401688,
-              "token_price": 1.292768397,
+              "token_price": 1.2025726225,
               "token_decimals": 9,
               "token_symbol": "GP",
               "token_name": "Graphite",
-              "value": 4489.907975068267
+              "value": 4176.649445400629
             }
           ]
         },
@@ -145,11 +145,11 @@
             {
               "token_address": "31k88G5Mq7ptbRDf3AM13HAq6wRQHXHikR8hik7wPygk",
               "balance": 7255.07244224,
-              "token_price": 1.292768397,
+              "token_price": 1.2025726225,
               "token_decimals": 9,
               "token_symbol": "GP",
               "token_name": "Graphite",
-              "value": 9379.128371273478
+              "value": 8724.751493292037
             }
           ]
         },
@@ -161,7 +161,7 @@
             {
               "token_address": "31k88G5Mq7ptbRDf3AM13HAq6wRQHXHikR8hik7wPygk",
               "balance": 0,
-              "token_price": 1.292768397,
+              "token_price": 1.2025726225,
               "token_decimals": 9,
               "token_symbol": "GP",
               "token_name": "Graphite",
@@ -170,7 +170,7 @@
           ]
         }
       ],
-      "marketCap": 195068146
+      "marketCap": 179247069
     },
     {
       "address": "9wK8yN6iz1ie5kEJkvZCTxyN1x5sTdNfx8yeMY8Ebonk",
@@ -181,11 +181,11 @@
       "created_time": 1745612599,
       "website": "",
       "twitter": "",
-      "holder": 11750,
-      "market_cap": 64427018.8566897,
-      "price": 0.06398182306,
-      "price_change_24h": 5.48,
-      "volume_24h": 13087084.1101045,
+      "holder": 11752,
+      "market_cap": 61324560.5696782,
+      "price": 0.06182113416,
+      "price_change_24h": 4.45,
+      "volume_24h": 12844790.6726436,
       "pool_address": "solana_J333LZ5UhEjwxb64dcD756viUFXr164dVNxQpXuMPH9V",
       "ath": 0.07742842112992508,
       "ath_timestamp": 1751760000,
@@ -198,8 +198,18 @@
       },
       "metrics": {
         "uniqueWallets": 2,
-        "inflow24h": 288.02474352861014,
+        "inflow24h": -257.8228034713899,
         "trades": [
+          {
+            "timestamp": "2025-07-07T01:05:42.000Z",
+            "type": "SELL",
+            "amount": 8917.394531,
+            "usdValue": 545.847547,
+            "wallet": {
+              "address": "EJ2jyVUceCYvC1HxY77X2adre7Kcf8sQaucrKaQtVtXs",
+              "name": "justice3.6x"
+            }
+          },
           {
             "timestamp": "2025-07-06T13:01:59.000Z",
             "type": "SELL",
@@ -224,6 +234,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "EJ2jyVUceCYvC1HxY77X2adre7Kcf8sQaucrKaQtVtXs",
+          "name": "justice3.6x",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "9wK8yN6iz1ie5kEJkvZCTxyN1x5sTdNfx8yeMY8Ebonk",
+              "balance": 0,
+              "token_price": 0.06182113416,
+              "token_decimals": 6,
+              "token_symbol": "Hosico",
+              "token_name": "Hosico cat",
+              "value": 0
+            }
+          ]
+        },
+        {
           "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
           "name": "Chillguy32x",
           "score": 1,
@@ -231,32 +257,16 @@
             {
               "token_address": "9wK8yN6iz1ie5kEJkvZCTxyN1x5sTdNfx8yeMY8Ebonk",
               "balance": 30000,
-              "token_price": 0.06398182306,
+              "token_price": 0.06182113416,
               "token_decimals": 6,
               "token_symbol": "Hosico",
               "token_name": "Hosico cat",
-              "value": 1919.4546917999999
-            }
-          ]
-        },
-        {
-          "address": "EJ2jyVUceCYvC1HxY77X2adre7Kcf8sQaucrKaQtVtXs",
-          "name": "justice3.6x",
-          "score": 2,
-          "tokens": [
-            {
-              "token_address": "9wK8yN6iz1ie5kEJkvZCTxyN1x5sTdNfx8yeMY8Ebonk",
-              "balance": 8917.394531,
-              "token_price": 0.06398182306,
-              "token_decimals": 6,
-              "token_symbol": "Hosico",
-              "token_name": "Hosico cat",
-              "value": 570.5511590386536
+              "value": 1854.6340248
             }
           ]
         }
       ],
-      "marketCap": 64232782
+      "marketCap": 61179281
     },
     {
       "address": "DHJVYXsikcimtcVo49FAZqYd1XPYPaXezYhbKArJbonk",
@@ -267,11 +277,11 @@
       "created_time": 1750880461,
       "website": "https://x.com/theunipcs/status/1937958535683523039#:~:text=ingredients%20of%20a-,blue%20chip%20memecoin,-and%20interestingly%20every",
       "twitter": "",
-      "holder": 2775,
-      "market_cap": 6674050.1293083,
-      "price": 0.006675433254,
-      "price_change_24h": -26.54,
-      "volume_24h": 2674666.56269751,
+      "holder": 2787,
+      "market_cap": 6019896.00853321,
+      "price": 0.006021143567,
+      "price_change_24h": -37.91,
+      "volume_24h": 2713089.11251198,
       "pool_address": "solana_GCkyQ4PiYJ8XrK3wf1pqMeMWiVojwp4CoFx62uKGR36L",
       "ath": 0.013362256865915984,
       "ath_timestamp": 1751673600,
@@ -377,7 +387,7 @@
             {
               "token_address": "DHJVYXsikcimtcVo49FAZqYd1XPYPaXezYhbKArJbonk",
               "balance": 0,
-              "token_price": 0.006675433254,
+              "token_price": 0.006021143567,
               "token_decimals": 6,
               "token_symbol": "BlueChip",
               "token_name": "Blue Chip",
@@ -386,7 +396,7 @@
           ]
         }
       ],
-      "marketCap": 6616727
+      "marketCap": 6052796
     },
     {
       "address": "Gu3LDkn7Vx3bmCzLafYNKcDxv2mH7YN44NJZFXnypump",
@@ -397,11 +407,11 @@
       "created_time": 1729478112,
       "website": "",
       "twitter": "",
-      "holder": 22063,
-      "market_cap": 9775070.02381117,
-      "price": 0.009954060821,
-      "price_change_24h": -11.69,
-      "volume_24h": 3679371.1653065,
+      "holder": 22059,
+      "market_cap": 10041669.9289393,
+      "price": 0.01002242718,
+      "price_change_24h": -10.43,
+      "volume_24h": 3296990.33968951,
       "pool_address": "solana_DLaoh9okkk4gdtXj2mkH3WJUE7VbhMBJRuKmciD1PSZX",
       "ath": 0.013094540096557649,
       "ath_timestamp": 1751760000,
@@ -468,7 +478,7 @@
             {
               "token_address": "Gu3LDkn7Vx3bmCzLafYNKcDxv2mH7YN44NJZFXnypump",
               "balance": 0,
-              "token_price": 0.009954060821,
+              "token_price": 0.01002242718,
               "token_decimals": 6,
               "token_symbol": "degenai",
               "token_name": "Degen Spartan AI",
@@ -477,7 +487,7 @@
           ]
         }
       ],
-      "marketCap": 9909595
+      "marketCap": 10038478
     }
   ]
 }
