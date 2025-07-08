@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-07-08T06:18:21.029Z",
+  "timestamp": "2025-07-08T06:47:25.173Z",
   "data": [
     {
       "address": "31k88G5Mq7ptbRDf3AM13HAq6wRQHXHikR8hik7wPygk",
@@ -11,22 +11,22 @@
       "created_time": 1688568241,
       "website": "",
       "twitter": "",
-      "holder": 6442,
-      "market_cap": 273209241,
-      "price": 1.82,
-      "price_change_24h": 23.07,
-      "volume_24h": 4689455.53,
+      "holder": 6451,
+      "market_cap": 256884739,
+      "price": 1.71,
+      "price_change_24h": 14.88,
+      "volume_24h": 4772610.44,
       "pool_address": "solana_9vNKzrrHAjqjuTGLjCBo9Ai4edMYgP9dsG4tFZ2hF251",
       "ath": 1.9495391597187395,
       "ath_timestamp": 1751760000,
       "dexId": "orca",
       "pairAddress": "7YGHXMBpNLcDRLPUJfqzN79WMoh8Qniz52cNuZK6go7b",
       "txns_24h": {
-        "buys": 4874,
-        "sells": 5293
+        "buys": 4950,
+        "sells": 5223
       },
-      "fdv_usd": 113385867,
-      "total_reserve_in_usd": 1007832.81,
+      "fdv_usd": 106610958,
+      "total_reserve_in_usd": 977379.18,
       "tags": [],
       "first_signal": {
         "timestamp": 1751747533,
@@ -34,8 +34,18 @@
       },
       "metrics": {
         "uniqueWallets": 3,
-        "inflow24h": 151540.40183917782,
+        "inflow24h": 144036.9592231778,
         "trades": [
+          {
+            "timestamp": "2025-07-08T06:33:21.000Z",
+            "type": "SELL",
+            "amount": 4117.4727303,
+            "usdValue": 7503.442616,
+            "wallet": {
+              "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
+              "name": "Wizard100x"
+            }
+          },
           {
             "timestamp": "2025-07-08T00:17:35.000Z",
             "type": "BUY",
@@ -140,6 +150,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
+          "name": "Wizard100x",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "31k88G5Mq7ptbRDf3AM13HAq6wRQHXHikR8hik7wPygk",
+              "balance": 4117.472730299,
+              "token_price": 1.71,
+              "token_decimals": 9,
+              "token_symbol": "GP",
+              "token_name": "Graphite",
+              "value": 7040.878368811291
+            }
+          ]
+        },
+        {
           "address": "GgG65z3MXpmGnV3ZapKv5ayDqox1x7CJnqP1LD8FaZdt",
           "name": "y22.sol",
           "score": 1,
@@ -147,27 +173,11 @@
             {
               "token_address": "31k88G5Mq7ptbRDf3AM13HAq6wRQHXHikR8hik7wPygk",
               "balance": 105598.714163158,
-              "token_price": 1.82,
+              "token_price": 1.71,
               "token_decimals": 9,
               "token_symbol": "GP",
               "token_name": "Graphite",
-              "value": 192189.65977694758
-            }
-          ]
-        },
-        {
-          "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
-          "name": "Wizard100x",
-          "score": 3,
-          "tokens": [
-            {
-              "token_address": "31k88G5Mq7ptbRDf3AM13HAq6wRQHXHikR8hik7wPygk",
-              "balance": 8234.945460599,
-              "token_price": 1.82,
-              "token_decimals": 9,
-              "token_symbol": "GP",
-              "token_name": "Graphite",
-              "value": 14987.600738290179
+              "value": 180573.8012190002
             }
           ]
         },
@@ -179,11 +189,11 @@
             {
               "token_address": "31k88G5Mq7ptbRDf3AM13HAq6wRQHXHikR8hik7wPygk",
               "balance": 3851.994719477,
-              "token_price": 1.82,
+              "token_price": 1.71,
               "token_decimals": 9,
               "token_symbol": "GP",
               "token_name": "Graphite",
-              "value": 7010.630389448141
+              "value": 6586.91097030567
             }
           ]
         }
