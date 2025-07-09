@@ -1,7 +1,101 @@
 {
   "success": true,
-  "timestamp": "2025-07-09T07:13:07.674Z",
+  "timestamp": "2025-07-09T07:32:25.380Z",
   "data": [
+    {
+      "address": "6umhVsHyJrrzuWcPQ2YVzEwohtBqJMBH4dtoc3Sqpump",
+      "symbol": "mcap",
+      "name": "market cap",
+      "decimals": 6,
+      "icon": "https://ipfs.io/ipfs/bafybeicnppvz6rmpwpog3ia3q7bz627facap3vquzn5hevvc64h7ly3nbi",
+      "created_time": 1752005625,
+      "website": "",
+      "twitter": "",
+      "holder": 543,
+      "market_cap": 232889,
+      "price": 0.0002328,
+      "price_change_24h": 274,
+      "volume_24h": 489845.17,
+      "pool_address": "solana_5uxfPiGs4kFvEFPUKSJvkrkC94hA1P1w8U4bjjd9PVYd",
+      "ath": 0.0002328,
+      "ath_timestamp": 1752046344,
+      "dexId": "pumpswap",
+      "pairAddress": "5uxfPiGs4kFvEFPUKSJvkrkC94hA1P1w8U4bjjd9PVYd",
+      "boosts": {
+        "active": 500
+      },
+      "txns_24h": {
+        "buys": 3174,
+        "sells": 2363
+      },
+      "fdv_usd": 232889,
+      "total_reserve_in_usd": 51653.6,
+      "tags": [],
+      "first_signal": {
+        "timestamp": 1752046342,
+        "price": 0.0002328
+      },
+      "metrics": {
+        "uniqueWallets": 2,
+        "inflow24h": 4123.503816511229,
+        "trades": [
+          {
+            "timestamp": "2025-07-09T07:32:08.000Z",
+            "type": "BUY",
+            "amount": 7118577.728928,
+            "usdValue": 1838.0393108364406,
+            "wallet": {
+              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+              "name": "OGmoodeng"
+            }
+          },
+          {
+            "timestamp": "2025-07-09T03:05:45.000Z",
+            "type": "BUY",
+            "amount": 23279181.168755,
+            "usdValue": 2285.464505674789,
+            "wallet": {
+              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+              "name": "DNF 哥"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+          "name": "OGmoodeng",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "6umhVsHyJrrzuWcPQ2YVzEwohtBqJMBH4dtoc3Sqpump",
+              "balance": 7118577.728928,
+              "token_price": 0.0002328,
+              "token_decimals": 6,
+              "token_symbol": "mcap",
+              "token_name": "market cap",
+              "value": 1657.2048952944383
+            }
+          ]
+        },
+        {
+          "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+          "name": "DNF 哥",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "6umhVsHyJrrzuWcPQ2YVzEwohtBqJMBH4dtoc3Sqpump",
+              "balance": 23279181.168755,
+              "token_price": 0.0002328,
+              "token_decimals": 6,
+              "token_symbol": "mcap",
+              "token_name": "market cap",
+              "value": 5419.393376086164
+            }
+          ]
+        }
+      ]
+    },
     {
       "address": "9re9eKMd39Aaanm8wgFKmLXNVX3ukS5gK4J5aCJepump",
       "symbol": "DUNA",
@@ -12,21 +106,21 @@
       "website": "",
       "twitter": "",
       "holder": 2420,
-      "market_cap": 2435738,
-      "price": 0.002435,
-      "price_change_24h": -0.59,
-      "volume_24h": 2273441.63,
+      "market_cap": 2507002,
+      "price": 0.002507,
+      "price_change_24h": 4.28,
+      "volume_24h": 2295998.31,
       "pool_address": "solana_6bVqVJzzaWax7wC9YKTf2QyZoqdo9UjxkVDTK1ye9UcS",
-      "ath": 0.002501808879496952,
+      "ath": 0.0025539833257341724,
       "ath_timestamp": 1752019200,
       "dexId": "raydium",
       "pairAddress": "6bVqVJzzaWax7wC9YKTf2QyZoqdo9UjxkVDTK1ye9UcS",
       "txns_24h": {
-        "buys": 5528,
-        "sells": 5290
+        "buys": 5556,
+        "sells": 5326
       },
-      "fdv_usd": 2435738,
-      "total_reserve_in_usd": 287412.18,
+      "fdv_usd": 2507002,
+      "total_reserve_in_usd": 291569.14,
       "tags": [],
       "first_signal": {
         "timestamp": 1751982301,
@@ -257,7 +351,7 @@
             {
               "token_address": "9re9eKMd39Aaanm8wgFKmLXNVX3ukS5gK4J5aCJepump",
               "balance": 0,
-              "token_price": 0.002435,
+              "token_price": 0.002507,
               "token_decimals": 6,
               "token_symbol": "DUNA",
               "token_name": "DUNA AI",
@@ -273,7 +367,7 @@
             {
               "token_address": "9re9eKMd39Aaanm8wgFKmLXNVX3ukS5gK4J5aCJepump",
               "balance": 0,
-              "token_price": 0.002435,
+              "token_price": 0.002507,
               "token_decimals": 6,
               "token_symbol": "DUNA",
               "token_name": "DUNA AI",
@@ -289,7 +383,7 @@
             {
               "token_address": "9re9eKMd39Aaanm8wgFKmLXNVX3ukS5gK4J5aCJepump",
               "balance": 0,
-              "token_price": 0.002435,
+              "token_price": 0.002507,
               "token_decimals": 6,
               "token_symbol": "DUNA",
               "token_name": "DUNA AI",
@@ -309,21 +403,21 @@
       "website": "https://www.instagram.com/stories/highlights/18184555282319115/",
       "twitter": "https://x.com/WNanye/status/1942559853253177408",
       "holder": 2775,
-      "market_cap": 235592,
-      "price": 0.0002355,
-      "price_change_24h": 281,
-      "volume_24h": 6945019.96,
+      "market_cap": 315854,
+      "price": 0.0003158,
+      "price_change_24h": 411,
+      "volume_24h": 6971235.35,
       "pool_address": "solana_FXxmcwiEbDLa8TNLqaxtShpYdcUfmCh75uBQ3PibZyKz",
       "ath": 0.0006790199743941183,
       "ath_timestamp": 1752019200,
       "dexId": "raydium",
       "pairAddress": "FXxmcwiEbDLa8TNLqaxtShpYdcUfmCh75uBQ3PibZyKz",
       "txns_24h": {
-        "buys": 36536,
-        "sells": 30544
+        "buys": 36688,
+        "sells": 30783
       },
-      "fdv_usd": 235592,
-      "total_reserve_in_usd": 57084.58,
+      "fdv_usd": 315854,
+      "total_reserve_in_usd": 66167.86,
       "tags": [],
       "first_signal": {
         "timestamp": 1751981769,
@@ -404,7 +498,7 @@
             {
               "token_address": "6yHXzbneXqSYJsXYryA5ovyeHDG3WZcBSdupurE8bonk",
               "balance": 0,
-              "token_price": 0.0002355,
+              "token_price": 0.0003158,
               "token_decimals": 6,
               "token_symbol": "HAIR",
               "token_name": "dogwifhair",
@@ -420,7 +514,7 @@
             {
               "token_address": "6yHXzbneXqSYJsXYryA5ovyeHDG3WZcBSdupurE8bonk",
               "balance": 0,
-              "token_price": 0.0002355,
+              "token_price": 0.0003158,
               "token_decimals": 6,
               "token_symbol": "HAIR",
               "token_name": "dogwifhair",
@@ -440,21 +534,21 @@
       "website": "",
       "twitter": "",
       "holder": 22308,
-      "market_cap": 9207701,
-      "price": 0.009208,
-      "price_change_24h": -22.09,
-      "volume_24h": 1456893.55,
+      "market_cap": 9530093,
+      "price": 0.00953,
+      "price_change_24h": -16.78,
+      "volume_24h": 1462614.86,
       "pool_address": "solana_DLaoh9okkk4gdtXj2mkH3WJUE7VbhMBJRuKmciD1PSZX",
       "ath": 0.013672687628811993,
       "ath_timestamp": 1751846400,
       "dexId": "raydium",
       "pairAddress": "DLaoh9okkk4gdtXj2mkH3WJUE7VbhMBJRuKmciD1PSZX",
       "txns_24h": {
-        "buys": 3132,
-        "sells": 2644
+        "buys": 3103,
+        "sells": 2745
       },
-      "fdv_usd": 9207701,
-      "total_reserve_in_usd": 1081840.81,
+      "fdv_usd": 9530093,
+      "total_reserve_in_usd": 1100747.07,
       "tags": [
         "moonshot",
         "binanceAlpha"
@@ -528,7 +622,7 @@
             {
               "token_address": "Gu3LDkn7Vx3bmCzLafYNKcDxv2mH7YN44NJZFXnypump",
               "balance": 0,
-              "token_price": 0.009208,
+              "token_price": 0.00953,
               "token_decimals": 6,
               "token_symbol": "degenai",
               "token_name": "Degen Spartan AI",
