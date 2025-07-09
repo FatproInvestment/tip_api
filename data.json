@@ -1,7 +1,98 @@
 {
   "success": true,
-  "timestamp": "2025-07-09T23:41:07.013Z",
+  "timestamp": "2025-07-09T23:49:05.010Z",
   "data": [
+    {
+      "address": "6EyiNRfwwFwG7gnqUYvxpWU6tbTwu2pfPGELQUkCbonk",
+      "symbol": "GM",
+      "name": "GET MONEY",
+      "decimals": 6,
+      "icon": "https://ipfs.io/ipfs/bafybeifls4vrpwcjyrzuqrt2n4vxfpez6alybgjdgk5rvr6ssuxbtqsb34",
+      "created_time": 1752098999,
+      "website": "",
+      "twitter": "https://x.com/getmoneydotwtf",
+      "holder": 643,
+      "market_cap": 255350,
+      "price": 0.0002553,
+      "price_change_24h": 294,
+      "volume_24h": 1324420.07,
+      "pool_address": "solana_2Umy31F88bb3MMGRR7EW4js5BNLXW4AQy1TAyB5YgewF",
+      "ath": 0.0002553,
+      "ath_timestamp": 1752104943,
+      "dexId": "raydium",
+      "pairAddress": "2Umy31F88bb3MMGRR7EW4js5BNLXW4AQy1TAyB5YgewF",
+      "txns_24h": {
+        "buys": 5066,
+        "sells": 4613
+      },
+      "fdv_usd": 255350,
+      "total_reserve_in_usd": 55130.22,
+      "tags": [],
+      "first_signal": {
+        "timestamp": 1752104940,
+        "price": 0.0002553
+      },
+      "metrics": {
+        "uniqueWallets": 2,
+        "inflow24h": 6273.424915154997,
+        "trades": [
+          {
+            "timestamp": "2025-07-09T23:48:50.000Z",
+            "type": "BUY",
+            "amount": 15030290.46339,
+            "usdValue": 3933.9040975085068,
+            "wallet": {
+              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+              "name": "DNF 哥"
+            }
+          },
+          {
+            "timestamp": "2025-07-09T22:28:06.000Z",
+            "type": "BUY",
+            "amount": 4093941.519071,
+            "usdValue": 2339.52081764649,
+            "wallet": {
+              "address": "GeZHejJJJ7631AHAaoEfSmmL7CwhRNPH81FkawEfN7N9",
+              "name": "UBC7x"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+          "name": "DNF 哥",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "6EyiNRfwwFwG7gnqUYvxpWU6tbTwu2pfPGELQUkCbonk",
+              "balance": 15030290.46339,
+              "token_price": 0.0002553,
+              "token_decimals": 6,
+              "token_symbol": "GM",
+              "token_name": "GET MONEY",
+              "value": 3837.2331553034674
+            }
+          ]
+        },
+        {
+          "address": "GeZHejJJJ7631AHAaoEfSmmL7CwhRNPH81FkawEfN7N9",
+          "name": "UBC7x",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "6EyiNRfwwFwG7gnqUYvxpWU6tbTwu2pfPGELQUkCbonk",
+              "balance": 4093941.519071,
+              "token_price": 0.0002553,
+              "token_decimals": 6,
+              "token_symbol": "GM",
+              "token_name": "GET MONEY",
+              "value": 1045.1832698188264
+            }
+          ]
+        }
+      ]
+    },
     {
       "address": "6umhVsHyJrrzuWcPQ2YVzEwohtBqJMBH4dtoc3Sqpump",
       "symbol": "mcap",
@@ -12,10 +103,10 @@
       "website": "",
       "twitter": "",
       "holder": 660,
-      "market_cap": 115152,
-      "price": 0.0001151,
-      "price_change_24h": 1028,
-      "volume_24h": 1047211.94,
+      "market_cap": 114734,
+      "price": 0.0001147,
+      "price_change_24h": 1041,
+      "volume_24h": 1047887.48,
       "pool_address": "solana_5uxfPiGs4kFvEFPUKSJvkrkC94hA1P1w8U4bjjd9PVYd",
       "ath": 0.0001212,
       "ath_timestamp": 1752103697,
@@ -25,11 +116,11 @@
         "active": 500
       },
       "txns_24h": {
-        "buys": 5631,
-        "sells": 4365
+        "buys": 5636,
+        "sells": 4373
       },
-      "fdv_usd": 115152,
-      "total_reserve_in_usd": 37921.19,
+      "fdv_usd": 114734,
+      "total_reserve_in_usd": 37830.15,
       "tags": [],
       "first_signal": {
         "timestamp": 1752046343,
@@ -120,7 +211,7 @@
             {
               "token_address": "6umhVsHyJrrzuWcPQ2YVzEwohtBqJMBH4dtoc3Sqpump",
               "balance": 0,
-              "token_price": 0.0001151,
+              "token_price": 0.0001147,
               "token_decimals": 6,
               "token_symbol": "mcap",
               "token_name": "market cap",
@@ -136,11 +227,11 @@
             {
               "token_address": "6umhVsHyJrrzuWcPQ2YVzEwohtBqJMBH4dtoc3Sqpump",
               "balance": 17808573.594097,
-              "token_price": 0.0001151,
+              "token_price": 0.0001147,
               "token_decimals": 6,
               "token_symbol": "mcap",
               "token_name": "market cap",
-              "value": 2049.7668206805647
+              "value": 2042.6433912429259
             }
           ]
         }
