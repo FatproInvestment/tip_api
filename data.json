@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-07-10T14:54:58.200Z",
+  "timestamp": "2025-07-10T15:12:02.376Z",
   "data": [
     {
       "address": "6EyiNRfwwFwG7gnqUYvxpWU6tbTwu2pfPGELQUkCbonk",
@@ -12,21 +12,21 @@
       "website": "",
       "twitter": "https://x.com/getmoneydotwtf",
       "holder": 1163,
-      "market_cap": 469206,
-      "price": 0.0004692,
-      "price_change_24h": 624,
-      "volume_24h": 3472793.47,
+      "market_cap": 696361,
+      "price": 0.0006963,
+      "price_change_24h": 974,
+      "volume_24h": 3638989.81,
       "pool_address": "solana_2Umy31F88bb3MMGRR7EW4js5BNLXW4AQy1TAyB5YgewF",
       "ath": 0.0010585088719250555,
       "ath_timestamp": 1752105600,
       "dexId": "raydium",
       "pairAddress": "2Umy31F88bb3MMGRR7EW4js5BNLXW4AQy1TAyB5YgewF",
       "txns_24h": {
-        "buys": 13228,
-        "sells": 11302
+        "buys": 13901,
+        "sells": 11788
       },
-      "fdv_usd": 469206,
-      "total_reserve_in_usd": 77453.05,
+      "fdv_usd": 696361,
+      "total_reserve_in_usd": 94469.7,
       "tags": [],
       "first_signal": {
         "timestamp": 1752104941,
@@ -34,8 +34,18 @@
       },
       "metrics": {
         "uniqueWallets": 3,
-        "inflow24h": 7228.280822361396,
+        "inflow24h": 9579.672903467894,
         "trades": [
+          {
+            "timestamp": "2025-07-10T15:00:11.000Z",
+            "type": "BUY",
+            "amount": 4187131.937413,
+            "usdValue": 2351.3920811064972,
+            "wallet": {
+              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+              "name": "DNF 哥"
+            }
+          },
           {
             "timestamp": "2025-07-10T11:36:03.000Z",
             "type": "SELL",
@@ -80,6 +90,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+          "name": "DNF 哥",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "6EyiNRfwwFwG7gnqUYvxpWU6tbTwu2pfPGELQUkCbonk",
+              "balance": 19217422.400803,
+              "token_price": 0.0006963,
+              "token_decimals": 6,
+              "token_symbol": "GM",
+              "token_name": "GET MONEY",
+              "value": 13381.091217679128
+            }
+          ]
+        },
+        {
           "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
           "name": "OGmoodeng",
           "score": 2,
@@ -87,27 +113,11 @@
             {
               "token_address": "6EyiNRfwwFwG7gnqUYvxpWU6tbTwu2pfPGELQUkCbonk",
               "balance": 0,
-              "token_price": 0.0004692,
+              "token_price": 0.0006963,
               "token_decimals": 6,
               "token_symbol": "GM",
               "token_name": "GET MONEY",
               "value": 0
-            }
-          ]
-        },
-        {
-          "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-          "name": "DNF 哥",
-          "score": 3,
-          "tokens": [
-            {
-              "token_address": "6EyiNRfwwFwG7gnqUYvxpWU6tbTwu2pfPGELQUkCbonk",
-              "balance": 15030290.46339,
-              "token_price": 0.0004692,
-              "token_decimals": 6,
-              "token_symbol": "GM",
-              "token_name": "GET MONEY",
-              "value": 7052.212285422588
             }
           ]
         },
@@ -119,11 +129,11 @@
             {
               "token_address": "6EyiNRfwwFwG7gnqUYvxpWU6tbTwu2pfPGELQUkCbonk",
               "balance": 4093941.519071,
-              "token_price": 0.0004692,
+              "token_price": 0.0006963,
               "token_decimals": 6,
               "token_symbol": "GM",
               "token_name": "GET MONEY",
-              "value": 1920.8773607481135
+              "value": 2850.611479729137
             }
           ]
         }
