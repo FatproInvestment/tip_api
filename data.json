@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-07-12T21:17:11.833Z",
+  "timestamp": "2025-07-12T21:31:16.800Z",
   "data": [
     {
       "address": "31k88G5Mq7ptbRDf3AM13HAq6wRQHXHikR8hik7wPygk",
@@ -12,21 +12,21 @@
       "website": "",
       "twitter": "",
       "holder": 7426,
-      "market_cap": 52919934,
-      "price": 1.85,
-      "price_change_24h": 42.18,
-      "volume_24h": 2872485.46,
+      "market_cap": 52497836,
+      "price": 1.83,
+      "price_change_24h": 42.01,
+      "volume_24h": 2894446,
       "pool_address": "solana_7YGHXMBpNLcDRLPUJfqzN79WMoh8Qniz52cNuZK6go7b",
       "ath": 2.1185386524905914,
       "ath_timestamp": 1752278400,
       "dexId": "orca",
       "pairAddress": "7YGHXMBpNLcDRLPUJfqzN79WMoh8Qniz52cNuZK6go7b",
       "txns_24h": {
-        "buys": 3171,
-        "sells": 4056
+        "buys": 3226,
+        "sells": 4068
       },
-      "fdv_usd": 115362019,
-      "total_reserve_in_usd": 1026776.53,
+      "fdv_usd": 114441871,
+      "total_reserve_in_usd": 1022715.57,
       "tags": [],
       "first_signal": {
         "timestamp": 1751747533,
@@ -34,8 +34,18 @@
       },
       "metrics": {
         "uniqueWallets": 4,
-        "inflow24h": 147652.73315636627,
+        "inflow24h": 147902.73315636627,
         "trades": [
+          {
+            "timestamp": "2025-07-12T21:26:17.000Z",
+            "type": "BUY",
+            "amount": 135.454293334,
+            "usdValue": 250,
+            "wallet": {
+              "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+              "name": "Chillguy32x"
+            }
+          },
           {
             "timestamp": "2025-07-12T18:36:42.000Z",
             "type": "SELL",
@@ -200,6 +210,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+          "name": "Chillguy32x",
+          "score": 1,
+          "tokens": [
+            {
+              "token_address": "31k88G5Mq7ptbRDf3AM13HAq6wRQHXHikR8hik7wPygk",
+              "balance": 5212.756432325,
+              "token_price": 1.83,
+              "token_decimals": 9,
+              "token_symbol": "GP",
+              "token_name": "Graphite",
+              "value": 9539.34427115475
+            }
+          ]
+        },
+        {
           "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
           "name": "Wizard100x",
           "score": 3,
@@ -207,11 +233,11 @@
             {
               "token_address": "31k88G5Mq7ptbRDf3AM13HAq6wRQHXHikR8hik7wPygk",
               "balance": 3207.272777661,
-              "token_price": 1.85,
+              "token_price": 1.83,
               "token_decimals": 9,
               "token_symbol": "GP",
               "token_name": "Graphite",
-              "value": 5933.45463867285
+              "value": 5869.30918311963
             }
           ]
         },
@@ -223,11 +249,11 @@
             {
               "token_address": "31k88G5Mq7ptbRDf3AM13HAq6wRQHXHikR8hik7wPygk",
               "balance": 87243.98820128,
-              "token_price": 1.85,
+              "token_price": 1.83,
               "token_decimals": 9,
               "token_symbol": "GP",
               "token_name": "Graphite",
-              "value": 161401.378172368
+              "value": 159656.4984083424
             }
           ]
         },
@@ -239,27 +265,11 @@
             {
               "token_address": "31k88G5Mq7ptbRDf3AM13HAq6wRQHXHikR8hik7wPygk",
               "balance": 0,
-              "token_price": 1.85,
+              "token_price": 1.83,
               "token_decimals": 9,
               "token_symbol": "GP",
               "token_name": "Graphite",
               "value": 0
-            }
-          ]
-        },
-        {
-          "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
-          "name": "Chillguy32x",
-          "score": 1,
-          "tokens": [
-            {
-              "token_address": "31k88G5Mq7ptbRDf3AM13HAq6wRQHXHikR8hik7wPygk",
-              "balance": 5077.302138991,
-              "token_price": 1.85,
-              "token_decimals": 9,
-              "token_symbol": "GP",
-              "token_name": "Graphite",
-              "value": 9393.00895713335
             }
           ]
         }
@@ -277,15 +287,15 @@
       "holder": 4417,
       "market_cap": 4309549,
       "price": 0.004788,
-      "price_change_24h": 10.75,
-      "volume_24h": 94022.89,
+      "price_change_24h": 10.39,
+      "volume_24h": 93116.25,
       "pool_address": "solana_Fn1pbVqR1jXhSTaR5t4ZX6eJkqYNQEtCeAu1df6bbLLg",
       "ath": 0.031129872211365744,
       "ath_timestamp": 1750377600,
       "dexId": "meteora",
       "pairAddress": "Fn1pbVqR1jXhSTaR5t4ZX6eJkqYNQEtCeAu1df6bbLLg",
       "txns_24h": {
-        "buys": 97,
+        "buys": 95,
         "sells": 169
       },
       "fdv_usd": 4421188,
@@ -438,21 +448,21 @@
       "website": "",
       "twitter": "https://x.com/sleek_sol/status/1922278451555533022",
       "holder": 11530,
-      "market_cap": 45381132,
-      "price": 0.04538,
-      "price_change_24h": 27.94,
-      "volume_24h": 8803937.63,
+      "market_cap": 45247000,
+      "price": 0.04524,
+      "price_change_24h": 20.48,
+      "volume_24h": 8788306.38,
       "pool_address": "solana_J28smrHeDLYHPZCJLVHExsiMifEDswFHobHpEQrYHdjL",
       "ath": 0.056742374175850645,
       "ath_timestamp": 1752278400,
       "dexId": "raydium",
       "pairAddress": "J28smrHeDLYHPZCJLVHExsiMifEDswFHobHpEQrYHdjL",
       "txns_24h": {
-        "buys": 12587,
-        "sells": 12385
+        "buys": 12665,
+        "sells": 12250
       },
-      "fdv_usd": 45381132,
-      "total_reserve_in_usd": 1518307.73,
+      "fdv_usd": 45247000,
+      "total_reserve_in_usd": 1519014.08,
       "tags": [
         "moonshot"
       ],
@@ -525,11 +535,11 @@
             {
               "token_address": "HtTYHz1Kf3rrQo6AqDLmss7gq5WrkWAaXn3tupUZbonk",
               "balance": 4180781.291128,
-              "token_price": 0.04538,
+              "token_price": 0.04524,
               "token_decimals": 6,
               "token_symbol": "KORI",
               "token_name": "Kori The Pom",
-              "value": 189723.85499138862
+              "value": 189138.5456106307
             }
           ]
         },
@@ -541,11 +551,11 @@
             {
               "token_address": "HtTYHz1Kf3rrQo6AqDLmss7gq5WrkWAaXn3tupUZbonk",
               "balance": 19281.578615,
-              "token_price": 0.04538,
+              "token_price": 0.04524,
               "token_decimals": 6,
               "token_symbol": "KORI",
               "token_name": "Kori The Pom",
-              "value": 874.9980375486999
+              "value": 872.2986165426
             }
           ]
         }
@@ -560,22 +570,22 @@
       "created_time": 1731390636,
       "website": "",
       "twitter": "",
-      "holder": 5470,
-      "market_cap": 845599,
-      "price": 0.001352,
-      "price_change_24h": -23.6,
-      "volume_24h": 667540.77,
+      "holder": 5481,
+      "market_cap": 843154,
+      "price": 0.001348,
+      "price_change_24h": -36.13,
+      "volume_24h": 661224.2,
       "pool_address": "solana_5zGp3JSRVz9ZT1nAWTcPC7CyqBasxJKjcKKz5HBh9ciX",
       "ath": 0.002666864103326063,
       "ath_timestamp": 1752278400,
       "dexId": "raydium",
       "pairAddress": "5zGp3JSRVz9ZT1nAWTcPC7CyqBasxJKjcKKz5HBh9ciX",
       "txns_24h": {
-        "buys": 2601,
-        "sells": 2724
+        "buys": 2541,
+        "sells": 2670
       },
-      "fdv_usd": 876743,
-      "total_reserve_in_usd": 236547.67,
+      "fdv_usd": 874207,
+      "total_reserve_in_usd": 236622.82,
       "tags": [],
       "first_signal": {
         "timestamp": 1752197481,
@@ -646,7 +656,7 @@
             {
               "token_address": "73UdJevxaNKXARgkvPHQGKuv8HCZARszuKW2LTL3pump",
               "balance": 0,
-              "token_price": 0.001352,
+              "token_price": 0.001348,
               "token_decimals": 6,
               "token_symbol": "ZARA",
               "token_name": "ZARA AI",
@@ -662,7 +672,7 @@
             {
               "token_address": "73UdJevxaNKXARgkvPHQGKuv8HCZARszuKW2LTL3pump",
               "balance": 0,
-              "token_price": 0.001352,
+              "token_price": 0.001348,
               "token_decimals": 6,
               "token_symbol": "ZARA",
               "token_name": "ZARA AI",
