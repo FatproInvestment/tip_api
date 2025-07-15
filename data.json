@@ -1,74 +1,7 @@
 {
   "success": true,
-  "timestamp": "2025-07-15T19:21:54.880Z",
+  "timestamp": "2025-07-15T19:34:13.460Z",
   "data": [
-    {
-      "address": "2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv",
-      "symbol": "PENGU",
-      "name": "Pudgy Penguins",
-      "decimals": 6,
-      "icon": "https://arweave.net/BW67hICaKGd2_wamSB0IQq-x7Xwtmr2oJj1WnWGJRHU",
-      "created_time": 1732922021,
-      "website": "",
-      "twitter": "",
-      "holder": 561615,
-      "market_cap": 2013643991,
-      "price": 0.03203,
-      "price_change_24h": 13.71,
-      "volume_24h": 7912228.44,
-      "pool_address": "solana_FAqh648xeeaTqL7du49sztp9nfj5PjRQrfvaMccyd9cz",
-      "ath": 0.03203,
-      "ath_timestamp": 1752607208,
-      "dexId": "raydium",
-      "pairAddress": "B4Vwozy1FGtp8SELXSXydWSzavPUGnJ77DURV2k4MhUV",
-      "txns_24h": {
-        "buys": 41146,
-        "sells": 40127
-      },
-      "fdv_usd": 2847419532,
-      "total_reserve_in_usd": 540488.85,
-      "tags": [
-        "moonshot"
-      ],
-      "first_signal": {
-        "timestamp": 1752605362,
-        "price": 0.03186
-      },
-      "metrics": {
-        "uniqueWallets": 1,
-        "inflow24h": 3307.794784,
-        "trades": [
-          {
-            "timestamp": "2025-07-15T18:48:58.000Z",
-            "type": "BUY",
-            "amount": 103702.167608,
-            "usdValue": 3307.794784,
-            "wallet": {
-              "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
-              "name": "Wizard100x"
-            }
-          }
-        ]
-      },
-      "walletPortfolios": [
-        {
-          "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
-          "name": "Wizard100x",
-          "score": 3,
-          "tokens": [
-            {
-              "token_address": "2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv",
-              "balance": 460138.006148,
-              "token_price": 0.03203,
-              "token_decimals": 6,
-              "token_symbol": "PENGU",
-              "token_name": "Pudgy Penguins",
-              "value": 14738.220336920442
-            }
-          ]
-        }
-      ]
-    },
     {
       "address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "symbol": "PUMP",
@@ -79,21 +12,21 @@
       "website": "",
       "twitter": "",
       "holder": 40761,
-      "market_cap": 1288198043,
-      "price": 0.006253,
-      "price_change_24h": 19.15,
-      "volume_24h": 6763433.94,
+      "market_cap": 1268936697,
+      "price": 0.006159,
+      "price_change_24h": 14.53,
+      "volume_24h": 6638178.44,
       "pool_address": "solana_2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
       "ath": 0.006308843460667954,
       "ath_timestamp": 1752537600,
       "dexId": "raydium",
       "pairAddress": "HhXLxqR5i1danHSBhs7cLR2uwy9XeY3ahsrEbuE56unz",
       "txns_24h": {
-        "buys": 31975,
-        "sells": 32319
+        "buys": 31505,
+        "sells": 31909
       },
-      "fdv_usd": 6253322580,
-      "total_reserve_in_usd": 43859.33,
+      "fdv_usd": 6159821890,
+      "total_reserve_in_usd": 41069.15,
       "tags": [
         "moonshot",
         "binanceAlpha"
@@ -103,9 +36,19 @@
         "price": 0.005381
       },
       "metrics": {
-        "uniqueWallets": 2,
-        "inflow24h": -1276193.791539428,
+        "uniqueWallets": 3,
+        "inflow24h": -951348.4163146343,
         "trades": [
+          {
+            "timestamp": "2025-07-15T19:33:00.000Z",
+            "type": "BUY",
+            "amount": 52403843.425515,
+            "usdValue": 324845.3752247936,
+            "wallet": {
+              "address": "3DKfZz4iHgu42LGu3ttQxqz6u4m5z9ptuar8pBsRqkKC",
+              "name": "ai16zWhale"
+            }
+          },
           {
             "timestamp": "2025-07-15T15:03:53.000Z",
             "type": "SELL",
@@ -170,6 +113,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "3DKfZz4iHgu42LGu3ttQxqz6u4m5z9ptuar8pBsRqkKC",
+          "name": "ai16zWhale",
+          "score": 1,
+          "tokens": [
+            {
+              "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+              "balance": 52403843.425515,
+              "token_price": 0.006159,
+              "token_decimals": 6,
+              "token_symbol": "PUMP",
+              "token_name": "Pump",
+              "value": 322755.2716577469
+            }
+          ]
+        },
+        {
           "address": "GgG65z3MXpmGnV3ZapKv5ayDqox1x7CJnqP1LD8FaZdt",
           "name": "y22.sol",
           "score": 1,
@@ -177,11 +136,11 @@
             {
               "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
               "balance": 94000000.084503,
-              "token_price": 0.006253,
+              "token_price": 0.006159,
               "token_decimals": 6,
               "token_symbol": "PUMP",
               "token_name": "Pump",
-              "value": 587782.0005283973
+              "value": 578946.000520454
             }
           ]
         },
@@ -193,11 +152,78 @@
             {
               "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
               "balance": 0,
-              "token_price": 0.006253,
+              "token_price": 0.006159,
               "token_decimals": 6,
               "token_symbol": "PUMP",
               "token_name": "Pump",
               "value": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "address": "2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv",
+      "symbol": "PENGU",
+      "name": "Pudgy Penguins",
+      "decimals": 6,
+      "icon": "https://arweave.net/BW67hICaKGd2_wamSB0IQq-x7Xwtmr2oJj1WnWGJRHU",
+      "created_time": 1732922021,
+      "website": "",
+      "twitter": "",
+      "holder": 561615,
+      "market_cap": 1999442249,
+      "price": 0.0318,
+      "price_change_24h": 10.73,
+      "volume_24h": 7925666.6,
+      "pool_address": "solana_FAqh648xeeaTqL7du49sztp9nfj5PjRQrfvaMccyd9cz",
+      "ath": 0.03203,
+      "ath_timestamp": 1752607208,
+      "dexId": "raydium",
+      "pairAddress": "B4Vwozy1FGtp8SELXSXydWSzavPUGnJ77DURV2k4MhUV",
+      "txns_24h": {
+        "buys": 41182,
+        "sells": 40052
+      },
+      "fdv_usd": 2827337374,
+      "total_reserve_in_usd": 535785.61,
+      "tags": [
+        "moonshot"
+      ],
+      "first_signal": {
+        "timestamp": 1752605362,
+        "price": 0.03186
+      },
+      "metrics": {
+        "uniqueWallets": 1,
+        "inflow24h": 3307.794784,
+        "trades": [
+          {
+            "timestamp": "2025-07-15T18:48:58.000Z",
+            "type": "BUY",
+            "amount": 103702.167608,
+            "usdValue": 3307.794784,
+            "wallet": {
+              "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
+              "name": "Wizard100x"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
+          "name": "Wizard100x",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv",
+              "balance": 460138.006148,
+              "token_price": 0.0318,
+              "token_decimals": 6,
+              "token_symbol": "PENGU",
+              "token_name": "Pudgy Penguins",
+              "value": 14632.388595506402
             }
           ]
         }
@@ -213,10 +239,10 @@
       "website": "https://x.com/techdevnotes/status/1944706304594862217",
       "twitter": "https://x.com/techdevnotes/status/1944706304594862217",
       "holder": 11561,
-      "market_cap": 21545655,
-      "price": 0.02154,
-      "price_change_24h": 128,
-      "volume_24h": 35694630.5,
+      "market_cap": 21676579,
+      "price": 0.02167,
+      "price_change_24h": 164,
+      "volume_24h": 34842850.76,
       "pool_address": "solana_8ujpQXxnnWvRohU2oCe3eaSzoL7paU2uj3fEn4Zp72US",
       "ath": 0.028412275702323107,
       "ath_timestamp": 1752537600,
@@ -226,11 +252,11 @@
         "active": 100
       },
       "txns_24h": {
-        "buys": 62066,
-        "sells": 60442
+        "buys": 60654,
+        "sells": 58952
       },
-      "fdv_usd": 21545655,
-      "total_reserve_in_usd": 705860.07,
+      "fdv_usd": 21676579,
+      "total_reserve_in_usd": 707100.65,
       "tags": [],
       "first_signal": {
         "timestamp": 1752514177,
@@ -1111,11 +1137,11 @@
             {
               "token_address": "9tqjeRS1swj36Ee5C1iGiwAxjQJNGAVCzaTLwFY8bonk",
               "balance": 128404.281486,
-              "token_price": 0.02154,
+              "token_price": 0.02167,
               "token_decimals": 6,
               "token_symbol": "Ani",
               "token_name": "Ani Grok Companion",
-              "value": 2765.8282232084402
+              "value": 2782.52077980162
             }
           ]
         },
@@ -1127,11 +1153,11 @@
             {
               "token_address": "9tqjeRS1swj36Ee5C1iGiwAxjQJNGAVCzaTLwFY8bonk",
               "balance": 800000.152345,
-              "token_price": 0.02154,
+              "token_price": 0.02167,
               "token_decimals": 6,
               "token_symbol": "Ani",
               "token_name": "Ani Grok Companion",
-              "value": 17232.003281511297
+              "value": 17336.00330131615
             }
           ]
         },
@@ -1143,11 +1169,11 @@
             {
               "token_address": "9tqjeRS1swj36Ee5C1iGiwAxjQJNGAVCzaTLwFY8bonk",
               "balance": 4569477.881334,
-              "token_price": 0.02154,
+              "token_price": 0.02167,
               "token_decimals": 6,
               "token_symbol": "Ani",
               "token_name": "Ani Grok Companion",
-              "value": 98426.55356393437
+              "value": 99020.58568850778
             }
           ]
         },
@@ -1159,7 +1185,7 @@
             {
               "token_address": "9tqjeRS1swj36Ee5C1iGiwAxjQJNGAVCzaTLwFY8bonk",
               "balance": 0,
-              "token_price": 0.02154,
+              "token_price": 0.02167,
               "token_decimals": 6,
               "token_symbol": "Ani",
               "token_name": "Ani Grok Companion",
@@ -1175,11 +1201,11 @@
             {
               "token_address": "9tqjeRS1swj36Ee5C1iGiwAxjQJNGAVCzaTLwFY8bonk",
               "balance": 476502.967086,
-              "token_price": 0.02154,
+              "token_price": 0.02167,
               "token_decimals": 6,
               "token_symbol": "Ani",
               "token_name": "Ani Grok Companion",
-              "value": 10263.87391103244
+              "value": 10325.81929675362
             }
           ]
         },
@@ -1191,11 +1217,11 @@
             {
               "token_address": "9tqjeRS1swj36Ee5C1iGiwAxjQJNGAVCzaTLwFY8bonk",
               "balance": 7046919.446069,
-              "token_price": 0.02154,
+              "token_price": 0.02167,
               "token_decimals": 6,
               "token_symbol": "Ani",
               "token_name": "Ani Grok Companion",
-              "value": 151790.64486832626
+              "value": 152706.74439631522
             }
           ]
         }
@@ -1211,21 +1237,21 @@
       "website": "https://www.instagram.com/p/DL8b-taN1ei/",
       "twitter": "",
       "holder": 920,
-      "market_cap": 818526,
-      "price": 0.0008185,
-      "price_change_24h": 291,
-      "volume_24h": 1552656.77,
+      "market_cap": 704394,
+      "price": 0.0007043,
+      "price_change_24h": 255,
+      "volume_24h": 1585716.22,
       "pool_address": "solana_AUN9MfZLBpcGaZQpPNespZodbArJPgZQ8Q8tv7a1wURE",
       "ath": 0.0013615720770423648,
       "ath_timestamp": 1752537600,
       "dexId": "raydium",
       "pairAddress": "AUN9MfZLBpcGaZQpPNespZodbArJPgZQ8Q8tv7a1wURE",
       "txns_24h": {
-        "buys": 4202,
-        "sells": 3997
+        "buys": 4345,
+        "sells": 4061
       },
-      "fdv_usd": 818526,
-      "total_reserve_in_usd": 107672.02,
+      "fdv_usd": 704394,
+      "total_reserve_in_usd": 99895.01,
       "tags": [],
       "first_signal": {
         "timestamp": 1752198689,
@@ -1276,11 +1302,11 @@
             {
               "token_address": "BRYt1CnDkbrRNtWuBsciA9dvvZApQbwQubcfMZCpyPrb",
               "balance": 12230306.400502,
-              "token_price": 0.0008185,
+              "token_price": 0.0007043,
               "token_decimals": 6,
               "token_symbol": "STAND",
               "token_name": "Dubai Chocolate Labubu Matcha",
-              "value": 10010.505788810888
+              "value": 8613.80479787356
             }
           ]
         },
@@ -1292,11 +1318,11 @@
             {
               "token_address": "BRYt1CnDkbrRNtWuBsciA9dvvZApQbwQubcfMZCpyPrb",
               "balance": 1219218.568957,
-              "token_price": 0.0008185,
+              "token_price": 0.0007043,
               "token_decimals": 6,
               "token_symbol": "STAND",
               "token_name": "Dubai Chocolate Labubu Matcha",
-              "value": 997.9303986913045
+              "value": 858.6956381164151
             }
           ]
         },
@@ -1308,11 +1334,11 @@
             {
               "token_address": "BRYt1CnDkbrRNtWuBsciA9dvvZApQbwQubcfMZCpyPrb",
               "balance": 1329931.301869,
-              "token_price": 0.0008185,
+              "token_price": 0.0007043,
               "token_decimals": 6,
               "token_symbol": "STAND",
               "token_name": "Dubai Chocolate Labubu Matcha",
-              "value": 1088.5487705797766
+              "value": 936.6706159063368
             }
           ]
         }
@@ -1328,21 +1354,21 @@
       "website": "https://x.com/theunipcs/status/1937958535683523039#:~:text=ingredients%20of%20a-,blue%20chip%20memecoin,-and%20interestingly%20every",
       "twitter": "",
       "holder": 4114,
-      "market_cap": 10021617,
-      "price": 0.01002,
-      "price_change_24h": 9.44,
-      "volume_24h": 1747798.32,
+      "market_cap": 9998646,
+      "price": 0.009998,
+      "price_change_24h": 17.59,
+      "volume_24h": 1733904.59,
       "pool_address": "solana_GCkyQ4PiYJ8XrK3wf1pqMeMWiVojwp4CoFx62uKGR36L",
       "ath": 0.017216732421156292,
       "ath_timestamp": 1752278400,
       "dexId": "raydium",
       "pairAddress": "GCkyQ4PiYJ8XrK3wf1pqMeMWiVojwp4CoFx62uKGR36L",
       "txns_24h": {
-        "buys": 3343,
-        "sells": 3428
+        "buys": 3264,
+        "sells": 3427
       },
-      "fdv_usd": 10021617,
-      "total_reserve_in_usd": 453832.79,
+      "fdv_usd": 9998646,
+      "total_reserve_in_usd": 452569.43,
       "tags": [
         "moonshot"
       ],
@@ -1435,7 +1461,7 @@
             {
               "token_address": "DHJVYXsikcimtcVo49FAZqYd1XPYPaXezYhbKArJbonk",
               "balance": 0,
-              "token_price": 0.01002,
+              "token_price": 0.009998,
               "token_decimals": 6,
               "token_symbol": "BlueChip",
               "token_name": "Blue Chip",
