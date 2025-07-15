@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-07-15T18:20:13.758Z",
+  "timestamp": "2025-07-15T18:49:04.139Z",
   "data": [
     {
       "address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
@@ -12,21 +12,21 @@
       "website": "",
       "twitter": "",
       "holder": 40028,
-      "market_cap": 1254969952,
-      "price": 0.006092,
-      "price_change_24h": 11.16,
-      "volume_24h": 7796670.28,
+      "market_cap": 1248499238,
+      "price": 0.00606,
+      "price_change_24h": 11.07,
+      "volume_24h": 7265439.41,
       "pool_address": "solana_2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
-      "ath": 0.006122311041683856,
+      "ath": 0.0061931574124311104,
       "ath_timestamp": 1752537600,
       "dexId": "raydium",
       "pairAddress": "HhXLxqR5i1danHSBhs7cLR2uwy9XeY3ahsrEbuE56unz",
       "txns_24h": {
-        "buys": 33789,
-        "sells": 33678
+        "buys": 32947,
+        "sells": 33088
       },
-      "fdv_usd": 6092022869,
-      "total_reserve_in_usd": 40674.77,
+      "fdv_usd": 6060611970,
+      "total_reserve_in_usd": 49377.03,
       "tags": [
         "moonshot",
         "binanceAlpha"
@@ -110,11 +110,11 @@
             {
               "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
               "balance": 94000000.084503,
-              "token_price": 0.006092,
+              "token_price": 0.00606,
               "token_decimals": 6,
               "token_symbol": "PUMP",
               "token_name": "Pump",
-              "value": 572648.0005147923
+              "value": 569640.0005120882
             }
           ]
         },
@@ -126,7 +126,7 @@
             {
               "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
               "balance": 0,
-              "token_price": 0.006092,
+              "token_price": 0.00606,
               "token_decimals": 6,
               "token_symbol": "PUMP",
               "token_name": "Pump",
@@ -146,10 +146,10 @@
       "website": "https://x.com/techdevnotes/status/1944706304594862217",
       "twitter": "https://x.com/techdevnotes/status/1944706304594862217",
       "holder": 11495,
-      "market_cap": 23779049,
-      "price": 0.02377,
-      "price_change_24h": 206,
-      "volume_24h": 41018423.17,
+      "market_cap": 21478151,
+      "price": 0.02147,
+      "price_change_24h": 98.41,
+      "volume_24h": 37897353.23,
       "pool_address": "solana_8ujpQXxnnWvRohU2oCe3eaSzoL7paU2uj3fEn4Zp72US",
       "ath": 0.028412275702323107,
       "ath_timestamp": 1752537600,
@@ -159,11 +159,11 @@
         "active": 100
       },
       "txns_24h": {
-        "buys": 70810,
-        "sells": 68819
+        "buys": 65714,
+        "sells": 63412
       },
-      "fdv_usd": 23779049,
-      "total_reserve_in_usd": 738709.06,
+      "fdv_usd": 21478151,
+      "total_reserve_in_usd": 703844.79,
       "tags": [],
       "first_signal": {
         "timestamp": 1752514177,
@@ -171,8 +171,18 @@
       },
       "metrics": {
         "uniqueWallets": 7,
-        "inflow24h": -20875.45087466834,
+        "inflow24h": -23019.216326848862,
         "trades": [
+          {
+            "timestamp": "2025-07-15T18:36:40.000Z",
+            "type": "SELL",
+            "amount": 100000,
+            "usdValue": 2143.76545218052,
+            "wallet": {
+              "address": "65jT5wk8FQyUWcSjgBsBRLU5NiSYGVYwRSKRiopPNAQ3",
+              "name": "iamachillguy"
+            }
+          },
           {
             "timestamp": "2025-07-15T16:16:41.000Z",
             "type": "SELL",
@@ -1057,6 +1067,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "65jT5wk8FQyUWcSjgBsBRLU5NiSYGVYwRSKRiopPNAQ3",
+          "name": "iamachillguy",
+          "score": 0.5,
+          "tokens": [
+            {
+              "token_address": "9tqjeRS1swj36Ee5C1iGiwAxjQJNGAVCzaTLwFY8bonk",
+              "balance": 800000.152345,
+              "token_price": 0.02147,
+              "token_decimals": 6,
+              "token_symbol": "Ani",
+              "token_name": "Ani Grok Companion",
+              "value": 17176.003270847148
+            }
+          ]
+        },
+        {
           "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
           "name": "DNF 哥",
           "score": 3,
@@ -1064,27 +1090,11 @@
             {
               "token_address": "9tqjeRS1swj36Ee5C1iGiwAxjQJNGAVCzaTLwFY8bonk",
               "balance": 4569477.881334,
-              "token_price": 0.02377,
+              "token_price": 0.02147,
               "token_decimals": 6,
               "token_symbol": "Ani",
               "token_name": "Ani Grok Companion",
-              "value": 108616.48923930919
-            }
-          ]
-        },
-        {
-          "address": "65jT5wk8FQyUWcSjgBsBRLU5NiSYGVYwRSKRiopPNAQ3",
-          "name": "iamachillguy",
-          "score": 0.5,
-          "tokens": [
-            {
-              "token_address": "9tqjeRS1swj36Ee5C1iGiwAxjQJNGAVCzaTLwFY8bonk",
-              "balance": 900000.152345,
-              "token_price": 0.02377,
-              "token_decimals": 6,
-              "token_symbol": "Ani",
-              "token_name": "Ani Grok Companion",
-              "value": 21393.00362124065
+              "value": 98106.69011224098
             }
           ]
         },
@@ -1096,11 +1106,11 @@
             {
               "token_address": "9tqjeRS1swj36Ee5C1iGiwAxjQJNGAVCzaTLwFY8bonk",
               "balance": 256808.562972,
-              "token_price": 0.02377,
+              "token_price": 0.02147,
               "token_decimals": 6,
               "token_symbol": "Ani",
               "token_name": "Ani Grok Companion",
-              "value": 6104.339541844441
+              "value": 5513.679847008841
             }
           ]
         },
@@ -1112,7 +1122,7 @@
             {
               "token_address": "9tqjeRS1swj36Ee5C1iGiwAxjQJNGAVCzaTLwFY8bonk",
               "balance": 0,
-              "token_price": 0.02377,
+              "token_price": 0.02147,
               "token_decimals": 6,
               "token_symbol": "Ani",
               "token_name": "Ani Grok Companion",
@@ -1128,11 +1138,11 @@
             {
               "token_address": "9tqjeRS1swj36Ee5C1iGiwAxjQJNGAVCzaTLwFY8bonk",
               "balance": 476502.967086,
-              "token_price": 0.02377,
+              "token_price": 0.02147,
               "token_decimals": 6,
               "token_symbol": "Ani",
               "token_name": "Ani Grok Companion",
-              "value": 11326.47552763422
+              "value": 10230.51870333642
             }
           ]
         },
@@ -1144,11 +1154,11 @@
             {
               "token_address": "9tqjeRS1swj36Ee5C1iGiwAxjQJNGAVCzaTLwFY8bonk",
               "balance": 7046919.446069,
-              "token_price": 0.02377,
+              "token_price": 0.02147,
               "token_decimals": 6,
               "token_symbol": "Ani",
               "token_name": "Ani Grok Companion",
-              "value": 167505.27523306012
+              "value": 151297.36050710143
             }
           ]
         },
@@ -1160,11 +1170,11 @@
             {
               "token_address": "9tqjeRS1swj36Ee5C1iGiwAxjQJNGAVCzaTLwFY8bonk",
               "balance": 3810875.064423,
-              "token_price": 0.02377,
+              "token_price": 0.02147,
               "token_decimals": 6,
               "token_symbol": "Ani",
               "token_name": "Ani Grok Companion",
-              "value": 90584.50028133471
+              "value": 81819.48763316181
             }
           ]
         }
@@ -1179,22 +1189,22 @@
       "created_time": 1752187255,
       "website": "https://www.instagram.com/p/DL8b-taN1ei/",
       "twitter": "",
-      "holder": 870,
-      "market_cap": 728832,
-      "price": 0.0007288,
-      "price_change_24h": 246,
-      "volume_24h": 1363725.17,
+      "holder": 920,
+      "market_cap": 657491,
+      "price": 0.0006574,
+      "price_change_24h": 227,
+      "volume_24h": 1458744.68,
       "pool_address": "solana_AUN9MfZLBpcGaZQpPNespZodbArJPgZQ8Q8tv7a1wURE",
       "ath": 0.0013615720770423648,
       "ath_timestamp": 1752537600,
       "dexId": "raydium",
       "pairAddress": "AUN9MfZLBpcGaZQpPNespZodbArJPgZQ8Q8tv7a1wURE",
       "txns_24h": {
-        "buys": 3721,
-        "sells": 3495
+        "buys": 3998,
+        "sells": 3736
       },
-      "fdv_usd": 728832,
-      "total_reserve_in_usd": 101494.4,
+      "fdv_usd": 657491,
+      "total_reserve_in_usd": 96258.75,
       "tags": [],
       "first_signal": {
         "timestamp": 1752198689,
@@ -1245,11 +1255,11 @@
             {
               "token_address": "BRYt1CnDkbrRNtWuBsciA9dvvZApQbwQubcfMZCpyPrb",
               "balance": 12230306.400502,
-              "token_price": 0.0007288,
+              "token_price": 0.0006574,
               "token_decimals": 6,
               "token_symbol": "STAND",
               "token_name": "Dubai Chocolate Labubu Matcha",
-              "value": 8913.447304685858
+              "value": 8040.203427690015
             }
           ]
         },
@@ -1261,11 +1271,11 @@
             {
               "token_address": "BRYt1CnDkbrRNtWuBsciA9dvvZApQbwQubcfMZCpyPrb",
               "balance": 1219218.568957,
-              "token_price": 0.0007288,
+              "token_price": 0.0006574,
               "token_decimals": 6,
               "token_symbol": "STAND",
               "token_name": "Dubai Chocolate Labubu Matcha",
-              "value": 888.5664930558617
+              "value": 801.5142872323319
             }
           ]
         },
@@ -1277,11 +1287,11 @@
             {
               "token_address": "BRYt1CnDkbrRNtWuBsciA9dvvZApQbwQubcfMZCpyPrb",
               "balance": 1329931.301869,
-              "token_price": 0.0007288,
+              "token_price": 0.0006574,
               "token_decimals": 6,
               "token_symbol": "STAND",
               "token_name": "Dubai Chocolate Labubu Matcha",
-              "value": 969.2539328021273
+              "value": 874.2968378486808
             }
           ]
         }
@@ -1297,21 +1307,21 @@
       "website": "https://x.com/theunipcs/status/1937958535683523039#:~:text=ingredients%20of%20a-,blue%20chip%20memecoin,-and%20interestingly%20every",
       "twitter": "",
       "holder": 4187,
-      "market_cap": 8846001,
-      "price": 0.008846,
-      "price_change_24h": 8.9,
-      "volume_24h": 2087888.28,
+      "market_cap": 9450976,
+      "price": 0.00945,
+      "price_change_24h": 9.73,
+      "volume_24h": 1959357.18,
       "pool_address": "solana_GCkyQ4PiYJ8XrK3wf1pqMeMWiVojwp4CoFx62uKGR36L",
       "ath": 0.017216732421156292,
       "ath_timestamp": 1752278400,
       "dexId": "raydium",
       "pairAddress": "GCkyQ4PiYJ8XrK3wf1pqMeMWiVojwp4CoFx62uKGR36L",
       "txns_24h": {
-        "buys": 3708,
-        "sells": 3926
+        "buys": 3476,
+        "sells": 3698
       },
-      "fdv_usd": 8846001,
-      "total_reserve_in_usd": 426834.57,
+      "fdv_usd": 9450976,
+      "total_reserve_in_usd": 439641.82,
       "tags": [
         "moonshot"
       ],
@@ -1404,7 +1414,7 @@
             {
               "token_address": "DHJVYXsikcimtcVo49FAZqYd1XPYPaXezYhbKArJbonk",
               "balance": 0,
-              "token_price": 0.008846,
+              "token_price": 0.00945,
               "token_decimals": 6,
               "token_symbol": "BlueChip",
               "token_name": "Blue Chip",
