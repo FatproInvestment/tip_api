@@ -1,7 +1,98 @@
 {
   "success": true,
-  "timestamp": "2025-07-18T11:40:37.039Z",
+  "timestamp": "2025-07-18T11:50:16.671Z",
   "data": [
+    {
+      "address": "GMcThHFBnN6zjB2Mvbgdi19A2m35g81y7B1AKhgGbonk",
+      "symbol": "VCM",
+      "name": "VALA CAPITAL MARKETS",
+      "decimals": 6,
+      "icon": "https://ipfs.io/ipfs/bafkreihyndtm2vynaq3hedtvozuid2ntafnnr7ginanjyxeodyraevxnoy",
+      "created_time": 1752084801,
+      "website": "https://vala.social/",
+      "twitter": "https://x.com/tradevala",
+      "holder": 1060,
+      "market_cap": 1474338,
+      "price": 0.0001842,
+      "price_change_24h": 927,
+      "volume_24h": 1057453.69,
+      "pool_address": "solana_9ZstYXJSPyeUM5qD4DvsahLuApKpnK5GrwBeixJE5RAg",
+      "ath": 0.0001842,
+      "ath_timestamp": 1752839135,
+      "dexId": "raydium",
+      "pairAddress": "9ZstYXJSPyeUM5qD4DvsahLuApKpnK5GrwBeixJE5RAg",
+      "txns_24h": {
+        "buys": 2434,
+        "sells": 2082
+      },
+      "fdv_usd": 1474338,
+      "total_reserve_in_usd": 136698.18,
+      "tags": [],
+      "first_signal": {
+        "timestamp": 1752839131,
+        "price": 0.0001842
+      },
+      "metrics": {
+        "uniqueWallets": 2,
+        "inflow24h": 18405.09489368573,
+        "trades": [
+          {
+            "timestamp": "2025-07-18T11:45:22.000Z",
+            "type": "BUY",
+            "amount": 68428058.014034,
+            "usdValue": 15706.80629933553,
+            "wallet": {
+              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+              "name": "DNF 哥"
+            }
+          },
+          {
+            "timestamp": "2025-07-18T03:08:07.000Z",
+            "type": "BUY",
+            "amount": 37023362.712336,
+            "usdValue": 2698.288594350201,
+            "wallet": {
+              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+              "name": "OGmoodeng"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+          "name": "DNF 哥",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "GMcThHFBnN6zjB2Mvbgdi19A2m35g81y7B1AKhgGbonk",
+              "balance": 68428058.014034,
+              "token_price": 0.0001842,
+              "token_decimals": 6,
+              "token_symbol": "VCM",
+              "token_name": "VALA CAPITAL MARKETS",
+              "value": 12604.448286185063
+            }
+          ]
+        },
+        {
+          "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+          "name": "OGmoodeng",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "GMcThHFBnN6zjB2Mvbgdi19A2m35g81y7B1AKhgGbonk",
+              "balance": 37023362.712336,
+              "token_price": 0.0001842,
+              "token_decimals": 6,
+              "token_symbol": "VCM",
+              "token_name": "VALA CAPITAL MARKETS",
+              "value": 6819.70341161229
+            }
+          ]
+        }
+      ]
+    },
     {
       "address": "ErgAfNEtv1SpjG5q1T7dmooSqr7kt7wAfNqZq8azbonk",
       "symbol": "CPUTER",
@@ -12,21 +103,21 @@
       "website": "https://x.com/mckaywrigley/status/1945976064758730965",
       "twitter": "https://x.com/claudeputer",
       "holder": 5978,
-      "market_cap": 9683668,
-      "price": 0.009683,
-      "price_change_24h": 12974,
-      "volume_24h": 46987598.26,
+      "market_cap": 8507496,
+      "price": 0.008507,
+      "price_change_24h": 11386,
+      "volume_24h": 47285879.1,
       "pool_address": "solana_C5BUTjhfZdQi95QRtpdKqeSc13tC19rQ8X4t52JEM7YZ",
       "ath": 0.01124,
       "ath_timestamp": 1752838173,
       "dexId": "raydium",
       "pairAddress": "C5BUTjhfZdQi95QRtpdKqeSc13tC19rQ8X4t52JEM7YZ",
       "txns_24h": {
-        "buys": 69010,
-        "sells": 67430
+        "buys": 69770,
+        "sells": 67886
       },
-      "fdv_usd": 9683668,
-      "total_reserve_in_usd": 482135.54,
+      "fdv_usd": 8507496,
+      "total_reserve_in_usd": 452864.87,
       "tags": [],
       "first_signal": {
         "timestamp": 1752801172,
@@ -637,11 +728,11 @@
             {
               "token_address": "ErgAfNEtv1SpjG5q1T7dmooSqr7kt7wAfNqZq8azbonk",
               "balance": 10426384.192052,
-              "token_price": 0.009683,
+              "token_price": 0.008507,
               "token_decimals": 6,
               "token_symbol": "CPUTER",
               "token_name": "Claudeputer",
-              "value": 100958.67813163952
+              "value": 88697.25032178637
             }
           ]
         },
@@ -653,11 +744,11 @@
             {
               "token_address": "ErgAfNEtv1SpjG5q1T7dmooSqr7kt7wAfNqZq8azbonk",
               "balance": 5615950.489865,
-              "token_price": 0.009683,
+              "token_price": 0.008507,
               "token_decimals": 6,
               "token_symbol": "CPUTER",
               "token_name": "Claudeputer",
-              "value": 54379.248593362805
+              "value": 47774.890817281565
             }
           ]
         },
@@ -669,11 +760,11 @@
             {
               "token_address": "ErgAfNEtv1SpjG5q1T7dmooSqr7kt7wAfNqZq8azbonk",
               "balance": 5795289.153221,
-              "token_price": 0.009683,
+              "token_price": 0.008507,
               "token_decimals": 6,
               "token_symbol": "CPUTER",
               "token_name": "Claudeputer",
-              "value": 56115.78487063895
+              "value": 49300.52482645105
             }
           ]
         },
@@ -685,11 +776,11 @@
             {
               "token_address": "ErgAfNEtv1SpjG5q1T7dmooSqr7kt7wAfNqZq8azbonk",
               "balance": 1163862.213466,
-              "token_price": 0.009683,
+              "token_price": 0.008507,
               "token_decimals": 6,
               "token_symbol": "CPUTER",
               "token_name": "Claudeputer",
-              "value": 11269.67781299128
+              "value": 9900.975849955263
             }
           ]
         },
@@ -701,7 +792,7 @@
             {
               "token_address": "ErgAfNEtv1SpjG5q1T7dmooSqr7kt7wAfNqZq8azbonk",
               "balance": 0,
-              "token_price": 0.009683,
+              "token_price": 0.008507,
               "token_decimals": 6,
               "token_symbol": "CPUTER",
               "token_name": "Claudeputer",
@@ -717,11 +808,11 @@
             {
               "token_address": "ErgAfNEtv1SpjG5q1T7dmooSqr7kt7wAfNqZq8azbonk",
               "balance": 3986139.880934,
-              "token_price": 0.009683,
+              "token_price": 0.008507,
               "token_decimals": 6,
               "token_symbol": "CPUTER",
               "token_name": "Claudeputer",
-              "value": 38597.79246708393
+              "value": 33910.09196710554
             }
           ]
         },
@@ -733,7 +824,7 @@
             {
               "token_address": "ErgAfNEtv1SpjG5q1T7dmooSqr7kt7wAfNqZq8azbonk",
               "balance": 0,
-              "token_price": 0.009683,
+              "token_price": 0.008507,
               "token_decimals": 6,
               "token_symbol": "CPUTER",
               "token_name": "Claudeputer",
@@ -749,11 +840,11 @@
             {
               "token_address": "ErgAfNEtv1SpjG5q1T7dmooSqr7kt7wAfNqZq8azbonk",
               "balance": 21883827.215886,
-              "token_price": 0.009683,
+              "token_price": 0.008507,
               "token_decimals": 6,
               "token_symbol": "CPUTER",
               "token_name": "Claudeputer",
-              "value": 211901.09893142415
+              "value": 186165.71812554222
             }
           ]
         }
@@ -769,10 +860,10 @@
       "website": "https://x.com/techdevnotes/status/1944706304594862217",
       "twitter": "https://x.com/techdevnotes/status/1944706304594862217",
       "holder": 18209,
-      "market_cap": 40065056,
-      "price": 0.04006,
-      "price_change_24h": -40.89,
-      "volume_24h": 31110137.27,
+      "market_cap": 39705201,
+      "price": 0.0397,
+      "price_change_24h": -39.63,
+      "volume_24h": 31150146.99,
       "pool_address": "solana_8ujpQXxnnWvRohU2oCe3eaSzoL7paU2uj3fEn4Zp72US",
       "ath": 0.09001483860215813,
       "ath_timestamp": 1752710400,
@@ -782,11 +873,11 @@
         "active": 100
       },
       "txns_24h": {
-        "buys": 39997,
-        "sells": 35293
+        "buys": 40059,
+        "sells": 35356
       },
-      "fdv_usd": 40065056,
-      "total_reserve_in_usd": 1127030.39,
+      "fdv_usd": 39705201,
+      "total_reserve_in_usd": 1122154.73,
       "tags": [
         "moonshot"
       ],
@@ -795,9 +886,19 @@
         "price": 0.00288
       },
       "metrics": {
-        "uniqueWallets": 2,
-        "inflow24h": -90639.86342581153,
+        "uniqueWallets": 3,
+        "inflow24h": -114679.44656076346,
         "trades": [
+          {
+            "timestamp": "2025-07-18T11:44:17.000Z",
+            "type": "SELL",
+            "amount": 623891.976266,
+            "usdValue": 24039.58313495195,
+            "wallet": {
+              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+              "name": "DNF 哥"
+            }
+          },
           {
             "timestamp": "2025-07-18T06:16:02.000Z",
             "type": "SELL",
@@ -1032,6 +1133,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+          "name": "DNF 哥",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "9tqjeRS1swj36Ee5C1iGiwAxjQJNGAVCzaTLwFY8bonk",
+              "balance": 2495567.905068,
+              "token_price": 0.0397,
+              "token_decimals": 6,
+              "token_symbol": "Ani",
+              "token_name": "Ani Grok Companion",
+              "value": 99074.04583119959
+            }
+          ]
+        },
+        {
           "address": "GgG65z3MXpmGnV3ZapKv5ayDqox1x7CJnqP1LD8FaZdt",
           "name": "y22.sol",
           "score": 1,
@@ -1039,7 +1156,7 @@
             {
               "token_address": "9tqjeRS1swj36Ee5C1iGiwAxjQJNGAVCzaTLwFY8bonk",
               "balance": 0,
-              "token_price": 0.04006,
+              "token_price": 0.0397,
               "token_decimals": 6,
               "token_symbol": "Ani",
               "token_name": "Ani Grok Companion",
@@ -1055,7 +1172,7 @@
             {
               "token_address": "9tqjeRS1swj36Ee5C1iGiwAxjQJNGAVCzaTLwFY8bonk",
               "balance": 0,
-              "token_price": 0.04006,
+              "token_price": 0.0397,
               "token_decimals": 6,
               "token_symbol": "Ani",
               "token_name": "Ani Grok Companion",
@@ -1075,21 +1192,21 @@
       "website": "",
       "twitter": "https://www.infinitebackrooms.com/dreams/conversation-1721540624-scenario-terminal-of-truths-txt",
       "holder": 165398,
-      "market_cap": 1444234978,
-      "price": 1.44,
-      "price_change_24h": -2.98,
-      "volume_24h": 11127024.18,
+      "market_cap": 1439297313,
+      "price": 1.43,
+      "price_change_24h": -2.16,
+      "volume_24h": 11124594.48,
       "pool_address": "solana_C9U2Ksk6KKWvLEeo5yUQ7Xu46X7NzeBJtd9PBfuXaUSM",
       "ath": 1.6618205076305792,
       "ath_timestamp": 1747958400,
       "dexId": "raydium",
       "pairAddress": "Bzc9NZfMqkXR6fz1DBph7BDf9BroyEf6pnzESP7v5iiw",
       "txns_24h": {
-        "buys": 28911,
-        "sells": 23494
+        "buys": 29139,
+        "sells": 23681
       },
-      "fdv_usd": 1444234978,
-      "total_reserve_in_usd": 25848728.72,
+      "fdv_usd": 1439297313,
+      "total_reserve_in_usd": 25816853.31,
       "tags": [
         "moonshot",
         "binanceAlpha"
@@ -1123,11 +1240,11 @@
             {
               "token_address": "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump",
               "balance": 14517.587554,
-              "token_price": 1.44,
+              "token_price": 1.43,
               "token_decimals": 6,
               "token_symbol": "Fartcoin ",
               "token_name": "Fartcoin ",
-              "value": 20905.326077759997
+              "value": 20760.15020222
             }
           ]
         }
