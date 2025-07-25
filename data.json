@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-07-25T05:54:03.393Z",
+  "timestamp": "2025-07-25T06:14:53.264Z",
   "data": [
     {
       "address": "4daoTLufDmV3ods48Zh8rymaZKBLtgEvuH9qALYLbonk",
@@ -12,21 +12,21 @@
       "website": "",
       "twitter": "",
       "holder": 7926,
-      "market_cap": 38240937,
-      "price": 0.03824,
-      "price_change_24h": 23.74,
-      "volume_24h": 11092202.13,
+      "market_cap": 38869578,
+      "price": 0.03886,
+      "price_change_24h": 35.54,
+      "volume_24h": 11051380.21,
       "pool_address": "solana_2kv6hkaAiJ9vC7XHL8PfZxELcFeKJW9o8zx3XL155gM3",
       "ath": 0.04630908438857416,
       "ath_timestamp": 1753142400,
       "dexId": "raydium",
       "pairAddress": "2kv6hkaAiJ9vC7XHL8PfZxELcFeKJW9o8zx3XL155gM3",
       "txns_24h": {
-        "buys": 12643,
-        "sells": 13471
+        "buys": 12613,
+        "sells": 13496
       },
-      "fdv_usd": 38240937,
-      "total_reserve_in_usd": 1111511.39,
+      "fdv_usd": 38869578,
+      "total_reserve_in_usd": 1119546.13,
       "tags": [
         "moonshot"
       ],
@@ -149,11 +149,11 @@
             {
               "token_address": "4daoTLufDmV3ods48Zh8rymaZKBLtgEvuH9qALYLbonk",
               "balance": 128277.889426,
-              "token_price": 0.03824,
+              "token_price": 0.03886,
               "token_decimals": 6,
               "token_symbol": "memecoin",
               "token_name": "just memecoin",
-              "value": 4905.34649165024
+              "value": 4984.878783094359
             }
           ]
         },
@@ -165,11 +165,11 @@
             {
               "token_address": "4daoTLufDmV3ods48Zh8rymaZKBLtgEvuH9qALYLbonk",
               "balance": 2330481.292397,
-              "token_price": 0.03824,
+              "token_price": 0.03886,
               "token_decimals": 6,
               "token_symbol": "memecoin",
               "token_name": "just memecoin",
-              "value": 89117.60462126129
+              "value": 90562.50302254742
             }
           ]
         }
@@ -185,10 +185,10 @@
       "website": "https://launchmynft.io/sol/17647",
       "twitter": "https://x.com/i/communities/1948559229578879000",
       "holder": 3836,
-      "market_cap": 5595069,
-      "price": 0.005595,
-      "price_change_24h": 7476,
-      "volume_24h": 12357749.76,
+      "market_cap": 5003901,
+      "price": 0.005003,
+      "price_change_24h": 6676,
+      "volume_24h": 13021553.2,
       "pool_address": "solana_8Vnm5KtT1bkU9ASs4XhMd7N1B7xbUhGZLM6DmnqGmF7T",
       "ath": 0.004914,
       "ath_timestamp": 1753422718,
@@ -198,11 +198,11 @@
         "active": 30
       },
       "txns_24h": {
-        "buys": 28280,
-        "sells": 28842
+        "buys": 29851,
+        "sells": 30122
       },
-      "fdv_usd": 5595069,
-      "total_reserve_in_usd": 300181.99,
+      "fdv_usd": 5003901,
+      "total_reserve_in_usd": 283259.34,
       "tags": [],
       "first_signal": {
         "timestamp": 1753415895,
@@ -210,8 +210,18 @@
       },
       "metrics": {
         "uniqueWallets": 4,
-        "inflow24h": 4535.789984847743,
+        "inflow24h": -591.3720491317708,
         "trades": [
+          {
+            "timestamp": "2025-07-25T05:56:48.000Z",
+            "type": "SELL",
+            "amount": 976047.673678,
+            "usdValue": 5127.162033979512,
+            "wallet": {
+              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+              "name": "DNF 哥"
+            }
+          },
           {
             "timestamp": "2025-07-25T04:34:12.000Z",
             "type": "SELL",
@@ -356,6 +366,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+          "name": "DNF 哥",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "oha3mwwm2tqWRouJ2KGUiz4Vz9FCRcPm1fApm87bonk",
+              "balance": 7157682.940306,
+              "token_price": 0.005003,
+              "token_decimals": 6,
+              "token_symbol": "Bonkyo",
+              "token_name": "Bonkyo",
+              "value": 35809.887750350914
+            }
+          ]
+        },
+        {
           "address": "GeZHejJJJ7631AHAaoEfSmmL7CwhRNPH81FkawEfN7N9",
           "name": "UBC7x",
           "score": 2,
@@ -363,27 +389,11 @@
             {
               "token_address": "oha3mwwm2tqWRouJ2KGUiz4Vz9FCRcPm1fApm87bonk",
               "balance": 0,
-              "token_price": 0.005595,
+              "token_price": 0.005003,
               "token_decimals": 6,
               "token_symbol": "Bonkyo",
               "token_name": "Bonkyo",
               "value": 0
-            }
-          ]
-        },
-        {
-          "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-          "name": "DNF 哥",
-          "score": 3,
-          "tokens": [
-            {
-              "token_address": "oha3mwwm2tqWRouJ2KGUiz4Vz9FCRcPm1fApm87bonk",
-              "balance": 8133730.613984,
-              "token_price": 0.005595,
-              "token_decimals": 6,
-              "token_symbol": "Bonkyo",
-              "token_name": "Bonkyo",
-              "value": 45508.22278524048
             }
           ]
         },
@@ -395,11 +405,11 @@
             {
               "token_address": "oha3mwwm2tqWRouJ2KGUiz4Vz9FCRcPm1fApm87bonk",
               "balance": 5726136.047572,
-              "token_price": 0.005595,
+              "token_price": 0.005003,
               "token_decimals": 6,
               "token_symbol": "Bonkyo",
               "token_name": "Bonkyo",
-              "value": 32037.73118616534
+              "value": 28647.858646002715
             }
           ]
         },
@@ -411,11 +421,11 @@
             {
               "token_address": "oha3mwwm2tqWRouJ2KGUiz4Vz9FCRcPm1fApm87bonk",
               "balance": 18829800.185919,
-              "token_price": 0.005595,
+              "token_price": 0.005003,
               "token_decimals": 6,
               "token_symbol": "Bonkyo",
               "token_name": "Bonkyo",
-              "value": 105352.73204021681
+              "value": 94205.49033015275
             }
           ]
         }
@@ -431,21 +441,21 @@
       "website": "",
       "twitter": " https://x.com/JohnPorkftw",
       "holder": 2097,
-      "market_cap": 2520236,
-      "price": 0.002521,
-      "price_change_24h": 6885,
-      "volume_24h": 6760003.95,
+      "market_cap": 2454213,
+      "price": 0.002455,
+      "price_change_24h": 6702,
+      "volume_24h": 6785428.11,
       "pool_address": "solana_6kbNbdRpucEStt1V9vTmhB52kw6ZBv3Uf9iS9DWrhPBu",
       "ath": 0.00251,
       "ath_timestamp": 1753422718,
       "dexId": "raydium",
       "pairAddress": "6kbNbdRpucEStt1V9vTmhB52kw6ZBv3Uf9iS9DWrhPBu",
       "txns_24h": {
-        "buys": 10379,
-        "sells": 8847
+        "buys": 10427,
+        "sells": 8891
       },
-      "fdv_usd": 2520236,
-      "total_reserve_in_usd": 268337.05,
+      "fdv_usd": 2454213,
+      "total_reserve_in_usd": 264260.89,
       "tags": [],
       "first_signal": {
         "timestamp": 1753404560,
@@ -546,11 +556,11 @@
             {
               "token_address": "CVGBG44dKpUFQBANot9jY9KQ68QCBXAwd4sf7BJxpump",
               "balance": 4900813.991861,
-              "token_price": 0.002521,
+              "token_price": 0.002455,
               "token_decimals": 6,
               "token_symbol": "PORK",
               "token_name": "John Pork",
-              "value": 12354.95207348158
+              "value": 12031.498350018755
             }
           ]
         },
@@ -562,11 +572,11 @@
             {
               "token_address": "CVGBG44dKpUFQBANot9jY9KQ68QCBXAwd4sf7BJxpump",
               "balance": 2891625.983488,
-              "token_price": 0.002521,
+              "token_price": 0.002455,
               "token_decimals": 6,
               "token_symbol": "PORK",
               "token_name": "John Pork",
-              "value": 7289.789104373247
+              "value": 7098.941789463041
             }
           ]
         },
@@ -578,11 +588,11 @@
             {
               "token_address": "CVGBG44dKpUFQBANot9jY9KQ68QCBXAwd4sf7BJxpump",
               "balance": 3202014.597106,
-              "token_price": 0.002521,
+              "token_price": 0.002455,
               "token_decimals": 6,
               "token_symbol": "PORK",
               "token_name": "John Pork",
-              "value": 8072.278799304225
+              "value": 7860.945835895231
             }
           ]
         },
@@ -594,11 +604,11 @@
             {
               "token_address": "CVGBG44dKpUFQBANot9jY9KQ68QCBXAwd4sf7BJxpump",
               "balance": 9978040.080972,
-              "token_price": 0.002521,
+              "token_price": 0.002455,
               "token_decimals": 6,
               "token_symbol": "PORK",
               "token_name": "John Pork",
-              "value": 25154.639044130407
+              "value": 24496.088398786258
             }
           ]
         }
@@ -614,21 +624,21 @@
       "website": "https://moonshot.com/iUdvUaxyRHh8PYVcmkgBpSJu5evpW6jsSLv8RCpmoon",
       "twitter": "",
       "holder": 4968,
-      "market_cap": 1862160,
-      "price": 0.001862,
-      "price_change_24h": 12.65,
-      "volume_24h": 461830.3,
+      "market_cap": 1938836,
+      "price": 0.001938,
+      "price_change_24h": 13.73,
+      "volume_24h": 464178.3,
       "pool_address": "solana_HT2vcgEJnZ1FBQbumgss977VcxoyffFknQ5gC6oh3bBa",
       "ath": 0.0028276587409346004,
       "ath_timestamp": 1752796800,
       "dexId": "meteora",
       "pairAddress": "HT2vcgEJnZ1FBQbumgss977VcxoyffFknQ5gC6oh3bBa",
       "txns_24h": {
-        "buys": 1481,
-        "sells": 1228
+        "buys": 1480,
+        "sells": 1223
       },
-      "fdv_usd": 1862160,
-      "total_reserve_in_usd": 181008.93,
+      "fdv_usd": 1938836,
+      "total_reserve_in_usd": 184670.29,
       "tags": [
         "moonshot"
       ],
@@ -661,11 +671,11 @@
             {
               "token_address": "iUdvUaxyRHh8PYVcmkgBpSJu5evpW6jsSLv8RCpmoon",
               "balance": 7603053.8498,
-              "token_price": 0.001862,
+              "token_price": 0.001938,
               "token_decimals": 6,
               "token_symbol": "WORTHLESS",
               "token_name": "Worthless Coin",
-              "value": 14156.8862683276
+              "value": 14734.7183609124
             }
           ]
         }
@@ -681,21 +691,21 @@
       "website": "https://x.com/i/communities/1945150057063571741",
       "twitter": "https://x.com/drilledtrader/status/1945150812532900322",
       "holder": 1925,
-      "market_cap": 1420986,
-      "price": 0.00142,
-      "price_change_24h": -31.11,
-      "volume_24h": 3450020.1,
+      "market_cap": 1390311,
+      "price": 0.00139,
+      "price_change_24h": -22.03,
+      "volume_24h": 3376131.86,
       "pool_address": "solana_DpawppCceYB99WnNcoQSMGexauhnMQfxE79MnNvVtpHC",
       "ath": 0.0032646584397913697,
       "ath_timestamp": 1753315200,
       "dexId": "raydium",
       "pairAddress": "DpawppCceYB99WnNcoQSMGexauhnMQfxE79MnNvVtpHC",
       "txns_24h": {
-        "buys": 7898,
-        "sells": 7272
+        "buys": 7735,
+        "sells": 7136
       },
-      "fdv_usd": 1420986,
-      "total_reserve_in_usd": 171466.59,
+      "fdv_usd": 1390311,
+      "total_reserve_in_usd": 169235.79,
       "tags": [],
       "first_signal": {
         "timestamp": 1753242642,
@@ -806,11 +816,11 @@
             {
               "token_address": "7tAnusL3srXjzEriVL86a23KgwDZKXJTZ2ezEUubonk",
               "balance": 8521358.709551,
-              "token_price": 0.00142,
+              "token_price": 0.00139,
               "token_decimals": 6,
               "token_symbol": "AI",
               "token_name": "Artificial Inu",
-              "value": 12100.329367562419
+              "value": 11844.688606275888
             }
           ]
         },
@@ -822,11 +832,11 @@
             {
               "token_address": "7tAnusL3srXjzEriVL86a23KgwDZKXJTZ2ezEUubonk",
               "balance": 10644641.495682,
-              "token_price": 0.00142,
+              "token_price": 0.00139,
               "token_decimals": 6,
               "token_symbol": "AI",
               "token_name": "Artificial Inu",
-              "value": 15115.39092386844
+              "value": 14796.05167899798
             }
           ]
         },
@@ -838,7 +848,7 @@
             {
               "token_address": "7tAnusL3srXjzEriVL86a23KgwDZKXJTZ2ezEUubonk",
               "balance": 0,
-              "token_price": 0.00142,
+              "token_price": 0.00139,
               "token_decimals": 6,
               "token_symbol": "AI",
               "token_name": "Artificial Inu",
@@ -854,11 +864,11 @@
             {
               "token_address": "7tAnusL3srXjzEriVL86a23KgwDZKXJTZ2ezEUubonk",
               "balance": 1836444.403692,
-              "token_price": 0.00142,
+              "token_price": 0.00139,
               "token_decimals": 6,
               "token_symbol": "AI",
               "token_name": "Artificial Inu",
-              "value": 2607.7510532426404
+              "value": 2552.65772113188
             }
           ]
         }
@@ -874,21 +884,21 @@
       "website": "",
       "twitter": "https://x.com/elonmusk/status/1946180575301439856",
       "holder": 3487,
-      "market_cap": 3450947,
-      "price": 0.00345,
-      "price_change_24h": 181,
-      "volume_24h": 8959229.02,
+      "market_cap": 3480064,
+      "price": 0.00348,
+      "price_change_24h": 185,
+      "volume_24h": 9004469.64,
       "pool_address": "solana_5ZwUDk2H8RUDDwspu1rPo8rPUikmCorMeWk25LWYqGTR",
       "ath": 0.0049914651848438135,
       "ath_timestamp": 1753401600,
       "dexId": "raydium",
       "pairAddress": "5ZwUDk2H8RUDDwspu1rPo8rPUikmCorMeWk25LWYqGTR",
       "txns_24h": {
-        "buys": 14288,
-        "sells": 14833
+        "buys": 14330,
+        "sells": 14933
       },
-      "fdv_usd": 3450947,
-      "total_reserve_in_usd": 276372.19,
+      "fdv_usd": 3480064,
+      "total_reserve_in_usd": 277006.44,
       "tags": [],
       "first_signal": {
         "timestamp": 1753357797,
@@ -1059,11 +1069,11 @@
             {
               "token_address": "EuU9Vh37eKDdUnZkUfMZLGCcBqwFYpr1E6X3ZwUxhvgm",
               "balance": 5046878.288143,
-              "token_price": 0.00345,
+              "token_price": 0.00348,
               "token_decimals": 6,
               "token_symbol": "IMAGINE",
               "token_name": "IMAGINE",
-              "value": 17411.73009409335
+              "value": 17563.13644273764
             }
           ]
         },
@@ -1075,7 +1085,7 @@
             {
               "token_address": "EuU9Vh37eKDdUnZkUfMZLGCcBqwFYpr1E6X3ZwUxhvgm",
               "balance": 0,
-              "token_price": 0.00345,
+              "token_price": 0.00348,
               "token_decimals": 6,
               "token_symbol": "IMAGINE",
               "token_name": "IMAGINE",
@@ -1091,11 +1101,11 @@
             {
               "token_address": "EuU9Vh37eKDdUnZkUfMZLGCcBqwFYpr1E6X3ZwUxhvgm",
               "balance": 4083744.95467,
-              "token_price": 0.00345,
+              "token_price": 0.00348,
               "token_decimals": 6,
               "token_symbol": "IMAGINE",
               "token_name": "IMAGINE",
-              "value": 14088.9200936115
+              "value": 14211.4324422516
             }
           ]
         }
@@ -1111,21 +1121,21 @@
       "website": "https://www.tiktok.com/music/Jet2-Advert-7398162320411429664",
       "twitter": "",
       "holder": 2761,
-      "market_cap": 1436836,
-      "price": 0.001436,
-      "price_change_24h": -53.27,
-      "volume_24h": 4451504.2,
+      "market_cap": 1374320,
+      "price": 0.001374,
+      "price_change_24h": -45.11,
+      "volume_24h": 4396701.36,
       "pool_address": "solana_D6bmarrDVAqxmwP9TxfgQb4aor93S126hL9oV5ziCcdC",
       "ath": 0.003684418397943111,
       "ath_timestamp": 1753315200,
       "dexId": "raydium",
       "pairAddress": "D6bmarrDVAqxmwP9TxfgQb4aor93S126hL9oV5ziCcdC",
       "txns_24h": {
-        "buys": 10560,
-        "sells": 9904
+        "buys": 10448,
+        "sells": 9777
       },
-      "fdv_usd": 1436836,
-      "total_reserve_in_usd": 171262.34,
+      "fdv_usd": 1374320,
+      "total_reserve_in_usd": 167153.06,
       "tags": [],
       "first_signal": {
         "timestamp": 1752489406,
@@ -1133,7 +1143,7 @@
       },
       "metrics": {
         "uniqueWallets": 3,
-        "inflow24h": -5556.277874640949,
+        "inflow24h": -2249.3003489174002,
         "trades": [
           {
             "timestamp": "2025-07-24T17:38:26.000Z",
@@ -1184,16 +1194,6 @@
               "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
               "name": "DNF 哥"
             }
-          },
-          {
-            "timestamp": "2025-07-24T06:01:38.000Z",
-            "type": "SELL",
-            "amount": 1228766.090199,
-            "usdValue": 3306.977525723549,
-            "wallet": {
-              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-              "name": "DNF 哥"
-            }
           }
         ]
       },
@@ -1206,11 +1206,11 @@
             {
               "token_address": "Bf5uwQqUmtHLPYmGvs4z3Y56QtXgv6ApwQWo4aVrbonk",
               "balance": 11711714.432219,
-              "token_price": 0.001436,
+              "token_price": 0.001374,
               "token_decimals": 6,
               "token_symbol": "JET2",
               "token_name": "Jet2Holidays",
-              "value": 16818.021924666486
+              "value": 16091.895629868906
             }
           ]
         },
@@ -1222,11 +1222,11 @@
             {
               "token_address": "Bf5uwQqUmtHLPYmGvs4z3Y56QtXgv6ApwQWo4aVrbonk",
               "balance": 411658.288613,
-              "token_price": 0.001436,
+              "token_price": 0.001374,
               "token_decimals": 6,
               "token_symbol": "JET2",
               "token_name": "Jet2Holidays",
-              "value": 591.141302448268
+              "value": 565.6184885542621
             }
           ]
         },
@@ -1238,7 +1238,7 @@
             {
               "token_address": "Bf5uwQqUmtHLPYmGvs4z3Y56QtXgv6ApwQWo4aVrbonk",
               "balance": 0,
-              "token_price": 0.001436,
+              "token_price": 0.001374,
               "token_decimals": 6,
               "token_symbol": "JET2",
               "token_name": "Jet2Holidays",
@@ -1258,21 +1258,21 @@
       "website": "",
       "twitter": "",
       "holder": 2242,
-      "market_cap": 380845,
-      "price": 0.0003808,
-      "price_change_24h": 413,
-      "volume_24h": 13426486,
+      "market_cap": 362618,
+      "price": 0.0003626,
+      "price_change_24h": 388,
+      "volume_24h": 13432974.79,
       "pool_address": "solana_8WyTMp84cFL5QUVZAm1XBx9PH9E1L8pyiZ78Uyf49opj",
       "ath": 0.0004453573706509165,
       "ath_timestamp": 1753401600,
       "dexId": "meteora",
       "pairAddress": "8WyTMp84cFL5QUVZAm1XBx9PH9E1L8pyiZ78Uyf49opj",
       "txns_24h": {
-        "buys": 27362,
-        "sells": 26393
+        "buys": 27403,
+        "sells": 26413
       },
-      "fdv_usd": 380845,
-      "total_reserve_in_usd": 362547.17,
+      "fdv_usd": 362618,
+      "total_reserve_in_usd": 360155.88,
       "tags": [],
       "first_signal": {
         "timestamp": 1753370830,
@@ -1393,11 +1393,11 @@
             {
               "token_address": "AJw67Tkzuryz5v8K1Qk5exNLm8NXr9AjV2cAvXDfu3Su",
               "balance": 210329.467862836,
-              "token_price": 0.0003808,
+              "token_price": 0.0003626,
               "token_decimals": 9,
               "token_symbol": "twinkle",
               "token_name": "twinkle twinkle",
-              "value": 80.09346136216794
+              "value": 76.26546504706432
             }
           ]
         },
@@ -1409,11 +1409,11 @@
             {
               "token_address": "AJw67Tkzuryz5v8K1Qk5exNLm8NXr9AjV2cAvXDfu3Su",
               "balance": 5934906.536933936,
-              "token_price": 0.0003808,
+              "token_price": 0.0003626,
               "token_decimals": 9,
               "token_symbol": "twinkle",
               "token_name": "twinkle twinkle",
-              "value": 2260.012409264443
+              "value": 2151.997110292245
             }
           ]
         },
@@ -1425,7 +1425,7 @@
             {
               "token_address": "AJw67Tkzuryz5v8K1Qk5exNLm8NXr9AjV2cAvXDfu3Su",
               "balance": 0,
-              "token_price": 0.0003808,
+              "token_price": 0.0003626,
               "token_decimals": 9,
               "token_symbol": "twinkle",
               "token_name": "twinkle twinkle",
