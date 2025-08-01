@@ -1,7 +1,129 @@
 {
   "success": true,
-  "timestamp": "2025-08-01T07:33:46.557Z",
+  "timestamp": "2025-08-01T07:48:38.683Z",
   "data": [
+    {
+      "address": "HUSTLFV3U5Km8u66rMQExh4nLy7unfKHedEXVK1WgSAG",
+      "symbol": "HUSTLE",
+      "name": "Agent Hustle",
+      "decimals": 9,
+      "icon": "https://ipfs.io/ipfs/bafybeidq3xdrhyckqqddolbstj4kcaxirjlpvgymjudk7otgj56u5dixf4",
+      "created_time": 1751382721,
+      "website": "https://agenthustle.ai/",
+      "twitter": "https://x.com/AgentHustleAI",
+      "holder": 2717,
+      "market_cap": 20194531,
+      "price": 0.02019,
+      "price_change_24h": -40.19,
+      "volume_24h": 2398221.28,
+      "pool_address": "solana_Hxo1wRCrdeWeK8L2j6rxSwNoLUmEj2mwEh38GAJxTw7Y",
+      "ath": 0.03790952638113096,
+      "ath_timestamp": 1753990276,
+      "ath_pool": "Hxo1wRCrdeWeK8L2j6rxSwNoLUmEj2mwEh38GAJxTw7Y",
+      "dexId": "raydium",
+      "pairAddress": "Hxo1wRCrdeWeK8L2j6rxSwNoLUmEj2mwEh38GAJxTw7Y",
+      "txns_24h": {
+        "buys": 3571,
+        "sells": 3415
+      },
+      "fdv_usd": 20194531,
+      "total_reserve_in_usd": 910760.79,
+      "tags": [],
+      "first_signal": {
+        "timestamp": 1753903876,
+        "price": 0.02763
+      },
+      "metrics": {
+        "uniqueWallets": 2,
+        "inflow24h": -5766.865725938341,
+        "trades": [
+          {
+            "timestamp": "2025-08-01T07:39:40.000Z",
+            "type": "BUY",
+            "amount": 83639.036409624,
+            "usdValue": 1682.3886840016007,
+            "wallet": {
+              "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
+              "name": "Wizard100x"
+            }
+          },
+          {
+            "timestamp": "2025-08-01T07:39:25.000Z",
+            "type": "BUY",
+            "amount": 84201.319264957,
+            "usdValue": 1682.3886840016007,
+            "wallet": {
+              "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
+              "name": "Wizard100x"
+            }
+          },
+          {
+            "timestamp": "2025-07-31T19:07:28.000Z",
+            "type": "SELL",
+            "amount": 70212.14016612,
+            "usdValue": 2015.3944904542961,
+            "wallet": {
+              "address": "FS3ydDNyxJAmfDy8n4nhhMGo9aWaL7ZTmztX1WqHaeYw",
+              "name": "TheGoat"
+            }
+          },
+          {
+            "timestamp": "2025-07-31T13:58:52.000Z",
+            "type": "SELL",
+            "amount": 100000,
+            "usdValue": 3605.029914443443,
+            "wallet": {
+              "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
+              "name": "Wizard100x"
+            }
+          },
+          {
+            "timestamp": "2025-07-31T13:57:52.000Z",
+            "type": "SELL",
+            "amount": 100000,
+            "usdValue": 3511.2186890438034,
+            "wallet": {
+              "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
+              "name": "Wizard100x"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
+          "name": "Wizard100x",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "HUSTLFV3U5Km8u66rMQExh4nLy7unfKHedEXVK1WgSAG",
+              "balance": 280660.724960505,
+              "token_price": 0.02019,
+              "token_decimals": 9,
+              "token_symbol": "HUSTLE",
+              "token_name": "Agent Hustle",
+              "value": 5666.540036952595
+            }
+          ]
+        },
+        {
+          "address": "FS3ydDNyxJAmfDy8n4nhhMGo9aWaL7ZTmztX1WqHaeYw",
+          "name": "TheGoat",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "HUSTLFV3U5Km8u66rMQExh4nLy7unfKHedEXVK1WgSAG",
+              "balance": 70212.14016612,
+              "token_price": 0.02019,
+              "token_decimals": 9,
+              "token_symbol": "HUSTLE",
+              "token_name": "Agent Hustle",
+              "value": 1417.583109953963
+            }
+          ]
+        }
+      ]
+    },
     {
       "address": "H8xQ6poBjB9DTPMDTKWzWPrnxu4bDEhybxiouF8Ppump",
       "symbol": "Tokabu",
@@ -12,10 +134,10 @@
       "website": "https://x.com/TokabuTheSpirit",
       "twitter": "https://x.com/TokabuTheSpirit",
       "holder": 3579,
-      "market_cap": 17546282,
-      "price": 0.01756,
-      "price_change_24h": -28.08,
-      "volume_24h": 5207650.92,
+      "market_cap": 17449288,
+      "price": 0.01747,
+      "price_change_24h": -27.65,
+      "volume_24h": 5219245.53,
       "pool_address": "solana_Ekv9HdumWqnXZgq5G6ge6bk1ZRHKXYC2WnSFL94sQmLJ",
       "ath": 0.028745600861513513,
       "ath_timestamp": 1753566440,
@@ -23,11 +145,11 @@
       "dexId": "pumpswap",
       "pairAddress": "Ekv9HdumWqnXZgq5G6ge6bk1ZRHKXYC2WnSFL94sQmLJ",
       "txns_24h": {
-        "buys": 7123,
-        "sells": 7272
+        "buys": 7120,
+        "sells": 7299
       },
-      "fdv_usd": 17546282,
-      "total_reserve_in_usd": 721984.77,
+      "fdv_usd": 17449288,
+      "total_reserve_in_usd": 720648.25,
       "tags": [
         "moonshot"
       ],
@@ -150,7 +272,7 @@
             {
               "token_address": "H8xQ6poBjB9DTPMDTKWzWPrnxu4bDEhybxiouF8Ppump",
               "balance": 0,
-              "token_price": 0.01756,
+              "token_price": 0.01747,
               "token_decimals": 6,
               "token_symbol": "Tokabu",
               "token_name": "The Spirit of Gambling",
@@ -166,7 +288,7 @@
             {
               "token_address": "H8xQ6poBjB9DTPMDTKWzWPrnxu4bDEhybxiouF8Ppump",
               "balance": 0,
-              "token_price": 0.01756,
+              "token_price": 0.01747,
               "token_decimals": 6,
               "token_symbol": "Tokabu",
               "token_name": "The Spirit of Gambling",
@@ -186,10 +308,10 @@
       "website": "",
       "twitter": "",
       "holder": 144446,
-      "market_cap": 302090928,
-      "price": 0.3082,
-      "price_change_24h": -9.03,
-      "volume_24h": 1136417.57,
+      "market_cap": 305112142,
+      "price": 0.3113,
+      "price_change_24h": -8.13,
+      "volume_24h": 1147421.32,
       "pool_address": "solana_FRhB8L7Y9Qq41qZXYLtC2nw8An1RJfLLxRF2x9RwLLMo",
       "ath": 0.31321584580477396,
       "ath_timestamp": 1754085498,
@@ -197,11 +319,11 @@
       "dexId": "orca",
       "pairAddress": "AHTTzwf3GmVMJdxWM8v2MSxyjZj8rQR6hyAC3g9477Yj",
       "txns_24h": {
-        "buys": 11196,
-        "sells": 12007
+        "buys": 11273,
+        "sells": 12238
       },
-      "fdv_usd": 302090928,
-      "total_reserve_in_usd": 268473.23,
+      "fdv_usd": 305112142,
+      "total_reserve_in_usd": 270904.43,
       "tags": [
         "moonshot",
         "binanceAlpha"
@@ -235,7 +357,7 @@
             {
               "token_address": "7GCihgDB8fe6KNjn2MYtkzZcRjQy3t9GHdC8uHYmW2hr",
               "balance": 0,
-              "token_price": 0.3082,
+              "token_price": 0.3113,
               "token_decimals": 9,
               "token_symbol": "POPCAT",
               "token_name": "POPCAT",
@@ -255,10 +377,10 @@
       "website": "https://x.com/techdevnotes/status/1944706304594862217",
       "twitter": "https://x.com/techdevnotes/status/1944706304594862217",
       "holder": 22285,
-      "market_cap": 33673429,
+      "market_cap": 33673153,
       "price": 0.03367,
-      "price_change_24h": -23.32,
-      "volume_24h": 4498982.02,
+      "price_change_24h": -21.22,
+      "volume_24h": 4470990.67,
       "pool_address": "solana_8ujpQXxnnWvRohU2oCe3eaSzoL7paU2uj3fEn4Zp72US",
       "ath": 0.08960221199105006,
       "ath_timestamp": 1752600577,
@@ -266,11 +388,11 @@
       "dexId": "raydium",
       "pairAddress": "8ujpQXxnnWvRohU2oCe3eaSzoL7paU2uj3fEn4Zp72US",
       "txns_24h": {
-        "buys": 10124,
-        "sells": 8404
+        "buys": 9898,
+        "sells": 8224
       },
-      "fdv_usd": 33673429,
-      "total_reserve_in_usd": 1182959.94,
+      "fdv_usd": 33673153,
+      "total_reserve_in_usd": 1182756.32,
       "tags": [
         "moonshot"
       ],
