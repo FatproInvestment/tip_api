@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-08-03T23:45:56.172Z",
+  "timestamp": "2025-08-03T23:54:05.364Z",
   "data": [
     {
       "address": "8Q194jXJLBdr7Dp5UYnHiv6ThELp33ZGKRyzpt5kjups",
@@ -12,10 +12,10 @@
       "website": "https://jup.ag/studio/8Q194jXJLBdr7Dp5UYnHiv6ThELp33ZGKRyzpt5kjups",
       "twitter": "https://x.com/playimpulse",
       "holder": 1612,
-      "market_cap": 872065,
-      "price": 0.000872,
-      "price_change_24h": 1014,
-      "volume_24h": 3674197.73,
+      "market_cap": 748653,
+      "price": 0.0007486,
+      "price_change_24h": 856,
+      "volume_24h": 3686043.16,
       "pool_address": "solana_7SPgpSJFs4TJTPTJgBzrAEjLjEeNB7xojxhdP5smfLWZ",
       "ath": 0.0009068986389698388,
       "ath_timestamp": 1754344461,
@@ -23,11 +23,11 @@
       "dexId": "meteora",
       "pairAddress": "7SPgpSJFs4TJTPTJgBzrAEjLjEeNB7xojxhdP5smfLWZ",
       "txns_24h": {
-        "buys": 13541,
-        "sells": 11869
+        "buys": 13606,
+        "sells": 11897
       },
-      "fdv_usd": 872065,
-      "total_reserve_in_usd": 146876.65,
+      "fdv_usd": 748653,
+      "total_reserve_in_usd": 138140.95,
       "tags": [],
       "first_signal": {
         "timestamp": 1754258061,
@@ -35,8 +35,18 @@
       },
       "metrics": {
         "uniqueWallets": 4,
-        "inflow24h": 12584.187665885522,
+        "inflow24h": 10644.240908559339,
         "trades": [
+          {
+            "timestamp": "2025-08-03T23:49:14.000Z",
+            "type": "SELL",
+            "amount": 2617874.643889,
+            "usdValue": 1939.946757326183,
+            "wallet": {
+              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+              "name": "OGmoodeng"
+            }
+          },
           {
             "timestamp": "2025-08-03T21:53:58.000Z",
             "type": "BUY",
@@ -131,6 +141,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+          "name": "OGmoodeng",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "8Q194jXJLBdr7Dp5UYnHiv6ThELp33ZGKRyzpt5kjups",
+              "balance": 0,
+              "token_price": 0.0007486,
+              "token_decimals": 6,
+              "token_symbol": "IMPULSE",
+              "token_name": "8Q194jXJLBdr7Dp5UYnHiv6ThELp33ZGKRyzpt5kjups",
+              "value": 0
+            }
+          ]
+        },
+        {
           "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
           "name": "cooker",
           "score": 2,
@@ -138,11 +164,11 @@
             {
               "token_address": "8Q194jXJLBdr7Dp5UYnHiv6ThELp33ZGKRyzpt5kjups",
               "balance": 5645850.334744,
-              "token_price": 0.000872,
+              "token_price": 0.0007486,
               "token_decimals": 6,
               "token_symbol": "IMPULSE",
               "token_name": "8Q194jXJLBdr7Dp5UYnHiv6ThELp33ZGKRyzpt5kjups",
-              "value": 4923.181491896768
+              "value": 4226.483560589359
             }
           ]
         },
@@ -154,27 +180,11 @@
             {
               "token_address": "8Q194jXJLBdr7Dp5UYnHiv6ThELp33ZGKRyzpt5kjups",
               "balance": 0,
-              "token_price": 0.000872,
+              "token_price": 0.0007486,
               "token_decimals": 6,
               "token_symbol": "IMPULSE",
               "token_name": "8Q194jXJLBdr7Dp5UYnHiv6ThELp33ZGKRyzpt5kjups",
               "value": 0
-            }
-          ]
-        },
-        {
-          "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-          "name": "OGmoodeng",
-          "score": 2,
-          "tokens": [
-            {
-              "token_address": "8Q194jXJLBdr7Dp5UYnHiv6ThELp33ZGKRyzpt5kjups",
-              "balance": 2617874.643889,
-              "token_price": 0.000872,
-              "token_decimals": 6,
-              "token_symbol": "IMPULSE",
-              "token_name": "8Q194jXJLBdr7Dp5UYnHiv6ThELp33ZGKRyzpt5kjups",
-              "value": 2282.7866894712083
             }
           ]
         },
@@ -186,11 +196,11 @@
             {
               "token_address": "8Q194jXJLBdr7Dp5UYnHiv6ThELp33ZGKRyzpt5kjups",
               "balance": 2416974.123733,
-              "token_price": 0.000872,
+              "token_price": 0.0007486,
               "token_decimals": 6,
               "token_symbol": "IMPULSE",
               "token_name": "8Q194jXJLBdr7Dp5UYnHiv6ThELp33ZGKRyzpt5kjups",
-              "value": 2107.601435895176
+              "value": 1809.3468290265237
             }
           ]
         }
