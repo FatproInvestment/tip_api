@@ -1,7 +1,101 @@
 {
   "success": true,
-  "timestamp": "2025-08-06T22:10:38.409Z",
+  "timestamp": "2025-08-06T22:36:09.546Z",
   "data": [
+    {
+      "address": "FtUEW73K6vEYHfbkfpdBZfWpxgQar2HipGdbutEhpump",
+      "symbol": "titcoin",
+      "name": "titcoin",
+      "decimals": 6,
+      "icon": "https://ipfs.io/ipfs/QmdnAHMWTbxfRkwdf1QweP8rJL1SCe2XbjFTFzCCjw5oAD",
+      "created_time": 1741280102,
+      "website": "",
+      "twitter": "https://x.com/thetitcoin?s=21",
+      "holder": 21796,
+      "market_cap": 9607940,
+      "price": 0.01011,
+      "price_change_24h": 17.17,
+      "volume_24h": 1923588.67,
+      "pool_address": "solana_4qQM2x2pfhU3ToscAqkQxTfhTm7DmJe8LGWU9kvqeNH4",
+      "ath": 0.0641705895960365,
+      "ath_timestamp": 1747468881,
+      "ath_pool": "4qQM2x2pfhU3ToscAqkQxTfhTm7DmJe8LGWU9kvqeNH4",
+      "dexId": "raydium",
+      "pairAddress": "4qQM2x2pfhU3ToscAqkQxTfhTm7DmJe8LGWU9kvqeNH4",
+      "txns_24h": {
+        "buys": 3081,
+        "sells": 2782
+      },
+      "fdv_usd": 10119035,
+      "total_reserve_in_usd": 1460339.84,
+      "tags": [
+        "moonshot"
+      ],
+      "first_signal": {
+        "timestamp": 1747382481,
+        "price": 0.047320846475273896
+      },
+      "metrics": {
+        "uniqueWallets": 2,
+        "inflow24h": -3938.3780547716788,
+        "trades": [
+          {
+            "timestamp": "2025-08-06T22:22:58.000Z",
+            "type": "SELL",
+            "amount": 462041.264493,
+            "usdValue": 4688.378054771679,
+            "wallet": {
+              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+              "name": "DNF 哥"
+            }
+          },
+          {
+            "timestamp": "2025-08-06T19:49:49.000Z",
+            "type": "BUY",
+            "amount": 69636.404707,
+            "usdValue": 750,
+            "wallet": {
+              "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+              "name": "Chillguy32x"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+          "name": "DNF 哥",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "FtUEW73K6vEYHfbkfpdBZfWpxgQar2HipGdbutEhpump",
+              "balance": 7238646.477069,
+              "token_price": 0.01011,
+              "token_decimals": 6,
+              "token_symbol": "titcoin",
+              "token_name": "titcoin",
+              "value": 73182.71588316758
+            }
+          ]
+        },
+        {
+          "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+          "name": "Chillguy32x",
+          "score": 1,
+          "tokens": [
+            {
+              "token_address": "FtUEW73K6vEYHfbkfpdBZfWpxgQar2HipGdbutEhpump",
+              "balance": 341077.034158,
+              "token_price": 0.01011,
+              "token_decimals": 6,
+              "token_symbol": "titcoin",
+              "token_name": "titcoin",
+              "value": 3448.28881533738
+            }
+          ]
+        }
+      ]
+    },
     {
       "address": "5zCETicUCJqJ5Z3wbfFPZqtSpHPYqnggs1wX7ZRpump",
       "symbol": "SPARK",
@@ -12,10 +106,10 @@
       "website": "https://www.illusionoflife.inc/",
       "twitter": "https://x.com/KevinAFischer/status/1952521371134959800?t=ibE2dPp-iSbm77Tr76AnNA&s=19",
       "holder": 7941,
-      "market_cap": 3099028,
-      "price": 0.003099,
-      "price_change_24h": -60.2,
-      "volume_24h": 27661271.62,
+      "market_cap": 2707242,
+      "price": 0.002707,
+      "price_change_24h": -83.64,
+      "volume_24h": 23005612.98,
       "pool_address": "solana_3mgxf9VVDd82E75bovuAJPS1wYmJoZCAo4MB6zpQDjnv",
       "ath": 0.018427131202733444,
       "ath_timestamp": 1754470813,
@@ -23,20 +117,30 @@
       "dexId": "pumpswap",
       "pairAddress": "3mgxf9VVDd82E75bovuAJPS1wYmJoZCAo4MB6zpQDjnv",
       "txns_24h": {
-        "buys": 46633,
-        "sells": 42722
+        "buys": 41934,
+        "sells": 37654
       },
-      "fdv_usd": 3099028,
-      "total_reserve_in_usd": 276964.6,
+      "fdv_usd": 2707242,
+      "total_reserve_in_usd": 259426.25,
       "tags": [],
       "first_signal": {
         "timestamp": 1754384413,
         "price": 0.0009275
       },
       "metrics": {
-        "uniqueWallets": 9,
-        "inflow24h": -82809.88552277004,
+        "uniqueWallets": 8,
+        "inflow24h": -110939.9858194039,
         "trades": [
+          {
+            "timestamp": "2025-08-06T22:25:59.000Z",
+            "type": "SELL",
+            "amount": 347421.860515,
+            "usdValue": 895.1341666450547,
+            "wallet": {
+              "address": "GeZHejJJJ7631AHAaoEfSmmL7CwhRNPH81FkawEfN7N9",
+              "name": "UBC7x"
+            }
+          },
           {
             "timestamp": "2025-08-06T22:07:06.000Z",
             "type": "SELL",
@@ -436,40 +540,26 @@
               "address": "3DKfZz4iHgu42LGu3ttQxqz6u4m5z9ptuar8pBsRqkKC",
               "name": "ai16zWhale"
             }
-          },
-          {
-            "timestamp": "2025-08-05T22:28:31.000Z",
-            "type": "BUY",
-            "amount": 173188.487141,
-            "usdValue": 3000.2100141587725,
-            "wallet": {
-              "address": "FbBba8W8EgHVkiQHKr5WFL689uohUdQcH5UZA3FasiK8",
-              "name": "Midcurve"
-            }
-          },
-          {
-            "timestamp": "2025-08-05T22:18:24.000Z",
-            "type": "BUY",
-            "amount": 1194302.548277,
-            "usdValue": 16101.70370772745,
-            "wallet": {
-              "address": "8zFZHuSRuDpuAR7J6FzwyF3vKNx4CVW3DFHJerQhc7Zd",
-              "name": "Pow"
-            }
-          },
-          {
-            "timestamp": "2025-08-05T22:15:39.000Z",
-            "type": "BUY",
-            "amount": 768680.627303,
-            "usdValue": 8133.052408102567,
-            "wallet": {
-              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-              "name": "DNF 哥"
-            }
           }
         ]
       },
       "walletPortfolios": [
+        {
+          "address": "GeZHejJJJ7631AHAaoEfSmmL7CwhRNPH81FkawEfN7N9",
+          "name": "UBC7x",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "5zCETicUCJqJ5Z3wbfFPZqtSpHPYqnggs1wX7ZRpump",
+              "balance": 0,
+              "token_price": 0.002707,
+              "token_decimals": 6,
+              "token_symbol": "SPARK",
+              "token_name": "Illusion of Life",
+              "value": 0
+            }
+          ]
+        },
         {
           "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
           "name": "凉粉小刀",
@@ -478,7 +568,7 @@
             {
               "token_address": "5zCETicUCJqJ5Z3wbfFPZqtSpHPYqnggs1wX7ZRpump",
               "balance": 0,
-              "token_price": 0.003099,
+              "token_price": 0.002707,
               "token_decimals": 6,
               "token_symbol": "SPARK",
               "token_name": "Illusion of Life",
@@ -494,7 +584,7 @@
             {
               "token_address": "5zCETicUCJqJ5Z3wbfFPZqtSpHPYqnggs1wX7ZRpump",
               "balance": 0,
-              "token_price": 0.003099,
+              "token_price": 0.002707,
               "token_decimals": 6,
               "token_symbol": "SPARK",
               "token_name": "Illusion of Life",
@@ -510,7 +600,7 @@
             {
               "token_address": "5zCETicUCJqJ5Z3wbfFPZqtSpHPYqnggs1wX7ZRpump",
               "balance": 0,
-              "token_price": 0.003099,
+              "token_price": 0.002707,
               "token_decimals": 6,
               "token_symbol": "SPARK",
               "token_name": "Illusion of Life",
@@ -526,7 +616,7 @@
             {
               "token_address": "5zCETicUCJqJ5Z3wbfFPZqtSpHPYqnggs1wX7ZRpump",
               "balance": 0,
-              "token_price": 0.003099,
+              "token_price": 0.002707,
               "token_decimals": 6,
               "token_symbol": "SPARK",
               "token_name": "Illusion of Life",
@@ -542,7 +632,7 @@
             {
               "token_address": "5zCETicUCJqJ5Z3wbfFPZqtSpHPYqnggs1wX7ZRpump",
               "balance": 0,
-              "token_price": 0.003099,
+              "token_price": 0.002707,
               "token_decimals": 6,
               "token_symbol": "SPARK",
               "token_name": "Illusion of Life",
@@ -558,7 +648,7 @@
             {
               "token_address": "5zCETicUCJqJ5Z3wbfFPZqtSpHPYqnggs1wX7ZRpump",
               "balance": 0,
-              "token_price": 0.003099,
+              "token_price": 0.002707,
               "token_decimals": 6,
               "token_symbol": "SPARK",
               "token_name": "Illusion of Life",
@@ -574,43 +664,11 @@
             {
               "token_address": "5zCETicUCJqJ5Z3wbfFPZqtSpHPYqnggs1wX7ZRpump",
               "balance": 2467527.192822,
-              "token_price": 0.003099,
+              "token_price": 0.002707,
               "token_decimals": 6,
               "token_symbol": "SPARK",
               "token_name": "Illusion of Life",
-              "value": 7646.866770555379
-            }
-          ]
-        },
-        {
-          "address": "FbBba8W8EgHVkiQHKr5WFL689uohUdQcH5UZA3FasiK8",
-          "name": "Midcurve",
-          "score": 0.5,
-          "tokens": [
-            {
-              "token_address": "5zCETicUCJqJ5Z3wbfFPZqtSpHPYqnggs1wX7ZRpump",
-              "balance": 173188.487141,
-              "token_price": 0.003099,
-              "token_decimals": 6,
-              "token_symbol": "SPARK",
-              "token_name": "Illusion of Life",
-              "value": 536.711121649959
-            }
-          ]
-        },
-        {
-          "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-          "name": "DNF 哥",
-          "score": 3,
-          "tokens": [
-            {
-              "token_address": "5zCETicUCJqJ5Z3wbfFPZqtSpHPYqnggs1wX7ZRpump",
-              "balance": 9732093.099602,
-              "token_price": 0.003099,
-              "token_decimals": 6,
-              "token_symbol": "SPARK",
-              "token_name": "Illusion of Life",
-              "value": 30159.756515666602
+              "value": 6679.596110969154
             }
           ]
         }
@@ -626,10 +684,10 @@
       "website": "https://knowyourmeme.com/memes/xd",
       "twitter": "https://x.com/i/communities/1952995772116676626",
       "holder": 2397,
-      "market_cap": 240169,
-      "price": 0.0002401,
-      "price_change_24h": 255,
-      "volume_24h": 6866819.56,
+      "market_cap": 288127,
+      "price": 0.0002881,
+      "price_change_24h": 325,
+      "volume_24h": 6911885.94,
       "pool_address": "solana_3FAxF5cBFwcreM7Qp8mR1vNaYwkLYBbdbzPfsUy9NYqW",
       "ath": 0.001191206599867411,
       "ath_timestamp": 1754553799,
@@ -637,11 +695,11 @@
       "dexId": "pumpswap",
       "pairAddress": "3FAxF5cBFwcreM7Qp8mR1vNaYwkLYBbdbzPfsUy9NYqW",
       "txns_24h": {
-        "buys": 33037,
-        "sells": 29349
+        "buys": 33215,
+        "sells": 29513
       },
-      "fdv_usd": 240169,
-      "total_reserve_in_usd": 63353.44,
+      "fdv_usd": 288127,
+      "total_reserve_in_usd": 69478.74,
       "tags": [],
       "first_signal": {
         "timestamp": 1754467399,
@@ -649,7 +707,7 @@
       },
       "metrics": {
         "uniqueWallets": 3,
-        "inflow24h": 8294.151684790424,
+        "inflow24h": 7483.479531546394,
         "trades": [
           {
             "timestamp": "2025-08-06T14:24:24.000Z",
@@ -1030,16 +1088,6 @@
               "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
               "name": "cooker"
             }
-          },
-          {
-            "timestamp": "2025-08-06T07:45:01.000Z",
-            "type": "BUY",
-            "amount": 6286517.243754,
-            "usdValue": 810.6721532440298,
-            "wallet": {
-              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-              "name": "cooker"
-            }
           }
         ]
       },
@@ -1052,7 +1100,7 @@
             {
               "token_address": "9Enb2cGtfYyAjCQedPUYd6Hfq2gkqzKH114KkDRZpump",
               "balance": 0,
-              "token_price": 0.0002401,
+              "token_price": 0.0002881,
               "token_decimals": 6,
               "token_symbol": "XD",
               "token_name": "XD",
@@ -1068,7 +1116,7 @@
             {
               "token_address": "9Enb2cGtfYyAjCQedPUYd6Hfq2gkqzKH114KkDRZpump",
               "balance": 0,
-              "token_price": 0.0002401,
+              "token_price": 0.0002881,
               "token_decimals": 6,
               "token_symbol": "XD",
               "token_name": "XD",
@@ -1084,11 +1132,11 @@
             {
               "token_address": "9Enb2cGtfYyAjCQedPUYd6Hfq2gkqzKH114KkDRZpump",
               "balance": 13281416.823146,
-              "token_price": 0.0002401,
+              "token_price": 0.0002881,
               "token_decimals": 6,
               "token_symbol": "XD",
               "token_name": "XD",
-              "value": 3188.868179237355
+              "value": 3826.3761867483627
             }
           ]
         }
@@ -1104,10 +1152,10 @@
       "website": "",
       "twitter": "",
       "holder": 63866,
-      "market_cap": 1200485968,
-      "price": 0.003391,
-      "price_change_24h": 6.51,
-      "volume_24h": 2355186.9,
+      "market_cap": 1225756397,
+      "price": 0.003462,
+      "price_change_24h": 8.92,
+      "volume_24h": 2386763.72,
       "pool_address": "solana_2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
       "ath": 0.006877386587816453,
       "ath_timestamp": 1752602114,
@@ -1115,11 +1163,11 @@
       "dexId": "orca",
       "pairAddress": "7eMnzvi48Nbz2yRaQrCWqfQ7awPNPfV3AboaejktyGMD",
       "txns_24h": {
-        "buys": 5746,
-        "sells": 6854
+        "buys": 5890,
+        "sells": 6867
       },
-      "fdv_usd": 3391167519,
-      "total_reserve_in_usd": 653722.33,
+      "fdv_usd": 3462552160,
+      "total_reserve_in_usd": 660161.92,
       "tags": [
         "moonshot",
         "binanceAlpha"
@@ -1153,11 +1201,11 @@
             {
               "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
               "balance": 5579674.974415,
-              "token_price": 0.003391,
+              "token_price": 0.003462,
               "token_decimals": 6,
               "token_symbol": "PUMP",
               "token_name": "Pump",
-              "value": 18920.677838241263
+              "value": 19316.83476142473
             }
           ]
         }
@@ -1173,10 +1221,10 @@
       "website": "",
       "twitter": "",
       "holder": 5321,
-      "market_cap": 10511030,
-      "price": 0.01051,
-      "price_change_24h": 126,
-      "volume_24h": 15354782.96,
+      "market_cap": 10429243,
+      "price": 0.01042,
+      "price_change_24h": 149,
+      "volume_24h": 15376587.86,
       "pool_address": "solana_GCgn1NEtxZaNRVfZFno1W1Br5VdvUg7MYSxDCgSRFSM4",
       "ath": 0.01571951619551833,
       "ath_timestamp": 1754431688,
@@ -1184,11 +1232,11 @@
       "dexId": "raydium",
       "pairAddress": "GCgn1NEtxZaNRVfZFno1W1Br5VdvUg7MYSxDCgSRFSM4",
       "txns_24h": {
-        "buys": 33683,
-        "sells": 31981
+        "buys": 33439,
+        "sells": 32095
       },
-      "fdv_usd": 10511030,
-      "total_reserve_in_usd": 448260.79,
+      "fdv_usd": 10429243,
+      "total_reserve_in_usd": 447179.1,
       "tags": [
         "moonshot"
       ],
@@ -1198,8 +1246,28 @@
       },
       "metrics": {
         "uniqueWallets": 3,
-        "inflow24h": 9922.681110956462,
+        "inflow24h": -2077.7805328132144,
         "trades": [
+          {
+            "timestamp": "2025-08-06T22:22:44.000Z",
+            "type": "SELL",
+            "amount": 421440.937635,
+            "usdValue": 4156.912535144514,
+            "wallet": {
+              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+              "name": "DNF 哥"
+            }
+          },
+          {
+            "timestamp": "2025-08-06T22:22:28.000Z",
+            "type": "SELL",
+            "amount": 780446.180805,
+            "usdValue": 7843.549108625161,
+            "wallet": {
+              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+              "name": "DNF 哥"
+            }
+          },
           {
             "timestamp": "2025-08-06T07:16:01.000Z",
             "type": "SELL",
@@ -1274,6 +1342,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+          "name": "DNF 哥",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "347k5f1WLRYe81roRcLBWDR6k3eCRunaqetQPW6pbonk",
+              "balance": 6602574.689616,
+              "token_price": 0.01042,
+              "token_decimals": 6,
+              "token_symbol": "LIZARD",
+              "token_name": "🦎",
+              "value": 68798.82826579873
+            }
+          ]
+        },
+        {
           "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
           "name": "凉粉小刀",
           "score": 2,
@@ -1281,7 +1365,7 @@
             {
               "token_address": "347k5f1WLRYe81roRcLBWDR6k3eCRunaqetQPW6pbonk",
               "balance": 0,
-              "token_price": 0.01051,
+              "token_price": 0.01042,
               "token_decimals": 6,
               "token_symbol": "LIZARD",
               "token_name": "🦎",
@@ -1297,27 +1381,11 @@
             {
               "token_address": "347k5f1WLRYe81roRcLBWDR6k3eCRunaqetQPW6pbonk",
               "balance": 15747675.716971,
-              "token_price": 0.01051,
+              "token_price": 0.01042,
               "token_decimals": 6,
               "token_symbol": "LIZARD",
               "token_name": "🦎",
-              "value": 165508.07178536523
-            }
-          ]
-        },
-        {
-          "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-          "name": "DNF 哥",
-          "score": 3,
-          "tokens": [
-            {
-              "token_address": "347k5f1WLRYe81roRcLBWDR6k3eCRunaqetQPW6pbonk",
-              "balance": 7804461.808056,
-              "token_price": 0.01051,
-              "token_decimals": 6,
-              "token_symbol": "LIZARD",
-              "token_name": "🦎",
-              "value": 82024.89360266856
+              "value": 164090.78097083783
             }
           ]
         }
@@ -1333,10 +1401,10 @@
       "website": "https://www.wired.com/story/edward-coristine-tesla-sexy-path-networks-doge/",
       "twitter": "https://x.com/DavidSacks/status/1887670708571893960",
       "holder": 10082,
-      "market_cap": 1343167,
-      "price": 0.001343,
-      "price_change_24h": 30.08,
-      "volume_24h": 7248298.46,
+      "market_cap": 1273490,
+      "price": 0.001273,
+      "price_change_24h": -8.47,
+      "volume_24h": 6977807.97,
       "pool_address": "solana_GcHDV1oLCKu6nHXfqcv3tpwg9L8qUPxTZSo3u6R6UPYv",
       "ath": 0.0036953282326892176,
       "ath_timestamp": 1754532428,
@@ -1344,11 +1412,11 @@
       "dexId": "raydium",
       "pairAddress": "GcHDV1oLCKu6nHXfqcv3tpwg9L8qUPxTZSo3u6R6UPYv",
       "txns_24h": {
-        "buys": 15446,
-        "sells": 12602
+        "buys": 15065,
+        "sells": 12256
       },
-      "fdv_usd": 1343167,
-      "total_reserve_in_usd": 421216.74,
+      "fdv_usd": 1273490,
+      "total_reserve_in_usd": 410305.31,
       "tags": [],
       "first_signal": {
         "timestamp": 1754446028,
@@ -1356,8 +1424,18 @@
       },
       "metrics": {
         "uniqueWallets": 4,
-        "inflow24h": 4352.358674944236,
+        "inflow24h": -4188.276612043993,
         "trades": [
+          {
+            "timestamp": "2025-08-06T22:35:24.000Z",
+            "type": "SELL",
+            "amount": 7509028.070846,
+            "usdValue": 8540.635286988227,
+            "wallet": {
+              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+              "name": "DNF 哥"
+            }
+          },
           {
             "timestamp": "2025-08-06T02:06:49.000Z",
             "type": "BUY",
@@ -1442,6 +1520,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+          "name": "DNF 哥",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "7mHCx9iXPJ7EJDbDAUGmej39Kme8cxZfeVi1EAvEpump",
+              "balance": 0,
+              "token_price": 0.001273,
+              "token_decimals": 6,
+              "token_symbol": "BIGBALLS",
+              "token_name": "Edward Coristine",
+              "value": 0
+            }
+          ]
+        },
+        {
           "address": "65jT5wk8FQyUWcSjgBsBRLU5NiSYGVYwRSKRiopPNAQ3",
           "name": "iamachillguy",
           "score": 0.5,
@@ -1449,11 +1543,11 @@
             {
               "token_address": "7mHCx9iXPJ7EJDbDAUGmej39Kme8cxZfeVi1EAvEpump",
               "balance": 349065.868349,
-              "token_price": 0.001343,
+              "token_price": 0.001273,
               "token_decimals": 6,
               "token_symbol": "BIGBALLS",
               "token_name": "Edward Coristine",
-              "value": 468.795461192707
+              "value": 444.36085040827703
             }
           ]
         },
@@ -1465,11 +1559,11 @@
             {
               "token_address": "7mHCx9iXPJ7EJDbDAUGmej39Kme8cxZfeVi1EAvEpump",
               "balance": 7004028.939264,
-              "token_price": 0.001343,
+              "token_price": 0.001273,
               "token_decimals": 6,
               "token_symbol": "BIGBALLS",
               "token_name": "Edward Coristine",
-              "value": 9406.410865431553
+              "value": 8916.128839683073
             }
           ]
         },
@@ -1481,27 +1575,11 @@
             {
               "token_address": "7mHCx9iXPJ7EJDbDAUGmej39Kme8cxZfeVi1EAvEpump",
               "balance": 181431.900927,
-              "token_price": 0.001343,
+              "token_price": 0.001273,
               "token_decimals": 6,
               "token_symbol": "BIGBALLS",
               "token_name": "Edward Coristine",
-              "value": 243.663042944961
-            }
-          ]
-        },
-        {
-          "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-          "name": "DNF 哥",
-          "score": 3,
-          "tokens": [
-            {
-              "token_address": "7mHCx9iXPJ7EJDbDAUGmej39Kme8cxZfeVi1EAvEpump",
-              "balance": 7509028.070846,
-              "token_price": 0.001343,
-              "token_decimals": 6,
-              "token_symbol": "BIGBALLS",
-              "token_name": "Edward Coristine",
-              "value": 10084.624699146178
+              "value": 230.962809880071
             }
           ]
         }
@@ -1517,10 +1595,10 @@
       "website": "https://bags.fm/HoBmCAQp75DHEPvhHqttPUuBTj29K5KRoM9naCkSBAGS",
       "twitter": "",
       "holder": 1838,
-      "market_cap": 194236,
-      "price": 0.0001942,
-      "price_change_24h": 143,
-      "volume_24h": 7640281.65,
+      "market_cap": 346868,
+      "price": 0.0003468,
+      "price_change_24h": 334,
+      "volume_24h": 7677035.05,
       "pool_address": "solana_Arfork1hwDHwnPtEU3f6avCESjwWy9MfmKTLvVfmh2ax",
       "ath": 0.002605645982222127,
       "ath_timestamp": 1754528348,
@@ -1528,11 +1606,11 @@
       "dexId": "meteora",
       "pairAddress": "Arfork1hwDHwnPtEU3f6avCESjwWy9MfmKTLvVfmh2ax",
       "txns_24h": {
-        "buys": 27442,
-        "sells": 22761
+        "buys": 27599,
+        "sells": 22868
       },
-      "fdv_usd": 194236,
-      "total_reserve_in_usd": 150026.11,
+      "fdv_usd": 346868,
+      "total_reserve_in_usd": 165699.97,
       "tags": [],
       "first_signal": {
         "timestamp": 1754441948,
@@ -1663,11 +1741,11 @@
             {
               "token_address": "HoBmCAQp75DHEPvhHqttPUuBTj29K5KRoM9naCkSBAGS",
               "balance": 12408806.176175572,
-              "token_price": 0.0001942,
+              "token_price": 0.0003468,
               "token_decimals": 9,
               "token_symbol": "BRNRT",
               "token_name": "Brainrot Research",
-              "value": 2409.7901594132964
+              "value": 4303.373981897688
             }
           ]
         },
@@ -1679,7 +1757,7 @@
             {
               "token_address": "HoBmCAQp75DHEPvhHqttPUuBTj29K5KRoM9naCkSBAGS",
               "balance": 0,
-              "token_price": 0.0001942,
+              "token_price": 0.0003468,
               "token_decimals": 9,
               "token_symbol": "BRNRT",
               "token_name": "Brainrot Research",
@@ -1695,11 +1773,11 @@
             {
               "token_address": "HoBmCAQp75DHEPvhHqttPUuBTj29K5KRoM9naCkSBAGS",
               "balance": 20516924.382634968,
-              "token_price": 0.0001942,
+              "token_price": 0.0003468,
               "token_decimals": 9,
               "token_symbol": "BRNRT",
               "token_name": "Brainrot Research",
-              "value": 3984.3867151077106
+              "value": 7115.269375897808
             }
           ]
         },
@@ -1711,11 +1789,11 @@
             {
               "token_address": "HoBmCAQp75DHEPvhHqttPUuBTj29K5KRoM9naCkSBAGS",
               "balance": 15291610.830778874,
-              "token_price": 0.0001942,
+              "token_price": 0.0003468,
               "token_decimals": 9,
               "token_symbol": "BRNRT",
               "token_name": "Brainrot Research",
-              "value": 2969.6308233372574
+              "value": 5303.130636114114
             }
           ]
         }
