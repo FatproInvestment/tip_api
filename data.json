@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-08-09T19:24:35.430Z",
+  "timestamp": "2025-08-09T19:32:09.229Z",
   "data": [
     {
       "address": "7eMJmn1bYWSQEwxAX7CyngBzGNGu1cT582asKxxRpump",
@@ -11,11 +11,11 @@
       "created_time": 1754619229,
       "website": "https://www.youtube.com/watch?v=2_Dtmpe9qaQ&t=27s",
       "twitter": "https://x.com/search?q=clippy&src=typed_query&f=live",
-      "holder": 3858,
-      "market_cap": 5879870,
-      "price": 0.005879,
-      "price_change_24h": 191,
-      "volume_24h": 11662532.47,
+      "holder": 4037,
+      "market_cap": 6920210,
+      "price": 0.00692,
+      "price_change_24h": 220,
+      "volume_24h": 11768643.31,
       "pool_address": "solana_HJtdALk2oebbBJibixu6aFCoKUjQFUZjKDFvjoYZPxUa",
       "ath": 0.007405994412862987,
       "ath_timestamp": 1754781631,
@@ -23,20 +23,70 @@
       "dexId": "pumpswap",
       "pairAddress": "HJtdALk2oebbBJibixu6aFCoKUjQFUZjKDFvjoYZPxUa",
       "txns_24h": {
-        "buys": 27623,
-        "sells": 26669
+        "buys": 27732,
+        "sells": 26846
       },
-      "fdv_usd": 5879870,
-      "total_reserve_in_usd": 350516.62,
+      "fdv_usd": 6920210,
+      "total_reserve_in_usd": 380466.43,
       "tags": [],
       "first_signal": {
         "timestamp": 1754695231,
         "price": 0.004095
       },
       "metrics": {
-        "uniqueWallets": 3,
-        "inflow24h": 3194.929607701435,
+        "uniqueWallets": 4,
+        "inflow24h": 91185.53999954405,
         "trades": [
+          {
+            "timestamp": "2025-08-09T19:31:03.000Z",
+            "type": "SELL",
+            "amount": 145549.866064,
+            "usdValue": 1473.6279201400264,
+            "wallet": {
+              "address": "GeZHejJJJ7631AHAaoEfSmmL7CwhRNPH81FkawEfN7N9",
+              "name": "UBC7x"
+            }
+          },
+          {
+            "timestamp": "2025-08-09T19:30:58.000Z",
+            "type": "SELL",
+            "amount": 255350.642218,
+            "usdValue": 2603.5029128840492,
+            "wallet": {
+              "address": "GeZHejJJJ7631AHAaoEfSmmL7CwhRNPH81FkawEfN7N9",
+              "name": "UBC7x"
+            }
+          },
+          {
+            "timestamp": "2025-08-09T19:30:50.000Z",
+            "type": "SELL",
+            "amount": 325979.543257,
+            "usdValue": 3033.6978401985475,
+            "wallet": {
+              "address": "GeZHejJJJ7631AHAaoEfSmmL7CwhRNPH81FkawEfN7N9",
+              "name": "UBC7x"
+            }
+          },
+          {
+            "timestamp": "2025-08-09T19:30:45.000Z",
+            "type": "SELL",
+            "amount": 408934.910895,
+            "usdValue": 4048.56093493477,
+            "wallet": {
+              "address": "GeZHejJJJ7631AHAaoEfSmmL7CwhRNPH81FkawEfN7N9",
+              "name": "UBC7x"
+            }
+          },
+          {
+            "timestamp": "2025-08-09T19:28:44.000Z",
+            "type": "BUY",
+            "amount": 9762452.769425,
+            "usdValue": 99150,
+            "wallet": {
+              "address": "A1ECE86o3tz6UWmwMWicrqZmwRZ7RCRzmYYa9okNQRBw",
+              "name": "Fartcoin神"
+            }
+          },
           {
             "timestamp": "2025-08-09T16:29:26.000Z",
             "type": "SWAP",
@@ -131,6 +181,38 @@
       },
       "walletPortfolios": [
         {
+          "address": "GeZHejJJJ7631AHAaoEfSmmL7CwhRNPH81FkawEfN7N9",
+          "name": "UBC7x",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "7eMJmn1bYWSQEwxAX7CyngBzGNGu1cT582asKxxRpump",
+              "balance": 4706112.336079,
+              "token_price": 0.00692,
+              "token_decimals": 6,
+              "token_symbol": "CLIPPY",
+              "token_name": "Clippy PFP Cult",
+              "value": 32566.297365666676
+            }
+          ]
+        },
+        {
+          "address": "A1ECE86o3tz6UWmwMWicrqZmwRZ7RCRzmYYa9okNQRBw",
+          "name": "Fartcoin神",
+          "score": 0.5,
+          "tokens": [
+            {
+              "token_address": "7eMJmn1bYWSQEwxAX7CyngBzGNGu1cT582asKxxRpump",
+              "balance": 9762452.769425,
+              "token_price": 0.00692,
+              "token_decimals": 6,
+              "token_symbol": "CLIPPY",
+              "token_name": "Clippy PFP Cult",
+              "value": 67556.173164421
+            }
+          ]
+        },
+        {
           "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
           "name": "Ansem",
           "score": 3,
@@ -138,7 +220,7 @@
             {
               "token_address": "7eMJmn1bYWSQEwxAX7CyngBzGNGu1cT582asKxxRpump",
               "balance": 0,
-              "token_price": 0.005879,
+              "token_price": 0.00692,
               "token_decimals": 6,
               "token_symbol": "CLIPPY",
               "token_name": "Clippy PFP Cult",
@@ -154,27 +236,11 @@
             {
               "token_address": "7eMJmn1bYWSQEwxAX7CyngBzGNGu1cT582asKxxRpump",
               "balance": 161809.443281,
-              "token_price": 0.005879,
+              "token_price": 0.00692,
               "token_decimals": 6,
               "token_symbol": "CLIPPY",
               "token_name": "Clippy PFP Cult",
-              "value": 951.2777170489991
-            }
-          ]
-        },
-        {
-          "address": "GeZHejJJJ7631AHAaoEfSmmL7CwhRNPH81FkawEfN7N9",
-          "name": "UBC7x",
-          "score": 2,
-          "tokens": [
-            {
-              "token_address": "7eMJmn1bYWSQEwxAX7CyngBzGNGu1cT582asKxxRpump",
-              "balance": 5841927.298513,
-              "token_price": 0.005879,
-              "token_decimals": 6,
-              "token_symbol": "CLIPPY",
-              "token_name": "Clippy PFP Cult",
-              "value": 34344.69058795793
+              "value": 1119.72134750452
             }
           ]
         }
@@ -190,10 +256,10 @@
       "website": "https://www.illusionoflife.inc/",
       "twitter": "https://x.com/KevinAFischer/status/1952521371134959800?t=ibE2dPp-iSbm77Tr76AnNA&s=19",
       "holder": 7998,
-      "market_cap": 23289783,
-      "price": 0.02329,
-      "price_change_24h": 341,
-      "volume_24h": 18202083.88,
+      "market_cap": 23186161,
+      "price": 0.02318,
+      "price_change_24h": 352,
+      "volume_24h": 18208657.8,
       "pool_address": "solana_3mgxf9VVDd82E75bovuAJPS1wYmJoZCAo4MB6zpQDjnv",
       "ath": 0.02693501608830245,
       "ath_timestamp": 1754470813,
@@ -201,11 +267,11 @@
       "dexId": "pumpswap",
       "pairAddress": "3mgxf9VVDd82E75bovuAJPS1wYmJoZCAo4MB6zpQDjnv",
       "txns_24h": {
-        "buys": 25630,
-        "sells": 26681
+        "buys": 25671,
+        "sells": 26664
       },
-      "fdv_usd": 23289783,
-      "total_reserve_in_usd": 925540.02,
+      "fdv_usd": 23186161,
+      "total_reserve_in_usd": 923390.81,
       "tags": [
         "moonshot"
       ],
@@ -258,11 +324,11 @@
             {
               "token_address": "5zCETicUCJqJ5Z3wbfFPZqtSpHPYqnggs1wX7ZRpump",
               "balance": 3426693.337395,
-              "token_price": 0.02329,
+              "token_price": 0.02318,
               "token_decimals": 6,
               "token_symbol": "SPARK",
               "token_name": "Illusion of Life",
-              "value": 79807.68782792955
+              "value": 79430.75156081609
             }
           ]
         },
@@ -274,11 +340,11 @@
             {
               "token_address": "5zCETicUCJqJ5Z3wbfFPZqtSpHPYqnggs1wX7ZRpump",
               "balance": 35796.669699,
-              "token_price": 0.02329,
+              "token_price": 0.02318,
               "token_decimals": 6,
               "token_symbol": "SPARK",
               "token_name": "Illusion of Life",
-              "value": 833.70443728971
+              "value": 829.7668036228199
             }
           ]
         }
