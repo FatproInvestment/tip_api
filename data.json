@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-08-09T16:24:02.200Z",
+  "timestamp": "2025-08-09T16:44:06.988Z",
   "data": [
     {
       "address": "7eMJmn1bYWSQEwxAX7CyngBzGNGu1cT582asKxxRpump",
@@ -11,11 +11,11 @@
       "created_time": 1754619229,
       "website": "https://www.youtube.com/watch?v=2_Dtmpe9qaQ&t=27s",
       "twitter": "https://x.com/search?q=clippy&src=typed_query&f=live",
-      "holder": 3830,
-      "market_cap": 3891949,
-      "price": 0.003892,
-      "price_change_24h": 749,
-      "volume_24h": 13242281.54,
+      "holder": 3769,
+      "market_cap": 3952790,
+      "price": 0.003952,
+      "price_change_24h": 777,
+      "volume_24h": 13440292.01,
       "pool_address": "solana_HJtdALk2oebbBJibixu6aFCoKUjQFUZjKDFvjoYZPxUa",
       "ath": 0.007405994412862987,
       "ath_timestamp": 1754781631,
@@ -23,11 +23,11 @@
       "dexId": "pumpswap",
       "pairAddress": "HJtdALk2oebbBJibixu6aFCoKUjQFUZjKDFvjoYZPxUa",
       "txns_24h": {
-        "buys": 29473,
-        "sells": 27929
+        "buys": 29849,
+        "sells": 28226
       },
-      "fdv_usd": 3891949,
-      "total_reserve_in_usd": 281751.18,
+      "fdv_usd": 3952790,
+      "total_reserve_in_usd": 284081.03,
       "tags": [],
       "first_signal": {
         "timestamp": 1754695231,
@@ -35,8 +35,18 @@
       },
       "metrics": {
         "uniqueWallets": 3,
-        "inflow24h": 13673.055911883268,
+        "inflow24h": -3734.0531381952433,
         "trades": [
+          {
+            "timestamp": "2025-08-09T16:29:26.000Z",
+            "type": "SWAP",
+            "amount": 4994826.314916,
+            "usdValue": 17407.109050078518,
+            "wallet": {
+              "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+              "name": "Ansem"
+            }
+          },
           {
             "timestamp": "2025-08-09T04:16:36.000Z",
             "type": "BUY",
@@ -151,6 +161,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+          "name": "Ansem",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "7eMJmn1bYWSQEwxAX7CyngBzGNGu1cT582asKxxRpump",
+              "balance": 0,
+              "token_price": 0.003952,
+              "token_decimals": 6,
+              "token_symbol": "CLIPPY",
+              "token_name": "Clippy PFP Cult",
+              "value": 0
+            }
+          ]
+        },
+        {
           "address": "BieeZkdnBAgNYknzo3RH2vku7FcPkFZMZmRJANh2TpW",
           "name": "degenai71x",
           "score": 0.5,
@@ -158,11 +184,11 @@
             {
               "token_address": "7eMJmn1bYWSQEwxAX7CyngBzGNGu1cT582asKxxRpump",
               "balance": 161809.443281,
-              "token_price": 0.003892,
+              "token_price": 0.003952,
               "token_decimals": 6,
               "token_symbol": "CLIPPY",
               "token_name": "Clippy PFP Cult",
-              "value": 629.762353249652
+              "value": 639.4709198465121
             }
           ]
         },
@@ -174,27 +200,11 @@
             {
               "token_address": "7eMJmn1bYWSQEwxAX7CyngBzGNGu1cT582asKxxRpump",
               "balance": 5841927.298513,
-              "token_price": 0.003892,
+              "token_price": 0.003952,
               "token_decimals": 6,
               "token_symbol": "CLIPPY",
               "token_name": "Clippy PFP Cult",
-              "value": 22736.781045812597
-            }
-          ]
-        },
-        {
-          "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
-          "name": "Ansem",
-          "score": 3,
-          "tokens": [
-            {
-              "token_address": "7eMJmn1bYWSQEwxAX7CyngBzGNGu1cT582asKxxRpump",
-              "balance": 4999826.141057,
-              "token_price": 0.003892,
-              "token_decimals": 6,
-              "token_symbol": "CLIPPY",
-              "token_name": "Clippy PFP Cult",
-              "value": 19459.323340993844
+              "value": 23087.296683723373
             }
           ]
         }
