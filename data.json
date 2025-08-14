@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-08-14T05:40:02.430Z",
+  "timestamp": "2025-08-14T05:50:40.569Z",
   "data": [
     {
       "address": "AnR1qNfefHwL8GY7C4iqzBjJZyKzw6Z7N9kXY81bpump",
@@ -11,23 +11,23 @@
       "created_time": 1755137684,
       "website": "",
       "twitter": "",
-      "holder": 1623,
-      "market_cap": 3457433,
-      "price": 0.003457,
-      "price_change_24h": 3771,
-      "volume_24h": 10645103.73,
+      "holder": 2122,
+      "market_cap": 4715102,
+      "price": 0.004715,
+      "price_change_24h": 5179,
+      "volume_24h": 11035479.96,
       "pool_address": "solana_4JHM7yyi99zWh3XjUYTdk8XDs5SWw78bxnr4MeYJXARW",
-      "ath": 0.004370480573795608,
+      "ath": 0.00450546381189958,
       "ath_timestamp": 1755229544,
       "ath_pool": "4JHM7yyi99zWh3XjUYTdk8XDs5SWw78bxnr4MeYJXARW",
       "dexId": "pumpswap",
       "pairAddress": "4JHM7yyi99zWh3XjUYTdk8XDs5SWw78bxnr4MeYJXARW",
       "txns_24h": {
-        "buys": 19777,
-        "sells": 20069
+        "buys": 20383,
+        "sells": 20745
       },
-      "fdv_usd": 3457433,
-      "total_reserve_in_usd": 254019.94,
+      "fdv_usd": 4715102,
+      "total_reserve_in_usd": 296825.58,
       "tags": [],
       "first_signal": {
         "timestamp": 1755143144,
@@ -35,8 +35,38 @@
       },
       "metrics": {
         "uniqueWallets": 3,
-        "inflow24h": 37576.70259538517,
+        "inflow24h": 32335.051647950073,
         "trades": [
+          {
+            "timestamp": "2025-08-14T05:49:26.000Z",
+            "type": "SELL",
+            "amount": 408714.282621,
+            "usdValue": 1923.427472179766,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2025-08-14T05:49:25.000Z",
+            "type": "SELL",
+            "amount": 408714.282621,
+            "usdValue": 1971.9211797184398,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2025-08-14T05:49:22.000Z",
+            "type": "SELL",
+            "amount": 272476.188414,
+            "usdValue": 1346.302295536888,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
           {
             "timestamp": "2025-08-14T05:07:02.000Z",
             "type": "BUY",
@@ -141,6 +171,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+          "name": "cooker",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "AnR1qNfefHwL8GY7C4iqzBjJZyKzw6Z7N9kXY81bpump",
+              "balance": 0,
+              "token_price": 0.004715,
+              "token_decimals": 6,
+              "token_symbol": "BROWNHOUSE",
+              "token_name": "Brownhouse",
+              "value": 0
+            }
+          ]
+        },
+        {
           "address": "HUpPyLU8KWisCAr3mzWy2FKT6uuxQ2qGgJQxyTpDoes5",
           "name": "0xsun",
           "score": 2,
@@ -148,11 +194,11 @@
             {
               "token_address": "AnR1qNfefHwL8GY7C4iqzBjJZyKzw6Z7N9kXY81bpump",
               "balance": 4178704.646542,
-              "token_price": 0.003457,
+              "token_price": 0.004715,
               "token_decimals": 6,
               "token_symbol": "BROWNHOUSE",
               "token_name": "Brownhouse",
-              "value": 14445.781963095695
+              "value": 19702.59240844553
             }
           ]
         },
@@ -164,27 +210,11 @@
             {
               "token_address": "AnR1qNfefHwL8GY7C4iqzBjJZyKzw6Z7N9kXY81bpump",
               "balance": 8463014.322495,
-              "token_price": 0.003457,
+              "token_price": 0.004715,
               "token_decimals": 6,
               "token_symbol": "BROWNHOUSE",
               "token_name": "Brownhouse",
-              "value": 29256.640512865215
-            }
-          ]
-        },
-        {
-          "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-          "name": "cooker",
-          "score": 2,
-          "tokens": [
-            {
-              "token_address": "AnR1qNfefHwL8GY7C4iqzBjJZyKzw6Z7N9kXY81bpump",
-              "balance": 1089904.753656,
-              "token_price": 0.003457,
-              "token_decimals": 6,
-              "token_symbol": "BROWNHOUSE",
-              "token_name": "Brownhouse",
-              "value": 3767.8007333887917
+              "value": 39903.11253056392
             }
           ]
         }
@@ -200,10 +230,10 @@
       "website": "https://www.youtube.com/watch?v=2_Dtmpe9qaQ&t=27s",
       "twitter": "https://x.com/search?q=clippy&src=typed_query&f=live",
       "holder": 9711,
-      "market_cap": 22283476,
-      "price": 0.02228,
-      "price_change_24h": 2.71,
-      "volume_24h": 11267115.81,
+      "market_cap": 21685282,
+      "price": 0.02168,
+      "price_change_24h": -1,
+      "volume_24h": 11231761.67,
       "pool_address": "solana_HJtdALk2oebbBJibixu6aFCoKUjQFUZjKDFvjoYZPxUa",
       "ath": 0.03617948022454725,
       "ath_timestamp": 1754781631,
@@ -211,11 +241,11 @@
       "dexId": "pumpswap",
       "pairAddress": "HJtdALk2oebbBJibixu6aFCoKUjQFUZjKDFvjoYZPxUa",
       "txns_24h": {
-        "buys": 17472,
-        "sells": 17373
+        "buys": 17547,
+        "sells": 17254
       },
-      "fdv_usd": 22283476,
-      "total_reserve_in_usd": 895584.67,
+      "fdv_usd": 21685282,
+      "total_reserve_in_usd": 880522.57,
       "tags": [
         "moonshot"
       ],
@@ -348,11 +378,11 @@
             {
               "token_address": "7eMJmn1bYWSQEwxAX7CyngBzGNGu1cT582asKxxRpump",
               "balance": 1426123.389567,
-              "token_price": 0.02228,
+              "token_price": 0.02168,
               "token_decimals": 6,
               "token_symbol": "CLIPPY",
               "token_name": "Clippy PFP Cult",
-              "value": 31774.029119552764
+              "value": 30918.355085812564
             }
           ]
         },
@@ -364,11 +394,11 @@
             {
               "token_address": "7eMJmn1bYWSQEwxAX7CyngBzGNGu1cT582asKxxRpump",
               "balance": 3526324.797395,
-              "token_price": 0.02228,
+              "token_price": 0.02168,
               "token_decimals": 6,
               "token_symbol": "CLIPPY",
               "token_name": "Clippy PFP Cult",
-              "value": 78566.5164859606
+              "value": 76450.7216075236
             }
           ]
         },
@@ -380,7 +410,7 @@
             {
               "token_address": "7eMJmn1bYWSQEwxAX7CyngBzGNGu1cT582asKxxRpump",
               "balance": 0,
-              "token_price": 0.02228,
+              "token_price": 0.02168,
               "token_decimals": 6,
               "token_symbol": "CLIPPY",
               "token_name": "Clippy PFP Cult",
@@ -396,7 +426,7 @@
             {
               "token_address": "7eMJmn1bYWSQEwxAX7CyngBzGNGu1cT582asKxxRpump",
               "balance": 0,
-              "token_price": 0.02228,
+              "token_price": 0.02168,
               "token_decimals": 6,
               "token_symbol": "CLIPPY",
               "token_name": "Clippy PFP Cult",
@@ -412,11 +442,11 @@
             {
               "token_address": "7eMJmn1bYWSQEwxAX7CyngBzGNGu1cT582asKxxRpump",
               "balance": 16743286.196431,
-              "token_price": 0.02228,
+              "token_price": 0.02168,
               "token_decimals": 6,
               "token_symbol": "CLIPPY",
               "token_name": "Clippy PFP Cult",
-              "value": 373040.4164564827
+              "value": 362994.4447386241
             }
           ]
         }
@@ -432,10 +462,10 @@
       "website": "https://x.com/search?q=ORANGE%20ERA&src=typed_query",
       "twitter": "https://x.com/search?q=ORANGE%20ERA&src=typed_query",
       "holder": 11588,
-      "market_cap": 2953049,
-      "price": 0.002953,
-      "price_change_24h": -60.35,
-      "volume_24h": 18279468.97,
+      "market_cap": 2798137,
+      "price": 0.002798,
+      "price_change_24h": -65.28,
+      "volume_24h": 18277112.11,
       "pool_address": "solana_4F13bWhNZKASiwMsGrKi8JJEfhcTaxb19qQuGo7pXRr2",
       "ath": 0.01756598613534433,
       "ath_timestamp": 1755121094,
@@ -443,11 +473,11 @@
       "dexId": "pumpswap",
       "pairAddress": "4F13bWhNZKASiwMsGrKi8JJEfhcTaxb19qQuGo7pXRr2",
       "txns_24h": {
-        "buys": 41859,
-        "sells": 36302
+        "buys": 41786,
+        "sells": 36156
       },
-      "fdv_usd": 2953049,
-      "total_reserve_in_usd": 304456.01,
+      "fdv_usd": 2798137,
+      "total_reserve_in_usd": 295539,
       "tags": [
         "moonshot"
       ],
@@ -790,11 +820,11 @@
             {
               "token_address": "fmGLjVuQfBLbWPo5zxc8sSss3ixMW3u3bRP95uGpump",
               "balance": 917.380581,
-              "token_price": 0.002953,
+              "token_price": 0.002798,
               "token_decimals": 6,
               "token_symbol": "ORANGE",
               "token_name": "The Orange Era",
-              "value": 2.709024855693
+              "value": 2.5668308656380003
             }
           ]
         },
@@ -806,7 +836,7 @@
             {
               "token_address": "fmGLjVuQfBLbWPo5zxc8sSss3ixMW3u3bRP95uGpump",
               "balance": 0,
-              "token_price": 0.002953,
+              "token_price": 0.002798,
               "token_decimals": 6,
               "token_symbol": "ORANGE",
               "token_name": "The Orange Era",
@@ -826,10 +856,10 @@
       "website": "",
       "twitter": "",
       "holder": 6824,
-      "market_cap": 4768859,
-      "price": 0.004768,
-      "price_change_24h": -22.26,
-      "volume_24h": 5007189.95,
+      "market_cap": 4717191,
+      "price": 0.004717,
+      "price_change_24h": -21.54,
+      "volume_24h": 5003033.73,
       "pool_address": "solana_GCgn1NEtxZaNRVfZFno1W1Br5VdvUg7MYSxDCgSRFSM4",
       "ath": 0.01571951619551833,
       "ath_timestamp": 1754431688,
@@ -837,11 +867,11 @@
       "dexId": "raydium",
       "pairAddress": "GCgn1NEtxZaNRVfZFno1W1Br5VdvUg7MYSxDCgSRFSM4",
       "txns_24h": {
-        "buys": 16183,
-        "sells": 15373
+        "buys": 16142,
+        "sells": 15412
       },
-      "fdv_usd": 4768859,
-      "total_reserve_in_usd": 386010.04,
+      "fdv_usd": 4717191,
+      "total_reserve_in_usd": 383231.2,
       "tags": [
         "moonshot"
       ],
@@ -904,11 +934,11 @@
             {
               "token_address": "347k5f1WLRYe81roRcLBWDR6k3eCRunaqetQPW6pbonk",
               "balance": 10208239.455525,
-              "token_price": 0.004768,
+              "token_price": 0.004717,
               "token_decimals": 6,
               "token_symbol": "LIZARD",
               "token_name": "🦎",
-              "value": 48672.885723943196
+              "value": 48152.26551171142
             }
           ]
         },
@@ -920,11 +950,11 @@
             {
               "token_address": "347k5f1WLRYe81roRcLBWDR6k3eCRunaqetQPW6pbonk",
               "balance": 3488358.093491,
-              "token_price": 0.004768,
+              "token_price": 0.004717,
               "token_decimals": 6,
               "token_symbol": "LIZARD",
               "token_name": "🦎",
-              "value": 16632.491389765088
+              "value": 16454.585126997048
             }
           ]
         }
@@ -940,10 +970,10 @@
       "website": "https://www.illusionoflife.inc/",
       "twitter": "https://x.com/KevinAFischer/status/1952521371134959800?t=ibE2dPp-iSbm77Tr76AnNA&s=19",
       "holder": 10936,
-      "market_cap": 39792343,
-      "price": 0.03979,
-      "price_change_24h": -2.96,
-      "volume_24h": 12411669.55,
+      "market_cap": 40129939,
+      "price": 0.04013,
+      "price_change_24h": -5.03,
+      "volume_24h": 12382830.08,
       "pool_address": "solana_3mgxf9VVDd82E75bovuAJPS1wYmJoZCAo4MB6zpQDjnv",
       "ath": 0.07277347469394642,
       "ath_timestamp": 1754470813,
@@ -951,11 +981,11 @@
       "dexId": "pumpswap",
       "pairAddress": "3mgxf9VVDd82E75bovuAJPS1wYmJoZCAo4MB6zpQDjnv",
       "txns_24h": {
-        "buys": 15069,
-        "sells": 16003
+        "buys": 15000,
+        "sells": 15911
       },
-      "fdv_usd": 39792343,
-      "total_reserve_in_usd": 1439216.47,
+      "fdv_usd": 40129939,
+      "total_reserve_in_usd": 1440463.5,
       "tags": [
         "moonshot"
       ],
@@ -1108,11 +1138,11 @@
             {
               "token_address": "5zCETicUCJqJ5Z3wbfFPZqtSpHPYqnggs1wX7ZRpump",
               "balance": 7956825.12225,
-              "token_price": 0.03979,
+              "token_price": 0.04013,
               "token_decimals": 6,
               "token_symbol": "SPARK",
               "token_name": "Illusion of Life",
-              "value": 316602.0716143275
+              "value": 319307.3921558925
             }
           ]
         },
@@ -1124,11 +1154,11 @@
             {
               "token_address": "5zCETicUCJqJ5Z3wbfFPZqtSpHPYqnggs1wX7ZRpump",
               "balance": 2362634.258013,
-              "token_price": 0.03979,
+              "token_price": 0.04013,
               "token_decimals": 6,
               "token_symbol": "SPARK",
               "token_name": "Illusion of Life",
-              "value": 94009.21712633726
+              "value": 94812.51277406167
             }
           ]
         }
