@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-08-15T14:57:08.877Z",
+  "timestamp": "2025-08-15T15:16:25.878Z",
   "data": [
     {
       "address": "5zCETicUCJqJ5Z3wbfFPZqtSpHPYqnggs1wX7ZRpump",
@@ -11,11 +11,11 @@
       "created_time": 1754379336,
       "website": "https://www.illusionoflife.inc/",
       "twitter": "https://x.com/KevinAFischer/status/1952521371134959800?t=ibE2dPp-iSbm77Tr76AnNA&s=19",
-      "holder": 11055,
-      "market_cap": 29246719,
-      "price": 0.02924,
-      "price_change_24h": -30.33,
-      "volume_24h": 8002315.09,
+      "holder": 11082,
+      "market_cap": 28798057,
+      "price": 0.02879,
+      "price_change_24h": -30.05,
+      "volume_24h": 8019134.6,
       "pool_address": "solana_3mgxf9VVDd82E75bovuAJPS1wYmJoZCAo4MB6zpQDjnv",
       "ath": 0.07277347469394642,
       "ath_timestamp": 1754470813,
@@ -23,11 +23,11 @@
       "dexId": "pumpswap",
       "pairAddress": "3mgxf9VVDd82E75bovuAJPS1wYmJoZCAo4MB6zpQDjnv",
       "txns_24h": {
-        "buys": 10613,
-        "sells": 10618
+        "buys": 10681,
+        "sells": 10676
       },
-      "fdv_usd": 29246719,
-      "total_reserve_in_usd": 1191714.87,
+      "fdv_usd": 28798057,
+      "total_reserve_in_usd": 1180288.12,
       "tags": [
         "moonshot"
       ],
@@ -36,9 +36,19 @@
         "price": 0.0009275
       },
       "metrics": {
-        "uniqueWallets": 3,
-        "inflow24h": -2476.8695258682,
+        "uniqueWallets": 4,
+        "inflow24h": 7459.215561761412,
         "trades": [
+          {
+            "timestamp": "2025-08-15T15:04:59.000Z",
+            "type": "SELL",
+            "amount": 236263.425801,
+            "usdValue": 6363.84527411278,
+            "wallet": {
+              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+              "name": "DNF 哥"
+            }
+          },
           {
             "timestamp": "2025-08-15T14:38:15.000Z",
             "type": "BUY",
@@ -298,20 +308,26 @@
               "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
               "name": "Ansem"
             }
-          },
-          {
-            "timestamp": "2025-08-14T14:57:21.000Z",
-            "type": "SELL",
-            "amount": 400000,
-            "usdValue": 16299.93036174241,
-            "wallet": {
-              "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
-              "name": "Ansem"
-            }
           }
         ]
       },
       "walletPortfolios": [
+        {
+          "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+          "name": "DNF 哥",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "5zCETicUCJqJ5Z3wbfFPZqtSpHPYqnggs1wX7ZRpump",
+              "balance": 2126370.832212,
+              "token_price": 0.02879,
+              "token_decimals": 6,
+              "token_symbol": "SPARK",
+              "token_name": "Illusion of Life",
+              "value": 61218.21625938348
+            }
+          ]
+        },
         {
           "address": "GeZHejJJJ7631AHAaoEfSmmL7CwhRNPH81FkawEfN7N9",
           "name": "UBC7x",
@@ -320,11 +336,11 @@
             {
               "token_address": "5zCETicUCJqJ5Z3wbfFPZqtSpHPYqnggs1wX7ZRpump",
               "balance": 1327280.023412,
-              "token_price": 0.02924,
+              "token_price": 0.02879,
               "token_decimals": 6,
               "token_symbol": "SPARK",
               "token_name": "Illusion of Life",
-              "value": 38809.66788456688
+              "value": 38212.39187403148
             }
           ]
         },
@@ -336,11 +352,11 @@
             {
               "token_address": "5zCETicUCJqJ5Z3wbfFPZqtSpHPYqnggs1wX7ZRpump",
               "balance": 11214379.012479,
-              "token_price": 0.02924,
+              "token_price": 0.02879,
               "token_decimals": 6,
               "token_symbol": "SPARK",
               "token_name": "Illusion of Life",
-              "value": 327908.4423248859
+              "value": 322861.97176927037
             }
           ]
         },
@@ -352,7 +368,7 @@
             {
               "token_address": "5zCETicUCJqJ5Z3wbfFPZqtSpHPYqnggs1wX7ZRpump",
               "balance": 0,
-              "token_price": 0.02924,
+              "token_price": 0.02879,
               "token_decimals": 6,
               "token_symbol": "SPARK",
               "token_name": "Illusion of Life",
@@ -371,11 +387,11 @@
       "created_time": 1755212118,
       "website": "",
       "twitter": "",
-      "holder": 1836,
-      "market_cap": 7766954,
-      "price": 0.007766,
-      "price_change_24h": 9707,
-      "volume_24h": 8962096.4,
+      "holder": 1843,
+      "market_cap": 6844466,
+      "price": 0.006844,
+      "price_change_24h": 8542,
+      "volume_24h": 9010505.78,
       "pool_address": "solana_BGz9tecZMGSKStF1ET4ef1TJGdFAcwndj5q145PFmAmg",
       "ath": 0.012356765156089794,
       "ath_timestamp": 1755305409,
@@ -386,11 +402,11 @@
         "active": 100
       },
       "txns_24h": {
-        "buys": 14799,
-        "sells": 13162
+        "buys": 14880,
+        "sells": 13213
       },
-      "fdv_usd": 7766954,
-      "total_reserve_in_usd": 341893.21,
+      "fdv_usd": 6844466,
+      "total_reserve_in_usd": 321020.97,
       "tags": [],
       "first_signal": {
         "timestamp": 1755219009,
@@ -571,11 +587,11 @@
             {
               "token_address": "9jK7su8LmSi3DUcKZfYJYdvycUkvRQa1EokcusNkpump",
               "balance": 2017645.089964,
-              "token_price": 0.007766,
+              "token_price": 0.006844,
               "token_decimals": 6,
               "token_symbol": "CRIME",
               "token_name": "Crime Coin",
-              "value": 15669.031768660425
+              "value": 13808.762995713616
             }
           ]
         },
@@ -587,11 +603,11 @@
             {
               "token_address": "9jK7su8LmSi3DUcKZfYJYdvycUkvRQa1EokcusNkpump",
               "balance": 28498.614047,
-              "token_price": 0.007766,
+              "token_price": 0.006844,
               "token_decimals": 6,
               "token_symbol": "CRIME",
               "token_name": "Crime Coin",
-              "value": 221.320236689002
+              "value": 195.044514537668
             }
           ]
         },
@@ -603,7 +619,7 @@
             {
               "token_address": "9jK7su8LmSi3DUcKZfYJYdvycUkvRQa1EokcusNkpump",
               "balance": 0,
-              "token_price": 0.007766,
+              "token_price": 0.006844,
               "token_decimals": 6,
               "token_symbol": "CRIME",
               "token_name": "Crime Coin",
@@ -622,11 +638,11 @@
       "created_time": 1755194894,
       "website": "",
       "twitter": "https://x.com/theunipcs/status/1956055257131221299",
-      "holder": 549,
-      "market_cap": 349104,
-      "price": 0.0003491,
-      "price_change_24h": 336,
-      "volume_24h": 4055738.03,
+      "holder": 711,
+      "market_cap": 260487,
+      "price": 0.0002604,
+      "price_change_24h": 226,
+      "volume_24h": 4096223.46,
       "pool_address": "solana_69GqnYA7Gk1KdusKrAijdJqbzfRaRSNeRSE8kSB7hKdT",
       "ath": 0.0006426434717968565,
       "ath_timestamp": 1755289389,
@@ -634,11 +650,11 @@
       "dexId": "raydium",
       "pairAddress": "69GqnYA7Gk1KdusKrAijdJqbzfRaRSNeRSE8kSB7hKdT",
       "txns_24h": {
-        "buys": 15441,
-        "sells": 14462
+        "buys": 15654,
+        "sells": 14620
       },
-      "fdv_usd": 349104,
-      "total_reserve_in_usd": 75179.96,
+      "fdv_usd": 260487,
+      "total_reserve_in_usd": 64846.66,
       "tags": [],
       "first_signal": {
         "timestamp": 1755202989,
@@ -779,7 +795,7 @@
             {
               "token_address": "3mqxWtA2e9QVusMi6ZktRTwvJWuGPa8TSwo3Vscwbonk",
               "balance": 0,
-              "token_price": 0.0003491,
+              "token_price": 0.0002604,
               "token_decimals": 6,
               "token_symbol": "XYZ",
               "token_name": "XYZ",
@@ -795,7 +811,7 @@
             {
               "token_address": "3mqxWtA2e9QVusMi6ZktRTwvJWuGPa8TSwo3Vscwbonk",
               "balance": 0,
-              "token_price": 0.0003491,
+              "token_price": 0.0002604,
               "token_decimals": 6,
               "token_symbol": "XYZ",
               "token_name": "XYZ",
@@ -811,11 +827,11 @@
             {
               "token_address": "3mqxWtA2e9QVusMi6ZktRTwvJWuGPa8TSwo3Vscwbonk",
               "balance": 13130823.003263,
-              "token_price": 0.0003491,
+              "token_price": 0.0002604,
               "token_decimals": 6,
               "token_symbol": "XYZ",
               "token_name": "XYZ",
-              "value": 4583.970310439113
+              "value": 3419.266310049685
             }
           ]
         }
@@ -830,11 +846,11 @@
       "created_time": 1746886853,
       "website": "",
       "twitter": "https://x.com/theunipcs/status/1921208257399382410",
-      "holder": 31766,
-      "market_cap": 287800257,
-      "price": 0.2878,
-      "price_change_24h": 6.38,
-      "volume_24h": 7722803.05,
+      "holder": 31977,
+      "market_cap": 289384646,
+      "price": 0.2893,
+      "price_change_24h": 7.35,
+      "volume_24h": 7899159.11,
       "pool_address": "solana_Q2sPHPdUWFMg7M7wwrQKLrn619cAucfRsmhVJffodSp",
       "ath": 0.4167380638392473,
       "ath_timestamp": 1747374541,
@@ -842,11 +858,11 @@
       "dexId": "raydium",
       "pairAddress": "Q2sPHPdUWFMg7M7wwrQKLrn619cAucfRsmhVJffodSp",
       "txns_24h": {
-        "buys": 9968,
-        "sells": 8467
+        "buys": 10181,
+        "sells": 8535
       },
-      "fdv_usd": 287800257,
-      "total_reserve_in_usd": 5570601.34,
+      "fdv_usd": 289384646,
+      "total_reserve_in_usd": 5583602.34,
       "tags": [
         "moonshot"
       ],
@@ -879,89 +895,11 @@
             {
               "token_address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
               "balance": 94658.535647,
-              "token_price": 0.2878,
+              "token_price": 0.2893,
               "token_decimals": 6,
               "token_symbol": "USELESS",
               "token_name": "USELESS COIN",
-              "value": 27242.7265592066
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "address": "3Cmv9wxP1yNQZErQEFabB3L8uHxz49AtCRMrbKnBSozq",
-      "symbol": "littleguy",
-      "name": "just a little guy",
-      "decimals": 6,
-      "icon": "https://upward-sport-headed.quicknode-ipfs.com/ipfs/QmNtLzmfftb61n8uao8oJvxPunks32XqoqwFY4bdKHrfG6",
-      "created_time": 1754722801,
-      "website": "",
-      "twitter": "https://x.com/okpasquale/status/1954074940699029946",
-      "holder": 5843,
-      "market_cap": 4805081,
-      "price": 0.004805,
-      "price_change_24h": 27.84,
-      "volume_24h": 12244032.62,
-      "pool_address": "solana_4bzFMpWDVXfRhaY3Xg7nGUbHDSquY5MPTvib1n8Vfmno",
-      "ath": 0.00851637594100008,
-      "ath_timestamp": 1755293364,
-      "ath_pool": "4bzFMpWDVXfRhaY3Xg7nGUbHDSquY5MPTvib1n8Vfmno",
-      "dexId": "pumpswap",
-      "pairAddress": "4bzFMpWDVXfRhaY3Xg7nGUbHDSquY5MPTvib1n8Vfmno",
-      "txns_24h": {
-        "buys": 23256,
-        "sells": 22353
-      },
-      "fdv_usd": 4805081,
-      "total_reserve_in_usd": 399799.93,
-      "tags": [
-        "moonshot"
-      ],
-      "first_signal": {
-        "timestamp": 1755206964,
-        "price": 0.00796
-      },
-      "metrics": {
-        "uniqueWallets": 1,
-        "inflow24h": -6817.606375232397,
-        "trades": [
-          {
-            "timestamp": "2025-08-15T00:31:54.000Z",
-            "type": "SWAP",
-            "amount": 3652161.7763,
-            "usdValue": 24527.341998152835,
-            "wallet": {
-              "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
-              "name": "Ansem"
-            }
-          },
-          {
-            "timestamp": "2025-08-14T14:57:38.000Z",
-            "type": "BUY",
-            "amount": 3652161.7763,
-            "usdValue": 17709.735622920438,
-            "wallet": {
-              "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
-              "name": "Ansem"
-            }
-          }
-        ]
-      },
-      "walletPortfolios": [
-        {
-          "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
-          "name": "Ansem",
-          "score": 3,
-          "tokens": [
-            {
-              "token_address": "3Cmv9wxP1yNQZErQEFabB3L8uHxz49AtCRMrbKnBSozq",
-              "balance": 0,
-              "token_price": 0.004805,
-              "token_decimals": 6,
-              "token_symbol": "littleguy",
-              "token_name": "just a little guy",
-              "value": 0
+              "value": 27384.7143626771
             }
           ]
         }
