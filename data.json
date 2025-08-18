@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-08-18T16:44:52.386Z",
+  "timestamp": "2025-08-18T16:58:31.043Z",
   "data": [
     {
       "address": "GjbLHUmyUo6JFczvaTbsj9p1LjsXmvR8Vk9gRPNLBAGS",
@@ -12,10 +12,10 @@
       "website": "https://signature.cnrad.dev",
       "twitter": "https://x.com/i/communities/1956974769158721678",
       "holder": 1457,
-      "market_cap": 287275,
-      "price": 0.0002872,
-      "price_change_24h": 221,
-      "volume_24h": 2224096.59,
+      "market_cap": 384643,
+      "price": 0.0003846,
+      "price_change_24h": 330,
+      "volume_24h": 2246929.41,
       "pool_address": "solana_7Vhm5wrbsJopW5ngJjVxZ3xsecpXGFSFVn1XGmYdtj7x",
       "ath": 0.0007851297491934078,
       "ath_timestamp": 1755581708,
@@ -23,11 +23,11 @@
       "dexId": "meteora",
       "pairAddress": "7Vhm5wrbsJopW5ngJjVxZ3xsecpXGFSFVn1XGmYdtj7x",
       "txns_24h": {
-        "buys": 11146,
-        "sells": 8562
+        "buys": 11207,
+        "sells": 8643
       },
-      "fdv_usd": 287275,
-      "total_reserve_in_usd": 85143.3,
+      "fdv_usd": 384643,
+      "total_reserve_in_usd": 94071.04,
       "tags": [],
       "first_signal": {
         "timestamp": 1755495308,
@@ -35,8 +35,28 @@
       },
       "metrics": {
         "uniqueWallets": 2,
-        "inflow24h": 7370.280717595072,
+        "inflow24h": 9378.391311271816,
         "trades": [
+          {
+            "timestamp": "2025-08-18T16:49:59.000Z",
+            "type": "BUY",
+            "amount": 3851737.92759688,
+            "usdValue": 1277.8885596124735,
+            "wallet": {
+              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+              "name": "OGmoodeng"
+            }
+          },
+          {
+            "timestamp": "2025-08-18T16:48:36.000Z",
+            "type": "BUY",
+            "amount": 2257746.980326758,
+            "usdValue": 730.2220340642706,
+            "wallet": {
+              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+              "name": "OGmoodeng"
+            }
+          },
           {
             "timestamp": "2025-08-18T15:56:51.000Z",
             "type": "SELL",
@@ -137,12 +157,12 @@
           "tokens": [
             {
               "token_address": "GjbLHUmyUo6JFczvaTbsj9p1LjsXmvR8Vk9gRPNLBAGS",
-              "balance": 0,
-              "token_price": 0.0002872,
+              "balance": 6109484.907923638,
+              "token_price": 0.0003846,
               "token_decimals": 9,
               "token_symbol": "SIGN",
               "token_name": "Digital Signatures",
-              "value": 0
+              "value": 2349.7078955874313
             }
           ]
         },
@@ -154,11 +174,11 @@
             {
               "token_address": "GjbLHUmyUo6JFczvaTbsj9p1LjsXmvR8Vk9gRPNLBAGS",
               "balance": 14207270.013830677,
-              "token_price": 0.0002872,
+              "token_price": 0.0003846,
               "token_decimals": 9,
               "token_symbol": "SIGN",
               "token_name": "Digital Signatures",
-              "value": 4080.32794797217
+              "value": 5464.116047319279
             }
           ]
         }
