@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-08-18T15:56:08.118Z",
+  "timestamp": "2025-08-18T16:17:45.708Z",
   "data": [
     {
       "address": "GjbLHUmyUo6JFczvaTbsj9p1LjsXmvR8Vk9gRPNLBAGS",
@@ -12,10 +12,10 @@
       "website": "https://signature.cnrad.dev",
       "twitter": "https://x.com/i/communities/1956974769158721678",
       "holder": 1499,
-      "market_cap": 341428,
-      "price": 0.0003414,
-      "price_change_24h": 282,
-      "volume_24h": 2151628.45,
+      "market_cap": 238578,
+      "price": 0.0002385,
+      "price_change_24h": 167,
+      "volume_24h": 2201076.38,
       "pool_address": "solana_7Vhm5wrbsJopW5ngJjVxZ3xsecpXGFSFVn1XGmYdtj7x",
       "ath": 0.0007851297491934078,
       "ath_timestamp": 1755581708,
@@ -23,11 +23,11 @@
       "dexId": "meteora",
       "pairAddress": "7Vhm5wrbsJopW5ngJjVxZ3xsecpXGFSFVn1XGmYdtj7x",
       "txns_24h": {
-        "buys": 10772,
-        "sells": 8280
+        "buys": 11041,
+        "sells": 8452
       },
-      "fdv_usd": 341428,
-      "total_reserve_in_usd": 89502.05,
+      "fdv_usd": 238578,
+      "total_reserve_in_usd": 80990.21,
       "tags": [],
       "first_signal": {
         "timestamp": 1755495308,
@@ -35,8 +35,18 @@
       },
       "metrics": {
         "uniqueWallets": 2,
-        "inflow24h": 8635.983302948136,
+        "inflow24h": 7370.280717595072,
         "trades": [
+          {
+            "timestamp": "2025-08-18T15:56:51.000Z",
+            "type": "SELL",
+            "amount": 6028994.021116635,
+            "usdValue": 1265.702585353064,
+            "wallet": {
+              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+              "name": "OGmoodeng"
+            }
+          },
           {
             "timestamp": "2025-08-18T15:20:46.000Z",
             "type": "BUY",
@@ -127,12 +137,12 @@
           "tokens": [
             {
               "token_address": "GjbLHUmyUo6JFczvaTbsj9p1LjsXmvR8Vk9gRPNLBAGS",
-              "balance": 6028994.021116635,
-              "token_price": 0.0003414,
+              "balance": 0,
+              "token_price": 0.0002385,
               "token_decimals": 9,
               "token_symbol": "SIGN",
               "token_name": "Digital Signatures",
-              "value": 2058.2985588092192
+              "value": 0
             }
           ]
         },
@@ -144,11 +154,11 @@
             {
               "token_address": "GjbLHUmyUo6JFczvaTbsj9p1LjsXmvR8Vk9gRPNLBAGS",
               "balance": 14207270.013830677,
-              "token_price": 0.0003414,
+              "token_price": 0.0002385,
               "token_decimals": 9,
               "token_symbol": "SIGN",
               "token_name": "Digital Signatures",
-              "value": 4850.361982721793
+              "value": 3388.4338982986164
             }
           ]
         }
