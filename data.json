@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-08-19T15:11:14.089Z",
+  "timestamp": "2025-08-19T15:32:08.808Z",
   "data": [
     {
       "address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
@@ -12,10 +12,10 @@
       "website": "",
       "twitter": "https://x.com/theunipcs/status/1921208257399382410",
       "holder": 32038,
-      "market_cap": 260906969,
-      "price": 0.2609,
-      "price_change_24h": -8.5,
-      "volume_24h": 2626485.25,
+      "market_cap": 267666565,
+      "price": 0.2676,
+      "price_change_24h": -5.69,
+      "volume_24h": 2688567.11,
       "pool_address": "solana_8ztFxjFPfVUtEf4SLSapcFj8GW2dxyUA9no2bLPq7H7V",
       "ath": 0.4167380638392473,
       "ath_timestamp": 1747374541,
@@ -23,11 +23,11 @@
       "dexId": "raydium",
       "pairAddress": "Q2sPHPdUWFMg7M7wwrQKLrn619cAucfRsmhVJffodSp",
       "txns_24h": {
-        "buys": 5494,
-        "sells": 5465
+        "buys": 5658,
+        "sells": 5430
       },
-      "fdv_usd": 260906969,
-      "total_reserve_in_usd": 5311664.61,
+      "fdv_usd": 267666565,
+      "total_reserve_in_usd": 5404756.94,
       "tags": [
         "moonshot"
       ],
@@ -37,8 +37,18 @@
       },
       "metrics": {
         "uniqueWallets": 3,
-        "inflow24h": -97963.62835416434,
+        "inflow24h": -114027.58120832872,
         "trades": [
+          {
+            "timestamp": "2025-08-19T15:12:02.000Z",
+            "type": "SELL",
+            "amount": 61696.61205,
+            "usdValue": 16063.952854164396,
+            "wallet": {
+              "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+              "name": "Winner"
+            }
+          },
           {
             "timestamp": "2025-08-19T09:26:03.000Z",
             "type": "BUY",
@@ -103,6 +113,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+          "name": "Winner",
+          "score": 0.5,
+          "tokens": [
+            {
+              "token_address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+              "balance": 185089.836151,
+              "token_price": 0.2676,
+              "token_decimals": 6,
+              "token_symbol": "USELESS",
+              "token_name": "USELESS COIN",
+              "value": 49530.0401540076
+            }
+          ]
+        },
+        {
           "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
           "name": "Wizard100x",
           "score": 3,
@@ -110,11 +136,11 @@
             {
               "token_address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
               "balance": 119533.251157,
-              "token_price": 0.2609,
+              "token_price": 0.2676,
               "token_decimals": 6,
               "token_symbol": "USELESS",
               "token_name": "USELESS COIN",
-              "value": 31186.225226861305
+              "value": 31987.0980096132
             }
           ]
         },
@@ -126,27 +152,11 @@
             {
               "token_address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
               "balance": 0,
-              "token_price": 0.2609,
+              "token_price": 0.2676,
               "token_decimals": 6,
               "token_symbol": "USELESS",
               "token_name": "USELESS COIN",
               "value": 0
-            }
-          ]
-        },
-        {
-          "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
-          "name": "Winner",
-          "score": 0.5,
-          "tokens": [
-            {
-              "token_address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
-              "balance": 246786.448201,
-              "token_price": 0.2609,
-              "token_decimals": 6,
-              "token_symbol": "USELESS",
-              "token_name": "USELESS COIN",
-              "value": 64386.5843356409
             }
           ]
         }
