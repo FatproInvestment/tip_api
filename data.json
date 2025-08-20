@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-08-19T23:59:03.125Z",
+  "timestamp": "2025-08-20T01:36:51.086Z",
   "data": [
     {
       "address": "LiGHtkg3uTa9836RaNkKLLriqTNRcMdRAhqjGWNv777",
@@ -11,11 +11,11 @@
       "created_time": 1754944645,
       "website": "https://www.heaven.xyz",
       "twitter": "https://x.com/heavendex",
-      "holder": 11709,
-      "market_cap": 108632503,
-      "price": 0.181,
-      "price_change_24h": 9.1,
-      "volume_24h": 25835977.75,
+      "holder": 11800,
+      "market_cap": 125115477,
+      "price": 0.2085,
+      "price_change_24h": 14.67,
+      "volume_24h": 25507149.19,
       "pool_address": "solana_2iUtrQHmMZjJoiRTXuxnwJCp4bg1FHwqpLnnoz534dBY",
       "ath": 0.2390666775490102,
       "ath_timestamp": 1755562028,
@@ -23,11 +23,11 @@
       "dexId": "heaven",
       "pairAddress": "EkU9zGSkUnVVK6nhmPSqnxqcKPzt1PicrCjdxSbWo9uA",
       "txns_24h": {
-        "buys": 17056,
-        "sells": 7599
+        "buys": 16589,
+        "sells": 7555
       },
-      "fdv_usd": 181054172,
-      "total_reserve_in_usd": 4547199.55,
+      "fdv_usd": 208525796,
+      "total_reserve_in_usd": 4901548.17,
       "tags": [
         "moonshot"
       ],
@@ -37,8 +37,18 @@
       },
       "metrics": {
         "uniqueWallets": 4,
-        "inflow24h": 146473.4272229551,
+        "inflow24h": 148973.4272229551,
         "trades": [
+          {
+            "timestamp": "2025-08-20T01:05:04.000Z",
+            "type": "BUY",
+            "amount": 11844.5387058,
+            "usdValue": 2500,
+            "wallet": {
+              "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+              "name": "Chillguy32x"
+            }
+          },
           {
             "timestamp": "2025-08-19T21:46:04.000Z",
             "type": "SWAP",
@@ -133,6 +143,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+          "name": "Chillguy32x",
+          "score": 1,
+          "tokens": [
+            {
+              "token_address": "LiGHtkg3uTa9836RaNkKLLriqTNRcMdRAhqjGWNv777",
+              "balance": 77392.238209001,
+              "token_price": 0.2085,
+              "token_decimals": 9,
+              "token_symbol": "LIGHT",
+              "token_name": "Light",
+              "value": 16136.28166657671
+            }
+          ]
+        },
+        {
           "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
           "name": "Ansem",
           "score": 3,
@@ -140,11 +166,11 @@
             {
               "token_address": "LiGHtkg3uTa9836RaNkKLLriqTNRcMdRAhqjGWNv777",
               "balance": 2175820.72305436,
-              "token_price": 0.181,
+              "token_price": 0.2085,
               "token_decimals": 9,
               "token_symbol": "LIGHT",
               "token_name": "Light",
-              "value": 393823.5508728392
+              "value": 453658.62075683405
             }
           ]
         },
@@ -155,12 +181,12 @@
           "tokens": [
             {
               "token_address": "LiGHtkg3uTa9836RaNkKLLriqTNRcMdRAhqjGWNv777",
-              "balance": 75776.795541655,
-              "token_price": 0.181,
+              "balance": 10000.000000182,
+              "token_price": 0.2085,
               "token_decimals": 9,
               "token_symbol": "LIGHT",
               "token_name": "Light",
-              "value": 13715.599993039554
+              "value": 2085.0000000379473
             }
           ]
         },
@@ -172,27 +198,11 @@
             {
               "token_address": "LiGHtkg3uTa9836RaNkKLLriqTNRcMdRAhqjGWNv777",
               "balance": 1384453.806782042,
-              "token_price": 0.181,
+              "token_price": 0.2085,
               "token_decimals": 9,
               "token_symbol": "LIGHT",
               "token_name": "Light",
-              "value": 250586.13902754957
-            }
-          ]
-        },
-        {
-          "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
-          "name": "Chillguy32x",
-          "score": 1,
-          "tokens": [
-            {
-              "token_address": "LiGHtkg3uTa9836RaNkKLLriqTNRcMdRAhqjGWNv777",
-              "balance": 65547.699503201,
-              "token_price": 0.181,
-              "token_decimals": 9,
-              "token_symbol": "LIGHT",
-              "token_name": "Light",
-              "value": 11864.133610079381
+              "value": 288658.61871405574
             }
           ]
         }
@@ -207,23 +217,23 @@
       "created_time": 1746886853,
       "website": "",
       "twitter": "https://x.com/theunipcs/status/1921208257399382410",
-      "holder": 32210,
-      "market_cap": 269287718,
-      "price": 0.2692,
-      "price_change_24h": -2.37,
-      "volume_24h": 4626427.19,
-      "pool_address": "solana_8ztFxjFPfVUtEf4SLSapcFj8GW2dxyUA9no2bLPq7H7V",
+      "holder": 32187,
+      "market_cap": 271093529,
+      "price": 0.271,
+      "price_change_24h": -0.33,
+      "volume_24h": 4533287.91,
+      "pool_address": "solana_Q2sPHPdUWFMg7M7wwrQKLrn619cAucfRsmhVJffodSp",
       "ath": 0.4167380638392473,
       "ath_timestamp": 1747374541,
       "ath_pool": "Q2sPHPdUWFMg7M7wwrQKLrn619cAucfRsmhVJffodSp",
       "dexId": "raydium",
       "pairAddress": "Q2sPHPdUWFMg7M7wwrQKLrn619cAucfRsmhVJffodSp",
       "txns_24h": {
-        "buys": 7547,
-        "sells": 7685
+        "buys": 7413,
+        "sells": 7469
       },
-      "fdv_usd": 269287718,
-      "total_reserve_in_usd": 5373036.65,
+      "fdv_usd": 271093529,
+      "total_reserve_in_usd": 5416646.15,
       "tags": [
         "moonshot"
       ],
@@ -232,8 +242,8 @@
         "price": 0.02609719608580928
       },
       "metrics": {
-        "uniqueWallets": 3,
-        "inflow24h": -67335.18743693072,
+        "uniqueWallets": 2,
+        "inflow24h": -59119.91746593072,
         "trades": [
           {
             "timestamp": "2025-08-19T17:15:26.000Z",
@@ -264,16 +274,6 @@
               "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
               "name": "Wizard100x"
             }
-          },
-          {
-            "timestamp": "2025-08-19T01:27:28.000Z",
-            "type": "SELL",
-            "amount": 30000,
-            "usdValue": 8215.269971,
-            "wallet": {
-              "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
-              "name": "Chillguy32x"
-            }
           }
         ]
       },
@@ -286,7 +286,7 @@
             {
               "token_address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
               "balance": 0,
-              "token_price": 0.2692,
+              "token_price": 0.271,
               "token_decimals": 6,
               "token_symbol": "USELESS",
               "token_name": "USELESS COIN",
@@ -302,27 +302,11 @@
             {
               "token_address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
               "balance": 119533.251157,
-              "token_price": 0.2692,
+              "token_price": 0.271,
               "token_decimals": 6,
               "token_symbol": "USELESS",
               "token_name": "USELESS COIN",
-              "value": 32178.3512114644
-            }
-          ]
-        },
-        {
-          "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
-          "name": "Chillguy32x",
-          "score": 1,
-          "tokens": [
-            {
-              "token_address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
-              "balance": 0,
-              "token_price": 0.2692,
-              "token_decimals": 6,
-              "token_symbol": "USELESS",
-              "token_name": "USELESS COIN",
-              "value": 0
+              "value": 32393.511063547005
             }
           ]
         }
