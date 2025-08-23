@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-08-23T22:31:00.713Z",
+  "timestamp": "2025-08-23T22:41:38.010Z",
   "data": [
     {
       "address": "BnszRWbs9LxSzsCUUS57HMTNNtyDHFsnmZ1mVhAYdaos",
@@ -12,10 +12,10 @@
       "website": "",
       "twitter": "",
       "holder": 1824,
-      "market_cap": 1767405,
-      "price": 0.001767,
-      "price_change_24h": 2518,
-      "volume_24h": 3541324.42,
+      "market_cap": 2158425,
+      "price": 0.002158,
+      "price_change_24h": 3097,
+      "volume_24h": 3663676.93,
       "pool_address": "solana_C3xpiicYD15XZCjzEtVhGU7xx4NRnZrusmLbyHWpq4bh",
       "ath": 0.0019163724922500504,
       "ath_timestamp": 1756047894,
@@ -23,11 +23,11 @@
       "dexId": "meteora",
       "pairAddress": "C3xpiicYD15XZCjzEtVhGU7xx4NRnZrusmLbyHWpq4bh",
       "txns_24h": {
-        "buys": 12381,
-        "sells": 10787
+        "buys": 12685,
+        "sells": 11112
       },
-      "fdv_usd": 1767405,
-      "total_reserve_in_usd": 151001.62,
+      "fdv_usd": 2158425,
+      "total_reserve_in_usd": 167349.39,
       "tags": [],
       "first_signal": {
         "timestamp": 1755961494,
@@ -35,8 +35,18 @@
       },
       "metrics": {
         "uniqueWallets": 2,
-        "inflow24h": 24882.68749527696,
+        "inflow24h": 25458.68749527696,
         "trades": [
+          {
+            "timestamp": "2025-08-23T22:38:54.000Z",
+            "type": "BUY",
+            "amount": 252434.891094907,
+            "usdValue": 576,
+            "wallet": {
+              "address": "EJ2jyVUceCYvC1HxY77X2adre7Kcf8sQaucrKaQtVtXs",
+              "name": "justice3.6x"
+            }
+          },
           {
             "timestamp": "2025-08-23T22:12:16.000Z",
             "type": "BUY",
@@ -121,6 +131,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "EJ2jyVUceCYvC1HxY77X2adre7Kcf8sQaucrKaQtVtXs",
+          "name": "justice3.6x",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "BnszRWbs9LxSzsCUUS57HMTNNtyDHFsnmZ1mVhAYdaos",
+              "balance": 252434.891094907,
+              "token_price": 0.002158,
+              "token_decimals": 9,
+              "token_symbol": "LLM",
+              "token_name": "Latina Language Model",
+              "value": 544.7544949828094
+            }
+          ]
+        },
+        {
           "address": "8zFZHuSRuDpuAR7J6FzwyF3vKNx4CVW3DFHJerQhc7Zd",
           "name": "Pow",
           "score": 3,
@@ -128,27 +154,11 @@
             {
               "token_address": "BnszRWbs9LxSzsCUUS57HMTNNtyDHFsnmZ1mVhAYdaos",
               "balance": 10727337.23210048,
-              "token_price": 0.001767,
+              "token_price": 0.002158,
               "token_decimals": 9,
               "token_symbol": "LLM",
               "token_name": "Latina Language Model",
-              "value": 18955.204889121545
-            }
-          ]
-        },
-        {
-          "address": "EJ2jyVUceCYvC1HxY77X2adre7Kcf8sQaucrKaQtVtXs",
-          "name": "justice3.6x",
-          "score": 2,
-          "tokens": [
-            {
-              "token_address": "BnszRWbs9LxSzsCUUS57HMTNNtyDHFsnmZ1mVhAYdaos",
-              "balance": 0,
-              "token_price": 0.001767,
-              "token_decimals": 9,
-              "token_symbol": "LLM",
-              "token_name": "Latina Language Model",
-              "value": 0
+              "value": 23149.593746872837
             }
           ]
         }
