@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-08-23T18:16:06.175Z",
+  "timestamp": "2025-08-23T18:39:29.640Z",
   "data": [
     {
       "address": "BnszRWbs9LxSzsCUUS57HMTNNtyDHFsnmZ1mVhAYdaos",
@@ -12,10 +12,10 @@
       "website": "",
       "twitter": "",
       "holder": 1480,
-      "market_cap": 1022551,
-      "price": 0.001022,
-      "price_change_24h": 1415,
-      "volume_24h": 2607089.8,
+      "market_cap": 1049655,
+      "price": 0.001049,
+      "price_change_24h": 1455,
+      "volume_24h": 2646733.11,
       "pool_address": "solana_C3xpiicYD15XZCjzEtVhGU7xx4NRnZrusmLbyHWpq4bh",
       "ath": 0.0013373166451486607,
       "ath_timestamp": 1756047894,
@@ -23,11 +23,11 @@
       "dexId": "meteora",
       "pairAddress": "C3xpiicYD15XZCjzEtVhGU7xx4NRnZrusmLbyHWpq4bh",
       "txns_24h": {
-        "buys": 9211,
-        "sells": 7861
+        "buys": 9325,
+        "sells": 7958
       },
-      "fdv_usd": 1022551,
-      "total_reserve_in_usd": 112163.17,
+      "fdv_usd": 1049655,
+      "total_reserve_in_usd": 114191.65,
       "tags": [],
       "first_signal": {
         "timestamp": 1755961494,
@@ -35,8 +35,18 @@
       },
       "metrics": {
         "uniqueWallets": 2,
-        "inflow24h": 12368.461110345892,
+        "inflow24h": 11792.347318345892,
         "trades": [
+          {
+            "timestamp": "2025-08-23T18:24:47.000Z",
+            "type": "SELL",
+            "amount": 565809.637192178,
+            "usdValue": 576.113792,
+            "wallet": {
+              "address": "EJ2jyVUceCYvC1HxY77X2adre7Kcf8sQaucrKaQtVtXs",
+              "name": "justice3.6x"
+            }
+          },
           {
             "timestamp": "2025-08-23T15:08:29.000Z",
             "type": "BUY",
@@ -81,6 +91,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "EJ2jyVUceCYvC1HxY77X2adre7Kcf8sQaucrKaQtVtXs",
+          "name": "justice3.6x",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "BnszRWbs9LxSzsCUUS57HMTNNtyDHFsnmZ1mVhAYdaos",
+              "balance": 0,
+              "token_price": 0.001049,
+              "token_decimals": 9,
+              "token_symbol": "LLM",
+              "token_name": "Latina Language Model",
+              "value": 0
+            }
+          ]
+        },
+        {
           "address": "8zFZHuSRuDpuAR7J6FzwyF3vKNx4CVW3DFHJerQhc7Zd",
           "name": "Pow",
           "score": 3,
@@ -88,27 +114,11 @@
             {
               "token_address": "BnszRWbs9LxSzsCUUS57HMTNNtyDHFsnmZ1mVhAYdaos",
               "balance": 13916864.493938774,
-              "token_price": 0.001022,
+              "token_price": 0.001049,
               "token_decimals": 9,
               "token_symbol": "LLM",
               "token_name": "Latina Language Model",
-              "value": 14223.035512805425
-            }
-          ]
-        },
-        {
-          "address": "EJ2jyVUceCYvC1HxY77X2adre7Kcf8sQaucrKaQtVtXs",
-          "name": "justice3.6x",
-          "score": 2,
-          "tokens": [
-            {
-              "token_address": "BnszRWbs9LxSzsCUUS57HMTNNtyDHFsnmZ1mVhAYdaos",
-              "balance": 565809.637192178,
-              "token_price": 0.001022,
-              "token_decimals": 9,
-              "token_symbol": "LLM",
-              "token_name": "Latina Language Model",
-              "value": 578.2574492104059
+              "value": 14598.790854141775
             }
           ]
         }
@@ -123,11 +133,11 @@
       "created_time": 1755884633,
       "website": "https://x.com/co_numina/status/1958946222628118957",
       "twitter": "https://x.com/i/communities/1958944980829176045",
-      "holder": 3095,
-      "market_cap": 429511,
-      "price": 0.0004295,
-      "price_change_24h": 416,
-      "volume_24h": 10991138.36,
+      "holder": 3043,
+      "market_cap": 280121,
+      "price": 0.0002801,
+      "price_change_24h": 236,
+      "volume_24h": 11122516.14,
       "pool_address": "solana_FqCwGzbUgKBWobFDtvPEuTrUcLwxzHxxBss9DfzFfSqm",
       "ath": 0.0019369728611270231,
       "ath_timestamp": 1755987368,
@@ -138,11 +148,11 @@
         "active": 100
       },
       "txns_24h": {
-        "buys": 47718,
-        "sells": 40279
+        "buys": 48451,
+        "sells": 40791
       },
-      "fdv_usd": 429511,
-      "total_reserve_in_usd": 94840.26,
+      "fdv_usd": 280121,
+      "total_reserve_in_usd": 77000.13,
       "tags": [],
       "first_signal": {
         "timestamp": 1755900968,
@@ -213,7 +223,7 @@
             {
               "token_address": "GJZJsDnJaqGuGxgARRYNhzBWEzfST4sngHKLP2nppump",
               "balance": 0,
-              "token_price": 0.0004295,
+              "token_price": 0.0002801,
               "token_decimals": 6,
               "token_symbol": "MACHO",
               "token_name": "Right-Hook Dog",
@@ -229,7 +239,7 @@
             {
               "token_address": "GJZJsDnJaqGuGxgARRYNhzBWEzfST4sngHKLP2nppump",
               "balance": 0,
-              "token_price": 0.0004295,
+              "token_price": 0.0002801,
               "token_decimals": 6,
               "token_symbol": "MACHO",
               "token_name": "Right-Hook Dog",
@@ -249,10 +259,10 @@
       "website": "",
       "twitter": "",
       "holder": 904,
-      "market_cap": 323908,
-      "price": 0.0003622,
-      "price_change_24h": 50.56,
-      "volume_24h": 2877529.19,
+      "market_cap": 335475,
+      "price": 0.0003751,
+      "price_change_24h": 53.68,
+      "volume_24h": 2879399.77,
       "pool_address": "solana_BUyxp23JoLN2XJcdgqPqwf1AeoZSBjSspDKW3Sa7BiE1",
       "ath": 0.0014526731368633829,
       "ath_timestamp": 1755984968,
@@ -260,11 +270,11 @@
       "dexId": "meteora",
       "pairAddress": "BUyxp23JoLN2XJcdgqPqwf1AeoZSBjSspDKW3Sa7BiE1",
       "txns_24h": {
-        "buys": 6504,
-        "sells": 6055
+        "buys": 6507,
+        "sells": 6062
       },
-      "fdv_usd": 323908,
-      "total_reserve_in_usd": 76209.78,
+      "fdv_usd": 335475,
+      "total_reserve_in_usd": 77323.31,
       "tags": [],
       "first_signal": {
         "timestamp": 1755898568,
@@ -345,7 +355,7 @@
             {
               "token_address": "3mNHDX54Y8FXfGAbchwpGQ6Yh16X8nvk3x8Mukjasend",
               "balance": 0,
-              "token_price": 0.0003622,
+              "token_price": 0.0003751,
               "token_decimals": 6,
               "token_symbol": "BALITECH",
               "token_name": "BALI TECH",
@@ -361,11 +371,11 @@
             {
               "token_address": "3mNHDX54Y8FXfGAbchwpGQ6Yh16X8nvk3x8Mukjasend",
               "balance": 1076477.294117,
-              "token_price": 0.0003622,
+              "token_price": 0.0003751,
               "token_decimals": 6,
               "token_symbol": "BALITECH",
               "token_name": "BALI TECH",
-              "value": 389.90007592917743
+              "value": 403.7866330232867
             }
           ]
         }
@@ -381,10 +391,10 @@
       "website": "https://www.heaven.xyz",
       "twitter": "https://x.com/heavendex",
       "holder": 13412,
-      "market_cap": 87302814,
-      "price": 0.171,
-      "price_change_24h": 11.21,
-      "volume_24h": 13355026.65,
+      "market_cap": 83471426,
+      "price": 0.1635,
+      "price_change_24h": 6.6,
+      "volume_24h": 13270160.34,
       "pool_address": "solana_2iUtrQHmMZjJoiRTXuxnwJCp4bg1FHwqpLnnoz534dBY",
       "ath": 0.25535704041376023,
       "ath_timestamp": 1755562028,
@@ -392,11 +402,11 @@
       "dexId": "heaven",
       "pairAddress": "EkU9zGSkUnVVK6nhmPSqnxqcKPzt1PicrCjdxSbWo9uA",
       "txns_24h": {
-        "buys": 6407,
-        "sells": 4576
+        "buys": 6394,
+        "sells": 4527
       },
-      "fdv_usd": 171087066,
-      "total_reserve_in_usd": 4749715.85,
+      "fdv_usd": 163578706,
+      "total_reserve_in_usd": 4651506.88,
       "tags": [
         "moonshot"
       ],
@@ -449,11 +459,11 @@
             {
               "token_address": "LiGHtkg3uTa9836RaNkKLLriqTNRcMdRAhqjGWNv777",
               "balance": 1100303.505100573,
-              "token_price": 0.171,
+              "token_price": 0.1635,
               "token_decimals": 9,
               "token_symbol": "LIGHT",
               "token_name": "Light",
-              "value": 188151.89937219798
+              "value": 179899.62308394368
             }
           ]
         },
@@ -465,7 +475,7 @@
             {
               "token_address": "LiGHtkg3uTa9836RaNkKLLriqTNRcMdRAhqjGWNv777",
               "balance": 0,
-              "token_price": 0.171,
+              "token_price": 0.1635,
               "token_decimals": 9,
               "token_symbol": "LIGHT",
               "token_name": "Light",
