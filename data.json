@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-08-24T12:25:00.456Z",
+  "timestamp": "2025-08-24T12:58:29.671Z",
   "data": [
     {
       "address": "BnszRWbs9LxSzsCUUS57HMTNNtyDHFsnmZ1mVhAYdaos",
@@ -12,22 +12,22 @@
       "website": "",
       "twitter": "",
       "holder": 5021,
-      "market_cap": 11127120,
-      "price": 0.01112,
-      "price_change_24h": 16382,
-      "volume_24h": 11157183.01,
+      "market_cap": 11686669,
+      "price": 0.01168,
+      "price_change_24h": 15397,
+      "volume_24h": 11302697.66,
       "pool_address": "solana_C3xpiicYD15XZCjzEtVhGU7xx4NRnZrusmLbyHWpq4bh",
-      "ath": 0.012135246266980707,
+      "ath": 0.01216826796847243,
       "ath_timestamp": 1756047894,
       "ath_pool": "C3xpiicYD15XZCjzEtVhGU7xx4NRnZrusmLbyHWpq4bh",
       "dexId": "meteora",
       "pairAddress": "C3xpiicYD15XZCjzEtVhGU7xx4NRnZrusmLbyHWpq4bh",
       "txns_24h": {
-        "buys": 31499,
-        "sells": 26650
+        "buys": 31775,
+        "sells": 26769
       },
-      "fdv_usd": 11127120,
-      "total_reserve_in_usd": 410789.26,
+      "fdv_usd": 11686669,
+      "total_reserve_in_usd": 422418.2,
       "tags": [],
       "first_signal": {
         "timestamp": 1755961494,
@@ -35,8 +35,28 @@
       },
       "metrics": {
         "uniqueWallets": 2,
-        "inflow24h": 25623.685441993628,
+        "inflow24h": 23532.016026063604,
         "trades": [
+          {
+            "timestamp": "2025-08-24T12:56:53.000Z",
+            "type": "SWAP",
+            "amount": 98901.024532587,
+            "usdValue": 1121.0571029300238,
+            "wallet": {
+              "address": "EJ2jyVUceCYvC1HxY77X2adre7Kcf8sQaucrKaQtVtXs",
+              "name": "justice3.6x"
+            }
+          },
+          {
+            "timestamp": "2025-08-24T12:31:53.000Z",
+            "type": "SELL",
+            "amount": 93655.232754447,
+            "usdValue": 970.612313,
+            "wallet": {
+              "address": "EJ2jyVUceCYvC1HxY77X2adre7Kcf8sQaucrKaQtVtXs",
+              "name": "justice3.6x"
+            }
+          },
           {
             "timestamp": "2025-08-24T11:42:59.000Z",
             "type": "BUY",
@@ -167,12 +187,12 @@
           "tokens": [
             {
               "token_address": "BnszRWbs9LxSzsCUUS57HMTNNtyDHFsnmZ1mVhAYdaos",
-              "balance": 93655.232754447,
-              "token_price": 0.01112,
+              "balance": 0,
+              "token_price": 0.01168,
               "token_decimals": 9,
               "token_symbol": "LLM",
               "token_name": "Latina Language Model",
-              "value": 1041.4461882294506
+              "value": 0
             }
           ]
         },
@@ -184,11 +204,11 @@
             {
               "token_address": "BnszRWbs9LxSzsCUUS57HMTNNtyDHFsnmZ1mVhAYdaos",
               "balance": 10727337.23210048,
-              "token_price": 0.01112,
+              "token_price": 0.01168,
               "token_decimals": 9,
               "token_symbol": "LLM",
               "token_name": "Latina Language Model",
-              "value": 119287.99002095732
+              "value": 125295.29887093359
             }
           ]
         }
@@ -203,11 +223,11 @@
       "created_time": 1750777410,
       "website": "https://pump.fun/",
       "twitter": "https://x.com/solana/status/1937526919458881668",
-      "holder": 7466,
-      "market_cap": 923628,
-      "price": 0.0009242,
-      "price_change_24h": 36.6,
-      "volume_24h": 522754.83,
+      "holder": 7462,
+      "market_cap": 930678,
+      "price": 0.0009312,
+      "price_change_24h": 39.23,
+      "volume_24h": 526223.56,
       "pool_address": "solana_Dhd8USj4RNAetMN4EE66RGsenA9w3USskffbv5GsmBuF",
       "ath": 0.012287161994760439,
       "ath_timestamp": 1750886227,
@@ -218,11 +238,11 @@
         "active": 10
       },
       "txns_24h": {
-        "buys": 1824,
-        "sells": 1455
+        "buys": 1839,
+        "sells": 1459
       },
-      "fdv_usd": 923628,
-      "total_reserve_in_usd": 249375.16,
+      "fdv_usd": 930678,
+      "total_reserve_in_usd": 249868.38,
       "tags": [
         "moonshot"
       ],
@@ -255,11 +275,11 @@
             {
               "token_address": "5c74v6Px9RKwdGWCfqLGfEk7UZfE3Y4qJbuYrLbVG63V",
               "balance": 20424243.844386,
-              "token_price": 0.0009242,
+              "token_price": 0.0009312,
               "token_decimals": 6,
               "token_symbol": "solami",
               "token_name": "solami",
-              "value": 18876.08616098154
+              "value": 19019.055867892243
             }
           ]
         }
