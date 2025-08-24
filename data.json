@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-08-23T23:55:56.270Z",
+  "timestamp": "2025-08-24T01:06:08.127Z",
   "data": [
     {
       "address": "BnszRWbs9LxSzsCUUS57HMTNNtyDHFsnmZ1mVhAYdaos",
@@ -11,23 +11,23 @@
       "created_time": 1755945259,
       "website": "",
       "twitter": "",
-      "holder": 2129,
-      "market_cap": 2717072,
-      "price": 0.002717,
-      "price_change_24h": 3925,
-      "volume_24h": 4124546.11,
+      "holder": 2337,
+      "market_cap": 2496924,
+      "price": 0.002496,
+      "price_change_24h": 3599,
+      "volume_24h": 4344401.24,
       "pool_address": "solana_C3xpiicYD15XZCjzEtVhGU7xx4NRnZrusmLbyHWpq4bh",
-      "ath": 0.002989704295450899,
+      "ath": 0.0033202731621559964,
       "ath_timestamp": 1756047894,
       "ath_pool": "C3xpiicYD15XZCjzEtVhGU7xx4NRnZrusmLbyHWpq4bh",
       "dexId": "meteora",
       "pairAddress": "C3xpiicYD15XZCjzEtVhGU7xx4NRnZrusmLbyHWpq4bh",
       "txns_24h": {
-        "buys": 14218,
-        "sells": 12547
+        "buys": 15015,
+        "sells": 13236
       },
-      "fdv_usd": 2717072,
-      "total_reserve_in_usd": 187952.52,
+      "fdv_usd": 2496924,
+      "total_reserve_in_usd": 186507.55,
       "tags": [],
       "first_signal": {
         "timestamp": 1755961494,
@@ -35,8 +35,28 @@
       },
       "metrics": {
         "uniqueWallets": 2,
-        "inflow24h": 25458.68749527696,
+        "inflow24h": 24762.98564631833,
         "trades": [
+          {
+            "timestamp": "2025-08-24T00:11:33.000Z",
+            "type": "SELL",
+            "amount": 75730.467328473,
+            "usdValue": 208.87226401705627,
+            "wallet": {
+              "address": "EJ2jyVUceCYvC1HxY77X2adre7Kcf8sQaucrKaQtVtXs",
+              "name": "justice3.6x"
+            }
+          },
+          {
+            "timestamp": "2025-08-24T00:11:33.000Z",
+            "type": "SELL",
+            "amount": 176704.423766434,
+            "usdValue": 486.82958494157333,
+            "wallet": {
+              "address": "EJ2jyVUceCYvC1HxY77X2adre7Kcf8sQaucrKaQtVtXs",
+              "name": "justice3.6x"
+            }
+          },
           {
             "timestamp": "2025-08-23T22:38:54.000Z",
             "type": "BUY",
@@ -137,12 +157,12 @@
           "tokens": [
             {
               "token_address": "BnszRWbs9LxSzsCUUS57HMTNNtyDHFsnmZ1mVhAYdaos",
-              "balance": 252434.891094907,
-              "token_price": 0.002717,
+              "balance": 0,
+              "token_price": 0.002496,
               "token_decimals": 9,
               "token_symbol": "LLM",
               "token_name": "Latina Language Model",
-              "value": 685.8655991048623
+              "value": 0
             }
           ]
         },
@@ -154,11 +174,11 @@
             {
               "token_address": "BnszRWbs9LxSzsCUUS57HMTNNtyDHFsnmZ1mVhAYdaos",
               "balance": 10727337.23210048,
-              "token_price": 0.002717,
+              "token_price": 0.002496,
               "token_decimals": 9,
               "token_symbol": "LLM",
               "token_name": "Latina Language Model",
-              "value": 29146.175259617
+              "value": 26775.433731322795
             }
           ]
         }
