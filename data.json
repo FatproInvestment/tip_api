@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-08-24T13:24:27.877Z",
+  "timestamp": "2025-08-24T13:38:57.976Z",
   "data": [
     {
       "address": "B8zW7B8T7ntCiiRYw18jrFu9MBqMZVk9pP7nYyT5iBLV",
@@ -12,10 +12,10 @@
       "website": "",
       "twitter": "",
       "holder": 1914,
-      "market_cap": 1411600,
-      "price": 0.001411,
-      "price_change_24h": 1239,
-      "volume_24h": 1224503.53,
+      "market_cap": 2052892,
+      "price": 0.002052,
+      "price_change_24h": 1847,
+      "volume_24h": 1831007.09,
       "pool_address": "solana_CXsCTuQdk6BFstvBZzBzxuZ12y9esgzUp3my95b6FATg",
       "ath": 0.001411,
       "ath_timestamp": 1756128192,
@@ -23,11 +23,11 @@
       "dexId": "meteora",
       "pairAddress": "CXsCTuQdk6BFstvBZzBzxuZ12y9esgzUp3my95b6FATg",
       "txns_24h": {
-        "buys": 4455,
-        "sells": 3378
+        "buys": 5868,
+        "sells": 4763
       },
-      "fdv_usd": 1411600,
-      "total_reserve_in_usd": 311899.01,
+      "fdv_usd": 2052892,
+      "total_reserve_in_usd": 406358.44,
       "tags": [],
       "first_signal": {
         "timestamp": 1756041792,
@@ -35,8 +35,28 @@
       },
       "metrics": {
         "uniqueWallets": 2,
-        "inflow24h": 3126.3392633821627,
+        "inflow24h": -13006.156079032304,
         "trades": [
+          {
+            "timestamp": "2025-08-24T13:37:48.000Z",
+            "type": "SELL",
+            "amount": 7735392.222946541,
+            "usdValue": 14635.513321247976,
+            "wallet": {
+              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+              "name": "DNF 哥"
+            }
+          },
+          {
+            "timestamp": "2025-08-24T13:36:33.000Z",
+            "type": "SELL",
+            "amount": 763989.355352745,
+            "usdValue": 1496.9820211664905,
+            "wallet": {
+              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+              "name": "DNF 哥"
+            }
+          },
           {
             "timestamp": "2025-08-24T13:23:05.000Z",
             "type": "BUY",
@@ -81,6 +101,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+          "name": "DNF 哥",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "B8zW7B8T7ntCiiRYw18jrFu9MBqMZVk9pP7nYyT5iBLV",
+              "balance": 7735392.222946542,
+              "token_price": 0.002052,
+              "token_decimals": 9,
+              "token_symbol": "HUCH",
+              "token_name": "Huch",
+              "value": 15873.024841486305
+            }
+          ]
+        },
+        {
           "address": "EJ2jyVUceCYvC1HxY77X2adre7Kcf8sQaucrKaQtVtXs",
           "name": "justice3.6x",
           "score": 2,
@@ -88,27 +124,11 @@
             {
               "token_address": "B8zW7B8T7ntCiiRYw18jrFu9MBqMZVk9pP7nYyT5iBLV",
               "balance": 409579.365552201,
-              "token_price": 0.001411,
+              "token_price": 0.002052,
               "token_decimals": 9,
               "token_symbol": "HUCH",
               "token_name": "Huch",
-              "value": 577.9164847941556
-            }
-          ]
-        },
-        {
-          "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-          "name": "DNF 哥",
-          "score": 3,
-          "tokens": [
-            {
-              "token_address": "B8zW7B8T7ntCiiRYw18jrFu9MBqMZVk9pP7nYyT5iBLV",
-              "balance": 16234773.801245827,
-              "token_price": 0.001411,
-              "token_decimals": 9,
-              "token_symbol": "HUCH",
-              "token_name": "Huch",
-              "value": 22907.26583355786
+              "value": 840.4568581131165
             }
           ]
         }
@@ -124,22 +144,22 @@
       "website": "",
       "twitter": "",
       "holder": 5293,
-      "market_cap": 11315171,
-      "price": 0.01131,
-      "price_change_24h": 9920,
-      "volume_24h": 11737724.15,
+      "market_cap": 10663975,
+      "price": 0.01066,
+      "price_change_24h": 9070,
+      "volume_24h": 11893040.46,
       "pool_address": "solana_C3xpiicYD15XZCjzEtVhGU7xx4NRnZrusmLbyHWpq4bh",
-      "ath": 0.01216826796847243,
+      "ath": 0.013846751159428261,
       "ath_timestamp": 1756047894,
       "ath_pool": "C3xpiicYD15XZCjzEtVhGU7xx4NRnZrusmLbyHWpq4bh",
       "dexId": "meteora",
       "pairAddress": "C3xpiicYD15XZCjzEtVhGU7xx4NRnZrusmLbyHWpq4bh",
       "txns_24h": {
-        "buys": 32490,
-        "sells": 27447
+        "buys": 32793,
+        "sells": 27592
       },
-      "fdv_usd": 11315171,
-      "total_reserve_in_usd": 419807.76,
+      "fdv_usd": 10663975,
+      "total_reserve_in_usd": 415554.45,
       "tags": [],
       "first_signal": {
         "timestamp": 1755961494,
@@ -350,7 +370,7 @@
             {
               "token_address": "BnszRWbs9LxSzsCUUS57HMTNNtyDHFsnmZ1mVhAYdaos",
               "balance": 0,
-              "token_price": 0.01131,
+              "token_price": 0.01066,
               "token_decimals": 9,
               "token_symbol": "LLM",
               "token_name": "Latina Language Model",
@@ -366,11 +386,11 @@
             {
               "token_address": "BnszRWbs9LxSzsCUUS57HMTNNtyDHFsnmZ1mVhAYdaos",
               "balance": 10727337.23210048,
-              "token_price": 0.01131,
+              "token_price": 0.01066,
               "token_decimals": 9,
               "token_symbol": "LLM",
               "token_name": "Latina Language Model",
-              "value": 121326.18409505642
+              "value": 114353.4148941911
             }
           ]
         }
@@ -386,10 +406,10 @@
       "website": "https://pump.fun/",
       "twitter": "https://x.com/solana/status/1937526919458881668",
       "holder": 7462,
-      "market_cap": 922802,
-      "price": 0.0009233,
-      "price_change_24h": 38.51,
-      "volume_24h": 536108.99,
+      "market_cap": 940465,
+      "price": 0.000941,
+      "price_change_24h": 42.44,
+      "volume_24h": 536360.2,
       "pool_address": "solana_Dhd8USj4RNAetMN4EE66RGsenA9w3USskffbv5GsmBuF",
       "ath": 0.012287161994760439,
       "ath_timestamp": 1750886227,
@@ -400,11 +420,11 @@
         "active": 10
       },
       "txns_24h": {
-        "buys": 1865,
-        "sells": 1467
+        "buys": 1868,
+        "sells": 1469
       },
-      "fdv_usd": 922802,
-      "total_reserve_in_usd": 249701.93,
+      "fdv_usd": 940465,
+      "total_reserve_in_usd": 252248.73,
       "tags": [
         "moonshot"
       ],
@@ -437,11 +457,11 @@
             {
               "token_address": "5c74v6Px9RKwdGWCfqLGfEk7UZfE3Y4qJbuYrLbVG63V",
               "balance": 20424243.844386,
-              "token_price": 0.0009233,
+              "token_price": 0.000941,
               "token_decimals": 6,
               "token_symbol": "solami",
               "token_name": "solami",
-              "value": 18857.704341521596
+              "value": 19219.213457567224
             }
           ]
         }
