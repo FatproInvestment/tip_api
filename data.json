@@ -1,7 +1,75 @@
 {
   "success": true,
-  "timestamp": "2025-08-25T16:46:25.025Z",
+  "timestamp": "2025-08-25T16:56:45.414Z",
   "data": [
+    {
+      "address": "H1aoUqmp2vJu5o8w3o8LjrN6jKyWErS69PtYxGhfoXxf",
+      "symbol": "YAPPER",
+      "name": "Yapper",
+      "decimals": 9,
+      "icon": "https://pbs.twimg.com/profile_images/1926357506583859200/UML8XB4E_400x400.jpg",
+      "created_time": 1747261107,
+      "website": "",
+      "twitter": "",
+      "holder": 4510,
+      "market_cap": 1514547,
+      "price": 0.00153,
+      "price_change_24h": 243,
+      "volume_24h": 171175.45,
+      "pool_address": "solana_ARwzSvwhpns5S2vAzTV41kra4qvRizbH3aS6ZWBf5usA",
+      "ath": 0.01460650466628192,
+      "ath_timestamp": 1747374541,
+      "ath_pool": "ARwzSvwhpns5S2vAzTV41kra4qvRizbH3aS6ZWBf5usA",
+      "dexId": "meteora",
+      "pairAddress": "ARwzSvwhpns5S2vAzTV41kra4qvRizbH3aS6ZWBf5usA",
+      "txns_24h": {
+        "buys": 245,
+        "sells": 300
+      },
+      "fdv_usd": 1514547,
+      "total_reserve_in_usd": 270276.48,
+      "tags": [
+        "moonshot"
+      ],
+      "first_signal": {
+        "timestamp": 1747288141,
+        "price": 0.009245313054776596
+      },
+      "metrics": {
+        "uniqueWallets": 1,
+        "inflow24h": 9847.220126731761,
+        "trades": [
+          {
+            "timestamp": "2025-08-25T16:53:04.000Z",
+            "type": "BUY",
+            "amount": 5996329.791903832,
+            "usdValue": 9847.220126731761,
+            "wallet": {
+              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+              "name": "DNF 哥"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+          "name": "DNF 哥",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "H1aoUqmp2vJu5o8w3o8LjrN6jKyWErS69PtYxGhfoXxf",
+              "balance": 15018745.745969469,
+              "token_price": 0.00153,
+              "token_decimals": 9,
+              "token_symbol": "YAPPER",
+              "token_name": "Yapper",
+              "value": 22978.680991333287
+            }
+          ]
+        }
+      ]
+    },
     {
       "address": "8vtRhUm7mrU6jg9YG19Qc8UEhRbMwTXwNQ52xizpump",
       "symbol": "SUISEI",
@@ -12,10 +80,10 @@
       "website": "",
       "twitter": "https://x.com/jup_enjoyoors/status/1959908628535865550",
       "holder": 3970,
-      "market_cap": 1656073,
-      "price": 0.001656,
-      "price_change_24h": 1909,
-      "volume_24h": 11655523.22,
+      "market_cap": 2292926,
+      "price": 0.002292,
+      "price_change_24h": 2681,
+      "volume_24h": 11934935.23,
       "pool_address": "solana_C4GSiTe33Uo1z4g6CfNrMq4YCq2YdhaScX8RmVr2Mdpj",
       "ath": 0.002475461816025475,
       "ath_timestamp": 1756201920,
@@ -23,11 +91,11 @@
       "dexId": "pumpswap",
       "pairAddress": "C4GSiTe33Uo1z4g6CfNrMq4YCq2YdhaScX8RmVr2Mdpj",
       "txns_24h": {
-        "buys": 39154,
-        "sells": 36934
+        "buys": 39735,
+        "sells": 37687
       },
-      "fdv_usd": 1656073,
-      "total_reserve_in_usd": 181670.92,
+      "fdv_usd": 2292926,
+      "total_reserve_in_usd": 214094.88,
       "tags": [],
       "first_signal": {
         "timestamp": 1756115520,
@@ -35,8 +103,18 @@
       },
       "metrics": {
         "uniqueWallets": 2,
-        "inflow24h": 767.4393383858041,
+        "inflow24h": 180.92789109531805,
         "trades": [
+          {
+            "timestamp": "2025-08-25T16:47:52.000Z",
+            "type": "SELL",
+            "amount": 320913.098142,
+            "usdValue": 586.511447290485,
+            "wallet": {
+              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+              "name": "DNF 哥"
+            }
+          },
           {
             "timestamp": "2025-08-25T12:18:54.000Z",
             "type": "SELL",
@@ -107,12 +185,12 @@
           "tokens": [
             {
               "token_address": "8vtRhUm7mrU6jg9YG19Qc8UEhRbMwTXwNQ52xizpump",
-              "balance": 3251399.170641,
-              "token_price": 0.001656,
+              "balance": 2930486.072499,
+              "token_price": 0.002292,
               "token_decimals": 6,
               "token_symbol": "SUISEI",
               "token_name": "Hoshimachi Suisei",
-              "value": 5384.317026581495
+              "value": 6716.674078167709
             }
           ]
         },
@@ -124,7 +202,7 @@
             {
               "token_address": "8vtRhUm7mrU6jg9YG19Qc8UEhRbMwTXwNQ52xizpump",
               "balance": 0,
-              "token_price": 0.001656,
+              "token_price": 0.002292,
               "token_decimals": 6,
               "token_symbol": "SUISEI",
               "token_name": "Hoshimachi Suisei",
