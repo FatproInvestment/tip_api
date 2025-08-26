@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-08-26T22:42:41.227Z",
+  "timestamp": "2025-08-26T22:49:08.797Z",
   "data": [
     {
       "address": "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2",
@@ -11,11 +11,11 @@
       "created_time": 1710100402,
       "website": "",
       "twitter": "",
-      "holder": 44405,
-      "market_cap": 211315181,
-      "price": 0.2115,
-      "price_change_24h": 7.18,
-      "volume_24h": 5304689.44,
+      "holder": 44424,
+      "market_cap": 210643304,
+      "price": 0.2108,
+      "price_change_24h": 4.01,
+      "volume_24h": 5214706.95,
       "pool_address": "solana_4w2cysotX6czaUGmmWg13hDpY4QEMG2CzeKYEQyK9Ama",
       "ath": 0.2870218972948458,
       "ath_timestamp": 1755366851,
@@ -23,11 +23,11 @@
       "dexId": "pumpswap",
       "pairAddress": "4w2cysotX6czaUGmmWg13hDpY4QEMG2CzeKYEQyK9Ama",
       "txns_24h": {
-        "buys": 3415,
-        "sells": 2777
+        "buys": 3388,
+        "sells": 2746
       },
-      "fdv_usd": 211315181,
-      "total_reserve_in_usd": 6078779.62,
+      "fdv_usd": 210643304,
+      "total_reserve_in_usd": 6065868.37,
       "tags": [
         "moonshot"
       ],
@@ -70,11 +70,11 @@
             {
               "token_address": "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2",
               "balance": 2236538.695712,
-              "token_price": 0.2115,
+              "token_price": 0.2108,
               "token_decimals": 6,
               "token_symbol": "TROLL",
               "token_name": "TROLL",
-              "value": 473027.934143088
+              "value": 471462.3570560896
             }
           ]
         }
@@ -90,10 +90,10 @@
       "website": "",
       "twitter": "",
       "holder": 6715,
-      "market_cap": 4055600,
-      "price": 0.004055,
-      "price_change_24h": -69.92,
-      "volume_24h": 4057723.33,
+      "market_cap": 4416284,
+      "price": 0.004416,
+      "price_change_24h": -68.08,
+      "volume_24h": 4022618,
       "pool_address": "solana_C3xpiicYD15XZCjzEtVhGU7xx4NRnZrusmLbyHWpq4bh",
       "ath": 0.024684196273051098,
       "ath_timestamp": 1756047894,
@@ -101,11 +101,11 @@
       "dexId": "meteora",
       "pairAddress": "C3xpiicYD15XZCjzEtVhGU7xx4NRnZrusmLbyHWpq4bh",
       "txns_24h": {
-        "buys": 7295,
-        "sells": 5973
+        "buys": 7260,
+        "sells": 5999
       },
-      "fdv_usd": 4055600,
-      "total_reserve_in_usd": 290073.39,
+      "fdv_usd": 4416284,
+      "total_reserve_in_usd": 299341.57,
       "tags": [
         "moonshot"
       ],
@@ -115,8 +115,18 @@
       },
       "metrics": {
         "uniqueWallets": 3,
-        "inflow24h": -22283.884706662568,
+        "inflow24h": -22294.210101635734,
         "trades": [
+          {
+            "timestamp": "2025-08-26T22:47:22.000Z",
+            "type": "SELL",
+            "amount": 2409.410096573,
+            "usdValue": 10.32539497316523,
+            "wallet": {
+              "address": "EJ2jyVUceCYvC1HxY77X2adre7Kcf8sQaucrKaQtVtXs",
+              "name": "justice3.6x"
+            }
+          },
           {
             "timestamp": "2025-08-26T21:52:51.000Z",
             "type": "SWAP",
@@ -161,14 +171,14 @@
       },
       "walletPortfolios": [
         {
-          "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
-          "name": "Ansem",
-          "score": 3,
+          "address": "EJ2jyVUceCYvC1HxY77X2adre7Kcf8sQaucrKaQtVtXs",
+          "name": "justice3.6x",
+          "score": 2,
           "tokens": [
             {
               "token_address": "BnszRWbs9LxSzsCUUS57HMTNNtyDHFsnmZ1mVhAYdaos",
               "balance": 0,
-              "token_price": 0.004055,
+              "token_price": 0.004416,
               "token_decimals": 9,
               "token_symbol": "LLM",
               "token_name": "Latina Language Model",
@@ -177,18 +187,18 @@
           ]
         },
         {
-          "address": "EJ2jyVUceCYvC1HxY77X2adre7Kcf8sQaucrKaQtVtXs",
-          "name": "justice3.6x",
-          "score": 2,
+          "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+          "name": "Ansem",
+          "score": 3,
           "tokens": [
             {
               "token_address": "BnszRWbs9LxSzsCUUS57HMTNNtyDHFsnmZ1mVhAYdaos",
-              "balance": 2409.410096573,
-              "token_price": 0.004055,
+              "balance": 0,
+              "token_price": 0.004416,
               "token_decimals": 9,
               "token_symbol": "LLM",
               "token_name": "Latina Language Model",
-              "value": 9.770157941603514
+              "value": 0
             }
           ]
         },
@@ -200,11 +210,11 @@
             {
               "token_address": "BnszRWbs9LxSzsCUUS57HMTNNtyDHFsnmZ1mVhAYdaos",
               "balance": 9177378.66256781,
-              "token_price": 0.004055,
+              "token_price": 0.004416,
               "token_decimals": 9,
               "token_symbol": "LLM",
               "token_name": "Latina Language Model",
-              "value": 37214.27047671246
+              "value": 40527.30417389944
             }
           ]
         }
@@ -220,10 +230,10 @@
       "website": "",
       "twitter": "https://x.com/okpasquale/status/1954074940699029946",
       "holder": 4943,
-      "market_cap": 1462641,
-      "price": 0.001462,
-      "price_change_24h": 20.91,
-      "volume_24h": 599686.61,
+      "market_cap": 1441053,
+      "price": 0.001441,
+      "price_change_24h": 18.76,
+      "volume_24h": 600364.54,
       "pool_address": "solana_4bzFMpWDVXfRhaY3Xg7nGUbHDSquY5MPTvib1n8Vfmno",
       "ath": 0.00851637594100008,
       "ath_timestamp": 1755293364,
@@ -231,11 +241,11 @@
       "dexId": "pumpswap",
       "pairAddress": "4bzFMpWDVXfRhaY3Xg7nGUbHDSquY5MPTvib1n8Vfmno",
       "txns_24h": {
-        "buys": 1732,
-        "sells": 1446
+        "buys": 1731,
+        "sells": 1449
       },
-      "fdv_usd": 1462641,
-      "total_reserve_in_usd": 247673.69,
+      "fdv_usd": 1441053,
+      "total_reserve_in_usd": 245716.66,
       "tags": [
         "moonshot"
       ],
@@ -348,11 +358,11 @@
             {
               "token_address": "3Cmv9wxP1yNQZErQEFabB3L8uHxz49AtCRMrbKnBSozq",
               "balance": 6000053.167553,
-              "token_price": 0.001462,
+              "token_price": 0.001441,
               "token_decimals": 6,
               "token_symbol": "littleguy",
               "token_name": "just a little guy",
-              "value": 8772.077730962486
+              "value": 8646.076614443873
             }
           ]
         }
@@ -820,11 +830,11 @@
         "created_time": 1710100402,
         "website": "",
         "twitter": "",
-        "holder": 44405,
-        "market_cap": 211315181,
-        "price": 0.2115,
-        "price_change_24h": 7.18,
-        "volume_24h": 5304689.44,
+        "holder": 44424,
+        "market_cap": 210643304,
+        "price": 0.2108,
+        "price_change_24h": 4.01,
+        "volume_24h": 5214706.95,
         "pool_address": "solana_4w2cysotX6czaUGmmWg13hDpY4QEMG2CzeKYEQyK9Ama",
         "ath": 0.2870218972948458,
         "ath_timestamp": 1755366851,
@@ -832,11 +842,11 @@
         "dexId": "pumpswap",
         "pairAddress": "4w2cysotX6czaUGmmWg13hDpY4QEMG2CzeKYEQyK9Ama",
         "txns_24h": {
-          "buys": 3415,
-          "sells": 2777
+          "buys": 3388,
+          "sells": 2746
         },
-        "fdv_usd": 211315181,
-        "total_reserve_in_usd": 6078779.62,
+        "fdv_usd": 210643304,
+        "total_reserve_in_usd": 6065868.37,
         "tags": [
           "moonshot"
         ],
@@ -879,11 +889,11 @@
               {
                 "token_address": "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2",
                 "balance": 2236538.695712,
-                "token_price": 0.2115,
+                "token_price": 0.2108,
                 "token_decimals": 6,
                 "token_symbol": "TROLL",
                 "token_name": "TROLL",
-                "value": 473027.934143088
+                "value": 471462.3570560896
               }
             ]
           }
@@ -899,10 +909,10 @@
         "website": "",
         "twitter": "https://x.com/okpasquale/status/1954074940699029946",
         "holder": 4943,
-        "market_cap": 1462641,
-        "price": 0.001462,
-        "price_change_24h": 20.91,
-        "volume_24h": 599686.61,
+        "market_cap": 1441053,
+        "price": 0.001441,
+        "price_change_24h": 18.76,
+        "volume_24h": 600364.54,
         "pool_address": "solana_4bzFMpWDVXfRhaY3Xg7nGUbHDSquY5MPTvib1n8Vfmno",
         "ath": 0.00851637594100008,
         "ath_timestamp": 1755293364,
@@ -910,11 +920,11 @@
         "dexId": "pumpswap",
         "pairAddress": "4bzFMpWDVXfRhaY3Xg7nGUbHDSquY5MPTvib1n8Vfmno",
         "txns_24h": {
-          "buys": 1732,
-          "sells": 1446
+          "buys": 1731,
+          "sells": 1449
         },
-        "fdv_usd": 1462641,
-        "total_reserve_in_usd": 247673.69,
+        "fdv_usd": 1441053,
+        "total_reserve_in_usd": 245716.66,
         "tags": [
           "moonshot"
         ],
@@ -1027,17 +1037,158 @@
               {
                 "token_address": "3Cmv9wxP1yNQZErQEFabB3L8uHxz49AtCRMrbKnBSozq",
                 "balance": 6000053.167553,
-                "token_price": 0.001462,
+                "token_price": 0.001441,
                 "token_decimals": 6,
                 "token_symbol": "littleguy",
                 "token_name": "just a little guy",
-                "value": 8772.077730962486
+                "value": 8646.076614443873
               }
             ]
           }
         ]
       }
     ],
-    "sells": []
+    "sells": [
+      {
+        "address": "BnszRWbs9LxSzsCUUS57HMTNNtyDHFsnmZ1mVhAYdaos",
+        "symbol": "LLM",
+        "name": "Latina Language Model",
+        "decimals": 9,
+        "icon": "https://ipfs.io/ipfs/QmQpizmuNEMsUYqsGfqZyKW2jpZsJVyagcWo4Jv9Qag7H9",
+        "created_time": 1755945259,
+        "website": "",
+        "twitter": "",
+        "holder": 6715,
+        "market_cap": 4416284,
+        "price": 0.004416,
+        "price_change_24h": -68.08,
+        "volume_24h": 4022618,
+        "pool_address": "solana_C3xpiicYD15XZCjzEtVhGU7xx4NRnZrusmLbyHWpq4bh",
+        "ath": 0.024684196273051098,
+        "ath_timestamp": 1756047894,
+        "ath_pool": "C3xpiicYD15XZCjzEtVhGU7xx4NRnZrusmLbyHWpq4bh",
+        "dexId": "meteora",
+        "pairAddress": "C3xpiicYD15XZCjzEtVhGU7xx4NRnZrusmLbyHWpq4bh",
+        "txns_24h": {
+          "buys": 7260,
+          "sells": 5999
+        },
+        "fdv_usd": 4416284,
+        "total_reserve_in_usd": 299341.57,
+        "tags": [
+          "moonshot"
+        ],
+        "first_signal": {
+          "timestamp": 1755961494,
+          "price": 0.0006664
+        },
+        "metrics": {
+          "uniqueWallets": 3,
+          "inflow24h": -22294.210101635734,
+          "trades": [
+            {
+              "timestamp": "2025-08-26T22:47:22.000Z",
+              "type": "SELL",
+              "amount": 2409.410096573,
+              "usdValue": 10.32539497316523,
+              "wallet": {
+                "address": "EJ2jyVUceCYvC1HxY77X2adre7Kcf8sQaucrKaQtVtXs",
+                "name": "justice3.6x"
+              }
+            },
+            {
+              "timestamp": "2025-08-26T21:52:51.000Z",
+              "type": "SWAP",
+              "amount": 1091217.260094685,
+              "usdValue": 4535.400105896215,
+              "wallet": {
+                "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+                "name": "Ansem"
+              }
+            },
+            {
+              "timestamp": "2025-08-26T12:45:59.000Z",
+              "type": "BUY",
+              "amount": 2409.410096573,
+              "usdValue": 28.35595797722296,
+              "wallet": {
+                "address": "EJ2jyVUceCYvC1HxY77X2adre7Kcf8sQaucrKaQtVtXs",
+                "name": "justice3.6x"
+              }
+            },
+            {
+              "timestamp": "2025-08-26T02:01:49.000Z",
+              "type": "SELL",
+              "amount": 778151.651002092,
+              "usdValue": 8795.051904592483,
+              "wallet": {
+                "address": "8zFZHuSRuDpuAR7J6FzwyF3vKNx4CVW3DFHJerQhc7Zd",
+                "name": "Pow"
+              }
+            },
+            {
+              "timestamp": "2025-08-26T02:01:43.000Z",
+              "type": "SELL",
+              "amount": 771806.918530577,
+              "usdValue": 8981.788654151092,
+              "wallet": {
+                "address": "8zFZHuSRuDpuAR7J6FzwyF3vKNx4CVW3DFHJerQhc7Zd",
+                "name": "Pow"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "EJ2jyVUceCYvC1HxY77X2adre7Kcf8sQaucrKaQtVtXs",
+            "name": "justice3.6x",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "BnszRWbs9LxSzsCUUS57HMTNNtyDHFsnmZ1mVhAYdaos",
+                "balance": 0,
+                "token_price": 0.004416,
+                "token_decimals": 9,
+                "token_symbol": "LLM",
+                "token_name": "Latina Language Model",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+            "name": "Ansem",
+            "score": 3,
+            "tokens": [
+              {
+                "token_address": "BnszRWbs9LxSzsCUUS57HMTNNtyDHFsnmZ1mVhAYdaos",
+                "balance": 0,
+                "token_price": 0.004416,
+                "token_decimals": 9,
+                "token_symbol": "LLM",
+                "token_name": "Latina Language Model",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "address": "8zFZHuSRuDpuAR7J6FzwyF3vKNx4CVW3DFHJerQhc7Zd",
+            "name": "Pow",
+            "score": 3,
+            "tokens": [
+              {
+                "token_address": "BnszRWbs9LxSzsCUUS57HMTNNtyDHFsnmZ1mVhAYdaos",
+                "balance": 9177378.66256781,
+                "token_price": 0.004416,
+                "token_decimals": 9,
+                "token_symbol": "LLM",
+                "token_name": "Latina Language Model",
+                "value": 40527.30417389944
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 }
