@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-08-28T18:42:47.388Z",
+  "timestamp": "2025-08-28T18:53:55.035Z",
   "data": [
     {
       "address": "DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK",
@@ -12,10 +12,10 @@
       "website": "",
       "twitter": "",
       "holder": 6774,
-      "market_cap": 10486636,
-      "price": 0.01076,
-      "price_change_24h": 12383,
-      "volume_24h": 28335494.06,
+      "market_cap": 10331699,
+      "price": 0.0106,
+      "price_change_24h": 12199,
+      "volume_24h": 28725729.74,
       "pool_address": "solana_URqx24yyYxtXXhTbBQnbtPLhtLWYoaDaRxuQuLpNS3S",
       "ath": 0.01550252127567136,
       "ath_timestamp": 1756400400,
@@ -23,11 +23,11 @@
       "dexId": "pumpswap",
       "pairAddress": "URqx24yyYxtXXhTbBQnbtPLhtLWYoaDaRxuQuLpNS3S",
       "txns_24h": {
-        "buys": 70766,
-        "sells": 65239
+        "buys": 71351,
+        "sells": 65754
       },
-      "fdv_usd": 10486636,
-      "total_reserve_in_usd": 503946.65,
+      "fdv_usd": 10331699,
+      "total_reserve_in_usd": 501732.49,
       "tags": [
         "moonshot"
       ],
@@ -37,8 +37,28 @@
       },
       "metrics": {
         "uniqueWallets": 6,
-        "inflow24h": 52608.225747153105,
+        "inflow24h": 63645.556588929525,
         "trades": [
+          {
+            "timestamp": "2025-08-28T18:45:14.000Z",
+            "type": "BUY",
+            "amount": 48277.772955,
+            "usdValue": 565.537636673733,
+            "wallet": {
+              "address": "EJ2jyVUceCYvC1HxY77X2adre7Kcf8sQaucrKaQtVtXs",
+              "name": "justice3.6x"
+            }
+          },
+          {
+            "timestamp": "2025-08-28T18:43:19.000Z",
+            "type": "BUY",
+            "amount": 942247.083761,
+            "usdValue": 10471.793205102687,
+            "wallet": {
+              "address": "8zFZHuSRuDpuAR7J6FzwyF3vKNx4CVW3DFHJerQhc7Zd",
+              "name": "Pow"
+            }
+          },
           {
             "timestamp": "2025-08-28T17:43:52.000Z",
             "type": "BUY",
@@ -523,34 +543,18 @@
       },
       "walletPortfolios": [
         {
-          "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
-          "name": "Winner",
-          "score": 0.5,
-          "tokens": [
-            {
-              "token_address": "DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK",
-              "balance": 3491778.460489,
-              "token_price": 0.01076,
-              "token_decimals": 6,
-              "token_symbol": "Cope",
-              "token_name": "Cope",
-              "value": 37571.53623486165
-            }
-          ]
-        },
-        {
           "address": "EJ2jyVUceCYvC1HxY77X2adre7Kcf8sQaucrKaQtVtXs",
           "name": "justice3.6x",
           "score": 2,
           "tokens": [
             {
               "token_address": "DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK",
-              "balance": 0,
-              "token_price": 0.01076,
+              "balance": 48277.772955,
+              "token_price": 0.0106,
               "token_decimals": 6,
               "token_symbol": "Cope",
               "token_name": "Cope",
-              "value": 0
+              "value": 511.744393323
             }
           ]
         },
@@ -561,12 +565,28 @@
           "tokens": [
             {
               "token_address": "DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK",
-              "balance": 8198887.429357,
-              "token_price": 0.01076,
+              "balance": 9141134.513118,
+              "token_price": 0.0106,
               "token_decimals": 6,
               "token_symbol": "Cope",
               "token_name": "Cope",
-              "value": 88220.02873988132
+              "value": 96896.02583905081
+            }
+          ]
+        },
+        {
+          "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+          "name": "Winner",
+          "score": 0.5,
+          "tokens": [
+            {
+              "token_address": "DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK",
+              "balance": 3491778.460489,
+              "token_price": 0.0106,
+              "token_decimals": 6,
+              "token_symbol": "Cope",
+              "token_name": "Cope",
+              "value": 37012.851681183405
             }
           ]
         },
@@ -578,7 +598,7 @@
             {
               "token_address": "DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK",
               "balance": 0,
-              "token_price": 0.01076,
+              "token_price": 0.0106,
               "token_decimals": 6,
               "token_symbol": "Cope",
               "token_name": "Cope",
@@ -594,7 +614,7 @@
             {
               "token_address": "DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK",
               "balance": 0,
-              "token_price": 0.01076,
+              "token_price": 0.0106,
               "token_decimals": 6,
               "token_symbol": "Cope",
               "token_name": "Cope",
@@ -610,7 +630,7 @@
             {
               "token_address": "DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK",
               "balance": 0,
-              "token_price": 0.01076,
+              "token_price": 0.0106,
               "token_decimals": 6,
               "token_symbol": "Cope",
               "token_name": "Cope",
@@ -629,11 +649,11 @@
       "created_time": 1756322849,
       "website": "",
       "twitter": "https://x.com/i/communities/1960785884233785718",
-      "holder": 812,
-      "market_cap": 180901,
-      "price": 0.0001809,
-      "price_change_24h": 112,
-      "volume_24h": 3052192.87,
+      "holder": 861,
+      "market_cap": 232974,
+      "price": 0.0002329,
+      "price_change_24h": 173,
+      "volume_24h": 3067807,
       "pool_address": "solana_HWsheL812jwxXAzA9Epv8WU1e9apKr6D3vy5EcFsVpJE",
       "ath": 0.0003539394533461342,
       "ath_timestamp": 1756386000,
@@ -641,11 +661,11 @@
       "dexId": "pumpswap",
       "pairAddress": "HWsheL812jwxXAzA9Epv8WU1e9apKr6D3vy5EcFsVpJE",
       "txns_24h": {
-        "buys": 18465,
-        "sells": 13654
+        "buys": 18546,
+        "sells": 13695
       },
-      "fdv_usd": 180901,
-      "total_reserve_in_usd": 58358.91,
+      "fdv_usd": 232974,
+      "total_reserve_in_usd": 66464.25,
       "tags": [],
       "first_signal": {
         "timestamp": 1756371248,
@@ -856,11 +876,11 @@
             {
               "token_address": "FwZxfG6WHcAAJD5ShYZZQNQCNgtrw2oniQhoDXR5pump",
               "balance": 1316055.208102,
-              "token_price": 0.0001809,
+              "token_price": 0.0002329,
               "token_decimals": 6,
               "token_symbol": "irlcoin",
               "token_name": "in real life coin",
-              "value": 238.0743871456518
+              "value": 306.5092579669558
             }
           ]
         },
@@ -872,7 +892,7 @@
             {
               "token_address": "FwZxfG6WHcAAJD5ShYZZQNQCNgtrw2oniQhoDXR5pump",
               "balance": 0,
-              "token_price": 0.0001809,
+              "token_price": 0.0002329,
               "token_decimals": 6,
               "token_symbol": "irlcoin",
               "token_name": "in real life coin",
@@ -888,7 +908,7 @@
             {
               "token_address": "FwZxfG6WHcAAJD5ShYZZQNQCNgtrw2oniQhoDXR5pump",
               "balance": 0,
-              "token_price": 0.0001809,
+              "token_price": 0.0002329,
               "token_decimals": 6,
               "token_symbol": "irlcoin",
               "token_name": "in real life coin",
@@ -904,11 +924,11 @@
             {
               "token_address": "FwZxfG6WHcAAJD5ShYZZQNQCNgtrw2oniQhoDXR5pump",
               "balance": 6777576.539896,
-              "token_price": 0.0001809,
+              "token_price": 0.0002329,
               "token_decimals": 6,
               "token_symbol": "irlcoin",
               "token_name": "in real life coin",
-              "value": 1226.0635960671864
+              "value": 1578.4975761417784
             }
           ]
         }
@@ -923,11 +943,11 @@
       "created_time": 1752153028,
       "website": "",
       "twitter": "",
-      "holder": 69900,
-      "market_cap": 1145190153,
-      "price": 0.003235,
-      "price_change_24h": 4.1,
-      "volume_24h": 1527812.83,
+      "holder": 69941,
+      "market_cap": 1150596332,
+      "price": 0.00325,
+      "price_change_24h": 4.15,
+      "volume_24h": 1530369.55,
       "pool_address": "solana_2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
       "ath": 0.006877386587816453,
       "ath_timestamp": 1752537600,
@@ -935,11 +955,11 @@
       "dexId": "orca",
       "pairAddress": "HyA4ct7i4XvZsVrLyb5VJhcTP1EZVDZoF9fFGym16zcj",
       "txns_24h": {
-        "buys": 4684,
-        "sells": 5159
+        "buys": 4708,
+        "sells": 5158
       },
-      "fdv_usd": 3234966300,
-      "total_reserve_in_usd": 270227.17,
+      "fdv_usd": 3250237832,
+      "total_reserve_in_usd": 270901.67,
       "tags": [
         "moonshot",
         "binanceAlpha"
@@ -973,11 +993,11 @@
             {
               "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
               "balance": 7657355.610045,
-              "token_price": 0.003235,
+              "token_price": 0.00325,
               "token_decimals": 6,
               "token_symbol": "PUMP",
               "token_name": "Pump",
-              "value": 24771.545398495575
+              "value": 24886.40573264625
             }
           ]
         }
@@ -996,10 +1016,10 @@
         "website": "",
         "twitter": "",
         "holder": 6774,
-        "market_cap": 10486636,
-        "price": 0.01076,
-        "price_change_24h": 12383,
-        "volume_24h": 28335494.06,
+        "market_cap": 10331699,
+        "price": 0.0106,
+        "price_change_24h": 12199,
+        "volume_24h": 28725729.74,
         "pool_address": "solana_URqx24yyYxtXXhTbBQnbtPLhtLWYoaDaRxuQuLpNS3S",
         "ath": 0.01550252127567136,
         "ath_timestamp": 1756400400,
@@ -1007,11 +1027,11 @@
         "dexId": "pumpswap",
         "pairAddress": "URqx24yyYxtXXhTbBQnbtPLhtLWYoaDaRxuQuLpNS3S",
         "txns_24h": {
-          "buys": 70766,
-          "sells": 65239
+          "buys": 71351,
+          "sells": 65754
         },
-        "fdv_usd": 10486636,
-        "total_reserve_in_usd": 503946.65,
+        "fdv_usd": 10331699,
+        "total_reserve_in_usd": 501732.49,
         "tags": [
           "moonshot"
         ],
@@ -1021,8 +1041,28 @@
         },
         "metrics": {
           "uniqueWallets": 6,
-          "inflow24h": 52608.225747153105,
+          "inflow24h": 63645.556588929525,
           "trades": [
+            {
+              "timestamp": "2025-08-28T18:45:14.000Z",
+              "type": "BUY",
+              "amount": 48277.772955,
+              "usdValue": 565.537636673733,
+              "wallet": {
+                "address": "EJ2jyVUceCYvC1HxY77X2adre7Kcf8sQaucrKaQtVtXs",
+                "name": "justice3.6x"
+              }
+            },
+            {
+              "timestamp": "2025-08-28T18:43:19.000Z",
+              "type": "BUY",
+              "amount": 942247.083761,
+              "usdValue": 10471.793205102687,
+              "wallet": {
+                "address": "8zFZHuSRuDpuAR7J6FzwyF3vKNx4CVW3DFHJerQhc7Zd",
+                "name": "Pow"
+              }
+            },
             {
               "timestamp": "2025-08-28T17:43:52.000Z",
               "type": "BUY",
@@ -1507,34 +1547,18 @@
         },
         "walletPortfolios": [
           {
-            "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
-            "name": "Winner",
-            "score": 0.5,
-            "tokens": [
-              {
-                "token_address": "DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK",
-                "balance": 3491778.460489,
-                "token_price": 0.01076,
-                "token_decimals": 6,
-                "token_symbol": "Cope",
-                "token_name": "Cope",
-                "value": 37571.53623486165
-              }
-            ]
-          },
-          {
             "address": "EJ2jyVUceCYvC1HxY77X2adre7Kcf8sQaucrKaQtVtXs",
             "name": "justice3.6x",
             "score": 2,
             "tokens": [
               {
                 "token_address": "DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK",
-                "balance": 0,
-                "token_price": 0.01076,
+                "balance": 48277.772955,
+                "token_price": 0.0106,
                 "token_decimals": 6,
                 "token_symbol": "Cope",
                 "token_name": "Cope",
-                "value": 0
+                "value": 511.744393323
               }
             ]
           },
@@ -1545,12 +1569,28 @@
             "tokens": [
               {
                 "token_address": "DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK",
-                "balance": 8198887.429357,
-                "token_price": 0.01076,
+                "balance": 9141134.513118,
+                "token_price": 0.0106,
                 "token_decimals": 6,
                 "token_symbol": "Cope",
                 "token_name": "Cope",
-                "value": 88220.02873988132
+                "value": 96896.02583905081
+              }
+            ]
+          },
+          {
+            "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+            "name": "Winner",
+            "score": 0.5,
+            "tokens": [
+              {
+                "token_address": "DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK",
+                "balance": 3491778.460489,
+                "token_price": 0.0106,
+                "token_decimals": 6,
+                "token_symbol": "Cope",
+                "token_name": "Cope",
+                "value": 37012.851681183405
               }
             ]
           },
@@ -1562,7 +1602,7 @@
               {
                 "token_address": "DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK",
                 "balance": 0,
-                "token_price": 0.01076,
+                "token_price": 0.0106,
                 "token_decimals": 6,
                 "token_symbol": "Cope",
                 "token_name": "Cope",
@@ -1578,7 +1618,7 @@
               {
                 "token_address": "DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK",
                 "balance": 0,
-                "token_price": 0.01076,
+                "token_price": 0.0106,
                 "token_decimals": 6,
                 "token_symbol": "Cope",
                 "token_name": "Cope",
@@ -1594,7 +1634,7 @@
               {
                 "token_address": "DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK",
                 "balance": 0,
-                "token_price": 0.01076,
+                "token_price": 0.0106,
                 "token_decimals": 6,
                 "token_symbol": "Cope",
                 "token_name": "Cope",
@@ -1613,11 +1653,11 @@
         "created_time": 1756322849,
         "website": "",
         "twitter": "https://x.com/i/communities/1960785884233785718",
-        "holder": 812,
-        "market_cap": 180901,
-        "price": 0.0001809,
-        "price_change_24h": 112,
-        "volume_24h": 3052192.87,
+        "holder": 861,
+        "market_cap": 232974,
+        "price": 0.0002329,
+        "price_change_24h": 173,
+        "volume_24h": 3067807,
         "pool_address": "solana_HWsheL812jwxXAzA9Epv8WU1e9apKr6D3vy5EcFsVpJE",
         "ath": 0.0003539394533461342,
         "ath_timestamp": 1756386000,
@@ -1625,11 +1665,11 @@
         "dexId": "pumpswap",
         "pairAddress": "HWsheL812jwxXAzA9Epv8WU1e9apKr6D3vy5EcFsVpJE",
         "txns_24h": {
-          "buys": 18465,
-          "sells": 13654
+          "buys": 18546,
+          "sells": 13695
         },
-        "fdv_usd": 180901,
-        "total_reserve_in_usd": 58358.91,
+        "fdv_usd": 232974,
+        "total_reserve_in_usd": 66464.25,
         "tags": [],
         "first_signal": {
           "timestamp": 1756371248,
@@ -1840,11 +1880,11 @@
               {
                 "token_address": "FwZxfG6WHcAAJD5ShYZZQNQCNgtrw2oniQhoDXR5pump",
                 "balance": 1316055.208102,
-                "token_price": 0.0001809,
+                "token_price": 0.0002329,
                 "token_decimals": 6,
                 "token_symbol": "irlcoin",
                 "token_name": "in real life coin",
-                "value": 238.0743871456518
+                "value": 306.5092579669558
               }
             ]
           },
@@ -1856,7 +1896,7 @@
               {
                 "token_address": "FwZxfG6WHcAAJD5ShYZZQNQCNgtrw2oniQhoDXR5pump",
                 "balance": 0,
-                "token_price": 0.0001809,
+                "token_price": 0.0002329,
                 "token_decimals": 6,
                 "token_symbol": "irlcoin",
                 "token_name": "in real life coin",
@@ -1872,7 +1912,7 @@
               {
                 "token_address": "FwZxfG6WHcAAJD5ShYZZQNQCNgtrw2oniQhoDXR5pump",
                 "balance": 0,
-                "token_price": 0.0001809,
+                "token_price": 0.0002329,
                 "token_decimals": 6,
                 "token_symbol": "irlcoin",
                 "token_name": "in real life coin",
@@ -1888,11 +1928,11 @@
               {
                 "token_address": "FwZxfG6WHcAAJD5ShYZZQNQCNgtrw2oniQhoDXR5pump",
                 "balance": 6777576.539896,
-                "token_price": 0.0001809,
+                "token_price": 0.0002329,
                 "token_decimals": 6,
                 "token_symbol": "irlcoin",
                 "token_name": "in real life coin",
-                "value": 1226.0635960671864
+                "value": 1578.4975761417784
               }
             ]
           }
@@ -1909,11 +1949,11 @@
         "created_time": 1752153028,
         "website": "",
         "twitter": "",
-        "holder": 69900,
-        "market_cap": 1145190153,
-        "price": 0.003235,
-        "price_change_24h": 4.1,
-        "volume_24h": 1527812.83,
+        "holder": 69941,
+        "market_cap": 1150596332,
+        "price": 0.00325,
+        "price_change_24h": 4.15,
+        "volume_24h": 1530369.55,
         "pool_address": "solana_2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
         "ath": 0.006877386587816453,
         "ath_timestamp": 1752537600,
@@ -1921,11 +1961,11 @@
         "dexId": "orca",
         "pairAddress": "HyA4ct7i4XvZsVrLyb5VJhcTP1EZVDZoF9fFGym16zcj",
         "txns_24h": {
-          "buys": 4684,
-          "sells": 5159
+          "buys": 4708,
+          "sells": 5158
         },
-        "fdv_usd": 3234966300,
-        "total_reserve_in_usd": 270227.17,
+        "fdv_usd": 3250237832,
+        "total_reserve_in_usd": 270901.67,
         "tags": [
           "moonshot",
           "binanceAlpha"
@@ -1959,11 +1999,11 @@
               {
                 "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
                 "balance": 7657355.610045,
-                "token_price": 0.003235,
+                "token_price": 0.00325,
                 "token_decimals": 6,
                 "token_symbol": "PUMP",
                 "token_name": "Pump",
-                "value": 24771.545398495575
+                "value": 24886.40573264625
               }
             ]
           }
