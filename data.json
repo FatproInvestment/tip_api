@@ -1,10 +1,1284 @@
 {
   "success": true,
-  "timestamp": "2025-08-29T17:15:55.894Z",
-  "data": [],
+  "timestamp": "2025-08-29T17:30:15.124Z",
+  "data": [
+    {
+      "address": "BoPBba5DBnuttdVoePJwuhcP3TjXhhLhSD6fD6Rdpump",
+      "symbol": "Shoggoth",
+      "name": "Shoggoth Mini",
+      "decimals": 6,
+      "icon": "https://metadata.pumplify.eu/data/QmUCh34p2qouEG2oCgFNw9cz5wTNfEdKFjCN3xq7EGDsGQ",
+      "created_time": 1756484081,
+      "website": "",
+      "twitter": "https://x.com/matthieulc/status/1945148304284623291",
+      "holder": 1123,
+      "market_cap": 282800,
+      "price": 0.0002828,
+      "price_change_24h": 235,
+      "volume_24h": 2042616.68,
+      "pool_address": "solana_9J5F4oKoKxnoaTnJaKuMh3cw3ZTnhH2EZG3UPnX85ZvB",
+      "ath": 0.0005264,
+      "ath_timestamp": 1756485917,
+      "ath_pool": "9J5F4oKoKxnoaTnJaKuMh3cw3ZTnhH2EZG3UPnX85ZvB",
+      "dexId": "pumpswap",
+      "pairAddress": "9J5F4oKoKxnoaTnJaKuMh3cw3ZTnhH2EZG3UPnX85ZvB",
+      "txns_24h": {
+        "buys": 10313,
+        "sells": 8367
+      },
+      "fdv_usd": 282800,
+      "total_reserve_in_usd": 68264.99,
+      "tags": [],
+      "first_signal": {
+        "timestamp": 1756485911,
+        "price": 0.0005264
+      },
+      "metrics": {
+        "uniqueWallets": 3,
+        "inflow24h": 6879.965686767593,
+        "trades": [
+          {
+            "timestamp": "2025-08-29T17:02:41.000Z",
+            "type": "BUY",
+            "amount": 2396264.578823,
+            "usdValue": 809.8180976874972,
+            "wallet": {
+              "address": "GeZHejJJJ7631AHAaoEfSmmL7CwhRNPH81FkawEfN7N9",
+              "name": "UBC7x"
+            }
+          },
+          {
+            "timestamp": "2025-08-29T17:02:31.000Z",
+            "type": "BUY",
+            "amount": 2353013.87043,
+            "usdValue": 756.1580875691309,
+            "wallet": {
+              "address": "GeZHejJJJ7631AHAaoEfSmmL7CwhRNPH81FkawEfN7N9",
+              "name": "UBC7x"
+            }
+          },
+          {
+            "timestamp": "2025-08-29T16:53:57.000Z",
+            "type": "SELL",
+            "amount": 1579229.243,
+            "usdValue": 573.1371358447556,
+            "wallet": {
+              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+              "name": "OGmoodeng"
+            }
+          },
+          {
+            "timestamp": "2025-08-29T16:44:22.000Z",
+            "type": "BUY",
+            "amount": 1579229.243,
+            "usdValue": 820.6368417584672,
+            "wallet": {
+              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+              "name": "OGmoodeng"
+            }
+          },
+          {
+            "timestamp": "2025-08-29T16:39:22.000Z",
+            "type": "BUY",
+            "amount": 19315866.673308,
+            "usdValue": 5066.489795597253,
+            "wallet": {
+              "address": "8zFZHuSRuDpuAR7J6FzwyF3vKNx4CVW3DFHJerQhc7Zd",
+              "name": "Pow"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "GeZHejJJJ7631AHAaoEfSmmL7CwhRNPH81FkawEfN7N9",
+          "name": "UBC7x",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "BoPBba5DBnuttdVoePJwuhcP3TjXhhLhSD6fD6Rdpump",
+              "balance": 4749278.449253,
+              "token_price": 0.0002828,
+              "token_decimals": 6,
+              "token_symbol": "Shoggoth",
+              "token_name": "Shoggoth Mini",
+              "value": 1343.0959454487484
+            }
+          ]
+        },
+        {
+          "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+          "name": "OGmoodeng",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "BoPBba5DBnuttdVoePJwuhcP3TjXhhLhSD6fD6Rdpump",
+              "balance": 0,
+              "token_price": 0.0002828,
+              "token_decimals": 6,
+              "token_symbol": "Shoggoth",
+              "token_name": "Shoggoth Mini",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "address": "8zFZHuSRuDpuAR7J6FzwyF3vKNx4CVW3DFHJerQhc7Zd",
+          "name": "Pow",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "BoPBba5DBnuttdVoePJwuhcP3TjXhhLhSD6fD6Rdpump",
+              "balance": 19315866.673308,
+              "token_price": 0.0002828,
+              "token_decimals": 6,
+              "token_symbol": "Shoggoth",
+              "token_name": "Shoggoth Mini",
+              "value": 5462.5270952115025
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "address": "DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK",
+      "symbol": "Cope",
+      "name": "Cope",
+      "decimals": 6,
+      "icon": "https://cf-ipfs.com/ipfs/QmbnQncuvvs7WZCCnGLnqFmMW9qbRzEUK8nKKprDuSeTf9",
+      "created_time": 1712218394,
+      "website": "",
+      "twitter": "",
+      "holder": 8303,
+      "market_cap": 14831589,
+      "price": 0.01521,
+      "price_change_24h": 22.22,
+      "volume_24h": 19157650.06,
+      "pool_address": "solana_URqx24yyYxtXXhTbBQnbtPLhtLWYoaDaRxuQuLpNS3S",
+      "ath": 0.018435285685724355,
+      "ath_timestamp": 1756425600,
+      "ath_pool": "URqx24yyYxtXXhTbBQnbtPLhtLWYoaDaRxuQuLpNS3S",
+      "dexId": "pumpswap",
+      "pairAddress": "URqx24yyYxtXXhTbBQnbtPLhtLWYoaDaRxuQuLpNS3S",
+      "txns_24h": {
+        "buys": 36429,
+        "sells": 36801
+      },
+      "fdv_usd": 14831589,
+      "total_reserve_in_usd": 622481.45,
+      "tags": [
+        "moonshot"
+      ],
+      "first_signal": {
+        "timestamp": 1756382231,
+        "price": 0.003991
+      },
+      "metrics": {
+        "uniqueWallets": 4,
+        "inflow24h": 30583.931314702822,
+        "trades": [
+          {
+            "timestamp": "2025-08-29T01:02:57.000Z",
+            "type": "BUY",
+            "amount": 447194.863053,
+            "usdValue": 5000,
+            "wallet": {
+              "address": "6zHcjFHjd3X1ptLznSJ989LVfKZvnmKN96dyvwfXoFSB",
+              "name": "SolidBalls"
+            }
+          },
+          {
+            "timestamp": "2025-08-28T18:45:14.000Z",
+            "type": "BUY",
+            "amount": 48277.772955,
+            "usdValue": 565.537636673733,
+            "wallet": {
+              "address": "EJ2jyVUceCYvC1HxY77X2adre7Kcf8sQaucrKaQtVtXs",
+              "name": "justice3.6x"
+            }
+          },
+          {
+            "timestamp": "2025-08-28T18:43:19.000Z",
+            "type": "BUY",
+            "amount": 942247.083761,
+            "usdValue": 10471.793205102687,
+            "wallet": {
+              "address": "8zFZHuSRuDpuAR7J6FzwyF3vKNx4CVW3DFHJerQhc7Zd",
+              "name": "Pow"
+            }
+          },
+          {
+            "timestamp": "2025-08-28T17:43:52.000Z",
+            "type": "BUY",
+            "amount": 172527.283534,
+            "usdValue": 2078.0857815764784,
+            "wallet": {
+              "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+              "name": "Winner"
+            }
+          },
+          {
+            "timestamp": "2025-08-28T17:43:51.000Z",
+            "type": "BUY",
+            "amount": 346014.057843,
+            "usdValue": 4156.171563783309,
+            "wallet": {
+              "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+              "name": "Winner"
+            }
+          },
+          {
+            "timestamp": "2025-08-28T17:42:34.000Z",
+            "type": "BUY",
+            "amount": 354436.803861,
+            "usdValue": 4156.171563783309,
+            "wallet": {
+              "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+              "name": "Winner"
+            }
+          },
+          {
+            "timestamp": "2025-08-28T17:42:32.000Z",
+            "type": "BUY",
+            "amount": 360053.507385,
+            "usdValue": 4156.171563783309,
+            "wallet": {
+              "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+              "name": "Winner"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "6zHcjFHjd3X1ptLznSJ989LVfKZvnmKN96dyvwfXoFSB",
+          "name": "SolidBalls",
+          "score": 1,
+          "tokens": [
+            {
+              "token_address": "DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK",
+              "balance": 447194.863053,
+              "token_price": 0.01521,
+              "token_decimals": 6,
+              "token_symbol": "Cope",
+              "token_name": "Cope",
+              "value": 6801.83386703613
+            }
+          ]
+        },
+        {
+          "address": "EJ2jyVUceCYvC1HxY77X2adre7Kcf8sQaucrKaQtVtXs",
+          "name": "justice3.6x",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK",
+              "balance": 48277.772955,
+              "token_price": 0.01521,
+              "token_decimals": 6,
+              "token_symbol": "Cope",
+              "token_name": "Cope",
+              "value": 734.30492664555
+            }
+          ]
+        },
+        {
+          "address": "8zFZHuSRuDpuAR7J6FzwyF3vKNx4CVW3DFHJerQhc7Zd",
+          "name": "Pow",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK",
+              "balance": 9141134.513118,
+              "token_price": 0.01521,
+              "token_decimals": 6,
+              "token_symbol": "Cope",
+              "token_name": "Cope",
+              "value": 139036.6559445248
+            }
+          ]
+        },
+        {
+          "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+          "name": "Winner",
+          "score": 0.5,
+          "tokens": [
+            {
+              "token_address": "DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK",
+              "balance": 3491778.460489,
+              "token_price": 0.01521,
+              "token_decimals": 6,
+              "token_symbol": "Cope",
+              "token_name": "Cope",
+              "value": 53109.95038403769
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+      "symbol": "PUMP",
+      "name": "Pump",
+      "decimals": 6,
+      "icon": "https://ipfs.io/ipfs/bafkreibyb3hcn7gglvdqpmklfev3fut3eqv3kje54l3to3xzxxbgpt5wjm",
+      "created_time": 1752153028,
+      "website": "",
+      "twitter": "",
+      "holder": 70822,
+      "market_cap": 1201536285,
+      "price": 0.003394,
+      "price_change_24h": 8.43,
+      "volume_24h": 13862687.33,
+      "pool_address": "solana_2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
+      "ath": 0.006877386587816453,
+      "ath_timestamp": 1752537600,
+      "ath_pool": "2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
+      "dexId": "raydium",
+      "pairAddress": "Dwgaka8QiSkFQ3bGXhZpmncM63DwhjK5zzQRiqt9WA8K",
+      "txns_24h": {
+        "buys": 5344,
+        "sells": 5544
+      },
+      "fdv_usd": 3394134487,
+      "total_reserve_in_usd": 1951237.34,
+      "tags": [
+        "moonshot",
+        "binanceAlpha"
+      ],
+      "first_signal": {
+        "timestamp": 1752515714,
+        "price": 0.005381
+      },
+      "metrics": {
+        "uniqueWallets": 1,
+        "inflow24h": 2000,
+        "trades": [
+          {
+            "timestamp": "2025-08-28T23:41:43.000Z",
+            "type": "BUY",
+            "amount": 282541.848587,
+            "usdValue": 1000,
+            "wallet": {
+              "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+              "name": "Chillguy32x"
+            }
+          },
+          {
+            "timestamp": "2025-08-28T22:41:32.000Z",
+            "type": "BUY",
+            "amount": 290947.026301,
+            "usdValue": 1000,
+            "wallet": {
+              "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+              "name": "Chillguy32x"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+          "name": "Chillguy32x",
+          "score": 1,
+          "tokens": [
+            {
+              "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+              "balance": 8230844.484933,
+              "token_price": 0.003394,
+              "token_decimals": 6,
+              "token_symbol": "PUMP",
+              "token_name": "Pump",
+              "value": 27935.4861818626
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "address": "8biqsLDiRPaPM11S42zKtNaC3WWKF64PNoPG9htzy99n",
+      "symbol": "OK",
+      "name": "okbet",
+      "decimals": 9,
+      "icon": "https://ipfs.io/ipfs/bafkreibhrnjhqj5nuef42klydttcvaznf34jbp4ib6ikzlpdg52cctw6by",
+      "created_time": 1747380073,
+      "website": "",
+      "twitter": "",
+      "holder": 1129,
+      "market_cap": 2279958,
+      "price": 0.00228,
+      "price_change_24h": 27.1,
+      "volume_24h": 1943740.48,
+      "pool_address": "solana_HXYiU433tDNcMMGUgFFGg95AwTdwMbmnApAoQ9sdw4cB",
+      "ath": 0.0024765210044841003,
+      "ath_timestamp": 1756483200,
+      "ath_pool": "HXYiU433tDNcMMGUgFFGg95AwTdwMbmnApAoQ9sdw4cB",
+      "dexId": "meteora",
+      "pairAddress": "HXYiU433tDNcMMGUgFFGg95AwTdwMbmnApAoQ9sdw4cB",
+      "txns_24h": {
+        "buys": 1846,
+        "sells": 1583
+      },
+      "fdv_usd": 2279958,
+      "total_reserve_in_usd": 426530.5,
+      "tags": [],
+      "first_signal": {
+        "timestamp": 1756435807,
+        "price": 0.001895
+      },
+      "metrics": {
+        "uniqueWallets": 3,
+        "inflow24h": 18607.43553554829,
+        "trades": [
+          {
+            "timestamp": "2025-08-29T08:27:02.000Z",
+            "type": "SELL",
+            "amount": 182843.11885609,
+            "usdValue": 331.03452914953135,
+            "wallet": {
+              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+              "name": "凉粉小刀"
+            }
+          },
+          {
+            "timestamp": "2025-08-29T08:27:02.000Z",
+            "type": "SELL",
+            "amount": 255980.366398524,
+            "usdValue": 458.68482737734655,
+            "wallet": {
+              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+              "name": "凉粉小刀"
+            }
+          },
+          {
+            "timestamp": "2025-08-29T08:27:02.000Z",
+            "type": "SELL",
+            "amount": 1384049.272493051,
+            "usdValue": 2483.5434521158318,
+            "wallet": {
+              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+              "name": "凉粉小刀"
+            }
+          },
+          {
+            "timestamp": "2025-08-29T02:33:13.000Z",
+            "type": "SELL",
+            "amount": 1598852.322325107,
+            "usdValue": 3267.944474793487,
+            "wallet": {
+              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+              "name": "DNF 哥"
+            }
+          },
+          {
+            "timestamp": "2025-08-28T23:28:34.000Z",
+            "type": "BUY",
+            "amount": 1828431.18856089,
+            "usdValue": 3996,
+            "wallet": {
+              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+              "name": "凉粉小刀"
+            }
+          },
+          {
+            "timestamp": "2025-08-28T18:35:59.000Z",
+            "type": "BUY",
+            "amount": 5977963.472445746,
+            "usdValue": 21152.64281898449,
+            "wallet": {
+              "address": "HUpPyLU8KWisCAr3mzWy2FKT6uuxQ2qGgJQxyTpDoes5",
+              "name": "0xsun"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+          "name": "凉粉小刀",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "8biqsLDiRPaPM11S42zKtNaC3WWKF64PNoPG9htzy99n",
+              "balance": 0,
+              "token_price": 0.00228,
+              "token_decimals": 9,
+              "token_symbol": "OK",
+              "token_name": "okbet",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+          "name": "DNF 哥",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "8biqsLDiRPaPM11S42zKtNaC3WWKF64PNoPG9htzy99n",
+              "balance": 11772005.050586464,
+              "token_price": 0.00228,
+              "token_decimals": 9,
+              "token_symbol": "OK",
+              "token_name": "okbet",
+              "value": 26840.171515337137
+            }
+          ]
+        },
+        {
+          "address": "HUpPyLU8KWisCAr3mzWy2FKT6uuxQ2qGgJQxyTpDoes5",
+          "name": "0xsun",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "8biqsLDiRPaPM11S42zKtNaC3WWKF64PNoPG9htzy99n",
+              "balance": 5977963.472445746,
+              "token_price": 0.00228,
+              "token_decimals": 9,
+              "token_symbol": "OK",
+              "token_name": "okbet",
+              "value": 13629.7567171763
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "address": "J27UYHX5oeaG1YbUGQc8BmJySXDjNWChdGB2Pi2TMDAq",
+      "symbol": "PCULE",
+      "name": "Polycule",
+      "decimals": 9,
+      "icon": "https://ipfs.io/ipfs/bafkreiea6zi55siehd6el5nzgfo52x573vldoowtlgbcg3fg45zrvljtku",
+      "created_time": 1747332675,
+      "website": "",
+      "twitter": "",
+      "holder": 4129,
+      "market_cap": 6922472,
+      "price": 0.006922,
+      "price_change_24h": -23.27,
+      "volume_24h": 597179.63,
+      "pool_address": "solana_6VKwjoZgzQjfXpxJ9SMo7BYRxHh71xtSLuxzbJ8LXoeF",
+      "ath": 0.016248694632720776,
+      "ath_timestamp": 1749168000,
+      "ath_pool": "6VKwjoZgzQjfXpxJ9SMo7BYRxHh71xtSLuxzbJ8LXoeF",
+      "dexId": "meteora",
+      "pairAddress": "6VKwjoZgzQjfXpxJ9SMo7BYRxHh71xtSLuxzbJ8LXoeF",
+      "txns_24h": {
+        "buys": 248,
+        "sells": 267
+      },
+      "fdv_usd": 6922472,
+      "total_reserve_in_usd": 1310601.92,
+      "tags": [
+        "moonshot"
+      ],
+      "first_signal": {
+        "timestamp": 1747570589,
+        "price": 0.00856621111249534
+      },
+      "metrics": {
+        "uniqueWallets": 2,
+        "inflow24h": -14472.426912599847,
+        "trades": [
+          {
+            "timestamp": "2025-08-28T19:14:21.000Z",
+            "type": "SELL",
+            "amount": 4001161.547780295,
+            "usdValue": 35545.815453,
+            "wallet": {
+              "address": "GgG65z3MXpmGnV3ZapKv5ayDqox1x7CJnqP1LD8FaZdt",
+              "name": "y22.sol"
+            }
+          },
+          {
+            "timestamp": "2025-08-28T17:50:24.000Z",
+            "type": "BUY",
+            "amount": 2187956.625362161,
+            "usdValue": 21073.388540400156,
+            "wallet": {
+              "address": "HUpPyLU8KWisCAr3mzWy2FKT6uuxQ2qGgJQxyTpDoes5",
+              "name": "0xsun"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "GgG65z3MXpmGnV3ZapKv5ayDqox1x7CJnqP1LD8FaZdt",
+          "name": "y22.sol",
+          "score": 1,
+          "tokens": [
+            {
+              "token_address": "J27UYHX5oeaG1YbUGQc8BmJySXDjNWChdGB2Pi2TMDAq",
+              "balance": 0,
+              "token_price": 0.006922,
+              "token_decimals": 9,
+              "token_symbol": "PCULE",
+              "token_name": "Polycule",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "address": "HUpPyLU8KWisCAr3mzWy2FKT6uuxQ2qGgJQxyTpDoes5",
+          "name": "0xsun",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "J27UYHX5oeaG1YbUGQc8BmJySXDjNWChdGB2Pi2TMDAq",
+              "balance": 4801827.309911018,
+              "token_price": 0.006922,
+              "token_decimals": 9,
+              "token_symbol": "PCULE",
+              "token_name": "Polycule",
+              "value": 33238.24863920407
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "groups": {
-    "latestSignals": [],
-    "buys": [],
-    "sells": []
+    "latestSignals": [
+      {
+        "address": "BoPBba5DBnuttdVoePJwuhcP3TjXhhLhSD6fD6Rdpump",
+        "symbol": "Shoggoth",
+        "name": "Shoggoth Mini",
+        "decimals": 6,
+        "icon": "https://metadata.pumplify.eu/data/QmUCh34p2qouEG2oCgFNw9cz5wTNfEdKFjCN3xq7EGDsGQ",
+        "created_time": 1756484081,
+        "website": "",
+        "twitter": "https://x.com/matthieulc/status/1945148304284623291",
+        "holder": 1123,
+        "market_cap": 282800,
+        "price": 0.0002828,
+        "price_change_24h": 235,
+        "volume_24h": 2042616.68,
+        "pool_address": "solana_9J5F4oKoKxnoaTnJaKuMh3cw3ZTnhH2EZG3UPnX85ZvB",
+        "ath": 0.0005264,
+        "ath_timestamp": 1756485917,
+        "ath_pool": "9J5F4oKoKxnoaTnJaKuMh3cw3ZTnhH2EZG3UPnX85ZvB",
+        "dexId": "pumpswap",
+        "pairAddress": "9J5F4oKoKxnoaTnJaKuMh3cw3ZTnhH2EZG3UPnX85ZvB",
+        "txns_24h": {
+          "buys": 10313,
+          "sells": 8367
+        },
+        "fdv_usd": 282800,
+        "total_reserve_in_usd": 68264.99,
+        "tags": [],
+        "first_signal": {
+          "timestamp": 1756485911,
+          "price": 0.0005264
+        },
+        "metrics": {
+          "uniqueWallets": 3,
+          "inflow24h": 6879.965686767593,
+          "trades": [
+            {
+              "timestamp": "2025-08-29T17:02:41.000Z",
+              "type": "BUY",
+              "amount": 2396264.578823,
+              "usdValue": 809.8180976874972,
+              "wallet": {
+                "address": "GeZHejJJJ7631AHAaoEfSmmL7CwhRNPH81FkawEfN7N9",
+                "name": "UBC7x"
+              }
+            },
+            {
+              "timestamp": "2025-08-29T17:02:31.000Z",
+              "type": "BUY",
+              "amount": 2353013.87043,
+              "usdValue": 756.1580875691309,
+              "wallet": {
+                "address": "GeZHejJJJ7631AHAaoEfSmmL7CwhRNPH81FkawEfN7N9",
+                "name": "UBC7x"
+              }
+            },
+            {
+              "timestamp": "2025-08-29T16:53:57.000Z",
+              "type": "SELL",
+              "amount": 1579229.243,
+              "usdValue": 573.1371358447556,
+              "wallet": {
+                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+                "name": "OGmoodeng"
+              }
+            },
+            {
+              "timestamp": "2025-08-29T16:44:22.000Z",
+              "type": "BUY",
+              "amount": 1579229.243,
+              "usdValue": 820.6368417584672,
+              "wallet": {
+                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+                "name": "OGmoodeng"
+              }
+            },
+            {
+              "timestamp": "2025-08-29T16:39:22.000Z",
+              "type": "BUY",
+              "amount": 19315866.673308,
+              "usdValue": 5066.489795597253,
+              "wallet": {
+                "address": "8zFZHuSRuDpuAR7J6FzwyF3vKNx4CVW3DFHJerQhc7Zd",
+                "name": "Pow"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "GeZHejJJJ7631AHAaoEfSmmL7CwhRNPH81FkawEfN7N9",
+            "name": "UBC7x",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "BoPBba5DBnuttdVoePJwuhcP3TjXhhLhSD6fD6Rdpump",
+                "balance": 4749278.449253,
+                "token_price": 0.0002828,
+                "token_decimals": 6,
+                "token_symbol": "Shoggoth",
+                "token_name": "Shoggoth Mini",
+                "value": 1343.0959454487484
+              }
+            ]
+          },
+          {
+            "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+            "name": "OGmoodeng",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "BoPBba5DBnuttdVoePJwuhcP3TjXhhLhSD6fD6Rdpump",
+                "balance": 0,
+                "token_price": 0.0002828,
+                "token_decimals": 6,
+                "token_symbol": "Shoggoth",
+                "token_name": "Shoggoth Mini",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "address": "8zFZHuSRuDpuAR7J6FzwyF3vKNx4CVW3DFHJerQhc7Zd",
+            "name": "Pow",
+            "score": 3,
+            "tokens": [
+              {
+                "token_address": "BoPBba5DBnuttdVoePJwuhcP3TjXhhLhSD6fD6Rdpump",
+                "balance": 19315866.673308,
+                "token_price": 0.0002828,
+                "token_decimals": 6,
+                "token_symbol": "Shoggoth",
+                "token_name": "Shoggoth Mini",
+                "value": 5462.5270952115025
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "address": "8biqsLDiRPaPM11S42zKtNaC3WWKF64PNoPG9htzy99n",
+        "symbol": "OK",
+        "name": "okbet",
+        "decimals": 9,
+        "icon": "https://ipfs.io/ipfs/bafkreibhrnjhqj5nuef42klydttcvaznf34jbp4ib6ikzlpdg52cctw6by",
+        "created_time": 1747380073,
+        "website": "",
+        "twitter": "",
+        "holder": 1129,
+        "market_cap": 2279958,
+        "price": 0.00228,
+        "price_change_24h": 27.1,
+        "volume_24h": 1943740.48,
+        "pool_address": "solana_HXYiU433tDNcMMGUgFFGg95AwTdwMbmnApAoQ9sdw4cB",
+        "ath": 0.0024765210044841003,
+        "ath_timestamp": 1756483200,
+        "ath_pool": "HXYiU433tDNcMMGUgFFGg95AwTdwMbmnApAoQ9sdw4cB",
+        "dexId": "meteora",
+        "pairAddress": "HXYiU433tDNcMMGUgFFGg95AwTdwMbmnApAoQ9sdw4cB",
+        "txns_24h": {
+          "buys": 1846,
+          "sells": 1583
+        },
+        "fdv_usd": 2279958,
+        "total_reserve_in_usd": 426530.5,
+        "tags": [],
+        "first_signal": {
+          "timestamp": 1756435807,
+          "price": 0.001895
+        },
+        "metrics": {
+          "uniqueWallets": 3,
+          "inflow24h": 18607.43553554829,
+          "trades": [
+            {
+              "timestamp": "2025-08-29T08:27:02.000Z",
+              "type": "SELL",
+              "amount": 182843.11885609,
+              "usdValue": 331.03452914953135,
+              "wallet": {
+                "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+                "name": "凉粉小刀"
+              }
+            },
+            {
+              "timestamp": "2025-08-29T08:27:02.000Z",
+              "type": "SELL",
+              "amount": 255980.366398524,
+              "usdValue": 458.68482737734655,
+              "wallet": {
+                "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+                "name": "凉粉小刀"
+              }
+            },
+            {
+              "timestamp": "2025-08-29T08:27:02.000Z",
+              "type": "SELL",
+              "amount": 1384049.272493051,
+              "usdValue": 2483.5434521158318,
+              "wallet": {
+                "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+                "name": "凉粉小刀"
+              }
+            },
+            {
+              "timestamp": "2025-08-29T02:33:13.000Z",
+              "type": "SELL",
+              "amount": 1598852.322325107,
+              "usdValue": 3267.944474793487,
+              "wallet": {
+                "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+                "name": "DNF 哥"
+              }
+            },
+            {
+              "timestamp": "2025-08-28T23:28:34.000Z",
+              "type": "BUY",
+              "amount": 1828431.18856089,
+              "usdValue": 3996,
+              "wallet": {
+                "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+                "name": "凉粉小刀"
+              }
+            },
+            {
+              "timestamp": "2025-08-28T18:35:59.000Z",
+              "type": "BUY",
+              "amount": 5977963.472445746,
+              "usdValue": 21152.64281898449,
+              "wallet": {
+                "address": "HUpPyLU8KWisCAr3mzWy2FKT6uuxQ2qGgJQxyTpDoes5",
+                "name": "0xsun"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+            "name": "凉粉小刀",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "8biqsLDiRPaPM11S42zKtNaC3WWKF64PNoPG9htzy99n",
+                "balance": 0,
+                "token_price": 0.00228,
+                "token_decimals": 9,
+                "token_symbol": "OK",
+                "token_name": "okbet",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+            "name": "DNF 哥",
+            "score": 3,
+            "tokens": [
+              {
+                "token_address": "8biqsLDiRPaPM11S42zKtNaC3WWKF64PNoPG9htzy99n",
+                "balance": 11772005.050586464,
+                "token_price": 0.00228,
+                "token_decimals": 9,
+                "token_symbol": "OK",
+                "token_name": "okbet",
+                "value": 26840.171515337137
+              }
+            ]
+          },
+          {
+            "address": "HUpPyLU8KWisCAr3mzWy2FKT6uuxQ2qGgJQxyTpDoes5",
+            "name": "0xsun",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "8biqsLDiRPaPM11S42zKtNaC3WWKF64PNoPG9htzy99n",
+                "balance": 5977963.472445746,
+                "token_price": 0.00228,
+                "token_decimals": 9,
+                "token_symbol": "OK",
+                "token_name": "okbet",
+                "value": 13629.7567171763
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "buys": [
+      {
+        "address": "DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK",
+        "symbol": "Cope",
+        "name": "Cope",
+        "decimals": 6,
+        "icon": "https://cf-ipfs.com/ipfs/QmbnQncuvvs7WZCCnGLnqFmMW9qbRzEUK8nKKprDuSeTf9",
+        "created_time": 1712218394,
+        "website": "",
+        "twitter": "",
+        "holder": 8303,
+        "market_cap": 14831589,
+        "price": 0.01521,
+        "price_change_24h": 22.22,
+        "volume_24h": 19157650.06,
+        "pool_address": "solana_URqx24yyYxtXXhTbBQnbtPLhtLWYoaDaRxuQuLpNS3S",
+        "ath": 0.018435285685724355,
+        "ath_timestamp": 1756425600,
+        "ath_pool": "URqx24yyYxtXXhTbBQnbtPLhtLWYoaDaRxuQuLpNS3S",
+        "dexId": "pumpswap",
+        "pairAddress": "URqx24yyYxtXXhTbBQnbtPLhtLWYoaDaRxuQuLpNS3S",
+        "txns_24h": {
+          "buys": 36429,
+          "sells": 36801
+        },
+        "fdv_usd": 14831589,
+        "total_reserve_in_usd": 622481.45,
+        "tags": [
+          "moonshot"
+        ],
+        "first_signal": {
+          "timestamp": 1756382231,
+          "price": 0.003991
+        },
+        "metrics": {
+          "uniqueWallets": 4,
+          "inflow24h": 30583.931314702822,
+          "trades": [
+            {
+              "timestamp": "2025-08-29T01:02:57.000Z",
+              "type": "BUY",
+              "amount": 447194.863053,
+              "usdValue": 5000,
+              "wallet": {
+                "address": "6zHcjFHjd3X1ptLznSJ989LVfKZvnmKN96dyvwfXoFSB",
+                "name": "SolidBalls"
+              }
+            },
+            {
+              "timestamp": "2025-08-28T18:45:14.000Z",
+              "type": "BUY",
+              "amount": 48277.772955,
+              "usdValue": 565.537636673733,
+              "wallet": {
+                "address": "EJ2jyVUceCYvC1HxY77X2adre7Kcf8sQaucrKaQtVtXs",
+                "name": "justice3.6x"
+              }
+            },
+            {
+              "timestamp": "2025-08-28T18:43:19.000Z",
+              "type": "BUY",
+              "amount": 942247.083761,
+              "usdValue": 10471.793205102687,
+              "wallet": {
+                "address": "8zFZHuSRuDpuAR7J6FzwyF3vKNx4CVW3DFHJerQhc7Zd",
+                "name": "Pow"
+              }
+            },
+            {
+              "timestamp": "2025-08-28T17:43:52.000Z",
+              "type": "BUY",
+              "amount": 172527.283534,
+              "usdValue": 2078.0857815764784,
+              "wallet": {
+                "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+                "name": "Winner"
+              }
+            },
+            {
+              "timestamp": "2025-08-28T17:43:51.000Z",
+              "type": "BUY",
+              "amount": 346014.057843,
+              "usdValue": 4156.171563783309,
+              "wallet": {
+                "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+                "name": "Winner"
+              }
+            },
+            {
+              "timestamp": "2025-08-28T17:42:34.000Z",
+              "type": "BUY",
+              "amount": 354436.803861,
+              "usdValue": 4156.171563783309,
+              "wallet": {
+                "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+                "name": "Winner"
+              }
+            },
+            {
+              "timestamp": "2025-08-28T17:42:32.000Z",
+              "type": "BUY",
+              "amount": 360053.507385,
+              "usdValue": 4156.171563783309,
+              "wallet": {
+                "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+                "name": "Winner"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "6zHcjFHjd3X1ptLznSJ989LVfKZvnmKN96dyvwfXoFSB",
+            "name": "SolidBalls",
+            "score": 1,
+            "tokens": [
+              {
+                "token_address": "DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK",
+                "balance": 447194.863053,
+                "token_price": 0.01521,
+                "token_decimals": 6,
+                "token_symbol": "Cope",
+                "token_name": "Cope",
+                "value": 6801.83386703613
+              }
+            ]
+          },
+          {
+            "address": "EJ2jyVUceCYvC1HxY77X2adre7Kcf8sQaucrKaQtVtXs",
+            "name": "justice3.6x",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK",
+                "balance": 48277.772955,
+                "token_price": 0.01521,
+                "token_decimals": 6,
+                "token_symbol": "Cope",
+                "token_name": "Cope",
+                "value": 734.30492664555
+              }
+            ]
+          },
+          {
+            "address": "8zFZHuSRuDpuAR7J6FzwyF3vKNx4CVW3DFHJerQhc7Zd",
+            "name": "Pow",
+            "score": 3,
+            "tokens": [
+              {
+                "token_address": "DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK",
+                "balance": 9141134.513118,
+                "token_price": 0.01521,
+                "token_decimals": 6,
+                "token_symbol": "Cope",
+                "token_name": "Cope",
+                "value": 139036.6559445248
+              }
+            ]
+          },
+          {
+            "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+            "name": "Winner",
+            "score": 0.5,
+            "tokens": [
+              {
+                "token_address": "DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK",
+                "balance": 3491778.460489,
+                "token_price": 0.01521,
+                "token_decimals": 6,
+                "token_symbol": "Cope",
+                "token_name": "Cope",
+                "value": 53109.95038403769
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+        "symbol": "PUMP",
+        "name": "Pump",
+        "decimals": 6,
+        "icon": "https://ipfs.io/ipfs/bafkreibyb3hcn7gglvdqpmklfev3fut3eqv3kje54l3to3xzxxbgpt5wjm",
+        "created_time": 1752153028,
+        "website": "",
+        "twitter": "",
+        "holder": 70822,
+        "market_cap": 1201536285,
+        "price": 0.003394,
+        "price_change_24h": 8.43,
+        "volume_24h": 13862687.33,
+        "pool_address": "solana_2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
+        "ath": 0.006877386587816453,
+        "ath_timestamp": 1752537600,
+        "ath_pool": "2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
+        "dexId": "raydium",
+        "pairAddress": "Dwgaka8QiSkFQ3bGXhZpmncM63DwhjK5zzQRiqt9WA8K",
+        "txns_24h": {
+          "buys": 5344,
+          "sells": 5544
+        },
+        "fdv_usd": 3394134487,
+        "total_reserve_in_usd": 1951237.34,
+        "tags": [
+          "moonshot",
+          "binanceAlpha"
+        ],
+        "first_signal": {
+          "timestamp": 1752515714,
+          "price": 0.005381
+        },
+        "metrics": {
+          "uniqueWallets": 1,
+          "inflow24h": 2000,
+          "trades": [
+            {
+              "timestamp": "2025-08-28T23:41:43.000Z",
+              "type": "BUY",
+              "amount": 282541.848587,
+              "usdValue": 1000,
+              "wallet": {
+                "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+                "name": "Chillguy32x"
+              }
+            },
+            {
+              "timestamp": "2025-08-28T22:41:32.000Z",
+              "type": "BUY",
+              "amount": 290947.026301,
+              "usdValue": 1000,
+              "wallet": {
+                "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+                "name": "Chillguy32x"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+            "name": "Chillguy32x",
+            "score": 1,
+            "tokens": [
+              {
+                "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+                "balance": 8230844.484933,
+                "token_price": 0.003394,
+                "token_decimals": 6,
+                "token_symbol": "PUMP",
+                "token_name": "Pump",
+                "value": 27935.4861818626
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sells": [
+      {
+        "address": "J27UYHX5oeaG1YbUGQc8BmJySXDjNWChdGB2Pi2TMDAq",
+        "symbol": "PCULE",
+        "name": "Polycule",
+        "decimals": 9,
+        "icon": "https://ipfs.io/ipfs/bafkreiea6zi55siehd6el5nzgfo52x573vldoowtlgbcg3fg45zrvljtku",
+        "created_time": 1747332675,
+        "website": "",
+        "twitter": "",
+        "holder": 4129,
+        "market_cap": 6922472,
+        "price": 0.006922,
+        "price_change_24h": -23.27,
+        "volume_24h": 597179.63,
+        "pool_address": "solana_6VKwjoZgzQjfXpxJ9SMo7BYRxHh71xtSLuxzbJ8LXoeF",
+        "ath": 0.016248694632720776,
+        "ath_timestamp": 1749168000,
+        "ath_pool": "6VKwjoZgzQjfXpxJ9SMo7BYRxHh71xtSLuxzbJ8LXoeF",
+        "dexId": "meteora",
+        "pairAddress": "6VKwjoZgzQjfXpxJ9SMo7BYRxHh71xtSLuxzbJ8LXoeF",
+        "txns_24h": {
+          "buys": 248,
+          "sells": 267
+        },
+        "fdv_usd": 6922472,
+        "total_reserve_in_usd": 1310601.92,
+        "tags": [
+          "moonshot"
+        ],
+        "first_signal": {
+          "timestamp": 1747570589,
+          "price": 0.00856621111249534
+        },
+        "metrics": {
+          "uniqueWallets": 2,
+          "inflow24h": -14472.426912599847,
+          "trades": [
+            {
+              "timestamp": "2025-08-28T19:14:21.000Z",
+              "type": "SELL",
+              "amount": 4001161.547780295,
+              "usdValue": 35545.815453,
+              "wallet": {
+                "address": "GgG65z3MXpmGnV3ZapKv5ayDqox1x7CJnqP1LD8FaZdt",
+                "name": "y22.sol"
+              }
+            },
+            {
+              "timestamp": "2025-08-28T17:50:24.000Z",
+              "type": "BUY",
+              "amount": 2187956.625362161,
+              "usdValue": 21073.388540400156,
+              "wallet": {
+                "address": "HUpPyLU8KWisCAr3mzWy2FKT6uuxQ2qGgJQxyTpDoes5",
+                "name": "0xsun"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "GgG65z3MXpmGnV3ZapKv5ayDqox1x7CJnqP1LD8FaZdt",
+            "name": "y22.sol",
+            "score": 1,
+            "tokens": [
+              {
+                "token_address": "J27UYHX5oeaG1YbUGQc8BmJySXDjNWChdGB2Pi2TMDAq",
+                "balance": 0,
+                "token_price": 0.006922,
+                "token_decimals": 9,
+                "token_symbol": "PCULE",
+                "token_name": "Polycule",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "address": "HUpPyLU8KWisCAr3mzWy2FKT6uuxQ2qGgJQxyTpDoes5",
+            "name": "0xsun",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "J27UYHX5oeaG1YbUGQc8BmJySXDjNWChdGB2Pi2TMDAq",
+                "balance": 4801827.309911018,
+                "token_price": 0.006922,
+                "token_decimals": 9,
+                "token_symbol": "PCULE",
+                "token_name": "Polycule",
+                "value": 33238.24863920407
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 }
