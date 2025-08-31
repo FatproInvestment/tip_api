@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-08-31T15:26:53.819Z",
+  "timestamp": "2025-08-31T15:35:35.585Z",
   "data": [
     {
       "address": "B9iPvm8YybydhvMiKAuJuygEKuzspgxdavhFNzzUpump",
@@ -12,10 +12,10 @@
       "website": "https://emulites.ai/",
       "twitter": "https://x.com/Emulites/status/1961798517548036610",
       "holder": 5164,
-      "market_cap": 3816734,
-      "price": 0.003816,
-      "price_change_24h": 848,
-      "volume_24h": 9946056.74,
+      "market_cap": 3560592,
+      "price": 0.00356,
+      "price_change_24h": 1184,
+      "volume_24h": 9810564.52,
       "pool_address": "solana_8dmvfYhRWq8fSsdGXeMg14GQFpW8uxQkzrRm55HFYcFb",
       "ath": 0.004795268253298505,
       "ath_timestamp": 1756648800,
@@ -23,11 +23,11 @@
       "dexId": "pumpswap",
       "pairAddress": "8dmvfYhRWq8fSsdGXeMg14GQFpW8uxQkzrRm55HFYcFb",
       "txns_24h": {
-        "buys": 45451,
-        "sells": 37759
+        "buys": 44048,
+        "sells": 36675
       },
-      "fdv_usd": 3816734,
-      "total_reserve_in_usd": 287540.76,
+      "fdv_usd": 3560592,
+      "total_reserve_in_usd": 277586.08,
       "tags": [],
       "first_signal": {
         "timestamp": 1756642687,
@@ -35,8 +35,18 @@
       },
       "metrics": {
         "uniqueWallets": 4,
-        "inflow24h": 1396.91636247294,
+        "inflow24h": 873.0777785295767,
         "trades": [
+          {
+            "timestamp": "2025-08-31T15:29:12.000Z",
+            "type": "SELL",
+            "amount": 139803,
+            "usdValue": 523.8385839433633,
+            "wallet": {
+              "address": "65jT5wk8FQyUWcSjgBsBRLU5NiSYGVYwRSKRiopPNAQ3",
+              "name": "iamachillguy"
+            }
+          },
           {
             "timestamp": "2025-08-31T12:17:27.000Z",
             "type": "BUY",
@@ -91,6 +101,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "65jT5wk8FQyUWcSjgBsBRLU5NiSYGVYwRSKRiopPNAQ3",
+          "name": "iamachillguy",
+          "score": 0.5,
+          "tokens": [
+            {
+              "token_address": "B9iPvm8YybydhvMiKAuJuygEKuzspgxdavhFNzzUpump",
+              "balance": 3000000.450035,
+              "token_price": 0.00356,
+              "token_decimals": 6,
+              "token_symbol": "EMULITES",
+              "token_name": "Emulites",
+              "value": 10680.001602124601
+            }
+          ]
+        },
+        {
           "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
           "name": "OGmoodeng",
           "score": 2,
@@ -98,11 +124,11 @@
             {
               "token_address": "B9iPvm8YybydhvMiKAuJuygEKuzspgxdavhFNzzUpump",
               "balance": 342967.165995,
-              "token_price": 0.003816,
+              "token_price": 0.00356,
               "token_decimals": 6,
               "token_symbol": "EMULITES",
               "token_name": "Emulites",
-              "value": 1308.76270543692
+              "value": 1220.9631109421998
             }
           ]
         },
@@ -114,11 +140,11 @@
             {
               "token_address": "B9iPvm8YybydhvMiKAuJuygEKuzspgxdavhFNzzUpump",
               "balance": 768152.193598,
-              "token_price": 0.003816,
+              "token_price": 0.00356,
               "token_decimals": 6,
               "token_symbol": "EMULITES",
               "token_name": "Emulites",
-              "value": 2931.268770769968
+              "value": 2734.6218092088798
             }
           ]
         },
@@ -130,27 +156,11 @@
             {
               "token_address": "B9iPvm8YybydhvMiKAuJuygEKuzspgxdavhFNzzUpump",
               "balance": 0,
-              "token_price": 0.003816,
+              "token_price": 0.00356,
               "token_decimals": 6,
               "token_symbol": "EMULITES",
               "token_name": "Emulites",
               "value": 0
-            }
-          ]
-        },
-        {
-          "address": "65jT5wk8FQyUWcSjgBsBRLU5NiSYGVYwRSKRiopPNAQ3",
-          "name": "iamachillguy",
-          "score": 0.5,
-          "tokens": [
-            {
-              "token_address": "B9iPvm8YybydhvMiKAuJuygEKuzspgxdavhFNzzUpump",
-              "balance": 3139803.450035,
-              "token_price": 0.003816,
-              "token_decimals": 6,
-              "token_symbol": "EMULITES",
-              "token_name": "Emulites",
-              "value": 11981.489965333561
             }
           ]
         }
@@ -169,10 +179,10 @@
         "website": "https://emulites.ai/",
         "twitter": "https://x.com/Emulites/status/1961798517548036610",
         "holder": 5164,
-        "market_cap": 3816734,
-        "price": 0.003816,
-        "price_change_24h": 848,
-        "volume_24h": 9946056.74,
+        "market_cap": 3560592,
+        "price": 0.00356,
+        "price_change_24h": 1184,
+        "volume_24h": 9810564.52,
         "pool_address": "solana_8dmvfYhRWq8fSsdGXeMg14GQFpW8uxQkzrRm55HFYcFb",
         "ath": 0.004795268253298505,
         "ath_timestamp": 1756648800,
@@ -180,11 +190,11 @@
         "dexId": "pumpswap",
         "pairAddress": "8dmvfYhRWq8fSsdGXeMg14GQFpW8uxQkzrRm55HFYcFb",
         "txns_24h": {
-          "buys": 45451,
-          "sells": 37759
+          "buys": 44048,
+          "sells": 36675
         },
-        "fdv_usd": 3816734,
-        "total_reserve_in_usd": 287540.76,
+        "fdv_usd": 3560592,
+        "total_reserve_in_usd": 277586.08,
         "tags": [],
         "first_signal": {
           "timestamp": 1756642687,
@@ -192,8 +202,18 @@
         },
         "metrics": {
           "uniqueWallets": 4,
-          "inflow24h": 1396.91636247294,
+          "inflow24h": 873.0777785295767,
           "trades": [
+            {
+              "timestamp": "2025-08-31T15:29:12.000Z",
+              "type": "SELL",
+              "amount": 139803,
+              "usdValue": 523.8385839433633,
+              "wallet": {
+                "address": "65jT5wk8FQyUWcSjgBsBRLU5NiSYGVYwRSKRiopPNAQ3",
+                "name": "iamachillguy"
+              }
+            },
             {
               "timestamp": "2025-08-31T12:17:27.000Z",
               "type": "BUY",
@@ -248,6 +268,22 @@
         },
         "walletPortfolios": [
           {
+            "address": "65jT5wk8FQyUWcSjgBsBRLU5NiSYGVYwRSKRiopPNAQ3",
+            "name": "iamachillguy",
+            "score": 0.5,
+            "tokens": [
+              {
+                "token_address": "B9iPvm8YybydhvMiKAuJuygEKuzspgxdavhFNzzUpump",
+                "balance": 3000000.450035,
+                "token_price": 0.00356,
+                "token_decimals": 6,
+                "token_symbol": "EMULITES",
+                "token_name": "Emulites",
+                "value": 10680.001602124601
+              }
+            ]
+          },
+          {
             "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
             "name": "OGmoodeng",
             "score": 2,
@@ -255,11 +291,11 @@
               {
                 "token_address": "B9iPvm8YybydhvMiKAuJuygEKuzspgxdavhFNzzUpump",
                 "balance": 342967.165995,
-                "token_price": 0.003816,
+                "token_price": 0.00356,
                 "token_decimals": 6,
                 "token_symbol": "EMULITES",
                 "token_name": "Emulites",
-                "value": 1308.76270543692
+                "value": 1220.9631109421998
               }
             ]
           },
@@ -271,11 +307,11 @@
               {
                 "token_address": "B9iPvm8YybydhvMiKAuJuygEKuzspgxdavhFNzzUpump",
                 "balance": 768152.193598,
-                "token_price": 0.003816,
+                "token_price": 0.00356,
                 "token_decimals": 6,
                 "token_symbol": "EMULITES",
                 "token_name": "Emulites",
-                "value": 2931.268770769968
+                "value": 2734.6218092088798
               }
             ]
           },
@@ -287,27 +323,11 @@
               {
                 "token_address": "B9iPvm8YybydhvMiKAuJuygEKuzspgxdavhFNzzUpump",
                 "balance": 0,
-                "token_price": 0.003816,
+                "token_price": 0.00356,
                 "token_decimals": 6,
                 "token_symbol": "EMULITES",
                 "token_name": "Emulites",
                 "value": 0
-              }
-            ]
-          },
-          {
-            "address": "65jT5wk8FQyUWcSjgBsBRLU5NiSYGVYwRSKRiopPNAQ3",
-            "name": "iamachillguy",
-            "score": 0.5,
-            "tokens": [
-              {
-                "token_address": "B9iPvm8YybydhvMiKAuJuygEKuzspgxdavhFNzzUpump",
-                "balance": 3139803.450035,
-                "token_price": 0.003816,
-                "token_decimals": 6,
-                "token_symbol": "EMULITES",
-                "token_name": "Emulites",
-                "value": 11981.489965333561
               }
             ]
           }
