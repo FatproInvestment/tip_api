@@ -1,7 +1,155 @@
 {
   "success": true,
-  "timestamp": "2025-08-31T19:27:34.088Z",
+  "timestamp": "2025-08-31T19:36:04.201Z",
   "data": [
+    {
+      "address": "GPdJrAJa3Qrzwag5aKsM3bq6x3vFF3966QjTaSYXbonk",
+      "symbol": "USD2",
+      "name": "USD2",
+      "decimals": 6,
+      "icon": "https://ipfs.io/ipfs/QmQnM9Whp8rZJoU96hRHdbz1dxdFeTgWYpiC5TPCxanowm",
+      "created_time": 1756654283,
+      "website": "",
+      "twitter": "https://x.com/aeyakovenko/status/1496650409024180224",
+      "holder": 662,
+      "market_cap": 836017,
+      "price": 0.000836,
+      "price_change_24h": 798,
+      "volume_24h": 952371.61,
+      "pool_address": "solana_4wYNM5v5CR14uKqAzEBdEnCoZXHfEtVzx6JvX4S8gZmw",
+      "ath": 0.000836,
+      "ath_timestamp": 1756668807,
+      "ath_pool": "4wYNM5v5CR14uKqAzEBdEnCoZXHfEtVzx6JvX4S8gZmw",
+      "dexId": "raydium",
+      "pairAddress": "4wYNM5v5CR14uKqAzEBdEnCoZXHfEtVzx6JvX4S8gZmw",
+      "txns_24h": {
+        "buys": 3691,
+        "sells": 3047
+      },
+      "fdv_usd": 836017,
+      "total_reserve_in_usd": 113313.97,
+      "tags": [],
+      "first_signal": {
+        "timestamp": 1756668792,
+        "price": 0.000836
+      },
+      "metrics": {
+        "uniqueWallets": 3,
+        "inflow24h": 7886.699532403558,
+        "trades": [
+          {
+            "timestamp": "2025-08-31T19:32:05.000Z",
+            "type": "BUY",
+            "amount": 12836878.943659,
+            "usdValue": 8114.377916189538,
+            "wallet": {
+              "address": "8zFZHuSRuDpuAR7J6FzwyF3vKNx4CVW3DFHJerQhc7Zd",
+              "name": "Pow"
+            }
+          },
+          {
+            "timestamp": "2025-08-31T18:06:37.000Z",
+            "type": "SELL",
+            "amount": 2812100.173002,
+            "usdValue": 605.624801855795,
+            "wallet": {
+              "address": "4jSmEmBkuBi1JxZHM1khkf57xPR2oW1EnkRxqehq1cSK",
+              "name": "1000xSniper"
+            }
+          },
+          {
+            "timestamp": "2025-08-31T17:07:23.000Z",
+            "type": "BUY",
+            "amount": 6054759.877595,
+            "usdValue": 204.90500561824106,
+            "wallet": {
+              "address": "4jSmEmBkuBi1JxZHM1khkf57xPR2oW1EnkRxqehq1cSK",
+              "name": "1000xSniper"
+            }
+          },
+          {
+            "timestamp": "2025-08-31T16:59:11.000Z",
+            "type": "BUY",
+            "amount": 7153789.549378,
+            "usdValue": 410.16743949936495,
+            "wallet": {
+              "address": "4jSmEmBkuBi1JxZHM1khkf57xPR2oW1EnkRxqehq1cSK",
+              "name": "1000xSniper"
+            }
+          },
+          {
+            "timestamp": "2025-08-31T15:32:09.000Z",
+            "type": "SELL",
+            "amount": 26970010.631879,
+            "usdValue": 843.239995846356,
+            "wallet": {
+              "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
+              "name": "GriffWhale"
+            }
+          },
+          {
+            "timestamp": "2025-08-31T15:32:06.000Z",
+            "type": "BUY",
+            "amount": 26970010.631879,
+            "usdValue": 606.1139687985639,
+            "wallet": {
+              "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
+              "name": "GriffWhale"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "8zFZHuSRuDpuAR7J6FzwyF3vKNx4CVW3DFHJerQhc7Zd",
+          "name": "Pow",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "GPdJrAJa3Qrzwag5aKsM3bq6x3vFF3966QjTaSYXbonk",
+              "balance": 12836878.943659,
+              "token_price": 0.000836,
+              "token_decimals": 6,
+              "token_symbol": "USD2",
+              "token_name": "USD2",
+              "value": 10731.630796898924
+            }
+          ]
+        },
+        {
+          "address": "4jSmEmBkuBi1JxZHM1khkf57xPR2oW1EnkRxqehq1cSK",
+          "name": "1000xSniper",
+          "score": 1,
+          "tokens": [
+            {
+              "token_address": "GPdJrAJa3Qrzwag5aKsM3bq6x3vFF3966QjTaSYXbonk",
+              "balance": 10396449.253971,
+              "token_price": 0.000836,
+              "token_decimals": 6,
+              "token_symbol": "USD2",
+              "token_name": "USD2",
+              "value": 8691.431576319756
+            }
+          ]
+        },
+        {
+          "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
+          "name": "GriffWhale",
+          "score": 1,
+          "tokens": [
+            {
+              "token_address": "GPdJrAJa3Qrzwag5aKsM3bq6x3vFF3966QjTaSYXbonk",
+              "balance": 0,
+              "token_price": 0.000836,
+              "token_decimals": 6,
+              "token_symbol": "USD2",
+              "token_name": "USD2",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
     {
       "address": "B9iPvm8YybydhvMiKAuJuygEKuzspgxdavhFNzzUpump",
       "symbol": "EMULITES",
@@ -12,10 +160,10 @@
       "website": "https://emulites.ai/",
       "twitter": "https://x.com/Emulites/status/1961798517548036610",
       "holder": 4981,
-      "market_cap": 2094446,
-      "price": 0.002094,
-      "price_change_24h": 632,
-      "volume_24h": 10930117.48,
+      "market_cap": 2225733,
+      "price": 0.002225,
+      "price_change_24h": 719,
+      "volume_24h": 11006514.38,
       "pool_address": "solana_8dmvfYhRWq8fSsdGXeMg14GQFpW8uxQkzrRm55HFYcFb",
       "ath": 0.004795268253298505,
       "ath_timestamp": 1756648800,
@@ -23,11 +171,11 @@
       "dexId": "pumpswap",
       "pairAddress": "8dmvfYhRWq8fSsdGXeMg14GQFpW8uxQkzrRm55HFYcFb",
       "txns_24h": {
-        "buys": 41300,
-        "sells": 35699
+        "buys": 41420,
+        "sells": 35855
       },
-      "fdv_usd": 2094446,
-      "total_reserve_in_usd": 218651.55,
+      "fdv_usd": 2225733,
+      "total_reserve_in_usd": 225422.8,
       "tags": [],
       "first_signal": {
         "timestamp": 1756642687,
@@ -108,11 +256,11 @@
             {
               "token_address": "B9iPvm8YybydhvMiKAuJuygEKuzspgxdavhFNzzUpump",
               "balance": 2000000.450035,
-              "token_price": 0.002094,
+              "token_price": 0.002225,
               "token_decimals": 6,
               "token_symbol": "EMULITES",
               "token_name": "Emulites",
-              "value": 4188.00094237329
+              "value": 4450.001001327875
             }
           ]
         },
@@ -124,11 +272,11 @@
             {
               "token_address": "B9iPvm8YybydhvMiKAuJuygEKuzspgxdavhFNzzUpump",
               "balance": 342967.165995,
-              "token_price": 0.002094,
+              "token_price": 0.002225,
               "token_decimals": 6,
               "token_symbol": "EMULITES",
               "token_name": "Emulites",
-              "value": 718.1732455935299
+              "value": 763.101944338875
             }
           ]
         },
@@ -140,11 +288,11 @@
             {
               "token_address": "B9iPvm8YybydhvMiKAuJuygEKuzspgxdavhFNzzUpump",
               "balance": 768152.193598,
-              "token_price": 0.002094,
+              "token_price": 0.002225,
               "token_decimals": 6,
               "token_symbol": "EMULITES",
               "token_name": "Emulites",
-              "value": 1608.510693394212
+              "value": 1709.13863075555
             }
           ]
         },
@@ -156,7 +304,7 @@
             {
               "token_address": "B9iPvm8YybydhvMiKAuJuygEKuzspgxdavhFNzzUpump",
               "balance": 0,
-              "token_price": 0.002094,
+              "token_price": 0.002225,
               "token_decimals": 6,
               "token_symbol": "EMULITES",
               "token_name": "Emulites",
@@ -170,6 +318,154 @@
   "groups": {
     "latestSignals": [
       {
+        "address": "GPdJrAJa3Qrzwag5aKsM3bq6x3vFF3966QjTaSYXbonk",
+        "symbol": "USD2",
+        "name": "USD2",
+        "decimals": 6,
+        "icon": "https://ipfs.io/ipfs/QmQnM9Whp8rZJoU96hRHdbz1dxdFeTgWYpiC5TPCxanowm",
+        "created_time": 1756654283,
+        "website": "",
+        "twitter": "https://x.com/aeyakovenko/status/1496650409024180224",
+        "holder": 662,
+        "market_cap": 836017,
+        "price": 0.000836,
+        "price_change_24h": 798,
+        "volume_24h": 952371.61,
+        "pool_address": "solana_4wYNM5v5CR14uKqAzEBdEnCoZXHfEtVzx6JvX4S8gZmw",
+        "ath": 0.000836,
+        "ath_timestamp": 1756668807,
+        "ath_pool": "4wYNM5v5CR14uKqAzEBdEnCoZXHfEtVzx6JvX4S8gZmw",
+        "dexId": "raydium",
+        "pairAddress": "4wYNM5v5CR14uKqAzEBdEnCoZXHfEtVzx6JvX4S8gZmw",
+        "txns_24h": {
+          "buys": 3691,
+          "sells": 3047
+        },
+        "fdv_usd": 836017,
+        "total_reserve_in_usd": 113313.97,
+        "tags": [],
+        "first_signal": {
+          "timestamp": 1756668792,
+          "price": 0.000836
+        },
+        "metrics": {
+          "uniqueWallets": 3,
+          "inflow24h": 7886.699532403558,
+          "trades": [
+            {
+              "timestamp": "2025-08-31T19:32:05.000Z",
+              "type": "BUY",
+              "amount": 12836878.943659,
+              "usdValue": 8114.377916189538,
+              "wallet": {
+                "address": "8zFZHuSRuDpuAR7J6FzwyF3vKNx4CVW3DFHJerQhc7Zd",
+                "name": "Pow"
+              }
+            },
+            {
+              "timestamp": "2025-08-31T18:06:37.000Z",
+              "type": "SELL",
+              "amount": 2812100.173002,
+              "usdValue": 605.624801855795,
+              "wallet": {
+                "address": "4jSmEmBkuBi1JxZHM1khkf57xPR2oW1EnkRxqehq1cSK",
+                "name": "1000xSniper"
+              }
+            },
+            {
+              "timestamp": "2025-08-31T17:07:23.000Z",
+              "type": "BUY",
+              "amount": 6054759.877595,
+              "usdValue": 204.90500561824106,
+              "wallet": {
+                "address": "4jSmEmBkuBi1JxZHM1khkf57xPR2oW1EnkRxqehq1cSK",
+                "name": "1000xSniper"
+              }
+            },
+            {
+              "timestamp": "2025-08-31T16:59:11.000Z",
+              "type": "BUY",
+              "amount": 7153789.549378,
+              "usdValue": 410.16743949936495,
+              "wallet": {
+                "address": "4jSmEmBkuBi1JxZHM1khkf57xPR2oW1EnkRxqehq1cSK",
+                "name": "1000xSniper"
+              }
+            },
+            {
+              "timestamp": "2025-08-31T15:32:09.000Z",
+              "type": "SELL",
+              "amount": 26970010.631879,
+              "usdValue": 843.239995846356,
+              "wallet": {
+                "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
+                "name": "GriffWhale"
+              }
+            },
+            {
+              "timestamp": "2025-08-31T15:32:06.000Z",
+              "type": "BUY",
+              "amount": 26970010.631879,
+              "usdValue": 606.1139687985639,
+              "wallet": {
+                "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
+                "name": "GriffWhale"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "8zFZHuSRuDpuAR7J6FzwyF3vKNx4CVW3DFHJerQhc7Zd",
+            "name": "Pow",
+            "score": 3,
+            "tokens": [
+              {
+                "token_address": "GPdJrAJa3Qrzwag5aKsM3bq6x3vFF3966QjTaSYXbonk",
+                "balance": 12836878.943659,
+                "token_price": 0.000836,
+                "token_decimals": 6,
+                "token_symbol": "USD2",
+                "token_name": "USD2",
+                "value": 10731.630796898924
+              }
+            ]
+          },
+          {
+            "address": "4jSmEmBkuBi1JxZHM1khkf57xPR2oW1EnkRxqehq1cSK",
+            "name": "1000xSniper",
+            "score": 1,
+            "tokens": [
+              {
+                "token_address": "GPdJrAJa3Qrzwag5aKsM3bq6x3vFF3966QjTaSYXbonk",
+                "balance": 10396449.253971,
+                "token_price": 0.000836,
+                "token_decimals": 6,
+                "token_symbol": "USD2",
+                "token_name": "USD2",
+                "value": 8691.431576319756
+              }
+            ]
+          },
+          {
+            "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
+            "name": "GriffWhale",
+            "score": 1,
+            "tokens": [
+              {
+                "token_address": "GPdJrAJa3Qrzwag5aKsM3bq6x3vFF3966QjTaSYXbonk",
+                "balance": 0,
+                "token_price": 0.000836,
+                "token_decimals": 6,
+                "token_symbol": "USD2",
+                "token_name": "USD2",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
         "address": "B9iPvm8YybydhvMiKAuJuygEKuzspgxdavhFNzzUpump",
         "symbol": "EMULITES",
         "name": "Emulites",
@@ -179,10 +475,10 @@
         "website": "https://emulites.ai/",
         "twitter": "https://x.com/Emulites/status/1961798517548036610",
         "holder": 4981,
-        "market_cap": 2094446,
-        "price": 0.002094,
-        "price_change_24h": 632,
-        "volume_24h": 10930117.48,
+        "market_cap": 2225733,
+        "price": 0.002225,
+        "price_change_24h": 719,
+        "volume_24h": 11006514.38,
         "pool_address": "solana_8dmvfYhRWq8fSsdGXeMg14GQFpW8uxQkzrRm55HFYcFb",
         "ath": 0.004795268253298505,
         "ath_timestamp": 1756648800,
@@ -190,11 +486,11 @@
         "dexId": "pumpswap",
         "pairAddress": "8dmvfYhRWq8fSsdGXeMg14GQFpW8uxQkzrRm55HFYcFb",
         "txns_24h": {
-          "buys": 41300,
-          "sells": 35699
+          "buys": 41420,
+          "sells": 35855
         },
-        "fdv_usd": 2094446,
-        "total_reserve_in_usd": 218651.55,
+        "fdv_usd": 2225733,
+        "total_reserve_in_usd": 225422.8,
         "tags": [],
         "first_signal": {
           "timestamp": 1756642687,
@@ -275,11 +571,11 @@
               {
                 "token_address": "B9iPvm8YybydhvMiKAuJuygEKuzspgxdavhFNzzUpump",
                 "balance": 2000000.450035,
-                "token_price": 0.002094,
+                "token_price": 0.002225,
                 "token_decimals": 6,
                 "token_symbol": "EMULITES",
                 "token_name": "Emulites",
-                "value": 4188.00094237329
+                "value": 4450.001001327875
               }
             ]
           },
@@ -291,11 +587,11 @@
               {
                 "token_address": "B9iPvm8YybydhvMiKAuJuygEKuzspgxdavhFNzzUpump",
                 "balance": 342967.165995,
-                "token_price": 0.002094,
+                "token_price": 0.002225,
                 "token_decimals": 6,
                 "token_symbol": "EMULITES",
                 "token_name": "Emulites",
-                "value": 718.1732455935299
+                "value": 763.101944338875
               }
             ]
           },
@@ -307,11 +603,11 @@
               {
                 "token_address": "B9iPvm8YybydhvMiKAuJuygEKuzspgxdavhFNzzUpump",
                 "balance": 768152.193598,
-                "token_price": 0.002094,
+                "token_price": 0.002225,
                 "token_decimals": 6,
                 "token_symbol": "EMULITES",
                 "token_name": "Emulites",
-                "value": 1608.510693394212
+                "value": 1709.13863075555
               }
             ]
           },
@@ -323,7 +619,7 @@
               {
                 "token_address": "B9iPvm8YybydhvMiKAuJuygEKuzspgxdavhFNzzUpump",
                 "balance": 0,
-                "token_price": 0.002094,
+                "token_price": 0.002225,
                 "token_decimals": 6,
                 "token_symbol": "EMULITES",
                 "token_name": "Emulites",
