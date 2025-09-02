@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-09-02T22:54:15.081Z",
+  "timestamp": "2025-09-02T23:07:23.120Z",
   "data": [
     {
       "address": "FDEF2U9geiWS7sdGPCUo2r1wGswkJr2mmVTECiH6pump",
@@ -12,10 +12,10 @@
       "website": "",
       "twitter": "https://x.com/idrawline",
       "holder": 2876,
-      "market_cap": 26154758,
-      "price": 0.02615,
-      "price_change_24h": 24973,
-      "volume_24h": 13408015,
+      "market_cap": 21313454,
+      "price": 0.02131,
+      "price_change_24h": 20332,
+      "volume_24h": 15387042.59,
       "pool_address": "solana_AtPXzwvpNuXzeJUcFZGWZ6cK14NpE6UwmmbBTqnDc8un",
       "ath": 0.01896,
       "ath_timestamp": 1756852824,
@@ -23,11 +23,11 @@
       "dexId": "pumpswap",
       "pairAddress": "AtPXzwvpNuXzeJUcFZGWZ6cK14NpE6UwmmbBTqnDc8un",
       "txns_24h": {
-        "buys": 16211,
-        "sells": 13745
+        "buys": 19098,
+        "sells": 15810
       },
-      "fdv_usd": 26154758,
-      "total_reserve_in_usd": 659408.34,
+      "fdv_usd": 21313454,
+      "total_reserve_in_usd": 599141.53,
       "tags": [],
       "first_signal": {
         "timestamp": 1756852811,
@@ -35,8 +35,38 @@
       },
       "metrics": {
         "uniqueWallets": 4,
-        "inflow24h": 92005.66775907259,
+        "inflow24h": 72356.24882537255,
         "trades": [
+          {
+            "timestamp": "2025-09-02T22:58:34.000Z",
+            "type": "SELL",
+            "amount": 269133.88408,
+            "usdValue": 6110.267258610841,
+            "wallet": {
+              "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
+              "name": "GriffWhale"
+            }
+          },
+          {
+            "timestamp": "2025-09-02T22:58:33.000Z",
+            "type": "SELL",
+            "amount": 283298.825348,
+            "usdValue": 6528.303126582323,
+            "wallet": {
+              "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
+              "name": "GriffWhale"
+            }
+          },
+          {
+            "timestamp": "2025-09-02T22:58:32.000Z",
+            "type": "SELL",
+            "amount": 298209.28984,
+            "usdValue": 7010.848548506878,
+            "wallet": {
+              "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
+              "name": "GriffWhale"
+            }
+          },
           {
             "timestamp": "2025-09-02T22:39:55.000Z",
             "type": "BUY",
@@ -151,6 +181,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
+          "name": "GriffWhale",
+          "score": 1,
+          "tokens": [
+            {
+              "token_address": "FDEF2U9geiWS7sdGPCUo2r1wGswkJr2mmVTECiH6pump",
+              "balance": 5113543.797536,
+              "token_price": 0.02131,
+              "token_decimals": 6,
+              "token_symbol": "MITCH",
+              "token_name": "idrawline",
+              "value": 108969.61832549215
+            }
+          ]
+        },
+        {
           "address": "GgG65z3MXpmGnV3ZapKv5ayDqox1x7CJnqP1LD8FaZdt",
           "name": "y22.sol",
           "score": 1,
@@ -158,11 +204,11 @@
             {
               "token_address": "FDEF2U9geiWS7sdGPCUo2r1wGswkJr2mmVTECiH6pump",
               "balance": 1194493.673987,
-              "token_price": 0.02615,
+              "token_price": 0.02131,
               "token_decimals": 6,
               "token_symbol": "MITCH",
               "token_name": "idrawline",
-              "value": 31236.00957476005
+              "value": 25454.66019266297
             }
           ]
         },
@@ -174,11 +220,11 @@
             {
               "token_address": "FDEF2U9geiWS7sdGPCUo2r1wGswkJr2mmVTECiH6pump",
               "balance": 68032.705603,
-              "token_price": 0.02615,
+              "token_price": 0.02131,
               "token_decimals": 6,
               "token_symbol": "MITCH",
               "token_name": "idrawline",
-              "value": 1779.05525151845
+              "value": 1449.7769563999298
             }
           ]
         },
@@ -190,27 +236,11 @@
             {
               "token_address": "FDEF2U9geiWS7sdGPCUo2r1wGswkJr2mmVTECiH6pump",
               "balance": 0,
-              "token_price": 0.02615,
+              "token_price": 0.02131,
               "token_decimals": 6,
               "token_symbol": "MITCH",
               "token_name": "idrawline",
               "value": 0
-            }
-          ]
-        },
-        {
-          "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
-          "name": "GriffWhale",
-          "score": 1,
-          "tokens": [
-            {
-              "token_address": "FDEF2U9geiWS7sdGPCUo2r1wGswkJr2mmVTECiH6pump",
-              "balance": 5964185.796804,
-              "token_price": 0.02615,
-              "token_decimals": 6,
-              "token_symbol": "MITCH",
-              "token_name": "idrawline",
-              "value": 155963.4585864246
             }
           ]
         }
@@ -226,10 +256,10 @@
       "website": "",
       "twitter": "",
       "holder": 6978,
-      "market_cap": 6912427,
-      "price": 0.007093,
-      "price_change_24h": 114,
-      "volume_24h": 6587151.94,
+      "market_cap": 8846493,
+      "price": 0.009078,
+      "price_change_24h": 190,
+      "volume_24h": 6888911.17,
       "pool_address": "solana_URqx24yyYxtXXhTbBQnbtPLhtLWYoaDaRxuQuLpNS3S",
       "ath": 0.018435285685724355,
       "ath_timestamp": 1756425600,
@@ -237,11 +267,11 @@
       "dexId": "pumpswap",
       "pairAddress": "URqx24yyYxtXXhTbBQnbtPLhtLWYoaDaRxuQuLpNS3S",
       "txns_24h": {
-        "buys": 11576,
-        "sells": 11258
+        "buys": 11741,
+        "sells": 11577
       },
-      "fdv_usd": 6912427,
-      "total_reserve_in_usd": 487124.36,
+      "fdv_usd": 8846493,
+      "total_reserve_in_usd": 552128.6,
       "tags": [
         "moonshot"
       ],
@@ -844,11 +874,11 @@
             {
               "token_address": "DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK",
               "balance": 500000,
-              "token_price": 0.007093,
+              "token_price": 0.009078,
               "token_decimals": 6,
               "token_symbol": "Cope",
               "token_name": "Cope",
-              "value": 3546.5
+              "value": 4539
             }
           ]
         },
@@ -860,11 +890,11 @@
             {
               "token_address": "DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK",
               "balance": 4412718.061643,
-              "token_price": 0.007093,
+              "token_price": 0.009078,
               "token_decimals": 6,
               "token_symbol": "Cope",
               "token_name": "Cope",
-              "value": 31299.4092112338
+              "value": 40058.65456359515
             }
           ]
         },
@@ -876,11 +906,11 @@
             {
               "token_address": "DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK",
               "balance": 11612693.248953,
-              "token_price": 0.007093,
+              "token_price": 0.009078,
               "token_decimals": 6,
               "token_symbol": "Cope",
               "token_name": "Cope",
-              "value": 82368.83321482364
+              "value": 105420.02931399533
             }
           ]
         }
@@ -896,10 +926,10 @@
       "website": "",
       "twitter": "",
       "holder": 71718,
-      "market_cap": 1352049117,
-      "price": 0.003819,
-      "price_change_24h": 16.1,
-      "volume_24h": 16437495.56,
+      "market_cap": 1361551115,
+      "price": 0.003846,
+      "price_change_24h": 15.34,
+      "volume_24h": 16004538.11,
       "pool_address": "solana_2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
       "ath": 0.006877386587816453,
       "ath_timestamp": 1752537600,
@@ -907,11 +937,11 @@
       "dexId": "raydium",
       "pairAddress": "Dwgaka8QiSkFQ3bGXhZpmncM63DwhjK5zzQRiqt9WA8K",
       "txns_24h": {
-        "buys": 5862,
-        "sells": 6157
+        "buys": 5794,
+        "sells": 6104
       },
-      "fdv_usd": 3819307493,
-      "total_reserve_in_usd": 2062157.07,
+      "fdv_usd": 3846149011,
+      "total_reserve_in_usd": 2064651.73,
       "tags": [
         "moonshot",
         "binanceAlpha"
@@ -955,11 +985,11 @@
             {
               "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
               "balance": 8230844.484933,
-              "token_price": 0.003819,
+              "token_price": 0.003846,
               "token_decimals": 6,
               "token_symbol": "PUMP",
               "token_name": "Pump",
-              "value": 31433.595087959126
+              "value": 31655.827889052318
             }
           ]
         }
@@ -975,10 +1005,10 @@
       "website": "",
       "twitter": "",
       "holder": 44402,
-      "market_cap": 169339897,
-      "price": 0.1695,
-      "price_change_24h": 31.9,
-      "volume_24h": 4853939,
+      "market_cap": 175725209,
+      "price": 0.1759,
+      "price_change_24h": 34.57,
+      "volume_24h": 5233544.72,
       "pool_address": "solana_4w2cysotX6czaUGmmWg13hDpY4QEMG2CzeKYEQyK9Ama",
       "ath": 0.2870218972948458,
       "ath_timestamp": 1755820800,
@@ -986,11 +1016,11 @@
       "dexId": "pumpswap",
       "pairAddress": "4w2cysotX6czaUGmmWg13hDpY4QEMG2CzeKYEQyK9Ama",
       "txns_24h": {
-        "buys": 2615,
-        "sells": 2848
+        "buys": 2848,
+        "sells": 3053
       },
-      "fdv_usd": 169339897,
-      "total_reserve_in_usd": 5654269.08,
+      "fdv_usd": 175725209,
+      "total_reserve_in_usd": 5765991.68,
       "tags": [
         "moonshot",
         "binanceAlpha"
@@ -1044,11 +1074,11 @@
             {
               "token_address": "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2",
               "balance": 2470047.776835,
-              "token_price": 0.1695,
+              "token_price": 0.1759,
               "token_decimals": 6,
               "token_symbol": "TROLL",
               "token_name": "TROLL",
-              "value": 418673.0981735326
+              "value": 434481.4039452765
             }
           ]
         }
@@ -1064,10 +1094,10 @@
       "website": "https://www.tiktok.com/search?q=67",
       "twitter": "https://x.com/67coinn",
       "holder": 3921,
-      "market_cap": 4843511,
-      "price": 0.004843,
-      "price_change_24h": -7.41,
-      "volume_24h": 830926.16,
+      "market_cap": 4950573,
+      "price": 0.00495,
+      "price_change_24h": -8.62,
+      "volume_24h": 835668.23,
       "pool_address": "solana_E9oGC72mZWYqmzR5ggB9DAoGyRssR3uhFWHG1L75RZve",
       "ath": 0.008853388864348076,
       "ath_timestamp": 1756598400,
@@ -1075,11 +1105,11 @@
       "dexId": "raydium",
       "pairAddress": "E9oGC72mZWYqmzR5ggB9DAoGyRssR3uhFWHG1L75RZve",
       "txns_24h": {
-        "buys": 6727,
-        "sells": 6144
+        "buys": 6944,
+        "sells": 6312
       },
-      "fdv_usd": 4843511,
-      "total_reserve_in_usd": 403268.3,
+      "fdv_usd": 4950573,
+      "total_reserve_in_usd": 408233.31,
       "tags": [
         "moonshot"
       ],
@@ -1122,11 +1152,11 @@
             {
               "token_address": "76rTxzztXjJe7AUaBi7jQ5J61MFgpQgB4Cc934sWbonk",
               "balance": 4344561.284969,
-              "token_price": 0.004843,
+              "token_price": 0.00495,
               "token_decimals": 6,
               "token_symbol": "67",
               "token_name": "67COIN",
-              "value": 21040.71030310487
+              "value": 21505.57836059655
             }
           ]
         },
@@ -1138,11 +1168,11 @@
             {
               "token_address": "76rTxzztXjJe7AUaBi7jQ5J61MFgpQgB4Cc934sWbonk",
               "balance": 503596.689509,
-              "token_price": 0.004843,
+              "token_price": 0.00495,
               "token_decimals": 6,
               "token_symbol": "67",
               "token_name": "67COIN",
-              "value": 2438.918767292087
+              "value": 2492.80361306955
             }
           ]
         }
@@ -1158,10 +1188,10 @@
       "website": "",
       "twitter": "",
       "holder": 4999,
-      "market_cap": 8786300,
-      "price": 0.008787,
-      "price_change_24h": 62.37,
-      "volume_24h": 683765.24,
+      "market_cap": 8306345,
+      "price": 0.008307,
+      "price_change_24h": 51.36,
+      "volume_24h": 700001.15,
       "pool_address": "solana_8ZeYHZg4iKWyrCdpyNgLKZuEkDC6AkQNT4q8q3zNFX4n",
       "ath": 0.013246723586900757,
       "ath_timestamp": 1756306800,
@@ -1169,11 +1199,11 @@
       "dexId": "raydium",
       "pairAddress": "8ZeYHZg4iKWyrCdpyNgLKZuEkDC6AkQNT4q8q3zNFX4n",
       "txns_24h": {
-        "buys": 1168,
-        "sells": 1209
+        "buys": 1166,
+        "sells": 1223
       },
-      "fdv_usd": 8786300,
-      "total_reserve_in_usd": 679217.74,
+      "fdv_usd": 8306345,
+      "total_reserve_in_usd": 661197.22,
       "tags": [
         "moonshot"
       ],
@@ -1236,11 +1266,11 @@
             {
               "token_address": "3qq54YqAKG3TcrwNHXFSpMCWoL8gmMuPceJ4FG9npump",
               "balance": 7736597.027507,
-              "token_price": 0.008787,
+              "token_price": 0.008307,
               "token_decimals": 6,
               "token_symbol": "CLANKER",
               "token_name": "CLANKER Robot AI Slur",
-              "value": 67981.47808070401
+              "value": 64267.91150750065
             }
           ]
         }
@@ -1256,10 +1286,10 @@
       "website": "https://grokan.app/",
       "twitter": "https://x.com/i/communities/1962891430004695400",
       "holder": 2843,
-      "market_cap": 567407,
-      "price": 0.0005674,
-      "price_change_24h": 580,
-      "volume_24h": 7993006.53,
+      "market_cap": 679731,
+      "price": 0.0006797,
+      "price_change_24h": 715,
+      "volume_24h": 8034578.79,
       "pool_address": "solana_8UqmzWdpEqu1oiDmnKNeq6KGR5V4Evan3ye7rqqDUhE1",
       "ath": 0.002065,
       "ath_timestamp": 1756838652,
@@ -1270,11 +1300,11 @@
         "active": 20
       },
       "txns_24h": {
-        "buys": 26216,
-        "sells": 23134
+        "buys": 26438,
+        "sells": 23346
       },
-      "fdv_usd": 567407,
-      "total_reserve_in_usd": 105986.06,
+      "fdv_usd": 679731,
+      "total_reserve_in_usd": 116208.11,
       "tags": [],
       "first_signal": {
         "timestamp": 1756836792,
@@ -1415,7 +1445,7 @@
             {
               "token_address": "Dp8fc49A73C1ycnTzRet8oEWNRSpUymqcCbYsse5pump",
               "balance": 0,
-              "token_price": 0.0005674,
+              "token_price": 0.0006797,
               "token_decimals": 6,
               "token_symbol": "GROKAN",
               "token_name": "GROKAN APP",
@@ -1431,7 +1461,7 @@
             {
               "token_address": "Dp8fc49A73C1ycnTzRet8oEWNRSpUymqcCbYsse5pump",
               "balance": 0,
-              "token_price": 0.0005674,
+              "token_price": 0.0006797,
               "token_decimals": 6,
               "token_symbol": "GROKAN",
               "token_name": "GROKAN APP",
@@ -1447,7 +1477,7 @@
             {
               "token_address": "Dp8fc49A73C1ycnTzRet8oEWNRSpUymqcCbYsse5pump",
               "balance": 0,
-              "token_price": 0.0005674,
+              "token_price": 0.0006797,
               "token_decimals": 6,
               "token_symbol": "GROKAN",
               "token_name": "GROKAN APP",
@@ -1467,10 +1497,10 @@
       "website": "",
       "twitter": "https://x.com/PFFlyWheel",
       "holder": 1531,
-      "market_cap": 302373,
-      "price": 0.0003374,
-      "price_change_24h": 305,
-      "volume_24h": 4502201.9,
+      "market_cap": 267280,
+      "price": 0.0002982,
+      "price_change_24h": 258,
+      "volume_24h": 4534190.27,
       "pool_address": "solana_HdEokLpSnWfMgxYrwRA8AgL4hGPiRiHgrMVWXHzkc9xZ",
       "ath": 0.0005319,
       "ath_timestamp": 1756835230,
@@ -1481,11 +1511,11 @@
         "active": 100
       },
       "txns_24h": {
-        "buys": 20803,
-        "sells": 17229
+        "buys": 20998,
+        "sells": 17407
       },
-      "fdv_usd": 302373,
-      "total_reserve_in_usd": 79210.13,
+      "fdv_usd": 267280,
+      "total_reserve_in_usd": 74535.04,
       "tags": [],
       "first_signal": {
         "timestamp": 1756833296,
@@ -1686,7 +1716,7 @@
             {
               "token_address": "2Kmju644C6PqKwyZJc51iuM9PPcUZzEnY6XF2Fmkpump",
               "balance": 0,
-              "token_price": 0.0003374,
+              "token_price": 0.0002982,
               "token_decimals": 6,
               "token_symbol": "FLY",
               "token_name": "PF Flywheel",
@@ -1702,7 +1732,7 @@
             {
               "token_address": "2Kmju644C6PqKwyZJc51iuM9PPcUZzEnY6XF2Fmkpump",
               "balance": 0,
-              "token_price": 0.0003374,
+              "token_price": 0.0002982,
               "token_decimals": 6,
               "token_symbol": "FLY",
               "token_name": "PF Flywheel",
@@ -1722,10 +1752,10 @@
       "website": "https://x.com/i/communities/1962508633087844812",
       "twitter": "https://x.com/amuricahsol",
       "holder": 1807,
-      "market_cap": 151538,
-      "price": 0.0001515,
-      "price_change_24h": -18.25,
-      "volume_24h": 2113239.24,
+      "market_cap": 178355,
+      "price": 0.0001783,
+      "price_change_24h": 61.34,
+      "volume_24h": 2093426.57,
       "pool_address": "solana_5d3oWwUZNBZsfMhZ2G1BJr3EBCDccBwWWb6rBUaGBzhi",
       "ath": 0.023461583162198072,
       "ath_timestamp": 1755216000,
@@ -1733,11 +1763,11 @@
       "dexId": "pumpswap",
       "pairAddress": "5d3oWwUZNBZsfMhZ2G1BJr3EBCDccBwWWb6rBUaGBzhi",
       "txns_24h": {
-        "buys": 12079,
-        "sells": 9714
+        "buys": 11774,
+        "sells": 9564
       },
-      "fdv_usd": 151538,
-      "total_reserve_in_usd": 57645.39,
+      "fdv_usd": 178355,
+      "total_reserve_in_usd": 62606.06,
       "tags": [],
       "first_signal": {
         "timestamp": 1756741630,
@@ -1778,7 +1808,7 @@
             {
               "token_address": "4CmYCPDzU22ck8hT6AiPVk2iTHg9SeYtPCXZNuonpump",
               "balance": 0,
-              "token_price": 0.0001515,
+              "token_price": 0.0001783,
               "token_decimals": 6,
               "token_symbol": "amuricah",
               "token_name": "amuricah",
@@ -1794,11 +1824,11 @@
             {
               "token_address": "4CmYCPDzU22ck8hT6AiPVk2iTHg9SeYtPCXZNuonpump",
               "balance": 21434350.642736,
-              "token_price": 0.0001515,
+              "token_price": 0.0001783,
               "token_decimals": 6,
               "token_symbol": "amuricah",
               "token_name": "amuricah",
-              "value": 3247.304122374504
+              "value": 3821.7447195998284
             }
           ]
         }
@@ -1817,10 +1847,10 @@
         "website": "",
         "twitter": "https://x.com/idrawline",
         "holder": 2876,
-        "market_cap": 26154758,
-        "price": 0.02615,
-        "price_change_24h": 24973,
-        "volume_24h": 13408015,
+        "market_cap": 21313454,
+        "price": 0.02131,
+        "price_change_24h": 20332,
+        "volume_24h": 15387042.59,
         "pool_address": "solana_AtPXzwvpNuXzeJUcFZGWZ6cK14NpE6UwmmbBTqnDc8un",
         "ath": 0.01896,
         "ath_timestamp": 1756852824,
@@ -1828,11 +1858,11 @@
         "dexId": "pumpswap",
         "pairAddress": "AtPXzwvpNuXzeJUcFZGWZ6cK14NpE6UwmmbBTqnDc8un",
         "txns_24h": {
-          "buys": 16211,
-          "sells": 13745
+          "buys": 19098,
+          "sells": 15810
         },
-        "fdv_usd": 26154758,
-        "total_reserve_in_usd": 659408.34,
+        "fdv_usd": 21313454,
+        "total_reserve_in_usd": 599141.53,
         "tags": [],
         "first_signal": {
           "timestamp": 1756852811,
@@ -1840,8 +1870,38 @@
         },
         "metrics": {
           "uniqueWallets": 4,
-          "inflow24h": 92005.66775907259,
+          "inflow24h": 72356.24882537255,
           "trades": [
+            {
+              "timestamp": "2025-09-02T22:58:34.000Z",
+              "type": "SELL",
+              "amount": 269133.88408,
+              "usdValue": 6110.267258610841,
+              "wallet": {
+                "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
+                "name": "GriffWhale"
+              }
+            },
+            {
+              "timestamp": "2025-09-02T22:58:33.000Z",
+              "type": "SELL",
+              "amount": 283298.825348,
+              "usdValue": 6528.303126582323,
+              "wallet": {
+                "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
+                "name": "GriffWhale"
+              }
+            },
+            {
+              "timestamp": "2025-09-02T22:58:32.000Z",
+              "type": "SELL",
+              "amount": 298209.28984,
+              "usdValue": 7010.848548506878,
+              "wallet": {
+                "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
+                "name": "GriffWhale"
+              }
+            },
             {
               "timestamp": "2025-09-02T22:39:55.000Z",
               "type": "BUY",
@@ -1956,6 +2016,22 @@
         },
         "walletPortfolios": [
           {
+            "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
+            "name": "GriffWhale",
+            "score": 1,
+            "tokens": [
+              {
+                "token_address": "FDEF2U9geiWS7sdGPCUo2r1wGswkJr2mmVTECiH6pump",
+                "balance": 5113543.797536,
+                "token_price": 0.02131,
+                "token_decimals": 6,
+                "token_symbol": "MITCH",
+                "token_name": "idrawline",
+                "value": 108969.61832549215
+              }
+            ]
+          },
+          {
             "address": "GgG65z3MXpmGnV3ZapKv5ayDqox1x7CJnqP1LD8FaZdt",
             "name": "y22.sol",
             "score": 1,
@@ -1963,11 +2039,11 @@
               {
                 "token_address": "FDEF2U9geiWS7sdGPCUo2r1wGswkJr2mmVTECiH6pump",
                 "balance": 1194493.673987,
-                "token_price": 0.02615,
+                "token_price": 0.02131,
                 "token_decimals": 6,
                 "token_symbol": "MITCH",
                 "token_name": "idrawline",
-                "value": 31236.00957476005
+                "value": 25454.66019266297
               }
             ]
           },
@@ -1979,11 +2055,11 @@
               {
                 "token_address": "FDEF2U9geiWS7sdGPCUo2r1wGswkJr2mmVTECiH6pump",
                 "balance": 68032.705603,
-                "token_price": 0.02615,
+                "token_price": 0.02131,
                 "token_decimals": 6,
                 "token_symbol": "MITCH",
                 "token_name": "idrawline",
-                "value": 1779.05525151845
+                "value": 1449.7769563999298
               }
             ]
           },
@@ -1995,27 +2071,11 @@
               {
                 "token_address": "FDEF2U9geiWS7sdGPCUo2r1wGswkJr2mmVTECiH6pump",
                 "balance": 0,
-                "token_price": 0.02615,
+                "token_price": 0.02131,
                 "token_decimals": 6,
                 "token_symbol": "MITCH",
                 "token_name": "idrawline",
                 "value": 0
-              }
-            ]
-          },
-          {
-            "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
-            "name": "GriffWhale",
-            "score": 1,
-            "tokens": [
-              {
-                "token_address": "FDEF2U9geiWS7sdGPCUo2r1wGswkJr2mmVTECiH6pump",
-                "balance": 5964185.796804,
-                "token_price": 0.02615,
-                "token_decimals": 6,
-                "token_symbol": "MITCH",
-                "token_name": "idrawline",
-                "value": 155963.4585864246
               }
             ]
           }
@@ -2031,10 +2091,10 @@
         "website": "https://grokan.app/",
         "twitter": "https://x.com/i/communities/1962891430004695400",
         "holder": 2843,
-        "market_cap": 567407,
-        "price": 0.0005674,
-        "price_change_24h": 580,
-        "volume_24h": 7993006.53,
+        "market_cap": 679731,
+        "price": 0.0006797,
+        "price_change_24h": 715,
+        "volume_24h": 8034578.79,
         "pool_address": "solana_8UqmzWdpEqu1oiDmnKNeq6KGR5V4Evan3ye7rqqDUhE1",
         "ath": 0.002065,
         "ath_timestamp": 1756838652,
@@ -2045,11 +2105,11 @@
           "active": 20
         },
         "txns_24h": {
-          "buys": 26216,
-          "sells": 23134
+          "buys": 26438,
+          "sells": 23346
         },
-        "fdv_usd": 567407,
-        "total_reserve_in_usd": 105986.06,
+        "fdv_usd": 679731,
+        "total_reserve_in_usd": 116208.11,
         "tags": [],
         "first_signal": {
           "timestamp": 1756836792,
@@ -2190,7 +2250,7 @@
               {
                 "token_address": "Dp8fc49A73C1ycnTzRet8oEWNRSpUymqcCbYsse5pump",
                 "balance": 0,
-                "token_price": 0.0005674,
+                "token_price": 0.0006797,
                 "token_decimals": 6,
                 "token_symbol": "GROKAN",
                 "token_name": "GROKAN APP",
@@ -2206,7 +2266,7 @@
               {
                 "token_address": "Dp8fc49A73C1ycnTzRet8oEWNRSpUymqcCbYsse5pump",
                 "balance": 0,
-                "token_price": 0.0005674,
+                "token_price": 0.0006797,
                 "token_decimals": 6,
                 "token_symbol": "GROKAN",
                 "token_name": "GROKAN APP",
@@ -2222,7 +2282,7 @@
               {
                 "token_address": "Dp8fc49A73C1ycnTzRet8oEWNRSpUymqcCbYsse5pump",
                 "balance": 0,
-                "token_price": 0.0005674,
+                "token_price": 0.0006797,
                 "token_decimals": 6,
                 "token_symbol": "GROKAN",
                 "token_name": "GROKAN APP",
@@ -2242,10 +2302,10 @@
         "website": "",
         "twitter": "https://x.com/PFFlyWheel",
         "holder": 1531,
-        "market_cap": 302373,
-        "price": 0.0003374,
-        "price_change_24h": 305,
-        "volume_24h": 4502201.9,
+        "market_cap": 267280,
+        "price": 0.0002982,
+        "price_change_24h": 258,
+        "volume_24h": 4534190.27,
         "pool_address": "solana_HdEokLpSnWfMgxYrwRA8AgL4hGPiRiHgrMVWXHzkc9xZ",
         "ath": 0.0005319,
         "ath_timestamp": 1756835230,
@@ -2256,11 +2316,11 @@
           "active": 100
         },
         "txns_24h": {
-          "buys": 20803,
-          "sells": 17229
+          "buys": 20998,
+          "sells": 17407
         },
-        "fdv_usd": 302373,
-        "total_reserve_in_usd": 79210.13,
+        "fdv_usd": 267280,
+        "total_reserve_in_usd": 74535.04,
         "tags": [],
         "first_signal": {
           "timestamp": 1756833296,
@@ -2461,7 +2521,7 @@
               {
                 "token_address": "2Kmju644C6PqKwyZJc51iuM9PPcUZzEnY6XF2Fmkpump",
                 "balance": 0,
-                "token_price": 0.0003374,
+                "token_price": 0.0002982,
                 "token_decimals": 6,
                 "token_symbol": "FLY",
                 "token_name": "PF Flywheel",
@@ -2477,7 +2537,7 @@
               {
                 "token_address": "2Kmju644C6PqKwyZJc51iuM9PPcUZzEnY6XF2Fmkpump",
                 "balance": 0,
-                "token_price": 0.0003374,
+                "token_price": 0.0002982,
                 "token_decimals": 6,
                 "token_symbol": "FLY",
                 "token_name": "PF Flywheel",
@@ -2499,10 +2559,10 @@
         "website": "",
         "twitter": "",
         "holder": 44402,
-        "market_cap": 169339897,
-        "price": 0.1695,
-        "price_change_24h": 31.9,
-        "volume_24h": 4853939,
+        "market_cap": 175725209,
+        "price": 0.1759,
+        "price_change_24h": 34.57,
+        "volume_24h": 5233544.72,
         "pool_address": "solana_4w2cysotX6czaUGmmWg13hDpY4QEMG2CzeKYEQyK9Ama",
         "ath": 0.2870218972948458,
         "ath_timestamp": 1755820800,
@@ -2510,11 +2570,11 @@
         "dexId": "pumpswap",
         "pairAddress": "4w2cysotX6czaUGmmWg13hDpY4QEMG2CzeKYEQyK9Ama",
         "txns_24h": {
-          "buys": 2615,
-          "sells": 2848
+          "buys": 2848,
+          "sells": 3053
         },
-        "fdv_usd": 169339897,
-        "total_reserve_in_usd": 5654269.08,
+        "fdv_usd": 175725209,
+        "total_reserve_in_usd": 5765991.68,
         "tags": [
           "moonshot",
           "binanceAlpha"
@@ -2568,11 +2628,11 @@
               {
                 "token_address": "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2",
                 "balance": 2470047.776835,
-                "token_price": 0.1695,
+                "token_price": 0.1759,
                 "token_decimals": 6,
                 "token_symbol": "TROLL",
                 "token_name": "TROLL",
-                "value": 418673.0981735326
+                "value": 434481.4039452765
               }
             ]
           }
@@ -2588,10 +2648,10 @@
         "website": "https://www.tiktok.com/search?q=67",
         "twitter": "https://x.com/67coinn",
         "holder": 3921,
-        "market_cap": 4843511,
-        "price": 0.004843,
-        "price_change_24h": -7.41,
-        "volume_24h": 830926.16,
+        "market_cap": 4950573,
+        "price": 0.00495,
+        "price_change_24h": -8.62,
+        "volume_24h": 835668.23,
         "pool_address": "solana_E9oGC72mZWYqmzR5ggB9DAoGyRssR3uhFWHG1L75RZve",
         "ath": 0.008853388864348076,
         "ath_timestamp": 1756598400,
@@ -2599,11 +2659,11 @@
         "dexId": "raydium",
         "pairAddress": "E9oGC72mZWYqmzR5ggB9DAoGyRssR3uhFWHG1L75RZve",
         "txns_24h": {
-          "buys": 6727,
-          "sells": 6144
+          "buys": 6944,
+          "sells": 6312
         },
-        "fdv_usd": 4843511,
-        "total_reserve_in_usd": 403268.3,
+        "fdv_usd": 4950573,
+        "total_reserve_in_usd": 408233.31,
         "tags": [
           "moonshot"
         ],
@@ -2646,11 +2706,11 @@
               {
                 "token_address": "76rTxzztXjJe7AUaBi7jQ5J61MFgpQgB4Cc934sWbonk",
                 "balance": 4344561.284969,
-                "token_price": 0.004843,
+                "token_price": 0.00495,
                 "token_decimals": 6,
                 "token_symbol": "67",
                 "token_name": "67COIN",
-                "value": 21040.71030310487
+                "value": 21505.57836059655
               }
             ]
           },
@@ -2662,11 +2722,11 @@
               {
                 "token_address": "76rTxzztXjJe7AUaBi7jQ5J61MFgpQgB4Cc934sWbonk",
                 "balance": 503596.689509,
-                "token_price": 0.004843,
+                "token_price": 0.00495,
                 "token_decimals": 6,
                 "token_symbol": "67",
                 "token_name": "67COIN",
-                "value": 2438.918767292087
+                "value": 2492.80361306955
               }
             ]
           }
@@ -2682,10 +2742,10 @@
         "website": "",
         "twitter": "",
         "holder": 4999,
-        "market_cap": 8786300,
-        "price": 0.008787,
-        "price_change_24h": 62.37,
-        "volume_24h": 683765.24,
+        "market_cap": 8306345,
+        "price": 0.008307,
+        "price_change_24h": 51.36,
+        "volume_24h": 700001.15,
         "pool_address": "solana_8ZeYHZg4iKWyrCdpyNgLKZuEkDC6AkQNT4q8q3zNFX4n",
         "ath": 0.013246723586900757,
         "ath_timestamp": 1756306800,
@@ -2693,11 +2753,11 @@
         "dexId": "raydium",
         "pairAddress": "8ZeYHZg4iKWyrCdpyNgLKZuEkDC6AkQNT4q8q3zNFX4n",
         "txns_24h": {
-          "buys": 1168,
-          "sells": 1209
+          "buys": 1166,
+          "sells": 1223
         },
-        "fdv_usd": 8786300,
-        "total_reserve_in_usd": 679217.74,
+        "fdv_usd": 8306345,
+        "total_reserve_in_usd": 661197.22,
         "tags": [
           "moonshot"
         ],
@@ -2760,11 +2820,11 @@
               {
                 "token_address": "3qq54YqAKG3TcrwNHXFSpMCWoL8gmMuPceJ4FG9npump",
                 "balance": 7736597.027507,
-                "token_price": 0.008787,
+                "token_price": 0.008307,
                 "token_decimals": 6,
                 "token_symbol": "CLANKER",
                 "token_name": "CLANKER Robot AI Slur",
-                "value": 67981.47808070401
+                "value": 64267.91150750065
               }
             ]
           }
@@ -2782,10 +2842,10 @@
         "website": "",
         "twitter": "",
         "holder": 6978,
-        "market_cap": 6912427,
-        "price": 0.007093,
-        "price_change_24h": 114,
-        "volume_24h": 6587151.94,
+        "market_cap": 8846493,
+        "price": 0.009078,
+        "price_change_24h": 190,
+        "volume_24h": 6888911.17,
         "pool_address": "solana_URqx24yyYxtXXhTbBQnbtPLhtLWYoaDaRxuQuLpNS3S",
         "ath": 0.018435285685724355,
         "ath_timestamp": 1756425600,
@@ -2793,11 +2853,11 @@
         "dexId": "pumpswap",
         "pairAddress": "URqx24yyYxtXXhTbBQnbtPLhtLWYoaDaRxuQuLpNS3S",
         "txns_24h": {
-          "buys": 11576,
-          "sells": 11258
+          "buys": 11741,
+          "sells": 11577
         },
-        "fdv_usd": 6912427,
-        "total_reserve_in_usd": 487124.36,
+        "fdv_usd": 8846493,
+        "total_reserve_in_usd": 552128.6,
         "tags": [
           "moonshot"
         ],
@@ -3400,11 +3460,11 @@
               {
                 "token_address": "DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK",
                 "balance": 500000,
-                "token_price": 0.007093,
+                "token_price": 0.009078,
                 "token_decimals": 6,
                 "token_symbol": "Cope",
                 "token_name": "Cope",
-                "value": 3546.5
+                "value": 4539
               }
             ]
           },
@@ -3416,11 +3476,11 @@
               {
                 "token_address": "DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK",
                 "balance": 4412718.061643,
-                "token_price": 0.007093,
+                "token_price": 0.009078,
                 "token_decimals": 6,
                 "token_symbol": "Cope",
                 "token_name": "Cope",
-                "value": 31299.4092112338
+                "value": 40058.65456359515
               }
             ]
           },
@@ -3432,11 +3492,11 @@
               {
                 "token_address": "DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK",
                 "balance": 11612693.248953,
-                "token_price": 0.007093,
+                "token_price": 0.009078,
                 "token_decimals": 6,
                 "token_symbol": "Cope",
                 "token_name": "Cope",
-                "value": 82368.83321482364
+                "value": 105420.02931399533
               }
             ]
           }
@@ -3452,10 +3512,10 @@
         "website": "",
         "twitter": "",
         "holder": 71718,
-        "market_cap": 1352049117,
-        "price": 0.003819,
-        "price_change_24h": 16.1,
-        "volume_24h": 16437495.56,
+        "market_cap": 1361551115,
+        "price": 0.003846,
+        "price_change_24h": 15.34,
+        "volume_24h": 16004538.11,
         "pool_address": "solana_2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
         "ath": 0.006877386587816453,
         "ath_timestamp": 1752537600,
@@ -3463,11 +3523,11 @@
         "dexId": "raydium",
         "pairAddress": "Dwgaka8QiSkFQ3bGXhZpmncM63DwhjK5zzQRiqt9WA8K",
         "txns_24h": {
-          "buys": 5862,
-          "sells": 6157
+          "buys": 5794,
+          "sells": 6104
         },
-        "fdv_usd": 3819307493,
-        "total_reserve_in_usd": 2062157.07,
+        "fdv_usd": 3846149011,
+        "total_reserve_in_usd": 2064651.73,
         "tags": [
           "moonshot",
           "binanceAlpha"
@@ -3511,11 +3571,11 @@
               {
                 "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
                 "balance": 8230844.484933,
-                "token_price": 0.003819,
+                "token_price": 0.003846,
                 "token_decimals": 6,
                 "token_symbol": "PUMP",
                 "token_name": "Pump",
-                "value": 31433.595087959126
+                "value": 31655.827889052318
               }
             ]
           }
@@ -3531,10 +3591,10 @@
         "website": "https://x.com/i/communities/1962508633087844812",
         "twitter": "https://x.com/amuricahsol",
         "holder": 1807,
-        "market_cap": 151538,
-        "price": 0.0001515,
-        "price_change_24h": -18.25,
-        "volume_24h": 2113239.24,
+        "market_cap": 178355,
+        "price": 0.0001783,
+        "price_change_24h": 61.34,
+        "volume_24h": 2093426.57,
         "pool_address": "solana_5d3oWwUZNBZsfMhZ2G1BJr3EBCDccBwWWb6rBUaGBzhi",
         "ath": 0.023461583162198072,
         "ath_timestamp": 1755216000,
@@ -3542,11 +3602,11 @@
         "dexId": "pumpswap",
         "pairAddress": "5d3oWwUZNBZsfMhZ2G1BJr3EBCDccBwWWb6rBUaGBzhi",
         "txns_24h": {
-          "buys": 12079,
-          "sells": 9714
+          "buys": 11774,
+          "sells": 9564
         },
-        "fdv_usd": 151538,
-        "total_reserve_in_usd": 57645.39,
+        "fdv_usd": 178355,
+        "total_reserve_in_usd": 62606.06,
         "tags": [],
         "first_signal": {
           "timestamp": 1756741630,
@@ -3587,7 +3647,7 @@
               {
                 "token_address": "4CmYCPDzU22ck8hT6AiPVk2iTHg9SeYtPCXZNuonpump",
                 "balance": 0,
-                "token_price": 0.0001515,
+                "token_price": 0.0001783,
                 "token_decimals": 6,
                 "token_symbol": "amuricah",
                 "token_name": "amuricah",
@@ -3603,11 +3663,11 @@
               {
                 "token_address": "4CmYCPDzU22ck8hT6AiPVk2iTHg9SeYtPCXZNuonpump",
                 "balance": 21434350.642736,
-                "token_price": 0.0001515,
+                "token_price": 0.0001783,
                 "token_decimals": 6,
                 "token_symbol": "amuricah",
                 "token_name": "amuricah",
-                "value": 3247.304122374504
+                "value": 3821.7447195998284
               }
             ]
           }
