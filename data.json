@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-09-02T17:45:02.620Z",
+  "timestamp": "2025-09-02T17:51:51.496Z",
   "data": [
     {
       "address": "3e7tNMWitmxDcZB2ze1hfrFrooX6rtkudYpmEo3rpump",
@@ -12,10 +12,10 @@
       "website": "",
       "twitter": "https://x.com/i/communities/1962621080880676930",
       "holder": 317,
-      "market_cap": 138432,
+      "market_cap": 138468,
       "price": 0.0001384,
-      "price_change_24h": 61.18,
-      "volume_24h": 2137529.08,
+      "price_change_24h": 61.23,
+      "volume_24h": 2144183.64,
       "pool_address": "solana_ES8twW4FbBkJVSCYYB8dVEW6JFQ7SweFTKeXKmobLcYJ",
       "ath": 0.0001545,
       "ath_timestamp": 1756834035,
@@ -23,11 +23,11 @@
       "dexId": "pumpswap",
       "pairAddress": "ES8twW4FbBkJVSCYYB8dVEW6JFQ7SweFTKeXKmobLcYJ",
       "txns_24h": {
-        "buys": 8857,
-        "sells": 6483
+        "buys": 8897,
+        "sells": 6505
       },
-      "fdv_usd": 138432,
-      "total_reserve_in_usd": 48634.69,
+      "fdv_usd": 138468,
+      "total_reserve_in_usd": 48624.2,
       "tags": [],
       "first_signal": {
         "timestamp": 1756834028,
@@ -134,22 +134,22 @@
       "website": "",
       "twitter": "https://x.com/PFFlyWheel",
       "holder": 944,
-      "market_cap": 576700,
-      "price": 0.0005828,
-      "price_change_24h": 599,
-      "volume_24h": 2903496.78,
+      "market_cap": 526311,
+      "price": 0.0005319,
+      "price_change_24h": 538,
+      "volume_24h": 3015257.61,
       "pool_address": "solana_HdEokLpSnWfMgxYrwRA8AgL4hGPiRiHgrMVWXHzkc9xZ",
-      "ath": 0.0002489,
-      "ath_timestamp": 1756833309,
+      "ath": 0.0005319,
+      "ath_timestamp": 1756835230,
       "ath_pool": "HdEokLpSnWfMgxYrwRA8AgL4hGPiRiHgrMVWXHzkc9xZ",
       "dexId": "pumpswap",
       "pairAddress": "HdEokLpSnWfMgxYrwRA8AgL4hGPiRiHgrMVWXHzkc9xZ",
       "txns_24h": {
-        "buys": 10216,
-        "sells": 9333
+        "buys": 10692,
+        "sells": 9662
       },
-      "fdv_usd": 576700,
-      "total_reserve_in_usd": 98223.44,
+      "fdv_usd": 526311,
+      "total_reserve_in_usd": 94028.62,
       "tags": [],
       "first_signal": {
         "timestamp": 1756833296,
@@ -157,8 +157,18 @@
       },
       "metrics": {
         "uniqueWallets": 2,
-        "inflow24h": 2648.2572322244387,
+        "inflow24h": -2482.179819868161,
         "trades": [
+          {
+            "timestamp": "2025-09-02T17:51:35.000Z",
+            "type": "SELL",
+            "amount": 14039717.274182,
+            "usdValue": 5130.437052092602,
+            "wallet": {
+              "address": "8zFZHuSRuDpuAR7J6FzwyF3vKNx4CVW3DFHJerQhc7Zd",
+              "name": "Pow"
+            }
+          },
           {
             "timestamp": "2025-09-02T17:27:44.000Z",
             "type": "SELL",
@@ -333,14 +343,14 @@
       },
       "walletPortfolios": [
         {
-          "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-          "name": "cooker",
-          "score": 2,
+          "address": "8zFZHuSRuDpuAR7J6FzwyF3vKNx4CVW3DFHJerQhc7Zd",
+          "name": "Pow",
+          "score": 3,
           "tokens": [
             {
               "token_address": "2Kmju644C6PqKwyZJc51iuM9PPcUZzEnY6XF2Fmkpump",
               "balance": 0,
-              "token_price": 0.0005828,
+              "token_price": 0.0005319,
               "token_decimals": 6,
               "token_symbol": "FLY",
               "token_name": "PF Flywheel",
@@ -349,18 +359,18 @@
           ]
         },
         {
-          "address": "8zFZHuSRuDpuAR7J6FzwyF3vKNx4CVW3DFHJerQhc7Zd",
-          "name": "Pow",
-          "score": 3,
+          "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+          "name": "cooker",
+          "score": 2,
           "tokens": [
             {
               "token_address": "2Kmju644C6PqKwyZJc51iuM9PPcUZzEnY6XF2Fmkpump",
-              "balance": 14039717.274182,
-              "token_price": 0.0005828,
+              "balance": 0,
+              "token_price": 0.0005319,
               "token_decimals": 6,
               "token_symbol": "FLY",
               "token_name": "PF Flywheel",
-              "value": 8182.347227393268
+              "value": 0
             }
           ]
         }
@@ -379,10 +389,10 @@
         "website": "",
         "twitter": "https://x.com/i/communities/1962621080880676930",
         "holder": 317,
-        "market_cap": 138432,
+        "market_cap": 138468,
         "price": 0.0001384,
-        "price_change_24h": 61.18,
-        "volume_24h": 2137529.08,
+        "price_change_24h": 61.23,
+        "volume_24h": 2144183.64,
         "pool_address": "solana_ES8twW4FbBkJVSCYYB8dVEW6JFQ7SweFTKeXKmobLcYJ",
         "ath": 0.0001545,
         "ath_timestamp": 1756834035,
@@ -390,11 +400,11 @@
         "dexId": "pumpswap",
         "pairAddress": "ES8twW4FbBkJVSCYYB8dVEW6JFQ7SweFTKeXKmobLcYJ",
         "txns_24h": {
-          "buys": 8857,
-          "sells": 6483
+          "buys": 8897,
+          "sells": 6505
         },
-        "fdv_usd": 138432,
-        "total_reserve_in_usd": 48634.69,
+        "fdv_usd": 138468,
+        "total_reserve_in_usd": 48624.2,
         "tags": [],
         "first_signal": {
           "timestamp": 1756834028,
@@ -501,22 +511,22 @@
         "website": "",
         "twitter": "https://x.com/PFFlyWheel",
         "holder": 944,
-        "market_cap": 576700,
-        "price": 0.0005828,
-        "price_change_24h": 599,
-        "volume_24h": 2903496.78,
+        "market_cap": 526311,
+        "price": 0.0005319,
+        "price_change_24h": 538,
+        "volume_24h": 3015257.61,
         "pool_address": "solana_HdEokLpSnWfMgxYrwRA8AgL4hGPiRiHgrMVWXHzkc9xZ",
-        "ath": 0.0002489,
-        "ath_timestamp": 1756833309,
+        "ath": 0.0005319,
+        "ath_timestamp": 1756835230,
         "ath_pool": "HdEokLpSnWfMgxYrwRA8AgL4hGPiRiHgrMVWXHzkc9xZ",
         "dexId": "pumpswap",
         "pairAddress": "HdEokLpSnWfMgxYrwRA8AgL4hGPiRiHgrMVWXHzkc9xZ",
         "txns_24h": {
-          "buys": 10216,
-          "sells": 9333
+          "buys": 10692,
+          "sells": 9662
         },
-        "fdv_usd": 576700,
-        "total_reserve_in_usd": 98223.44,
+        "fdv_usd": 526311,
+        "total_reserve_in_usd": 94028.62,
         "tags": [],
         "first_signal": {
           "timestamp": 1756833296,
@@ -524,8 +534,18 @@
         },
         "metrics": {
           "uniqueWallets": 2,
-          "inflow24h": 2648.2572322244387,
+          "inflow24h": -2482.179819868161,
           "trades": [
+            {
+              "timestamp": "2025-09-02T17:51:35.000Z",
+              "type": "SELL",
+              "amount": 14039717.274182,
+              "usdValue": 5130.437052092602,
+              "wallet": {
+                "address": "8zFZHuSRuDpuAR7J6FzwyF3vKNx4CVW3DFHJerQhc7Zd",
+                "name": "Pow"
+              }
+            },
             {
               "timestamp": "2025-09-02T17:27:44.000Z",
               "type": "SELL",
@@ -700,14 +720,14 @@
         },
         "walletPortfolios": [
           {
-            "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-            "name": "cooker",
-            "score": 2,
+            "address": "8zFZHuSRuDpuAR7J6FzwyF3vKNx4CVW3DFHJerQhc7Zd",
+            "name": "Pow",
+            "score": 3,
             "tokens": [
               {
                 "token_address": "2Kmju644C6PqKwyZJc51iuM9PPcUZzEnY6XF2Fmkpump",
                 "balance": 0,
-                "token_price": 0.0005828,
+                "token_price": 0.0005319,
                 "token_decimals": 6,
                 "token_symbol": "FLY",
                 "token_name": "PF Flywheel",
@@ -716,18 +736,18 @@
             ]
           },
           {
-            "address": "8zFZHuSRuDpuAR7J6FzwyF3vKNx4CVW3DFHJerQhc7Zd",
-            "name": "Pow",
-            "score": 3,
+            "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+            "name": "cooker",
+            "score": 2,
             "tokens": [
               {
                 "token_address": "2Kmju644C6PqKwyZJc51iuM9PPcUZzEnY6XF2Fmkpump",
-                "balance": 14039717.274182,
-                "token_price": 0.0005828,
+                "balance": 0,
+                "token_price": 0.0005319,
                 "token_decimals": 6,
                 "token_symbol": "FLY",
                 "token_name": "PF Flywheel",
-                "value": 8182.347227393268
+                "value": 0
               }
             ]
           }
