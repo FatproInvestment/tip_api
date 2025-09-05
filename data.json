@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-09-05T03:51:59.214Z",
+  "timestamp": "2025-09-05T03:58:30.611Z",
   "data": [
     {
       "address": "2ahJERK1c6Fb975w8biEy35pJ717PKfC5QvdFQhRpump",
@@ -12,10 +12,10 @@
       "website": "https://app.skinmachine.fun/",
       "twitter": "https://x.com/SkinMachineSol",
       "holder": 2312,
-      "market_cap": 923074,
-      "price": 0.000923,
-      "price_change_24h": 1011,
-      "volume_24h": 6437145.47,
+      "market_cap": 347089,
+      "price": 0.000347,
+      "price_change_24h": 318,
+      "volume_24h": 6782437.77,
       "pool_address": "solana_Ae1gzz5ySWaAkHESFcTfBApVLLpbfYXhKTzM64d3duPL",
       "ath": 0.0023949472940465216,
       "ath_timestamp": 1757037600,
@@ -23,20 +23,40 @@
       "dexId": "pumpswap",
       "pairAddress": "Ae1gzz5ySWaAkHESFcTfBApVLLpbfYXhKTzM64d3duPL",
       "txns_24h": {
-        "buys": 23916,
-        "sells": 18749
+        "buys": 25053,
+        "sells": 19472
       },
-      "fdv_usd": 923074,
-      "total_reserve_in_usd": 128521.46,
+      "fdv_usd": 347089,
+      "total_reserve_in_usd": 79431.03,
       "tags": [],
       "first_signal": {
         "timestamp": 1757034369,
         "price": 0.0003594
       },
       "metrics": {
-        "uniqueWallets": 4,
-        "inflow24h": 7422.781915988385,
+        "uniqueWallets": 5,
+        "inflow24h": 2369.201234328725,
         "trades": [
+          {
+            "timestamp": "2025-09-05T03:57:59.000Z",
+            "type": "BUY",
+            "amount": 15529861.828625,
+            "usdValue": 5983.444966611282,
+            "wallet": {
+              "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
+              "name": "eca.eth"
+            }
+          },
+          {
+            "timestamp": "2025-09-05T03:53:59.000Z",
+            "type": "SELL",
+            "amount": 24351424.775005,
+            "usdValue": 11037.025648270943,
+            "wallet": {
+              "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
+              "name": "GriffWhale"
+            }
+          },
           {
             "timestamp": "2025-09-05T02:43:32.000Z",
             "type": "SELL",
@@ -201,6 +221,38 @@
       },
       "walletPortfolios": [
         {
+          "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
+          "name": "eca.eth",
+          "score": 1,
+          "tokens": [
+            {
+              "token_address": "2ahJERK1c6Fb975w8biEy35pJ717PKfC5QvdFQhRpump",
+              "balance": 15529861.828625,
+              "token_price": 0.000347,
+              "token_decimals": 6,
+              "token_symbol": "SM",
+              "token_name": "Skin Machine",
+              "value": 5388.862054532874
+            }
+          ]
+        },
+        {
+          "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
+          "name": "GriffWhale",
+          "score": 1,
+          "tokens": [
+            {
+              "token_address": "2ahJERK1c6Fb975w8biEy35pJ717PKfC5QvdFQhRpump",
+              "balance": 0,
+              "token_price": 0.000347,
+              "token_decimals": 6,
+              "token_symbol": "SM",
+              "token_name": "Skin Machine",
+              "value": 0
+            }
+          ]
+        },
+        {
           "address": "8KPzQg5DEJAGknj1AC8F7W4cmdXBzkHym6DydFwh4ynK",
           "name": "神中神",
           "score": 1,
@@ -208,11 +260,11 @@
             {
               "token_address": "2ahJERK1c6Fb975w8biEy35pJ717PKfC5QvdFQhRpump",
               "balance": 126107.016907,
-              "token_price": 0.000923,
+              "token_price": 0.000347,
               "token_decimals": 6,
               "token_symbol": "SM",
               "token_name": "Skin Machine",
-              "value": 116.396776605161
+              "value": 43.759134866729
             }
           ]
         },
@@ -224,11 +276,11 @@
             {
               "token_address": "2ahJERK1c6Fb975w8biEy35pJ717PKfC5QvdFQhRpump",
               "balance": 16341269.179851,
-              "token_price": 0.000923,
+              "token_price": 0.000347,
               "token_decimals": 6,
               "token_symbol": "SM",
               "token_name": "Skin Machine",
-              "value": 15082.991453002473
+              "value": 5670.420405408297
             }
           ]
         },
@@ -240,27 +292,11 @@
             {
               "token_address": "2ahJERK1c6Fb975w8biEy35pJ717PKfC5QvdFQhRpump",
               "balance": 0,
-              "token_price": 0.000923,
+              "token_price": 0.000347,
               "token_decimals": 6,
               "token_symbol": "SM",
               "token_name": "Skin Machine",
               "value": 0
-            }
-          ]
-        },
-        {
-          "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
-          "name": "GriffWhale",
-          "score": 1,
-          "tokens": [
-            {
-              "token_address": "2ahJERK1c6Fb975w8biEy35pJ717PKfC5QvdFQhRpump",
-              "balance": 24351424.775005,
-              "token_price": 0.000923,
-              "token_decimals": 6,
-              "token_symbol": "SM",
-              "token_name": "Skin Machine",
-              "value": 22476.365067329618
             }
           ]
         }
@@ -276,10 +312,10 @@
       "website": "",
       "twitter": "",
       "holder": 6579,
-      "market_cap": 3880237,
-      "price": 0.003981,
-      "price_change_24h": -13.92,
-      "volume_24h": 1774838.3,
+      "market_cap": 3824662,
+      "price": 0.003924,
+      "price_change_24h": -14.91,
+      "volume_24h": 1774465.05,
       "pool_address": "solana_URqx24yyYxtXXhTbBQnbtPLhtLWYoaDaRxuQuLpNS3S",
       "ath": 0.018435285685724355,
       "ath_timestamp": 1756425600,
@@ -287,11 +323,11 @@
       "dexId": "pumpswap",
       "pairAddress": "URqx24yyYxtXXhTbBQnbtPLhtLWYoaDaRxuQuLpNS3S",
       "txns_24h": {
-        "buys": 3671,
-        "sells": 3192
+        "buys": 3668,
+        "sells": 3185
       },
-      "fdv_usd": 3880237,
-      "total_reserve_in_usd": 371003.17,
+      "fdv_usd": 3824662,
+      "total_reserve_in_usd": 368450.01,
       "tags": [
         "moonshot"
       ],
@@ -454,11 +490,11 @@
             {
               "token_address": "DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK",
               "balance": 842883.159684,
-              "token_price": 0.003981,
+              "token_price": 0.003924,
               "token_decimals": 6,
               "token_symbol": "Cope",
               "token_name": "Cope",
-              "value": 3355.517858702004
+              "value": 3307.473518600016
             }
           ]
         },
@@ -470,7 +506,7 @@
             {
               "token_address": "DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK",
               "balance": 0,
-              "token_price": 0.003981,
+              "token_price": 0.003924,
               "token_decimals": 6,
               "token_symbol": "Cope",
               "token_name": "Cope",
@@ -486,7 +522,7 @@
             {
               "token_address": "DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK",
               "balance": 0,
-              "token_price": 0.003981,
+              "token_price": 0.003924,
               "token_decimals": 6,
               "token_symbol": "Cope",
               "token_name": "Cope",
@@ -502,11 +538,11 @@
             {
               "token_address": "DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK",
               "balance": 10520187.262305,
-              "token_price": 0.003981,
+              "token_price": 0.003924,
               "token_decimals": 6,
               "token_symbol": "Cope",
               "token_name": "Cope",
-              "value": 41880.86549123621
+              "value": 41281.214817284825
             }
           ]
         }
@@ -524,8 +560,8 @@
       "holder": 4370,
       "market_cap": 2533090,
       "price": 0.002814,
-      "price_change_24h": -33.35,
-      "volume_24h": 659668.43,
+      "price_change_24h": -31.66,
+      "volume_24h": 657624.82,
       "pool_address": "solana_Fn1pbVqR1jXhSTaR5t4ZX6eJkqYNQEtCeAu1df6bbLLg",
       "ath": 0.014461570492914473,
       "ath_timestamp": 1747584000,
@@ -533,8 +569,8 @@
       "dexId": "meteora",
       "pairAddress": "Fn1pbVqR1jXhSTaR5t4ZX6eJkqYNQEtCeAu1df6bbLLg",
       "txns_24h": {
-        "buys": 875,
-        "sells": 575
+        "buys": 874,
+        "sells": 571
       },
       "fdv_usd": 2598682,
       "total_reserve_in_usd": 363571.74,
@@ -656,10 +692,10 @@
       "website": "",
       "twitter": "",
       "holder": 6460,
-      "market_cap": 516383,
-      "price": 0.0005212,
-      "price_change_24h": 14.67,
-      "volume_24h": 126499.43,
+      "market_cap": 517838,
+      "price": 0.0005226,
+      "price_change_24h": 14.99,
+      "volume_24h": 126544.26,
       "pool_address": "solana_C1gyx8um8GNk3HNZdvc9Sao6QwTdX23zh44LfTtPJaeJ",
       "ath": 0.03901823900440214,
       "ath_timestamp": 1747328400,
@@ -667,11 +703,11 @@
       "dexId": "meteora",
       "pairAddress": "C1gyx8um8GNk3HNZdvc9Sao6QwTdX23zh44LfTtPJaeJ",
       "txns_24h": {
-        "buys": 220,
+        "buys": 221,
         "sells": 245
       },
-      "fdv_usd": 516383,
-      "total_reserve_in_usd": 186083.63,
+      "fdv_usd": 517838,
+      "total_reserve_in_usd": 186561.61,
       "tags": [
         "moonshot"
       ],
@@ -714,11 +750,11 @@
             {
               "token_address": "ENfpbQUM5xAnNP8ecyEQGFJ6KwbuPjMwv7ZjR29cDuAb",
               "balance": 7813196.660249763,
-              "token_price": 0.0005212,
+              "token_price": 0.0005226,
               "token_decimals": 9,
               "token_symbol": "GOONC",
               "token_name": "gooncoin",
-              "value": 4072.2380993221764
+              "value": 4083.176574646526
             }
           ]
         }
@@ -737,10 +773,10 @@
         "website": "https://app.skinmachine.fun/",
         "twitter": "https://x.com/SkinMachineSol",
         "holder": 2312,
-        "market_cap": 923074,
-        "price": 0.000923,
-        "price_change_24h": 1011,
-        "volume_24h": 6437145.47,
+        "market_cap": 347089,
+        "price": 0.000347,
+        "price_change_24h": 318,
+        "volume_24h": 6782437.77,
         "pool_address": "solana_Ae1gzz5ySWaAkHESFcTfBApVLLpbfYXhKTzM64d3duPL",
         "ath": 0.0023949472940465216,
         "ath_timestamp": 1757037600,
@@ -748,20 +784,40 @@
         "dexId": "pumpswap",
         "pairAddress": "Ae1gzz5ySWaAkHESFcTfBApVLLpbfYXhKTzM64d3duPL",
         "txns_24h": {
-          "buys": 23916,
-          "sells": 18749
+          "buys": 25053,
+          "sells": 19472
         },
-        "fdv_usd": 923074,
-        "total_reserve_in_usd": 128521.46,
+        "fdv_usd": 347089,
+        "total_reserve_in_usd": 79431.03,
         "tags": [],
         "first_signal": {
           "timestamp": 1757034369,
           "price": 0.0003594
         },
         "metrics": {
-          "uniqueWallets": 4,
-          "inflow24h": 7422.781915988385,
+          "uniqueWallets": 5,
+          "inflow24h": 2369.201234328725,
           "trades": [
+            {
+              "timestamp": "2025-09-05T03:57:59.000Z",
+              "type": "BUY",
+              "amount": 15529861.828625,
+              "usdValue": 5983.444966611282,
+              "wallet": {
+                "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
+                "name": "eca.eth"
+              }
+            },
+            {
+              "timestamp": "2025-09-05T03:53:59.000Z",
+              "type": "SELL",
+              "amount": 24351424.775005,
+              "usdValue": 11037.025648270943,
+              "wallet": {
+                "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
+                "name": "GriffWhale"
+              }
+            },
             {
               "timestamp": "2025-09-05T02:43:32.000Z",
               "type": "SELL",
@@ -926,6 +982,38 @@
         },
         "walletPortfolios": [
           {
+            "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
+            "name": "eca.eth",
+            "score": 1,
+            "tokens": [
+              {
+                "token_address": "2ahJERK1c6Fb975w8biEy35pJ717PKfC5QvdFQhRpump",
+                "balance": 15529861.828625,
+                "token_price": 0.000347,
+                "token_decimals": 6,
+                "token_symbol": "SM",
+                "token_name": "Skin Machine",
+                "value": 5388.862054532874
+              }
+            ]
+          },
+          {
+            "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
+            "name": "GriffWhale",
+            "score": 1,
+            "tokens": [
+              {
+                "token_address": "2ahJERK1c6Fb975w8biEy35pJ717PKfC5QvdFQhRpump",
+                "balance": 0,
+                "token_price": 0.000347,
+                "token_decimals": 6,
+                "token_symbol": "SM",
+                "token_name": "Skin Machine",
+                "value": 0
+              }
+            ]
+          },
+          {
             "address": "8KPzQg5DEJAGknj1AC8F7W4cmdXBzkHym6DydFwh4ynK",
             "name": "神中神",
             "score": 1,
@@ -933,11 +1021,11 @@
               {
                 "token_address": "2ahJERK1c6Fb975w8biEy35pJ717PKfC5QvdFQhRpump",
                 "balance": 126107.016907,
-                "token_price": 0.000923,
+                "token_price": 0.000347,
                 "token_decimals": 6,
                 "token_symbol": "SM",
                 "token_name": "Skin Machine",
-                "value": 116.396776605161
+                "value": 43.759134866729
               }
             ]
           },
@@ -949,11 +1037,11 @@
               {
                 "token_address": "2ahJERK1c6Fb975w8biEy35pJ717PKfC5QvdFQhRpump",
                 "balance": 16341269.179851,
-                "token_price": 0.000923,
+                "token_price": 0.000347,
                 "token_decimals": 6,
                 "token_symbol": "SM",
                 "token_name": "Skin Machine",
-                "value": 15082.991453002473
+                "value": 5670.420405408297
               }
             ]
           },
@@ -965,27 +1053,11 @@
               {
                 "token_address": "2ahJERK1c6Fb975w8biEy35pJ717PKfC5QvdFQhRpump",
                 "balance": 0,
-                "token_price": 0.000923,
+                "token_price": 0.000347,
                 "token_decimals": 6,
                 "token_symbol": "SM",
                 "token_name": "Skin Machine",
                 "value": 0
-              }
-            ]
-          },
-          {
-            "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
-            "name": "GriffWhale",
-            "score": 1,
-            "tokens": [
-              {
-                "token_address": "2ahJERK1c6Fb975w8biEy35pJ717PKfC5QvdFQhRpump",
-                "balance": 24351424.775005,
-                "token_price": 0.000923,
-                "token_decimals": 6,
-                "token_symbol": "SM",
-                "token_name": "Skin Machine",
-                "value": 22476.365067329618
               }
             ]
           }
@@ -1003,10 +1075,10 @@
         "website": "",
         "twitter": "",
         "holder": 6579,
-        "market_cap": 3880237,
-        "price": 0.003981,
-        "price_change_24h": -13.92,
-        "volume_24h": 1774838.3,
+        "market_cap": 3824662,
+        "price": 0.003924,
+        "price_change_24h": -14.91,
+        "volume_24h": 1774465.05,
         "pool_address": "solana_URqx24yyYxtXXhTbBQnbtPLhtLWYoaDaRxuQuLpNS3S",
         "ath": 0.018435285685724355,
         "ath_timestamp": 1756425600,
@@ -1014,11 +1086,11 @@
         "dexId": "pumpswap",
         "pairAddress": "URqx24yyYxtXXhTbBQnbtPLhtLWYoaDaRxuQuLpNS3S",
         "txns_24h": {
-          "buys": 3671,
-          "sells": 3192
+          "buys": 3668,
+          "sells": 3185
         },
-        "fdv_usd": 3880237,
-        "total_reserve_in_usd": 371003.17,
+        "fdv_usd": 3824662,
+        "total_reserve_in_usd": 368450.01,
         "tags": [
           "moonshot"
         ],
@@ -1181,11 +1253,11 @@
               {
                 "token_address": "DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK",
                 "balance": 842883.159684,
-                "token_price": 0.003981,
+                "token_price": 0.003924,
                 "token_decimals": 6,
                 "token_symbol": "Cope",
                 "token_name": "Cope",
-                "value": 3355.517858702004
+                "value": 3307.473518600016
               }
             ]
           },
@@ -1197,7 +1269,7 @@
               {
                 "token_address": "DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK",
                 "balance": 0,
-                "token_price": 0.003981,
+                "token_price": 0.003924,
                 "token_decimals": 6,
                 "token_symbol": "Cope",
                 "token_name": "Cope",
@@ -1213,7 +1285,7 @@
               {
                 "token_address": "DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK",
                 "balance": 0,
-                "token_price": 0.003981,
+                "token_price": 0.003924,
                 "token_decimals": 6,
                 "token_symbol": "Cope",
                 "token_name": "Cope",
@@ -1229,11 +1301,11 @@
               {
                 "token_address": "DMwbVy48dWVKGe9z1pcVnwF3HLMLrqWdDLfbvx8RchhK",
                 "balance": 10520187.262305,
-                "token_price": 0.003981,
+                "token_price": 0.003924,
                 "token_decimals": 6,
                 "token_symbol": "Cope",
                 "token_name": "Cope",
-                "value": 41880.86549123621
+                "value": 41281.214817284825
               }
             ]
           }
@@ -1251,8 +1323,8 @@
         "holder": 4370,
         "market_cap": 2533090,
         "price": 0.002814,
-        "price_change_24h": -33.35,
-        "volume_24h": 659668.43,
+        "price_change_24h": -31.66,
+        "volume_24h": 657624.82,
         "pool_address": "solana_Fn1pbVqR1jXhSTaR5t4ZX6eJkqYNQEtCeAu1df6bbLLg",
         "ath": 0.014461570492914473,
         "ath_timestamp": 1747584000,
@@ -1260,8 +1332,8 @@
         "dexId": "meteora",
         "pairAddress": "Fn1pbVqR1jXhSTaR5t4ZX6eJkqYNQEtCeAu1df6bbLLg",
         "txns_24h": {
-          "buys": 875,
-          "sells": 575
+          "buys": 874,
+          "sells": 571
         },
         "fdv_usd": 2598682,
         "total_reserve_in_usd": 363571.74,
@@ -1383,10 +1455,10 @@
         "website": "",
         "twitter": "",
         "holder": 6460,
-        "market_cap": 516383,
-        "price": 0.0005212,
-        "price_change_24h": 14.67,
-        "volume_24h": 126499.43,
+        "market_cap": 517838,
+        "price": 0.0005226,
+        "price_change_24h": 14.99,
+        "volume_24h": 126544.26,
         "pool_address": "solana_C1gyx8um8GNk3HNZdvc9Sao6QwTdX23zh44LfTtPJaeJ",
         "ath": 0.03901823900440214,
         "ath_timestamp": 1747328400,
@@ -1394,11 +1466,11 @@
         "dexId": "meteora",
         "pairAddress": "C1gyx8um8GNk3HNZdvc9Sao6QwTdX23zh44LfTtPJaeJ",
         "txns_24h": {
-          "buys": 220,
+          "buys": 221,
           "sells": 245
         },
-        "fdv_usd": 516383,
-        "total_reserve_in_usd": 186083.63,
+        "fdv_usd": 517838,
+        "total_reserve_in_usd": 186561.61,
         "tags": [
           "moonshot"
         ],
@@ -1441,11 +1513,11 @@
               {
                 "token_address": "ENfpbQUM5xAnNP8ecyEQGFJ6KwbuPjMwv7ZjR29cDuAb",
                 "balance": 7813196.660249763,
-                "token_price": 0.0005212,
+                "token_price": 0.0005226,
                 "token_decimals": 9,
                 "token_symbol": "GOONC",
                 "token_name": "gooncoin",
-                "value": 4072.2380993221764
+                "value": 4083.176574646526
               }
             ]
           }
