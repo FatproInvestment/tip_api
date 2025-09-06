@@ -1,7 +1,129 @@
 {
   "success": true,
-  "timestamp": "2025-09-06T11:57:32.367Z",
+  "timestamp": "2025-09-06T12:27:55.270Z",
   "data": [
+    {
+      "address": "5XgpGK83mxVdcGuZxv7My99ZmuSzdJo4noLaaD4bpump",
+      "symbol": "BETLY",
+      "name": "Betly",
+      "decimals": 6,
+      "icon": "https://ipfs.io/ipfs/bafkreiefg34w5rbnywlfkhjxbnxhk4wjyl2e2taqr26baf2xtvm66fq3ku",
+      "created_time": 1757073119,
+      "website": "betly.trade",
+      "twitter": "x.com/betlytrade",
+      "holder": 2023,
+      "market_cap": 906681,
+      "price": 0.0009066,
+      "price_change_24h": 34.72,
+      "volume_24h": 3551192.5,
+      "pool_address": "solana_7dfkXG3tHT8deSeyYht3nKAGceveRmrTnzHgmcwG8Mbd",
+      "ath": 0.0009066,
+      "ath_timestamp": 1757161369,
+      "ath_pool": "7dfkXG3tHT8deSeyYht3nKAGceveRmrTnzHgmcwG8Mbd",
+      "dexId": "pumpswap",
+      "pairAddress": "7dfkXG3tHT8deSeyYht3nKAGceveRmrTnzHgmcwG8Mbd",
+      "txns_24h": {
+        "buys": 12519,
+        "sells": 12048
+      },
+      "fdv_usd": 906681,
+      "total_reserve_in_usd": 123800.39,
+      "tags": [],
+      "first_signal": {
+        "timestamp": 1757161361,
+        "price": 0.0009066
+      },
+      "metrics": {
+        "uniqueWallets": 2,
+        "inflow24h": -1275.0490611274347,
+        "trades": [
+          {
+            "timestamp": "2025-09-06T12:22:31.000Z",
+            "type": "BUY",
+            "amount": 2420402.166203,
+            "usdValue": 2365.571828690365,
+            "wallet": {
+              "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+              "name": "Ansem"
+            }
+          },
+          {
+            "timestamp": "2025-09-06T12:22:31.000Z",
+            "type": "BUY",
+            "amount": 2517978.198762,
+            "usdValue": 2442.37953181255,
+            "wallet": {
+              "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+              "name": "Ansem"
+            }
+          },
+          {
+            "timestamp": "2025-09-06T02:46:52.000Z",
+            "type": "SELL",
+            "amount": 2777146.641329,
+            "usdValue": 3697.794143554602,
+            "wallet": {
+              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+              "name": "DNF 哥"
+            }
+          },
+          {
+            "timestamp": "2025-09-05T17:58:32.000Z",
+            "type": "SELL",
+            "amount": 914286.960109,
+            "usdValue": 1224.2776535885573,
+            "wallet": {
+              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+              "name": "DNF 哥"
+            }
+          },
+          {
+            "timestamp": "2025-09-05T15:06:18.000Z",
+            "type": "SELL",
+            "amount": 1142858.700136,
+            "usdValue": 1160.9286244871903,
+            "wallet": {
+              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+              "name": "DNF 哥"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+          "name": "Ansem",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "5XgpGK83mxVdcGuZxv7My99ZmuSzdJo4noLaaD4bpump",
+              "balance": 4938380.364965,
+              "token_price": 0.0009066,
+              "token_decimals": 6,
+              "token_symbol": "BETLY",
+              "token_name": "Betly",
+              "value": 4477.135638877269
+            }
+          ]
+        },
+        {
+          "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+          "name": "DNF 哥",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "5XgpGK83mxVdcGuZxv7My99ZmuSzdJo4noLaaD4bpump",
+              "balance": 15737164.300868,
+              "token_price": 0.0009066,
+              "token_decimals": 6,
+              "token_symbol": "BETLY",
+              "token_name": "Betly",
+              "value": 14267.31315516693
+            }
+          ]
+        }
+      ]
+    },
     {
       "address": "H8xQ6poBjB9DTPMDTKWzWPrnxu4bDEhybxiouF8Ppump",
       "symbol": "Tokabu",
@@ -12,10 +134,10 @@
       "website": "https://x.com/TokabuTheSpirit",
       "twitter": "https://x.com/TokabuTheSpirit",
       "holder": 10491,
-      "market_cap": 33133064,
+      "market_cap": 33135992,
       "price": 0.03317,
-      "price_change_24h": -15.71,
-      "volume_24h": 2443146.27,
+      "price_change_24h": -15.75,
+      "volume_24h": 2427614.28,
       "pool_address": "solana_Ekv9HdumWqnXZgq5G6ge6bk1ZRHKXYC2WnSFL94sQmLJ",
       "ath": 0.07799140190742901,
       "ath_timestamp": 1755318240,
@@ -23,11 +145,11 @@
       "dexId": "pumpswap",
       "pairAddress": "Ekv9HdumWqnXZgq5G6ge6bk1ZRHKXYC2WnSFL94sQmLJ",
       "txns_24h": {
-        "buys": 8678,
-        "sells": 8279
+        "buys": 8625,
+        "sells": 8287
       },
-      "fdv_usd": 33133064,
-      "total_reserve_in_usd": 1338655.64,
+      "fdv_usd": 33135992,
+      "total_reserve_in_usd": 1339202.17,
       "tags": [
         "moonshot"
       ],
@@ -90,10 +212,10 @@
       "website": "",
       "twitter": "",
       "holder": 963,
-      "market_cap": 823279,
-      "price": 0.002008,
-      "price_change_24h": 145,
-      "volume_24h": 1572250.09,
+      "market_cap": 764707,
+      "price": 0.001865,
+      "price_change_24h": 232,
+      "volume_24h": 1559243.73,
       "pool_address": "solana_6cpie3vWeBgojsnhKG15NEaJGbTAjYCbqvTL3pv4PdtX",
       "ath": 0.003969,
       "ath_timestamp": 1757104713,
@@ -101,11 +223,11 @@
       "dexId": "pumpswap",
       "pairAddress": "6cpie3vWeBgojsnhKG15NEaJGbTAjYCbqvTL3pv4PdtX",
       "txns_24h": {
-        "buys": 3822,
-        "sells": 3439
+        "buys": 3764,
+        "sells": 3380
       },
-      "fdv_usd": 823279,
-      "total_reserve_in_usd": 177855.76,
+      "fdv_usd": 764707,
+      "total_reserve_in_usd": 171529.25,
       "tags": [],
       "first_signal": {
         "timestamp": 1757104697,
@@ -216,11 +338,11 @@
             {
               "token_address": "DAfKg6exaeMMUQeqwRq3UP5KYPJjFNyVuVzFfr4kpump",
               "balance": 51426.118481,
-              "token_price": 0.002008,
+              "token_price": 0.001865,
               "token_decimals": 6,
               "token_symbol": "PICKLE",
               "token_name": "PickleVault",
-              "value": 103.26364590984798
+              "value": 95.909710967065
             }
           ]
         },
@@ -232,11 +354,11 @@
             {
               "token_address": "DAfKg6exaeMMUQeqwRq3UP5KYPJjFNyVuVzFfr4kpump",
               "balance": 12005328.961851,
-              "token_price": 0.002008,
+              "token_price": 0.001865,
               "token_decimals": 6,
               "token_symbol": "PICKLE",
               "token_name": "PickleVault",
-              "value": 24106.70055539681
+              "value": 22389.938513852114
             }
           ]
         }
@@ -245,6 +367,128 @@
   ],
   "groups": {
     "latestSignals": [
+      {
+        "address": "5XgpGK83mxVdcGuZxv7My99ZmuSzdJo4noLaaD4bpump",
+        "symbol": "BETLY",
+        "name": "Betly",
+        "decimals": 6,
+        "icon": "https://ipfs.io/ipfs/bafkreiefg34w5rbnywlfkhjxbnxhk4wjyl2e2taqr26baf2xtvm66fq3ku",
+        "created_time": 1757073119,
+        "website": "betly.trade",
+        "twitter": "x.com/betlytrade",
+        "holder": 2023,
+        "market_cap": 906681,
+        "price": 0.0009066,
+        "price_change_24h": 34.72,
+        "volume_24h": 3551192.5,
+        "pool_address": "solana_7dfkXG3tHT8deSeyYht3nKAGceveRmrTnzHgmcwG8Mbd",
+        "ath": 0.0009066,
+        "ath_timestamp": 1757161369,
+        "ath_pool": "7dfkXG3tHT8deSeyYht3nKAGceveRmrTnzHgmcwG8Mbd",
+        "dexId": "pumpswap",
+        "pairAddress": "7dfkXG3tHT8deSeyYht3nKAGceveRmrTnzHgmcwG8Mbd",
+        "txns_24h": {
+          "buys": 12519,
+          "sells": 12048
+        },
+        "fdv_usd": 906681,
+        "total_reserve_in_usd": 123800.39,
+        "tags": [],
+        "first_signal": {
+          "timestamp": 1757161361,
+          "price": 0.0009066
+        },
+        "metrics": {
+          "uniqueWallets": 2,
+          "inflow24h": -1275.0490611274347,
+          "trades": [
+            {
+              "timestamp": "2025-09-06T12:22:31.000Z",
+              "type": "BUY",
+              "amount": 2420402.166203,
+              "usdValue": 2365.571828690365,
+              "wallet": {
+                "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+                "name": "Ansem"
+              }
+            },
+            {
+              "timestamp": "2025-09-06T12:22:31.000Z",
+              "type": "BUY",
+              "amount": 2517978.198762,
+              "usdValue": 2442.37953181255,
+              "wallet": {
+                "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+                "name": "Ansem"
+              }
+            },
+            {
+              "timestamp": "2025-09-06T02:46:52.000Z",
+              "type": "SELL",
+              "amount": 2777146.641329,
+              "usdValue": 3697.794143554602,
+              "wallet": {
+                "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+                "name": "DNF 哥"
+              }
+            },
+            {
+              "timestamp": "2025-09-05T17:58:32.000Z",
+              "type": "SELL",
+              "amount": 914286.960109,
+              "usdValue": 1224.2776535885573,
+              "wallet": {
+                "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+                "name": "DNF 哥"
+              }
+            },
+            {
+              "timestamp": "2025-09-05T15:06:18.000Z",
+              "type": "SELL",
+              "amount": 1142858.700136,
+              "usdValue": 1160.9286244871903,
+              "wallet": {
+                "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+                "name": "DNF 哥"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+            "name": "Ansem",
+            "score": 3,
+            "tokens": [
+              {
+                "token_address": "5XgpGK83mxVdcGuZxv7My99ZmuSzdJo4noLaaD4bpump",
+                "balance": 4938380.364965,
+                "token_price": 0.0009066,
+                "token_decimals": 6,
+                "token_symbol": "BETLY",
+                "token_name": "Betly",
+                "value": 4477.135638877269
+              }
+            ]
+          },
+          {
+            "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+            "name": "DNF 哥",
+            "score": 3,
+            "tokens": [
+              {
+                "token_address": "5XgpGK83mxVdcGuZxv7My99ZmuSzdJo4noLaaD4bpump",
+                "balance": 15737164.300868,
+                "token_price": 0.0009066,
+                "token_decimals": 6,
+                "token_symbol": "BETLY",
+                "token_name": "Betly",
+                "value": 14267.31315516693
+              }
+            ]
+          }
+        ]
+      },
       {
         "address": "DAfKg6exaeMMUQeqwRq3UP5KYPJjFNyVuVzFfr4kpump",
         "symbol": "PICKLE",
@@ -255,10 +499,10 @@
         "website": "",
         "twitter": "",
         "holder": 963,
-        "market_cap": 823279,
-        "price": 0.002008,
-        "price_change_24h": 145,
-        "volume_24h": 1572250.09,
+        "market_cap": 764707,
+        "price": 0.001865,
+        "price_change_24h": 232,
+        "volume_24h": 1559243.73,
         "pool_address": "solana_6cpie3vWeBgojsnhKG15NEaJGbTAjYCbqvTL3pv4PdtX",
         "ath": 0.003969,
         "ath_timestamp": 1757104713,
@@ -266,11 +510,11 @@
         "dexId": "pumpswap",
         "pairAddress": "6cpie3vWeBgojsnhKG15NEaJGbTAjYCbqvTL3pv4PdtX",
         "txns_24h": {
-          "buys": 3822,
-          "sells": 3439
+          "buys": 3764,
+          "sells": 3380
         },
-        "fdv_usd": 823279,
-        "total_reserve_in_usd": 177855.76,
+        "fdv_usd": 764707,
+        "total_reserve_in_usd": 171529.25,
         "tags": [],
         "first_signal": {
           "timestamp": 1757104697,
@@ -381,11 +625,11 @@
               {
                 "token_address": "DAfKg6exaeMMUQeqwRq3UP5KYPJjFNyVuVzFfr4kpump",
                 "balance": 51426.118481,
-                "token_price": 0.002008,
+                "token_price": 0.001865,
                 "token_decimals": 6,
                 "token_symbol": "PICKLE",
                 "token_name": "PickleVault",
-                "value": 103.26364590984798
+                "value": 95.909710967065
               }
             ]
           },
@@ -397,11 +641,11 @@
               {
                 "token_address": "DAfKg6exaeMMUQeqwRq3UP5KYPJjFNyVuVzFfr4kpump",
                 "balance": 12005328.961851,
-                "token_price": 0.002008,
+                "token_price": 0.001865,
                 "token_decimals": 6,
                 "token_symbol": "PICKLE",
                 "token_name": "PickleVault",
-                "value": 24106.70055539681
+                "value": 22389.938513852114
               }
             ]
           }
@@ -419,10 +663,10 @@
         "website": "https://x.com/TokabuTheSpirit",
         "twitter": "https://x.com/TokabuTheSpirit",
         "holder": 10491,
-        "market_cap": 33133064,
+        "market_cap": 33135992,
         "price": 0.03317,
-        "price_change_24h": -15.71,
-        "volume_24h": 2443146.27,
+        "price_change_24h": -15.75,
+        "volume_24h": 2427614.28,
         "pool_address": "solana_Ekv9HdumWqnXZgq5G6ge6bk1ZRHKXYC2WnSFL94sQmLJ",
         "ath": 0.07799140190742901,
         "ath_timestamp": 1755318240,
@@ -430,11 +674,11 @@
         "dexId": "pumpswap",
         "pairAddress": "Ekv9HdumWqnXZgq5G6ge6bk1ZRHKXYC2WnSFL94sQmLJ",
         "txns_24h": {
-          "buys": 8678,
-          "sells": 8279
+          "buys": 8625,
+          "sells": 8287
         },
-        "fdv_usd": 33133064,
-        "total_reserve_in_usd": 1338655.64,
+        "fdv_usd": 33135992,
+        "total_reserve_in_usd": 1339202.17,
         "tags": [
           "moonshot"
         ],
