@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-09-08T21:08:12.663Z",
+  "timestamp": "2025-09-08T21:24:37.954Z",
   "data": [
     {
       "address": "KAnwbYnFDuWLdD79pahEYT8kYjPwvosNdERrgVrpump",
@@ -12,10 +12,10 @@
       "website": "https://moonlord.fun/",
       "twitter": "https://x.com/HEYMOONLORD/status/1964891360408002980",
       "holder": 1039,
-      "market_cap": 40001,
-      "price": 4e-05,
-      "price_change_24h": -53.24,
-      "volume_24h": 1902666.1,
+      "market_cap": 40706,
+      "price": 4.07e-05,
+      "price_change_24h": -52.42,
+      "volume_24h": 1903567.68,
       "pool_address": "solana_ApNeK2H8BLdozWaeoyL2VDVrT4stTFCZqUKdDG82eJB3",
       "ath": 0.0001368186072264212,
       "ath_timestamp": 1757329200,
@@ -23,11 +23,11 @@
       "dexId": "pumpswap",
       "pairAddress": "ApNeK2H8BLdozWaeoyL2VDVrT4stTFCZqUKdDG82eJB3",
       "txns_24h": {
-        "buys": 12767,
-        "sells": 8908
+        "buys": 12773,
+        "sells": 8920
       },
-      "fdv_usd": 40001,
-      "total_reserve_in_usd": 26239.7,
+      "fdv_usd": 40706,
+      "total_reserve_in_usd": 26497.41,
       "tags": [],
       "first_signal": {
         "timestamp": 1757328847,
@@ -35,8 +35,18 @@
       },
       "metrics": {
         "uniqueWallets": 3,
-        "inflow24h": 5547.236015907372,
+        "inflow24h": 5494.203531057628,
         "trades": [
+          {
+            "timestamp": "2025-09-08T21:15:42.000Z",
+            "type": "SELL",
+            "amount": 1286735.828795,
+            "usdValue": 53.03248484974355,
+            "wallet": {
+              "address": "4jSmEmBkuBi1JxZHM1khkf57xPR2oW1EnkRxqehq1cSK",
+              "name": "1000xSniper"
+            }
+          },
           {
             "timestamp": "2025-09-08T10:58:24.000Z",
             "type": "SELL",
@@ -91,6 +101,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "4jSmEmBkuBi1JxZHM1khkf57xPR2oW1EnkRxqehq1cSK",
+          "name": "1000xSniper",
+          "score": 1,
+          "tokens": [
+            {
+              "token_address": "KAnwbYnFDuWLdD79pahEYT8kYjPwvosNdERrgVrpump",
+              "balance": 0,
+              "token_price": 4.07e-05,
+              "token_decimals": 6,
+              "token_symbol": "MOONLORD",
+              "token_name": "MOON LORD",
+              "value": 0
+            }
+          ]
+        },
+        {
           "address": "FqkfjoE6Vn22vDutjq3Zkbjrzgh7AKHgE7gqC1amFPwa",
           "name": "Rizz5x",
           "score": 1,
@@ -98,7 +124,7 @@
             {
               "token_address": "KAnwbYnFDuWLdD79pahEYT8kYjPwvosNdERrgVrpump",
               "balance": 0,
-              "token_price": 4e-05,
+              "token_price": 4.07e-05,
               "token_decimals": 6,
               "token_symbol": "MOONLORD",
               "token_name": "MOON LORD",
@@ -114,27 +140,11 @@
             {
               "token_address": "KAnwbYnFDuWLdD79pahEYT8kYjPwvosNdERrgVrpump",
               "balance": 25817244.685698,
-              "token_price": 4e-05,
+              "token_price": 4.07e-05,
               "token_decimals": 6,
               "token_symbol": "MOONLORD",
               "token_name": "MOON LORD",
-              "value": 1032.68978742792
-            }
-          ]
-        },
-        {
-          "address": "4jSmEmBkuBi1JxZHM1khkf57xPR2oW1EnkRxqehq1cSK",
-          "name": "1000xSniper",
-          "score": 1,
-          "tokens": [
-            {
-              "token_address": "KAnwbYnFDuWLdD79pahEYT8kYjPwvosNdERrgVrpump",
-              "balance": 1286735.828795,
-              "token_price": 4e-05,
-              "token_decimals": 6,
-              "token_symbol": "MOONLORD",
-              "token_name": "MOON LORD",
-              "value": 51.469433151800004
+              "value": 1050.7618587079085
             }
           ]
         }
@@ -150,10 +160,10 @@
       "website": "betly.trade",
       "twitter": "x.com/betlytrade",
       "holder": 1827,
-      "market_cap": 1353136,
+      "market_cap": 1353111,
       "price": 0.001353,
-      "price_change_24h": -1.7,
-      "volume_24h": 687518.33,
+      "price_change_24h": -8.49,
+      "volume_24h": 677928.12,
       "pool_address": "solana_7dfkXG3tHT8deSeyYht3nKAGceveRmrTnzHgmcwG8Mbd",
       "ath": 0.0020957959991331036,
       "ath_timestamp": 1757203200,
@@ -161,11 +171,11 @@
       "dexId": "pumpswap",
       "pairAddress": "7dfkXG3tHT8deSeyYht3nKAGceveRmrTnzHgmcwG8Mbd",
       "txns_24h": {
-        "buys": 1553,
-        "sells": 1685
+        "buys": 1546,
+        "sells": 1659
       },
-      "fdv_usd": 1353136,
-      "total_reserve_in_usd": 160030.52,
+      "fdv_usd": 1353111,
+      "total_reserve_in_usd": 160126.71,
       "tags": [],
       "first_signal": {
         "timestamp": 1757161361,
@@ -321,10 +331,10 @@
         "website": "https://moonlord.fun/",
         "twitter": "https://x.com/HEYMOONLORD/status/1964891360408002980",
         "holder": 1039,
-        "market_cap": 40001,
-        "price": 4e-05,
-        "price_change_24h": -53.24,
-        "volume_24h": 1902666.1,
+        "market_cap": 40706,
+        "price": 4.07e-05,
+        "price_change_24h": -52.42,
+        "volume_24h": 1903567.68,
         "pool_address": "solana_ApNeK2H8BLdozWaeoyL2VDVrT4stTFCZqUKdDG82eJB3",
         "ath": 0.0001368186072264212,
         "ath_timestamp": 1757329200,
@@ -332,11 +342,11 @@
         "dexId": "pumpswap",
         "pairAddress": "ApNeK2H8BLdozWaeoyL2VDVrT4stTFCZqUKdDG82eJB3",
         "txns_24h": {
-          "buys": 12767,
-          "sells": 8908
+          "buys": 12773,
+          "sells": 8920
         },
-        "fdv_usd": 40001,
-        "total_reserve_in_usd": 26239.7,
+        "fdv_usd": 40706,
+        "total_reserve_in_usd": 26497.41,
         "tags": [],
         "first_signal": {
           "timestamp": 1757328847,
@@ -344,8 +354,18 @@
         },
         "metrics": {
           "uniqueWallets": 3,
-          "inflow24h": 5547.236015907372,
+          "inflow24h": 5494.203531057628,
           "trades": [
+            {
+              "timestamp": "2025-09-08T21:15:42.000Z",
+              "type": "SELL",
+              "amount": 1286735.828795,
+              "usdValue": 53.03248484974355,
+              "wallet": {
+                "address": "4jSmEmBkuBi1JxZHM1khkf57xPR2oW1EnkRxqehq1cSK",
+                "name": "1000xSniper"
+              }
+            },
             {
               "timestamp": "2025-09-08T10:58:24.000Z",
               "type": "SELL",
@@ -400,6 +420,22 @@
         },
         "walletPortfolios": [
           {
+            "address": "4jSmEmBkuBi1JxZHM1khkf57xPR2oW1EnkRxqehq1cSK",
+            "name": "1000xSniper",
+            "score": 1,
+            "tokens": [
+              {
+                "token_address": "KAnwbYnFDuWLdD79pahEYT8kYjPwvosNdERrgVrpump",
+                "balance": 0,
+                "token_price": 4.07e-05,
+                "token_decimals": 6,
+                "token_symbol": "MOONLORD",
+                "token_name": "MOON LORD",
+                "value": 0
+              }
+            ]
+          },
+          {
             "address": "FqkfjoE6Vn22vDutjq3Zkbjrzgh7AKHgE7gqC1amFPwa",
             "name": "Rizz5x",
             "score": 1,
@@ -407,7 +443,7 @@
               {
                 "token_address": "KAnwbYnFDuWLdD79pahEYT8kYjPwvosNdERrgVrpump",
                 "balance": 0,
-                "token_price": 4e-05,
+                "token_price": 4.07e-05,
                 "token_decimals": 6,
                 "token_symbol": "MOONLORD",
                 "token_name": "MOON LORD",
@@ -423,27 +459,11 @@
               {
                 "token_address": "KAnwbYnFDuWLdD79pahEYT8kYjPwvosNdERrgVrpump",
                 "balance": 25817244.685698,
-                "token_price": 4e-05,
+                "token_price": 4.07e-05,
                 "token_decimals": 6,
                 "token_symbol": "MOONLORD",
                 "token_name": "MOON LORD",
-                "value": 1032.68978742792
-              }
-            ]
-          },
-          {
-            "address": "4jSmEmBkuBi1JxZHM1khkf57xPR2oW1EnkRxqehq1cSK",
-            "name": "1000xSniper",
-            "score": 1,
-            "tokens": [
-              {
-                "token_address": "KAnwbYnFDuWLdD79pahEYT8kYjPwvosNdERrgVrpump",
-                "balance": 1286735.828795,
-                "token_price": 4e-05,
-                "token_decimals": 6,
-                "token_symbol": "MOONLORD",
-                "token_name": "MOON LORD",
-                "value": 51.469433151800004
+                "value": 1050.7618587079085
               }
             ]
           }
@@ -462,10 +482,10 @@
         "website": "betly.trade",
         "twitter": "x.com/betlytrade",
         "holder": 1827,
-        "market_cap": 1353136,
+        "market_cap": 1353111,
         "price": 0.001353,
-        "price_change_24h": -1.7,
-        "volume_24h": 687518.33,
+        "price_change_24h": -8.49,
+        "volume_24h": 677928.12,
         "pool_address": "solana_7dfkXG3tHT8deSeyYht3nKAGceveRmrTnzHgmcwG8Mbd",
         "ath": 0.0020957959991331036,
         "ath_timestamp": 1757203200,
@@ -473,11 +493,11 @@
         "dexId": "pumpswap",
         "pairAddress": "7dfkXG3tHT8deSeyYht3nKAGceveRmrTnzHgmcwG8Mbd",
         "txns_24h": {
-          "buys": 1553,
-          "sells": 1685
+          "buys": 1546,
+          "sells": 1659
         },
-        "fdv_usd": 1353136,
-        "total_reserve_in_usd": 160030.52,
+        "fdv_usd": 1353111,
+        "total_reserve_in_usd": 160126.71,
         "tags": [],
         "first_signal": {
           "timestamp": 1757161361,
