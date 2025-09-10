@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-09-10T03:04:37.087Z",
+  "timestamp": "2025-09-10T03:32:59.766Z",
   "data": [
     {
       "address": "DqWtuxjDY2gAqAweJKNeJne5HbarbXLZnaDUe92nBAGS",
@@ -12,10 +12,10 @@
       "website": "https://www.aerospace.sh/",
       "twitter": "https://x.com/agpkeleta/status/1964519614391689529",
       "holder": 2318,
-      "market_cap": 597733,
-      "price": 0.0005977,
-      "price_change_24h": 429,
-      "volume_24h": 9180828.33,
+      "market_cap": 570932,
+      "price": 0.0005709,
+      "price_change_24h": 406,
+      "volume_24h": 9203950.35,
       "pool_address": "solana_GXpwt65rYPMr6pPXpkfMFxvtV8kA1WZimPrN8hVQ2HKK",
       "ath": 0.004062,
       "ath_timestamp": 1757420508,
@@ -23,11 +23,11 @@
       "dexId": "meteora",
       "pairAddress": "GXpwt65rYPMr6pPXpkfMFxvtV8kA1WZimPrN8hVQ2HKK",
       "txns_24h": {
-        "buys": 19006,
-        "sells": 18292
+        "buys": 19112,
+        "sells": 18341
       },
-      "fdv_usd": 597733,
-      "total_reserve_in_usd": 214202.19,
+      "fdv_usd": 570932,
+      "total_reserve_in_usd": 212497.24,
       "tags": [],
       "first_signal": {
         "timestamp": 1757419722,
@@ -35,8 +35,38 @@
       },
       "metrics": {
         "uniqueWallets": 5,
-        "inflow24h": 51902.809115688404,
+        "inflow24h": 47567.856760269955,
         "trades": [
+          {
+            "timestamp": "2025-09-10T03:20:19.000Z",
+            "type": "SELL",
+            "amount": 592381.053457306,
+            "usdValue": 347.09638847218537,
+            "wallet": {
+              "address": "GgG65z3MXpmGnV3ZapKv5ayDqox1x7CJnqP1LD8FaZdt",
+              "name": "y22.sol"
+            }
+          },
+          {
+            "timestamp": "2025-09-10T03:20:19.000Z",
+            "type": "SELL",
+            "amount": 2369524.21382922,
+            "usdValue": 1385.301605559903,
+            "wallet": {
+              "address": "GgG65z3MXpmGnV3ZapKv5ayDqox1x7CJnqP1LD8FaZdt",
+              "name": "y22.sol"
+            }
+          },
+          {
+            "timestamp": "2025-09-10T03:20:19.000Z",
+            "type": "SELL",
+            "amount": 4442857.900929788,
+            "usdValue": 2602.5543613863583,
+            "wallet": {
+              "address": "GgG65z3MXpmGnV3ZapKv5ayDqox1x7CJnqP1LD8FaZdt",
+              "name": "y22.sol"
+            }
+          },
           {
             "timestamp": "2025-09-09T23:19:32.000Z",
             "type": "BUY",
@@ -121,6 +151,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "GgG65z3MXpmGnV3ZapKv5ayDqox1x7CJnqP1LD8FaZdt",
+          "name": "y22.sol",
+          "score": 1,
+          "tokens": [
+            {
+              "token_address": "DqWtuxjDY2gAqAweJKNeJne5HbarbXLZnaDUe92nBAGS",
+              "balance": 0,
+              "token_price": 0.0005709,
+              "token_decimals": 9,
+              "token_symbol": "AEROSPACE",
+              "token_name": "Aerospace.sh",
+              "value": 0
+            }
+          ]
+        },
+        {
           "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
           "name": "GriffWhale",
           "score": 1,
@@ -128,27 +174,11 @@
             {
               "token_address": "DqWtuxjDY2gAqAweJKNeJne5HbarbXLZnaDUe92nBAGS",
               "balance": 23030866.6544893,
-              "token_price": 0.0005977,
+              "token_price": 0.0005709,
               "token_decimals": 9,
               "token_symbol": "AEROSPACE",
               "token_name": "Aerospace.sh",
-              "value": 13765.548999388257
-            }
-          ]
-        },
-        {
-          "address": "GgG65z3MXpmGnV3ZapKv5ayDqox1x7CJnqP1LD8FaZdt",
-          "name": "y22.sol",
-          "score": 1,
-          "tokens": [
-            {
-              "token_address": "DqWtuxjDY2gAqAweJKNeJne5HbarbXLZnaDUe92nBAGS",
-              "balance": 7404763.168216314,
-              "token_price": 0.0005977,
-              "token_decimals": 9,
-              "token_symbol": "AEROSPACE",
-              "token_name": "Aerospace.sh",
-              "value": 4425.826945642892
+              "value": 13148.321773047943
             }
           ]
         },
@@ -160,11 +190,11 @@
             {
               "token_address": "DqWtuxjDY2gAqAweJKNeJne5HbarbXLZnaDUe92nBAGS",
               "balance": 151344.389198493,
-              "token_price": 0.0005977,
+              "token_price": 0.0005709,
               "token_decimals": 9,
               "token_symbol": "AEROSPACE",
               "token_name": "Aerospace.sh",
-              "value": 90.45854142393928
+              "value": 86.40251179341966
             }
           ]
         },
@@ -176,11 +206,11 @@
             {
               "token_address": "DqWtuxjDY2gAqAweJKNeJne5HbarbXLZnaDUe92nBAGS",
               "balance": 10891644.2428911,
-              "token_price": 0.0005977,
+              "token_price": 0.0005709,
               "token_decimals": 9,
               "token_symbol": "AEROSPACE",
               "token_name": "Aerospace.sh",
-              "value": 6509.935763976011
+              "value": 6218.039698266529
             }
           ]
         },
@@ -192,11 +222,11 @@
             {
               "token_address": "DqWtuxjDY2gAqAweJKNeJne5HbarbXLZnaDUe92nBAGS",
               "balance": 8752068.306149133,
-              "token_price": 0.0005977,
+              "token_price": 0.0005709,
               "token_decimals": 9,
               "token_symbol": "AEROSPACE",
               "token_name": "Aerospace.sh",
-              "value": 5231.111226585337
+              "value": 4996.55579598054
             }
           ]
         }
@@ -212,10 +242,10 @@
       "website": "",
       "twitter": "https://x.com/joinCultSol",
       "holder": 433,
-      "market_cap": 18940,
-      "price": 1.93e-05,
-      "price_change_24h": -78.3,
-      "volume_24h": 637961.17,
+      "market_cap": 23164,
+      "price": 2.364e-05,
+      "price_change_24h": -73.41,
+      "volume_24h": 641865.23,
       "pool_address": "solana_Ej4jWM2y1nXDEPRwQ6dQ82hPs28jwinDp6BWiKRe7Ga2",
       "ath": 0.0001604,
       "ath_timestamp": 1757460234,
@@ -223,11 +253,11 @@
       "dexId": "pumpswap",
       "pairAddress": "Ej4jWM2y1nXDEPRwQ6dQ82hPs28jwinDp6BWiKRe7Ga2",
       "txns_24h": {
-        "buys": 4117,
-        "sells": 3291
+        "buys": 4151,
+        "sells": 3317
       },
-      "fdv_usd": 18940,
-      "total_reserve_in_usd": 17561,
+      "fdv_usd": 23164,
+      "total_reserve_in_usd": 19439.02,
       "tags": [],
       "first_signal": {
         "timestamp": 1757459856,
@@ -348,7 +378,7 @@
             {
               "token_address": "DFw2wPhVS67tNhX4eDEhbs2yZRXr2B2TDpxZAj3wpump",
               "balance": 0,
-              "token_price": 1.93e-05,
+              "token_price": 2.364e-05,
               "token_decimals": 6,
               "token_symbol": "CULT",
               "token_name": "The Cult",
@@ -364,7 +394,7 @@
             {
               "token_address": "DFw2wPhVS67tNhX4eDEhbs2yZRXr2B2TDpxZAj3wpump",
               "balance": 0,
-              "token_price": 1.93e-05,
+              "token_price": 2.364e-05,
               "token_decimals": 6,
               "token_symbol": "CULT",
               "token_name": "The Cult",
@@ -380,7 +410,7 @@
             {
               "token_address": "DFw2wPhVS67tNhX4eDEhbs2yZRXr2B2TDpxZAj3wpump",
               "balance": 0,
-              "token_price": 1.93e-05,
+              "token_price": 2.364e-05,
               "token_decimals": 6,
               "token_symbol": "CULT",
               "token_name": "The Cult",
@@ -400,10 +430,10 @@
       "website": "",
       "twitter": "",
       "holder": 1031,
-      "market_cap": 487831,
-      "price": 0.0004878,
-      "price_change_24h": 448,
-      "volume_24h": 3400408.46,
+      "market_cap": 412192,
+      "price": 0.0004121,
+      "price_change_24h": 363,
+      "volume_24h": 3439347.41,
       "pool_address": "solana_acavvtLBBW7f1RcvP1VoHMSCaRonb7VbDd66QKEriev",
       "ath": 0.0009269,
       "ath_timestamp": 1757452233,
@@ -411,11 +441,11 @@
       "dexId": "pumpswap",
       "pairAddress": "acavvtLBBW7f1RcvP1VoHMSCaRonb7VbDd66QKEriev",
       "txns_24h": {
-        "buys": 11616,
-        "sells": 10438
+        "buys": 11831,
+        "sells": 10530
       },
-      "fdv_usd": 487831,
-      "total_reserve_in_usd": 92921.37,
+      "fdv_usd": 412192,
+      "total_reserve_in_usd": 85457.27,
       "tags": [],
       "first_signal": {
         "timestamp": 1757452226,
@@ -496,11 +526,11 @@
             {
               "token_address": "7YM8EtXYeYeGoWVKgapTA2r1MEJv94btVVjSbRVopump",
               "balance": 8586455.23654,
-              "token_price": 0.0004878,
+              "token_price": 0.0004121,
               "token_decimals": 6,
               "token_symbol": "BALL",
               "token_name": "ballknower",
-              "value": 4188.472864384213
+              "value": 3538.478202978134
             }
           ]
         },
@@ -512,11 +542,11 @@
             {
               "token_address": "7YM8EtXYeYeGoWVKgapTA2r1MEJv94btVVjSbRVopump",
               "balance": 3132065.683111,
-              "token_price": 0.0004878,
+              "token_price": 0.0004121,
               "token_decimals": 6,
               "token_symbol": "BALL",
               "token_name": "ballknower",
-              "value": 1527.8216402215457
+              "value": 1290.724268010043
             }
           ]
         },
@@ -528,7 +558,7 @@
             {
               "token_address": "7YM8EtXYeYeGoWVKgapTA2r1MEJv94btVVjSbRVopump",
               "balance": 0,
-              "token_price": 0.0004878,
+              "token_price": 0.0004121,
               "token_decimals": 6,
               "token_symbol": "BALL",
               "token_name": "ballknower",
@@ -547,14 +577,14 @@
       "created_time": 1757383057,
       "website": "https://www.tiktok.com/search?q=i%20know%20ball%20&t=1757191521686",
       "twitter": "https://x.com/search?q=i%20know%20ball&src=typed_query&f=top",
-      "holder": 775,
-      "market_cap": 298334,
-      "price": 0.0002983,
-      "price_change_24h": 183,
-      "volume_24h": 1647077.51,
+      "holder": 1156,
+      "market_cap": 317596,
+      "price": 0.0003175,
+      "price_change_24h": 267,
+      "volume_24h": 1478335.07,
       "pool_address": "solana_HUk4wpH9ZSftxCrUf1JepRt3ChrigEDT69vfxiZgaDUv",
-      "ath": 0.0004101426222268798,
-      "ath_timestamp": 1757455200,
+      "ath": 0.0004110901041370116,
+      "ath_timestamp": 1757462400,
       "ath_pool": "HUk4wpH9ZSftxCrUf1JepRt3ChrigEDT69vfxiZgaDUv",
       "dexId": "pumpswap",
       "pairAddress": "HUk4wpH9ZSftxCrUf1JepRt3ChrigEDT69vfxiZgaDUv",
@@ -562,19 +592,19 @@
         "active": 150
       },
       "txns_24h": {
-        "buys": 7617,
-        "sells": 7052
+        "buys": 6902,
+        "sells": 6540
       },
-      "fdv_usd": 298334,
-      "total_reserve_in_usd": 71635.06,
+      "fdv_usd": 317596,
+      "total_reserve_in_usd": 73969.98,
       "tags": [],
       "first_signal": {
         "timestamp": 1757451345,
         "price": 0.0003602
       },
       "metrics": {
-        "uniqueWallets": 3,
-        "inflow24h": 5013.14431720604,
+        "uniqueWallets": 2,
+        "inflow24h": 4396.715426646995,
         "trades": [
           {
             "timestamp": "2025-09-09T20:58:11.000Z",
@@ -605,96 +635,6 @@
               "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
               "name": "DNF 哥"
             }
-          },
-          {
-            "timestamp": "2025-09-09T03:22:39.000Z",
-            "type": "SELL",
-            "amount": 4934725.867536,
-            "usdValue": 299.86821920066,
-            "wallet": {
-              "address": "4jSmEmBkuBi1JxZHM1khkf57xPR2oW1EnkRxqehq1cSK",
-              "name": "1000xSniper"
-            }
-          },
-          {
-            "timestamp": "2025-09-09T03:22:15.000Z",
-            "type": "BUY",
-            "amount": 2422987.243883,
-            "usdValue": 228.78994777774437,
-            "wallet": {
-              "address": "4jSmEmBkuBi1JxZHM1khkf57xPR2oW1EnkRxqehq1cSK",
-              "name": "1000xSniper"
-            }
-          },
-          {
-            "timestamp": "2025-09-09T03:21:15.000Z",
-            "type": "BUY",
-            "amount": 2511738.623653,
-            "usdValue": 297.3897294628392,
-            "wallet": {
-              "address": "4jSmEmBkuBi1JxZHM1khkf57xPR2oW1EnkRxqehq1cSK",
-              "name": "1000xSniper"
-            }
-          },
-          {
-            "timestamp": "2025-09-09T03:16:26.000Z",
-            "type": "SELL",
-            "amount": 2077189.318572,
-            "usdValue": 215.14600035447205,
-            "wallet": {
-              "address": "4jSmEmBkuBi1JxZHM1khkf57xPR2oW1EnkRxqehq1cSK",
-              "name": "1000xSniper"
-            }
-          },
-          {
-            "timestamp": "2025-09-09T03:15:57.000Z",
-            "type": "BUY",
-            "amount": 2077189.318572,
-            "usdValue": 315.1302305327902,
-            "wallet": {
-              "address": "4jSmEmBkuBi1JxZHM1khkf57xPR2oW1EnkRxqehq1cSK",
-              "name": "1000xSniper"
-            }
-          },
-          {
-            "timestamp": "2025-09-09T03:13:35.000Z",
-            "type": "SELL",
-            "amount": 1881702.108454,
-            "usdValue": 173.1249500436316,
-            "wallet": {
-              "address": "4jSmEmBkuBi1JxZHM1khkf57xPR2oW1EnkRxqehq1cSK",
-              "name": "1000xSniper"
-            }
-          },
-          {
-            "timestamp": "2025-09-09T03:12:37.000Z",
-            "type": "BUY",
-            "amount": 1881702.108454,
-            "usdValue": 269.6384005255387,
-            "wallet": {
-              "address": "4jSmEmBkuBi1JxZHM1khkf57xPR2oW1EnkRxqehq1cSK",
-              "name": "1000xSniper"
-            }
-          },
-          {
-            "timestamp": "2025-09-09T03:11:25.000Z",
-            "type": "SELL",
-            "amount": 2095517.376587,
-            "usdValue": 178.5460306449885,
-            "wallet": {
-              "address": "4jSmEmBkuBi1JxZHM1khkf57xPR2oW1EnkRxqehq1cSK",
-              "name": "1000xSniper"
-            }
-          },
-          {
-            "timestamp": "2025-09-09T03:11:07.000Z",
-            "type": "BUY",
-            "amount": 2095517.376587,
-            "usdValue": 372.1657825038837,
-            "wallet": {
-              "address": "4jSmEmBkuBi1JxZHM1khkf57xPR2oW1EnkRxqehq1cSK",
-              "name": "1000xSniper"
-            }
           }
         ]
       },
@@ -707,7 +647,7 @@
             {
               "token_address": "EzEGH66Xheme3C4LKeV3V22axMnPYFAbhBcXwh6JybC5",
               "balance": 0,
-              "token_price": 0.0002983,
+              "token_price": 0.0003175,
               "token_decimals": 6,
               "token_symbol": "ball",
               "token_name": "i know ball",
@@ -723,27 +663,11 @@
             {
               "token_address": "EzEGH66Xheme3C4LKeV3V22axMnPYFAbhBcXwh6JybC5",
               "balance": 27083628.506517,
-              "token_price": 0.0002983,
+              "token_price": 0.0003175,
               "token_decimals": 6,
               "token_symbol": "ball",
               "token_name": "i know ball",
-              "value": 8079.046383494021
-            }
-          ]
-        },
-        {
-          "address": "4jSmEmBkuBi1JxZHM1khkf57xPR2oW1EnkRxqehq1cSK",
-          "name": "1000xSniper",
-          "score": 1,
-          "tokens": [
-            {
-              "token_address": "EzEGH66Xheme3C4LKeV3V22axMnPYFAbhBcXwh6JybC5",
-              "balance": 0,
-              "token_price": 0.0002983,
-              "token_decimals": 6,
-              "token_symbol": "ball",
-              "token_name": "i know ball",
-              "value": 0
+              "value": 8599.052050819148
             }
           ]
         }
@@ -758,11 +682,11 @@
       "created_time": 1748920864,
       "website": "",
       "twitter": "",
-      "holder": 1772,
-      "market_cap": 2856393,
-      "price": 0.002856,
-      "price_change_24h": -50.67,
-      "volume_24h": 823291.23,
+      "holder": 1769,
+      "market_cap": 2917104,
+      "price": 0.002917,
+      "price_change_24h": -46.28,
+      "volume_24h": 813154.62,
       "pool_address": "solana_C9rXc65S696jzu5d3YLByE9M5CEfJc6TpG48p5wYd7gV",
       "ath": 0.009351174232440152,
       "ath_timestamp": 1757289600,
@@ -770,11 +694,11 @@
       "dexId": "meteora",
       "pairAddress": "C9rXc65S696jzu5d3YLByE9M5CEfJc6TpG48p5wYd7gV",
       "txns_24h": {
-        "buys": 1157,
-        "sells": 994
+        "buys": 1145,
+        "sells": 990
       },
-      "fdv_usd": 2856393,
-      "total_reserve_in_usd": 431822.8,
+      "fdv_usd": 2917104,
+      "total_reserve_in_usd": 435841.92,
       "tags": [],
       "first_signal": {
         "timestamp": 1757062108,
@@ -845,7 +769,7 @@
             {
               "token_address": "4PX31xRA1BaAyb2Js45ZKYp92VGWGp47yWeVs5CGVKbf",
               "balance": 0,
-              "token_price": 0.002856,
+              "token_price": 0.002917,
               "token_decimals": 9,
               "token_symbol": "ZDLT",
               "token_name": "Zirodelta",
@@ -861,11 +785,11 @@
             {
               "token_address": "4PX31xRA1BaAyb2Js45ZKYp92VGWGp47yWeVs5CGVKbf",
               "balance": 1161982.072261777,
-              "token_price": 0.002856,
+              "token_price": 0.002917,
               "token_decimals": 9,
               "token_symbol": "ZDLT",
               "token_name": "Zirodelta",
-              "value": 3318.6207983796353
+              "value": 3389.5017047876036
             }
           ]
         }
@@ -881,10 +805,10 @@
       "website": "",
       "twitter": "https://x.com/theunipcs/status/1921208257399382410",
       "holder": 33033,
-      "market_cap": 209683910,
-      "price": 0.2096,
+      "market_cap": 210212434,
+      "price": 0.2102,
       "price_change_24h": -6.77,
-      "volume_24h": 1941729.2,
+      "volume_24h": 1907254.22,
       "pool_address": "solana_8ztFxjFPfVUtEf4SLSapcFj8GW2dxyUA9no2bLPq7H7V",
       "ath": 0.4167380638392473,
       "ath_timestamp": 1753705200,
@@ -892,11 +816,11 @@
       "dexId": "raydium",
       "pairAddress": "Q2sPHPdUWFMg7M7wwrQKLrn619cAucfRsmhVJffodSp",
       "txns_24h": {
-        "buys": 4555,
-        "sells": 5917
+        "buys": 4594,
+        "sells": 5919
       },
-      "fdv_usd": 209683910,
-      "total_reserve_in_usd": 4703135.69,
+      "fdv_usd": 210212434,
+      "total_reserve_in_usd": 4711432.46,
       "tags": [
         "moonshot"
       ],
@@ -949,11 +873,11 @@
             {
               "token_address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
               "balance": 68112.470704,
-              "token_price": 0.2096,
+              "token_price": 0.2102,
               "token_decimals": 6,
               "token_symbol": "USELESS",
               "token_name": "USELESS COIN",
-              "value": 14276.373859558402
+              "value": 14317.241341980802
             }
           ]
         }
@@ -972,10 +896,10 @@
         "website": "",
         "twitter": "https://x.com/joinCultSol",
         "holder": 433,
-        "market_cap": 18940,
-        "price": 1.93e-05,
-        "price_change_24h": -78.3,
-        "volume_24h": 637961.17,
+        "market_cap": 23164,
+        "price": 2.364e-05,
+        "price_change_24h": -73.41,
+        "volume_24h": 641865.23,
         "pool_address": "solana_Ej4jWM2y1nXDEPRwQ6dQ82hPs28jwinDp6BWiKRe7Ga2",
         "ath": 0.0001604,
         "ath_timestamp": 1757460234,
@@ -983,11 +907,11 @@
         "dexId": "pumpswap",
         "pairAddress": "Ej4jWM2y1nXDEPRwQ6dQ82hPs28jwinDp6BWiKRe7Ga2",
         "txns_24h": {
-          "buys": 4117,
-          "sells": 3291
+          "buys": 4151,
+          "sells": 3317
         },
-        "fdv_usd": 18940,
-        "total_reserve_in_usd": 17561,
+        "fdv_usd": 23164,
+        "total_reserve_in_usd": 19439.02,
         "tags": [],
         "first_signal": {
           "timestamp": 1757459856,
@@ -1108,7 +1032,7 @@
               {
                 "token_address": "DFw2wPhVS67tNhX4eDEhbs2yZRXr2B2TDpxZAj3wpump",
                 "balance": 0,
-                "token_price": 1.93e-05,
+                "token_price": 2.364e-05,
                 "token_decimals": 6,
                 "token_symbol": "CULT",
                 "token_name": "The Cult",
@@ -1124,7 +1048,7 @@
               {
                 "token_address": "DFw2wPhVS67tNhX4eDEhbs2yZRXr2B2TDpxZAj3wpump",
                 "balance": 0,
-                "token_price": 1.93e-05,
+                "token_price": 2.364e-05,
                 "token_decimals": 6,
                 "token_symbol": "CULT",
                 "token_name": "The Cult",
@@ -1140,7 +1064,7 @@
               {
                 "token_address": "DFw2wPhVS67tNhX4eDEhbs2yZRXr2B2TDpxZAj3wpump",
                 "balance": 0,
-                "token_price": 1.93e-05,
+                "token_price": 2.364e-05,
                 "token_decimals": 6,
                 "token_symbol": "CULT",
                 "token_name": "The Cult",
@@ -1160,10 +1084,10 @@
         "website": "",
         "twitter": "",
         "holder": 1031,
-        "market_cap": 487831,
-        "price": 0.0004878,
-        "price_change_24h": 448,
-        "volume_24h": 3400408.46,
+        "market_cap": 412192,
+        "price": 0.0004121,
+        "price_change_24h": 363,
+        "volume_24h": 3439347.41,
         "pool_address": "solana_acavvtLBBW7f1RcvP1VoHMSCaRonb7VbDd66QKEriev",
         "ath": 0.0009269,
         "ath_timestamp": 1757452233,
@@ -1171,11 +1095,11 @@
         "dexId": "pumpswap",
         "pairAddress": "acavvtLBBW7f1RcvP1VoHMSCaRonb7VbDd66QKEriev",
         "txns_24h": {
-          "buys": 11616,
-          "sells": 10438
+          "buys": 11831,
+          "sells": 10530
         },
-        "fdv_usd": 487831,
-        "total_reserve_in_usd": 92921.37,
+        "fdv_usd": 412192,
+        "total_reserve_in_usd": 85457.27,
         "tags": [],
         "first_signal": {
           "timestamp": 1757452226,
@@ -1256,11 +1180,11 @@
               {
                 "token_address": "7YM8EtXYeYeGoWVKgapTA2r1MEJv94btVVjSbRVopump",
                 "balance": 8586455.23654,
-                "token_price": 0.0004878,
+                "token_price": 0.0004121,
                 "token_decimals": 6,
                 "token_symbol": "BALL",
                 "token_name": "ballknower",
-                "value": 4188.472864384213
+                "value": 3538.478202978134
               }
             ]
           },
@@ -1272,11 +1196,11 @@
               {
                 "token_address": "7YM8EtXYeYeGoWVKgapTA2r1MEJv94btVVjSbRVopump",
                 "balance": 3132065.683111,
-                "token_price": 0.0004878,
+                "token_price": 0.0004121,
                 "token_decimals": 6,
                 "token_symbol": "BALL",
                 "token_name": "ballknower",
-                "value": 1527.8216402215457
+                "value": 1290.724268010043
               }
             ]
           },
@@ -1288,7 +1212,7 @@
               {
                 "token_address": "7YM8EtXYeYeGoWVKgapTA2r1MEJv94btVVjSbRVopump",
                 "balance": 0,
-                "token_price": 0.0004878,
+                "token_price": 0.0004121,
                 "token_decimals": 6,
                 "token_symbol": "BALL",
                 "token_name": "ballknower",
@@ -1307,14 +1231,14 @@
         "created_time": 1757383057,
         "website": "https://www.tiktok.com/search?q=i%20know%20ball%20&t=1757191521686",
         "twitter": "https://x.com/search?q=i%20know%20ball&src=typed_query&f=top",
-        "holder": 775,
-        "market_cap": 298334,
-        "price": 0.0002983,
-        "price_change_24h": 183,
-        "volume_24h": 1647077.51,
+        "holder": 1156,
+        "market_cap": 317596,
+        "price": 0.0003175,
+        "price_change_24h": 267,
+        "volume_24h": 1478335.07,
         "pool_address": "solana_HUk4wpH9ZSftxCrUf1JepRt3ChrigEDT69vfxiZgaDUv",
-        "ath": 0.0004101426222268798,
-        "ath_timestamp": 1757455200,
+        "ath": 0.0004110901041370116,
+        "ath_timestamp": 1757462400,
         "ath_pool": "HUk4wpH9ZSftxCrUf1JepRt3ChrigEDT69vfxiZgaDUv",
         "dexId": "pumpswap",
         "pairAddress": "HUk4wpH9ZSftxCrUf1JepRt3ChrigEDT69vfxiZgaDUv",
@@ -1322,19 +1246,19 @@
           "active": 150
         },
         "txns_24h": {
-          "buys": 7617,
-          "sells": 7052
+          "buys": 6902,
+          "sells": 6540
         },
-        "fdv_usd": 298334,
-        "total_reserve_in_usd": 71635.06,
+        "fdv_usd": 317596,
+        "total_reserve_in_usd": 73969.98,
         "tags": [],
         "first_signal": {
           "timestamp": 1757451345,
           "price": 0.0003602
         },
         "metrics": {
-          "uniqueWallets": 3,
-          "inflow24h": 5013.14431720604,
+          "uniqueWallets": 2,
+          "inflow24h": 4396.715426646995,
           "trades": [
             {
               "timestamp": "2025-09-09T20:58:11.000Z",
@@ -1365,96 +1289,6 @@
                 "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
                 "name": "DNF 哥"
               }
-            },
-            {
-              "timestamp": "2025-09-09T03:22:39.000Z",
-              "type": "SELL",
-              "amount": 4934725.867536,
-              "usdValue": 299.86821920066,
-              "wallet": {
-                "address": "4jSmEmBkuBi1JxZHM1khkf57xPR2oW1EnkRxqehq1cSK",
-                "name": "1000xSniper"
-              }
-            },
-            {
-              "timestamp": "2025-09-09T03:22:15.000Z",
-              "type": "BUY",
-              "amount": 2422987.243883,
-              "usdValue": 228.78994777774437,
-              "wallet": {
-                "address": "4jSmEmBkuBi1JxZHM1khkf57xPR2oW1EnkRxqehq1cSK",
-                "name": "1000xSniper"
-              }
-            },
-            {
-              "timestamp": "2025-09-09T03:21:15.000Z",
-              "type": "BUY",
-              "amount": 2511738.623653,
-              "usdValue": 297.3897294628392,
-              "wallet": {
-                "address": "4jSmEmBkuBi1JxZHM1khkf57xPR2oW1EnkRxqehq1cSK",
-                "name": "1000xSniper"
-              }
-            },
-            {
-              "timestamp": "2025-09-09T03:16:26.000Z",
-              "type": "SELL",
-              "amount": 2077189.318572,
-              "usdValue": 215.14600035447205,
-              "wallet": {
-                "address": "4jSmEmBkuBi1JxZHM1khkf57xPR2oW1EnkRxqehq1cSK",
-                "name": "1000xSniper"
-              }
-            },
-            {
-              "timestamp": "2025-09-09T03:15:57.000Z",
-              "type": "BUY",
-              "amount": 2077189.318572,
-              "usdValue": 315.1302305327902,
-              "wallet": {
-                "address": "4jSmEmBkuBi1JxZHM1khkf57xPR2oW1EnkRxqehq1cSK",
-                "name": "1000xSniper"
-              }
-            },
-            {
-              "timestamp": "2025-09-09T03:13:35.000Z",
-              "type": "SELL",
-              "amount": 1881702.108454,
-              "usdValue": 173.1249500436316,
-              "wallet": {
-                "address": "4jSmEmBkuBi1JxZHM1khkf57xPR2oW1EnkRxqehq1cSK",
-                "name": "1000xSniper"
-              }
-            },
-            {
-              "timestamp": "2025-09-09T03:12:37.000Z",
-              "type": "BUY",
-              "amount": 1881702.108454,
-              "usdValue": 269.6384005255387,
-              "wallet": {
-                "address": "4jSmEmBkuBi1JxZHM1khkf57xPR2oW1EnkRxqehq1cSK",
-                "name": "1000xSniper"
-              }
-            },
-            {
-              "timestamp": "2025-09-09T03:11:25.000Z",
-              "type": "SELL",
-              "amount": 2095517.376587,
-              "usdValue": 178.5460306449885,
-              "wallet": {
-                "address": "4jSmEmBkuBi1JxZHM1khkf57xPR2oW1EnkRxqehq1cSK",
-                "name": "1000xSniper"
-              }
-            },
-            {
-              "timestamp": "2025-09-09T03:11:07.000Z",
-              "type": "BUY",
-              "amount": 2095517.376587,
-              "usdValue": 372.1657825038837,
-              "wallet": {
-                "address": "4jSmEmBkuBi1JxZHM1khkf57xPR2oW1EnkRxqehq1cSK",
-                "name": "1000xSniper"
-              }
             }
           ]
         },
@@ -1467,7 +1301,7 @@
               {
                 "token_address": "EzEGH66Xheme3C4LKeV3V22axMnPYFAbhBcXwh6JybC5",
                 "balance": 0,
-                "token_price": 0.0002983,
+                "token_price": 0.0003175,
                 "token_decimals": 6,
                 "token_symbol": "ball",
                 "token_name": "i know ball",
@@ -1483,27 +1317,11 @@
               {
                 "token_address": "EzEGH66Xheme3C4LKeV3V22axMnPYFAbhBcXwh6JybC5",
                 "balance": 27083628.506517,
-                "token_price": 0.0002983,
+                "token_price": 0.0003175,
                 "token_decimals": 6,
                 "token_symbol": "ball",
                 "token_name": "i know ball",
-                "value": 8079.046383494021
-              }
-            ]
-          },
-          {
-            "address": "4jSmEmBkuBi1JxZHM1khkf57xPR2oW1EnkRxqehq1cSK",
-            "name": "1000xSniper",
-            "score": 1,
-            "tokens": [
-              {
-                "token_address": "EzEGH66Xheme3C4LKeV3V22axMnPYFAbhBcXwh6JybC5",
-                "balance": 0,
-                "token_price": 0.0002983,
-                "token_decimals": 6,
-                "token_symbol": "ball",
-                "token_name": "i know ball",
-                "value": 0
+                "value": 8599.052050819148
               }
             ]
           }
@@ -1519,10 +1337,10 @@
         "website": "https://www.aerospace.sh/",
         "twitter": "https://x.com/agpkeleta/status/1964519614391689529",
         "holder": 2318,
-        "market_cap": 597733,
-        "price": 0.0005977,
-        "price_change_24h": 429,
-        "volume_24h": 9180828.33,
+        "market_cap": 570932,
+        "price": 0.0005709,
+        "price_change_24h": 406,
+        "volume_24h": 9203950.35,
         "pool_address": "solana_GXpwt65rYPMr6pPXpkfMFxvtV8kA1WZimPrN8hVQ2HKK",
         "ath": 0.004062,
         "ath_timestamp": 1757420508,
@@ -1530,11 +1348,11 @@
         "dexId": "meteora",
         "pairAddress": "GXpwt65rYPMr6pPXpkfMFxvtV8kA1WZimPrN8hVQ2HKK",
         "txns_24h": {
-          "buys": 19006,
-          "sells": 18292
+          "buys": 19112,
+          "sells": 18341
         },
-        "fdv_usd": 597733,
-        "total_reserve_in_usd": 214202.19,
+        "fdv_usd": 570932,
+        "total_reserve_in_usd": 212497.24,
         "tags": [],
         "first_signal": {
           "timestamp": 1757419722,
@@ -1542,8 +1360,38 @@
         },
         "metrics": {
           "uniqueWallets": 5,
-          "inflow24h": 51902.809115688404,
+          "inflow24h": 47567.856760269955,
           "trades": [
+            {
+              "timestamp": "2025-09-10T03:20:19.000Z",
+              "type": "SELL",
+              "amount": 592381.053457306,
+              "usdValue": 347.09638847218537,
+              "wallet": {
+                "address": "GgG65z3MXpmGnV3ZapKv5ayDqox1x7CJnqP1LD8FaZdt",
+                "name": "y22.sol"
+              }
+            },
+            {
+              "timestamp": "2025-09-10T03:20:19.000Z",
+              "type": "SELL",
+              "amount": 2369524.21382922,
+              "usdValue": 1385.301605559903,
+              "wallet": {
+                "address": "GgG65z3MXpmGnV3ZapKv5ayDqox1x7CJnqP1LD8FaZdt",
+                "name": "y22.sol"
+              }
+            },
+            {
+              "timestamp": "2025-09-10T03:20:19.000Z",
+              "type": "SELL",
+              "amount": 4442857.900929788,
+              "usdValue": 2602.5543613863583,
+              "wallet": {
+                "address": "GgG65z3MXpmGnV3ZapKv5ayDqox1x7CJnqP1LD8FaZdt",
+                "name": "y22.sol"
+              }
+            },
             {
               "timestamp": "2025-09-09T23:19:32.000Z",
               "type": "BUY",
@@ -1628,6 +1476,22 @@
         },
         "walletPortfolios": [
           {
+            "address": "GgG65z3MXpmGnV3ZapKv5ayDqox1x7CJnqP1LD8FaZdt",
+            "name": "y22.sol",
+            "score": 1,
+            "tokens": [
+              {
+                "token_address": "DqWtuxjDY2gAqAweJKNeJne5HbarbXLZnaDUe92nBAGS",
+                "balance": 0,
+                "token_price": 0.0005709,
+                "token_decimals": 9,
+                "token_symbol": "AEROSPACE",
+                "token_name": "Aerospace.sh",
+                "value": 0
+              }
+            ]
+          },
+          {
             "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
             "name": "GriffWhale",
             "score": 1,
@@ -1635,27 +1499,11 @@
               {
                 "token_address": "DqWtuxjDY2gAqAweJKNeJne5HbarbXLZnaDUe92nBAGS",
                 "balance": 23030866.6544893,
-                "token_price": 0.0005977,
+                "token_price": 0.0005709,
                 "token_decimals": 9,
                 "token_symbol": "AEROSPACE",
                 "token_name": "Aerospace.sh",
-                "value": 13765.548999388257
-              }
-            ]
-          },
-          {
-            "address": "GgG65z3MXpmGnV3ZapKv5ayDqox1x7CJnqP1LD8FaZdt",
-            "name": "y22.sol",
-            "score": 1,
-            "tokens": [
-              {
-                "token_address": "DqWtuxjDY2gAqAweJKNeJne5HbarbXLZnaDUe92nBAGS",
-                "balance": 7404763.168216314,
-                "token_price": 0.0005977,
-                "token_decimals": 9,
-                "token_symbol": "AEROSPACE",
-                "token_name": "Aerospace.sh",
-                "value": 4425.826945642892
+                "value": 13148.321773047943
               }
             ]
           },
@@ -1667,11 +1515,11 @@
               {
                 "token_address": "DqWtuxjDY2gAqAweJKNeJne5HbarbXLZnaDUe92nBAGS",
                 "balance": 151344.389198493,
-                "token_price": 0.0005977,
+                "token_price": 0.0005709,
                 "token_decimals": 9,
                 "token_symbol": "AEROSPACE",
                 "token_name": "Aerospace.sh",
-                "value": 90.45854142393928
+                "value": 86.40251179341966
               }
             ]
           },
@@ -1683,11 +1531,11 @@
               {
                 "token_address": "DqWtuxjDY2gAqAweJKNeJne5HbarbXLZnaDUe92nBAGS",
                 "balance": 10891644.2428911,
-                "token_price": 0.0005977,
+                "token_price": 0.0005709,
                 "token_decimals": 9,
                 "token_symbol": "AEROSPACE",
                 "token_name": "Aerospace.sh",
-                "value": 6509.935763976011
+                "value": 6218.039698266529
               }
             ]
           },
@@ -1699,11 +1547,11 @@
               {
                 "token_address": "DqWtuxjDY2gAqAweJKNeJne5HbarbXLZnaDUe92nBAGS",
                 "balance": 8752068.306149133,
-                "token_price": 0.0005977,
+                "token_price": 0.0005709,
                 "token_decimals": 9,
                 "token_symbol": "AEROSPACE",
                 "token_name": "Aerospace.sh",
-                "value": 5231.111226585337
+                "value": 4996.55579598054
               }
             ]
           }
@@ -1721,10 +1569,10 @@
         "website": "",
         "twitter": "https://x.com/theunipcs/status/1921208257399382410",
         "holder": 33033,
-        "market_cap": 209683910,
-        "price": 0.2096,
+        "market_cap": 210212434,
+        "price": 0.2102,
         "price_change_24h": -6.77,
-        "volume_24h": 1941729.2,
+        "volume_24h": 1907254.22,
         "pool_address": "solana_8ztFxjFPfVUtEf4SLSapcFj8GW2dxyUA9no2bLPq7H7V",
         "ath": 0.4167380638392473,
         "ath_timestamp": 1753705200,
@@ -1732,11 +1580,11 @@
         "dexId": "raydium",
         "pairAddress": "Q2sPHPdUWFMg7M7wwrQKLrn619cAucfRsmhVJffodSp",
         "txns_24h": {
-          "buys": 4555,
-          "sells": 5917
+          "buys": 4594,
+          "sells": 5919
         },
-        "fdv_usd": 209683910,
-        "total_reserve_in_usd": 4703135.69,
+        "fdv_usd": 210212434,
+        "total_reserve_in_usd": 4711432.46,
         "tags": [
           "moonshot"
         ],
@@ -1789,11 +1637,11 @@
               {
                 "token_address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
                 "balance": 68112.470704,
-                "token_price": 0.2096,
+                "token_price": 0.2102,
                 "token_decimals": 6,
                 "token_symbol": "USELESS",
                 "token_name": "USELESS COIN",
-                "value": 14276.373859558402
+                "value": 14317.241341980802
               }
             ]
           }
