@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-09-11T20:00:14.306Z",
+  "timestamp": "2025-09-11T20:19:31.766Z",
   "data": [
     {
       "address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
@@ -11,11 +11,11 @@
       "created_time": 1752528060,
       "website": "",
       "twitter": "",
-      "holder": 7821,
-      "market_cap": 157940291,
+      "holder": 7946,
+      "market_cap": 157937732,
       "price": 0.9996,
-      "price_change_24h": 0.03,
-      "volume_24h": 10183006.73,
+      "price_change_24h": 0.02,
+      "volume_24h": 10014549.68,
       "pool_address": "solana_G8LqPHYAMcwP14CDgk9XsV9VdwpsW3aJ59VubwnyrJVr",
       "ath": 1.0097679435330198,
       "ath_timestamp": 1757556000,
@@ -23,11 +23,11 @@
       "dexId": "raydium",
       "pairAddress": "BCDdHonby65iduz3Ev3c9v5XjNkzyu5e56KRFHpBM4T9",
       "txns_24h": {
-        "buys": 7592,
-        "sells": 8388
+        "buys": 7412,
+        "sells": 8413
       },
-      "fdv_usd": 157940291,
-      "total_reserve_in_usd": 15383052.96,
+      "fdv_usd": 157937732,
+      "total_reserve_in_usd": 15382887.21,
       "tags": [],
       "first_signal": {
         "timestamp": 1757553221,
@@ -35,8 +35,38 @@
       },
       "metrics": {
         "uniqueWallets": 5,
-        "inflow24h": 2349.550631596705,
+        "inflow24h": 1035.0034845515065,
         "trades": [
+          {
+            "timestamp": "2025-09-11T20:15:57.000Z",
+            "type": "SELL",
+            "amount": 1102.852675,
+            "usdValue": 1078.2158603893704,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2025-09-11T20:14:16.000Z",
+            "type": "SWAP",
+            "amount": 1130.064688,
+            "usdValue": -1,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2025-09-11T20:14:16.000Z",
+            "type": "BUY",
+            "amount": 1130.064688,
+            "usdValue": 1130.9750391270545,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
           {
             "timestamp": "2025-09-11T19:29:37.000Z",
             "type": "SELL",
@@ -528,76 +558,6 @@
             }
           },
           {
-            "timestamp": "2025-09-11T01:11:53.000Z",
-            "type": "BUY",
-            "amount": 1127.40604,
-            "usdValue": 1127.6035148843043,
-            "wallet": {
-              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-              "name": "cooker"
-            }
-          },
-          {
-            "timestamp": "2025-09-11T01:11:53.000Z",
-            "type": "SWAP",
-            "amount": 1127.449275,
-            "usdValue": 1030.8447543299992,
-            "wallet": {
-              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-              "name": "cooker"
-            }
-          },
-          {
-            "timestamp": "2025-09-11T01:11:53.000Z",
-            "type": "BUY",
-            "amount": 1127.449275,
-            "usdValue": 1127.6035148843043,
-            "wallet": {
-              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-              "name": "cooker"
-            }
-          },
-          {
-            "timestamp": "2025-09-11T01:11:53.000Z",
-            "type": "SWAP",
-            "amount": 1127.519504,
-            "usdValue": 1045.3100700413918,
-            "wallet": {
-              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-              "name": "cooker"
-            }
-          },
-          {
-            "timestamp": "2025-09-11T01:11:53.000Z",
-            "type": "BUY",
-            "amount": 1127.519504,
-            "usdValue": 1127.6035148843043,
-            "wallet": {
-              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-              "name": "cooker"
-            }
-          },
-          {
-            "timestamp": "2025-09-11T01:11:48.000Z",
-            "type": "SWAP",
-            "amount": 1127.586522,
-            "usdValue": 1065.9529093829435,
-            "wallet": {
-              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-              "name": "cooker"
-            }
-          },
-          {
-            "timestamp": "2025-09-11T01:11:48.000Z",
-            "type": "BUY",
-            "amount": 1127.586522,
-            "usdValue": 1127.6035148843043,
-            "wallet": {
-              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-              "name": "cooker"
-            }
-          },
-          {
             "timestamp": "2025-09-11T00:15:40.000Z",
             "type": "SELL",
             "amount": 1640,
@@ -832,10 +792,10 @@
       "website": "https://www.murica.lol/",
       "twitter": "https://x.com/murica_lol",
       "holder": 4019,
-      "market_cap": 8116282,
-      "price": 0.008116,
-      "price_change_24h": 574,
-      "volume_24h": 11363518.54,
+      "market_cap": 7303387,
+      "price": 0.007303,
+      "price_change_24h": 633,
+      "volume_24h": 11357719.28,
       "pool_address": "solana_6wB4BxHKEBsRYRj2sMWWDFmQrz3ubGgxLq28StuNVAiM",
       "ath": 0.01104190331695976,
       "ath_timestamp": 1757602800,
@@ -843,11 +803,11 @@
       "dexId": "raydium",
       "pairAddress": "6wB4BxHKEBsRYRj2sMWWDFmQrz3ubGgxLq28StuNVAiM",
       "txns_24h": {
-        "buys": 14239,
-        "sells": 11925
+        "buys": 14241,
+        "sells": 11919
       },
-      "fdv_usd": 8116282,
-      "total_reserve_in_usd": 321270.13,
+      "fdv_usd": 7303387,
+      "total_reserve_in_usd": 304915.11,
       "tags": [
         "moonshot"
       ],
@@ -1030,11 +990,11 @@
             {
               "token_address": "rnMLBLnUueJveGpLCS2BGsY3McJGRXZ8bqQ8eBWbonk",
               "balance": 10094475.130727,
-              "token_price": 0.008116,
+              "token_price": 0.007303,
               "token_decimals": 6,
               "token_symbol": "MURICA",
               "token_name": "Murica Coin",
-              "value": 81926.76016098034
+              "value": 73719.95187969928
             }
           ]
         },
@@ -1046,7 +1006,7 @@
             {
               "token_address": "rnMLBLnUueJveGpLCS2BGsY3McJGRXZ8bqQ8eBWbonk",
               "balance": 0,
-              "token_price": 0.008116,
+              "token_price": 0.007303,
               "token_decimals": 6,
               "token_symbol": "MURICA",
               "token_name": "Murica Coin",
@@ -1062,11 +1022,11 @@
             {
               "token_address": "rnMLBLnUueJveGpLCS2BGsY3McJGRXZ8bqQ8eBWbonk",
               "balance": 508602.242313,
-              "token_price": 0.008116,
+              "token_price": 0.007303,
               "token_decimals": 6,
               "token_symbol": "MURICA",
               "token_name": "Murica Coin",
-              "value": 4127.815798612308
+              "value": 3714.322175611839
             }
           ]
         },
@@ -1078,11 +1038,11 @@
             {
               "token_address": "rnMLBLnUueJveGpLCS2BGsY3McJGRXZ8bqQ8eBWbonk",
               "balance": 7790561.824664,
-              "token_price": 0.008116,
+              "token_price": 0.007303,
               "token_decimals": 6,
               "token_symbol": "MURICA",
               "token_name": "Murica Coin",
-              "value": 63228.19976897303
+              "value": 56894.47300552119
             }
           ]
         }
@@ -1098,10 +1058,10 @@
       "website": "https://streamercoin.live/",
       "twitter": "https://x.com/biznez_/status/1962983562833264871",
       "holder": 6106,
-      "market_cap": 10138172,
-      "price": 0.01013,
-      "price_change_24h": -15.5,
-      "volume_24h": 2572882.86,
+      "market_cap": 9524550,
+      "price": 0.009524,
+      "price_change_24h": -15.59,
+      "volume_24h": 2521447.76,
       "pool_address": "solana_B1EzTqQTkAWMBZBkEyKGb5dxebYfB74nJcmSAR14cXJt",
       "ath": 0.014860586553276085,
       "ath_timestamp": 1757574000,
@@ -1109,11 +1069,11 @@
       "dexId": "pumpswap",
       "pairAddress": "B1EzTqQTkAWMBZBkEyKGb5dxebYfB74nJcmSAR14cXJt",
       "txns_24h": {
-        "buys": 4155,
-        "sells": 4406
+        "buys": 4094,
+        "sells": 4347
       },
-      "fdv_usd": 10138172,
-      "total_reserve_in_usd": 534265.26,
+      "fdv_usd": 9524550,
+      "total_reserve_in_usd": 517465.57,
       "tags": [
         "moonshot"
       ],
@@ -1156,11 +1116,11 @@
             {
               "token_address": "3arUrpH3nzaRJbbpVgY42dcqSq9A5BFgUxKozZ4npump",
               "balance": 8108216.737019,
-              "token_price": 0.01013,
+              "token_price": 0.009524,
               "token_decimals": 6,
               "token_symbol": "STREAMER",
               "token_name": "StreamerCoin",
-              "value": 82136.23554600247
+              "value": 77222.65620336896
             }
           ]
         }
@@ -1175,11 +1135,11 @@
       "created_time": 1757529328,
       "website": "https://www.instagram.com/reel/DObo1gbgbS-/",
       "twitter": "https://x.com/search?q=Charlie%20kirk%20shot&src=typed_query",
-      "holder": 12343,
-      "market_cap": 3849354,
-      "price": 0.003849,
-      "price_change_24h": -55.04,
-      "volume_24h": 36150359.58,
+      "holder": 11987,
+      "market_cap": 3329700,
+      "price": 0.003329,
+      "price_change_24h": -49.11,
+      "volume_24h": 33367025.39,
       "pool_address": "solana_4tRCGSTGaXewxQLbXScXRqhqxF1Z4umjR8eJQZ8mtPLQ",
       "ath": 0.014426325698843456,
       "ath_timestamp": 1757548800,
@@ -1190,19 +1150,19 @@
         "active": 100
       },
       "txns_24h": {
-        "buys": 68271,
-        "sells": 54237
+        "buys": 63599,
+        "sells": 50707
       },
-      "fdv_usd": 3849354,
-      "total_reserve_in_usd": 372777,
+      "fdv_usd": 3329700,
+      "total_reserve_in_usd": 346469.38,
       "tags": [],
       "first_signal": {
         "timestamp": 1757533609,
         "price": 0.007798
       },
       "metrics": {
-        "uniqueWallets": 4,
-        "inflow24h": 1470.8553141057378,
+        "uniqueWallets": 3,
+        "inflow24h": 478.1506139316393,
         "trades": [
           {
             "timestamp": "2025-09-11T19:28:08.000Z",
@@ -1313,16 +1273,6 @@
               "address": "GJgMeortRJNPuHahkMR14vLRLMZJCaJuqoXSAt4ErCRk",
               "name": "高频小仓"
             }
-          },
-          {
-            "timestamp": "2025-09-10T20:12:34.000Z",
-            "type": "BUY",
-            "amount": 148556.868131,
-            "usdValue": 992.7047001740984,
-            "wallet": {
-              "address": "6zHcjFHjd3X1ptLznSJ989LVfKZvnmKN96dyvwfXoFSB",
-              "name": "SolidBalls"
-            }
           }
         ]
       },
@@ -1335,7 +1285,7 @@
             {
               "token_address": "CsKfV8ePhQWiyQxNJwXhKZHcmUyNWBkHFGrkZGdJpump",
               "balance": 0,
-              "token_price": 0.003849,
+              "token_price": 0.003329,
               "token_decimals": 6,
               "token_symbol": "CHARLIE",
               "token_name": "Justice For Charlie",
@@ -1351,7 +1301,7 @@
             {
               "token_address": "CsKfV8ePhQWiyQxNJwXhKZHcmUyNWBkHFGrkZGdJpump",
               "balance": 0,
-              "token_price": 0.003849,
+              "token_price": 0.003329,
               "token_decimals": 6,
               "token_symbol": "CHARLIE",
               "token_name": "Justice For Charlie",
@@ -1367,27 +1317,11 @@
             {
               "token_address": "CsKfV8ePhQWiyQxNJwXhKZHcmUyNWBkHFGrkZGdJpump",
               "balance": 362131.414381,
-              "token_price": 0.003849,
+              "token_price": 0.003329,
               "token_decimals": 6,
               "token_symbol": "CHARLIE",
               "token_name": "Justice For Charlie",
-              "value": 1393.843813952469
-            }
-          ]
-        },
-        {
-          "address": "6zHcjFHjd3X1ptLznSJ989LVfKZvnmKN96dyvwfXoFSB",
-          "name": "SolidBalls",
-          "score": 1,
-          "tokens": [
-            {
-              "token_address": "CsKfV8ePhQWiyQxNJwXhKZHcmUyNWBkHFGrkZGdJpump",
-              "balance": 715174.405622,
-              "token_price": 0.003849,
-              "token_decimals": 6,
-              "token_symbol": "CHARLIE",
-              "token_name": "Justice For Charlie",
-              "value": 2752.706287239078
+              "value": 1205.535478474349
             }
           ]
         }
@@ -1402,11 +1336,11 @@
       "created_time": 1757155802,
       "website": "https://x.com/search?q=iryna%20zarutska&src=typeahead_click",
       "twitter": "https://x.com/i/communities/1964275801567715419",
-      "holder": 7613,
-      "market_cap": 2787548,
-      "price": 0.002787,
-      "price_change_24h": -63.37,
-      "volume_24h": 8026987.03,
+      "holder": 7569,
+      "market_cap": 2970267,
+      "price": 0.00297,
+      "price_change_24h": -66.33,
+      "volume_24h": 7671737.46,
       "pool_address": "solana_EfGS9eGywWjgRh5MA4vNS4nfU2n3pm5VW54ZtqXjxnjh",
       "ath": 0.029015595443830602,
       "ath_timestamp": 1757509200,
@@ -1417,11 +1351,11 @@
         "active": 100
       },
       "txns_24h": {
-        "buys": 13827,
-        "sells": 11333
+        "buys": 13407,
+        "sells": 10805
       },
-      "fdv_usd": 2787548,
-      "total_reserve_in_usd": 315716.51,
+      "fdv_usd": 2970267,
+      "total_reserve_in_usd": 325373.31,
       "tags": [],
       "first_signal": {
         "timestamp": 1757495539,
@@ -1502,11 +1436,11 @@
             {
               "token_address": "2LsescRjhcxoUwEQLpcsd3Gh6AHUyqEHANDakkoSpump",
               "balance": 810725.629659,
-              "token_price": 0.002787,
+              "token_price": 0.00297,
               "token_decimals": 6,
               "token_symbol": "IRYNA",
               "token_name": "Justice for Iryna",
-              "value": 2259.4923298596327
+              "value": 2407.85512008723
             }
           ]
         },
@@ -1518,7 +1452,7 @@
             {
               "token_address": "2LsescRjhcxoUwEQLpcsd3Gh6AHUyqEHANDakkoSpump",
               "balance": 0,
-              "token_price": 0.002787,
+              "token_price": 0.00297,
               "token_decimals": 6,
               "token_symbol": "IRYNA",
               "token_name": "Justice for Iryna",
@@ -1534,7 +1468,7 @@
             {
               "token_address": "2LsescRjhcxoUwEQLpcsd3Gh6AHUyqEHANDakkoSpump",
               "balance": 0,
-              "token_price": 0.002787,
+              "token_price": 0.00297,
               "token_decimals": 6,
               "token_symbol": "IRYNA",
               "token_name": "Justice for Iryna",
@@ -1557,10 +1491,10 @@
         "website": "https://www.murica.lol/",
         "twitter": "https://x.com/murica_lol",
         "holder": 4019,
-        "market_cap": 8116282,
-        "price": 0.008116,
-        "price_change_24h": 574,
-        "volume_24h": 11363518.54,
+        "market_cap": 7303387,
+        "price": 0.007303,
+        "price_change_24h": 633,
+        "volume_24h": 11357719.28,
         "pool_address": "solana_6wB4BxHKEBsRYRj2sMWWDFmQrz3ubGgxLq28StuNVAiM",
         "ath": 0.01104190331695976,
         "ath_timestamp": 1757602800,
@@ -1568,11 +1502,11 @@
         "dexId": "raydium",
         "pairAddress": "6wB4BxHKEBsRYRj2sMWWDFmQrz3ubGgxLq28StuNVAiM",
         "txns_24h": {
-          "buys": 14239,
-          "sells": 11925
+          "buys": 14241,
+          "sells": 11919
         },
-        "fdv_usd": 8116282,
-        "total_reserve_in_usd": 321270.13,
+        "fdv_usd": 7303387,
+        "total_reserve_in_usd": 304915.11,
         "tags": [
           "moonshot"
         ],
@@ -1755,11 +1689,11 @@
               {
                 "token_address": "rnMLBLnUueJveGpLCS2BGsY3McJGRXZ8bqQ8eBWbonk",
                 "balance": 10094475.130727,
-                "token_price": 0.008116,
+                "token_price": 0.007303,
                 "token_decimals": 6,
                 "token_symbol": "MURICA",
                 "token_name": "Murica Coin",
-                "value": 81926.76016098034
+                "value": 73719.95187969928
               }
             ]
           },
@@ -1771,7 +1705,7 @@
               {
                 "token_address": "rnMLBLnUueJveGpLCS2BGsY3McJGRXZ8bqQ8eBWbonk",
                 "balance": 0,
-                "token_price": 0.008116,
+                "token_price": 0.007303,
                 "token_decimals": 6,
                 "token_symbol": "MURICA",
                 "token_name": "Murica Coin",
@@ -1787,11 +1721,11 @@
               {
                 "token_address": "rnMLBLnUueJveGpLCS2BGsY3McJGRXZ8bqQ8eBWbonk",
                 "balance": 508602.242313,
-                "token_price": 0.008116,
+                "token_price": 0.007303,
                 "token_decimals": 6,
                 "token_symbol": "MURICA",
                 "token_name": "Murica Coin",
-                "value": 4127.815798612308
+                "value": 3714.322175611839
               }
             ]
           },
@@ -1803,11 +1737,11 @@
               {
                 "token_address": "rnMLBLnUueJveGpLCS2BGsY3McJGRXZ8bqQ8eBWbonk",
                 "balance": 7790561.824664,
-                "token_price": 0.008116,
+                "token_price": 0.007303,
                 "token_decimals": 6,
                 "token_symbol": "MURICA",
                 "token_name": "Murica Coin",
-                "value": 63228.19976897303
+                "value": 56894.47300552119
               }
             ]
           }
@@ -1823,10 +1757,10 @@
         "website": "https://streamercoin.live/",
         "twitter": "https://x.com/biznez_/status/1962983562833264871",
         "holder": 6106,
-        "market_cap": 10138172,
-        "price": 0.01013,
-        "price_change_24h": -15.5,
-        "volume_24h": 2572882.86,
+        "market_cap": 9524550,
+        "price": 0.009524,
+        "price_change_24h": -15.59,
+        "volume_24h": 2521447.76,
         "pool_address": "solana_B1EzTqQTkAWMBZBkEyKGb5dxebYfB74nJcmSAR14cXJt",
         "ath": 0.014860586553276085,
         "ath_timestamp": 1757574000,
@@ -1834,11 +1768,11 @@
         "dexId": "pumpswap",
         "pairAddress": "B1EzTqQTkAWMBZBkEyKGb5dxebYfB74nJcmSAR14cXJt",
         "txns_24h": {
-          "buys": 4155,
-          "sells": 4406
+          "buys": 4094,
+          "sells": 4347
         },
-        "fdv_usd": 10138172,
-        "total_reserve_in_usd": 534265.26,
+        "fdv_usd": 9524550,
+        "total_reserve_in_usd": 517465.57,
         "tags": [
           "moonshot"
         ],
@@ -1881,11 +1815,11 @@
               {
                 "token_address": "3arUrpH3nzaRJbbpVgY42dcqSq9A5BFgUxKozZ4npump",
                 "balance": 8108216.737019,
-                "token_price": 0.01013,
+                "token_price": 0.009524,
                 "token_decimals": 6,
                 "token_symbol": "STREAMER",
                 "token_name": "StreamerCoin",
-                "value": 82136.23554600247
+                "value": 77222.65620336896
               }
             ]
           }
@@ -1900,11 +1834,11 @@
         "created_time": 1752528060,
         "website": "",
         "twitter": "",
-        "holder": 7821,
-        "market_cap": 157940291,
+        "holder": 7946,
+        "market_cap": 157937732,
         "price": 0.9996,
-        "price_change_24h": 0.03,
-        "volume_24h": 10183006.73,
+        "price_change_24h": 0.02,
+        "volume_24h": 10014549.68,
         "pool_address": "solana_G8LqPHYAMcwP14CDgk9XsV9VdwpsW3aJ59VubwnyrJVr",
         "ath": 1.0097679435330198,
         "ath_timestamp": 1757556000,
@@ -1912,11 +1846,11 @@
         "dexId": "raydium",
         "pairAddress": "BCDdHonby65iduz3Ev3c9v5XjNkzyu5e56KRFHpBM4T9",
         "txns_24h": {
-          "buys": 7592,
-          "sells": 8388
+          "buys": 7412,
+          "sells": 8413
         },
-        "fdv_usd": 157940291,
-        "total_reserve_in_usd": 15383052.96,
+        "fdv_usd": 157937732,
+        "total_reserve_in_usd": 15382887.21,
         "tags": [],
         "first_signal": {
           "timestamp": 1757553221,
@@ -1924,8 +1858,38 @@
         },
         "metrics": {
           "uniqueWallets": 5,
-          "inflow24h": 2349.550631596705,
+          "inflow24h": 1035.0034845515065,
           "trades": [
+            {
+              "timestamp": "2025-09-11T20:15:57.000Z",
+              "type": "SELL",
+              "amount": 1102.852675,
+              "usdValue": 1078.2158603893704,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2025-09-11T20:14:16.000Z",
+              "type": "SWAP",
+              "amount": 1130.064688,
+              "usdValue": -1,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2025-09-11T20:14:16.000Z",
+              "type": "BUY",
+              "amount": 1130.064688,
+              "usdValue": 1130.9750391270545,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
             {
               "timestamp": "2025-09-11T19:29:37.000Z",
               "type": "SELL",
@@ -2417,76 +2381,6 @@
               }
             },
             {
-              "timestamp": "2025-09-11T01:11:53.000Z",
-              "type": "BUY",
-              "amount": 1127.40604,
-              "usdValue": 1127.6035148843043,
-              "wallet": {
-                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-                "name": "cooker"
-              }
-            },
-            {
-              "timestamp": "2025-09-11T01:11:53.000Z",
-              "type": "SWAP",
-              "amount": 1127.449275,
-              "usdValue": 1030.8447543299992,
-              "wallet": {
-                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-                "name": "cooker"
-              }
-            },
-            {
-              "timestamp": "2025-09-11T01:11:53.000Z",
-              "type": "BUY",
-              "amount": 1127.449275,
-              "usdValue": 1127.6035148843043,
-              "wallet": {
-                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-                "name": "cooker"
-              }
-            },
-            {
-              "timestamp": "2025-09-11T01:11:53.000Z",
-              "type": "SWAP",
-              "amount": 1127.519504,
-              "usdValue": 1045.3100700413918,
-              "wallet": {
-                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-                "name": "cooker"
-              }
-            },
-            {
-              "timestamp": "2025-09-11T01:11:53.000Z",
-              "type": "BUY",
-              "amount": 1127.519504,
-              "usdValue": 1127.6035148843043,
-              "wallet": {
-                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-                "name": "cooker"
-              }
-            },
-            {
-              "timestamp": "2025-09-11T01:11:48.000Z",
-              "type": "SWAP",
-              "amount": 1127.586522,
-              "usdValue": 1065.9529093829435,
-              "wallet": {
-                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-                "name": "cooker"
-              }
-            },
-            {
-              "timestamp": "2025-09-11T01:11:48.000Z",
-              "type": "BUY",
-              "amount": 1127.586522,
-              "usdValue": 1127.6035148843043,
-              "wallet": {
-                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-                "name": "cooker"
-              }
-            },
-            {
               "timestamp": "2025-09-11T00:15:40.000Z",
               "type": "SELL",
               "amount": 1640,
@@ -2722,11 +2616,11 @@
         "created_time": 1757155802,
         "website": "https://x.com/search?q=iryna%20zarutska&src=typeahead_click",
         "twitter": "https://x.com/i/communities/1964275801567715419",
-        "holder": 7613,
-        "market_cap": 2787548,
-        "price": 0.002787,
-        "price_change_24h": -63.37,
-        "volume_24h": 8026987.03,
+        "holder": 7569,
+        "market_cap": 2970267,
+        "price": 0.00297,
+        "price_change_24h": -66.33,
+        "volume_24h": 7671737.46,
         "pool_address": "solana_EfGS9eGywWjgRh5MA4vNS4nfU2n3pm5VW54ZtqXjxnjh",
         "ath": 0.029015595443830602,
         "ath_timestamp": 1757509200,
@@ -2737,11 +2631,11 @@
           "active": 100
         },
         "txns_24h": {
-          "buys": 13827,
-          "sells": 11333
+          "buys": 13407,
+          "sells": 10805
         },
-        "fdv_usd": 2787548,
-        "total_reserve_in_usd": 315716.51,
+        "fdv_usd": 2970267,
+        "total_reserve_in_usd": 325373.31,
         "tags": [],
         "first_signal": {
           "timestamp": 1757495539,
@@ -2822,11 +2716,11 @@
               {
                 "token_address": "2LsescRjhcxoUwEQLpcsd3Gh6AHUyqEHANDakkoSpump",
                 "balance": 810725.629659,
-                "token_price": 0.002787,
+                "token_price": 0.00297,
                 "token_decimals": 6,
                 "token_symbol": "IRYNA",
                 "token_name": "Justice for Iryna",
-                "value": 2259.4923298596327
+                "value": 2407.85512008723
               }
             ]
           },
@@ -2838,7 +2732,7 @@
               {
                 "token_address": "2LsescRjhcxoUwEQLpcsd3Gh6AHUyqEHANDakkoSpump",
                 "balance": 0,
-                "token_price": 0.002787,
+                "token_price": 0.00297,
                 "token_decimals": 6,
                 "token_symbol": "IRYNA",
                 "token_name": "Justice for Iryna",
@@ -2854,7 +2748,7 @@
               {
                 "token_address": "2LsescRjhcxoUwEQLpcsd3Gh6AHUyqEHANDakkoSpump",
                 "balance": 0,
-                "token_price": 0.002787,
+                "token_price": 0.00297,
                 "token_decimals": 6,
                 "token_symbol": "IRYNA",
                 "token_name": "Justice for Iryna",
