@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-09-11T22:37:58.480Z",
+  "timestamp": "2025-09-11T22:44:49.605Z",
   "data": [
     {
       "address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
@@ -12,10 +12,10 @@
       "website": "",
       "twitter": "",
       "holder": 8068,
-      "market_cap": 157939255,
+      "market_cap": 157940012,
       "price": 0.9996,
       "price_change_24h": 0.02,
-      "volume_24h": 9871105.45,
+      "volume_24h": 9874127.3,
       "pool_address": "solana_G8LqPHYAMcwP14CDgk9XsV9VdwpsW3aJ59VubwnyrJVr",
       "ath": 1.0097679435330198,
       "ath_timestamp": 1757556000,
@@ -23,11 +23,11 @@
       "dexId": "raydium",
       "pairAddress": "BCDdHonby65iduz3Ev3c9v5XjNkzyu5e56KRFHpBM4T9",
       "txns_24h": {
-        "buys": 7500,
-        "sells": 8350
+        "buys": 7519,
+        "sells": 8345
       },
-      "fdv_usd": 157939255,
-      "total_reserve_in_usd": 15383027.19,
+      "fdv_usd": 157940012,
+      "total_reserve_in_usd": 15383079.96,
       "tags": [],
       "first_signal": {
         "timestamp": 1757553221,
@@ -35,8 +35,18 @@
       },
       "metrics": {
         "uniqueWallets": 5,
-        "inflow24h": 3005.262508070815,
+        "inflow24h": 3006.262508070815,
         "trades": [
+          {
+            "timestamp": "2025-09-11T22:44:20.000Z",
+            "type": "SWAP",
+            "amount": 2997,
+            "usdValue": -1,
+            "wallet": {
+              "address": "GeZHejJJJ7631AHAaoEfSmmL7CwhRNPH81FkawEfN7N9",
+              "name": "UBC7x"
+            }
+          },
           {
             "timestamp": "2025-09-11T20:56:13.000Z",
             "type": "SELL",
@@ -531,6 +541,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "GeZHejJJJ7631AHAaoEfSmmL7CwhRNPH81FkawEfN7N9",
+          "name": "UBC7x",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+              "balance": 24496.999445,
+              "token_price": 0.9996,
+              "token_decimals": 6,
+              "token_symbol": "USD1",
+              "token_name": "World Liberty Financial USD",
+              "value": 24487.200645222
+            }
+          ]
+        },
+        {
           "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
           "name": "eca.eth",
           "score": 1,
@@ -559,22 +585,6 @@
               "token_symbol": "USD1",
               "token_name": "World Liberty Financial USD",
               "value": 0
-            }
-          ]
-        },
-        {
-          "address": "GeZHejJJJ7631AHAaoEfSmmL7CwhRNPH81FkawEfN7N9",
-          "name": "UBC7x",
-          "score": 2,
-          "tokens": [
-            {
-              "token_address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
-              "balance": 27496.999445,
-              "token_price": 0.9996,
-              "token_decimals": 6,
-              "token_symbol": "USD1",
-              "token_name": "World Liberty Financial USD",
-              "value": 27486.000645222004
             }
           ]
         },
@@ -622,10 +632,10 @@
       "website": "https://www.murica.lol/",
       "twitter": "https://x.com/murica_lol",
       "holder": 3923,
-      "market_cap": 5291738,
-      "price": 0.005291,
-      "price_change_24h": 65.44,
-      "volume_24h": 9426755.71,
+      "market_cap": 5051416,
+      "price": 0.005051,
+      "price_change_24h": 50.62,
+      "volume_24h": 9374391.77,
       "pool_address": "solana_6wB4BxHKEBsRYRj2sMWWDFmQrz3ubGgxLq28StuNVAiM",
       "ath": 0.01104190331695976,
       "ath_timestamp": 1757602800,
@@ -633,11 +643,11 @@
       "dexId": "raydium",
       "pairAddress": "6wB4BxHKEBsRYRj2sMWWDFmQrz3ubGgxLq28StuNVAiM",
       "txns_24h": {
-        "buys": 13348,
-        "sells": 10916
+        "buys": 13315,
+        "sells": 10891
       },
-      "fdv_usd": 5291738,
-      "total_reserve_in_usd": 260936.32,
+      "fdv_usd": 5051416,
+      "total_reserve_in_usd": 254987.89,
       "tags": [
         "moonshot"
       ],
@@ -810,11 +820,11 @@
             {
               "token_address": "rnMLBLnUueJveGpLCS2BGsY3McJGRXZ8bqQ8eBWbonk",
               "balance": 10094475.130727,
-              "token_price": 0.005291,
+              "token_price": 0.005051,
               "token_decimals": 6,
               "token_symbol": "MURICA",
               "token_name": "Murica Coin",
-              "value": 53409.86791667656
+              "value": 50987.19388530208
             }
           ]
         },
@@ -826,7 +836,7 @@
             {
               "token_address": "rnMLBLnUueJveGpLCS2BGsY3McJGRXZ8bqQ8eBWbonk",
               "balance": 0,
-              "token_price": 0.005291,
+              "token_price": 0.005051,
               "token_decimals": 6,
               "token_symbol": "MURICA",
               "token_name": "Murica Coin",
@@ -842,11 +852,11 @@
             {
               "token_address": "rnMLBLnUueJveGpLCS2BGsY3McJGRXZ8bqQ8eBWbonk",
               "balance": 508602.242313,
-              "token_price": 0.005291,
+              "token_price": 0.005051,
               "token_decimals": 6,
               "token_symbol": "MURICA",
               "token_name": "Murica Coin",
-              "value": 2691.014464078083
+              "value": 2568.9499259229633
             }
           ]
         },
@@ -858,11 +868,11 @@
             {
               "token_address": "rnMLBLnUueJveGpLCS2BGsY3McJGRXZ8bqQ8eBWbonk",
               "balance": 7790561.824664,
-              "token_price": 0.005291,
+              "token_price": 0.005051,
               "token_decimals": 6,
               "token_symbol": "MURICA",
               "token_name": "Murica Coin",
-              "value": 41219.86261429722
+              "value": 39350.12777637786
             }
           ]
         }
@@ -878,10 +888,10 @@
       "website": "https://streamercoin.live/",
       "twitter": "https://x.com/biznez_/status/1962983562833264871",
       "holder": 6111,
-      "market_cap": 9047448,
-      "price": 0.009047,
-      "price_change_24h": -34.83,
-      "volume_24h": 2516509.11,
+      "market_cap": 9498347,
+      "price": 0.009498,
+      "price_change_24h": -34.99,
+      "volume_24h": 2507918.11,
       "pool_address": "solana_B1EzTqQTkAWMBZBkEyKGb5dxebYfB74nJcmSAR14cXJt",
       "ath": 0.014860586553276085,
       "ath_timestamp": 1757574000,
@@ -889,11 +899,11 @@
       "dexId": "pumpswap",
       "pairAddress": "B1EzTqQTkAWMBZBkEyKGb5dxebYfB74nJcmSAR14cXJt",
       "txns_24h": {
-        "buys": 4118,
-        "sells": 4116
+        "buys": 4110,
+        "sells": 4019
       },
-      "fdv_usd": 9047448,
-      "total_reserve_in_usd": 507434.83,
+      "fdv_usd": 9498347,
+      "total_reserve_in_usd": 520137.38,
       "tags": [
         "moonshot"
       ],
@@ -936,11 +946,11 @@
             {
               "token_address": "3arUrpH3nzaRJbbpVgY42dcqSq9A5BFgUxKozZ4npump",
               "balance": 8108216.737019,
-              "token_price": 0.009047,
+              "token_price": 0.009498,
               "token_decimals": 6,
               "token_symbol": "STREAMER",
               "token_name": "StreamerCoin",
-              "value": 73355.03681981089
+              "value": 77011.84256820646
             }
           ]
         }
@@ -956,10 +966,10 @@
       "website": "https://www.instagram.com/reel/DObo1gbgbS-/",
       "twitter": "https://x.com/search?q=Charlie%20kirk%20shot&src=typed_query",
       "holder": 11495,
-      "market_cap": 3418771,
-      "price": 0.003418,
-      "price_change_24h": -58.34,
-      "volume_24h": 20831447.46,
+      "market_cap": 3625411,
+      "price": 0.003625,
+      "price_change_24h": -55.1,
+      "volume_24h": 20744728.53,
       "pool_address": "solana_4tRCGSTGaXewxQLbXScXRqhqxF1Z4umjR8eJQZ8mtPLQ",
       "ath": 0.014426325698843456,
       "ath_timestamp": 1757548800,
@@ -970,11 +980,11 @@
         "active": 100
       },
       "txns_24h": {
-        "buys": 41862,
-        "sells": 33374
+        "buys": 41716,
+        "sells": 33197
       },
-      "fdv_usd": 3418771,
-      "total_reserve_in_usd": 354337.89,
+      "fdv_usd": 3625411,
+      "total_reserve_in_usd": 365029.74,
       "tags": [],
       "first_signal": {
         "timestamp": 1757533609,
@@ -1085,7 +1095,7 @@
             {
               "token_address": "CsKfV8ePhQWiyQxNJwXhKZHcmUyNWBkHFGrkZGdJpump",
               "balance": 0,
-              "token_price": 0.003418,
+              "token_price": 0.003625,
               "token_decimals": 6,
               "token_symbol": "CHARLIE",
               "token_name": "Justice For Charlie",
@@ -1101,7 +1111,7 @@
             {
               "token_address": "CsKfV8ePhQWiyQxNJwXhKZHcmUyNWBkHFGrkZGdJpump",
               "balance": 0,
-              "token_price": 0.003418,
+              "token_price": 0.003625,
               "token_decimals": 6,
               "token_symbol": "CHARLIE",
               "token_name": "Justice For Charlie",
@@ -1124,10 +1134,10 @@
         "website": "https://www.murica.lol/",
         "twitter": "https://x.com/murica_lol",
         "holder": 3923,
-        "market_cap": 5291738,
-        "price": 0.005291,
-        "price_change_24h": 65.44,
-        "volume_24h": 9426755.71,
+        "market_cap": 5051416,
+        "price": 0.005051,
+        "price_change_24h": 50.62,
+        "volume_24h": 9374391.77,
         "pool_address": "solana_6wB4BxHKEBsRYRj2sMWWDFmQrz3ubGgxLq28StuNVAiM",
         "ath": 0.01104190331695976,
         "ath_timestamp": 1757602800,
@@ -1135,11 +1145,11 @@
         "dexId": "raydium",
         "pairAddress": "6wB4BxHKEBsRYRj2sMWWDFmQrz3ubGgxLq28StuNVAiM",
         "txns_24h": {
-          "buys": 13348,
-          "sells": 10916
+          "buys": 13315,
+          "sells": 10891
         },
-        "fdv_usd": 5291738,
-        "total_reserve_in_usd": 260936.32,
+        "fdv_usd": 5051416,
+        "total_reserve_in_usd": 254987.89,
         "tags": [
           "moonshot"
         ],
@@ -1312,11 +1322,11 @@
               {
                 "token_address": "rnMLBLnUueJveGpLCS2BGsY3McJGRXZ8bqQ8eBWbonk",
                 "balance": 10094475.130727,
-                "token_price": 0.005291,
+                "token_price": 0.005051,
                 "token_decimals": 6,
                 "token_symbol": "MURICA",
                 "token_name": "Murica Coin",
-                "value": 53409.86791667656
+                "value": 50987.19388530208
               }
             ]
           },
@@ -1328,7 +1338,7 @@
               {
                 "token_address": "rnMLBLnUueJveGpLCS2BGsY3McJGRXZ8bqQ8eBWbonk",
                 "balance": 0,
-                "token_price": 0.005291,
+                "token_price": 0.005051,
                 "token_decimals": 6,
                 "token_symbol": "MURICA",
                 "token_name": "Murica Coin",
@@ -1344,11 +1354,11 @@
               {
                 "token_address": "rnMLBLnUueJveGpLCS2BGsY3McJGRXZ8bqQ8eBWbonk",
                 "balance": 508602.242313,
-                "token_price": 0.005291,
+                "token_price": 0.005051,
                 "token_decimals": 6,
                 "token_symbol": "MURICA",
                 "token_name": "Murica Coin",
-                "value": 2691.014464078083
+                "value": 2568.9499259229633
               }
             ]
           },
@@ -1360,11 +1370,11 @@
               {
                 "token_address": "rnMLBLnUueJveGpLCS2BGsY3McJGRXZ8bqQ8eBWbonk",
                 "balance": 7790561.824664,
-                "token_price": 0.005291,
+                "token_price": 0.005051,
                 "token_decimals": 6,
                 "token_symbol": "MURICA",
                 "token_name": "Murica Coin",
-                "value": 41219.86261429722
+                "value": 39350.12777637786
               }
             ]
           }
@@ -1380,10 +1390,10 @@
         "website": "https://streamercoin.live/",
         "twitter": "https://x.com/biznez_/status/1962983562833264871",
         "holder": 6111,
-        "market_cap": 9047448,
-        "price": 0.009047,
-        "price_change_24h": -34.83,
-        "volume_24h": 2516509.11,
+        "market_cap": 9498347,
+        "price": 0.009498,
+        "price_change_24h": -34.99,
+        "volume_24h": 2507918.11,
         "pool_address": "solana_B1EzTqQTkAWMBZBkEyKGb5dxebYfB74nJcmSAR14cXJt",
         "ath": 0.014860586553276085,
         "ath_timestamp": 1757574000,
@@ -1391,11 +1401,11 @@
         "dexId": "pumpswap",
         "pairAddress": "B1EzTqQTkAWMBZBkEyKGb5dxebYfB74nJcmSAR14cXJt",
         "txns_24h": {
-          "buys": 4118,
-          "sells": 4116
+          "buys": 4110,
+          "sells": 4019
         },
-        "fdv_usd": 9047448,
-        "total_reserve_in_usd": 507434.83,
+        "fdv_usd": 9498347,
+        "total_reserve_in_usd": 520137.38,
         "tags": [
           "moonshot"
         ],
@@ -1438,11 +1448,11 @@
               {
                 "token_address": "3arUrpH3nzaRJbbpVgY42dcqSq9A5BFgUxKozZ4npump",
                 "balance": 8108216.737019,
-                "token_price": 0.009047,
+                "token_price": 0.009498,
                 "token_decimals": 6,
                 "token_symbol": "STREAMER",
                 "token_name": "StreamerCoin",
-                "value": 73355.03681981089
+                "value": 77011.84256820646
               }
             ]
           }
@@ -1458,10 +1468,10 @@
         "website": "",
         "twitter": "",
         "holder": 8068,
-        "market_cap": 157939255,
+        "market_cap": 157940012,
         "price": 0.9996,
         "price_change_24h": 0.02,
-        "volume_24h": 9871105.45,
+        "volume_24h": 9874127.3,
         "pool_address": "solana_G8LqPHYAMcwP14CDgk9XsV9VdwpsW3aJ59VubwnyrJVr",
         "ath": 1.0097679435330198,
         "ath_timestamp": 1757556000,
@@ -1469,11 +1479,11 @@
         "dexId": "raydium",
         "pairAddress": "BCDdHonby65iduz3Ev3c9v5XjNkzyu5e56KRFHpBM4T9",
         "txns_24h": {
-          "buys": 7500,
-          "sells": 8350
+          "buys": 7519,
+          "sells": 8345
         },
-        "fdv_usd": 157939255,
-        "total_reserve_in_usd": 15383027.19,
+        "fdv_usd": 157940012,
+        "total_reserve_in_usd": 15383079.96,
         "tags": [],
         "first_signal": {
           "timestamp": 1757553221,
@@ -1481,8 +1491,18 @@
         },
         "metrics": {
           "uniqueWallets": 5,
-          "inflow24h": 3005.262508070815,
+          "inflow24h": 3006.262508070815,
           "trades": [
+            {
+              "timestamp": "2025-09-11T22:44:20.000Z",
+              "type": "SWAP",
+              "amount": 2997,
+              "usdValue": -1,
+              "wallet": {
+                "address": "GeZHejJJJ7631AHAaoEfSmmL7CwhRNPH81FkawEfN7N9",
+                "name": "UBC7x"
+              }
+            },
             {
               "timestamp": "2025-09-11T20:56:13.000Z",
               "type": "SELL",
@@ -1977,6 +1997,22 @@
         },
         "walletPortfolios": [
           {
+            "address": "GeZHejJJJ7631AHAaoEfSmmL7CwhRNPH81FkawEfN7N9",
+            "name": "UBC7x",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+                "balance": 24496.999445,
+                "token_price": 0.9996,
+                "token_decimals": 6,
+                "token_symbol": "USD1",
+                "token_name": "World Liberty Financial USD",
+                "value": 24487.200645222
+              }
+            ]
+          },
+          {
             "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
             "name": "eca.eth",
             "score": 1,
@@ -2005,22 +2041,6 @@
                 "token_symbol": "USD1",
                 "token_name": "World Liberty Financial USD",
                 "value": 0
-              }
-            ]
-          },
-          {
-            "address": "GeZHejJJJ7631AHAaoEfSmmL7CwhRNPH81FkawEfN7N9",
-            "name": "UBC7x",
-            "score": 2,
-            "tokens": [
-              {
-                "token_address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
-                "balance": 27496.999445,
-                "token_price": 0.9996,
-                "token_decimals": 6,
-                "token_symbol": "USD1",
-                "token_name": "World Liberty Financial USD",
-                "value": 27486.000645222004
               }
             ]
           },
