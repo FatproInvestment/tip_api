@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-09-18T23:48:06.560Z",
+  "timestamp": "2025-09-18T23:54:50.534Z",
   "data": [
     {
       "address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
@@ -12,10 +12,10 @@
       "website": "",
       "twitter": "",
       "holder": 21765,
-      "market_cap": 158045879,
-      "price": 1.00029,
+      "market_cap": 158045644,
+      "price": 1.00028,
       "price_change_24h": 0.01,
-      "volume_24h": 9224807.11,
+      "volume_24h": 9218931.56,
       "pool_address": "solana_AQAGYQsdU853WAKhXM79CgNdoyhrRwXvYHX6qrDyC1FS",
       "ath": 1.0487321954051128,
       "ath_timestamp": 1757635200,
@@ -23,11 +23,11 @@
       "dexId": "raydium",
       "pairAddress": "BCDdHonby65iduz3Ev3c9v5XjNkzyu5e56KRFHpBM4T9",
       "txns_24h": {
-        "buys": 9943,
-        "sells": 9602
+        "buys": 9942,
+        "sells": 9604
       },
-      "fdv_usd": 158045879,
-      "total_reserve_in_usd": 15425302.03,
+      "fdv_usd": 158045644,
+      "total_reserve_in_usd": 15425288.68,
       "tags": [],
       "first_signal": {
         "timestamp": 1757553221,
@@ -35,8 +35,28 @@
       },
       "metrics": {
         "uniqueWallets": 5,
-        "inflow24h": 170.1354814887561,
+        "inflow24h": 188.95195107679115,
         "trades": [
+          {
+            "timestamp": "2025-09-18T23:52:33.000Z",
+            "type": "SWAP",
+            "amount": 798.931477,
+            "usdValue": 780.3835304119655,
+            "wallet": {
+              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+              "name": "凉粉小刀"
+            }
+          },
+          {
+            "timestamp": "2025-09-18T23:52:33.000Z",
+            "type": "BUY",
+            "amount": 798.931477,
+            "usdValue": 799.2,
+            "wallet": {
+              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+              "name": "凉粉小刀"
+            }
+          },
           {
             "timestamp": "2025-09-18T23:11:30.000Z",
             "type": "SWAP",
@@ -351,14 +371,14 @@
       },
       "walletPortfolios": [
         {
-          "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
-          "name": "eca.eth",
-          "score": 1,
+          "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+          "name": "凉粉小刀",
+          "score": 2,
           "tokens": [
             {
               "token_address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
               "balance": 0,
-              "token_price": 1.00029,
+              "token_price": 1.00028,
               "token_decimals": 6,
               "token_symbol": "USD1",
               "token_name": "World Liberty Financial USD",
@@ -367,14 +387,14 @@
           ]
         },
         {
-          "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
-          "name": "凉粉小刀",
-          "score": 2,
+          "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
+          "name": "eca.eth",
+          "score": 1,
           "tokens": [
             {
               "token_address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
               "balance": 0,
-              "token_price": 1.00029,
+              "token_price": 1.00028,
               "token_decimals": 6,
               "token_symbol": "USD1",
               "token_name": "World Liberty Financial USD",
@@ -390,7 +410,7 @@
             {
               "token_address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
               "balance": 0,
-              "token_price": 1.00029,
+              "token_price": 1.00028,
               "token_decimals": 6,
               "token_symbol": "USD1",
               "token_name": "World Liberty Financial USD",
@@ -406,7 +426,7 @@
             {
               "token_address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
               "balance": 0,
-              "token_price": 1.00029,
+              "token_price": 1.00028,
               "token_decimals": 6,
               "token_symbol": "USD1",
               "token_name": "World Liberty Financial USD",
@@ -422,11 +442,79 @@
             {
               "token_address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
               "balance": 0,
-              "token_price": 1.00029,
+              "token_price": 1.00028,
               "token_decimals": 6,
               "token_symbol": "USD1",
               "token_name": "World Liberty Financial USD",
               "value": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "address": "rnMLBLnUueJveGpLCS2BGsY3McJGRXZ8bqQ8eBWbonk",
+      "symbol": "MURICA",
+      "name": "Murica Coin",
+      "decimals": 6,
+      "icon": "https://ipfs.io/ipfs/bafybeidgvawj5lttonoor2ysatmtufp33iiubcfshyt5vzjgzktimnfnte",
+      "created_time": 1757528039,
+      "website": "https://www.murica.lol/",
+      "twitter": "https://x.com/murica_lol",
+      "holder": 3687,
+      "market_cap": 2089466,
+      "price": 0.002089,
+      "price_change_24h": -18.14,
+      "volume_24h": 1528526.91,
+      "pool_address": "solana_6wB4BxHKEBsRYRj2sMWWDFmQrz3ubGgxLq28StuNVAiM",
+      "ath": 0.01104190331695976,
+      "ath_timestamp": 1757602800,
+      "ath_pool": "w8pFettiZWgSH16Gxu5srFvqrUmgN4Ukrm2WeFod46u",
+      "dexId": "raydium",
+      "pairAddress": "6wB4BxHKEBsRYRj2sMWWDFmQrz3ubGgxLq28StuNVAiM",
+      "txns_24h": {
+        "buys": 2947,
+        "sells": 2709
+      },
+      "fdv_usd": 2089466,
+      "total_reserve_in_usd": 182184.22,
+      "tags": [
+        "moonshot"
+      ],
+      "first_signal": {
+        "timestamp": 1757564725,
+        "price": 0.006156
+      },
+      "metrics": {
+        "uniqueWallets": 1,
+        "inflow24h": 1196.3974529359436,
+        "trades": [
+          {
+            "timestamp": "2025-09-18T23:52:33.000Z",
+            "type": "BUY",
+            "amount": 599320.772529,
+            "usdValue": 1196.3974529359436,
+            "wallet": {
+              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+              "name": "凉粉小刀"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+          "name": "凉粉小刀",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "rnMLBLnUueJveGpLCS2BGsY3McJGRXZ8bqQ8eBWbonk",
+              "balance": 999240.865066,
+              "token_price": 0.002089,
+              "token_decimals": 6,
+              "token_symbol": "MURICA",
+              "token_name": "Murica Coin",
+              "value": 2087.414167122874
             }
           ]
         }
@@ -442,10 +530,10 @@
       "website": "https://www.tiktok.com/@karvetv?is_from_webapp=1&sender_device=pc",
       "twitter": "https://x.com/ColeCaetano_",
       "holder": 6589,
-      "market_cap": 8426072,
-      "price": 0.008426,
-      "price_change_24h": -24.2,
-      "volume_24h": 4945525.77,
+      "market_cap": 8249953,
+      "price": 0.00825,
+      "price_change_24h": -26.41,
+      "volume_24h": 5040788.16,
       "pool_address": "solana_9eyegrQF3JnEnEnGQKn2M7EB7H1j1ZTq8Sb65738wUMG",
       "ath": 0.04183603604389982,
       "ath_timestamp": 1757966400,
@@ -453,11 +541,11 @@
       "dexId": "pumpswap",
       "pairAddress": "9eyegrQF3JnEnEnGQKn2M7EB7H1j1ZTq8Sb65738wUMG",
       "txns_24h": {
-        "buys": 8448,
-        "sells": 7766
+        "buys": 8543,
+        "sells": 7804
       },
-      "fdv_usd": 8426072,
-      "total_reserve_in_usd": 569729.96,
+      "fdv_usd": 8249953,
+      "total_reserve_in_usd": 563988.5,
       "tags": [
         "moonshot"
       ],
@@ -530,11 +618,11 @@
             {
               "token_address": "V5cCiSixPLAiEDX2zZquT5VuLm4prr5t35PWmjNpump",
               "balance": 138103.657698,
-              "token_price": 0.008426,
+              "token_price": 0.00825,
               "token_decimals": 6,
               "token_symbol": "KIND",
               "token_name": "KindnessCoin",
-              "value": 1163.6614197633478
+              "value": 1139.3551760085
             }
           ]
         },
@@ -546,7 +634,7 @@
             {
               "token_address": "V5cCiSixPLAiEDX2zZquT5VuLm4prr5t35PWmjNpump",
               "balance": 0,
-              "token_price": 0.008426,
+              "token_price": 0.00825,
               "token_decimals": 6,
               "token_symbol": "KIND",
               "token_name": "KindnessCoin",
@@ -566,10 +654,10 @@
       "website": "https://streamercoin.live/",
       "twitter": "https://x.com/biznez_/status/1962983562833264871",
       "holder": 9609,
-      "market_cap": 3150680,
-      "price": 0.00315,
-      "price_change_24h": 9.81,
-      "volume_24h": 1700743.47,
+      "market_cap": 3300916,
+      "price": 0.0033,
+      "price_change_24h": 19.2,
+      "volume_24h": 1699153.36,
       "pool_address": "solana_B1EzTqQTkAWMBZBkEyKGb5dxebYfB74nJcmSAR14cXJt",
       "ath": 0.03995702165714927,
       "ath_timestamp": 1757721600,
@@ -577,11 +665,11 @@
       "dexId": "pumpswap",
       "pairAddress": "B1EzTqQTkAWMBZBkEyKGb5dxebYfB74nJcmSAR14cXJt",
       "txns_24h": {
-        "buys": 3857,
-        "sells": 3681
+        "buys": 3889,
+        "sells": 3706
       },
-      "fdv_usd": 3150680,
-      "total_reserve_in_usd": 358896.92,
+      "fdv_usd": 3300916,
+      "total_reserve_in_usd": 367401.29,
       "tags": [
         "moonshot"
       ],
@@ -644,11 +732,11 @@
             {
               "token_address": "3arUrpH3nzaRJbbpVgY42dcqSq9A5BFgUxKozZ4npump",
               "balance": 262791.303647,
-              "token_price": 0.00315,
+              "token_price": 0.0033,
               "token_decimals": 6,
               "token_symbol": "STREAMER",
               "token_name": "StreamerCoin",
-              "value": 827.79260648805
+              "value": 867.2113020351
             }
           ]
         }
@@ -664,10 +752,10 @@
       "website": "",
       "twitter": "https://x.com/i/communities/1965925295229460830",
       "holder": 10719,
-      "market_cap": 4717006,
-      "price": 0.004717,
-      "price_change_24h": 21.47,
-      "volume_24h": 2601841.48,
+      "market_cap": 5265377,
+      "price": 0.005265,
+      "price_change_24h": 36.66,
+      "volume_24h": 2616273.58,
       "pool_address": "solana_FBZSQpAYGQJpmRT8L33QnGwv6bCaTx6XCjmTPVCw3gdZ",
       "ath": 0.0538755432676097,
       "ath_timestamp": 1757808000,
@@ -675,11 +763,11 @@
       "dexId": "pumpswap",
       "pairAddress": "FBZSQpAYGQJpmRT8L33QnGwv6bCaTx6XCjmTPVCw3gdZ",
       "txns_24h": {
-        "buys": 4467,
-        "sells": 4188
+        "buys": 4439,
+        "sells": 4238
       },
-      "fdv_usd": 4717006,
-      "total_reserve_in_usd": 449068.99,
+      "fdv_usd": 5265377,
+      "total_reserve_in_usd": 474625.51,
       "tags": [
         "moonshot"
       ],
@@ -772,11 +860,11 @@
             {
               "token_address": "7Pnqg1S6MYrL6AP1ZXcToTHfdBbTB77ze6Y33qBBpump",
               "balance": 164823.818925,
-              "token_price": 0.004717,
+              "token_price": 0.005265,
               "token_decimals": 6,
               "token_symbol": "Bagwork",
               "token_name": "Bagwork",
-              "value": 777.4739538692249
+              "value": 867.7974066401249
             }
           ]
         },
@@ -788,11 +876,11 @@
             {
               "token_address": "7Pnqg1S6MYrL6AP1ZXcToTHfdBbTB77ze6Y33qBBpump",
               "balance": 413515.021468,
-              "token_price": 0.004717,
+              "token_price": 0.005265,
               "token_decimals": 6,
               "token_symbol": "Bagwork",
               "token_name": "Bagwork",
-              "value": 1950.550356264556
+              "value": 2177.15658802902
             }
           ]
         }
@@ -808,10 +896,10 @@
       "website": "",
       "twitter": "https://x.com/recruit_pf",
       "holder": 2434,
-      "market_cap": 1648970,
-      "price": 0.001648,
-      "price_change_24h": 1531,
-      "volume_24h": 4231175.72,
+      "market_cap": 1322567,
+      "price": 0.001322,
+      "price_change_24h": 1208,
+      "volume_24h": 4259160.51,
       "pool_address": "solana_3TceJtbPsPpgJ1TvtsqNLe51mVyQ3Fv3CehmnPodBmrm",
       "ath": 0.0017966286561540384,
       "ath_timestamp": 1758229200,
@@ -822,11 +910,11 @@
         "active": 10
       },
       "txns_24h": {
-        "buys": 17876,
-        "sells": 14397
+        "buys": 17965,
+        "sells": 14464
       },
-      "fdv_usd": 1648970,
-      "total_reserve_in_usd": 184219.82,
+      "fdv_usd": 1322567,
+      "total_reserve_in_usd": 165046.93,
       "tags": [],
       "first_signal": {
         "timestamp": 1758213504,
@@ -887,11 +975,11 @@
             {
               "token_address": "3xqp9ybyD9ijcwwt2GVja1WFVioFZxgc283Jma2Spump",
               "balance": 1543168.849989,
-              "token_price": 0.001648,
+              "token_price": 0.001322,
               "token_decimals": 6,
               "token_symbol": "RECRUIT",
               "token_name": "RECRUIT",
-              "value": 2543.1422647818717
+              "value": 2040.0692196854582
             }
           ]
         },
@@ -903,11 +991,11 @@
             {
               "token_address": "3xqp9ybyD9ijcwwt2GVja1WFVioFZxgc283Jma2Spump",
               "balance": 13914362.672608,
-              "token_price": 0.001648,
+              "token_price": 0.001322,
               "token_decimals": 6,
               "token_symbol": "RECRUIT",
               "token_name": "RECRUIT",
-              "value": 22930.869684457983
+              "value": 18394.787453187775
             }
           ]
         }
@@ -923,10 +1011,10 @@
       "website": "",
       "twitter": "",
       "holder": 8971,
-      "market_cap": 50624901,
-      "price": 0.2128,
-      "price_change_24h": -26.84,
-      "volume_24h": 23052925.17,
+      "market_cap": 50437696,
+      "price": 0.212,
+      "price_change_24h": -27.66,
+      "volume_24h": 23019297.76,
       "pool_address": "solana_HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD",
       "ath": 0.3830175199241448,
       "ath_timestamp": 1757808000,
@@ -934,11 +1022,11 @@
       "dexId": "raydium",
       "pairAddress": "HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD",
       "txns_24h": {
-        "buys": 5439,
-        "sells": 4660
+        "buys": 5426,
+        "sells": 4651
       },
-      "fdv_usd": 425715106,
-      "total_reserve_in_usd": 7897105.32,
+      "fdv_usd": 424140862,
+      "total_reserve_in_usd": 7881604.5,
       "tags": [
         "moonshot"
       ],
@@ -1251,7 +1339,7 @@
             {
               "token_address": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
               "balance": 0,
-              "token_price": 0.2128,
+              "token_price": 0.212,
               "token_decimals": 6,
               "token_symbol": "CARDS",
               "token_name": "Collector Crypt",
@@ -1267,11 +1355,11 @@
             {
               "token_address": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
               "balance": 200711.377392,
-              "token_price": 0.2128,
+              "token_price": 0.212,
               "token_decimals": 6,
               "token_symbol": "CARDS",
               "token_name": "Collector Crypt",
-              "value": 42711.381109017595
+              "value": 42550.812007103996
             }
           ]
         },
@@ -1283,11 +1371,11 @@
             {
               "token_address": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
               "balance": 96968.060755,
-              "token_price": 0.2128,
+              "token_price": 0.212,
               "token_decimals": 6,
               "token_symbol": "CARDS",
               "token_name": "Collector Crypt",
-              "value": 20634.803328664
+              "value": 20557.22888006
             }
           ]
         },
@@ -1299,7 +1387,7 @@
             {
               "token_address": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
               "balance": 0,
-              "token_price": 0.2128,
+              "token_price": 0.212,
               "token_decimals": 6,
               "token_symbol": "CARDS",
               "token_name": "Collector Crypt",
@@ -1319,10 +1407,10 @@
       "website": "",
       "twitter": "https://x.com/i/communities/1968442277552074769",
       "holder": 6726,
-      "market_cap": 19210211,
-      "price": 0.01921,
-      "price_change_24h": 4211,
-      "volume_24h": 23696091.31,
+      "market_cap": 18898947,
+      "price": 0.01889,
+      "price_change_24h": 3159,
+      "volume_24h": 23869244.09,
       "pool_address": "solana_6sEkZ73vph5AFYmQTzaV6H5vAQQLZ2C8WqeCQ6MhLqFk",
       "ath": 0.01981154941636625,
       "ath_timestamp": 1758218400,
@@ -1330,11 +1418,11 @@
       "dexId": "raydium",
       "pairAddress": "6sEkZ73vph5AFYmQTzaV6H5vAQQLZ2C8WqeCQ6MhLqFk",
       "txns_24h": {
-        "buys": 46821,
-        "sells": 41783
+        "buys": 46852,
+        "sells": 41876
       },
-      "fdv_usd": 19210211,
-      "total_reserve_in_usd": 540055.55,
+      "fdv_usd": 18898947,
+      "total_reserve_in_usd": 536038.95,
       "tags": [
         "moonshot"
       ],
@@ -1467,7 +1555,7 @@
             {
               "token_address": "GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk",
               "balance": 0,
-              "token_price": 0.01921,
+              "token_price": 0.01889,
               "token_decimals": 6,
               "token_symbol": "1",
               "token_name": "1 coin can change your life",
@@ -1483,11 +1571,11 @@
             {
               "token_address": "GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk",
               "balance": 656672.627991,
-              "token_price": 0.01921,
+              "token_price": 0.01889,
               "token_decimals": 6,
               "token_symbol": "1",
               "token_name": "1 coin can change your life",
-              "value": 12614.68118370711
+              "value": 12404.54594274999
             }
           ]
         },
@@ -1499,11 +1587,11 @@
             {
               "token_address": "GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk",
               "balance": 6565684.825038,
-              "token_price": 0.01921,
+              "token_price": 0.01889,
               "token_decimals": 6,
               "token_symbol": "1",
               "token_name": "1 coin can change your life",
-              "value": 126126.80548897998
+              "value": 124025.78634496783
             }
           ]
         }
@@ -1522,10 +1610,10 @@
         "website": "",
         "twitter": "https://x.com/recruit_pf",
         "holder": 2434,
-        "market_cap": 1648970,
-        "price": 0.001648,
-        "price_change_24h": 1531,
-        "volume_24h": 4231175.72,
+        "market_cap": 1322567,
+        "price": 0.001322,
+        "price_change_24h": 1208,
+        "volume_24h": 4259160.51,
         "pool_address": "solana_3TceJtbPsPpgJ1TvtsqNLe51mVyQ3Fv3CehmnPodBmrm",
         "ath": 0.0017966286561540384,
         "ath_timestamp": 1758229200,
@@ -1536,11 +1624,11 @@
           "active": 10
         },
         "txns_24h": {
-          "buys": 17876,
-          "sells": 14397
+          "buys": 17965,
+          "sells": 14464
         },
-        "fdv_usd": 1648970,
-        "total_reserve_in_usd": 184219.82,
+        "fdv_usd": 1322567,
+        "total_reserve_in_usd": 165046.93,
         "tags": [],
         "first_signal": {
           "timestamp": 1758213504,
@@ -1601,11 +1689,11 @@
               {
                 "token_address": "3xqp9ybyD9ijcwwt2GVja1WFVioFZxgc283Jma2Spump",
                 "balance": 1543168.849989,
-                "token_price": 0.001648,
+                "token_price": 0.001322,
                 "token_decimals": 6,
                 "token_symbol": "RECRUIT",
                 "token_name": "RECRUIT",
-                "value": 2543.1422647818717
+                "value": 2040.0692196854582
               }
             ]
           },
@@ -1617,11 +1705,11 @@
               {
                 "token_address": "3xqp9ybyD9ijcwwt2GVja1WFVioFZxgc283Jma2Spump",
                 "balance": 13914362.672608,
-                "token_price": 0.001648,
+                "token_price": 0.001322,
                 "token_decimals": 6,
                 "token_symbol": "RECRUIT",
                 "token_name": "RECRUIT",
-                "value": 22930.869684457983
+                "value": 18394.787453187775
               }
             ]
           }
@@ -1637,10 +1725,10 @@
         "website": "",
         "twitter": "https://x.com/i/communities/1968442277552074769",
         "holder": 6726,
-        "market_cap": 19210211,
-        "price": 0.01921,
-        "price_change_24h": 4211,
-        "volume_24h": 23696091.31,
+        "market_cap": 18898947,
+        "price": 0.01889,
+        "price_change_24h": 3159,
+        "volume_24h": 23869244.09,
         "pool_address": "solana_6sEkZ73vph5AFYmQTzaV6H5vAQQLZ2C8WqeCQ6MhLqFk",
         "ath": 0.01981154941636625,
         "ath_timestamp": 1758218400,
@@ -1648,11 +1736,11 @@
         "dexId": "raydium",
         "pairAddress": "6sEkZ73vph5AFYmQTzaV6H5vAQQLZ2C8WqeCQ6MhLqFk",
         "txns_24h": {
-          "buys": 46821,
-          "sells": 41783
+          "buys": 46852,
+          "sells": 41876
         },
-        "fdv_usd": 19210211,
-        "total_reserve_in_usd": 540055.55,
+        "fdv_usd": 18898947,
+        "total_reserve_in_usd": 536038.95,
         "tags": [
           "moonshot"
         ],
@@ -1785,7 +1873,7 @@
               {
                 "token_address": "GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk",
                 "balance": 0,
-                "token_price": 0.01921,
+                "token_price": 0.01889,
                 "token_decimals": 6,
                 "token_symbol": "1",
                 "token_name": "1 coin can change your life",
@@ -1801,11 +1889,11 @@
               {
                 "token_address": "GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk",
                 "balance": 656672.627991,
-                "token_price": 0.01921,
+                "token_price": 0.01889,
                 "token_decimals": 6,
                 "token_symbol": "1",
                 "token_name": "1 coin can change your life",
-                "value": 12614.68118370711
+                "value": 12404.54594274999
               }
             ]
           },
@@ -1817,11 +1905,11 @@
               {
                 "token_address": "GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk",
                 "balance": 6565684.825038,
-                "token_price": 0.01921,
+                "token_price": 0.01889,
                 "token_decimals": 6,
                 "token_symbol": "1",
                 "token_name": "1 coin can change your life",
-                "value": 126126.80548897998
+                "value": 124025.78634496783
               }
             ]
           }
@@ -1829,6 +1917,74 @@
       }
     ],
     "buys": [
+      {
+        "address": "rnMLBLnUueJveGpLCS2BGsY3McJGRXZ8bqQ8eBWbonk",
+        "symbol": "MURICA",
+        "name": "Murica Coin",
+        "decimals": 6,
+        "icon": "https://ipfs.io/ipfs/bafybeidgvawj5lttonoor2ysatmtufp33iiubcfshyt5vzjgzktimnfnte",
+        "created_time": 1757528039,
+        "website": "https://www.murica.lol/",
+        "twitter": "https://x.com/murica_lol",
+        "holder": 3687,
+        "market_cap": 2089466,
+        "price": 0.002089,
+        "price_change_24h": -18.14,
+        "volume_24h": 1528526.91,
+        "pool_address": "solana_6wB4BxHKEBsRYRj2sMWWDFmQrz3ubGgxLq28StuNVAiM",
+        "ath": 0.01104190331695976,
+        "ath_timestamp": 1757602800,
+        "ath_pool": "w8pFettiZWgSH16Gxu5srFvqrUmgN4Ukrm2WeFod46u",
+        "dexId": "raydium",
+        "pairAddress": "6wB4BxHKEBsRYRj2sMWWDFmQrz3ubGgxLq28StuNVAiM",
+        "txns_24h": {
+          "buys": 2947,
+          "sells": 2709
+        },
+        "fdv_usd": 2089466,
+        "total_reserve_in_usd": 182184.22,
+        "tags": [
+          "moonshot"
+        ],
+        "first_signal": {
+          "timestamp": 1757564725,
+          "price": 0.006156
+        },
+        "metrics": {
+          "uniqueWallets": 1,
+          "inflow24h": 1196.3974529359436,
+          "trades": [
+            {
+              "timestamp": "2025-09-18T23:52:33.000Z",
+              "type": "BUY",
+              "amount": 599320.772529,
+              "usdValue": 1196.3974529359436,
+              "wallet": {
+                "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+                "name": "凉粉小刀"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+            "name": "凉粉小刀",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "rnMLBLnUueJveGpLCS2BGsY3McJGRXZ8bqQ8eBWbonk",
+                "balance": 999240.865066,
+                "token_price": 0.002089,
+                "token_decimals": 6,
+                "token_symbol": "MURICA",
+                "token_name": "Murica Coin",
+                "value": 2087.414167122874
+              }
+            ]
+          }
+        ]
+      },
       {
         "address": "V5cCiSixPLAiEDX2zZquT5VuLm4prr5t35PWmjNpump",
         "symbol": "KIND",
@@ -1839,10 +1995,10 @@
         "website": "https://www.tiktok.com/@karvetv?is_from_webapp=1&sender_device=pc",
         "twitter": "https://x.com/ColeCaetano_",
         "holder": 6589,
-        "market_cap": 8426072,
-        "price": 0.008426,
-        "price_change_24h": -24.2,
-        "volume_24h": 4945525.77,
+        "market_cap": 8249953,
+        "price": 0.00825,
+        "price_change_24h": -26.41,
+        "volume_24h": 5040788.16,
         "pool_address": "solana_9eyegrQF3JnEnEnGQKn2M7EB7H1j1ZTq8Sb65738wUMG",
         "ath": 0.04183603604389982,
         "ath_timestamp": 1757966400,
@@ -1850,11 +2006,11 @@
         "dexId": "pumpswap",
         "pairAddress": "9eyegrQF3JnEnEnGQKn2M7EB7H1j1ZTq8Sb65738wUMG",
         "txns_24h": {
-          "buys": 8448,
-          "sells": 7766
+          "buys": 8543,
+          "sells": 7804
         },
-        "fdv_usd": 8426072,
-        "total_reserve_in_usd": 569729.96,
+        "fdv_usd": 8249953,
+        "total_reserve_in_usd": 563988.5,
         "tags": [
           "moonshot"
         ],
@@ -1927,11 +2083,11 @@
               {
                 "token_address": "V5cCiSixPLAiEDX2zZquT5VuLm4prr5t35PWmjNpump",
                 "balance": 138103.657698,
-                "token_price": 0.008426,
+                "token_price": 0.00825,
                 "token_decimals": 6,
                 "token_symbol": "KIND",
                 "token_name": "KindnessCoin",
-                "value": 1163.6614197633478
+                "value": 1139.3551760085
               }
             ]
           },
@@ -1943,7 +2099,7 @@
               {
                 "token_address": "V5cCiSixPLAiEDX2zZquT5VuLm4prr5t35PWmjNpump",
                 "balance": 0,
-                "token_price": 0.008426,
+                "token_price": 0.00825,
                 "token_decimals": 6,
                 "token_symbol": "KIND",
                 "token_name": "KindnessCoin",
@@ -1963,10 +2119,10 @@
         "website": "https://streamercoin.live/",
         "twitter": "https://x.com/biznez_/status/1962983562833264871",
         "holder": 9609,
-        "market_cap": 3150680,
-        "price": 0.00315,
-        "price_change_24h": 9.81,
-        "volume_24h": 1700743.47,
+        "market_cap": 3300916,
+        "price": 0.0033,
+        "price_change_24h": 19.2,
+        "volume_24h": 1699153.36,
         "pool_address": "solana_B1EzTqQTkAWMBZBkEyKGb5dxebYfB74nJcmSAR14cXJt",
         "ath": 0.03995702165714927,
         "ath_timestamp": 1757721600,
@@ -1974,11 +2130,11 @@
         "dexId": "pumpswap",
         "pairAddress": "B1EzTqQTkAWMBZBkEyKGb5dxebYfB74nJcmSAR14cXJt",
         "txns_24h": {
-          "buys": 3857,
-          "sells": 3681
+          "buys": 3889,
+          "sells": 3706
         },
-        "fdv_usd": 3150680,
-        "total_reserve_in_usd": 358896.92,
+        "fdv_usd": 3300916,
+        "total_reserve_in_usd": 367401.29,
         "tags": [
           "moonshot"
         ],
@@ -2041,11 +2197,11 @@
               {
                 "token_address": "3arUrpH3nzaRJbbpVgY42dcqSq9A5BFgUxKozZ4npump",
                 "balance": 262791.303647,
-                "token_price": 0.00315,
+                "token_price": 0.0033,
                 "token_decimals": 6,
                 "token_symbol": "STREAMER",
                 "token_name": "StreamerCoin",
-                "value": 827.79260648805
+                "value": 867.2113020351
               }
             ]
           }
@@ -2061,10 +2217,10 @@
         "website": "",
         "twitter": "https://x.com/i/communities/1965925295229460830",
         "holder": 10719,
-        "market_cap": 4717006,
-        "price": 0.004717,
-        "price_change_24h": 21.47,
-        "volume_24h": 2601841.48,
+        "market_cap": 5265377,
+        "price": 0.005265,
+        "price_change_24h": 36.66,
+        "volume_24h": 2616273.58,
         "pool_address": "solana_FBZSQpAYGQJpmRT8L33QnGwv6bCaTx6XCjmTPVCw3gdZ",
         "ath": 0.0538755432676097,
         "ath_timestamp": 1757808000,
@@ -2072,11 +2228,11 @@
         "dexId": "pumpswap",
         "pairAddress": "FBZSQpAYGQJpmRT8L33QnGwv6bCaTx6XCjmTPVCw3gdZ",
         "txns_24h": {
-          "buys": 4467,
-          "sells": 4188
+          "buys": 4439,
+          "sells": 4238
         },
-        "fdv_usd": 4717006,
-        "total_reserve_in_usd": 449068.99,
+        "fdv_usd": 5265377,
+        "total_reserve_in_usd": 474625.51,
         "tags": [
           "moonshot"
         ],
@@ -2169,11 +2325,11 @@
               {
                 "token_address": "7Pnqg1S6MYrL6AP1ZXcToTHfdBbTB77ze6Y33qBBpump",
                 "balance": 164823.818925,
-                "token_price": 0.004717,
+                "token_price": 0.005265,
                 "token_decimals": 6,
                 "token_symbol": "Bagwork",
                 "token_name": "Bagwork",
-                "value": 777.4739538692249
+                "value": 867.7974066401249
               }
             ]
           },
@@ -2185,11 +2341,11 @@
               {
                 "token_address": "7Pnqg1S6MYrL6AP1ZXcToTHfdBbTB77ze6Y33qBBpump",
                 "balance": 413515.021468,
-                "token_price": 0.004717,
+                "token_price": 0.005265,
                 "token_decimals": 6,
                 "token_symbol": "Bagwork",
                 "token_name": "Bagwork",
-                "value": 1950.550356264556
+                "value": 2177.15658802902
               }
             ]
           }
