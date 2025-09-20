@@ -1,7 +1,108 @@
 {
   "success": true,
-  "timestamp": "2025-09-20T15:36:31.608Z",
+  "timestamp": "2025-09-20T15:43:12.053Z",
   "data": [
+    {
+      "address": "ZEXy1pqteRu3n13kdyh4LwPQknkFk3GzmMYMuNadWPo",
+      "symbol": "ZEX",
+      "name": "Zeta",
+      "decimals": 6,
+      "icon": "https://raw.githubusercontent.com/zetamarkets/brand/master/assets/zeta.png",
+      "created_time": 1718275055,
+      "website": "",
+      "twitter": "",
+      "holder": 30895,
+      "market_cap": 26643895,
+      "price": 0.1418,
+      "price_change_24h": 61.54,
+      "volume_24h": 2318285.25,
+      "pool_address": "solana_AtVLUNzUiS9wkwCCDjuUpowmkkbbpFWTQs6EAxACBBKb",
+      "ath": 0.1418,
+      "ath_pool": "",
+      "dexId": "raydium",
+      "pairAddress": "AtVLUNzUiS9wkwCCDjuUpowmkkbbpFWTQs6EAxACBBKb",
+      "txns_24h": {
+        "buys": 1804,
+        "sells": 2437
+      },
+      "fdv_usd": 141896563,
+      "total_reserve_in_usd": 603446.06,
+      "tags": [],
+      "first_signal": {
+        "timestamp": 1758382990,
+        "price": 0.1418
+      },
+      "metrics": {
+        "uniqueWallets": 2,
+        "inflow24h": -129.07209599999624,
+        "trades": [
+          {
+            "timestamp": "2025-09-20T15:37:15.000Z",
+            "type": "BUY",
+            "amount": 1405.092195,
+            "usdValue": 192.411736,
+            "wallet": {
+              "address": "EJ2jyVUceCYvC1HxY77X2adre7Kcf8sQaucrKaQtVtXs",
+              "name": "justice3.6x"
+            }
+          },
+          {
+            "timestamp": "2025-09-20T15:21:00.000Z",
+            "type": "SELL",
+            "amount": 263266.410276,
+            "usdValue": 34684.488979,
+            "wallet": {
+              "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+              "name": "Ansem"
+            }
+          },
+          {
+            "timestamp": "2025-09-20T13:17:56.000Z",
+            "type": "BUY",
+            "amount": 263529.940216,
+            "usdValue": 34363.005147,
+            "wallet": {
+              "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+              "name": "Ansem"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "EJ2jyVUceCYvC1HxY77X2adre7Kcf8sQaucrKaQtVtXs",
+          "name": "justice3.6x",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "ZEXy1pqteRu3n13kdyh4LwPQknkFk3GzmMYMuNadWPo",
+              "balance": 5701.862104,
+              "token_price": 0.1418,
+              "token_decimals": 6,
+              "token_symbol": "ZEX",
+              "token_name": "Zeta",
+              "value": 808.5240463472
+            }
+          ]
+        },
+        {
+          "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+          "name": "Ansem",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "ZEXy1pqteRu3n13kdyh4LwPQknkFk3GzmMYMuNadWPo",
+              "balance": 0,
+              "token_price": 0.1418,
+              "token_decimals": 6,
+              "token_symbol": "ZEX",
+              "token_name": "Zeta",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
     {
       "address": "7Pnqg1S6MYrL6AP1ZXcToTHfdBbTB77ze6Y33qBBpump",
       "symbol": "Bagwork",
@@ -12,10 +113,10 @@
       "website": "",
       "twitter": "https://x.com/i/communities/1965925295229460830",
       "holder": 11984,
-      "market_cap": 10972675,
-      "price": 0.01097,
-      "price_change_24h": 118,
-      "volume_24h": 5617669.02,
+      "market_cap": 10966799,
+      "price": 0.01096,
+      "price_change_24h": 122,
+      "volume_24h": 5652738.04,
       "pool_address": "solana_FBZSQpAYGQJpmRT8L33QnGwv6bCaTx6XCjmTPVCw3gdZ",
       "ath": 0.0538755432676097,
       "ath_timestamp": 1757808000,
@@ -23,11 +124,11 @@
       "dexId": "pumpswap",
       "pairAddress": "FBZSQpAYGQJpmRT8L33QnGwv6bCaTx6XCjmTPVCw3gdZ",
       "txns_24h": {
-        "buys": 10869,
-        "sells": 8645
+        "buys": 10931,
+        "sells": 8681
       },
-      "fdv_usd": 10972675,
-      "total_reserve_in_usd": 692706.04,
+      "fdv_usd": 10966799,
+      "total_reserve_in_usd": 692238.59,
       "tags": [
         "moonshot"
       ],
@@ -60,11 +161,11 @@
             {
               "token_address": "7Pnqg1S6MYrL6AP1ZXcToTHfdBbTB77ze6Y33qBBpump",
               "balance": 2849929.282421,
-              "token_price": 0.01097,
+              "token_price": 0.01096,
               "token_decimals": 6,
               "token_symbol": "Bagwork",
               "token_name": "Bagwork",
-              "value": 31263.72422815837
+              "value": 31235.224935334158
             }
           ]
         }
@@ -80,10 +181,10 @@
       "website": "https://goldmanssacksol.com/",
       "twitter": "https://x.com/TheGoldmansSack/status/1969172155851067575",
       "holder": 2666,
-      "market_cap": 791805,
-      "price": 0.0007918,
-      "price_change_24h": 708,
-      "volume_24h": 4460618.42,
+      "market_cap": 782956,
+      "price": 0.0007829,
+      "price_change_24h": 699,
+      "volume_24h": 4474580.82,
       "pool_address": "solana_EteswRwds8zY6d7Dqc6zWabzUZFMV91V4sa1GBxbMGUs",
       "ath": 0.0010371982622090715,
       "ath_timestamp": 1758376800,
@@ -94,11 +195,11 @@
         "active": 500
       },
       "txns_24h": {
-        "buys": 22843,
-        "sells": 18305
+        "buys": 22911,
+        "sells": 18378
       },
-      "fdv_usd": 791805,
-      "total_reserve_in_usd": 126882.87,
+      "fdv_usd": 782956,
+      "total_reserve_in_usd": 126113.29,
       "tags": [],
       "first_signal": {
         "timestamp": 1758370860,
@@ -189,11 +290,11 @@
             {
               "token_address": "FhR6AdyCeTQMdxNfHiyLYj8MxFhmNPL3Nduj89e1pump",
               "balance": 17233351.779378,
-              "token_price": 0.0007918,
+              "token_price": 0.0007829,
               "token_decimals": 6,
               "token_symbol": "GS",
               "token_name": "Goldmans Sack",
-              "value": 13645.3679389115
+              "value": 13491.991108075037
             }
           ]
         },
@@ -205,11 +306,11 @@
             {
               "token_address": "FhR6AdyCeTQMdxNfHiyLYj8MxFhmNPL3Nduj89e1pump",
               "balance": 15368.618135,
-              "token_price": 0.0007918,
+              "token_price": 0.0007829,
               "token_decimals": 6,
               "token_symbol": "GS",
               "token_name": "Goldmans Sack",
-              "value": 12.168871839292999
+              "value": 12.0320911378915
             }
           ]
         }
@@ -225,10 +326,10 @@
       "website": "",
       "twitter": "https://x.com/daniel_wwf",
       "holder": 701,
-      "market_cap": 104333,
-      "price": 0.0001043,
-      "price_change_24h": 799,
-      "volume_24h": 705275.02,
+      "market_cap": 105237,
+      "price": 0.0001052,
+      "price_change_24h": 838,
+      "volume_24h": 706095.4,
       "pool_address": "solana_S4KPVVeheV5oR3Z4gB88cVU5A4gzzivsF69ajGUyr2k",
       "ath": 0.00032160382415573547,
       "ath_timestamp": 1758362400,
@@ -239,11 +340,11 @@
         "active": 10
       },
       "txns_24h": {
-        "buys": 3558,
-        "sells": 2502
+        "buys": 3568,
+        "sells": 2504
       },
-      "fdv_usd": 104333,
-      "total_reserve_in_usd": 43093.23,
+      "fdv_usd": 105237,
+      "total_reserve_in_usd": 43247.21,
       "tags": [],
       "first_signal": {
         "timestamp": 1758352726,
@@ -314,7 +415,7 @@
             {
               "token_address": "CVS4NMq2AVSJEzi9ui8TCm3QrCTfDtRmKZh6cSdnpump",
               "balance": 0,
-              "token_price": 0.0001043,
+              "token_price": 0.0001052,
               "token_decimals": 6,
               "token_symbol": "nuked",
               "token_name": "lolnuked",
@@ -330,11 +431,11 @@
             {
               "token_address": "CVS4NMq2AVSJEzi9ui8TCm3QrCTfDtRmKZh6cSdnpump",
               "balance": 27571911.403691,
-              "token_price": 0.0001043,
+              "token_price": 0.0001052,
               "token_decimals": 6,
               "token_symbol": "nuked",
               "token_name": "lolnuked",
-              "value": 2875.7503594049713
+              "value": 2900.565079668293
             }
           ]
         }
@@ -350,10 +451,10 @@
       "website": "",
       "twitter": "https://x.com/i/communities/1969081993645191496",
       "holder": 356,
-      "market_cap": 15034,
-      "price": 1.503e-05,
-      "price_change_24h": -84.56,
-      "volume_24h": 357101.92,
+      "market_cap": 14900,
+      "price": 1.49e-05,
+      "price_change_24h": -84.69,
+      "volume_24h": 357161.44,
       "pool_address": "solana_AnakMMpvMwx3RewXbFRKsE5izveXpJHpqfwFUPCvEtdf",
       "ath": 8.738e-05,
       "ath_timestamp": 1758314028,
@@ -361,11 +462,11 @@
       "dexId": "pumpswap",
       "pairAddress": "AnakMMpvMwx3RewXbFRKsE5izveXpJHpqfwFUPCvEtdf",
       "txns_24h": {
-        "buys": 2897,
-        "sells": 2230
+        "buys": 2898,
+        "sells": 2232
       },
-      "fdv_usd": 15034,
-      "total_reserve_in_usd": 15993.96,
+      "fdv_usd": 14900,
+      "total_reserve_in_usd": 15915.6,
       "tags": [],
       "first_signal": {
         "timestamp": 1758314020,
@@ -436,7 +537,7 @@
             {
               "token_address": "BsdY7w5qGuij4anKGC65sFnXmA2EoR3o5kM7wwbwpump",
               "balance": 0,
-              "token_price": 1.503e-05,
+              "token_price": 1.49e-05,
               "token_decimals": 6,
               "token_symbol": "Sales",
               "token_name": "Door-to-door",
@@ -452,7 +553,7 @@
             {
               "token_address": "BsdY7w5qGuij4anKGC65sFnXmA2EoR3o5kM7wwbwpump",
               "balance": 0,
-              "token_price": 1.503e-05,
+              "token_price": 1.49e-05,
               "token_decimals": 6,
               "token_symbol": "Sales",
               "token_name": "Door-to-door",
@@ -472,10 +573,10 @@
       "website": "",
       "twitter": "",
       "holder": 154,
-      "market_cap": 6106,
-      "price": 6.106e-06,
-      "price_change_24h": -89.78,
-      "volume_24h": 742421.83,
+      "market_cap": 6103,
+      "price": 6.103e-06,
+      "price_change_24h": -89.79,
+      "volume_24h": 742422.85,
       "pool_address": "solana_BZrn9irgBHvAJ5Ju22Q4xsB5DWc7ms4rksXnFoVkZ7cx",
       "ath": 2.371166368440152e-05,
       "ath_timestamp": 1758326400,
@@ -484,10 +585,10 @@
       "pairAddress": "BZrn9irgBHvAJ5Ju22Q4xsB5DWc7ms4rksXnFoVkZ7cx",
       "txns_24h": {
         "buys": 5016,
-        "sells": 3575
+        "sells": 3576
       },
-      "fdv_usd": 6106,
-      "total_reserve_in_usd": 8722.57,
+      "fdv_usd": 6103,
+      "total_reserve_in_usd": 8720.54,
       "tags": [],
       "first_signal": {
         "timestamp": 1758321526,
@@ -558,7 +659,7 @@
             {
               "token_address": "HsDrgECnfHvs2DiTGdVDKsRBJXzjGj2ju9N2NAGVbonk",
               "balance": 0,
-              "token_price": 6.106e-06,
+              "token_price": 6.103e-06,
               "token_decimals": 6,
               "token_symbol": "屎币",
               "token_name": "Chinese Shitcoin",
@@ -574,7 +675,7 @@
             {
               "token_address": "HsDrgECnfHvs2DiTGdVDKsRBJXzjGj2ju9N2NAGVbonk",
               "balance": 0,
-              "token_price": 6.106e-06,
+              "token_price": 6.103e-06,
               "token_decimals": 6,
               "token_symbol": "屎币",
               "token_name": "Chinese Shitcoin",
@@ -594,10 +695,10 @@
       "website": "",
       "twitter": "",
       "holder": 26602,
-      "market_cap": 158206361,
-      "price": 1.0013,
-      "price_change_24h": 0.14,
-      "volume_24h": 3891537.59,
+      "market_cap": 158203099,
+      "price": 1.0012,
+      "price_change_24h": 0.13,
+      "volume_24h": 3876396.12,
       "pool_address": "solana_AQAGYQsdU853WAKhXM79CgNdoyhrRwXvYHX6qrDyC1FS",
       "ath": 1.0487321954051128,
       "ath_timestamp": 1757635200,
@@ -605,11 +706,11 @@
       "dexId": "raydium",
       "pairAddress": "BCDdHonby65iduz3Ev3c9v5XjNkzyu5e56KRFHpBM4T9",
       "txns_24h": {
-        "buys": 4093,
-        "sells": 2669
+        "buys": 3973,
+        "sells": 2742
       },
-      "fdv_usd": 158206361,
-      "total_reserve_in_usd": 15427028.23,
+      "fdv_usd": 158203099,
+      "total_reserve_in_usd": 15426830.81,
       "tags": [],
       "first_signal": {
         "timestamp": 1757553221,
@@ -740,7 +841,7 @@
             {
               "token_address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
               "balance": 0,
-              "token_price": 1.0013,
+              "token_price": 1.0012,
               "token_decimals": 6,
               "token_symbol": "USD1",
               "token_name": "World Liberty Financial USD",
@@ -756,7 +857,7 @@
             {
               "token_address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
               "balance": 0,
-              "token_price": 1.0013,
+              "token_price": 1.0012,
               "token_decimals": 6,
               "token_symbol": "USD1",
               "token_name": "World Liberty Financial USD",
@@ -772,7 +873,7 @@
             {
               "token_address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
               "balance": 0,
-              "token_price": 1.0013,
+              "token_price": 1.0012,
               "token_decimals": 6,
               "token_symbol": "USD1",
               "token_name": "World Liberty Financial USD",
@@ -786,6 +887,107 @@
   "groups": {
     "latestSignals": [
       {
+        "address": "ZEXy1pqteRu3n13kdyh4LwPQknkFk3GzmMYMuNadWPo",
+        "symbol": "ZEX",
+        "name": "Zeta",
+        "decimals": 6,
+        "icon": "https://raw.githubusercontent.com/zetamarkets/brand/master/assets/zeta.png",
+        "created_time": 1718275055,
+        "website": "",
+        "twitter": "",
+        "holder": 30895,
+        "market_cap": 26643895,
+        "price": 0.1418,
+        "price_change_24h": 61.54,
+        "volume_24h": 2318285.25,
+        "pool_address": "solana_AtVLUNzUiS9wkwCCDjuUpowmkkbbpFWTQs6EAxACBBKb",
+        "ath": 0.1418,
+        "ath_pool": "",
+        "dexId": "raydium",
+        "pairAddress": "AtVLUNzUiS9wkwCCDjuUpowmkkbbpFWTQs6EAxACBBKb",
+        "txns_24h": {
+          "buys": 1804,
+          "sells": 2437
+        },
+        "fdv_usd": 141896563,
+        "total_reserve_in_usd": 603446.06,
+        "tags": [],
+        "first_signal": {
+          "timestamp": 1758382990,
+          "price": 0.1418
+        },
+        "metrics": {
+          "uniqueWallets": 2,
+          "inflow24h": -129.07209599999624,
+          "trades": [
+            {
+              "timestamp": "2025-09-20T15:37:15.000Z",
+              "type": "BUY",
+              "amount": 1405.092195,
+              "usdValue": 192.411736,
+              "wallet": {
+                "address": "EJ2jyVUceCYvC1HxY77X2adre7Kcf8sQaucrKaQtVtXs",
+                "name": "justice3.6x"
+              }
+            },
+            {
+              "timestamp": "2025-09-20T15:21:00.000Z",
+              "type": "SELL",
+              "amount": 263266.410276,
+              "usdValue": 34684.488979,
+              "wallet": {
+                "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+                "name": "Ansem"
+              }
+            },
+            {
+              "timestamp": "2025-09-20T13:17:56.000Z",
+              "type": "BUY",
+              "amount": 263529.940216,
+              "usdValue": 34363.005147,
+              "wallet": {
+                "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+                "name": "Ansem"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "EJ2jyVUceCYvC1HxY77X2adre7Kcf8sQaucrKaQtVtXs",
+            "name": "justice3.6x",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "ZEXy1pqteRu3n13kdyh4LwPQknkFk3GzmMYMuNadWPo",
+                "balance": 5701.862104,
+                "token_price": 0.1418,
+                "token_decimals": 6,
+                "token_symbol": "ZEX",
+                "token_name": "Zeta",
+                "value": 808.5240463472
+              }
+            ]
+          },
+          {
+            "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+            "name": "Ansem",
+            "score": 3,
+            "tokens": [
+              {
+                "token_address": "ZEXy1pqteRu3n13kdyh4LwPQknkFk3GzmMYMuNadWPo",
+                "balance": 0,
+                "token_price": 0.1418,
+                "token_decimals": 6,
+                "token_symbol": "ZEX",
+                "token_name": "Zeta",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
         "address": "FhR6AdyCeTQMdxNfHiyLYj8MxFhmNPL3Nduj89e1pump",
         "symbol": "GS",
         "name": "Goldmans Sack",
@@ -795,10 +997,10 @@
         "website": "https://goldmanssacksol.com/",
         "twitter": "https://x.com/TheGoldmansSack/status/1969172155851067575",
         "holder": 2666,
-        "market_cap": 791805,
-        "price": 0.0007918,
-        "price_change_24h": 708,
-        "volume_24h": 4460618.42,
+        "market_cap": 782956,
+        "price": 0.0007829,
+        "price_change_24h": 699,
+        "volume_24h": 4474580.82,
         "pool_address": "solana_EteswRwds8zY6d7Dqc6zWabzUZFMV91V4sa1GBxbMGUs",
         "ath": 0.0010371982622090715,
         "ath_timestamp": 1758376800,
@@ -809,11 +1011,11 @@
           "active": 500
         },
         "txns_24h": {
-          "buys": 22843,
-          "sells": 18305
+          "buys": 22911,
+          "sells": 18378
         },
-        "fdv_usd": 791805,
-        "total_reserve_in_usd": 126882.87,
+        "fdv_usd": 782956,
+        "total_reserve_in_usd": 126113.29,
         "tags": [],
         "first_signal": {
           "timestamp": 1758370860,
@@ -904,11 +1106,11 @@
               {
                 "token_address": "FhR6AdyCeTQMdxNfHiyLYj8MxFhmNPL3Nduj89e1pump",
                 "balance": 17233351.779378,
-                "token_price": 0.0007918,
+                "token_price": 0.0007829,
                 "token_decimals": 6,
                 "token_symbol": "GS",
                 "token_name": "Goldmans Sack",
-                "value": 13645.3679389115
+                "value": 13491.991108075037
               }
             ]
           },
@@ -920,11 +1122,11 @@
               {
                 "token_address": "FhR6AdyCeTQMdxNfHiyLYj8MxFhmNPL3Nduj89e1pump",
                 "balance": 15368.618135,
-                "token_price": 0.0007918,
+                "token_price": 0.0007829,
                 "token_decimals": 6,
                 "token_symbol": "GS",
                 "token_name": "Goldmans Sack",
-                "value": 12.168871839292999
+                "value": 12.0320911378915
               }
             ]
           }
@@ -940,10 +1142,10 @@
         "website": "",
         "twitter": "https://x.com/daniel_wwf",
         "holder": 701,
-        "market_cap": 104333,
-        "price": 0.0001043,
-        "price_change_24h": 799,
-        "volume_24h": 705275.02,
+        "market_cap": 105237,
+        "price": 0.0001052,
+        "price_change_24h": 838,
+        "volume_24h": 706095.4,
         "pool_address": "solana_S4KPVVeheV5oR3Z4gB88cVU5A4gzzivsF69ajGUyr2k",
         "ath": 0.00032160382415573547,
         "ath_timestamp": 1758362400,
@@ -954,11 +1156,11 @@
           "active": 10
         },
         "txns_24h": {
-          "buys": 3558,
-          "sells": 2502
+          "buys": 3568,
+          "sells": 2504
         },
-        "fdv_usd": 104333,
-        "total_reserve_in_usd": 43093.23,
+        "fdv_usd": 105237,
+        "total_reserve_in_usd": 43247.21,
         "tags": [],
         "first_signal": {
           "timestamp": 1758352726,
@@ -1029,7 +1231,7 @@
               {
                 "token_address": "CVS4NMq2AVSJEzi9ui8TCm3QrCTfDtRmKZh6cSdnpump",
                 "balance": 0,
-                "token_price": 0.0001043,
+                "token_price": 0.0001052,
                 "token_decimals": 6,
                 "token_symbol": "nuked",
                 "token_name": "lolnuked",
@@ -1045,11 +1247,11 @@
               {
                 "token_address": "CVS4NMq2AVSJEzi9ui8TCm3QrCTfDtRmKZh6cSdnpump",
                 "balance": 27571911.403691,
-                "token_price": 0.0001043,
+                "token_price": 0.0001052,
                 "token_decimals": 6,
                 "token_symbol": "nuked",
                 "token_name": "lolnuked",
-                "value": 2875.7503594049713
+                "value": 2900.565079668293
               }
             ]
           }
@@ -1065,10 +1267,10 @@
         "website": "",
         "twitter": "",
         "holder": 154,
-        "market_cap": 6106,
-        "price": 6.106e-06,
-        "price_change_24h": -89.78,
-        "volume_24h": 742421.83,
+        "market_cap": 6103,
+        "price": 6.103e-06,
+        "price_change_24h": -89.79,
+        "volume_24h": 742422.85,
         "pool_address": "solana_BZrn9irgBHvAJ5Ju22Q4xsB5DWc7ms4rksXnFoVkZ7cx",
         "ath": 2.371166368440152e-05,
         "ath_timestamp": 1758326400,
@@ -1077,10 +1279,10 @@
         "pairAddress": "BZrn9irgBHvAJ5Ju22Q4xsB5DWc7ms4rksXnFoVkZ7cx",
         "txns_24h": {
           "buys": 5016,
-          "sells": 3575
+          "sells": 3576
         },
-        "fdv_usd": 6106,
-        "total_reserve_in_usd": 8722.57,
+        "fdv_usd": 6103,
+        "total_reserve_in_usd": 8720.54,
         "tags": [],
         "first_signal": {
           "timestamp": 1758321526,
@@ -1151,7 +1353,7 @@
               {
                 "token_address": "HsDrgECnfHvs2DiTGdVDKsRBJXzjGj2ju9N2NAGVbonk",
                 "balance": 0,
-                "token_price": 6.106e-06,
+                "token_price": 6.103e-06,
                 "token_decimals": 6,
                 "token_symbol": "屎币",
                 "token_name": "Chinese Shitcoin",
@@ -1167,7 +1369,7 @@
               {
                 "token_address": "HsDrgECnfHvs2DiTGdVDKsRBJXzjGj2ju9N2NAGVbonk",
                 "balance": 0,
-                "token_price": 6.106e-06,
+                "token_price": 6.103e-06,
                 "token_decimals": 6,
                 "token_symbol": "屎币",
                 "token_name": "Chinese Shitcoin",
@@ -1187,10 +1389,10 @@
         "website": "",
         "twitter": "https://x.com/i/communities/1969081993645191496",
         "holder": 356,
-        "market_cap": 15034,
-        "price": 1.503e-05,
-        "price_change_24h": -84.56,
-        "volume_24h": 357101.92,
+        "market_cap": 14900,
+        "price": 1.49e-05,
+        "price_change_24h": -84.69,
+        "volume_24h": 357161.44,
         "pool_address": "solana_AnakMMpvMwx3RewXbFRKsE5izveXpJHpqfwFUPCvEtdf",
         "ath": 8.738e-05,
         "ath_timestamp": 1758314028,
@@ -1198,11 +1400,11 @@
         "dexId": "pumpswap",
         "pairAddress": "AnakMMpvMwx3RewXbFRKsE5izveXpJHpqfwFUPCvEtdf",
         "txns_24h": {
-          "buys": 2897,
-          "sells": 2230
+          "buys": 2898,
+          "sells": 2232
         },
-        "fdv_usd": 15034,
-        "total_reserve_in_usd": 15993.96,
+        "fdv_usd": 14900,
+        "total_reserve_in_usd": 15915.6,
         "tags": [],
         "first_signal": {
           "timestamp": 1758314020,
@@ -1273,7 +1475,7 @@
               {
                 "token_address": "BsdY7w5qGuij4anKGC65sFnXmA2EoR3o5kM7wwbwpump",
                 "balance": 0,
-                "token_price": 1.503e-05,
+                "token_price": 1.49e-05,
                 "token_decimals": 6,
                 "token_symbol": "Sales",
                 "token_name": "Door-to-door",
@@ -1289,7 +1491,7 @@
               {
                 "token_address": "BsdY7w5qGuij4anKGC65sFnXmA2EoR3o5kM7wwbwpump",
                 "balance": 0,
-                "token_price": 1.503e-05,
+                "token_price": 1.49e-05,
                 "token_decimals": 6,
                 "token_symbol": "Sales",
                 "token_name": "Door-to-door",
@@ -1311,10 +1513,10 @@
         "website": "",
         "twitter": "https://x.com/i/communities/1965925295229460830",
         "holder": 11984,
-        "market_cap": 10972675,
-        "price": 0.01097,
-        "price_change_24h": 118,
-        "volume_24h": 5617669.02,
+        "market_cap": 10966799,
+        "price": 0.01096,
+        "price_change_24h": 122,
+        "volume_24h": 5652738.04,
         "pool_address": "solana_FBZSQpAYGQJpmRT8L33QnGwv6bCaTx6XCjmTPVCw3gdZ",
         "ath": 0.0538755432676097,
         "ath_timestamp": 1757808000,
@@ -1322,11 +1524,11 @@
         "dexId": "pumpswap",
         "pairAddress": "FBZSQpAYGQJpmRT8L33QnGwv6bCaTx6XCjmTPVCw3gdZ",
         "txns_24h": {
-          "buys": 10869,
-          "sells": 8645
+          "buys": 10931,
+          "sells": 8681
         },
-        "fdv_usd": 10972675,
-        "total_reserve_in_usd": 692706.04,
+        "fdv_usd": 10966799,
+        "total_reserve_in_usd": 692238.59,
         "tags": [
           "moonshot"
         ],
@@ -1359,11 +1561,11 @@
               {
                 "token_address": "7Pnqg1S6MYrL6AP1ZXcToTHfdBbTB77ze6Y33qBBpump",
                 "balance": 2849929.282421,
-                "token_price": 0.01097,
+                "token_price": 0.01096,
                 "token_decimals": 6,
                 "token_symbol": "Bagwork",
                 "token_name": "Bagwork",
-                "value": 31263.72422815837
+                "value": 31235.224935334158
               }
             ]
           }
@@ -1381,10 +1583,10 @@
         "website": "",
         "twitter": "",
         "holder": 26602,
-        "market_cap": 158206361,
-        "price": 1.0013,
-        "price_change_24h": 0.14,
-        "volume_24h": 3891537.59,
+        "market_cap": 158203099,
+        "price": 1.0012,
+        "price_change_24h": 0.13,
+        "volume_24h": 3876396.12,
         "pool_address": "solana_AQAGYQsdU853WAKhXM79CgNdoyhrRwXvYHX6qrDyC1FS",
         "ath": 1.0487321954051128,
         "ath_timestamp": 1757635200,
@@ -1392,11 +1594,11 @@
         "dexId": "raydium",
         "pairAddress": "BCDdHonby65iduz3Ev3c9v5XjNkzyu5e56KRFHpBM4T9",
         "txns_24h": {
-          "buys": 4093,
-          "sells": 2669
+          "buys": 3973,
+          "sells": 2742
         },
-        "fdv_usd": 158206361,
-        "total_reserve_in_usd": 15427028.23,
+        "fdv_usd": 158203099,
+        "total_reserve_in_usd": 15426830.81,
         "tags": [],
         "first_signal": {
           "timestamp": 1757553221,
@@ -1527,7 +1729,7 @@
               {
                 "token_address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
                 "balance": 0,
-                "token_price": 1.0013,
+                "token_price": 1.0012,
                 "token_decimals": 6,
                 "token_symbol": "USD1",
                 "token_name": "World Liberty Financial USD",
@@ -1543,7 +1745,7 @@
               {
                 "token_address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
                 "balance": 0,
-                "token_price": 1.0013,
+                "token_price": 1.0012,
                 "token_decimals": 6,
                 "token_symbol": "USD1",
                 "token_name": "World Liberty Financial USD",
@@ -1559,7 +1761,7 @@
               {
                 "token_address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
                 "balance": 0,
-                "token_price": 1.0013,
+                "token_price": 1.0012,
                 "token_decimals": 6,
                 "token_symbol": "USD1",
                 "token_name": "World Liberty Financial USD",
