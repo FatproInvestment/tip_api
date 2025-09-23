@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-09-23T04:51:57.337Z",
+  "timestamp": "2025-09-23T04:58:30.995Z",
   "data": [
     {
       "address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
@@ -11,11 +11,11 @@
       "created_time": 1752528060,
       "website": "",
       "twitter": "",
-      "holder": 30209,
-      "market_cap": 2668539652,
-      "price": 1.0012,
-      "price_change_24h": 0.07,
-      "volume_24h": 13559307.31,
+      "holder": 30253,
+      "market_cap": 2668964079,
+      "price": 1.0014,
+      "price_change_24h": 0.09,
+      "volume_24h": 13723919.53,
       "pool_address": "solana_AQAGYQsdU853WAKhXM79CgNdoyhrRwXvYHX6qrDyC1FS",
       "ath": 1.0487321954051128,
       "ath_timestamp": 1757635200,
@@ -23,11 +23,11 @@
       "dexId": "raydium",
       "pairAddress": "BCDdHonby65iduz3Ev3c9v5XjNkzyu5e56KRFHpBM4T9",
       "txns_24h": {
-        "buys": 5635,
-        "sells": 7511
+        "buys": 5666,
+        "sells": 7557
       },
-      "fdv_usd": 158205123,
-      "total_reserve_in_usd": 15393678.23,
+      "fdv_usd": 158230285,
+      "total_reserve_in_usd": 15395227.13,
       "tags": [],
       "first_signal": {
         "timestamp": 1757553221,
@@ -35,8 +35,28 @@
       },
       "metrics": {
         "uniqueWallets": 5,
-        "inflow24h": 30885.517720924792,
+        "inflow24h": 33022.78987105147,
         "trades": [
+          {
+            "timestamp": "2025-09-23T04:57:48.000Z",
+            "type": "SWAP",
+            "amount": 2130.024801,
+            "usdValue": -1,
+            "wallet": {
+              "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
+              "name": "eca.eth"
+            }
+          },
+          {
+            "timestamp": "2025-09-23T04:57:48.000Z",
+            "type": "BUY",
+            "amount": 2130.024801,
+            "usdValue": 2136.2721501266774,
+            "wallet": {
+              "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
+              "name": "eca.eth"
+            }
+          },
           {
             "timestamp": "2025-09-23T04:45:47.000Z",
             "type": "SELL",
@@ -311,22 +331,6 @@
       },
       "walletPortfolios": [
         {
-          "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-          "name": "cooker",
-          "score": 2,
-          "tokens": [
-            {
-              "token_address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
-              "balance": 0,
-              "token_price": 1.0012,
-              "token_decimals": 6,
-              "token_symbol": "USD1",
-              "token_name": "World Liberty Financial USD",
-              "value": 0
-            }
-          ]
-        },
-        {
           "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
           "name": "eca.eth",
           "score": 1,
@@ -334,11 +338,27 @@
             {
               "token_address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
               "balance": 189.177236,
-              "token_price": 1.0012,
+              "token_price": 1.0014,
               "token_decimals": 6,
               "token_symbol": "USD1",
               "token_name": "World Liberty Financial USD",
-              "value": 189.40424868320002
+              "value": 189.44208413040002
+            }
+          ]
+        },
+        {
+          "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+          "name": "cooker",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+              "balance": 0,
+              "token_price": 1.0014,
+              "token_decimals": 6,
+              "token_symbol": "USD1",
+              "token_name": "World Liberty Financial USD",
+              "value": 0
             }
           ]
         },
@@ -350,7 +370,7 @@
             {
               "token_address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
               "balance": 0,
-              "token_price": 1.0012,
+              "token_price": 1.0014,
               "token_decimals": 6,
               "token_symbol": "USD1",
               "token_name": "World Liberty Financial USD",
@@ -366,7 +386,7 @@
             {
               "token_address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
               "balance": 0,
-              "token_price": 1.0012,
+              "token_price": 1.0014,
               "token_decimals": 6,
               "token_symbol": "USD1",
               "token_name": "World Liberty Financial USD",
@@ -382,7 +402,7 @@
             {
               "token_address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
               "balance": 0,
-              "token_price": 1.0012,
+              "token_price": 1.0014,
               "token_decimals": 6,
               "token_symbol": "USD1",
               "token_name": "World Liberty Financial USD",
@@ -401,11 +421,11 @@
       "created_time": 1758500414,
       "website": "",
       "twitter": "",
-      "holder": 1004,
-      "market_cap": 691253,
-      "price": 0.0006912,
-      "price_change_24h": 972,
-      "volume_24h": 2353984.92,
+      "holder": 989,
+      "market_cap": 700763,
+      "price": 0.0007007,
+      "price_change_24h": 1035,
+      "volume_24h": 2356418.59,
       "pool_address": "solana_FUMjaCUAArcUbD4dpwYCmiVs3SjabbB4VyW7aUyGwXXH",
       "ath": 0.001146088457440946,
       "ath_timestamp": 1758585600,
@@ -413,11 +433,11 @@
       "dexId": "pumpswap",
       "pairAddress": "FUMjaCUAArcUbD4dpwYCmiVs3SjabbB4VyW7aUyGwXXH",
       "txns_24h": {
-        "buys": 7420,
-        "sells": 6512
+        "buys": 7423,
+        "sells": 6514
       },
-      "fdv_usd": 691253,
-      "total_reserve_in_usd": 107445.72,
+      "fdv_usd": 700763,
+      "total_reserve_in_usd": 108417.37,
       "tags": [],
       "first_signal": {
         "timestamp": 1758554333,
@@ -528,11 +548,11 @@
             {
               "token_address": "Eppcp4FhG6wmaRno3omWWvKsZHbzucVLR316SdXopump",
               "balance": 18644906.716063,
-              "token_price": 0.0006912,
+              "token_price": 0.0007007,
               "token_decimals": 6,
               "token_symbol": "pibble",
               "token_name": "pibble",
-              "value": 12887.359522142746
+              "value": 13064.486135945344
             }
           ]
         },
@@ -544,11 +564,11 @@
             {
               "token_address": "Eppcp4FhG6wmaRno3omWWvKsZHbzucVLR316SdXopump",
               "balance": 21855293.421226,
-              "token_price": 0.0006912,
+              "token_price": 0.0007007,
               "token_decimals": 6,
               "token_symbol": "pibble",
               "token_name": "pibble",
-              "value": 15106.37881275141
+              "value": 15314.004100253056
             }
           ]
         }
@@ -564,10 +584,10 @@
       "website": "https://moribound.xyz",
       "twitter": "",
       "holder": 1230,
-      "market_cap": 129697,
-      "price": 0.0001297,
-      "price_change_24h": 39.83,
-      "volume_24h": 7948431.31,
+      "market_cap": 121906,
+      "price": 0.0001219,
+      "price_change_24h": 31.43,
+      "volume_24h": 7951561.01,
       "pool_address": "solana_BWmGimkgxJPfPDUbzejQhSWdtC8SX1U6s1KBfSy1n7gg",
       "ath": 0.0009714333806661957,
       "ath_timestamp": 1758582000,
@@ -575,11 +595,11 @@
       "dexId": "pumpswap",
       "pairAddress": "BWmGimkgxJPfPDUbzejQhSWdtC8SX1U6s1KBfSy1n7gg",
       "txns_24h": {
-        "buys": 23736,
-        "sells": 23499
+        "buys": 23752,
+        "sells": 23516
       },
-      "fdv_usd": 129697,
-      "total_reserve_in_usd": 52067.57,
+      "fdv_usd": 121906,
+      "total_reserve_in_usd": 50604.43,
       "tags": [],
       "first_signal": {
         "timestamp": 1758581029,
@@ -690,7 +710,7 @@
             {
               "token_address": "EbLBfH6LByi2DNkoL8WNVrcRbKC12oJptNSuxohmfNh",
               "balance": 0,
-              "token_price": 0.0001297,
+              "token_price": 0.0001219,
               "token_decimals": 6,
               "token_symbol": "MORI",
               "token_name": "Mori Survival",
@@ -706,7 +726,7 @@
             {
               "token_address": "EbLBfH6LByi2DNkoL8WNVrcRbKC12oJptNSuxohmfNh",
               "balance": 0,
-              "token_price": 0.0001297,
+              "token_price": 0.0001219,
               "token_decimals": 6,
               "token_symbol": "MORI",
               "token_name": "Mori Survival",
@@ -725,11 +745,11 @@
       "created_time": 1710100402,
       "website": "",
       "twitter": "",
-      "holder": 47085,
-      "market_cap": 114390075,
-      "price": 0.1145,
-      "price_change_24h": 9.23,
-      "volume_24h": 17012523.11,
+      "holder": 47171,
+      "market_cap": 113743046,
+      "price": 0.1138,
+      "price_change_24h": 9.57,
+      "volume_24h": 17015768.39,
       "pool_address": "solana_4w2cysotX6czaUGmmWg13hDpY4QEMG2CzeKYEQyK9Ama",
       "ath": 0.2870218972948458,
       "ath_timestamp": 1755898620,
@@ -737,11 +757,11 @@
       "dexId": "pumpswap",
       "pairAddress": "4w2cysotX6czaUGmmWg13hDpY4QEMG2CzeKYEQyK9Ama",
       "txns_24h": {
-        "buys": 11469,
-        "sells": 8867
+        "buys": 11461,
+        "sells": 8882
       },
-      "fdv_usd": 114390075,
-      "total_reserve_in_usd": 5284212.33,
+      "fdv_usd": 113743046,
+      "total_reserve_in_usd": 5280446.65,
       "tags": [
         "moonshot",
         "binanceAlpha"
@@ -965,7 +985,7 @@
             {
               "token_address": "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2",
               "balance": 0,
-              "token_price": 0.1145,
+              "token_price": 0.1138,
               "token_decimals": 6,
               "token_symbol": "TROLL",
               "token_name": "TROLL",
@@ -988,10 +1008,10 @@
         "website": "https://moribound.xyz",
         "twitter": "",
         "holder": 1230,
-        "market_cap": 129697,
-        "price": 0.0001297,
-        "price_change_24h": 39.83,
-        "volume_24h": 7948431.31,
+        "market_cap": 121906,
+        "price": 0.0001219,
+        "price_change_24h": 31.43,
+        "volume_24h": 7951561.01,
         "pool_address": "solana_BWmGimkgxJPfPDUbzejQhSWdtC8SX1U6s1KBfSy1n7gg",
         "ath": 0.0009714333806661957,
         "ath_timestamp": 1758582000,
@@ -999,11 +1019,11 @@
         "dexId": "pumpswap",
         "pairAddress": "BWmGimkgxJPfPDUbzejQhSWdtC8SX1U6s1KBfSy1n7gg",
         "txns_24h": {
-          "buys": 23736,
-          "sells": 23499
+          "buys": 23752,
+          "sells": 23516
         },
-        "fdv_usd": 129697,
-        "total_reserve_in_usd": 52067.57,
+        "fdv_usd": 121906,
+        "total_reserve_in_usd": 50604.43,
         "tags": [],
         "first_signal": {
           "timestamp": 1758581029,
@@ -1114,7 +1134,7 @@
               {
                 "token_address": "EbLBfH6LByi2DNkoL8WNVrcRbKC12oJptNSuxohmfNh",
                 "balance": 0,
-                "token_price": 0.0001297,
+                "token_price": 0.0001219,
                 "token_decimals": 6,
                 "token_symbol": "MORI",
                 "token_name": "Mori Survival",
@@ -1130,7 +1150,7 @@
               {
                 "token_address": "EbLBfH6LByi2DNkoL8WNVrcRbKC12oJptNSuxohmfNh",
                 "balance": 0,
-                "token_price": 0.0001297,
+                "token_price": 0.0001219,
                 "token_decimals": 6,
                 "token_symbol": "MORI",
                 "token_name": "Mori Survival",
@@ -1149,11 +1169,11 @@
         "created_time": 1758500414,
         "website": "",
         "twitter": "",
-        "holder": 1004,
-        "market_cap": 691253,
-        "price": 0.0006912,
-        "price_change_24h": 972,
-        "volume_24h": 2353984.92,
+        "holder": 989,
+        "market_cap": 700763,
+        "price": 0.0007007,
+        "price_change_24h": 1035,
+        "volume_24h": 2356418.59,
         "pool_address": "solana_FUMjaCUAArcUbD4dpwYCmiVs3SjabbB4VyW7aUyGwXXH",
         "ath": 0.001146088457440946,
         "ath_timestamp": 1758585600,
@@ -1161,11 +1181,11 @@
         "dexId": "pumpswap",
         "pairAddress": "FUMjaCUAArcUbD4dpwYCmiVs3SjabbB4VyW7aUyGwXXH",
         "txns_24h": {
-          "buys": 7420,
-          "sells": 6512
+          "buys": 7423,
+          "sells": 6514
         },
-        "fdv_usd": 691253,
-        "total_reserve_in_usd": 107445.72,
+        "fdv_usd": 700763,
+        "total_reserve_in_usd": 108417.37,
         "tags": [],
         "first_signal": {
           "timestamp": 1758554333,
@@ -1276,11 +1296,11 @@
               {
                 "token_address": "Eppcp4FhG6wmaRno3omWWvKsZHbzucVLR316SdXopump",
                 "balance": 18644906.716063,
-                "token_price": 0.0006912,
+                "token_price": 0.0007007,
                 "token_decimals": 6,
                 "token_symbol": "pibble",
                 "token_name": "pibble",
-                "value": 12887.359522142746
+                "value": 13064.486135945344
               }
             ]
           },
@@ -1292,11 +1312,11 @@
               {
                 "token_address": "Eppcp4FhG6wmaRno3omWWvKsZHbzucVLR316SdXopump",
                 "balance": 21855293.421226,
-                "token_price": 0.0006912,
+                "token_price": 0.0007007,
                 "token_decimals": 6,
                 "token_symbol": "pibble",
                 "token_name": "pibble",
-                "value": 15106.37881275141
+                "value": 15314.004100253056
               }
             ]
           }
@@ -1306,396 +1326,6 @@
     "buys": [],
     "sells": [
       {
-        "address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
-        "symbol": "USD1",
-        "name": "World Liberty Financial USD",
-        "decimals": 6,
-        "icon": "https://raw.githubusercontent.com/worldliberty/usd1-metadata/refs/heads/main/logo.png",
-        "created_time": 1752528060,
-        "website": "",
-        "twitter": "",
-        "holder": 30209,
-        "market_cap": 2668539652,
-        "price": 1.0012,
-        "price_change_24h": 0.07,
-        "volume_24h": 13559307.31,
-        "pool_address": "solana_AQAGYQsdU853WAKhXM79CgNdoyhrRwXvYHX6qrDyC1FS",
-        "ath": 1.0487321954051128,
-        "ath_timestamp": 1757635200,
-        "ath_pool": "BCDdHonby65iduz3Ev3c9v5XjNkzyu5e56KRFHpBM4T9",
-        "dexId": "raydium",
-        "pairAddress": "BCDdHonby65iduz3Ev3c9v5XjNkzyu5e56KRFHpBM4T9",
-        "txns_24h": {
-          "buys": 5635,
-          "sells": 7511
-        },
-        "fdv_usd": 158205123,
-        "total_reserve_in_usd": 15393678.23,
-        "tags": [],
-        "first_signal": {
-          "timestamp": 1757553221,
-          "price": 0.9994
-        },
-        "metrics": {
-          "uniqueWallets": 5,
-          "inflow24h": 30885.517720924792,
-          "trades": [
-            {
-              "timestamp": "2025-09-23T04:45:47.000Z",
-              "type": "SELL",
-              "amount": 18830.570502,
-              "usdValue": 17708.676493988165,
-              "wallet": {
-                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-                "name": "cooker"
-              }
-            },
-            {
-              "timestamp": "2025-09-23T04:44:57.000Z",
-              "type": "SWAP",
-              "amount": 8365.143989,
-              "usdValue": -1,
-              "wallet": {
-                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-                "name": "cooker"
-              }
-            },
-            {
-              "timestamp": "2025-09-23T04:44:57.000Z",
-              "type": "BUY",
-              "amount": 8365.143989,
-              "usdValue": 8614.917263410678,
-              "wallet": {
-                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-                "name": "cooker"
-              }
-            },
-            {
-              "timestamp": "2025-09-23T04:44:56.000Z",
-              "type": "SWAP",
-              "amount": 8353.009882,
-              "usdValue": -1,
-              "wallet": {
-                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-                "name": "cooker"
-              }
-            },
-            {
-              "timestamp": "2025-09-23T04:44:56.000Z",
-              "type": "BUY",
-              "amount": 8353.009882,
-              "usdValue": 8614.917263410678,
-              "wallet": {
-                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-                "name": "cooker"
-              }
-            },
-            {
-              "timestamp": "2025-09-23T04:31:26.000Z",
-              "type": "SWAP",
-              "amount": 10624.562904,
-              "usdValue": -1,
-              "wallet": {
-                "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
-                "name": "eca.eth"
-              }
-            },
-            {
-              "timestamp": "2025-09-23T04:31:26.000Z",
-              "type": "BUY",
-              "amount": 10624.562904,
-              "usdValue": 10680.102598037709,
-              "wallet": {
-                "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
-                "name": "eca.eth"
-              }
-            },
-            {
-              "timestamp": "2025-09-23T04:30:31.000Z",
-              "type": "SWAP",
-              "amount": 10639.533191,
-              "usdValue": -1,
-              "wallet": {
-                "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
-                "name": "eca.eth"
-              }
-            },
-            {
-              "timestamp": "2025-09-23T04:30:31.000Z",
-              "type": "BUY",
-              "amount": 10639.533191,
-              "usdValue": 10680.102598037709,
-              "wallet": {
-                "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
-                "name": "eca.eth"
-              }
-            },
-            {
-              "timestamp": "2025-09-23T04:28:56.000Z",
-              "type": "SWAP",
-              "amount": 10634.212154,
-              "usdValue": -1,
-              "wallet": {
-                "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
-                "name": "eca.eth"
-              }
-            },
-            {
-              "timestamp": "2025-09-23T04:28:56.000Z",
-              "type": "BUY",
-              "amount": 10634.212154,
-              "usdValue": 10680.102598037709,
-              "wallet": {
-                "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
-                "name": "eca.eth"
-              }
-            },
-            {
-              "timestamp": "2025-09-23T04:28:55.000Z",
-              "type": "SWAP",
-              "amount": 21279.805645,
-              "usdValue": -1,
-              "wallet": {
-                "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
-                "name": "eca.eth"
-              }
-            },
-            {
-              "timestamp": "2025-09-23T04:28:55.000Z",
-              "type": "BUY",
-              "amount": 21279.805645,
-              "usdValue": 21360.205196075418,
-              "wallet": {
-                "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
-                "name": "eca.eth"
-              }
-            },
-            {
-              "timestamp": "2025-09-23T01:55:50.000Z",
-              "type": "SELL",
-              "amount": 597.003412,
-              "usdValue": 597.5897693246475,
-              "wallet": {
-                "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
-                "name": "Winner"
-              }
-            },
-            {
-              "timestamp": "2025-09-23T00:04:52.000Z",
-              "type": "SELL",
-              "amount": 38.307608,
-              "usdValue": 38.367526,
-              "wallet": {
-                "address": "65jT5wk8FQyUWcSjgBsBRLU5NiSYGVYwRSKRiopPNAQ3",
-                "name": "iamachillguy"
-              }
-            },
-            {
-              "timestamp": "2025-09-23T00:04:52.000Z",
-              "type": "BUY",
-              "amount": 38.307608,
-              "usdValue": 38.30869407222502,
-              "wallet": {
-                "address": "65jT5wk8FQyUWcSjgBsBRLU5NiSYGVYwRSKRiopPNAQ3",
-                "name": "iamachillguy"
-              }
-            },
-            {
-              "timestamp": "2025-09-22T15:54:11.000Z",
-              "type": "SELL",
-              "amount": 1341.578009,
-              "usdValue": 1340.6319124482404,
-              "wallet": {
-                "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
-                "name": "soloxbt.sol"
-              }
-            },
-            {
-              "timestamp": "2025-09-22T15:54:11.000Z",
-              "type": "SELL",
-              "amount": 1341.578009,
-              "usdValue": 1340.6319124482404,
-              "wallet": {
-                "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
-                "name": "soloxbt.sol"
-              }
-            },
-            {
-              "timestamp": "2025-09-22T15:47:30.000Z",
-              "type": "SELL",
-              "amount": 788.110842,
-              "usdValue": 787.0904791352424,
-              "wallet": {
-                "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
-                "name": "soloxbt.sol"
-              }
-            },
-            {
-              "timestamp": "2025-09-22T15:47:30.000Z",
-              "type": "SELL",
-              "amount": 788.110842,
-              "usdValue": 787.0904791352424,
-              "wallet": {
-                "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
-                "name": "soloxbt.sol"
-              }
-            },
-            {
-              "timestamp": "2025-09-22T15:47:13.000Z",
-              "type": "SELL",
-              "amount": 597.211767,
-              "usdValue": 596.2152902804943,
-              "wallet": {
-                "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
-                "name": "soloxbt.sol"
-              }
-            },
-            {
-              "timestamp": "2025-09-22T15:47:13.000Z",
-              "type": "SELL",
-              "amount": 597.211767,
-              "usdValue": 596.2152902804943,
-              "wallet": {
-                "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
-                "name": "soloxbt.sol"
-              }
-            },
-            {
-              "timestamp": "2025-09-22T14:56:57.000Z",
-              "type": "SWAP",
-              "amount": 368.828984,
-              "usdValue": 337.8540123981468,
-              "wallet": {
-                "address": "65jT5wk8FQyUWcSjgBsBRLU5NiSYGVYwRSKRiopPNAQ3",
-                "name": "iamachillguy"
-              }
-            },
-            {
-              "timestamp": "2025-09-22T14:56:57.000Z",
-              "type": "BUY",
-              "amount": 368.828984,
-              "usdValue": 369.3984545451939,
-              "wallet": {
-                "address": "65jT5wk8FQyUWcSjgBsBRLU5NiSYGVYwRSKRiopPNAQ3",
-                "name": "iamachillguy"
-              }
-            },
-            {
-              "timestamp": "2025-09-22T14:56:41.000Z",
-              "type": "SWAP",
-              "amount": 314.210598,
-              "usdValue": 301.7084504991794,
-              "wallet": {
-                "address": "65jT5wk8FQyUWcSjgBsBRLU5NiSYGVYwRSKRiopPNAQ3",
-                "name": "iamachillguy"
-              }
-            },
-            {
-              "timestamp": "2025-09-22T14:56:41.000Z",
-              "type": "BUY",
-              "amount": 314.210598,
-              "usdValue": 314.6560838004181,
-              "wallet": {
-                "address": "65jT5wk8FQyUWcSjgBsBRLU5NiSYGVYwRSKRiopPNAQ3",
-                "name": "iamachillguy"
-              }
-            },
-            {
-              "timestamp": "2025-09-22T07:26:32.000Z",
-              "type": "SELL",
-              "amount": 16927.822328,
-              "usdValue": 16041.121412564857,
-              "wallet": {
-                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-                "name": "cooker"
-              }
-            }
-          ]
-        },
-        "walletPortfolios": [
-          {
-            "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-            "name": "cooker",
-            "score": 2,
-            "tokens": [
-              {
-                "token_address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
-                "balance": 0,
-                "token_price": 1.0012,
-                "token_decimals": 6,
-                "token_symbol": "USD1",
-                "token_name": "World Liberty Financial USD",
-                "value": 0
-              }
-            ]
-          },
-          {
-            "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
-            "name": "eca.eth",
-            "score": 1,
-            "tokens": [
-              {
-                "token_address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
-                "balance": 189.177236,
-                "token_price": 1.0012,
-                "token_decimals": 6,
-                "token_symbol": "USD1",
-                "token_name": "World Liberty Financial USD",
-                "value": 189.40424868320002
-              }
-            ]
-          },
-          {
-            "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
-            "name": "Winner",
-            "score": 0.5,
-            "tokens": [
-              {
-                "token_address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
-                "balance": 0,
-                "token_price": 1.0012,
-                "token_decimals": 6,
-                "token_symbol": "USD1",
-                "token_name": "World Liberty Financial USD",
-                "value": 0
-              }
-            ]
-          },
-          {
-            "address": "65jT5wk8FQyUWcSjgBsBRLU5NiSYGVYwRSKRiopPNAQ3",
-            "name": "iamachillguy",
-            "score": 0.5,
-            "tokens": [
-              {
-                "token_address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
-                "balance": 0,
-                "token_price": 1.0012,
-                "token_decimals": 6,
-                "token_symbol": "USD1",
-                "token_name": "World Liberty Financial USD",
-                "value": 0
-              }
-            ]
-          },
-          {
-            "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
-            "name": "soloxbt.sol",
-            "score": 2,
-            "tokens": [
-              {
-                "token_address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
-                "balance": 0,
-                "token_price": 1.0012,
-                "token_decimals": 6,
-                "token_symbol": "USD1",
-                "token_name": "World Liberty Financial USD",
-                "value": 0
-              }
-            ]
-          }
-        ]
-      },
-      {
         "address": "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2",
         "symbol": "TROLL",
         "name": "TROLL",
@@ -1704,11 +1334,11 @@
         "created_time": 1710100402,
         "website": "",
         "twitter": "",
-        "holder": 47085,
-        "market_cap": 114390075,
-        "price": 0.1145,
-        "price_change_24h": 9.23,
-        "volume_24h": 17012523.11,
+        "holder": 47171,
+        "market_cap": 113743046,
+        "price": 0.1138,
+        "price_change_24h": 9.57,
+        "volume_24h": 17015768.39,
         "pool_address": "solana_4w2cysotX6czaUGmmWg13hDpY4QEMG2CzeKYEQyK9Ama",
         "ath": 0.2870218972948458,
         "ath_timestamp": 1755898620,
@@ -1716,11 +1346,11 @@
         "dexId": "pumpswap",
         "pairAddress": "4w2cysotX6czaUGmmWg13hDpY4QEMG2CzeKYEQyK9Ama",
         "txns_24h": {
-          "buys": 11469,
-          "sells": 8867
+          "buys": 11461,
+          "sells": 8882
         },
-        "fdv_usd": 114390075,
-        "total_reserve_in_usd": 5284212.33,
+        "fdv_usd": 113743046,
+        "total_reserve_in_usd": 5280446.65,
         "tags": [
           "moonshot",
           "binanceAlpha"
@@ -1944,7 +1574,7 @@
               {
                 "token_address": "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2",
                 "balance": 0,
-                "token_price": 0.1145,
+                "token_price": 0.1138,
                 "token_decimals": 6,
                 "token_symbol": "TROLL",
                 "token_name": "TROLL",
