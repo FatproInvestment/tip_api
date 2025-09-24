@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-09-24T12:21:15.378Z",
+  "timestamp": "2025-09-24T13:00:03.855Z",
   "data": [
     {
       "address": "WLFinEv6ypjkczcS83FZqFpgFZYwQXutRbxGe7oC16g",
@@ -11,11 +11,11 @@
       "created_time": 1755984198,
       "website": "",
       "twitter": "",
-      "holder": 28100,
-      "market_cap": 5478750990.6423,
-      "price": 0.201050393,
-      "price_change_24h": -1.34,
-      "volume_24h": 4206041.15550117,
+      "holder": 28107,
+      "market_cap": 5464755183.96719,
+      "price": 0.2005370454,
+      "price_change_24h": -1.69,
+      "volume_24h": 4041208.64209654,
       "pool_address": "solana_F6L1RKAKwNuWwyCwweja6uxAkRv41XFTRWmg8tKGkn83",
       "ath": 0.2558919315271146,
       "ath_timestamp": 1758412800,
@@ -23,11 +23,11 @@
       "dexId": "meteora",
       "pairAddress": "F6L1RKAKwNuWwyCwweja6uxAkRv41XFTRWmg8tKGkn83",
       "txns_24h": {
-        "buys": 1847,
-        "sells": 1544
+        "buys": 1778,
+        "sells": 1579
       },
-      "fdv_usd": "79768407.9375006",
-      "total_reserve_in_usd": "21701406.324924281394065",
+      "fdv_usd": "79564733.0284734",
+      "total_reserve_in_usd": "21677413.7917405701572376",
       "tags": [
         "moonshot"
       ],
@@ -80,7 +80,7 @@
             {
               "token_address": "WLFinEv6ypjkczcS83FZqFpgFZYwQXutRbxGe7oC16g",
               "balance": 0,
-              "token_price": 0.201050393,
+              "token_price": 0.2005370454,
               "token_decimals": 6,
               "token_symbol": "WLFI",
               "token_name": "World Liberty Financial",
@@ -100,10 +100,10 @@
       "website": "https://asternaut.trade",
       "twitter": "https://x.com/asternaut_trade",
       "holder": 2392,
-      "market_cap": 2137177,
-      "price": 0.002137,
-      "price_change_24h": 2304,
-      "volume_24h": 4762221.44,
+      "market_cap": 2428887,
+      "price": 0.002428,
+      "price_change_24h": 2632,
+      "volume_24h": 4898820.91,
       "pool_address": "solana_BbBMkV6N2qtNh3YxVyhNgVSBeaLtLzGAa56BMF3pLAvM",
       "ath": 0.003373196091009281,
       "ath_timestamp": 1758700800,
@@ -111,11 +111,11 @@
       "dexId": "pumpswap",
       "pairAddress": "BbBMkV6N2qtNh3YxVyhNgVSBeaLtLzGAa56BMF3pLAvM",
       "txns_24h": {
-        "buys": 15317,
-        "sells": 13231
+        "buys": 15654,
+        "sells": 13624
       },
-      "fdv_usd": 2137177,
-      "total_reserve_in_usd": 194311.29,
+      "fdv_usd": 2428887,
+      "total_reserve_in_usd": 207199.5,
       "tags": [],
       "first_signal": {
         "timestamp": 1758677991,
@@ -123,8 +123,18 @@
       },
       "metrics": {
         "uniqueWallets": 2,
-        "inflow24h": -9917.41800319674,
+        "inflow24h": -13140.273968696409,
         "trades": [
+          {
+            "timestamp": "2025-09-24T12:37:34.000Z",
+            "type": "SELL",
+            "amount": 1436168.958181,
+            "usdValue": 3222.855965499667,
+            "wallet": {
+              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+              "name": "DNF 哥"
+            }
+          },
           {
             "timestamp": "2025-09-24T11:37:56.000Z",
             "type": "SELL",
@@ -239,6 +249,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+          "name": "DNF 哥",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "3F7yoAARCgqVE3EF86GecScVAbhHf1LkHzR6g8zCpump",
+              "balance": 8138290.763027,
+              "token_price": 0.002428,
+              "token_decimals": 6,
+              "token_symbol": "ASTERBOT",
+              "token_name": "ASTERNAUT",
+              "value": 19759.769972629558
+            }
+          ]
+        },
+        {
           "address": "8KPzQg5DEJAGknj1AC8F7W4cmdXBzkHym6DydFwh4ynK",
           "name": "神中神",
           "score": 1,
@@ -246,27 +272,11 @@
             {
               "token_address": "3F7yoAARCgqVE3EF86GecScVAbhHf1LkHzR6g8zCpump",
               "balance": 380109.78907,
-              "token_price": 0.002137,
+              "token_price": 0.002428,
               "token_decimals": 6,
               "token_symbol": "ASTERBOT",
               "token_name": "ASTERNAUT",
-              "value": 812.29461924259
-            }
-          ]
-        },
-        {
-          "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-          "name": "DNF 哥",
-          "score": 3,
-          "tokens": [
-            {
-              "token_address": "3F7yoAARCgqVE3EF86GecScVAbhHf1LkHzR6g8zCpump",
-              "balance": 9574459.721208,
-              "token_price": 0.002137,
-              "token_decimals": 6,
-              "token_symbol": "ASTERBOT",
-              "token_name": "ASTERNAUT",
-              "value": 20460.6204242215
+              "value": 922.90656786196
             }
           ]
         }
@@ -282,10 +292,10 @@
       "website": "",
       "twitter": "",
       "holder": 32826,
-      "market_cap": 158053479,
-      "price": 1.00033,
-      "price_change_24h": -0.05,
-      "volume_24h": 5213241.08,
+      "market_cap": 158035953,
+      "price": 1.00022,
+      "price_change_24h": -0.06,
+      "volume_24h": 5259392.22,
       "pool_address": "solana_AQAGYQsdU853WAKhXM79CgNdoyhrRwXvYHX6qrDyC1FS",
       "ath": 1.0487321954051128,
       "ath_timestamp": 1757635200,
@@ -293,11 +303,11 @@
       "dexId": "raydium",
       "pairAddress": "BCDdHonby65iduz3Ev3c9v5XjNkzyu5e56KRFHpBM4T9",
       "txns_24h": {
-        "buys": 3457,
-        "sells": 4316
+        "buys": 3331,
+        "sells": 4372
       },
-      "fdv_usd": 158053479,
-      "total_reserve_in_usd": 15355450.81,
+      "fdv_usd": 158035953,
+      "total_reserve_in_usd": 15294815.15,
       "tags": [],
       "first_signal": {
         "timestamp": 1757553221,
@@ -598,7 +608,7 @@
             {
               "token_address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
               "balance": 0,
-              "token_price": 1.00033,
+              "token_price": 1.00022,
               "token_decimals": 6,
               "token_symbol": "USD1",
               "token_name": "World Liberty Financial USD",
@@ -614,7 +624,7 @@
             {
               "token_address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
               "balance": 0,
-              "token_price": 1.00033,
+              "token_price": 1.00022,
               "token_decimals": 6,
               "token_symbol": "USD1",
               "token_name": "World Liberty Financial USD",
@@ -630,7 +640,7 @@
             {
               "token_address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
               "balance": 0,
-              "token_price": 1.00033,
+              "token_price": 1.00022,
               "token_decimals": 6,
               "token_symbol": "USD1",
               "token_name": "World Liberty Financial USD",
@@ -650,10 +660,10 @@
       "website": "",
       "twitter": "",
       "holder": 6562,
-      "market_cap": 35055744,
-      "price": 0.03505,
-      "price_change_24h": 45.73,
-      "volume_24h": 38119418.67,
+      "market_cap": 34630297,
+      "price": 0.03463,
+      "price_change_24h": 44.27,
+      "volume_24h": 38153267.4,
       "pool_address": "solana_2KUEBor9P8e2YVGCUnD9ipmhGM9nL4pG11zeEoQVQZWg",
       "ath": 0.044398820476454534,
       "ath_timestamp": 1758650400,
@@ -661,11 +671,11 @@
       "dexId": "raydium",
       "pairAddress": "2KUEBor9P8e2YVGCUnD9ipmhGM9nL4pG11zeEoQVQZWg",
       "txns_24h": {
-        "buys": 23850,
-        "sells": 21501
+        "buys": 23911,
+        "sells": 21498
       },
-      "fdv_usd": 35055744,
-      "total_reserve_in_usd": 2181006.1,
+      "fdv_usd": 34630297,
+      "total_reserve_in_usd": 2164433.25,
       "tags": [],
       "first_signal": {
         "timestamp": 1758644238,
@@ -1006,7 +1016,7 @@
             {
               "token_address": "quantoL84tL1HvygKcz3TJtWRU6dFPW8imMzCa4qxGW",
               "balance": 0,
-              "token_price": 0.03505,
+              "token_price": 0.03463,
               "token_decimals": 6,
               "token_symbol": "QTO",
               "token_name": "Quanto",
@@ -1022,7 +1032,7 @@
             {
               "token_address": "quantoL84tL1HvygKcz3TJtWRU6dFPW8imMzCa4qxGW",
               "balance": 0,
-              "token_price": 0.03505,
+              "token_price": 0.03463,
               "token_decimals": 6,
               "token_symbol": "QTO",
               "token_name": "Quanto",
@@ -1038,7 +1048,7 @@
             {
               "token_address": "quantoL84tL1HvygKcz3TJtWRU6dFPW8imMzCa4qxGW",
               "balance": 0,
-              "token_price": 0.03505,
+              "token_price": 0.03463,
               "token_decimals": 6,
               "token_symbol": "QTO",
               "token_name": "Quanto",
@@ -1054,11 +1064,11 @@
             {
               "token_address": "quantoL84tL1HvygKcz3TJtWRU6dFPW8imMzCa4qxGW",
               "balance": 1e-06,
-              "token_price": 0.03505,
+              "token_price": 0.03463,
               "token_decimals": 6,
               "token_symbol": "QTO",
               "token_name": "Quanto",
-              "value": 3.505e-08
+              "value": 3.463e-08
             }
           ]
         },
@@ -1070,7 +1080,7 @@
             {
               "token_address": "quantoL84tL1HvygKcz3TJtWRU6dFPW8imMzCa4qxGW",
               "balance": 0,
-              "token_price": 0.03505,
+              "token_price": 0.03463,
               "token_decimals": 6,
               "token_symbol": "QTO",
               "token_name": "Quanto",
@@ -1086,11 +1096,11 @@
             {
               "token_address": "quantoL84tL1HvygKcz3TJtWRU6dFPW8imMzCa4qxGW",
               "balance": 260000,
-              "token_price": 0.03505,
+              "token_price": 0.03463,
               "token_decimals": 6,
               "token_symbol": "QTO",
               "token_name": "Quanto",
-              "value": 9113
+              "value": 9003.800000000001
             }
           ]
         }
@@ -1106,10 +1116,10 @@
       "website": "https://pumppumpkin.io/",
       "twitter": "https://x.com/pumppumpkinio",
       "holder": 1101,
-      "market_cap": 66645,
-      "price": 7.543e-05,
-      "price_change_24h": 115,
-      "volume_24h": 833185.16,
+      "market_cap": 71120,
+      "price": 8.05e-05,
+      "price_change_24h": 130,
+      "volume_24h": 834749.79,
       "pool_address": "solana_DytPhz41hvhYn4t6FDcajVV11kjAEiFnuWSGsqBV2Lb4",
       "ath": 0.0003632788125835696,
       "ath_timestamp": 1758646800,
@@ -1117,11 +1127,11 @@
       "dexId": "raydium",
       "pairAddress": "DytPhz41hvhYn4t6FDcajVV11kjAEiFnuWSGsqBV2Lb4",
       "txns_24h": {
-        "buys": 2596,
-        "sells": 1981
+        "buys": 2604,
+        "sells": 1986
       },
-      "fdv_usd": 66645,
-      "total_reserve_in_usd": 49999.46,
+      "fdv_usd": 71120,
+      "total_reserve_in_usd": 51598.9,
       "tags": [],
       "first_signal": {
         "timestamp": 1758646115,
@@ -1192,7 +1202,7 @@
             {
               "token_address": "51NRTtZ8GwG3J4MGmxTsGJAdLViwu9s5ggEQup35pump",
               "balance": 0,
-              "token_price": 7.543e-05,
+              "token_price": 8.05e-05,
               "token_decimals": 6,
               "token_symbol": "PPA",
               "token_name": "pump pumpkin",
@@ -1208,11 +1218,11 @@
             {
               "token_address": "51NRTtZ8GwG3J4MGmxTsGJAdLViwu9s5ggEQup35pump",
               "balance": 17824745.35813,
-              "token_price": 7.543e-05,
+              "token_price": 8.05e-05,
               "token_decimals": 6,
               "token_symbol": "PPA",
               "token_name": "pump pumpkin",
-              "value": 1344.520542363746
+              "value": 1434.892001329465
             }
           ]
         }
@@ -1231,10 +1241,10 @@
         "website": "https://asternaut.trade",
         "twitter": "https://x.com/asternaut_trade",
         "holder": 2392,
-        "market_cap": 2137177,
-        "price": 0.002137,
-        "price_change_24h": 2304,
-        "volume_24h": 4762221.44,
+        "market_cap": 2428887,
+        "price": 0.002428,
+        "price_change_24h": 2632,
+        "volume_24h": 4898820.91,
         "pool_address": "solana_BbBMkV6N2qtNh3YxVyhNgVSBeaLtLzGAa56BMF3pLAvM",
         "ath": 0.003373196091009281,
         "ath_timestamp": 1758700800,
@@ -1242,11 +1252,11 @@
         "dexId": "pumpswap",
         "pairAddress": "BbBMkV6N2qtNh3YxVyhNgVSBeaLtLzGAa56BMF3pLAvM",
         "txns_24h": {
-          "buys": 15317,
-          "sells": 13231
+          "buys": 15654,
+          "sells": 13624
         },
-        "fdv_usd": 2137177,
-        "total_reserve_in_usd": 194311.29,
+        "fdv_usd": 2428887,
+        "total_reserve_in_usd": 207199.5,
         "tags": [],
         "first_signal": {
           "timestamp": 1758677991,
@@ -1254,8 +1264,18 @@
         },
         "metrics": {
           "uniqueWallets": 2,
-          "inflow24h": -9917.41800319674,
+          "inflow24h": -13140.273968696409,
           "trades": [
+            {
+              "timestamp": "2025-09-24T12:37:34.000Z",
+              "type": "SELL",
+              "amount": 1436168.958181,
+              "usdValue": 3222.855965499667,
+              "wallet": {
+                "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+                "name": "DNF 哥"
+              }
+            },
             {
               "timestamp": "2025-09-24T11:37:56.000Z",
               "type": "SELL",
@@ -1370,6 +1390,22 @@
         },
         "walletPortfolios": [
           {
+            "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+            "name": "DNF 哥",
+            "score": 3,
+            "tokens": [
+              {
+                "token_address": "3F7yoAARCgqVE3EF86GecScVAbhHf1LkHzR6g8zCpump",
+                "balance": 8138290.763027,
+                "token_price": 0.002428,
+                "token_decimals": 6,
+                "token_symbol": "ASTERBOT",
+                "token_name": "ASTERNAUT",
+                "value": 19759.769972629558
+              }
+            ]
+          },
+          {
             "address": "8KPzQg5DEJAGknj1AC8F7W4cmdXBzkHym6DydFwh4ynK",
             "name": "神中神",
             "score": 1,
@@ -1377,27 +1413,11 @@
               {
                 "token_address": "3F7yoAARCgqVE3EF86GecScVAbhHf1LkHzR6g8zCpump",
                 "balance": 380109.78907,
-                "token_price": 0.002137,
+                "token_price": 0.002428,
                 "token_decimals": 6,
                 "token_symbol": "ASTERBOT",
                 "token_name": "ASTERNAUT",
-                "value": 812.29461924259
-              }
-            ]
-          },
-          {
-            "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-            "name": "DNF 哥",
-            "score": 3,
-            "tokens": [
-              {
-                "token_address": "3F7yoAARCgqVE3EF86GecScVAbhHf1LkHzR6g8zCpump",
-                "balance": 9574459.721208,
-                "token_price": 0.002137,
-                "token_decimals": 6,
-                "token_symbol": "ASTERBOT",
-                "token_name": "ASTERNAUT",
-                "value": 20460.6204242215
+                "value": 922.90656786196
               }
             ]
           }
@@ -1413,10 +1433,10 @@
         "website": "https://pumppumpkin.io/",
         "twitter": "https://x.com/pumppumpkinio",
         "holder": 1101,
-        "market_cap": 66645,
-        "price": 7.543e-05,
-        "price_change_24h": 115,
-        "volume_24h": 833185.16,
+        "market_cap": 71120,
+        "price": 8.05e-05,
+        "price_change_24h": 130,
+        "volume_24h": 834749.79,
         "pool_address": "solana_DytPhz41hvhYn4t6FDcajVV11kjAEiFnuWSGsqBV2Lb4",
         "ath": 0.0003632788125835696,
         "ath_timestamp": 1758646800,
@@ -1424,11 +1444,11 @@
         "dexId": "raydium",
         "pairAddress": "DytPhz41hvhYn4t6FDcajVV11kjAEiFnuWSGsqBV2Lb4",
         "txns_24h": {
-          "buys": 2596,
-          "sells": 1981
+          "buys": 2604,
+          "sells": 1986
         },
-        "fdv_usd": 66645,
-        "total_reserve_in_usd": 49999.46,
+        "fdv_usd": 71120,
+        "total_reserve_in_usd": 51598.9,
         "tags": [],
         "first_signal": {
           "timestamp": 1758646115,
@@ -1499,7 +1519,7 @@
               {
                 "token_address": "51NRTtZ8GwG3J4MGmxTsGJAdLViwu9s5ggEQup35pump",
                 "balance": 0,
-                "token_price": 7.543e-05,
+                "token_price": 8.05e-05,
                 "token_decimals": 6,
                 "token_symbol": "PPA",
                 "token_name": "pump pumpkin",
@@ -1515,11 +1535,11 @@
               {
                 "token_address": "51NRTtZ8GwG3J4MGmxTsGJAdLViwu9s5ggEQup35pump",
                 "balance": 17824745.35813,
-                "token_price": 7.543e-05,
+                "token_price": 8.05e-05,
                 "token_decimals": 6,
                 "token_symbol": "PPA",
                 "token_name": "pump pumpkin",
-                "value": 1344.520542363746
+                "value": 1434.892001329465
               }
             ]
           }
@@ -1535,10 +1555,10 @@
         "website": "",
         "twitter": "",
         "holder": 6562,
-        "market_cap": 35055744,
-        "price": 0.03505,
-        "price_change_24h": 45.73,
-        "volume_24h": 38119418.67,
+        "market_cap": 34630297,
+        "price": 0.03463,
+        "price_change_24h": 44.27,
+        "volume_24h": 38153267.4,
         "pool_address": "solana_2KUEBor9P8e2YVGCUnD9ipmhGM9nL4pG11zeEoQVQZWg",
         "ath": 0.044398820476454534,
         "ath_timestamp": 1758650400,
@@ -1546,11 +1566,11 @@
         "dexId": "raydium",
         "pairAddress": "2KUEBor9P8e2YVGCUnD9ipmhGM9nL4pG11zeEoQVQZWg",
         "txns_24h": {
-          "buys": 23850,
-          "sells": 21501
+          "buys": 23911,
+          "sells": 21498
         },
-        "fdv_usd": 35055744,
-        "total_reserve_in_usd": 2181006.1,
+        "fdv_usd": 34630297,
+        "total_reserve_in_usd": 2164433.25,
         "tags": [],
         "first_signal": {
           "timestamp": 1758644238,
@@ -1891,7 +1911,7 @@
               {
                 "token_address": "quantoL84tL1HvygKcz3TJtWRU6dFPW8imMzCa4qxGW",
                 "balance": 0,
-                "token_price": 0.03505,
+                "token_price": 0.03463,
                 "token_decimals": 6,
                 "token_symbol": "QTO",
                 "token_name": "Quanto",
@@ -1907,7 +1927,7 @@
               {
                 "token_address": "quantoL84tL1HvygKcz3TJtWRU6dFPW8imMzCa4qxGW",
                 "balance": 0,
-                "token_price": 0.03505,
+                "token_price": 0.03463,
                 "token_decimals": 6,
                 "token_symbol": "QTO",
                 "token_name": "Quanto",
@@ -1923,7 +1943,7 @@
               {
                 "token_address": "quantoL84tL1HvygKcz3TJtWRU6dFPW8imMzCa4qxGW",
                 "balance": 0,
-                "token_price": 0.03505,
+                "token_price": 0.03463,
                 "token_decimals": 6,
                 "token_symbol": "QTO",
                 "token_name": "Quanto",
@@ -1939,11 +1959,11 @@
               {
                 "token_address": "quantoL84tL1HvygKcz3TJtWRU6dFPW8imMzCa4qxGW",
                 "balance": 1e-06,
-                "token_price": 0.03505,
+                "token_price": 0.03463,
                 "token_decimals": 6,
                 "token_symbol": "QTO",
                 "token_name": "Quanto",
-                "value": 3.505e-08
+                "value": 3.463e-08
               }
             ]
           },
@@ -1955,7 +1975,7 @@
               {
                 "token_address": "quantoL84tL1HvygKcz3TJtWRU6dFPW8imMzCa4qxGW",
                 "balance": 0,
-                "token_price": 0.03505,
+                "token_price": 0.03463,
                 "token_decimals": 6,
                 "token_symbol": "QTO",
                 "token_name": "Quanto",
@@ -1971,11 +1991,11 @@
               {
                 "token_address": "quantoL84tL1HvygKcz3TJtWRU6dFPW8imMzCa4qxGW",
                 "balance": 260000,
-                "token_price": 0.03505,
+                "token_price": 0.03463,
                 "token_decimals": 6,
                 "token_symbol": "QTO",
                 "token_name": "Quanto",
-                "value": 9113
+                "value": 9003.800000000001
               }
             ]
           }
