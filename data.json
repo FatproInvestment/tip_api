@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-09-27T10:58:12.132Z",
+  "timestamp": "2025-09-27T11:12:03.952Z",
   "data": [
     {
       "address": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
@@ -12,10 +12,10 @@
       "website": "",
       "twitter": "",
       "holder": 8423,
-      "market_cap": 38195781,
-      "price": 0.1766,
-      "price_change_24h": 28.97,
-      "volume_24h": 8859166.65,
+      "market_cap": 38328614,
+      "price": 0.1772,
+      "price_change_24h": 29.34,
+      "volume_24h": 8874602.61,
       "pool_address": "solana_HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD",
       "ath": 0.3830175199241448,
       "ath_timestamp": 1757808000,
@@ -24,10 +24,10 @@
       "pairAddress": "HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD",
       "txns_24h": {
         "buys": 3961,
-        "sells": 5359
+        "sells": 5366
       },
-      "fdv_usd": 353209409,
-      "total_reserve_in_usd": 4081623.85,
+      "fdv_usd": 354437762,
+      "total_reserve_in_usd": 4087499.66,
       "tags": [
         "moonshot"
       ],
@@ -36,9 +36,19 @@
         "price": 0.09945
       },
       "metrics": {
-        "uniqueWallets": 2,
-        "inflow24h": -313498.81010770786,
+        "uniqueWallets": 3,
+        "inflow24h": -313709.2736797446,
         "trades": [
+          {
+            "timestamp": "2025-09-27T11:07:53.000Z",
+            "type": "SWAP",
+            "amount": 1191.807,
+            "usdValue": 210.46357203679534,
+            "wallet": {
+              "address": "EJ2jyVUceCYvC1HxY77X2adre7Kcf8sQaucrKaQtVtXs",
+              "name": "justice3.6x"
+            }
+          },
           {
             "timestamp": "2025-09-27T04:02:27.000Z",
             "type": "SELL",
@@ -153,6 +163,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "EJ2jyVUceCYvC1HxY77X2adre7Kcf8sQaucrKaQtVtXs",
+          "name": "justice3.6x",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
+              "balance": 2000.403707,
+              "token_price": 0.1772,
+              "token_decimals": 6,
+              "token_symbol": "CARDS",
+              "token_name": "Collector Crypt",
+              "value": 354.4715368804
+            }
+          ]
+        },
+        {
           "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
           "name": "cooker",
           "score": 2,
@@ -160,7 +186,7 @@
             {
               "token_address": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
               "balance": 0,
-              "token_price": 0.1766,
+              "token_price": 0.1772,
               "token_decimals": 6,
               "token_symbol": "CARDS",
               "token_name": "Collector Crypt",
@@ -176,11 +202,11 @@
             {
               "token_address": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
               "balance": 28584.014277,
-              "token_price": 0.1766,
+              "token_price": 0.1772,
               "token_decimals": 6,
               "token_symbol": "CARDS",
               "token_name": "Collector Crypt",
-              "value": 5047.9369213182
+              "value": 5065.0873298844
             }
           ]
         }
@@ -190,191 +216,6 @@
   "groups": {
     "latestSignals": [],
     "buys": [],
-    "sells": [
-      {
-        "address": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
-        "symbol": "CARDS",
-        "name": "Collector Crypt",
-        "decimals": 6,
-        "icon": "https://gateway.irys.xyz/2wrjAk4pYAACF3siDHAxt7yJY7kHgt57TZAkbgecKHMR",
-        "created_time": 1756252301,
-        "website": "",
-        "twitter": "",
-        "holder": 8423,
-        "market_cap": 38195781,
-        "price": 0.1766,
-        "price_change_24h": 28.97,
-        "volume_24h": 8859166.65,
-        "pool_address": "solana_HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD",
-        "ath": 0.3830175199241448,
-        "ath_timestamp": 1757808000,
-        "ath_pool": "HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD",
-        "dexId": "raydium",
-        "pairAddress": "HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD",
-        "txns_24h": {
-          "buys": 3961,
-          "sells": 5359
-        },
-        "fdv_usd": 353209409,
-        "total_reserve_in_usd": 4081623.85,
-        "tags": [
-          "moonshot"
-        ],
-        "first_signal": {
-          "timestamp": 1756868654,
-          "price": 0.09945
-        },
-        "metrics": {
-          "uniqueWallets": 2,
-          "inflow24h": -313498.81010770786,
-          "trades": [
-            {
-              "timestamp": "2025-09-27T04:02:27.000Z",
-              "type": "SELL",
-              "amount": 482677.295294,
-              "usdValue": 76356.267232,
-              "wallet": {
-                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-                "name": "cooker"
-              }
-            },
-            {
-              "timestamp": "2025-09-27T04:02:14.000Z",
-              "type": "SELL",
-              "amount": 160892.431764,
-              "usdValue": 25825.274099,
-              "wallet": {
-                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-                "name": "cooker"
-              }
-            },
-            {
-              "timestamp": "2025-09-27T04:02:08.000Z",
-              "type": "SELL",
-              "amount": 214523.242352,
-              "usdValue": 34663.079291,
-              "wallet": {
-                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-                "name": "cooker"
-              }
-            },
-            {
-              "timestamp": "2025-09-27T04:01:55.000Z",
-              "type": "SELL",
-              "amount": 286030.989803,
-              "usdValue": 46676.639376,
-              "wallet": {
-                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-                "name": "cooker"
-              }
-            },
-            {
-              "timestamp": "2025-09-27T04:01:50.000Z",
-              "type": "SELL",
-              "amount": 127124.884356,
-              "usdValue": 20960.452016,
-              "wallet": {
-                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-                "name": "cooker"
-              }
-            },
-            {
-              "timestamp": "2025-09-27T04:01:40.000Z",
-              "type": "SELL",
-              "amount": 141249.871507,
-              "usdValue": 22367.42761684119,
-              "wallet": {
-                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-                "name": "cooker"
-              }
-            },
-            {
-              "timestamp": "2025-09-27T04:01:33.000Z",
-              "type": "SELL",
-              "amount": 176562.339384,
-              "usdValue": 29393.635402,
-              "wallet": {
-                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-                "name": "cooker"
-              }
-            },
-            {
-              "timestamp": "2025-09-27T04:01:28.000Z",
-              "type": "SELL",
-              "amount": 176562.339384,
-              "usdValue": 27869.653376231236,
-              "wallet": {
-                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-                "name": "cooker"
-              }
-            },
-            {
-              "timestamp": "2025-09-27T04:01:24.000Z",
-              "type": "SELL",
-              "amount": 196180.377093,
-              "usdValue": 31386.381698635418,
-              "wallet": {
-                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-                "name": "cooker"
-              }
-            },
-            {
-              "timestamp": "2025-09-26T22:32:53.000Z",
-              "type": "BUY",
-              "amount": 6054.523626,
-              "usdValue": 1000,
-              "wallet": {
-                "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
-                "name": "Chillguy32x"
-              }
-            },
-            {
-              "timestamp": "2025-09-26T20:29:49.000Z",
-              "type": "BUY",
-              "amount": 5717.227936,
-              "usdValue": 1000,
-              "wallet": {
-                "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
-                "name": "Chillguy32x"
-              }
-            }
-          ]
-        },
-        "walletPortfolios": [
-          {
-            "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-            "name": "cooker",
-            "score": 2,
-            "tokens": [
-              {
-                "token_address": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
-                "balance": 0,
-                "token_price": 0.1766,
-                "token_decimals": 6,
-                "token_symbol": "CARDS",
-                "token_name": "Collector Crypt",
-                "value": 0
-              }
-            ]
-          },
-          {
-            "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
-            "name": "Chillguy32x",
-            "score": 1,
-            "tokens": [
-              {
-                "token_address": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
-                "balance": 28584.014277,
-                "token_price": 0.1766,
-                "token_decimals": 6,
-                "token_symbol": "CARDS",
-                "token_name": "Collector Crypt",
-                "value": 5047.9369213182
-              }
-            ]
-          }
-        ]
-      }
-    ]
+    "sells": []
   }
 }
