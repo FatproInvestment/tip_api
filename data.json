@@ -1,7 +1,131 @@
 {
   "success": true,
-  "timestamp": "2025-10-06T07:58:15.654Z",
+  "timestamp": "2025-10-06T08:23:25.717Z",
   "data": [
+    {
+      "address": "Eppcp4FhG6wmaRno3omWWvKsZHbzucVLR316SdXopump",
+      "symbol": "pibble",
+      "name": "pibble",
+      "decimals": 6,
+      "icon": "https://ipfs.io/ipfs/bafkreiehy4vmyrxmol4gtc45ipefd4u3y432ieuxgkbgahx3l6arh4yrku",
+      "created_time": 1758500414,
+      "website": "",
+      "twitter": "",
+      "holder": 3425,
+      "market_cap": 2622177,
+      "price": 0.002622,
+      "price_change_24h": -39.58,
+      "volume_24h": 1442627.74,
+      "pool_address": "solana_FUMjaCUAArcUbD4dpwYCmiVs3SjabbB4VyW7aUyGwXXH",
+      "ath": 0.0076113824316092395,
+      "ath_timestamp": 1759190400,
+      "ath_pool": "FUMjaCUAArcUbD4dpwYCmiVs3SjabbB4VyW7aUyGwXXH",
+      "dexId": "pumpswap",
+      "pairAddress": "FUMjaCUAArcUbD4dpwYCmiVs3SjabbB4VyW7aUyGwXXH",
+      "txns_24h": {
+        "buys": 3513,
+        "sells": 2957
+      },
+      "fdv_usd": 2622177,
+      "total_reserve_in_usd": 275157.27,
+      "tags": [
+        "moonshot"
+      ],
+      "first_signal": {
+        "timestamp": 1758554333,
+        "price": 0.0003064
+      },
+      "metrics": {
+        "uniqueWallets": 2,
+        "inflow24h": -21094.60270873975,
+        "trades": [
+          {
+            "timestamp": "2025-10-06T08:05:56.000Z",
+            "type": "BUY",
+            "amount": 969292.253073,
+            "usdValue": 2322.5291506891645,
+            "wallet": {
+              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+              "name": "DNF 哥"
+            }
+          },
+          {
+            "timestamp": "2025-10-05T22:45:39.000Z",
+            "type": "SELL",
+            "amount": 2434896.56463,
+            "usdValue": 6062.260989647011,
+            "wallet": {
+              "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
+              "name": "soloxbt.sol"
+            }
+          },
+          {
+            "timestamp": "2025-10-05T22:45:38.000Z",
+            "type": "SELL",
+            "amount": 2434896.564629,
+            "usdValue": 6331.949974007232,
+            "wallet": {
+              "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
+              "name": "soloxbt.sol"
+            }
+          },
+          {
+            "timestamp": "2025-10-05T21:54:53.000Z",
+            "type": "SELL",
+            "amount": 1623264.376419,
+            "usdValue": 4988.3453793257295,
+            "wallet": {
+              "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
+              "name": "soloxbt.sol"
+            }
+          },
+          {
+            "timestamp": "2025-10-05T19:54:40.000Z",
+            "type": "SELL",
+            "amount": 2164352.501892,
+            "usdValue": 6034.575516448943,
+            "wallet": {
+              "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
+              "name": "soloxbt.sol"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+          "name": "DNF 哥",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "Eppcp4FhG6wmaRno3omWWvKsZHbzucVLR316SdXopump",
+              "balance": 18310782.768537,
+              "token_price": 0.002622,
+              "token_decimals": 6,
+              "token_symbol": "pibble",
+              "token_name": "pibble",
+              "value": 48010.87241910402
+            }
+          ]
+        },
+        {
+          "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
+          "name": "soloxbt.sol",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "Eppcp4FhG6wmaRno3omWWvKsZHbzucVLR316SdXopump",
+              "balance": 0,
+              "token_price": 0.002622,
+              "token_decimals": 6,
+              "token_symbol": "pibble",
+              "token_name": "pibble",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
     {
       "address": "GVvPZpC6ymCoiHzYJ7CWZ8LhVn9tL2AUpRjSAsLh6jZC",
       "symbol": "ZC",
@@ -12,10 +136,10 @@
       "website": "https://zcombinator.io",
       "twitter": "https://x.com/zcombinatorio/status/1970908525812396410",
       "holder": 641,
-      "market_cap": 1920893,
-      "price": 0.00192,
-      "price_change_24h": 12.23,
-      "volume_24h": 505950.34,
+      "market_cap": 1805097,
+      "price": 0.001805,
+      "price_change_24h": -18,
+      "volume_24h": 487900.76,
       "pool_address": "solana_CCZdbVvDqPN8DmMLVELfnt9G1Q9pQNt3bTGifSpUY9Ad",
       "ath": 0.002691862389292243,
       "ath_timestamp": 1759622400,
@@ -23,11 +147,11 @@
       "dexId": "meteora",
       "pairAddress": "CCZdbVvDqPN8DmMLVELfnt9G1Q9pQNt3bTGifSpUY9Ad",
       "txns_24h": {
-        "buys": 709,
-        "sells": 583
+        "buys": 698,
+        "sells": 560
       },
-      "fdv_usd": 1920893,
-      "total_reserve_in_usd": 140153.52,
+      "fdv_usd": 1805097,
+      "total_reserve_in_usd": 136357.84,
       "tags": [],
       "first_signal": {
         "timestamp": 1759597158,
@@ -68,11 +192,11 @@
             {
               "token_address": "GVvPZpC6ymCoiHzYJ7CWZ8LhVn9tL2AUpRjSAsLh6jZC",
               "balance": 14916809.314009,
-              "token_price": 0.00192,
+              "token_price": 0.001805,
               "token_decimals": 6,
               "token_symbol": "ZC",
               "token_name": "Z Combinator",
-              "value": 28640.27388289728
+              "value": 26924.840811786245
             }
           ]
         },
@@ -84,11 +208,11 @@
             {
               "token_address": "GVvPZpC6ymCoiHzYJ7CWZ8LhVn9tL2AUpRjSAsLh6jZC",
               "balance": 10382646.281432,
-              "token_price": 0.00192,
+              "token_price": 0.001805,
               "token_decimals": 6,
               "token_symbol": "ZC",
               "token_name": "Z Combinator",
-              "value": 19934.680860349443
+              "value": 18740.67653798476
             }
           ]
         }
@@ -104,10 +228,10 @@
       "website": "",
       "twitter": "",
       "holder": 9884,
-      "market_cap": 50137776,
-      "price": 0.2318,
-      "price_change_24h": -25.46,
-      "volume_24h": 19844080.75,
+      "market_cap": 49599831,
+      "price": 0.2293,
+      "price_change_24h": -26.99,
+      "volume_24h": 20179962.2,
       "pool_address": "solana_HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD",
       "ath": 0.3830175199241448,
       "ath_timestamp": 1757808000,
@@ -115,11 +239,11 @@
       "dexId": "raydium",
       "pairAddress": "HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD",
       "txns_24h": {
-        "buys": 6816,
-        "sells": 5756
+        "buys": 6905,
+        "sells": 5800
       },
-      "fdv_usd": 463641111,
-      "total_reserve_in_usd": 4030983.77,
+      "fdv_usd": 458666545,
+      "total_reserve_in_usd": 4014884.39,
       "tags": [
         "moonshot"
       ],
@@ -182,11 +306,11 @@
             {
               "token_address": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
               "balance": 47484.560692,
-              "token_price": 0.2318,
+              "token_price": 0.2293,
               "token_decimals": 6,
               "token_symbol": "CARDS",
               "token_name": "Collector Crypt",
-              "value": 11006.9211684056
+              "value": 10888.2097666756
             }
           ]
         }
@@ -201,11 +325,11 @@
       "created_time": 1737677895,
       "website": "",
       "twitter": "",
-      "holder": 23496,
-      "market_cap": 114392923,
-      "price": 0.1144,
-      "price_change_24h": 1.37,
-      "volume_24h": 2844660.93,
+      "holder": 23527,
+      "market_cap": 114265992,
+      "price": 0.1142,
+      "price_change_24h": 1.98,
+      "volume_24h": 2994755.47,
       "pool_address": "solana_AjM8Qn62EhR4ikJ1rvyeezB1NyvrSsb4zwJiFUFs9ycs",
       "ath": 0.3356262693367901,
       "ath_timestamp": 1747330020,
@@ -213,11 +337,11 @@
       "dexId": "raydium",
       "pairAddress": "YrrUStgPugDp8BbfosqDeFssen6sA75ZS1QJvgnHtmY",
       "txns_24h": {
-        "buys": 8578,
-        "sells": 8608
+        "buys": 8840,
+        "sells": 8842
       },
-      "fdv_usd": 114392923,
-      "total_reserve_in_usd": 1388432.33,
+      "fdv_usd": 114273077,
+      "total_reserve_in_usd": 1391459.43,
       "tags": [
         "moonshot"
       ],
@@ -250,11 +374,11 @@
             {
               "token_address": "Ey59PH7Z4BFU4HjyKnyMdWt5GGN76KazTAwQihoUXRnk",
               "balance": 401327.177957683,
-              "token_price": 0.1144,
+              "token_price": 0.1142,
               "token_decimals": 9,
               "token_symbol": "LAUNCHCOIN",
               "token_name": "Launch Coin on Believe",
-              "value": 45911.82915835893
+              "value": 45831.563722767394
             }
           ]
         }
@@ -265,6 +389,130 @@
     "latestSignals": [],
     "buys": [
       {
+        "address": "Eppcp4FhG6wmaRno3omWWvKsZHbzucVLR316SdXopump",
+        "symbol": "pibble",
+        "name": "pibble",
+        "decimals": 6,
+        "icon": "https://ipfs.io/ipfs/bafkreiehy4vmyrxmol4gtc45ipefd4u3y432ieuxgkbgahx3l6arh4yrku",
+        "created_time": 1758500414,
+        "website": "",
+        "twitter": "",
+        "holder": 3425,
+        "market_cap": 2622177,
+        "price": 0.002622,
+        "price_change_24h": -39.58,
+        "volume_24h": 1442627.74,
+        "pool_address": "solana_FUMjaCUAArcUbD4dpwYCmiVs3SjabbB4VyW7aUyGwXXH",
+        "ath": 0.0076113824316092395,
+        "ath_timestamp": 1759190400,
+        "ath_pool": "FUMjaCUAArcUbD4dpwYCmiVs3SjabbB4VyW7aUyGwXXH",
+        "dexId": "pumpswap",
+        "pairAddress": "FUMjaCUAArcUbD4dpwYCmiVs3SjabbB4VyW7aUyGwXXH",
+        "txns_24h": {
+          "buys": 3513,
+          "sells": 2957
+        },
+        "fdv_usd": 2622177,
+        "total_reserve_in_usd": 275157.27,
+        "tags": [
+          "moonshot"
+        ],
+        "first_signal": {
+          "timestamp": 1758554333,
+          "price": 0.0003064
+        },
+        "metrics": {
+          "uniqueWallets": 2,
+          "inflow24h": -21094.60270873975,
+          "trades": [
+            {
+              "timestamp": "2025-10-06T08:05:56.000Z",
+              "type": "BUY",
+              "amount": 969292.253073,
+              "usdValue": 2322.5291506891645,
+              "wallet": {
+                "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+                "name": "DNF 哥"
+              }
+            },
+            {
+              "timestamp": "2025-10-05T22:45:39.000Z",
+              "type": "SELL",
+              "amount": 2434896.56463,
+              "usdValue": 6062.260989647011,
+              "wallet": {
+                "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
+                "name": "soloxbt.sol"
+              }
+            },
+            {
+              "timestamp": "2025-10-05T22:45:38.000Z",
+              "type": "SELL",
+              "amount": 2434896.564629,
+              "usdValue": 6331.949974007232,
+              "wallet": {
+                "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
+                "name": "soloxbt.sol"
+              }
+            },
+            {
+              "timestamp": "2025-10-05T21:54:53.000Z",
+              "type": "SELL",
+              "amount": 1623264.376419,
+              "usdValue": 4988.3453793257295,
+              "wallet": {
+                "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
+                "name": "soloxbt.sol"
+              }
+            },
+            {
+              "timestamp": "2025-10-05T19:54:40.000Z",
+              "type": "SELL",
+              "amount": 2164352.501892,
+              "usdValue": 6034.575516448943,
+              "wallet": {
+                "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
+                "name": "soloxbt.sol"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+            "name": "DNF 哥",
+            "score": 3,
+            "tokens": [
+              {
+                "token_address": "Eppcp4FhG6wmaRno3omWWvKsZHbzucVLR316SdXopump",
+                "balance": 18310782.768537,
+                "token_price": 0.002622,
+                "token_decimals": 6,
+                "token_symbol": "pibble",
+                "token_name": "pibble",
+                "value": 48010.87241910402
+              }
+            ]
+          },
+          {
+            "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
+            "name": "soloxbt.sol",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "Eppcp4FhG6wmaRno3omWWvKsZHbzucVLR316SdXopump",
+                "balance": 0,
+                "token_price": 0.002622,
+                "token_decimals": 6,
+                "token_symbol": "pibble",
+                "token_name": "pibble",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
         "address": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
         "symbol": "CARDS",
         "name": "Collector Crypt",
@@ -274,10 +522,10 @@
         "website": "",
         "twitter": "",
         "holder": 9884,
-        "market_cap": 50137776,
-        "price": 0.2318,
-        "price_change_24h": -25.46,
-        "volume_24h": 19844080.75,
+        "market_cap": 49599831,
+        "price": 0.2293,
+        "price_change_24h": -26.99,
+        "volume_24h": 20179962.2,
         "pool_address": "solana_HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD",
         "ath": 0.3830175199241448,
         "ath_timestamp": 1757808000,
@@ -285,11 +533,11 @@
         "dexId": "raydium",
         "pairAddress": "HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD",
         "txns_24h": {
-          "buys": 6816,
-          "sells": 5756
+          "buys": 6905,
+          "sells": 5800
         },
-        "fdv_usd": 463641111,
-        "total_reserve_in_usd": 4030983.77,
+        "fdv_usd": 458666545,
+        "total_reserve_in_usd": 4014884.39,
         "tags": [
           "moonshot"
         ],
@@ -352,11 +600,11 @@
               {
                 "token_address": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
                 "balance": 47484.560692,
-                "token_price": 0.2318,
+                "token_price": 0.2293,
                 "token_decimals": 6,
                 "token_symbol": "CARDS",
                 "token_name": "Collector Crypt",
-                "value": 11006.9211684056
+                "value": 10888.2097666756
               }
             ]
           }
@@ -371,11 +619,11 @@
         "created_time": 1737677895,
         "website": "",
         "twitter": "",
-        "holder": 23496,
-        "market_cap": 114392923,
-        "price": 0.1144,
-        "price_change_24h": 1.37,
-        "volume_24h": 2844660.93,
+        "holder": 23527,
+        "market_cap": 114265992,
+        "price": 0.1142,
+        "price_change_24h": 1.98,
+        "volume_24h": 2994755.47,
         "pool_address": "solana_AjM8Qn62EhR4ikJ1rvyeezB1NyvrSsb4zwJiFUFs9ycs",
         "ath": 0.3356262693367901,
         "ath_timestamp": 1747330020,
@@ -383,11 +631,11 @@
         "dexId": "raydium",
         "pairAddress": "YrrUStgPugDp8BbfosqDeFssen6sA75ZS1QJvgnHtmY",
         "txns_24h": {
-          "buys": 8578,
-          "sells": 8608
+          "buys": 8840,
+          "sells": 8842
         },
-        "fdv_usd": 114392923,
-        "total_reserve_in_usd": 1388432.33,
+        "fdv_usd": 114273077,
+        "total_reserve_in_usd": 1391459.43,
         "tags": [
           "moonshot"
         ],
@@ -420,11 +668,11 @@
               {
                 "token_address": "Ey59PH7Z4BFU4HjyKnyMdWt5GGN76KazTAwQihoUXRnk",
                 "balance": 401327.177957683,
-                "token_price": 0.1144,
+                "token_price": 0.1142,
                 "token_decimals": 9,
                 "token_symbol": "LAUNCHCOIN",
                 "token_name": "Launch Coin on Believe",
-                "value": 45911.82915835893
+                "value": 45831.563722767394
               }
             ]
           }
@@ -442,10 +690,10 @@
         "website": "https://zcombinator.io",
         "twitter": "https://x.com/zcombinatorio/status/1970908525812396410",
         "holder": 641,
-        "market_cap": 1920893,
-        "price": 0.00192,
-        "price_change_24h": 12.23,
-        "volume_24h": 505950.34,
+        "market_cap": 1805097,
+        "price": 0.001805,
+        "price_change_24h": -18,
+        "volume_24h": 487900.76,
         "pool_address": "solana_CCZdbVvDqPN8DmMLVELfnt9G1Q9pQNt3bTGifSpUY9Ad",
         "ath": 0.002691862389292243,
         "ath_timestamp": 1759622400,
@@ -453,11 +701,11 @@
         "dexId": "meteora",
         "pairAddress": "CCZdbVvDqPN8DmMLVELfnt9G1Q9pQNt3bTGifSpUY9Ad",
         "txns_24h": {
-          "buys": 709,
-          "sells": 583
+          "buys": 698,
+          "sells": 560
         },
-        "fdv_usd": 1920893,
-        "total_reserve_in_usd": 140153.52,
+        "fdv_usd": 1805097,
+        "total_reserve_in_usd": 136357.84,
         "tags": [],
         "first_signal": {
           "timestamp": 1759597158,
@@ -498,11 +746,11 @@
               {
                 "token_address": "GVvPZpC6ymCoiHzYJ7CWZ8LhVn9tL2AUpRjSAsLh6jZC",
                 "balance": 14916809.314009,
-                "token_price": 0.00192,
+                "token_price": 0.001805,
                 "token_decimals": 6,
                 "token_symbol": "ZC",
                 "token_name": "Z Combinator",
-                "value": 28640.27388289728
+                "value": 26924.840811786245
               }
             ]
           },
@@ -514,11 +762,11 @@
               {
                 "token_address": "GVvPZpC6ymCoiHzYJ7CWZ8LhVn9tL2AUpRjSAsLh6jZC",
                 "balance": 10382646.281432,
-                "token_price": 0.00192,
+                "token_price": 0.001805,
                 "token_decimals": 6,
                 "token_symbol": "ZC",
                 "token_name": "Z Combinator",
-                "value": 19934.680860349443
+                "value": 18740.67653798476
               }
             ]
           }
