@@ -1,7 +1,98 @@
 {
   "success": true,
-  "timestamp": "2025-10-07T14:53:54.838Z",
+  "timestamp": "2025-10-07T15:00:31.395Z",
   "data": [
+    {
+      "address": "Kkkhb2uaCYwXoTrWC7CMPLa7T5UsbVVeeiQXrTSuZUT",
+      "symbol": "ATTN",
+      "name": "attention.trade",
+      "decimals": 6,
+      "icon": "https://www.attention.trade/logo.png",
+      "created_time": 1759848280,
+      "website": "https://attention.trade/",
+      "twitter": "https://x.com/attn_trade",
+      "holder": 676,
+      "market_cap": 434845,
+      "price": 0.0004348,
+      "price_change_24h": 597,
+      "volume_24h": 595662.89,
+      "pool_address": "solana_GhsLWJDbBeFAiBY16MbzqU4ycaLKBsZLbSZFvJYmsvxt",
+      "ath": 0.0004348,
+      "ath_pool": "",
+      "dexId": "meteora",
+      "pairAddress": "GhsLWJDbBeFAiBY16MbzqU4ycaLKBsZLbSZFvJYmsvxt",
+      "txns_24h": {
+        "buys": 1730,
+        "sells": 1509
+      },
+      "fdv_usd": 434845,
+      "total_reserve_in_usd": 62624.75,
+      "tags": [],
+      "first_signal": {
+        "timestamp": 1759849228,
+        "price": 0.0004348
+      },
+      "metrics": {
+        "uniqueWallets": 2,
+        "inflow24h": 4248.050031141455,
+        "trades": [
+          {
+            "timestamp": "2025-10-07T14:55:41.000Z",
+            "type": "BUY",
+            "amount": 17537861.430414,
+            "usdValue": 1833.3626180533604,
+            "wallet": {
+              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+              "name": "DNF 哥"
+            }
+          },
+          {
+            "timestamp": "2025-10-07T14:54:22.000Z",
+            "type": "BUY",
+            "amount": 15090653.293446,
+            "usdValue": 2414.6874130880947,
+            "wallet": {
+              "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
+              "name": "eca.eth"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+          "name": "DNF 哥",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "Kkkhb2uaCYwXoTrWC7CMPLa7T5UsbVVeeiQXrTSuZUT",
+              "balance": 17537861.430414,
+              "token_price": 0.0004348,
+              "token_decimals": 6,
+              "token_symbol": "ATTN",
+              "token_name": "attention.trade",
+              "value": 7625.462149944006
+            }
+          ]
+        },
+        {
+          "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
+          "name": "eca.eth",
+          "score": 1,
+          "tokens": [
+            {
+              "token_address": "Kkkhb2uaCYwXoTrWC7CMPLa7T5UsbVVeeiQXrTSuZUT",
+              "balance": 15090653.293446,
+              "token_price": 0.0004348,
+              "token_decimals": 6,
+              "token_symbol": "ATTN",
+              "token_name": "attention.trade",
+              "value": 6561.416051990321
+            }
+          ]
+        }
+      ]
+    },
     {
       "address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
       "symbol": "USD1",
@@ -12,10 +103,10 @@
       "website": "",
       "twitter": "",
       "holder": 61102,
-      "market_cap": 158000343,
-      "price": 1.0000018,
+      "market_cap": 2666031232,
+      "price": 1.0000015,
       "price_change_24h": 0.02,
-      "volume_24h": 2013614.7,
+      "volume_24h": 2005499.79,
       "pool_address": "solana_AQAGYQsdU853WAKhXM79CgNdoyhrRwXvYHX6qrDyC1FS",
       "ath": 1.0487321954051128,
       "ath_timestamp": 1757635200,
@@ -24,10 +115,10 @@
       "pairAddress": "BCDdHonby65iduz3Ev3c9v5XjNkzyu5e56KRFHpBM4T9",
       "txns_24h": {
         "buys": 1300,
-        "sells": 1542
+        "sells": 1522
       },
-      "fdv_usd": 158000343,
-      "total_reserve_in_usd": 15240631.58,
+      "fdv_usd": 158000294,
+      "total_reserve_in_usd": 15240628.4,
       "tags": [],
       "first_signal": {
         "timestamp": 1757553221,
@@ -78,7 +169,7 @@
             {
               "token_address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
               "balance": 0,
-              "token_price": 1.0000018,
+              "token_price": 1.0000015,
               "token_decimals": 6,
               "token_symbol": "USD1",
               "token_name": "World Liberty Financial USD",
@@ -94,7 +185,7 @@
             {
               "token_address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
               "balance": 0,
-              "token_price": 1.0000018,
+              "token_price": 1.0000015,
               "token_decimals": 6,
               "token_symbol": "USD1",
               "token_name": "World Liberty Financial USD",
@@ -106,7 +197,99 @@
     }
   ],
   "groups": {
-    "latestSignals": [],
+    "latestSignals": [
+      {
+        "address": "Kkkhb2uaCYwXoTrWC7CMPLa7T5UsbVVeeiQXrTSuZUT",
+        "symbol": "ATTN",
+        "name": "attention.trade",
+        "decimals": 6,
+        "icon": "https://www.attention.trade/logo.png",
+        "created_time": 1759848280,
+        "website": "https://attention.trade/",
+        "twitter": "https://x.com/attn_trade",
+        "holder": 676,
+        "market_cap": 434845,
+        "price": 0.0004348,
+        "price_change_24h": 597,
+        "volume_24h": 595662.89,
+        "pool_address": "solana_GhsLWJDbBeFAiBY16MbzqU4ycaLKBsZLbSZFvJYmsvxt",
+        "ath": 0.0004348,
+        "ath_pool": "",
+        "dexId": "meteora",
+        "pairAddress": "GhsLWJDbBeFAiBY16MbzqU4ycaLKBsZLbSZFvJYmsvxt",
+        "txns_24h": {
+          "buys": 1730,
+          "sells": 1509
+        },
+        "fdv_usd": 434845,
+        "total_reserve_in_usd": 62624.75,
+        "tags": [],
+        "first_signal": {
+          "timestamp": 1759849228,
+          "price": 0.0004348
+        },
+        "metrics": {
+          "uniqueWallets": 2,
+          "inflow24h": 4248.050031141455,
+          "trades": [
+            {
+              "timestamp": "2025-10-07T14:55:41.000Z",
+              "type": "BUY",
+              "amount": 17537861.430414,
+              "usdValue": 1833.3626180533604,
+              "wallet": {
+                "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+                "name": "DNF 哥"
+              }
+            },
+            {
+              "timestamp": "2025-10-07T14:54:22.000Z",
+              "type": "BUY",
+              "amount": 15090653.293446,
+              "usdValue": 2414.6874130880947,
+              "wallet": {
+                "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
+                "name": "eca.eth"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+            "name": "DNF 哥",
+            "score": 3,
+            "tokens": [
+              {
+                "token_address": "Kkkhb2uaCYwXoTrWC7CMPLa7T5UsbVVeeiQXrTSuZUT",
+                "balance": 17537861.430414,
+                "token_price": 0.0004348,
+                "token_decimals": 6,
+                "token_symbol": "ATTN",
+                "token_name": "attention.trade",
+                "value": 7625.462149944006
+              }
+            ]
+          },
+          {
+            "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
+            "name": "eca.eth",
+            "score": 1,
+            "tokens": [
+              {
+                "token_address": "Kkkhb2uaCYwXoTrWC7CMPLa7T5UsbVVeeiQXrTSuZUT",
+                "balance": 15090653.293446,
+                "token_price": 0.0004348,
+                "token_decimals": 6,
+                "token_symbol": "ATTN",
+                "token_name": "attention.trade",
+                "value": 6561.416051990321
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "buys": [],
     "sells": [
       {
@@ -119,10 +302,10 @@
         "website": "",
         "twitter": "",
         "holder": 61102,
-        "market_cap": 158000343,
-        "price": 1.0000018,
+        "market_cap": 2666031232,
+        "price": 1.0000015,
         "price_change_24h": 0.02,
-        "volume_24h": 2013614.7,
+        "volume_24h": 2005499.79,
         "pool_address": "solana_AQAGYQsdU853WAKhXM79CgNdoyhrRwXvYHX6qrDyC1FS",
         "ath": 1.0487321954051128,
         "ath_timestamp": 1757635200,
@@ -131,10 +314,10 @@
         "pairAddress": "BCDdHonby65iduz3Ev3c9v5XjNkzyu5e56KRFHpBM4T9",
         "txns_24h": {
           "buys": 1300,
-          "sells": 1542
+          "sells": 1522
         },
-        "fdv_usd": 158000343,
-        "total_reserve_in_usd": 15240631.58,
+        "fdv_usd": 158000294,
+        "total_reserve_in_usd": 15240628.4,
         "tags": [],
         "first_signal": {
           "timestamp": 1757553221,
@@ -185,7 +368,7 @@
               {
                 "token_address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
                 "balance": 0,
-                "token_price": 1.0000018,
+                "token_price": 1.0000015,
                 "token_decimals": 6,
                 "token_symbol": "USD1",
                 "token_name": "World Liberty Financial USD",
@@ -201,7 +384,7 @@
               {
                 "token_address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
                 "balance": 0,
-                "token_price": 1.0000018,
+                "token_price": 1.0000015,
                 "token_decimals": 6,
                 "token_symbol": "USD1",
                 "token_name": "World Liberty Financial USD",
