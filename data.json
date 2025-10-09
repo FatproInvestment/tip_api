@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-10-09T20:30:51.619Z",
+  "timestamp": "2025-10-09T20:41:56.421Z",
   "data": [
     {
       "address": "EbWx89dZ7cMceY6CAyeK13au7FD4eGata6KV2AyvBLV",
@@ -12,10 +12,10 @@
       "website": "",
       "twitter": "",
       "holder": 2579,
-      "market_cap": 10171211,
-      "price": 0.01017,
-      "price_change_24h": 618,
-      "volume_24h": 2552800.05,
+      "market_cap": 3624888,
+      "price": 0.003624,
+      "price_change_24h": 157,
+      "volume_24h": 5585750.2,
       "pool_address": "solana_FZXf3pQp9YBj7nAT3MwfKYnSgcg7yTbwznsn6btTmKXP",
       "ath": 0.01017,
       "ath_timestamp": 1760041698,
@@ -23,11 +23,11 @@
       "dexId": "meteora",
       "pairAddress": "FZXf3pQp9YBj7nAT3MwfKYnSgcg7yTbwznsn6btTmKXP",
       "txns_24h": {
-        "buys": 2504,
-        "sells": 2480
+        "buys": 5624,
+        "sells": 4897
       },
-      "fdv_usd": 10171211,
-      "total_reserve_in_usd": 827990.54,
+      "fdv_usd": 3624888,
+      "total_reserve_in_usd": 520308.53,
       "tags": [],
       "first_signal": {
         "timestamp": 1760041690,
@@ -35,8 +35,58 @@
       },
       "metrics": {
         "uniqueWallets": 4,
-        "inflow24h": 86102.89818535167,
+        "inflow24h": 123504.00991058456,
         "trades": [
+          {
+            "timestamp": "2025-10-09T20:33:21.000Z",
+            "type": "BUY",
+            "amount": 1532379.243449724,
+            "usdValue": 6485.739056976549,
+            "wallet": {
+              "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
+              "name": "soloxbt.sol"
+            }
+          },
+          {
+            "timestamp": "2025-10-09T20:32:10.000Z",
+            "type": "BUY",
+            "amount": 2371351.071706084,
+            "usdValue": 10809.565094960915,
+            "wallet": {
+              "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
+              "name": "soloxbt.sol"
+            }
+          },
+          {
+            "timestamp": "2025-10-09T20:31:32.000Z",
+            "type": "SELL",
+            "amount": 354082.7084793,
+            "usdValue": 1532.261601807465,
+            "wallet": {
+              "address": "GJgMeortRJNPuHahkMR14vLRLMZJCaJuqoXSAt4ErCRk",
+              "name": "高频小仓"
+            }
+          },
+          {
+            "timestamp": "2025-10-09T20:31:00.000Z",
+            "type": "BUY",
+            "amount": 2612713.901864944,
+            "usdValue": 10819.034587551443,
+            "wallet": {
+              "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
+              "name": "soloxbt.sol"
+            }
+          },
+          {
+            "timestamp": "2025-10-09T20:30:59.000Z",
+            "type": "BUY",
+            "amount": 2896910.33050595,
+            "usdValue": 10819.034587551443,
+            "wallet": {
+              "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
+              "name": "soloxbt.sol"
+            }
+          },
           {
             "timestamp": "2025-10-09T20:30:27.000Z",
             "type": "SELL",
@@ -401,18 +451,18 @@
       },
       "walletPortfolios": [
         {
-          "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
-          "name": "eca.eth",
-          "score": 1,
+          "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
+          "name": "soloxbt.sol",
+          "score": 2,
           "tokens": [
             {
               "token_address": "EbWx89dZ7cMceY6CAyeK13au7FD4eGata6KV2AyvBLV",
-              "balance": 0,
-              "token_price": 0.01017,
+              "balance": 17335366.31361765,
+              "token_price": 0.003624,
               "token_decimals": 9,
               "token_symbol": "ADLOWS",
               "token_name": "ADLOWS",
-              "value": 0
+              "value": 62823.36752055037
             }
           ]
         },
@@ -423,12 +473,28 @@
           "tokens": [
             {
               "token_address": "EbWx89dZ7cMceY6CAyeK13au7FD4eGata6KV2AyvBLV",
-              "balance": 354082.7084793,
-              "token_price": 0.01017,
+              "balance": 0,
+              "token_price": 0.003624,
               "token_decimals": 9,
               "token_symbol": "ADLOWS",
               "token_name": "ADLOWS",
-              "value": 3601.0211452344815
+              "value": 0
+            }
+          ]
+        },
+        {
+          "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
+          "name": "eca.eth",
+          "score": 1,
+          "tokens": [
+            {
+              "token_address": "EbWx89dZ7cMceY6CAyeK13au7FD4eGata6KV2AyvBLV",
+              "balance": 0,
+              "token_price": 0.003624,
+              "token_decimals": 9,
+              "token_symbol": "ADLOWS",
+              "token_name": "ADLOWS",
+              "value": 0
             }
           ]
         },
@@ -440,27 +506,11 @@
             {
               "token_address": "EbWx89dZ7cMceY6CAyeK13au7FD4eGata6KV2AyvBLV",
               "balance": 4771666.029419442,
-              "token_price": 0.01017,
+              "token_price": 0.003624,
               "token_decimals": 9,
               "token_symbol": "ADLOWS",
               "token_name": "ADLOWS",
-              "value": 48527.843519195725
-            }
-          ]
-        },
-        {
-          "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
-          "name": "soloxbt.sol",
-          "score": 2,
-          "tokens": [
-            {
-              "token_address": "EbWx89dZ7cMceY6CAyeK13au7FD4eGata6KV2AyvBLV",
-              "balance": 7922011.76609095,
-              "token_price": 0.01017,
-              "token_decimals": 9,
-              "token_symbol": "ADLOWS",
-              "token_name": "ADLOWS",
-              "value": 80566.85966114496
+              "value": 17292.517690616056
             }
           ]
         }
@@ -479,10 +529,10 @@
         "website": "",
         "twitter": "",
         "holder": 2579,
-        "market_cap": 10171211,
-        "price": 0.01017,
-        "price_change_24h": 618,
-        "volume_24h": 2552800.05,
+        "market_cap": 3624888,
+        "price": 0.003624,
+        "price_change_24h": 157,
+        "volume_24h": 5585750.2,
         "pool_address": "solana_FZXf3pQp9YBj7nAT3MwfKYnSgcg7yTbwznsn6btTmKXP",
         "ath": 0.01017,
         "ath_timestamp": 1760041698,
@@ -490,11 +540,11 @@
         "dexId": "meteora",
         "pairAddress": "FZXf3pQp9YBj7nAT3MwfKYnSgcg7yTbwznsn6btTmKXP",
         "txns_24h": {
-          "buys": 2504,
-          "sells": 2480
+          "buys": 5624,
+          "sells": 4897
         },
-        "fdv_usd": 10171211,
-        "total_reserve_in_usd": 827990.54,
+        "fdv_usd": 3624888,
+        "total_reserve_in_usd": 520308.53,
         "tags": [],
         "first_signal": {
           "timestamp": 1760041690,
@@ -502,8 +552,58 @@
         },
         "metrics": {
           "uniqueWallets": 4,
-          "inflow24h": 86102.89818535167,
+          "inflow24h": 123504.00991058456,
           "trades": [
+            {
+              "timestamp": "2025-10-09T20:33:21.000Z",
+              "type": "BUY",
+              "amount": 1532379.243449724,
+              "usdValue": 6485.739056976549,
+              "wallet": {
+                "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
+                "name": "soloxbt.sol"
+              }
+            },
+            {
+              "timestamp": "2025-10-09T20:32:10.000Z",
+              "type": "BUY",
+              "amount": 2371351.071706084,
+              "usdValue": 10809.565094960915,
+              "wallet": {
+                "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
+                "name": "soloxbt.sol"
+              }
+            },
+            {
+              "timestamp": "2025-10-09T20:31:32.000Z",
+              "type": "SELL",
+              "amount": 354082.7084793,
+              "usdValue": 1532.261601807465,
+              "wallet": {
+                "address": "GJgMeortRJNPuHahkMR14vLRLMZJCaJuqoXSAt4ErCRk",
+                "name": "高频小仓"
+              }
+            },
+            {
+              "timestamp": "2025-10-09T20:31:00.000Z",
+              "type": "BUY",
+              "amount": 2612713.901864944,
+              "usdValue": 10819.034587551443,
+              "wallet": {
+                "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
+                "name": "soloxbt.sol"
+              }
+            },
+            {
+              "timestamp": "2025-10-09T20:30:59.000Z",
+              "type": "BUY",
+              "amount": 2896910.33050595,
+              "usdValue": 10819.034587551443,
+              "wallet": {
+                "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
+                "name": "soloxbt.sol"
+              }
+            },
             {
               "timestamp": "2025-10-09T20:30:27.000Z",
               "type": "SELL",
@@ -868,18 +968,18 @@
         },
         "walletPortfolios": [
           {
-            "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
-            "name": "eca.eth",
-            "score": 1,
+            "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
+            "name": "soloxbt.sol",
+            "score": 2,
             "tokens": [
               {
                 "token_address": "EbWx89dZ7cMceY6CAyeK13au7FD4eGata6KV2AyvBLV",
-                "balance": 0,
-                "token_price": 0.01017,
+                "balance": 17335366.31361765,
+                "token_price": 0.003624,
                 "token_decimals": 9,
                 "token_symbol": "ADLOWS",
                 "token_name": "ADLOWS",
-                "value": 0
+                "value": 62823.36752055037
               }
             ]
           },
@@ -890,12 +990,28 @@
             "tokens": [
               {
                 "token_address": "EbWx89dZ7cMceY6CAyeK13au7FD4eGata6KV2AyvBLV",
-                "balance": 354082.7084793,
-                "token_price": 0.01017,
+                "balance": 0,
+                "token_price": 0.003624,
                 "token_decimals": 9,
                 "token_symbol": "ADLOWS",
                 "token_name": "ADLOWS",
-                "value": 3601.0211452344815
+                "value": 0
+              }
+            ]
+          },
+          {
+            "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
+            "name": "eca.eth",
+            "score": 1,
+            "tokens": [
+              {
+                "token_address": "EbWx89dZ7cMceY6CAyeK13au7FD4eGata6KV2AyvBLV",
+                "balance": 0,
+                "token_price": 0.003624,
+                "token_decimals": 9,
+                "token_symbol": "ADLOWS",
+                "token_name": "ADLOWS",
+                "value": 0
               }
             ]
           },
@@ -907,27 +1023,11 @@
               {
                 "token_address": "EbWx89dZ7cMceY6CAyeK13au7FD4eGata6KV2AyvBLV",
                 "balance": 4771666.029419442,
-                "token_price": 0.01017,
+                "token_price": 0.003624,
                 "token_decimals": 9,
                 "token_symbol": "ADLOWS",
                 "token_name": "ADLOWS",
-                "value": 48527.843519195725
-              }
-            ]
-          },
-          {
-            "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
-            "name": "soloxbt.sol",
-            "score": 2,
-            "tokens": [
-              {
-                "token_address": "EbWx89dZ7cMceY6CAyeK13au7FD4eGata6KV2AyvBLV",
-                "balance": 7922011.76609095,
-                "token_price": 0.01017,
-                "token_decimals": 9,
-                "token_symbol": "ADLOWS",
-                "token_name": "ADLOWS",
-                "value": 80566.85966114496
+                "value": 17292.517690616056
               }
             ]
           }
