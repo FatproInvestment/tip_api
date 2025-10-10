@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-10-10T17:57:39.418Z",
+  "timestamp": "2025-10-10T18:22:40.382Z",
   "data": [
     {
       "address": "EbWx89dZ7cMceY6CAyeK13au7FD4eGata6KV2AyvBLV",
@@ -12,10 +12,10 @@
       "website": "",
       "twitter": "",
       "holder": 2244,
-      "market_cap": 4156025,
-      "price": 0.004156,
-      "price_change_24h": 260,
-      "volume_24h": 7061818.6,
+      "market_cap": 3574548,
+      "price": 0.003574,
+      "price_change_24h": 200,
+      "volume_24h": 7092258.69,
       "pool_address": "solana_FZXf3pQp9YBj7nAT3MwfKYnSgcg7yTbwznsn6btTmKXP",
       "ath": 0.01017,
       "ath_timestamp": 1760041698,
@@ -23,11 +23,11 @@
       "dexId": "meteora",
       "pairAddress": "FZXf3pQp9YBj7nAT3MwfKYnSgcg7yTbwznsn6btTmKXP",
       "txns_24h": {
-        "buys": 7515,
-        "sells": 6607
+        "buys": 7537,
+        "sells": 6615
       },
-      "fdv_usd": 4156025,
-      "total_reserve_in_usd": 511891.35,
+      "fdv_usd": 3574548,
+      "total_reserve_in_usd": 475929.31,
       "tags": [],
       "first_signal": {
         "timestamp": 1760041690,
@@ -35,8 +35,18 @@
       },
       "metrics": {
         "uniqueWallets": 5,
-        "inflow24h": 85852.67966521098,
+        "inflow24h": 67963.77848340456,
         "trades": [
+          {
+            "timestamp": "2025-10-10T18:19:33.000Z",
+            "type": "SELL",
+            "amount": 4771666.029419442,
+            "usdValue": 17888.901181806414,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
           {
             "timestamp": "2025-10-09T22:28:12.000Z",
             "type": "BUY",
@@ -511,6 +521,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+          "name": "cooker",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "EbWx89dZ7cMceY6CAyeK13au7FD4eGata6KV2AyvBLV",
+              "balance": 0,
+              "token_price": 0.003574,
+              "token_decimals": 9,
+              "token_symbol": "ADLOWS",
+              "token_name": "ADLOWS",
+              "value": 0
+            }
+          ]
+        },
+        {
           "address": "6zHcjFHjd3X1ptLznSJ989LVfKZvnmKN96dyvwfXoFSB",
           "name": "SolidBalls",
           "score": 1,
@@ -518,11 +544,11 @@
             {
               "token_address": "EbWx89dZ7cMceY6CAyeK13au7FD4eGata6KV2AyvBLV",
               "balance": 651676.526866979,
-              "token_price": 0.004156,
+              "token_price": 0.003574,
               "token_decimals": 9,
               "token_symbol": "ADLOWS",
               "token_name": "ADLOWS",
-              "value": 2708.3676456591647
+              "value": 2329.0919070225827
             }
           ]
         },
@@ -534,7 +560,7 @@
             {
               "token_address": "EbWx89dZ7cMceY6CAyeK13au7FD4eGata6KV2AyvBLV",
               "balance": 0,
-              "token_price": 0.004156,
+              "token_price": 0.003574,
               "token_decimals": 9,
               "token_symbol": "ADLOWS",
               "token_name": "ADLOWS",
@@ -550,7 +576,7 @@
             {
               "token_address": "EbWx89dZ7cMceY6CAyeK13au7FD4eGata6KV2AyvBLV",
               "balance": 0,
-              "token_price": 0.004156,
+              "token_price": 0.003574,
               "token_decimals": 9,
               "token_symbol": "ADLOWS",
               "token_name": "ADLOWS",
@@ -566,27 +592,11 @@
             {
               "token_address": "EbWx89dZ7cMceY6CAyeK13au7FD4eGata6KV2AyvBLV",
               "balance": 0,
-              "token_price": 0.004156,
+              "token_price": 0.003574,
               "token_decimals": 9,
               "token_symbol": "ADLOWS",
               "token_name": "ADLOWS",
               "value": 0
-            }
-          ]
-        },
-        {
-          "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-          "name": "cooker",
-          "score": 2,
-          "tokens": [
-            {
-              "token_address": "EbWx89dZ7cMceY6CAyeK13au7FD4eGata6KV2AyvBLV",
-              "balance": 4771666.029419442,
-              "token_price": 0.004156,
-              "token_decimals": 9,
-              "token_symbol": "ADLOWS",
-              "token_name": "ADLOWS",
-              "value": 19831.0440182672
             }
           ]
         }
@@ -605,10 +615,10 @@
         "website": "",
         "twitter": "",
         "holder": 2244,
-        "market_cap": 4156025,
-        "price": 0.004156,
-        "price_change_24h": 260,
-        "volume_24h": 7061818.6,
+        "market_cap": 3574548,
+        "price": 0.003574,
+        "price_change_24h": 200,
+        "volume_24h": 7092258.69,
         "pool_address": "solana_FZXf3pQp9YBj7nAT3MwfKYnSgcg7yTbwznsn6btTmKXP",
         "ath": 0.01017,
         "ath_timestamp": 1760041698,
@@ -616,11 +626,11 @@
         "dexId": "meteora",
         "pairAddress": "FZXf3pQp9YBj7nAT3MwfKYnSgcg7yTbwznsn6btTmKXP",
         "txns_24h": {
-          "buys": 7515,
-          "sells": 6607
+          "buys": 7537,
+          "sells": 6615
         },
-        "fdv_usd": 4156025,
-        "total_reserve_in_usd": 511891.35,
+        "fdv_usd": 3574548,
+        "total_reserve_in_usd": 475929.31,
         "tags": [],
         "first_signal": {
           "timestamp": 1760041690,
@@ -628,8 +638,18 @@
         },
         "metrics": {
           "uniqueWallets": 5,
-          "inflow24h": 85852.67966521098,
+          "inflow24h": 67963.77848340456,
           "trades": [
+            {
+              "timestamp": "2025-10-10T18:19:33.000Z",
+              "type": "SELL",
+              "amount": 4771666.029419442,
+              "usdValue": 17888.901181806414,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
             {
               "timestamp": "2025-10-09T22:28:12.000Z",
               "type": "BUY",
@@ -1104,6 +1124,22 @@
         },
         "walletPortfolios": [
           {
+            "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+            "name": "cooker",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "EbWx89dZ7cMceY6CAyeK13au7FD4eGata6KV2AyvBLV",
+                "balance": 0,
+                "token_price": 0.003574,
+                "token_decimals": 9,
+                "token_symbol": "ADLOWS",
+                "token_name": "ADLOWS",
+                "value": 0
+              }
+            ]
+          },
+          {
             "address": "6zHcjFHjd3X1ptLznSJ989LVfKZvnmKN96dyvwfXoFSB",
             "name": "SolidBalls",
             "score": 1,
@@ -1111,11 +1147,11 @@
               {
                 "token_address": "EbWx89dZ7cMceY6CAyeK13au7FD4eGata6KV2AyvBLV",
                 "balance": 651676.526866979,
-                "token_price": 0.004156,
+                "token_price": 0.003574,
                 "token_decimals": 9,
                 "token_symbol": "ADLOWS",
                 "token_name": "ADLOWS",
-                "value": 2708.3676456591647
+                "value": 2329.0919070225827
               }
             ]
           },
@@ -1127,7 +1163,7 @@
               {
                 "token_address": "EbWx89dZ7cMceY6CAyeK13au7FD4eGata6KV2AyvBLV",
                 "balance": 0,
-                "token_price": 0.004156,
+                "token_price": 0.003574,
                 "token_decimals": 9,
                 "token_symbol": "ADLOWS",
                 "token_name": "ADLOWS",
@@ -1143,7 +1179,7 @@
               {
                 "token_address": "EbWx89dZ7cMceY6CAyeK13au7FD4eGata6KV2AyvBLV",
                 "balance": 0,
-                "token_price": 0.004156,
+                "token_price": 0.003574,
                 "token_decimals": 9,
                 "token_symbol": "ADLOWS",
                 "token_name": "ADLOWS",
@@ -1159,27 +1195,11 @@
               {
                 "token_address": "EbWx89dZ7cMceY6CAyeK13au7FD4eGata6KV2AyvBLV",
                 "balance": 0,
-                "token_price": 0.004156,
+                "token_price": 0.003574,
                 "token_decimals": 9,
                 "token_symbol": "ADLOWS",
                 "token_name": "ADLOWS",
                 "value": 0
-              }
-            ]
-          },
-          {
-            "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-            "name": "cooker",
-            "score": 2,
-            "tokens": [
-              {
-                "token_address": "EbWx89dZ7cMceY6CAyeK13au7FD4eGata6KV2AyvBLV",
-                "balance": 4771666.029419442,
-                "token_price": 0.004156,
-                "token_decimals": 9,
-                "token_symbol": "ADLOWS",
-                "token_name": "ADLOWS",
-                "value": 19831.0440182672
               }
             ]
           }
