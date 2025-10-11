@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-10-11T01:20:16.844Z",
+  "timestamp": "2025-10-11T02:34:04.383Z",
   "data": [
     {
       "address": "Ey59PH7Z4BFU4HjyKnyMdWt5GGN76KazTAwQihoUXRnk",
@@ -11,11 +11,11 @@
       "created_time": 1737677895,
       "website": "",
       "twitter": "",
-      "holder": 24002,
-      "market_cap": 85113556,
-      "price": 0.08511,
-      "price_change_24h": -31.72,
-      "volume_24h": 15708028.72,
+      "holder": 24005,
+      "market_cap": 92563954,
+      "price": 0.09257,
+      "price_change_24h": -23.79,
+      "volume_24h": 16927234.74,
       "pool_address": "solana_AjM8Qn62EhR4ikJ1rvyeezB1NyvrSsb4zwJiFUFs9ycs",
       "ath": 0.3356262693367901,
       "ath_timestamp": 1747330020,
@@ -23,11 +23,11 @@
       "dexId": "raydium",
       "pairAddress": "YrrUStgPugDp8BbfosqDeFssen6sA75ZS1QJvgnHtmY",
       "txns_24h": {
-        "buys": 23505,
-        "sells": 22263
+        "buys": 25158,
+        "sells": 23831
       },
-      "fdv_usd": 85113556,
-      "total_reserve_in_usd": 1074215.11,
+      "fdv_usd": 92563954,
+      "total_reserve_in_usd": 1132222.91,
       "tags": [
         "moonshot"
       ],
@@ -37,8 +37,18 @@
       },
       "metrics": {
         "uniqueWallets": 3,
-        "inflow24h": 276801.76786125486,
+        "inflow24h": 343353.1969615018,
         "trades": [
+          {
+            "timestamp": "2025-10-11T01:27:49.000Z",
+            "type": "BUY",
+            "amount": 476490.110060205,
+            "usdValue": 41999.720735,
+            "wallet": {
+              "address": "GgG65z3MXpmGnV3ZapKv5ayDqox1x7CJnqP1LD8FaZdt",
+              "name": "y22.sol"
+            }
+          },
           {
             "timestamp": "2025-10-11T01:12:41.000Z",
             "type": "BUY",
@@ -178,50 +188,26 @@
               "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
               "name": "凉粉小刀"
             }
-          },
-          {
-            "timestamp": "2025-10-10T01:23:46.000Z",
-            "type": "SELL",
-            "amount": 6000,
-            "usdValue": 734.9458332941483,
-            "wallet": {
-              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
-              "name": "凉粉小刀"
-            }
-          },
-          {
-            "timestamp": "2025-10-10T01:23:46.000Z",
-            "type": "SELL",
-            "amount": 22000,
-            "usdValue": 2693.1925784036584,
-            "wallet": {
-              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
-              "name": "凉粉小刀"
-            }
-          },
-          {
-            "timestamp": "2025-10-10T01:23:46.000Z",
-            "type": "SELL",
-            "amount": 72000,
-            "usdValue": 8812.978120549118,
-            "wallet": {
-              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
-              "name": "凉粉小刀"
-            }
-          },
-          {
-            "timestamp": "2025-10-10T01:23:07.000Z",
-            "type": "SELL",
-            "amount": 100000,
-            "usdValue": 12310.591833,
-            "wallet": {
-              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
-              "name": "凉粉小刀"
-            }
           }
         ]
       },
       "walletPortfolios": [
+        {
+          "address": "GgG65z3MXpmGnV3ZapKv5ayDqox1x7CJnqP1LD8FaZdt",
+          "name": "y22.sol",
+          "score": 1,
+          "tokens": [
+            {
+              "token_address": "Ey59PH7Z4BFU4HjyKnyMdWt5GGN76KazTAwQihoUXRnk",
+              "balance": 1752158.782333717,
+              "token_price": 0.09257,
+              "token_decimals": 9,
+              "token_symbol": "LAUNCHCOIN",
+              "token_name": "Launch Coin on Believe",
+              "value": 162197.33848063217
+            }
+          ]
+        },
         {
           "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
           "name": "凉粉小刀",
@@ -230,27 +216,11 @@
             {
               "token_address": "Ey59PH7Z4BFU4HjyKnyMdWt5GGN76KazTAwQihoUXRnk",
               "balance": 227263.555293954,
-              "token_price": 0.08511,
+              "token_price": 0.09257,
               "token_decimals": 9,
               "token_symbol": "LAUNCHCOIN",
               "token_name": "Launch Coin on Believe",
-              "value": 19342.401191068428
-            }
-          ]
-        },
-        {
-          "address": "GgG65z3MXpmGnV3ZapKv5ayDqox1x7CJnqP1LD8FaZdt",
-          "name": "y22.sol",
-          "score": 1,
-          "tokens": [
-            {
-              "token_address": "Ey59PH7Z4BFU4HjyKnyMdWt5GGN76KazTAwQihoUXRnk",
-              "balance": 1275668.672273512,
-              "token_price": 0.08511,
-              "token_decimals": 9,
-              "token_symbol": "LAUNCHCOIN",
-              "token_name": "Launch Coin on Believe",
-              "value": 108572.16069719862
+              "value": 21037.787313561323
             }
           ]
         },
@@ -262,7 +232,7 @@
             {
               "token_address": "Ey59PH7Z4BFU4HjyKnyMdWt5GGN76KazTAwQihoUXRnk",
               "balance": 0,
-              "token_price": 0.08511,
+              "token_price": 0.09257,
               "token_decimals": 9,
               "token_symbol": "LAUNCHCOIN",
               "token_name": "Launch Coin on Believe",
@@ -281,11 +251,11 @@
       "created_time": 1747332675,
       "website": "https://pmx.trade",
       "twitter": "",
-      "holder": 5538,
-      "market_cap": 29809337,
-      "price": 0.0298,
-      "price_change_24h": -19.47,
-      "volume_24h": 119147.73,
+      "holder": 5540,
+      "market_cap": 32341233,
+      "price": 0.03234,
+      "price_change_24h": -11.99,
+      "volume_24h": 114883.2,
       "pool_address": "solana_6VKwjoZgzQjfXpxJ9SMo7BYRxHh71xtSLuxzbJ8LXoeF",
       "ath": 0.05794662001029826,
       "ath_timestamp": 1759449600,
@@ -293,11 +263,11 @@
       "dexId": "meteora",
       "pairAddress": "4i8S1xazzoPoCwyvUAYy1LjZumZQqRevdY8XZ293KVjT",
       "txns_24h": {
-        "buys": 528,
-        "sells": 524
+        "buys": 513,
+        "sells": 520
       },
-      "fdv_usd": 29809337,
-      "total_reserve_in_usd": 5053.22,
+      "fdv_usd": 32341233,
+      "total_reserve_in_usd": 5248.15,
       "tags": [
         "moonshot"
       ],
@@ -306,9 +276,29 @@
         "price": 0.00856621111249534
       },
       "metrics": {
-        "uniqueWallets": 2,
-        "inflow24h": 54504.953997,
+        "uniqueWallets": 3,
+        "inflow24h": 52899.72388865787,
         "trades": [
+          {
+            "timestamp": "2025-10-11T01:42:02.000Z",
+            "type": "SELL",
+            "amount": 19299.5475,
+            "usdValue": 622.203455,
+            "wallet": {
+              "address": "BieeZkdnBAgNYknzo3RH2vku7FcPkFZMZmRJANh2TpW",
+              "name": "degenai71x"
+            }
+          },
+          {
+            "timestamp": "2025-10-11T01:42:02.000Z",
+            "type": "SELL",
+            "amount": 30275.4525,
+            "usdValue": 983.0266533421275,
+            "wallet": {
+              "address": "BieeZkdnBAgNYknzo3RH2vku7FcPkFZMZmRJANh2TpW",
+              "name": "degenai71x"
+            }
+          },
           {
             "timestamp": "2025-10-11T00:56:27.000Z",
             "type": "BUY",
@@ -333,6 +323,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "BieeZkdnBAgNYknzo3RH2vku7FcPkFZMZmRJANh2TpW",
+          "name": "degenai71x",
+          "score": 0.5,
+          "tokens": [
+            {
+              "token_address": "J27UYHX5oeaG1YbUGQc8BmJySXDjNWChdGB2Pi2TMDAq",
+              "balance": 340600.855407063,
+              "token_price": 0.03234,
+              "token_decimals": 9,
+              "token_symbol": "PMX",
+              "token_name": "PMX",
+              "value": 11015.031663864416
+            }
+          ]
+        },
+        {
           "address": "3DKfZz4iHgu42LGu3ttQxqz6u4m5z9ptuar8pBsRqkKC",
           "name": "ai16zWhale",
           "score": 1,
@@ -340,11 +346,11 @@
             {
               "token_address": "J27UYHX5oeaG1YbUGQc8BmJySXDjNWChdGB2Pi2TMDAq",
               "balance": 8925024.987368394,
-              "token_price": 0.0298,
+              "token_price": 0.03234,
               "token_decimals": 9,
               "token_symbol": "PMX",
               "token_name": "PMX",
-              "value": 265965.74462357815
+              "value": 288635.30809149385
             }
           ]
         },
@@ -356,11 +362,11 @@
             {
               "token_address": "J27UYHX5oeaG1YbUGQc8BmJySXDjNWChdGB2Pi2TMDAq",
               "balance": 167088.092467148,
-              "token_price": 0.0298,
+              "token_price": 0.03234,
               "token_decimals": 9,
               "token_symbol": "PMX",
               "token_name": "PMX",
-              "value": 4979.2251555210105
+              "value": 5403.628910387566
             }
           ]
         }
@@ -375,11 +381,11 @@
       "created_time": 1746886853,
       "website": "",
       "twitter": "https://x.com/theunipcs/status/1921208257399382410",
-      "holder": 35255,
-      "market_cap": 260385675,
-      "price": 0.2603,
-      "price_change_24h": -28.67,
-      "volume_24h": 16476779.53,
+      "holder": 35306,
+      "market_cap": 248286201,
+      "price": 0.2482,
+      "price_change_24h": -35.41,
+      "volume_24h": 18101773.9,
       "pool_address": "solana_8ztFxjFPfVUtEf4SLSapcFj8GW2dxyUA9no2bLPq7H7V",
       "ath": 0.41934437238783356,
       "ath_timestamp": 1759968000,
@@ -387,11 +393,11 @@
       "dexId": "raydium",
       "pairAddress": "Q2sPHPdUWFMg7M7wwrQKLrn619cAucfRsmhVJffodSp",
       "txns_24h": {
-        "buys": 11895,
-        "sells": 11425
+        "buys": 13014,
+        "sells": 12187
       },
-      "fdv_usd": 260385675,
-      "total_reserve_in_usd": 5078960.4,
+      "fdv_usd": 248286201,
+      "total_reserve_in_usd": 5014758.84,
       "tags": [
         "moonshot"
       ],
@@ -401,8 +407,18 @@
       },
       "metrics": {
         "uniqueWallets": 3,
-        "inflow24h": -18261.897980811613,
+        "inflow24h": -40739.494712811604,
         "trades": [
+          {
+            "timestamp": "2025-10-11T01:43:40.000Z",
+            "type": "SELL",
+            "amount": 93428.573285,
+            "usdValue": 22477.596732,
+            "wallet": {
+              "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+              "name": "Chillguy32x"
+            }
+          },
           {
             "timestamp": "2025-10-10T22:24:30.000Z",
             "type": "SELL",
@@ -467,6 +483,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+          "name": "Chillguy32x",
+          "score": 1,
+          "tokens": [
+            {
+              "token_address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+              "balance": 0,
+              "token_price": 0.2482,
+              "token_decimals": 6,
+              "token_symbol": "USELESS",
+              "token_name": "USELESS COIN",
+              "value": 0
+            }
+          ]
+        },
+        {
           "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
           "name": "Wizard100x",
           "score": 3,
@@ -474,7 +506,7 @@
             {
               "token_address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
               "balance": 0,
-              "token_price": 0.2603,
+              "token_price": 0.2482,
               "token_decimals": 6,
               "token_symbol": "USELESS",
               "token_name": "USELESS COIN",
@@ -490,27 +522,11 @@
             {
               "token_address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
               "balance": 0,
-              "token_price": 0.2603,
+              "token_price": 0.2482,
               "token_decimals": 6,
               "token_symbol": "USELESS",
               "token_name": "USELESS COIN",
               "value": 0
-            }
-          ]
-        },
-        {
-          "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
-          "name": "Chillguy32x",
-          "score": 1,
-          "tokens": [
-            {
-              "token_address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
-              "balance": 93428.573285,
-              "token_price": 0.2603,
-              "token_decimals": 6,
-              "token_symbol": "USELESS",
-              "token_name": "USELESS COIN",
-              "value": 24319.4576260855
             }
           ]
         }
@@ -529,11 +545,11 @@
         "created_time": 1737677895,
         "website": "",
         "twitter": "",
-        "holder": 24002,
-        "market_cap": 85113556,
-        "price": 0.08511,
-        "price_change_24h": -31.72,
-        "volume_24h": 15708028.72,
+        "holder": 24005,
+        "market_cap": 92563954,
+        "price": 0.09257,
+        "price_change_24h": -23.79,
+        "volume_24h": 16927234.74,
         "pool_address": "solana_AjM8Qn62EhR4ikJ1rvyeezB1NyvrSsb4zwJiFUFs9ycs",
         "ath": 0.3356262693367901,
         "ath_timestamp": 1747330020,
@@ -541,11 +557,11 @@
         "dexId": "raydium",
         "pairAddress": "YrrUStgPugDp8BbfosqDeFssen6sA75ZS1QJvgnHtmY",
         "txns_24h": {
-          "buys": 23505,
-          "sells": 22263
+          "buys": 25158,
+          "sells": 23831
         },
-        "fdv_usd": 85113556,
-        "total_reserve_in_usd": 1074215.11,
+        "fdv_usd": 92563954,
+        "total_reserve_in_usd": 1132222.91,
         "tags": [
           "moonshot"
         ],
@@ -555,8 +571,18 @@
         },
         "metrics": {
           "uniqueWallets": 3,
-          "inflow24h": 276801.76786125486,
+          "inflow24h": 343353.1969615018,
           "trades": [
+            {
+              "timestamp": "2025-10-11T01:27:49.000Z",
+              "type": "BUY",
+              "amount": 476490.110060205,
+              "usdValue": 41999.720735,
+              "wallet": {
+                "address": "GgG65z3MXpmGnV3ZapKv5ayDqox1x7CJnqP1LD8FaZdt",
+                "name": "y22.sol"
+              }
+            },
             {
               "timestamp": "2025-10-11T01:12:41.000Z",
               "type": "BUY",
@@ -696,50 +722,26 @@
                 "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
                 "name": "凉粉小刀"
               }
-            },
-            {
-              "timestamp": "2025-10-10T01:23:46.000Z",
-              "type": "SELL",
-              "amount": 6000,
-              "usdValue": 734.9458332941483,
-              "wallet": {
-                "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
-                "name": "凉粉小刀"
-              }
-            },
-            {
-              "timestamp": "2025-10-10T01:23:46.000Z",
-              "type": "SELL",
-              "amount": 22000,
-              "usdValue": 2693.1925784036584,
-              "wallet": {
-                "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
-                "name": "凉粉小刀"
-              }
-            },
-            {
-              "timestamp": "2025-10-10T01:23:46.000Z",
-              "type": "SELL",
-              "amount": 72000,
-              "usdValue": 8812.978120549118,
-              "wallet": {
-                "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
-                "name": "凉粉小刀"
-              }
-            },
-            {
-              "timestamp": "2025-10-10T01:23:07.000Z",
-              "type": "SELL",
-              "amount": 100000,
-              "usdValue": 12310.591833,
-              "wallet": {
-                "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
-                "name": "凉粉小刀"
-              }
             }
           ]
         },
         "walletPortfolios": [
+          {
+            "address": "GgG65z3MXpmGnV3ZapKv5ayDqox1x7CJnqP1LD8FaZdt",
+            "name": "y22.sol",
+            "score": 1,
+            "tokens": [
+              {
+                "token_address": "Ey59PH7Z4BFU4HjyKnyMdWt5GGN76KazTAwQihoUXRnk",
+                "balance": 1752158.782333717,
+                "token_price": 0.09257,
+                "token_decimals": 9,
+                "token_symbol": "LAUNCHCOIN",
+                "token_name": "Launch Coin on Believe",
+                "value": 162197.33848063217
+              }
+            ]
+          },
           {
             "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
             "name": "凉粉小刀",
@@ -748,27 +750,11 @@
               {
                 "token_address": "Ey59PH7Z4BFU4HjyKnyMdWt5GGN76KazTAwQihoUXRnk",
                 "balance": 227263.555293954,
-                "token_price": 0.08511,
+                "token_price": 0.09257,
                 "token_decimals": 9,
                 "token_symbol": "LAUNCHCOIN",
                 "token_name": "Launch Coin on Believe",
-                "value": 19342.401191068428
-              }
-            ]
-          },
-          {
-            "address": "GgG65z3MXpmGnV3ZapKv5ayDqox1x7CJnqP1LD8FaZdt",
-            "name": "y22.sol",
-            "score": 1,
-            "tokens": [
-              {
-                "token_address": "Ey59PH7Z4BFU4HjyKnyMdWt5GGN76KazTAwQihoUXRnk",
-                "balance": 1275668.672273512,
-                "token_price": 0.08511,
-                "token_decimals": 9,
-                "token_symbol": "LAUNCHCOIN",
-                "token_name": "Launch Coin on Believe",
-                "value": 108572.16069719862
+                "value": 21037.787313561323
               }
             ]
           },
@@ -780,105 +766,11 @@
               {
                 "token_address": "Ey59PH7Z4BFU4HjyKnyMdWt5GGN76KazTAwQihoUXRnk",
                 "balance": 0,
-                "token_price": 0.08511,
+                "token_price": 0.09257,
                 "token_decimals": 9,
                 "token_symbol": "LAUNCHCOIN",
                 "token_name": "Launch Coin on Believe",
                 "value": 0
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "address": "J27UYHX5oeaG1YbUGQc8BmJySXDjNWChdGB2Pi2TMDAq",
-        "symbol": "PMX",
-        "name": "PMX",
-        "decimals": 9,
-        "icon": "https://xqdrbspnwgjvzvgzulls.supabase.co/storage/v1/object/public/market-data/pmx_logo.png",
-        "created_time": 1747332675,
-        "website": "https://pmx.trade",
-        "twitter": "",
-        "holder": 5538,
-        "market_cap": 29809337,
-        "price": 0.0298,
-        "price_change_24h": -19.47,
-        "volume_24h": 119147.73,
-        "pool_address": "solana_6VKwjoZgzQjfXpxJ9SMo7BYRxHh71xtSLuxzbJ8LXoeF",
-        "ath": 0.05794662001029826,
-        "ath_timestamp": 1759449600,
-        "ath_pool": "6VKwjoZgzQjfXpxJ9SMo7BYRxHh71xtSLuxzbJ8LXoeF",
-        "dexId": "meteora",
-        "pairAddress": "4i8S1xazzoPoCwyvUAYy1LjZumZQqRevdY8XZ293KVjT",
-        "txns_24h": {
-          "buys": 528,
-          "sells": 524
-        },
-        "fdv_usd": 29809337,
-        "total_reserve_in_usd": 5053.22,
-        "tags": [
-          "moonshot"
-        ],
-        "first_signal": {
-          "timestamp": 1747570589,
-          "price": 0.00856621111249534
-        },
-        "metrics": {
-          "uniqueWallets": 2,
-          "inflow24h": 54504.953997,
-          "trades": [
-            {
-              "timestamp": "2025-10-11T00:56:27.000Z",
-              "type": "BUY",
-              "amount": 1668307.498820312,
-              "usdValue": 49783.186652,
-              "wallet": {
-                "address": "3DKfZz4iHgu42LGu3ttQxqz6u4m5z9ptuar8pBsRqkKC",
-                "name": "ai16zWhale"
-              }
-            },
-            {
-              "timestamp": "2025-10-11T00:15:20.000Z",
-              "type": "BUY",
-              "amount": 167088.092467148,
-              "usdValue": 4721.767345,
-              "wallet": {
-                "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
-                "name": "凉粉小刀"
-              }
-            }
-          ]
-        },
-        "walletPortfolios": [
-          {
-            "address": "3DKfZz4iHgu42LGu3ttQxqz6u4m5z9ptuar8pBsRqkKC",
-            "name": "ai16zWhale",
-            "score": 1,
-            "tokens": [
-              {
-                "token_address": "J27UYHX5oeaG1YbUGQc8BmJySXDjNWChdGB2Pi2TMDAq",
-                "balance": 8925024.987368394,
-                "token_price": 0.0298,
-                "token_decimals": 9,
-                "token_symbol": "PMX",
-                "token_name": "PMX",
-                "value": 265965.74462357815
-              }
-            ]
-          },
-          {
-            "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
-            "name": "凉粉小刀",
-            "score": 2,
-            "tokens": [
-              {
-                "token_address": "J27UYHX5oeaG1YbUGQc8BmJySXDjNWChdGB2Pi2TMDAq",
-                "balance": 167088.092467148,
-                "token_price": 0.0298,
-                "token_decimals": 9,
-                "token_symbol": "PMX",
-                "token_name": "PMX",
-                "value": 4979.2251555210105
               }
             ]
           }
@@ -895,11 +787,11 @@
         "created_time": 1746886853,
         "website": "",
         "twitter": "https://x.com/theunipcs/status/1921208257399382410",
-        "holder": 35255,
-        "market_cap": 260385675,
-        "price": 0.2603,
-        "price_change_24h": -28.67,
-        "volume_24h": 16476779.53,
+        "holder": 35306,
+        "market_cap": 248286201,
+        "price": 0.2482,
+        "price_change_24h": -35.41,
+        "volume_24h": 18101773.9,
         "pool_address": "solana_8ztFxjFPfVUtEf4SLSapcFj8GW2dxyUA9no2bLPq7H7V",
         "ath": 0.41934437238783356,
         "ath_timestamp": 1759968000,
@@ -907,11 +799,11 @@
         "dexId": "raydium",
         "pairAddress": "Q2sPHPdUWFMg7M7wwrQKLrn619cAucfRsmhVJffodSp",
         "txns_24h": {
-          "buys": 11895,
-          "sells": 11425
+          "buys": 13014,
+          "sells": 12187
         },
-        "fdv_usd": 260385675,
-        "total_reserve_in_usd": 5078960.4,
+        "fdv_usd": 248286201,
+        "total_reserve_in_usd": 5014758.84,
         "tags": [
           "moonshot"
         ],
@@ -921,8 +813,18 @@
         },
         "metrics": {
           "uniqueWallets": 3,
-          "inflow24h": -18261.897980811613,
+          "inflow24h": -40739.494712811604,
           "trades": [
+            {
+              "timestamp": "2025-10-11T01:43:40.000Z",
+              "type": "SELL",
+              "amount": 93428.573285,
+              "usdValue": 22477.596732,
+              "wallet": {
+                "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+                "name": "Chillguy32x"
+              }
+            },
             {
               "timestamp": "2025-10-10T22:24:30.000Z",
               "type": "SELL",
@@ -987,6 +889,22 @@
         },
         "walletPortfolios": [
           {
+            "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+            "name": "Chillguy32x",
+            "score": 1,
+            "tokens": [
+              {
+                "token_address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+                "balance": 0,
+                "token_price": 0.2482,
+                "token_decimals": 6,
+                "token_symbol": "USELESS",
+                "token_name": "USELESS COIN",
+                "value": 0
+              }
+            ]
+          },
+          {
             "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
             "name": "Wizard100x",
             "score": 3,
@@ -994,7 +912,7 @@
               {
                 "token_address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
                 "balance": 0,
-                "token_price": 0.2603,
+                "token_price": 0.2482,
                 "token_decimals": 6,
                 "token_symbol": "USELESS",
                 "token_name": "USELESS COIN",
@@ -1010,27 +928,141 @@
               {
                 "token_address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
                 "balance": 0,
-                "token_price": 0.2603,
+                "token_price": 0.2482,
                 "token_decimals": 6,
                 "token_symbol": "USELESS",
                 "token_name": "USELESS COIN",
                 "value": 0
               }
             ]
+          }
+        ]
+      },
+      {
+        "address": "J27UYHX5oeaG1YbUGQc8BmJySXDjNWChdGB2Pi2TMDAq",
+        "symbol": "PMX",
+        "name": "PMX",
+        "decimals": 9,
+        "icon": "https://xqdrbspnwgjvzvgzulls.supabase.co/storage/v1/object/public/market-data/pmx_logo.png",
+        "created_time": 1747332675,
+        "website": "https://pmx.trade",
+        "twitter": "",
+        "holder": 5540,
+        "market_cap": 32341233,
+        "price": 0.03234,
+        "price_change_24h": -11.99,
+        "volume_24h": 114883.2,
+        "pool_address": "solana_6VKwjoZgzQjfXpxJ9SMo7BYRxHh71xtSLuxzbJ8LXoeF",
+        "ath": 0.05794662001029826,
+        "ath_timestamp": 1759449600,
+        "ath_pool": "6VKwjoZgzQjfXpxJ9SMo7BYRxHh71xtSLuxzbJ8LXoeF",
+        "dexId": "meteora",
+        "pairAddress": "4i8S1xazzoPoCwyvUAYy1LjZumZQqRevdY8XZ293KVjT",
+        "txns_24h": {
+          "buys": 513,
+          "sells": 520
+        },
+        "fdv_usd": 32341233,
+        "total_reserve_in_usd": 5248.15,
+        "tags": [
+          "moonshot"
+        ],
+        "first_signal": {
+          "timestamp": 1747570589,
+          "price": 0.00856621111249534
+        },
+        "metrics": {
+          "uniqueWallets": 3,
+          "inflow24h": 52899.72388865787,
+          "trades": [
+            {
+              "timestamp": "2025-10-11T01:42:02.000Z",
+              "type": "SELL",
+              "amount": 19299.5475,
+              "usdValue": 622.203455,
+              "wallet": {
+                "address": "BieeZkdnBAgNYknzo3RH2vku7FcPkFZMZmRJANh2TpW",
+                "name": "degenai71x"
+              }
+            },
+            {
+              "timestamp": "2025-10-11T01:42:02.000Z",
+              "type": "SELL",
+              "amount": 30275.4525,
+              "usdValue": 983.0266533421275,
+              "wallet": {
+                "address": "BieeZkdnBAgNYknzo3RH2vku7FcPkFZMZmRJANh2TpW",
+                "name": "degenai71x"
+              }
+            },
+            {
+              "timestamp": "2025-10-11T00:56:27.000Z",
+              "type": "BUY",
+              "amount": 1668307.498820312,
+              "usdValue": 49783.186652,
+              "wallet": {
+                "address": "3DKfZz4iHgu42LGu3ttQxqz6u4m5z9ptuar8pBsRqkKC",
+                "name": "ai16zWhale"
+              }
+            },
+            {
+              "timestamp": "2025-10-11T00:15:20.000Z",
+              "type": "BUY",
+              "amount": 167088.092467148,
+              "usdValue": 4721.767345,
+              "wallet": {
+                "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+                "name": "凉粉小刀"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "BieeZkdnBAgNYknzo3RH2vku7FcPkFZMZmRJANh2TpW",
+            "name": "degenai71x",
+            "score": 0.5,
+            "tokens": [
+              {
+                "token_address": "J27UYHX5oeaG1YbUGQc8BmJySXDjNWChdGB2Pi2TMDAq",
+                "balance": 340600.855407063,
+                "token_price": 0.03234,
+                "token_decimals": 9,
+                "token_symbol": "PMX",
+                "token_name": "PMX",
+                "value": 11015.031663864416
+              }
+            ]
           },
           {
-            "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
-            "name": "Chillguy32x",
+            "address": "3DKfZz4iHgu42LGu3ttQxqz6u4m5z9ptuar8pBsRqkKC",
+            "name": "ai16zWhale",
             "score": 1,
             "tokens": [
               {
-                "token_address": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
-                "balance": 93428.573285,
-                "token_price": 0.2603,
-                "token_decimals": 6,
-                "token_symbol": "USELESS",
-                "token_name": "USELESS COIN",
-                "value": 24319.4576260855
+                "token_address": "J27UYHX5oeaG1YbUGQc8BmJySXDjNWChdGB2Pi2TMDAq",
+                "balance": 8925024.987368394,
+                "token_price": 0.03234,
+                "token_decimals": 9,
+                "token_symbol": "PMX",
+                "token_name": "PMX",
+                "value": 288635.30809149385
+              }
+            ]
+          },
+          {
+            "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+            "name": "凉粉小刀",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "J27UYHX5oeaG1YbUGQc8BmJySXDjNWChdGB2Pi2TMDAq",
+                "balance": 167088.092467148,
+                "token_price": 0.03234,
+                "token_decimals": 9,
+                "token_symbol": "PMX",
+                "token_name": "PMX",
+                "value": 5403.628910387566
               }
             ]
           }
