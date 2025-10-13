@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-10-13T20:21:38.399Z",
+  "timestamp": "2025-10-13T20:35:15.832Z",
   "data": [
     {
       "address": "Ey59PH7Z4BFU4HjyKnyMdWt5GGN76KazTAwQihoUXRnk",
@@ -12,10 +12,10 @@
       "website": "",
       "twitter": "",
       "holder": 24081,
-      "market_cap": 112622717,
-      "price": 0.1126,
-      "price_change_24h": 23.25,
-      "volume_24h": 4772319.25,
+      "market_cap": 107349635,
+      "price": 0.1073,
+      "price_change_24h": 15.27,
+      "volume_24h": 5039385.69,
       "pool_address": "solana_AjM8Qn62EhR4ikJ1rvyeezB1NyvrSsb4zwJiFUFs9ycs",
       "ath": 0.3356262693367901,
       "ath_timestamp": 1747330020,
@@ -23,11 +23,11 @@
       "dexId": "raydium",
       "pairAddress": "YrrUStgPugDp8BbfosqDeFssen6sA75ZS1QJvgnHtmY",
       "txns_24h": {
-        "buys": 14211,
-        "sells": 14890
+        "buys": 14808,
+        "sells": 15316
       },
-      "fdv_usd": 112622717,
-      "total_reserve_in_usd": 1310868.14,
+      "fdv_usd": 107349635,
+      "total_reserve_in_usd": 1277476.8,
       "tags": [
         "moonshot"
       ],
@@ -37,8 +37,18 @@
       },
       "metrics": {
         "uniqueWallets": 1,
-        "inflow24h": -978.4214795565786,
+        "inflow24h": -13304.764122556579,
         "trades": [
+          {
+            "timestamp": "2025-10-13T20:23:50.000Z",
+            "type": "SELL",
+            "amount": 110320.218983303,
+            "usdValue": 12326.342643,
+            "wallet": {
+              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+              "name": "凉粉小刀"
+            }
+          },
           {
             "timestamp": "2025-10-13T12:18:38.000Z",
             "type": "BUY",
@@ -119,12 +129,12 @@
           "tokens": [
             {
               "token_address": "Ey59PH7Z4BFU4HjyKnyMdWt5GGN76KazTAwQihoUXRnk",
-              "balance": 220640.437966606,
-              "token_price": 0.1126,
+              "balance": 110320.218983303,
+              "token_price": 0.1073,
               "token_decimals": 9,
               "token_symbol": "LAUNCHCOIN",
               "token_name": "Launch Coin on Believe",
-              "value": 24844.11331503984
+              "value": 11837.359496908413
             }
           ]
         }
@@ -133,7 +143,8 @@
   ],
   "groups": {
     "latestSignals": [],
-    "buys": [
+    "buys": [],
+    "sells": [
       {
         "address": "Ey59PH7Z4BFU4HjyKnyMdWt5GGN76KazTAwQihoUXRnk",
         "symbol": "LAUNCHCOIN",
@@ -144,10 +155,10 @@
         "website": "",
         "twitter": "",
         "holder": 24081,
-        "market_cap": 112622717,
-        "price": 0.1126,
-        "price_change_24h": 23.25,
-        "volume_24h": 4772319.25,
+        "market_cap": 107349635,
+        "price": 0.1073,
+        "price_change_24h": 15.27,
+        "volume_24h": 5039385.69,
         "pool_address": "solana_AjM8Qn62EhR4ikJ1rvyeezB1NyvrSsb4zwJiFUFs9ycs",
         "ath": 0.3356262693367901,
         "ath_timestamp": 1747330020,
@@ -155,11 +166,11 @@
         "dexId": "raydium",
         "pairAddress": "YrrUStgPugDp8BbfosqDeFssen6sA75ZS1QJvgnHtmY",
         "txns_24h": {
-          "buys": 14211,
-          "sells": 14890
+          "buys": 14808,
+          "sells": 15316
         },
-        "fdv_usd": 112622717,
-        "total_reserve_in_usd": 1310868.14,
+        "fdv_usd": 107349635,
+        "total_reserve_in_usd": 1277476.8,
         "tags": [
           "moonshot"
         ],
@@ -169,8 +180,18 @@
         },
         "metrics": {
           "uniqueWallets": 1,
-          "inflow24h": -978.4214795565786,
+          "inflow24h": -13304.764122556579,
           "trades": [
+            {
+              "timestamp": "2025-10-13T20:23:50.000Z",
+              "type": "SELL",
+              "amount": 110320.218983303,
+              "usdValue": 12326.342643,
+              "wallet": {
+                "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+                "name": "凉粉小刀"
+              }
+            },
             {
               "timestamp": "2025-10-13T12:18:38.000Z",
               "type": "BUY",
@@ -251,18 +272,17 @@
             "tokens": [
               {
                 "token_address": "Ey59PH7Z4BFU4HjyKnyMdWt5GGN76KazTAwQihoUXRnk",
-                "balance": 220640.437966606,
-                "token_price": 0.1126,
+                "balance": 110320.218983303,
+                "token_price": 0.1073,
                 "token_decimals": 9,
                 "token_symbol": "LAUNCHCOIN",
                 "token_name": "Launch Coin on Believe",
-                "value": 24844.11331503984
+                "value": 11837.359496908413
               }
             ]
           }
         ]
       }
-    ],
-    "sells": []
+    ]
   }
 }
