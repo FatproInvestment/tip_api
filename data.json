@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-10-14T08:59:34.250Z",
+  "timestamp": "2025-10-14T09:22:27.270Z",
   "data": [
     {
       "address": "Ey59PH7Z4BFU4HjyKnyMdWt5GGN76KazTAwQihoUXRnk",
@@ -12,10 +12,10 @@
       "website": "",
       "twitter": "",
       "holder": 24105,
-      "market_cap": 90661700,
-      "price": 0.09066,
-      "price_change_24h": -4.62,
-      "volume_24h": 5863859.06,
+      "market_cap": 90830482,
+      "price": 0.09083,
+      "price_change_24h": -4.22,
+      "volume_24h": 5890144.92,
       "pool_address": "solana_AjM8Qn62EhR4ikJ1rvyeezB1NyvrSsb4zwJiFUFs9ycs",
       "ath": 0.3356262693367901,
       "ath_timestamp": 1747330020,
@@ -23,11 +23,11 @@
       "dexId": "raydium",
       "pairAddress": "YrrUStgPugDp8BbfosqDeFssen6sA75ZS1QJvgnHtmY",
       "txns_24h": {
-        "buys": 15957,
-        "sells": 16320
+        "buys": 15908,
+        "sells": 16339
       },
-      "fdv_usd": 90661700,
-      "total_reserve_in_usd": 1142495.83,
+      "fdv_usd": 90830482,
+      "total_reserve_in_usd": 1143980.04,
       "tags": [
         "moonshot"
       ],
@@ -37,8 +37,28 @@
       },
       "metrics": {
         "uniqueWallets": 1,
-        "inflow24h": -4282.619070315581,
+        "inflow24h": 5707.380929684419,
         "trades": [
+          {
+            "timestamp": "2025-10-14T09:03:13.000Z",
+            "type": "BUY",
+            "amount": 54863.703848287,
+            "usdValue": 4995,
+            "wallet": {
+              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+              "name": "凉粉小刀"
+            }
+          },
+          {
+            "timestamp": "2025-10-14T09:03:01.000Z",
+            "type": "BUY",
+            "amount": 54910.790497747,
+            "usdValue": 4995,
+            "wallet": {
+              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+              "name": "凉粉小刀"
+            }
+          },
           {
             "timestamp": "2025-10-13T20:35:43.000Z",
             "type": "SELL",
@@ -119,12 +139,80 @@
           "tokens": [
             {
               "token_address": "Ey59PH7Z4BFU4HjyKnyMdWt5GGN76KazTAwQihoUXRnk",
-              "balance": 0,
-              "token_price": 0.09066,
+              "balance": 109774.494346034,
+              "token_price": 0.09083,
               "token_decimals": 9,
               "token_symbol": "LAUNCHCOIN",
               "token_name": "Launch Coin on Believe",
-              "value": 0
+              "value": 9970.817321450268
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "address": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
+      "symbol": "CARDS",
+      "name": "Collector Crypt",
+      "decimals": 6,
+      "icon": "https://gateway.irys.xyz/2wrjAk4pYAACF3siDHAxt7yJY7kHgt57TZAkbgecKHMR",
+      "created_time": 1756252301,
+      "website": "",
+      "twitter": "",
+      "holder": 9706,
+      "market_cap": 27421570,
+      "price": 0.1267,
+      "price_change_24h": -3.91,
+      "volume_24h": 2214371.92,
+      "pool_address": "solana_HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD",
+      "ath": 0.3830175199241448,
+      "ath_timestamp": 1757808000,
+      "ath_pool": "HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD",
+      "dexId": "raydium",
+      "pairAddress": "HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD",
+      "txns_24h": {
+        "buys": 2197,
+        "sells": 2203
+      },
+      "fdv_usd": 253576606,
+      "total_reserve_in_usd": 2650780.13,
+      "tags": [
+        "moonshot"
+      ],
+      "first_signal": {
+        "timestamp": 1756868654,
+        "price": 0.09945
+      },
+      "metrics": {
+        "uniqueWallets": 1,
+        "inflow24h": 4995,
+        "trades": [
+          {
+            "timestamp": "2025-10-14T09:02:42.000Z",
+            "type": "BUY",
+            "amount": 39753.778182,
+            "usdValue": 4995,
+            "wallet": {
+              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+              "name": "凉粉小刀"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+          "name": "凉粉小刀",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
+              "balance": 39753.778182,
+              "token_price": 0.1267,
+              "token_decimals": 6,
+              "token_symbol": "CARDS",
+              "token_name": "Collector Crypt",
+              "value": 5036.803695659401
             }
           ]
         }
@@ -133,8 +221,7 @@
   ],
   "groups": {
     "latestSignals": [],
-    "buys": [],
-    "sells": [
+    "buys": [
       {
         "address": "Ey59PH7Z4BFU4HjyKnyMdWt5GGN76KazTAwQihoUXRnk",
         "symbol": "LAUNCHCOIN",
@@ -145,10 +232,10 @@
         "website": "",
         "twitter": "",
         "holder": 24105,
-        "market_cap": 90661700,
-        "price": 0.09066,
-        "price_change_24h": -4.62,
-        "volume_24h": 5863859.06,
+        "market_cap": 90830482,
+        "price": 0.09083,
+        "price_change_24h": -4.22,
+        "volume_24h": 5890144.92,
         "pool_address": "solana_AjM8Qn62EhR4ikJ1rvyeezB1NyvrSsb4zwJiFUFs9ycs",
         "ath": 0.3356262693367901,
         "ath_timestamp": 1747330020,
@@ -156,11 +243,11 @@
         "dexId": "raydium",
         "pairAddress": "YrrUStgPugDp8BbfosqDeFssen6sA75ZS1QJvgnHtmY",
         "txns_24h": {
-          "buys": 15957,
-          "sells": 16320
+          "buys": 15908,
+          "sells": 16339
         },
-        "fdv_usd": 90661700,
-        "total_reserve_in_usd": 1142495.83,
+        "fdv_usd": 90830482,
+        "total_reserve_in_usd": 1143980.04,
         "tags": [
           "moonshot"
         ],
@@ -170,8 +257,28 @@
         },
         "metrics": {
           "uniqueWallets": 1,
-          "inflow24h": -4282.619070315581,
+          "inflow24h": 5707.380929684419,
           "trades": [
+            {
+              "timestamp": "2025-10-14T09:03:13.000Z",
+              "type": "BUY",
+              "amount": 54863.703848287,
+              "usdValue": 4995,
+              "wallet": {
+                "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+                "name": "凉粉小刀"
+              }
+            },
+            {
+              "timestamp": "2025-10-14T09:03:01.000Z",
+              "type": "BUY",
+              "amount": 54910.790497747,
+              "usdValue": 4995,
+              "wallet": {
+                "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+                "name": "凉粉小刀"
+              }
+            },
             {
               "timestamp": "2025-10-13T20:35:43.000Z",
               "type": "SELL",
@@ -252,17 +359,86 @@
             "tokens": [
               {
                 "token_address": "Ey59PH7Z4BFU4HjyKnyMdWt5GGN76KazTAwQihoUXRnk",
-                "balance": 0,
-                "token_price": 0.09066,
+                "balance": 109774.494346034,
+                "token_price": 0.09083,
                 "token_decimals": 9,
                 "token_symbol": "LAUNCHCOIN",
                 "token_name": "Launch Coin on Believe",
-                "value": 0
+                "value": 9970.817321450268
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "address": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
+        "symbol": "CARDS",
+        "name": "Collector Crypt",
+        "decimals": 6,
+        "icon": "https://gateway.irys.xyz/2wrjAk4pYAACF3siDHAxt7yJY7kHgt57TZAkbgecKHMR",
+        "created_time": 1756252301,
+        "website": "",
+        "twitter": "",
+        "holder": 9706,
+        "market_cap": 27421570,
+        "price": 0.1267,
+        "price_change_24h": -3.91,
+        "volume_24h": 2214371.92,
+        "pool_address": "solana_HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD",
+        "ath": 0.3830175199241448,
+        "ath_timestamp": 1757808000,
+        "ath_pool": "HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD",
+        "dexId": "raydium",
+        "pairAddress": "HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD",
+        "txns_24h": {
+          "buys": 2197,
+          "sells": 2203
+        },
+        "fdv_usd": 253576606,
+        "total_reserve_in_usd": 2650780.13,
+        "tags": [
+          "moonshot"
+        ],
+        "first_signal": {
+          "timestamp": 1756868654,
+          "price": 0.09945
+        },
+        "metrics": {
+          "uniqueWallets": 1,
+          "inflow24h": 4995,
+          "trades": [
+            {
+              "timestamp": "2025-10-14T09:02:42.000Z",
+              "type": "BUY",
+              "amount": 39753.778182,
+              "usdValue": 4995,
+              "wallet": {
+                "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+                "name": "凉粉小刀"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+            "name": "凉粉小刀",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
+                "balance": 39753.778182,
+                "token_price": 0.1267,
+                "token_decimals": 6,
+                "token_symbol": "CARDS",
+                "token_name": "Collector Crypt",
+                "value": 5036.803695659401
               }
             ]
           }
         ]
       }
-    ]
+    ],
+    "sells": []
   }
 }
