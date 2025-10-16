@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-10-16T16:20:23.278Z",
+  "timestamp": "2025-10-16T16:43:01.681Z",
   "data": [
     {
       "address": "HfoKY7pPqdDgvB5GvUKGKeNsmn7QRrrfVNEfGJ7Ppump",
@@ -12,10 +12,10 @@
       "website": "https://x.com/0xMert_/status/1978836662374301947",
       "twitter": "https://x.com/0xMert_/status/1978836662374301947",
       "holder": 1429,
-      "market_cap": 28741,
-      "price": 2.874e-05,
-      "price_change_24h": -64.13,
-      "volume_24h": 4134411.31,
+      "market_cap": 56821,
+      "price": 5.682e-05,
+      "price_change_24h": -29.09,
+      "volume_24h": 4211048.73,
       "pool_address": "solana_CLUaE8PWghCRUZpCpbY8nPhAFWRJvNEJai9xDYRwugxx",
       "ath": 0.0007869,
       "ath_timestamp": 1760627060,
@@ -23,11 +23,11 @@
       "dexId": "pumpswap",
       "pairAddress": "CLUaE8PWghCRUZpCpbY8nPhAFWRJvNEJai9xDYRwugxx",
       "txns_24h": {
-        "buys": 16274,
-        "sells": 14104
+        "buys": 16766,
+        "sells": 14481
       },
-      "fdv_usd": 28741,
-      "total_reserve_in_usd": 21662.07,
+      "fdv_usd": 56821,
+      "total_reserve_in_usd": 30615.64,
       "tags": [],
       "first_signal": {
         "timestamp": 1760626970,
@@ -35,8 +35,18 @@
       },
       "metrics": {
         "uniqueWallets": 3,
-        "inflow24h": 14377.269175085972,
+        "inflow24h": 13863.256231409909,
         "trades": [
+          {
+            "timestamp": "2025-10-16T16:25:51.000Z",
+            "type": "SELL",
+            "amount": 15711223.058024,
+            "usdValue": 514.0129436760639,
+            "wallet": {
+              "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
+              "name": "soloxbt.sol"
+            }
+          },
           {
             "timestamp": "2025-10-16T16:12:19.000Z",
             "type": "SELL",
@@ -131,6 +141,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
+          "name": "soloxbt.sol",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "HfoKY7pPqdDgvB5GvUKGKeNsmn7QRrrfVNEfGJ7Ppump",
+              "balance": 0,
+              "token_price": 5.682e-05,
+              "token_decimals": 6,
+              "token_symbol": "Zectardio",
+              "token_name": "Zectardio Cult",
+              "value": 0
+            }
+          ]
+        },
+        {
           "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
           "name": "DNF 哥",
           "score": 3,
@@ -138,7 +164,7 @@
             {
               "token_address": "HfoKY7pPqdDgvB5GvUKGKeNsmn7QRrrfVNEfGJ7Ppump",
               "balance": 0,
-              "token_price": 2.874e-05,
+              "token_price": 5.682e-05,
               "token_decimals": 6,
               "token_symbol": "Zectardio",
               "token_name": "Zectardio Cult",
@@ -154,27 +180,11 @@
             {
               "token_address": "HfoKY7pPqdDgvB5GvUKGKeNsmn7QRrrfVNEfGJ7Ppump",
               "balance": 6935827.217954,
-              "token_price": 2.874e-05,
+              "token_price": 5.682e-05,
               "token_decimals": 6,
               "token_symbol": "Zectardio",
               "token_name": "Zectardio Cult",
-              "value": 199.33567424399797
-            }
-          ]
-        },
-        {
-          "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
-          "name": "soloxbt.sol",
-          "score": 2,
-          "tokens": [
-            {
-              "token_address": "HfoKY7pPqdDgvB5GvUKGKeNsmn7QRrrfVNEfGJ7Ppump",
-              "balance": 15711223.058024,
-              "token_price": 2.874e-05,
-              "token_decimals": 6,
-              "token_symbol": "Zectardio",
-              "token_name": "Zectardio Cult",
-              "value": 451.54055068760977
+              "value": 394.0937025241463
             }
           ]
         }
@@ -190,10 +200,10 @@
       "website": "",
       "twitter": "",
       "holder": 8813,
-      "market_cap": 17088431,
-      "price": 0.1068,
-      "price_change_24h": 19.63,
-      "volume_24h": 3317082.41,
+      "market_cap": 18952990,
+      "price": 0.1184,
+      "price_change_24h": 31.64,
+      "volume_24h": 3457073.82,
       "pool_address": "solana_BcVqR3Q3jhdBMVf5N8oYASjGseREpa7w7YvJjgMA4F1x",
       "ath": 0.1884783971189992,
       "ath_timestamp": 1759622400,
@@ -201,11 +211,11 @@
       "dexId": "raydium",
       "pairAddress": "BcVqR3Q3jhdBMVf5N8oYASjGseREpa7w7YvJjgMA4F1x",
       "txns_24h": {
-        "buys": 9967,
-        "sells": 10513
+        "buys": 10240,
+        "sells": 10819
       },
-      "fdv_usd": 106802695,
-      "total_reserve_in_usd": 1098875.92,
+      "fdv_usd": 118456190,
+      "total_reserve_in_usd": 1169116.49,
       "tags": [
         "binanceAlpha"
       ],
@@ -258,7 +268,7 @@
             {
               "token_address": "SW1TCHLmRGTfW5xZknqQdpdarB8PD95sJYWpNp9TbFx",
               "balance": 0,
-              "token_price": 0.1068,
+              "token_price": 0.1184,
               "token_decimals": 9,
               "token_symbol": "SWTCH",
               "token_name": "Switchboard",
@@ -278,10 +288,10 @@
       "website": "https://www.tiktok.com/search/video?q=all%20roads%20lead%20to%20rome",
       "twitter": "https://x.com/romedotsol",
       "holder": 3906,
-      "market_cap": 2525177,
-      "price": 0.002525,
-      "price_change_24h": 11.57,
-      "volume_24h": 4048354.46,
+      "market_cap": 2008009,
+      "price": 0.002008,
+      "price_change_24h": -13.26,
+      "volume_24h": 4036472.27,
       "pool_address": "solana_EDPqmvu9oKRtnkn8k3tVqwpeW6uAdExBEMDpN7y3HVs2",
       "ath": 0.0036685406758382865,
       "ath_timestamp": 1760619600,
@@ -289,11 +299,11 @@
       "dexId": "pumpswap",
       "pairAddress": "EDPqmvu9oKRtnkn8k3tVqwpeW6uAdExBEMDpN7y3HVs2",
       "txns_24h": {
-        "buys": 11085,
-        "sells": 9321
+        "buys": 11129,
+        "sells": 9412
       },
-      "fdv_usd": 2525177,
-      "total_reserve_in_usd": 210468.11,
+      "fdv_usd": 2008009,
+      "total_reserve_in_usd": 187957.2,
       "tags": [
         "moonshot"
       ],
@@ -303,8 +313,18 @@
       },
       "metrics": {
         "uniqueWallets": 1,
-        "inflow24h": -7588.969872792479,
+        "inflow24h": -11489.062148323697,
         "trades": [
+          {
+            "timestamp": "2025-10-16T16:31:34.000Z",
+            "type": "SELL",
+            "amount": 1710924.628897,
+            "usdValue": 3900.092275531218,
+            "wallet": {
+              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+              "name": "DNF 哥"
+            }
+          },
           {
             "timestamp": "2025-10-16T11:08:55.000Z",
             "type": "BUY",
@@ -355,12 +375,12 @@
           "tokens": [
             {
               "token_address": "8ZeTmGGktvSwSSghx8btbTAVGdWogThKM4DQBJgRpump",
-              "balance": 6843698.51559,
-              "token_price": 0.002525,
+              "balance": 5132773.886693,
+              "token_price": 0.002008,
               "token_decimals": 6,
               "token_symbol": "Rome",
               "token_name": "All Roads Lead To Rome",
-              "value": 17280.33875186475
+              "value": 10306.609964479543
             }
           ]
         }
@@ -376,10 +396,10 @@
       "website": "",
       "twitter": "",
       "holder": 4837,
-      "market_cap": 1334468,
-      "price": 0.001334,
-      "price_change_24h": -19.93,
-      "volume_24h": 89977.39,
+      "market_cap": 1322388,
+      "price": 0.001322,
+      "price_change_24h": -20.43,
+      "volume_24h": 90618.5,
       "pool_address": "solana_8ZeYHZg4iKWyrCdpyNgLKZuEkDC6AkQNT4q8q3zNFX4n",
       "ath": 0.013246723586900757,
       "ath_timestamp": 1756309680,
@@ -387,11 +407,11 @@
       "dexId": "raydium",
       "pairAddress": "8ZeYHZg4iKWyrCdpyNgLKZuEkDC6AkQNT4q8q3zNFX4n",
       "txns_24h": {
-        "buys": 146,
+        "buys": 147,
         "sells": 133
       },
-      "fdv_usd": 1334468,
-      "total_reserve_in_usd": 267358.55,
+      "fdv_usd": 1322388,
+      "total_reserve_in_usd": 265623.53,
       "tags": [
         "moonshot"
       ],
@@ -424,11 +444,11 @@
             {
               "token_address": "3qq54YqAKG3TcrwNHXFSpMCWoL8gmMuPceJ4FG9npump",
               "balance": 138862.060677,
-              "token_price": 0.001334,
+              "token_price": 0.001322,
               "token_decimals": 6,
               "token_symbol": "CLANKER",
               "token_name": "CLANKER Robot AI Slur",
-              "value": 185.24198894311797
+              "value": 183.575644214994
             }
           ]
         }
@@ -444,10 +464,10 @@
       "website": "",
       "twitter": "https://x.com/i/communities/1968442277552074769",
       "holder": 7653,
-      "market_cap": 11520080,
-      "price": 0.01152,
-      "price_change_24h": -15.09,
-      "volume_24h": 4143738.46,
+      "market_cap": 11400646,
+      "price": 0.0114,
+      "price_change_24h": -19.12,
+      "volume_24h": 4279052.79,
       "pool_address": "solana_6sEkZ73vph5AFYmQTzaV6H5vAQQLZ2C8WqeCQ6MhLqFk",
       "ath": 0.021513312347006704,
       "ath_timestamp": 1758672000,
@@ -455,11 +475,11 @@
       "dexId": "raydium",
       "pairAddress": "6sEkZ73vph5AFYmQTzaV6H5vAQQLZ2C8WqeCQ6MhLqFk",
       "txns_24h": {
-        "buys": 8371,
-        "sells": 7712
+        "buys": 8669,
+        "sells": 7956
       },
-      "fdv_usd": 11520080,
-      "total_reserve_in_usd": 539536.33,
+      "fdv_usd": 11400646,
+      "total_reserve_in_usd": 537235.45,
       "tags": [
         "moonshot"
       ],
@@ -522,11 +542,11 @@
             {
               "token_address": "GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk",
               "balance": 594868.054922,
-              "token_price": 0.01152,
+              "token_price": 0.0114,
               "token_decimals": 6,
               "token_symbol": "1",
               "token_name": "1 coin can change your life",
-              "value": 6852.879992701441
+              "value": 6781.4958261108
             }
           ]
         }
@@ -542,10 +562,10 @@
       "website": "",
       "twitter": "",
       "holder": 9712,
-      "market_cap": 26080780,
-      "price": 0.1205,
-      "price_change_24h": -6.28,
-      "volume_24h": 574457.53,
+      "market_cap": 25355088,
+      "price": 0.1172,
+      "price_change_24h": -8.95,
+      "volume_24h": 613097.04,
       "pool_address": "solana_HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD",
       "ath": 0.3830175199241448,
       "ath_timestamp": 1757808000,
@@ -553,11 +573,11 @@
       "dexId": "raydium",
       "pairAddress": "HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD",
       "txns_24h": {
-        "buys": 772,
-        "sells": 845
+        "buys": 805,
+        "sells": 905
       },
-      "fdv_usd": 241177860,
-      "total_reserve_in_usd": 2594221.91,
+      "fdv_usd": 234467146,
+      "total_reserve_in_usd": 2558122.75,
       "tags": [
         "moonshot"
       ],
@@ -590,11 +610,11 @@
             {
               "token_address": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
               "balance": 55929.469773,
-              "token_price": 0.1205,
+              "token_price": 0.1172,
               "token_decimals": 6,
               "token_symbol": "CARDS",
               "token_name": "Collector Crypt",
-              "value": 6739.5011076465
+              "value": 6554.933857395599
             }
           ]
         }
@@ -613,10 +633,10 @@
         "website": "https://x.com/0xMert_/status/1978836662374301947",
         "twitter": "https://x.com/0xMert_/status/1978836662374301947",
         "holder": 1429,
-        "market_cap": 28741,
-        "price": 2.874e-05,
-        "price_change_24h": -64.13,
-        "volume_24h": 4134411.31,
+        "market_cap": 56821,
+        "price": 5.682e-05,
+        "price_change_24h": -29.09,
+        "volume_24h": 4211048.73,
         "pool_address": "solana_CLUaE8PWghCRUZpCpbY8nPhAFWRJvNEJai9xDYRwugxx",
         "ath": 0.0007869,
         "ath_timestamp": 1760627060,
@@ -624,11 +644,11 @@
         "dexId": "pumpswap",
         "pairAddress": "CLUaE8PWghCRUZpCpbY8nPhAFWRJvNEJai9xDYRwugxx",
         "txns_24h": {
-          "buys": 16274,
-          "sells": 14104
+          "buys": 16766,
+          "sells": 14481
         },
-        "fdv_usd": 28741,
-        "total_reserve_in_usd": 21662.07,
+        "fdv_usd": 56821,
+        "total_reserve_in_usd": 30615.64,
         "tags": [],
         "first_signal": {
           "timestamp": 1760626970,
@@ -636,8 +656,18 @@
         },
         "metrics": {
           "uniqueWallets": 3,
-          "inflow24h": 14377.269175085972,
+          "inflow24h": 13863.256231409909,
           "trades": [
+            {
+              "timestamp": "2025-10-16T16:25:51.000Z",
+              "type": "SELL",
+              "amount": 15711223.058024,
+              "usdValue": 514.0129436760639,
+              "wallet": {
+                "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
+                "name": "soloxbt.sol"
+              }
+            },
             {
               "timestamp": "2025-10-16T16:12:19.000Z",
               "type": "SELL",
@@ -732,6 +762,22 @@
         },
         "walletPortfolios": [
           {
+            "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
+            "name": "soloxbt.sol",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "HfoKY7pPqdDgvB5GvUKGKeNsmn7QRrrfVNEfGJ7Ppump",
+                "balance": 0,
+                "token_price": 5.682e-05,
+                "token_decimals": 6,
+                "token_symbol": "Zectardio",
+                "token_name": "Zectardio Cult",
+                "value": 0
+              }
+            ]
+          },
+          {
             "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
             "name": "DNF 哥",
             "score": 3,
@@ -739,7 +785,7 @@
               {
                 "token_address": "HfoKY7pPqdDgvB5GvUKGKeNsmn7QRrrfVNEfGJ7Ppump",
                 "balance": 0,
-                "token_price": 2.874e-05,
+                "token_price": 5.682e-05,
                 "token_decimals": 6,
                 "token_symbol": "Zectardio",
                 "token_name": "Zectardio Cult",
@@ -755,27 +801,11 @@
               {
                 "token_address": "HfoKY7pPqdDgvB5GvUKGKeNsmn7QRrrfVNEfGJ7Ppump",
                 "balance": 6935827.217954,
-                "token_price": 2.874e-05,
+                "token_price": 5.682e-05,
                 "token_decimals": 6,
                 "token_symbol": "Zectardio",
                 "token_name": "Zectardio Cult",
-                "value": 199.33567424399797
-              }
-            ]
-          },
-          {
-            "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
-            "name": "soloxbt.sol",
-            "score": 2,
-            "tokens": [
-              {
-                "token_address": "HfoKY7pPqdDgvB5GvUKGKeNsmn7QRrrfVNEfGJ7Ppump",
-                "balance": 15711223.058024,
-                "token_price": 2.874e-05,
-                "token_decimals": 6,
-                "token_symbol": "Zectardio",
-                "token_name": "Zectardio Cult",
-                "value": 451.54055068760977
+                "value": 394.0937025241463
               }
             ]
           }
@@ -791,10 +821,10 @@
         "website": "https://www.tiktok.com/search/video?q=all%20roads%20lead%20to%20rome",
         "twitter": "https://x.com/romedotsol",
         "holder": 3906,
-        "market_cap": 2525177,
-        "price": 0.002525,
-        "price_change_24h": 11.57,
-        "volume_24h": 4048354.46,
+        "market_cap": 2008009,
+        "price": 0.002008,
+        "price_change_24h": -13.26,
+        "volume_24h": 4036472.27,
         "pool_address": "solana_EDPqmvu9oKRtnkn8k3tVqwpeW6uAdExBEMDpN7y3HVs2",
         "ath": 0.0036685406758382865,
         "ath_timestamp": 1760619600,
@@ -802,11 +832,11 @@
         "dexId": "pumpswap",
         "pairAddress": "EDPqmvu9oKRtnkn8k3tVqwpeW6uAdExBEMDpN7y3HVs2",
         "txns_24h": {
-          "buys": 11085,
-          "sells": 9321
+          "buys": 11129,
+          "sells": 9412
         },
-        "fdv_usd": 2525177,
-        "total_reserve_in_usd": 210468.11,
+        "fdv_usd": 2008009,
+        "total_reserve_in_usd": 187957.2,
         "tags": [
           "moonshot"
         ],
@@ -816,8 +846,18 @@
         },
         "metrics": {
           "uniqueWallets": 1,
-          "inflow24h": -7588.969872792479,
+          "inflow24h": -11489.062148323697,
           "trades": [
+            {
+              "timestamp": "2025-10-16T16:31:34.000Z",
+              "type": "SELL",
+              "amount": 1710924.628897,
+              "usdValue": 3900.092275531218,
+              "wallet": {
+                "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+                "name": "DNF 哥"
+              }
+            },
             {
               "timestamp": "2025-10-16T11:08:55.000Z",
               "type": "BUY",
@@ -868,12 +908,12 @@
             "tokens": [
               {
                 "token_address": "8ZeTmGGktvSwSSghx8btbTAVGdWogThKM4DQBJgRpump",
-                "balance": 6843698.51559,
-                "token_price": 0.002525,
+                "balance": 5132773.886693,
+                "token_price": 0.002008,
                 "token_decimals": 6,
                 "token_symbol": "Rome",
                 "token_name": "All Roads Lead To Rome",
-                "value": 17280.33875186475
+                "value": 10306.609964479543
               }
             ]
           }
@@ -891,10 +931,10 @@
         "website": "",
         "twitter": "",
         "holder": 8813,
-        "market_cap": 17088431,
-        "price": 0.1068,
-        "price_change_24h": 19.63,
-        "volume_24h": 3317082.41,
+        "market_cap": 18952990,
+        "price": 0.1184,
+        "price_change_24h": 31.64,
+        "volume_24h": 3457073.82,
         "pool_address": "solana_BcVqR3Q3jhdBMVf5N8oYASjGseREpa7w7YvJjgMA4F1x",
         "ath": 0.1884783971189992,
         "ath_timestamp": 1759622400,
@@ -902,11 +942,11 @@
         "dexId": "raydium",
         "pairAddress": "BcVqR3Q3jhdBMVf5N8oYASjGseREpa7w7YvJjgMA4F1x",
         "txns_24h": {
-          "buys": 9967,
-          "sells": 10513
+          "buys": 10240,
+          "sells": 10819
         },
-        "fdv_usd": 106802695,
-        "total_reserve_in_usd": 1098875.92,
+        "fdv_usd": 118456190,
+        "total_reserve_in_usd": 1169116.49,
         "tags": [
           "binanceAlpha"
         ],
@@ -959,7 +999,7 @@
               {
                 "token_address": "SW1TCHLmRGTfW5xZknqQdpdarB8PD95sJYWpNp9TbFx",
                 "balance": 0,
-                "token_price": 0.1068,
+                "token_price": 0.1184,
                 "token_decimals": 9,
                 "token_symbol": "SWTCH",
                 "token_name": "Switchboard",
@@ -979,10 +1019,10 @@
         "website": "",
         "twitter": "",
         "holder": 4837,
-        "market_cap": 1334468,
-        "price": 0.001334,
-        "price_change_24h": -19.93,
-        "volume_24h": 89977.39,
+        "market_cap": 1322388,
+        "price": 0.001322,
+        "price_change_24h": -20.43,
+        "volume_24h": 90618.5,
         "pool_address": "solana_8ZeYHZg4iKWyrCdpyNgLKZuEkDC6AkQNT4q8q3zNFX4n",
         "ath": 0.013246723586900757,
         "ath_timestamp": 1756309680,
@@ -990,11 +1030,11 @@
         "dexId": "raydium",
         "pairAddress": "8ZeYHZg4iKWyrCdpyNgLKZuEkDC6AkQNT4q8q3zNFX4n",
         "txns_24h": {
-          "buys": 146,
+          "buys": 147,
           "sells": 133
         },
-        "fdv_usd": 1334468,
-        "total_reserve_in_usd": 267358.55,
+        "fdv_usd": 1322388,
+        "total_reserve_in_usd": 265623.53,
         "tags": [
           "moonshot"
         ],
@@ -1027,11 +1067,11 @@
               {
                 "token_address": "3qq54YqAKG3TcrwNHXFSpMCWoL8gmMuPceJ4FG9npump",
                 "balance": 138862.060677,
-                "token_price": 0.001334,
+                "token_price": 0.001322,
                 "token_decimals": 6,
                 "token_symbol": "CLANKER",
                 "token_name": "CLANKER Robot AI Slur",
-                "value": 185.24198894311797
+                "value": 183.575644214994
               }
             ]
           }
@@ -1047,10 +1087,10 @@
         "website": "",
         "twitter": "https://x.com/i/communities/1968442277552074769",
         "holder": 7653,
-        "market_cap": 11520080,
-        "price": 0.01152,
-        "price_change_24h": -15.09,
-        "volume_24h": 4143738.46,
+        "market_cap": 11400646,
+        "price": 0.0114,
+        "price_change_24h": -19.12,
+        "volume_24h": 4279052.79,
         "pool_address": "solana_6sEkZ73vph5AFYmQTzaV6H5vAQQLZ2C8WqeCQ6MhLqFk",
         "ath": 0.021513312347006704,
         "ath_timestamp": 1758672000,
@@ -1058,11 +1098,11 @@
         "dexId": "raydium",
         "pairAddress": "6sEkZ73vph5AFYmQTzaV6H5vAQQLZ2C8WqeCQ6MhLqFk",
         "txns_24h": {
-          "buys": 8371,
-          "sells": 7712
+          "buys": 8669,
+          "sells": 7956
         },
-        "fdv_usd": 11520080,
-        "total_reserve_in_usd": 539536.33,
+        "fdv_usd": 11400646,
+        "total_reserve_in_usd": 537235.45,
         "tags": [
           "moonshot"
         ],
@@ -1125,11 +1165,11 @@
               {
                 "token_address": "GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk",
                 "balance": 594868.054922,
-                "token_price": 0.01152,
+                "token_price": 0.0114,
                 "token_decimals": 6,
                 "token_symbol": "1",
                 "token_name": "1 coin can change your life",
-                "value": 6852.879992701441
+                "value": 6781.4958261108
               }
             ]
           }
@@ -1145,10 +1185,10 @@
         "website": "",
         "twitter": "",
         "holder": 9712,
-        "market_cap": 26080780,
-        "price": 0.1205,
-        "price_change_24h": -6.28,
-        "volume_24h": 574457.53,
+        "market_cap": 25355088,
+        "price": 0.1172,
+        "price_change_24h": -8.95,
+        "volume_24h": 613097.04,
         "pool_address": "solana_HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD",
         "ath": 0.3830175199241448,
         "ath_timestamp": 1757808000,
@@ -1156,11 +1196,11 @@
         "dexId": "raydium",
         "pairAddress": "HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD",
         "txns_24h": {
-          "buys": 772,
-          "sells": 845
+          "buys": 805,
+          "sells": 905
         },
-        "fdv_usd": 241177860,
-        "total_reserve_in_usd": 2594221.91,
+        "fdv_usd": 234467146,
+        "total_reserve_in_usd": 2558122.75,
         "tags": [
           "moonshot"
         ],
@@ -1193,11 +1233,11 @@
               {
                 "token_address": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
                 "balance": 55929.469773,
-                "token_price": 0.1205,
+                "token_price": 0.1172,
                 "token_decimals": 6,
                 "token_symbol": "CARDS",
                 "token_name": "Collector Crypt",
-                "value": 6739.5011076465
+                "value": 6554.933857395599
               }
             ]
           }
