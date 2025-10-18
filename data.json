@@ -1,4 +1,796 @@
 {
-  "success": false,
-  "error": "获取代币指标数据失败"
+  "success": true,
+  "timestamp": "2025-10-18T19:02:34.880Z",
+  "data": [
+    {
+      "address": "5DwqxCS4CxMVZE3MXDvqpvQALFywLJkc4nG39K7hfWt4",
+      "symbol": "BDTCH",
+      "name": "BDTCH COIN'T (PIGEON.TRADE)",
+      "decimals": 6,
+      "icon": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.gadgets360cdn.com%2Flarge%2Fpepe_twitter_pepecoineth_large_1684502002664.jpg&f=1&nofb=1&ipt=0efc2c99fde8d8044cb7847dce8b8317dde9e6e189b14619b97c806800dd3b2f",
+      "created_time": 1760740890,
+      "website": "",
+      "twitter": "",
+      "holder": 696,
+      "market_cap": 488021,
+      "price": 0.000488,
+      "price_change_24h": 540,
+      "volume_24h": 1458275.62,
+      "pool_address": "solana_8FJG8Am7X7kD69nDs3v4f5pBJkVahp39MQvvUuB2Kk4A",
+      "ath": 0.0005223651410854378,
+      "ath_timestamp": 1760810400,
+      "ath_pool": "8FJG8Am7X7kD69nDs3v4f5pBJkVahp39MQvvUuB2Kk4A",
+      "dexId": "pumpswap",
+      "pairAddress": "8FJG8Am7X7kD69nDs3v4f5pBJkVahp39MQvvUuB2Kk4A",
+      "txns_24h": {
+        "buys": 5465,
+        "sells": 4442
+      },
+      "fdv_usd": 488021,
+      "total_reserve_in_usd": 83336.23,
+      "tags": [],
+      "first_signal": {
+        "timestamp": 1760809775,
+        "price": 0.0003079
+      },
+      "metrics": {
+        "uniqueWallets": 2,
+        "inflow24h": 10411.602152308094,
+        "trades": [
+          {
+            "timestamp": "2025-10-18T17:48:39.000Z",
+            "type": "BUY",
+            "amount": 3488734.786768,
+            "usdValue": 1089.2634293648327,
+            "wallet": {
+              "address": "GeZHejJJJ7631AHAaoEfSmmL7CwhRNPH81FkawEfN7N9",
+              "name": "UBC7x"
+            }
+          },
+          {
+            "timestamp": "2025-10-18T15:07:04.000Z",
+            "type": "BUY",
+            "amount": 14434638.553696,
+            "usdValue": 9322.338722943261,
+            "wallet": {
+              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+              "name": "DNF 哥"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "GeZHejJJJ7631AHAaoEfSmmL7CwhRNPH81FkawEfN7N9",
+          "name": "UBC7x",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "5DwqxCS4CxMVZE3MXDvqpvQALFywLJkc4nG39K7hfWt4",
+              "balance": 3488734.786768,
+              "token_price": 0.000488,
+              "token_decimals": 6,
+              "token_symbol": "BDTCH",
+              "token_name": "BDTCH COIN'T (PIGEON.TRADE)",
+              "value": 1702.502575942784
+            }
+          ]
+        },
+        {
+          "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+          "name": "DNF 哥",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "5DwqxCS4CxMVZE3MXDvqpvQALFywLJkc4nG39K7hfWt4",
+              "balance": 14434638.553696,
+              "token_price": 0.000488,
+              "token_decimals": 6,
+              "token_symbol": "BDTCH",
+              "token_name": "BDTCH COIN'T (PIGEON.TRADE)",
+              "value": 7044.103614203647
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "address": "CPLTbYbtDMKZtHBaPqdDmHjxNwESCEB14gm6VuoDpump",
+      "symbol": "DTV",
+      "name": "DraperTV",
+      "decimals": 6,
+      "icon": "https://ipfs.io/ipfs/bafybeiejy4ih65w7s52v6tqcpk4bhp2jys3qesnte7xt5fngp7m2lqbjoe",
+      "created_time": 1760034109,
+      "website": "https://drapertv.com/",
+      "twitter": "https://x.com/meetthedrapers",
+      "holder": 4157,
+      "market_cap": 12591964,
+      "price": 0.01259,
+      "price_change_24h": 945,
+      "volume_24h": 19767601.41,
+      "pool_address": "solana_DGyCVpjgzAV7obtZNS9639fjJRH8JJ2xJEkX51NF4RsA",
+      "ath": 0.017910924957360578,
+      "ath_timestamp": 1760810400,
+      "ath_pool": "DGyCVpjgzAV7obtZNS9639fjJRH8JJ2xJEkX51NF4RsA",
+      "dexId": "pumpswap",
+      "pairAddress": "DGyCVpjgzAV7obtZNS9639fjJRH8JJ2xJEkX51NF4RsA",
+      "txns_24h": {
+        "buys": 23870,
+        "sells": 20678
+      },
+      "fdv_usd": 12591964,
+      "total_reserve_in_usd": 469334.23,
+      "tags": [
+        "moonshot"
+      ],
+      "first_signal": {
+        "timestamp": 1760808347,
+        "price": 0.01257
+      },
+      "metrics": {
+        "uniqueWallets": 3,
+        "inflow24h": 47887.26360986542,
+        "trades": [
+          {
+            "timestamp": "2025-10-18T16:17:20.000Z",
+            "type": "SELL",
+            "amount": 102103.470773,
+            "usdValue": 1222.939276,
+            "wallet": {
+              "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+              "name": "Chillguy32x"
+            }
+          },
+          {
+            "timestamp": "2025-10-18T16:06:47.000Z",
+            "type": "BUY",
+            "amount": 102103.470773,
+            "usdValue": 1500,
+            "wallet": {
+              "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+              "name": "Chillguy32x"
+            }
+          },
+          {
+            "timestamp": "2025-10-18T15:38:19.000Z",
+            "type": "BUY",
+            "amount": 271027.787347,
+            "usdValue": 3651.9268335382317,
+            "wallet": {
+              "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+              "name": "Winner"
+            }
+          },
+          {
+            "timestamp": "2025-10-18T15:32:42.000Z",
+            "type": "BUY",
+            "amount": 153869.830742,
+            "usdValue": 1826.7780800604755,
+            "wallet": {
+              "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+              "name": "Winner"
+            }
+          },
+          {
+            "timestamp": "2025-10-18T15:32:36.000Z",
+            "type": "BUY",
+            "amount": 166923.602894,
+            "usdValue": 1826.232935910778,
+            "wallet": {
+              "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+              "name": "Winner"
+            }
+          },
+          {
+            "timestamp": "2025-10-18T15:19:33.000Z",
+            "type": "BUY",
+            "amount": 129039.875259,
+            "usdValue": 1830.719931746059,
+            "wallet": {
+              "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+              "name": "Winner"
+            }
+          },
+          {
+            "timestamp": "2025-10-18T15:19:28.000Z",
+            "type": "BUY",
+            "amount": 132055.646388,
+            "usdValue": 1830.719931746059,
+            "wallet": {
+              "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+              "name": "Winner"
+            }
+          },
+          {
+            "timestamp": "2025-10-18T15:19:25.000Z",
+            "type": "BUY",
+            "amount": 133637.682906,
+            "usdValue": 1830.355427975891,
+            "wallet": {
+              "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+              "name": "Winner"
+            }
+          },
+          {
+            "timestamp": "2025-10-18T15:19:22.000Z",
+            "type": "BUY",
+            "amount": 139988.802178,
+            "usdValue": 1830.355427975891,
+            "wallet": {
+              "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+              "name": "Winner"
+            }
+          },
+          {
+            "timestamp": "2025-10-18T15:17:12.000Z",
+            "type": "BUY",
+            "amount": 198987.834396,
+            "usdValue": 3665.089260524078,
+            "wallet": {
+              "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+              "name": "Winner"
+            }
+          },
+          {
+            "timestamp": "2025-10-18T15:16:23.000Z",
+            "type": "BUY",
+            "amount": 213896.765794,
+            "usdValue": 3666.3861228473174,
+            "wallet": {
+              "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+              "name": "Winner"
+            }
+          },
+          {
+            "timestamp": "2025-10-18T15:16:18.000Z",
+            "type": "BUY",
+            "amount": 218474.945213,
+            "usdValue": 3666.3861228473174,
+            "wallet": {
+              "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+              "name": "Winner"
+            }
+          },
+          {
+            "timestamp": "2025-10-18T15:16:17.000Z",
+            "type": "BUY",
+            "amount": 224991.110991,
+            "usdValue": 3665.290370707921,
+            "wallet": {
+              "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+              "name": "Winner"
+            }
+          },
+          {
+            "timestamp": "2025-10-18T15:15:29.000Z",
+            "type": "BUY",
+            "amount": 233043.372114,
+            "usdValue": 3664.5602332546932,
+            "wallet": {
+              "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+              "name": "Winner"
+            }
+          },
+          {
+            "timestamp": "2025-10-18T15:15:25.000Z",
+            "type": "BUY",
+            "amount": 237369.696511,
+            "usdValue": 3664.5602332546932,
+            "wallet": {
+              "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+              "name": "Winner"
+            }
+          },
+          {
+            "timestamp": "2025-10-18T15:15:16.000Z",
+            "type": "BUY",
+            "amount": 244009.488564,
+            "usdValue": 3664.5602332546932,
+            "wallet": {
+              "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+              "name": "Winner"
+            }
+          },
+          {
+            "timestamp": "2025-10-18T15:15:07.000Z",
+            "type": "BUY",
+            "amount": 243837.118278,
+            "usdValue": 3664.5602332546932,
+            "wallet": {
+              "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+              "name": "Winner"
+            }
+          },
+          {
+            "timestamp": "2025-10-18T15:14:59.000Z",
+            "type": "BUY",
+            "amount": 244103.94852,
+            "usdValue": 3664.5602332546932,
+            "wallet": {
+              "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+              "name": "Winner"
+            }
+          },
+          {
+            "timestamp": "2025-10-18T04:16:44.000Z",
+            "type": "SWAP",
+            "amount": 396939.917859,
+            "usdValue": 352.85011471018953,
+            "wallet": {
+              "address": "65jT5wk8FQyUWcSjgBsBRLU5NiSYGVYwRSKRiopPNAQ3",
+              "name": "iamachillguy"
+            }
+          },
+          {
+            "timestamp": "2025-10-18T04:16:20.000Z",
+            "type": "SWAP",
+            "amount": 396939.91786,
+            "usdValue": 336.3696788352009,
+            "wallet": {
+              "address": "65jT5wk8FQyUWcSjgBsBRLU5NiSYGVYwRSKRiopPNAQ3",
+              "name": "iamachillguy"
+            }
+          },
+          {
+            "timestamp": "2025-10-17T20:23:23.000Z",
+            "type": "BUY",
+            "amount": 794674.510229,
+            "usdValue": 686.3810672573362,
+            "wallet": {
+              "address": "65jT5wk8FQyUWcSjgBsBRLU5NiSYGVYwRSKRiopPNAQ3",
+              "name": "iamachillguy"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+          "name": "Chillguy32x",
+          "score": 1,
+          "tokens": [
+            {
+              "token_address": "CPLTbYbtDMKZtHBaPqdDmHjxNwESCEB14gm6VuoDpump",
+              "balance": 0,
+              "token_price": 0.01259,
+              "token_decimals": 6,
+              "token_symbol": "DTV",
+              "token_name": "DraperTV",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+          "name": "Winner",
+          "score": 0.5,
+          "tokens": [
+            {
+              "token_address": "CPLTbYbtDMKZtHBaPqdDmHjxNwESCEB14gm6VuoDpump",
+              "balance": 3185257.508095,
+              "token_price": 0.01259,
+              "token_decimals": 6,
+              "token_symbol": "DTV",
+              "token_name": "DraperTV",
+              "value": 40102.39202691605
+            }
+          ]
+        },
+        {
+          "address": "65jT5wk8FQyUWcSjgBsBRLU5NiSYGVYwRSKRiopPNAQ3",
+          "name": "iamachillguy",
+          "score": 0.5,
+          "tokens": [
+            {
+              "token_address": "CPLTbYbtDMKZtHBaPqdDmHjxNwESCEB14gm6VuoDpump",
+              "balance": 0,
+              "token_price": 0.01259,
+              "token_decimals": 6,
+              "token_symbol": "DTV",
+              "token_name": "DraperTV",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "groups": {
+    "latestSignals": [
+      {
+        "address": "5DwqxCS4CxMVZE3MXDvqpvQALFywLJkc4nG39K7hfWt4",
+        "symbol": "BDTCH",
+        "name": "BDTCH COIN'T (PIGEON.TRADE)",
+        "decimals": 6,
+        "icon": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.gadgets360cdn.com%2Flarge%2Fpepe_twitter_pepecoineth_large_1684502002664.jpg&f=1&nofb=1&ipt=0efc2c99fde8d8044cb7847dce8b8317dde9e6e189b14619b97c806800dd3b2f",
+        "created_time": 1760740890,
+        "website": "",
+        "twitter": "",
+        "holder": 696,
+        "market_cap": 488021,
+        "price": 0.000488,
+        "price_change_24h": 540,
+        "volume_24h": 1458275.62,
+        "pool_address": "solana_8FJG8Am7X7kD69nDs3v4f5pBJkVahp39MQvvUuB2Kk4A",
+        "ath": 0.0005223651410854378,
+        "ath_timestamp": 1760810400,
+        "ath_pool": "8FJG8Am7X7kD69nDs3v4f5pBJkVahp39MQvvUuB2Kk4A",
+        "dexId": "pumpswap",
+        "pairAddress": "8FJG8Am7X7kD69nDs3v4f5pBJkVahp39MQvvUuB2Kk4A",
+        "txns_24h": {
+          "buys": 5465,
+          "sells": 4442
+        },
+        "fdv_usd": 488021,
+        "total_reserve_in_usd": 83336.23,
+        "tags": [],
+        "first_signal": {
+          "timestamp": 1760809775,
+          "price": 0.0003079
+        },
+        "metrics": {
+          "uniqueWallets": 2,
+          "inflow24h": 10411.602152308094,
+          "trades": [
+            {
+              "timestamp": "2025-10-18T17:48:39.000Z",
+              "type": "BUY",
+              "amount": 3488734.786768,
+              "usdValue": 1089.2634293648327,
+              "wallet": {
+                "address": "GeZHejJJJ7631AHAaoEfSmmL7CwhRNPH81FkawEfN7N9",
+                "name": "UBC7x"
+              }
+            },
+            {
+              "timestamp": "2025-10-18T15:07:04.000Z",
+              "type": "BUY",
+              "amount": 14434638.553696,
+              "usdValue": 9322.338722943261,
+              "wallet": {
+                "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+                "name": "DNF 哥"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "GeZHejJJJ7631AHAaoEfSmmL7CwhRNPH81FkawEfN7N9",
+            "name": "UBC7x",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "5DwqxCS4CxMVZE3MXDvqpvQALFywLJkc4nG39K7hfWt4",
+                "balance": 3488734.786768,
+                "token_price": 0.000488,
+                "token_decimals": 6,
+                "token_symbol": "BDTCH",
+                "token_name": "BDTCH COIN'T (PIGEON.TRADE)",
+                "value": 1702.502575942784
+              }
+            ]
+          },
+          {
+            "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+            "name": "DNF 哥",
+            "score": 3,
+            "tokens": [
+              {
+                "token_address": "5DwqxCS4CxMVZE3MXDvqpvQALFywLJkc4nG39K7hfWt4",
+                "balance": 14434638.553696,
+                "token_price": 0.000488,
+                "token_decimals": 6,
+                "token_symbol": "BDTCH",
+                "token_name": "BDTCH COIN'T (PIGEON.TRADE)",
+                "value": 7044.103614203647
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "address": "CPLTbYbtDMKZtHBaPqdDmHjxNwESCEB14gm6VuoDpump",
+        "symbol": "DTV",
+        "name": "DraperTV",
+        "decimals": 6,
+        "icon": "https://ipfs.io/ipfs/bafybeiejy4ih65w7s52v6tqcpk4bhp2jys3qesnte7xt5fngp7m2lqbjoe",
+        "created_time": 1760034109,
+        "website": "https://drapertv.com/",
+        "twitter": "https://x.com/meetthedrapers",
+        "holder": 4157,
+        "market_cap": 12591964,
+        "price": 0.01259,
+        "price_change_24h": 945,
+        "volume_24h": 19767601.41,
+        "pool_address": "solana_DGyCVpjgzAV7obtZNS9639fjJRH8JJ2xJEkX51NF4RsA",
+        "ath": 0.017910924957360578,
+        "ath_timestamp": 1760810400,
+        "ath_pool": "DGyCVpjgzAV7obtZNS9639fjJRH8JJ2xJEkX51NF4RsA",
+        "dexId": "pumpswap",
+        "pairAddress": "DGyCVpjgzAV7obtZNS9639fjJRH8JJ2xJEkX51NF4RsA",
+        "txns_24h": {
+          "buys": 23870,
+          "sells": 20678
+        },
+        "fdv_usd": 12591964,
+        "total_reserve_in_usd": 469334.23,
+        "tags": [
+          "moonshot"
+        ],
+        "first_signal": {
+          "timestamp": 1760808347,
+          "price": 0.01257
+        },
+        "metrics": {
+          "uniqueWallets": 3,
+          "inflow24h": 47887.26360986542,
+          "trades": [
+            {
+              "timestamp": "2025-10-18T16:17:20.000Z",
+              "type": "SELL",
+              "amount": 102103.470773,
+              "usdValue": 1222.939276,
+              "wallet": {
+                "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+                "name": "Chillguy32x"
+              }
+            },
+            {
+              "timestamp": "2025-10-18T16:06:47.000Z",
+              "type": "BUY",
+              "amount": 102103.470773,
+              "usdValue": 1500,
+              "wallet": {
+                "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+                "name": "Chillguy32x"
+              }
+            },
+            {
+              "timestamp": "2025-10-18T15:38:19.000Z",
+              "type": "BUY",
+              "amount": 271027.787347,
+              "usdValue": 3651.9268335382317,
+              "wallet": {
+                "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+                "name": "Winner"
+              }
+            },
+            {
+              "timestamp": "2025-10-18T15:32:42.000Z",
+              "type": "BUY",
+              "amount": 153869.830742,
+              "usdValue": 1826.7780800604755,
+              "wallet": {
+                "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+                "name": "Winner"
+              }
+            },
+            {
+              "timestamp": "2025-10-18T15:32:36.000Z",
+              "type": "BUY",
+              "amount": 166923.602894,
+              "usdValue": 1826.232935910778,
+              "wallet": {
+                "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+                "name": "Winner"
+              }
+            },
+            {
+              "timestamp": "2025-10-18T15:19:33.000Z",
+              "type": "BUY",
+              "amount": 129039.875259,
+              "usdValue": 1830.719931746059,
+              "wallet": {
+                "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+                "name": "Winner"
+              }
+            },
+            {
+              "timestamp": "2025-10-18T15:19:28.000Z",
+              "type": "BUY",
+              "amount": 132055.646388,
+              "usdValue": 1830.719931746059,
+              "wallet": {
+                "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+                "name": "Winner"
+              }
+            },
+            {
+              "timestamp": "2025-10-18T15:19:25.000Z",
+              "type": "BUY",
+              "amount": 133637.682906,
+              "usdValue": 1830.355427975891,
+              "wallet": {
+                "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+                "name": "Winner"
+              }
+            },
+            {
+              "timestamp": "2025-10-18T15:19:22.000Z",
+              "type": "BUY",
+              "amount": 139988.802178,
+              "usdValue": 1830.355427975891,
+              "wallet": {
+                "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+                "name": "Winner"
+              }
+            },
+            {
+              "timestamp": "2025-10-18T15:17:12.000Z",
+              "type": "BUY",
+              "amount": 198987.834396,
+              "usdValue": 3665.089260524078,
+              "wallet": {
+                "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+                "name": "Winner"
+              }
+            },
+            {
+              "timestamp": "2025-10-18T15:16:23.000Z",
+              "type": "BUY",
+              "amount": 213896.765794,
+              "usdValue": 3666.3861228473174,
+              "wallet": {
+                "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+                "name": "Winner"
+              }
+            },
+            {
+              "timestamp": "2025-10-18T15:16:18.000Z",
+              "type": "BUY",
+              "amount": 218474.945213,
+              "usdValue": 3666.3861228473174,
+              "wallet": {
+                "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+                "name": "Winner"
+              }
+            },
+            {
+              "timestamp": "2025-10-18T15:16:17.000Z",
+              "type": "BUY",
+              "amount": 224991.110991,
+              "usdValue": 3665.290370707921,
+              "wallet": {
+                "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+                "name": "Winner"
+              }
+            },
+            {
+              "timestamp": "2025-10-18T15:15:29.000Z",
+              "type": "BUY",
+              "amount": 233043.372114,
+              "usdValue": 3664.5602332546932,
+              "wallet": {
+                "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+                "name": "Winner"
+              }
+            },
+            {
+              "timestamp": "2025-10-18T15:15:25.000Z",
+              "type": "BUY",
+              "amount": 237369.696511,
+              "usdValue": 3664.5602332546932,
+              "wallet": {
+                "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+                "name": "Winner"
+              }
+            },
+            {
+              "timestamp": "2025-10-18T15:15:16.000Z",
+              "type": "BUY",
+              "amount": 244009.488564,
+              "usdValue": 3664.5602332546932,
+              "wallet": {
+                "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+                "name": "Winner"
+              }
+            },
+            {
+              "timestamp": "2025-10-18T15:15:07.000Z",
+              "type": "BUY",
+              "amount": 243837.118278,
+              "usdValue": 3664.5602332546932,
+              "wallet": {
+                "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+                "name": "Winner"
+              }
+            },
+            {
+              "timestamp": "2025-10-18T15:14:59.000Z",
+              "type": "BUY",
+              "amount": 244103.94852,
+              "usdValue": 3664.5602332546932,
+              "wallet": {
+                "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+                "name": "Winner"
+              }
+            },
+            {
+              "timestamp": "2025-10-18T04:16:44.000Z",
+              "type": "SWAP",
+              "amount": 396939.917859,
+              "usdValue": 352.85011471018953,
+              "wallet": {
+                "address": "65jT5wk8FQyUWcSjgBsBRLU5NiSYGVYwRSKRiopPNAQ3",
+                "name": "iamachillguy"
+              }
+            },
+            {
+              "timestamp": "2025-10-18T04:16:20.000Z",
+              "type": "SWAP",
+              "amount": 396939.91786,
+              "usdValue": 336.3696788352009,
+              "wallet": {
+                "address": "65jT5wk8FQyUWcSjgBsBRLU5NiSYGVYwRSKRiopPNAQ3",
+                "name": "iamachillguy"
+              }
+            },
+            {
+              "timestamp": "2025-10-17T20:23:23.000Z",
+              "type": "BUY",
+              "amount": 794674.510229,
+              "usdValue": 686.3810672573362,
+              "wallet": {
+                "address": "65jT5wk8FQyUWcSjgBsBRLU5NiSYGVYwRSKRiopPNAQ3",
+                "name": "iamachillguy"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+            "name": "Chillguy32x",
+            "score": 1,
+            "tokens": [
+              {
+                "token_address": "CPLTbYbtDMKZtHBaPqdDmHjxNwESCEB14gm6VuoDpump",
+                "balance": 0,
+                "token_price": 0.01259,
+                "token_decimals": 6,
+                "token_symbol": "DTV",
+                "token_name": "DraperTV",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+            "name": "Winner",
+            "score": 0.5,
+            "tokens": [
+              {
+                "token_address": "CPLTbYbtDMKZtHBaPqdDmHjxNwESCEB14gm6VuoDpump",
+                "balance": 3185257.508095,
+                "token_price": 0.01259,
+                "token_decimals": 6,
+                "token_symbol": "DTV",
+                "token_name": "DraperTV",
+                "value": 40102.39202691605
+              }
+            ]
+          },
+          {
+            "address": "65jT5wk8FQyUWcSjgBsBRLU5NiSYGVYwRSKRiopPNAQ3",
+            "name": "iamachillguy",
+            "score": 0.5,
+            "tokens": [
+              {
+                "token_address": "CPLTbYbtDMKZtHBaPqdDmHjxNwESCEB14gm6VuoDpump",
+                "balance": 0,
+                "token_price": 0.01259,
+                "token_decimals": 6,
+                "token_symbol": "DTV",
+                "token_name": "DraperTV",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "buys": [],
+    "sells": []
+  }
 }
