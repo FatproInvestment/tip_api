@@ -1,7 +1,112 @@
 {
   "success": true,
-  "timestamp": "2025-10-24T09:10:41.766Z",
+  "timestamp": "2025-10-24T09:31:05.847Z",
   "data": [
+    {
+      "address": "AkVCa3jeQf6S972KX4SCx2QF8tc2gUmv2Gij18j3pump",
+      "symbol": "DAVE",
+      "name": "Dave's Hot Chicken",
+      "decimals": 6,
+      "icon": "https://ipfs.io/ipfs/bafkreihlhp4wpvj24mhjt2d5h6yot3ythl2ady5w756bawq5zxkktznk2m",
+      "created_time": 1761292428,
+      "website": "",
+      "twitter": "https://x.com/sarahonsolana/status/1981630096609050764",
+      "holder": 987,
+      "market_cap": 246204,
+      "price": 0.0002462,
+      "price_change_24h": 210,
+      "volume_24h": 375287.99,
+      "pool_address": "solana_2sDCR7tDRuRpJHQyJwUoNtZn71NhetzjcqG3ePehpuyU",
+      "ath": 0.0001994,
+      "ath_timestamp": 1761297783,
+      "ath_pool": "2sDCR7tDRuRpJHQyJwUoNtZn71NhetzjcqG3ePehpuyU",
+      "dexId": "pumpswap",
+      "pairAddress": "2sDCR7tDRuRpJHQyJwUoNtZn71NhetzjcqG3ePehpuyU",
+      "boosts": {
+        "active": 10
+      },
+      "txns_24h": {
+        "buys": 2723,
+        "sells": 2024
+      },
+      "fdv_usd": 246204,
+      "total_reserve_in_usd": 58697.25,
+      "tags": [],
+      "first_signal": {
+        "timestamp": 1761297772,
+        "price": 0.0001994
+      },
+      "metrics": {
+        "uniqueWallets": 2,
+        "inflow24h": 3081.327261906445,
+        "trades": [
+          {
+            "timestamp": "2025-10-24T09:18:31.000Z",
+            "type": "BUY",
+            "amount": 21105174.673809,
+            "usdValue": 2944.825158276791,
+            "wallet": {
+              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+              "name": "DNF 哥"
+            }
+          },
+          {
+            "timestamp": "2025-10-24T09:06:20.000Z",
+            "type": "BUY",
+            "amount": 348192.953491,
+            "usdValue": 38.98232755527736,
+            "wallet": {
+              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+              "name": "OGmoodeng"
+            }
+          },
+          {
+            "timestamp": "2025-10-24T08:59:40.000Z",
+            "type": "BUY",
+            "amount": 1055733.183985,
+            "usdValue": 97.51977607437696,
+            "wallet": {
+              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+              "name": "OGmoodeng"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+          "name": "DNF 哥",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "AkVCa3jeQf6S972KX4SCx2QF8tc2gUmv2Gij18j3pump",
+              "balance": 21105174.673809,
+              "token_price": 0.0002462,
+              "token_decimals": 6,
+              "token_symbol": "DAVE",
+              "token_name": "Dave's Hot Chicken",
+              "value": 5196.094004691776
+            }
+          ]
+        },
+        {
+          "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+          "name": "OGmoodeng",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "AkVCa3jeQf6S972KX4SCx2QF8tc2gUmv2Gij18j3pump",
+              "balance": 18333872.06006,
+              "token_price": 0.0002462,
+              "token_decimals": 6,
+              "token_symbol": "DAVE",
+              "token_name": "Dave's Hot Chicken",
+              "value": 4513.799301186772
+            }
+          ]
+        }
+      ]
+    },
     {
       "address": "9RjwNo6hBPkxayWHCqQD1VjaH8igSizEseNZNbddpump",
       "symbol": "Stupid",
@@ -12,10 +117,10 @@
       "website": "",
       "twitter": "",
       "holder": 21102,
-      "market_cap": 1114369,
-      "price": 0.00112,
-      "price_change_24h": 1.61,
-      "volume_24h": 58104.82,
+      "market_cap": 1109861,
+      "price": 0.001115,
+      "price_change_24h": 0.91,
+      "volume_24h": 58688.34,
       "pool_address": "solana_F1FMsNYuCNRHTDVjSkNbiZLp4qv6r6oQyMRJM9ZYdkm3",
       "ath": 0.027107107551295806,
       "ath_timestamp": 1750829340,
@@ -23,11 +128,11 @@
       "dexId": "raydium",
       "pairAddress": "F1FMsNYuCNRHTDVjSkNbiZLp4qv6r6oQyMRJM9ZYdkm3",
       "txns_24h": {
-        "buys": 160,
-        "sells": 112
+        "buys": 161,
+        "sells": 128
       },
-      "fdv_usd": 1114369,
-      "total_reserve_in_usd": 444135.36,
+      "fdv_usd": 1109861,
+      "total_reserve_in_usd": 443214.74,
       "tags": [
         "moonshot"
       ],
@@ -220,7 +325,7 @@
             {
               "token_address": "9RjwNo6hBPkxayWHCqQD1VjaH8igSizEseNZNbddpump",
               "balance": 0,
-              "token_price": 0.00112,
+              "token_price": 0.001115,
               "token_decimals": 6,
               "token_symbol": "Stupid",
               "token_name": "StupidCoin",
@@ -242,8 +347,8 @@
       "holder": 5232,
       "market_cap": 86480,
       "price": 8.649e-05,
-      "price_change_24h": -9.2,
-      "volume_24h": 16313.41,
+      "price_change_24h": -9.56,
+      "volume_24h": 16312.42,
       "pool_address": "solana_6j6b2bG7MTbWjAgCBv4sLEFevqvRhiHAWKpe6Dz7PJnj",
       "ath": 8.834e-05,
       "ath_timestamp": 1761296073,
@@ -252,7 +357,7 @@
       "pairAddress": "6j6b2bG7MTbWjAgCBv4sLEFevqvRhiHAWKpe6Dz7PJnj",
       "txns_24h": {
         "buys": 47,
-        "sells": 33
+        "sells": 32
       },
       "fdv_usd": 86480,
       "total_reserve_in_usd": 61006.04,
@@ -318,10 +423,10 @@
       "website": "",
       "twitter": "",
       "holder": 8515,
-      "market_cap": 2327635,
-      "price": 0.00235,
-      "price_change_24h": 31.1,
-      "volume_24h": 129004.09,
+      "market_cap": 2093899,
+      "price": 0.002114,
+      "price_change_24h": 21.43,
+      "volume_24h": 151421.73,
       "pool_address": "solana_6ZvXsZZAX2ffB5MXEuNBgdXScdZpnmyw42ZxaAKVnGmj",
       "ath": 0.050461653151678124,
       "ath_timestamp": 1751472960,
@@ -329,11 +434,11 @@
       "dexId": "meteora",
       "pairAddress": "6ZvXsZZAX2ffB5MXEuNBgdXScdZpnmyw42ZxaAKVnGmj",
       "txns_24h": {
-        "buys": 195,
-        "sells": 287
+        "buys": 237,
+        "sells": 300
       },
-      "fdv_usd": 2327635,
-      "total_reserve_in_usd": 390588.58,
+      "fdv_usd": 2093899,
+      "total_reserve_in_usd": 370411.69,
       "tags": [
         "moonshot"
       ],
@@ -366,11 +471,11 @@
             {
               "token_address": "97PVGU2DzFqsAWaYU17ZBqGvQFmkqtdMywYBNPAfy8vy",
               "balance": 4655164.470955012,
-              "token_price": 0.00235,
+              "token_price": 0.002114,
               "token_decimals": 9,
               "token_symbol": "STARTUP",
               "token_name": "Startup",
-              "value": 10939.63650674428
+              "value": 9841.017691598896
             }
           ]
         }
@@ -386,10 +491,10 @@
       "website": "",
       "twitter": "",
       "holder": 6821,
-      "market_cap": 37994594,
-      "price": 0.03799,
-      "price_change_24h": 12.55,
-      "volume_24h": 125878.71,
+      "market_cap": 38197390,
+      "price": 0.03819,
+      "price_change_24h": 12.57,
+      "volume_24h": 127709.77,
       "pool_address": "solana_4SBYWY5UuxybWuj8FwHdFXUN6mbtACrqbJwiZ9mXworP",
       "ath": 0.05722230901387532,
       "ath_timestamp": 1759449600,
@@ -397,11 +502,11 @@
       "dexId": "meteora",
       "pairAddress": "Diy8bJcVUqwEtXaRXBADEKBYSpH8MJNwmJ9vodMsHyKv",
       "txns_24h": {
-        "buys": 577,
-        "sells": 811
+        "buys": 579,
+        "sells": 819
       },
-      "fdv_usd": 37994594,
-      "total_reserve_in_usd": 23075.54,
+      "fdv_usd": 38197390,
+      "total_reserve_in_usd": 23140.44,
       "tags": [
         "moonshot"
       ],
@@ -1274,11 +1379,11 @@
             {
               "token_address": "1zJX5gRnjLgmTpq5sVwkq69mNDQkCemqoasyjaPW6jm",
               "balance": 576.030342007,
-              "token_price": 0.03799,
+              "token_price": 0.03819,
               "token_decimals": 9,
               "token_symbol": "KLED",
               "token_name": "KLEDAI",
-              "value": 21.88339269284593
+              "value": 21.99859876124733
             }
           ]
         }
@@ -1294,10 +1399,10 @@
       "website": "",
       "twitter": "",
       "holder": 9572,
-      "market_cap": 23979241,
-      "price": 0.1108,
-      "price_change_24h": -7.88,
-      "volume_24h": 1918355.49,
+      "market_cap": 24424607,
+      "price": 0.1129,
+      "price_change_24h": -7.28,
+      "volume_24h": 1925233.16,
       "pool_address": "solana_HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD",
       "ath": 0.3830175199241448,
       "ath_timestamp": 1757808000,
@@ -1305,11 +1410,11 @@
       "dexId": "raydium",
       "pairAddress": "HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD",
       "txns_24h": {
-        "buys": 1364,
-        "sells": 1657
+        "buys": 1363,
+        "sells": 1658
       },
-      "fdv_usd": 221744217,
-      "total_reserve_in_usd": 2331744.5,
+      "fdv_usd": 225862671,
+      "total_reserve_in_usd": 2356683.41,
       "tags": [
         "moonshot"
       ],
@@ -1342,11 +1447,11 @@
             {
               "token_address": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
               "balance": 195283.014221,
-              "token_price": 0.1108,
+              "token_price": 0.1129,
               "token_decimals": 6,
               "token_symbol": "CARDS",
               "token_name": "Collector Crypt",
-              "value": 21637.3579756868
+              "value": 22047.452305550898
             }
           ]
         }
@@ -1355,6 +1460,111 @@
   ],
   "groups": {
     "latestSignals": [
+      {
+        "address": "AkVCa3jeQf6S972KX4SCx2QF8tc2gUmv2Gij18j3pump",
+        "symbol": "DAVE",
+        "name": "Dave's Hot Chicken",
+        "decimals": 6,
+        "icon": "https://ipfs.io/ipfs/bafkreihlhp4wpvj24mhjt2d5h6yot3ythl2ady5w756bawq5zxkktznk2m",
+        "created_time": 1761292428,
+        "website": "",
+        "twitter": "https://x.com/sarahonsolana/status/1981630096609050764",
+        "holder": 987,
+        "market_cap": 246204,
+        "price": 0.0002462,
+        "price_change_24h": 210,
+        "volume_24h": 375287.99,
+        "pool_address": "solana_2sDCR7tDRuRpJHQyJwUoNtZn71NhetzjcqG3ePehpuyU",
+        "ath": 0.0001994,
+        "ath_timestamp": 1761297783,
+        "ath_pool": "2sDCR7tDRuRpJHQyJwUoNtZn71NhetzjcqG3ePehpuyU",
+        "dexId": "pumpswap",
+        "pairAddress": "2sDCR7tDRuRpJHQyJwUoNtZn71NhetzjcqG3ePehpuyU",
+        "boosts": {
+          "active": 10
+        },
+        "txns_24h": {
+          "buys": 2723,
+          "sells": 2024
+        },
+        "fdv_usd": 246204,
+        "total_reserve_in_usd": 58697.25,
+        "tags": [],
+        "first_signal": {
+          "timestamp": 1761297772,
+          "price": 0.0001994
+        },
+        "metrics": {
+          "uniqueWallets": 2,
+          "inflow24h": 3081.327261906445,
+          "trades": [
+            {
+              "timestamp": "2025-10-24T09:18:31.000Z",
+              "type": "BUY",
+              "amount": 21105174.673809,
+              "usdValue": 2944.825158276791,
+              "wallet": {
+                "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+                "name": "DNF 哥"
+              }
+            },
+            {
+              "timestamp": "2025-10-24T09:06:20.000Z",
+              "type": "BUY",
+              "amount": 348192.953491,
+              "usdValue": 38.98232755527736,
+              "wallet": {
+                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+                "name": "OGmoodeng"
+              }
+            },
+            {
+              "timestamp": "2025-10-24T08:59:40.000Z",
+              "type": "BUY",
+              "amount": 1055733.183985,
+              "usdValue": 97.51977607437696,
+              "wallet": {
+                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+                "name": "OGmoodeng"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+            "name": "DNF 哥",
+            "score": 3,
+            "tokens": [
+              {
+                "token_address": "AkVCa3jeQf6S972KX4SCx2QF8tc2gUmv2Gij18j3pump",
+                "balance": 21105174.673809,
+                "token_price": 0.0002462,
+                "token_decimals": 6,
+                "token_symbol": "DAVE",
+                "token_name": "Dave's Hot Chicken",
+                "value": 5196.094004691776
+              }
+            ]
+          },
+          {
+            "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+            "name": "OGmoodeng",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "AkVCa3jeQf6S972KX4SCx2QF8tc2gUmv2Gij18j3pump",
+                "balance": 18333872.06006,
+                "token_price": 0.0002462,
+                "token_decimals": 6,
+                "token_symbol": "DAVE",
+                "token_name": "Dave's Hot Chicken",
+                "value": 4513.799301186772
+              }
+            ]
+          }
+        ]
+      },
       {
         "address": "FtTSDNLD5mMLn3anqEQpy44cRdrtAJRrLX2MKXxfpump",
         "symbol": "retard",
@@ -1367,8 +1577,8 @@
         "holder": 5232,
         "market_cap": 86480,
         "price": 8.649e-05,
-        "price_change_24h": -9.2,
-        "volume_24h": 16313.41,
+        "price_change_24h": -9.56,
+        "volume_24h": 16312.42,
         "pool_address": "solana_6j6b2bG7MTbWjAgCBv4sLEFevqvRhiHAWKpe6Dz7PJnj",
         "ath": 8.834e-05,
         "ath_timestamp": 1761296073,
@@ -1377,7 +1587,7 @@
         "pairAddress": "6j6b2bG7MTbWjAgCBv4sLEFevqvRhiHAWKpe6Dz7PJnj",
         "txns_24h": {
           "buys": 47,
-          "sells": 33
+          "sells": 32
         },
         "fdv_usd": 86480,
         "total_reserve_in_usd": 61006.04,
@@ -1445,10 +1655,10 @@
         "website": "",
         "twitter": "",
         "holder": 8515,
-        "market_cap": 2327635,
-        "price": 0.00235,
-        "price_change_24h": 31.1,
-        "volume_24h": 129004.09,
+        "market_cap": 2093899,
+        "price": 0.002114,
+        "price_change_24h": 21.43,
+        "volume_24h": 151421.73,
         "pool_address": "solana_6ZvXsZZAX2ffB5MXEuNBgdXScdZpnmyw42ZxaAKVnGmj",
         "ath": 0.050461653151678124,
         "ath_timestamp": 1751472960,
@@ -1456,11 +1666,11 @@
         "dexId": "meteora",
         "pairAddress": "6ZvXsZZAX2ffB5MXEuNBgdXScdZpnmyw42ZxaAKVnGmj",
         "txns_24h": {
-          "buys": 195,
-          "sells": 287
+          "buys": 237,
+          "sells": 300
         },
-        "fdv_usd": 2327635,
-        "total_reserve_in_usd": 390588.58,
+        "fdv_usd": 2093899,
+        "total_reserve_in_usd": 370411.69,
         "tags": [
           "moonshot"
         ],
@@ -1493,11 +1703,11 @@
               {
                 "token_address": "97PVGU2DzFqsAWaYU17ZBqGvQFmkqtdMywYBNPAfy8vy",
                 "balance": 4655164.470955012,
-                "token_price": 0.00235,
+                "token_price": 0.002114,
                 "token_decimals": 9,
                 "token_symbol": "STARTUP",
                 "token_name": "Startup",
-                "value": 10939.63650674428
+                "value": 9841.017691598896
               }
             ]
           }
@@ -1513,10 +1723,10 @@
         "website": "",
         "twitter": "",
         "holder": 6821,
-        "market_cap": 37994594,
-        "price": 0.03799,
-        "price_change_24h": 12.55,
-        "volume_24h": 125878.71,
+        "market_cap": 38197390,
+        "price": 0.03819,
+        "price_change_24h": 12.57,
+        "volume_24h": 127709.77,
         "pool_address": "solana_4SBYWY5UuxybWuj8FwHdFXUN6mbtACrqbJwiZ9mXworP",
         "ath": 0.05722230901387532,
         "ath_timestamp": 1759449600,
@@ -1524,11 +1734,11 @@
         "dexId": "meteora",
         "pairAddress": "Diy8bJcVUqwEtXaRXBADEKBYSpH8MJNwmJ9vodMsHyKv",
         "txns_24h": {
-          "buys": 577,
-          "sells": 811
+          "buys": 579,
+          "sells": 819
         },
-        "fdv_usd": 37994594,
-        "total_reserve_in_usd": 23075.54,
+        "fdv_usd": 38197390,
+        "total_reserve_in_usd": 23140.44,
         "tags": [
           "moonshot"
         ],
@@ -2401,11 +2611,11 @@
               {
                 "token_address": "1zJX5gRnjLgmTpq5sVwkq69mNDQkCemqoasyjaPW6jm",
                 "balance": 576.030342007,
-                "token_price": 0.03799,
+                "token_price": 0.03819,
                 "token_decimals": 9,
                 "token_symbol": "KLED",
                 "token_name": "KLEDAI",
-                "value": 21.88339269284593
+                "value": 21.99859876124733
               }
             ]
           }
@@ -2421,10 +2631,10 @@
         "website": "",
         "twitter": "",
         "holder": 9572,
-        "market_cap": 23979241,
-        "price": 0.1108,
-        "price_change_24h": -7.88,
-        "volume_24h": 1918355.49,
+        "market_cap": 24424607,
+        "price": 0.1129,
+        "price_change_24h": -7.28,
+        "volume_24h": 1925233.16,
         "pool_address": "solana_HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD",
         "ath": 0.3830175199241448,
         "ath_timestamp": 1757808000,
@@ -2432,11 +2642,11 @@
         "dexId": "raydium",
         "pairAddress": "HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD",
         "txns_24h": {
-          "buys": 1364,
-          "sells": 1657
+          "buys": 1363,
+          "sells": 1658
         },
-        "fdv_usd": 221744217,
-        "total_reserve_in_usd": 2331744.5,
+        "fdv_usd": 225862671,
+        "total_reserve_in_usd": 2356683.41,
         "tags": [
           "moonshot"
         ],
@@ -2469,11 +2679,11 @@
               {
                 "token_address": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
                 "balance": 195283.014221,
-                "token_price": 0.1108,
+                "token_price": 0.1129,
                 "token_decimals": 6,
                 "token_symbol": "CARDS",
                 "token_name": "Collector Crypt",
-                "value": 21637.3579756868
+                "value": 22047.452305550898
               }
             ]
           }
@@ -2491,10 +2701,10 @@
         "website": "",
         "twitter": "",
         "holder": 21102,
-        "market_cap": 1114369,
-        "price": 0.00112,
-        "price_change_24h": 1.61,
-        "volume_24h": 58104.82,
+        "market_cap": 1109861,
+        "price": 0.001115,
+        "price_change_24h": 0.91,
+        "volume_24h": 58688.34,
         "pool_address": "solana_F1FMsNYuCNRHTDVjSkNbiZLp4qv6r6oQyMRJM9ZYdkm3",
         "ath": 0.027107107551295806,
         "ath_timestamp": 1750829340,
@@ -2502,11 +2712,11 @@
         "dexId": "raydium",
         "pairAddress": "F1FMsNYuCNRHTDVjSkNbiZLp4qv6r6oQyMRJM9ZYdkm3",
         "txns_24h": {
-          "buys": 160,
-          "sells": 112
+          "buys": 161,
+          "sells": 128
         },
-        "fdv_usd": 1114369,
-        "total_reserve_in_usd": 444135.36,
+        "fdv_usd": 1109861,
+        "total_reserve_in_usd": 443214.74,
         "tags": [
           "moonshot"
         ],
@@ -2699,7 +2909,7 @@
               {
                 "token_address": "9RjwNo6hBPkxayWHCqQD1VjaH8igSizEseNZNbddpump",
                 "balance": 0,
-                "token_price": 0.00112,
+                "token_price": 0.001115,
                 "token_decimals": 6,
                 "token_symbol": "Stupid",
                 "token_name": "StupidCoin",
