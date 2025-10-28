@@ -1,7 +1,128 @@
 {
   "success": true,
-  "timestamp": "2025-10-28T07:20:36.195Z",
+  "timestamp": "2025-10-28T07:33:13.108Z",
   "data": [
+    {
+      "address": "PRVT6TB7uss3FrUd2D9xs2zqDBsa3GbMJMwCQsgmeta",
+      "symbol": "UMBRA",
+      "name": "Umbra",
+      "decimals": 6,
+      "icon": "https://raw.githubusercontent.com/metaDAOproject/futarchy/refs/heads/develop/scripts/assets/UMBRA/UMBRA.png",
+      "created_time": 1759738129,
+      "website": "",
+      "twitter": "",
+      "holder": 7076,
+      "market_cap": 7094356,
+      "price": 0.7094,
+      "price_change_24h": -14.97,
+      "volume_24h": 1918390.53,
+      "pool_address": null,
+      "ath": 0.7094,
+      "ath_pool": "",
+      "dexId": "meteora",
+      "pairAddress": "7dVri3qjYD3uobSZL3Zth8vSCgU6r6R2nvFsh7uVfDte",
+      "txns_24h": {
+        "buys": 1310,
+        "sells": 1065
+      },
+      "fdv_usd": 20218899,
+      "total_reserve_in_usd": 1881713.33,
+      "tags": [],
+      "first_signal": {
+        "timestamp": 1761636791,
+        "price": 0.7094
+      },
+      "metrics": {
+        "uniqueWallets": 2,
+        "inflow24h": 8957.13911164607,
+        "trades": [
+          {
+            "timestamp": "2025-10-28T07:27:24.000Z",
+            "type": "SELL",
+            "amount": 20,
+            "usdValue": 14.03300895766799,
+            "wallet": {
+              "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
+              "name": "Wizard100x"
+            }
+          },
+          {
+            "timestamp": "2025-10-28T07:26:40.000Z",
+            "type": "BUY",
+            "amount": 5498.234893,
+            "usdValue": 3886.872676603738,
+            "wallet": {
+              "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
+              "name": "Wizard100x"
+            }
+          },
+          {
+            "timestamp": "2025-10-28T07:26:28.000Z",
+            "type": "BUY",
+            "amount": 9936.602843,
+            "usdValue": 6993,
+            "wallet": {
+              "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
+              "name": "Wizard100x"
+            }
+          },
+          {
+            "timestamp": "2025-10-27T19:18:49.000Z",
+            "type": "SELL",
+            "amount": 5331.73118,
+            "usdValue": 3908.700556,
+            "wallet": {
+              "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+              "name": "Chillguy32x"
+            }
+          },
+          {
+            "timestamp": "2025-10-27T13:20:18.000Z",
+            "type": "BUY",
+            "amount": 2279.701273,
+            "usdValue": 2000,
+            "wallet": {
+              "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+              "name": "Chillguy32x"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
+          "name": "Wizard100x",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "PRVT6TB7uss3FrUd2D9xs2zqDBsa3GbMJMwCQsgmeta",
+              "balance": 15414.837736,
+              "token_price": 0.7094,
+              "token_decimals": 6,
+              "token_symbol": "UMBRA",
+              "token_name": "Umbra",
+              "value": 10935.2858899184
+            }
+          ]
+        },
+        {
+          "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+          "name": "Chillguy32x",
+          "score": 1,
+          "tokens": [
+            {
+              "token_address": "PRVT6TB7uss3FrUd2D9xs2zqDBsa3GbMJMwCQsgmeta",
+              "balance": 0,
+              "token_price": 0.7094,
+              "token_decimals": 6,
+              "token_symbol": "UMBRA",
+              "token_name": "Umbra",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
     {
       "address": "6H8uyJYrPVcra6Fi7iWh29DXSm8KctzhHRyXmPwKpump",
       "symbol": "X402",
@@ -12,10 +133,10 @@
       "website": "https://x402.space",
       "twitter": "https://x.com/terminagent",
       "holder": 2391,
-      "market_cap": 1128557,
-      "price": 0.001128,
-      "price_change_24h": 194,
-      "volume_24h": 3860351.15,
+      "market_cap": 1231896,
+      "price": 0.001232,
+      "price_change_24h": 213,
+      "volume_24h": 3916162.17,
       "pool_address": null,
       "ath": 0.003224,
       "ath_timestamp": 1761625306,
@@ -23,11 +144,11 @@
       "dexId": "pumpswap",
       "pairAddress": "3W8dzjBBb6nVFVAEdyytXbmnymEPkT7V2CzPtv6J6Weh",
       "txns_24h": {
-        "buys": 10292,
-        "sells": 8047
+        "buys": 10584,
+        "sells": 8182
       },
-      "fdv_usd": 1128557,
-      "total_reserve_in_usd": 158088.7,
+      "fdv_usd": 1231896,
+      "total_reserve_in_usd": 165600.64,
       "tags": [],
       "first_signal": {
         "timestamp": 1761625297,
@@ -78,7 +199,7 @@
             {
               "token_address": "6H8uyJYrPVcra6Fi7iWh29DXSm8KctzhHRyXmPwKpump",
               "balance": 0,
-              "token_price": 0.001128,
+              "token_price": 0.001232,
               "token_decimals": 6,
               "token_symbol": "X402",
               "token_name": "X402",
@@ -94,11 +215,11 @@
             {
               "token_address": "6H8uyJYrPVcra6Fi7iWh29DXSm8KctzhHRyXmPwKpump",
               "balance": 4738463.146214,
-              "token_price": 0.001128,
+              "token_price": 0.001232,
               "token_decimals": 6,
               "token_symbol": "X402",
               "token_name": "X402",
-              "value": 5344.986428929393
+              "value": 5837.786596135648
             }
           ]
         }
@@ -114,10 +235,10 @@
       "website": "https://payai.network",
       "twitter": "https://x.com/notorious_d_e_v",
       "holder": 12048,
-      "market_cap": 49651362,
-      "price": 0.04965,
-      "price_change_24h": -3.19,
-      "volume_24h": 17037685.02,
+      "market_cap": 52023008,
+      "price": 0.05202,
+      "price_change_24h": 1.61,
+      "volume_24h": 17152762.68,
       "pool_address": null,
       "ath": 0.07868294072683782,
       "ath_timestamp": 1761523200,
@@ -125,11 +246,11 @@
       "dexId": "raydium",
       "pairAddress": "AQcBbrwGmgzwimvfwNdBTGTgn8mq2u74NerGta5mGB2o",
       "txns_24h": {
-        "buys": 17592,
-        "sells": 15679
+        "buys": 17594,
+        "sells": 15928
       },
-      "fdv_usd": 49651362,
-      "total_reserve_in_usd": 1851479.14,
+      "fdv_usd": 52023008,
+      "total_reserve_in_usd": 1898776.98,
       "tags": [
         "moonshot"
       ],
@@ -202,11 +323,11 @@
             {
               "token_address": "E7NgL19JbN8BhUDgWjkH8MtnbhJoaGaWJqosxZZepump",
               "balance": 565673.569133,
-              "token_price": 0.04965,
+              "token_price": 0.05202,
               "token_decimals": 6,
               "token_symbol": "PAYAI",
               "token_name": "PayAI Network",
-              "value": 28085.69270745345
+              "value": 29426.339066298657
             }
           ]
         },
@@ -218,11 +339,11 @@
             {
               "token_address": "E7NgL19JbN8BhUDgWjkH8MtnbhJoaGaWJqosxZZepump",
               "balance": 54000,
-              "token_price": 0.04965,
+              "token_price": 0.05202,
               "token_decimals": 6,
               "token_symbol": "PAYAI",
               "token_name": "PayAI Network",
-              "value": 2681.1
+              "value": 2809.08
             }
           ]
         },
@@ -234,11 +355,11 @@
             {
               "token_address": "E7NgL19JbN8BhUDgWjkH8MtnbhJoaGaWJqosxZZepump",
               "balance": 1066650.39609,
-              "token_price": 0.04965,
+              "token_price": 0.05202,
               "token_decimals": 6,
               "token_symbol": "PAYAI",
               "token_name": "PayAI Network",
-              "value": 52959.192165868495
+              "value": 55487.15360460179
             }
           ]
         }
@@ -254,10 +375,10 @@
       "website": "",
       "twitter": "",
       "holder": 2461,
-      "market_cap": 3846380,
-      "price": 0.00385,
-      "price_change_24h": -25.93,
-      "volume_24h": 1065043.19,
+      "market_cap": 3937687,
+      "price": 0.003941,
+      "price_change_24h": -24.31,
+      "volume_24h": 1029551.17,
       "pool_address": null,
       "ath": 0.006629854584804873,
       "ath_timestamp": 1761523200,
@@ -265,11 +386,11 @@
       "dexId": "meteora",
       "pairAddress": "SzyaCUMsQxG98zWMgZnM7orDfHAGSregtPERgBSpUSo",
       "txns_24h": {
-        "buys": 1633,
-        "sells": 1184
+        "buys": 1593,
+        "sells": 1148
       },
-      "fdv_usd": 3846380,
-      "total_reserve_in_usd": 414090.6,
+      "fdv_usd": 3937687,
+      "total_reserve_in_usd": 418838.94,
       "tags": [],
       "first_signal": {
         "timestamp": 1761392614,
@@ -430,7 +551,7 @@
             {
               "token_address": "CuXmQvh4DVTdWBdC2d3pNq8UXqbKJ3w9RPBTAALcKcTb",
               "balance": 0,
-              "token_price": 0.00385,
+              "token_price": 0.003941,
               "token_decimals": 9,
               "token_symbol": "DIRA",
               "token_name": "AgentHub",
@@ -446,11 +567,11 @@
             {
               "token_address": "CuXmQvh4DVTdWBdC2d3pNq8UXqbKJ3w9RPBTAALcKcTb",
               "balance": 2048169.883216395,
-              "token_price": 0.00385,
+              "token_price": 0.003941,
               "token_decimals": 9,
               "token_symbol": "DIRA",
               "token_name": "AgentHub",
-              "value": 7885.454050383121
+              "value": 8071.837509755813
             }
           ]
         },
@@ -462,11 +583,11 @@
             {
               "token_address": "CuXmQvh4DVTdWBdC2d3pNq8UXqbKJ3w9RPBTAALcKcTb",
               "balance": 700000,
-              "token_price": 0.00385,
+              "token_price": 0.003941,
               "token_decimals": 9,
               "token_symbol": "DIRA",
               "token_name": "AgentHub",
-              "value": 2695
+              "value": 2758.7
             }
           ]
         }
@@ -482,10 +603,10 @@
       "website": "https://grokipedia.com/page/Ticker_symbol#:~:text=first%20ticker%20symbol%2C%20%22-,UP,-%22%2C%20was%20used%20on",
       "twitter": "",
       "holder": 995,
-      "market_cap": 38022,
-      "price": 3.802e-05,
-      "price_change_24h": -53.63,
-      "volume_24h": 3777881.23,
+      "market_cap": 39095,
+      "price": 3.909e-05,
+      "price_change_24h": -52.33,
+      "volume_24h": 3780384.97,
       "pool_address": null,
       "ath": 0.0005473,
       "ath_timestamp": 1761600361,
@@ -493,11 +614,11 @@
       "dexId": "pumpswap",
       "pairAddress": "BS1JgwgBWQiA2P3zVBaiSpmvKco3E33y7QwL7VghAWGv",
       "txns_24h": {
-        "buys": 18441,
-        "sells": 15166
+        "buys": 18470,
+        "sells": 15193
       },
-      "fdv_usd": 38022,
-      "total_reserve_in_usd": 25789.14,
+      "fdv_usd": 39095,
+      "total_reserve_in_usd": 26196.48,
       "tags": [],
       "first_signal": {
         "timestamp": 1761600350,
@@ -3278,7 +3399,7 @@
             {
               "token_address": "CgwW9y8aLVJKGSLbjRr23mY1iGSDpwgbQetLAph15fRk",
               "balance": 0,
-              "token_price": 3.802e-05,
+              "token_price": 3.909e-05,
               "token_decimals": 6,
               "token_symbol": "UP",
               "token_name": "UPCoin",
@@ -3294,7 +3415,7 @@
             {
               "token_address": "CgwW9y8aLVJKGSLbjRr23mY1iGSDpwgbQetLAph15fRk",
               "balance": 0,
-              "token_price": 3.802e-05,
+              "token_price": 3.909e-05,
               "token_decimals": 6,
               "token_symbol": "UP",
               "token_name": "UPCoin",
@@ -3313,11 +3434,11 @@
       "created_time": 1761592435,
       "website": "",
       "twitter": "https://twitter.com/aeyakovenko/status/1982888489416044670",
-      "holder": 226,
-      "market_cap": 10832,
-      "price": 1.083e-05,
-      "price_change_24h": -88.85,
-      "volume_24h": 907485.28,
+      "holder": 224,
+      "market_cap": 9990,
+      "price": 9.989e-06,
+      "price_change_24h": -89.71,
+      "volume_24h": 907964.69,
       "pool_address": null,
       "ath": 2.513e-05,
       "ath_timestamp": 1761598153,
@@ -3325,11 +3446,11 @@
       "dexId": "pumpswap",
       "pairAddress": "EymYMrLqrMYvgEtwcuFFXRCfT5TtmTgiNQqVFQkz7vSU",
       "txns_24h": {
-        "buys": 5504,
-        "sells": 4386
+        "buys": 5507,
+        "sells": 4389
       },
-      "fdv_usd": 10832,
-      "total_reserve_in_usd": 12640.24,
+      "fdv_usd": 9990,
+      "total_reserve_in_usd": 12152.44,
       "tags": [],
       "first_signal": {
         "timestamp": 1761598099,
@@ -3410,7 +3531,7 @@
             {
               "token_address": "GtWciLDb3RpphLHFktErXr4Sh1do6ojrogehJwyHnpVP",
               "balance": 0,
-              "token_price": 1.083e-05,
+              "token_price": 9.989e-06,
               "token_decimals": 6,
               "token_symbol": "SOLBISCUIT",
               "token_name": "Solbiscuit",
@@ -3426,7 +3547,7 @@
             {
               "token_address": "GtWciLDb3RpphLHFktErXr4Sh1do6ojrogehJwyHnpVP",
               "balance": 0,
-              "token_price": 1.083e-05,
+              "token_price": 9.989e-06,
               "token_decimals": 6,
               "token_symbol": "SOLBISCUIT",
               "token_name": "Solbiscuit",
@@ -3440,6 +3561,127 @@
   "groups": {
     "latestSignals": [
       {
+        "address": "PRVT6TB7uss3FrUd2D9xs2zqDBsa3GbMJMwCQsgmeta",
+        "symbol": "UMBRA",
+        "name": "Umbra",
+        "decimals": 6,
+        "icon": "https://raw.githubusercontent.com/metaDAOproject/futarchy/refs/heads/develop/scripts/assets/UMBRA/UMBRA.png",
+        "created_time": 1759738129,
+        "website": "",
+        "twitter": "",
+        "holder": 7076,
+        "market_cap": 7094356,
+        "price": 0.7094,
+        "price_change_24h": -14.97,
+        "volume_24h": 1918390.53,
+        "pool_address": null,
+        "ath": 0.7094,
+        "ath_pool": "",
+        "dexId": "meteora",
+        "pairAddress": "7dVri3qjYD3uobSZL3Zth8vSCgU6r6R2nvFsh7uVfDte",
+        "txns_24h": {
+          "buys": 1310,
+          "sells": 1065
+        },
+        "fdv_usd": 20218899,
+        "total_reserve_in_usd": 1881713.33,
+        "tags": [],
+        "first_signal": {
+          "timestamp": 1761636791,
+          "price": 0.7094
+        },
+        "metrics": {
+          "uniqueWallets": 2,
+          "inflow24h": 8957.13911164607,
+          "trades": [
+            {
+              "timestamp": "2025-10-28T07:27:24.000Z",
+              "type": "SELL",
+              "amount": 20,
+              "usdValue": 14.03300895766799,
+              "wallet": {
+                "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
+                "name": "Wizard100x"
+              }
+            },
+            {
+              "timestamp": "2025-10-28T07:26:40.000Z",
+              "type": "BUY",
+              "amount": 5498.234893,
+              "usdValue": 3886.872676603738,
+              "wallet": {
+                "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
+                "name": "Wizard100x"
+              }
+            },
+            {
+              "timestamp": "2025-10-28T07:26:28.000Z",
+              "type": "BUY",
+              "amount": 9936.602843,
+              "usdValue": 6993,
+              "wallet": {
+                "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
+                "name": "Wizard100x"
+              }
+            },
+            {
+              "timestamp": "2025-10-27T19:18:49.000Z",
+              "type": "SELL",
+              "amount": 5331.73118,
+              "usdValue": 3908.700556,
+              "wallet": {
+                "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+                "name": "Chillguy32x"
+              }
+            },
+            {
+              "timestamp": "2025-10-27T13:20:18.000Z",
+              "type": "BUY",
+              "amount": 2279.701273,
+              "usdValue": 2000,
+              "wallet": {
+                "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+                "name": "Chillguy32x"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
+            "name": "Wizard100x",
+            "score": 3,
+            "tokens": [
+              {
+                "token_address": "PRVT6TB7uss3FrUd2D9xs2zqDBsa3GbMJMwCQsgmeta",
+                "balance": 15414.837736,
+                "token_price": 0.7094,
+                "token_decimals": 6,
+                "token_symbol": "UMBRA",
+                "token_name": "Umbra",
+                "value": 10935.2858899184
+              }
+            ]
+          },
+          {
+            "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+            "name": "Chillguy32x",
+            "score": 1,
+            "tokens": [
+              {
+                "token_address": "PRVT6TB7uss3FrUd2D9xs2zqDBsa3GbMJMwCQsgmeta",
+                "balance": 0,
+                "token_price": 0.7094,
+                "token_decimals": 6,
+                "token_symbol": "UMBRA",
+                "token_name": "Umbra",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
         "address": "6H8uyJYrPVcra6Fi7iWh29DXSm8KctzhHRyXmPwKpump",
         "symbol": "X402",
         "name": "X402",
@@ -3449,10 +3691,10 @@
         "website": "https://x402.space",
         "twitter": "https://x.com/terminagent",
         "holder": 2391,
-        "market_cap": 1128557,
-        "price": 0.001128,
-        "price_change_24h": 194,
-        "volume_24h": 3860351.15,
+        "market_cap": 1231896,
+        "price": 0.001232,
+        "price_change_24h": 213,
+        "volume_24h": 3916162.17,
         "pool_address": null,
         "ath": 0.003224,
         "ath_timestamp": 1761625306,
@@ -3460,11 +3702,11 @@
         "dexId": "pumpswap",
         "pairAddress": "3W8dzjBBb6nVFVAEdyytXbmnymEPkT7V2CzPtv6J6Weh",
         "txns_24h": {
-          "buys": 10292,
-          "sells": 8047
+          "buys": 10584,
+          "sells": 8182
         },
-        "fdv_usd": 1128557,
-        "total_reserve_in_usd": 158088.7,
+        "fdv_usd": 1231896,
+        "total_reserve_in_usd": 165600.64,
         "tags": [],
         "first_signal": {
           "timestamp": 1761625297,
@@ -3515,7 +3757,7 @@
               {
                 "token_address": "6H8uyJYrPVcra6Fi7iWh29DXSm8KctzhHRyXmPwKpump",
                 "balance": 0,
-                "token_price": 0.001128,
+                "token_price": 0.001232,
                 "token_decimals": 6,
                 "token_symbol": "X402",
                 "token_name": "X402",
@@ -3531,11 +3773,11 @@
               {
                 "token_address": "6H8uyJYrPVcra6Fi7iWh29DXSm8KctzhHRyXmPwKpump",
                 "balance": 4738463.146214,
-                "token_price": 0.001128,
+                "token_price": 0.001232,
                 "token_decimals": 6,
                 "token_symbol": "X402",
                 "token_name": "X402",
-                "value": 5344.986428929393
+                "value": 5837.786596135648
               }
             ]
           }
@@ -3551,10 +3793,10 @@
         "website": "https://grokipedia.com/page/Ticker_symbol#:~:text=first%20ticker%20symbol%2C%20%22-,UP,-%22%2C%20was%20used%20on",
         "twitter": "",
         "holder": 995,
-        "market_cap": 38022,
-        "price": 3.802e-05,
-        "price_change_24h": -53.63,
-        "volume_24h": 3777881.23,
+        "market_cap": 39095,
+        "price": 3.909e-05,
+        "price_change_24h": -52.33,
+        "volume_24h": 3780384.97,
         "pool_address": null,
         "ath": 0.0005473,
         "ath_timestamp": 1761600361,
@@ -3562,11 +3804,11 @@
         "dexId": "pumpswap",
         "pairAddress": "BS1JgwgBWQiA2P3zVBaiSpmvKco3E33y7QwL7VghAWGv",
         "txns_24h": {
-          "buys": 18441,
-          "sells": 15166
+          "buys": 18470,
+          "sells": 15193
         },
-        "fdv_usd": 38022,
-        "total_reserve_in_usd": 25789.14,
+        "fdv_usd": 39095,
+        "total_reserve_in_usd": 26196.48,
         "tags": [],
         "first_signal": {
           "timestamp": 1761600350,
@@ -6347,7 +6589,7 @@
               {
                 "token_address": "CgwW9y8aLVJKGSLbjRr23mY1iGSDpwgbQetLAph15fRk",
                 "balance": 0,
-                "token_price": 3.802e-05,
+                "token_price": 3.909e-05,
                 "token_decimals": 6,
                 "token_symbol": "UP",
                 "token_name": "UPCoin",
@@ -6363,7 +6605,7 @@
               {
                 "token_address": "CgwW9y8aLVJKGSLbjRr23mY1iGSDpwgbQetLAph15fRk",
                 "balance": 0,
-                "token_price": 3.802e-05,
+                "token_price": 3.909e-05,
                 "token_decimals": 6,
                 "token_symbol": "UP",
                 "token_name": "UPCoin",
@@ -6382,11 +6624,11 @@
         "created_time": 1761592435,
         "website": "",
         "twitter": "https://twitter.com/aeyakovenko/status/1982888489416044670",
-        "holder": 226,
-        "market_cap": 10832,
-        "price": 1.083e-05,
-        "price_change_24h": -88.85,
-        "volume_24h": 907485.28,
+        "holder": 224,
+        "market_cap": 9990,
+        "price": 9.989e-06,
+        "price_change_24h": -89.71,
+        "volume_24h": 907964.69,
         "pool_address": null,
         "ath": 2.513e-05,
         "ath_timestamp": 1761598153,
@@ -6394,11 +6636,11 @@
         "dexId": "pumpswap",
         "pairAddress": "EymYMrLqrMYvgEtwcuFFXRCfT5TtmTgiNQqVFQkz7vSU",
         "txns_24h": {
-          "buys": 5504,
-          "sells": 4386
+          "buys": 5507,
+          "sells": 4389
         },
-        "fdv_usd": 10832,
-        "total_reserve_in_usd": 12640.24,
+        "fdv_usd": 9990,
+        "total_reserve_in_usd": 12152.44,
         "tags": [],
         "first_signal": {
           "timestamp": 1761598099,
@@ -6479,7 +6721,7 @@
               {
                 "token_address": "GtWciLDb3RpphLHFktErXr4Sh1do6ojrogehJwyHnpVP",
                 "balance": 0,
-                "token_price": 1.083e-05,
+                "token_price": 9.989e-06,
                 "token_decimals": 6,
                 "token_symbol": "SOLBISCUIT",
                 "token_name": "Solbiscuit",
@@ -6495,7 +6737,7 @@
               {
                 "token_address": "GtWciLDb3RpphLHFktErXr4Sh1do6ojrogehJwyHnpVP",
                 "balance": 0,
-                "token_price": 1.083e-05,
+                "token_price": 9.989e-06,
                 "token_decimals": 6,
                 "token_symbol": "SOLBISCUIT",
                 "token_name": "Solbiscuit",
@@ -6517,10 +6759,10 @@
         "website": "https://payai.network",
         "twitter": "https://x.com/notorious_d_e_v",
         "holder": 12048,
-        "market_cap": 49651362,
-        "price": 0.04965,
-        "price_change_24h": -3.19,
-        "volume_24h": 17037685.02,
+        "market_cap": 52023008,
+        "price": 0.05202,
+        "price_change_24h": 1.61,
+        "volume_24h": 17152762.68,
         "pool_address": null,
         "ath": 0.07868294072683782,
         "ath_timestamp": 1761523200,
@@ -6528,11 +6770,11 @@
         "dexId": "raydium",
         "pairAddress": "AQcBbrwGmgzwimvfwNdBTGTgn8mq2u74NerGta5mGB2o",
         "txns_24h": {
-          "buys": 17592,
-          "sells": 15679
+          "buys": 17594,
+          "sells": 15928
         },
-        "fdv_usd": 49651362,
-        "total_reserve_in_usd": 1851479.14,
+        "fdv_usd": 52023008,
+        "total_reserve_in_usd": 1898776.98,
         "tags": [
           "moonshot"
         ],
@@ -6605,11 +6847,11 @@
               {
                 "token_address": "E7NgL19JbN8BhUDgWjkH8MtnbhJoaGaWJqosxZZepump",
                 "balance": 565673.569133,
-                "token_price": 0.04965,
+                "token_price": 0.05202,
                 "token_decimals": 6,
                 "token_symbol": "PAYAI",
                 "token_name": "PayAI Network",
-                "value": 28085.69270745345
+                "value": 29426.339066298657
               }
             ]
           },
@@ -6621,11 +6863,11 @@
               {
                 "token_address": "E7NgL19JbN8BhUDgWjkH8MtnbhJoaGaWJqosxZZepump",
                 "balance": 54000,
-                "token_price": 0.04965,
+                "token_price": 0.05202,
                 "token_decimals": 6,
                 "token_symbol": "PAYAI",
                 "token_name": "PayAI Network",
-                "value": 2681.1
+                "value": 2809.08
               }
             ]
           },
@@ -6637,11 +6879,11 @@
               {
                 "token_address": "E7NgL19JbN8BhUDgWjkH8MtnbhJoaGaWJqosxZZepump",
                 "balance": 1066650.39609,
-                "token_price": 0.04965,
+                "token_price": 0.05202,
                 "token_decimals": 6,
                 "token_symbol": "PAYAI",
                 "token_name": "PayAI Network",
-                "value": 52959.192165868495
+                "value": 55487.15360460179
               }
             ]
           }
@@ -6659,10 +6901,10 @@
         "website": "",
         "twitter": "",
         "holder": 2461,
-        "market_cap": 3846380,
-        "price": 0.00385,
-        "price_change_24h": -25.93,
-        "volume_24h": 1065043.19,
+        "market_cap": 3937687,
+        "price": 0.003941,
+        "price_change_24h": -24.31,
+        "volume_24h": 1029551.17,
         "pool_address": null,
         "ath": 0.006629854584804873,
         "ath_timestamp": 1761523200,
@@ -6670,11 +6912,11 @@
         "dexId": "meteora",
         "pairAddress": "SzyaCUMsQxG98zWMgZnM7orDfHAGSregtPERgBSpUSo",
         "txns_24h": {
-          "buys": 1633,
-          "sells": 1184
+          "buys": 1593,
+          "sells": 1148
         },
-        "fdv_usd": 3846380,
-        "total_reserve_in_usd": 414090.6,
+        "fdv_usd": 3937687,
+        "total_reserve_in_usd": 418838.94,
         "tags": [],
         "first_signal": {
           "timestamp": 1761392614,
@@ -6835,7 +7077,7 @@
               {
                 "token_address": "CuXmQvh4DVTdWBdC2d3pNq8UXqbKJ3w9RPBTAALcKcTb",
                 "balance": 0,
-                "token_price": 0.00385,
+                "token_price": 0.003941,
                 "token_decimals": 9,
                 "token_symbol": "DIRA",
                 "token_name": "AgentHub",
@@ -6851,11 +7093,11 @@
               {
                 "token_address": "CuXmQvh4DVTdWBdC2d3pNq8UXqbKJ3w9RPBTAALcKcTb",
                 "balance": 2048169.883216395,
-                "token_price": 0.00385,
+                "token_price": 0.003941,
                 "token_decimals": 9,
                 "token_symbol": "DIRA",
                 "token_name": "AgentHub",
-                "value": 7885.454050383121
+                "value": 8071.837509755813
               }
             ]
           },
@@ -6867,11 +7109,11 @@
               {
                 "token_address": "CuXmQvh4DVTdWBdC2d3pNq8UXqbKJ3w9RPBTAALcKcTb",
                 "balance": 700000,
-                "token_price": 0.00385,
+                "token_price": 0.003941,
                 "token_decimals": 9,
                 "token_symbol": "DIRA",
                 "token_name": "AgentHub",
-                "value": 2695
+                "value": 2758.7
               }
             ]
           }
