@@ -1,10 +1,148 @@
 {
   "success": true,
-  "timestamp": "2025-10-31T18:21:29.010Z",
-  "data": [],
+  "timestamp": "2025-10-31T18:45:40.791Z",
+  "data": [
+    {
+      "address": "METAwkXcqyXKy1AtsSgJ8JiUHwGCafnZL38n3vYmeta",
+      "symbol": "META",
+      "name": "MetaDAO",
+      "decimals": 6,
+      "icon": "https://raw.githubusercontent.com/metaDAOproject/futarchy/refs/heads/develop/scripts/assets/META/META.png",
+      "created_time": 1754525722,
+      "website": "",
+      "twitter": "",
+      "holder": 3765,
+      "market_cap": 145125920,
+      "price": 6.35,
+      "price_change_24h": 4.79,
+      "volume_24h": 4942217.67,
+      "pool_address": "solana_EXpXkwcWDhjEYyC5pfNfxsu8fUtK4CDCYTZR4ApQNRzo",
+      "ath": 10.54684412218773,
+      "ath_timestamp": 1761436800,
+      "ath_pool": "EXpXkwcWDhjEYyC5pfNfxsu8fUtK4CDCYTZR4ApQNRzo",
+      "dexId": "meteora",
+      "pairAddress": "EXpXkwcWDhjEYyC5pfNfxsu8fUtK4CDCYTZR4ApQNRzo",
+      "txns_24h": {
+        "buys": 3925,
+        "sells": 3464
+      },
+      "fdv_usd": 145125920,
+      "total_reserve_in_usd": 2736752.01,
+      "tags": [
+        "moonshot"
+      ],
+      "first_signal": {
+        "timestamp": 1761416411,
+        "price": 10.08
+      },
+      "metrics": {
+        "uniqueWallets": 1,
+        "inflow24h": 4995,
+        "trades": [
+          {
+            "timestamp": "2025-10-31T18:22:17.000Z",
+            "type": "BUY",
+            "amount": 785.370766,
+            "usdValue": 4995,
+            "wallet": {
+              "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+              "name": "Chillguy32x"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+          "name": "Chillguy32x",
+          "score": 1,
+          "tokens": [
+            {
+              "token_address": "METAwkXcqyXKy1AtsSgJ8JiUHwGCafnZL38n3vYmeta",
+              "balance": 785.370766,
+              "token_price": 6.35,
+              "token_decimals": 6,
+              "token_symbol": "META",
+              "token_name": "MetaDAO",
+              "value": 4987.1043641
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "groups": {
     "latestSignals": [],
-    "buys": [],
+    "buys": [
+      {
+        "address": "METAwkXcqyXKy1AtsSgJ8JiUHwGCafnZL38n3vYmeta",
+        "symbol": "META",
+        "name": "MetaDAO",
+        "decimals": 6,
+        "icon": "https://raw.githubusercontent.com/metaDAOproject/futarchy/refs/heads/develop/scripts/assets/META/META.png",
+        "created_time": 1754525722,
+        "website": "",
+        "twitter": "",
+        "holder": 3765,
+        "market_cap": 145125920,
+        "price": 6.35,
+        "price_change_24h": 4.79,
+        "volume_24h": 4942217.67,
+        "pool_address": "solana_EXpXkwcWDhjEYyC5pfNfxsu8fUtK4CDCYTZR4ApQNRzo",
+        "ath": 10.54684412218773,
+        "ath_timestamp": 1761436800,
+        "ath_pool": "EXpXkwcWDhjEYyC5pfNfxsu8fUtK4CDCYTZR4ApQNRzo",
+        "dexId": "meteora",
+        "pairAddress": "EXpXkwcWDhjEYyC5pfNfxsu8fUtK4CDCYTZR4ApQNRzo",
+        "txns_24h": {
+          "buys": 3925,
+          "sells": 3464
+        },
+        "fdv_usd": 145125920,
+        "total_reserve_in_usd": 2736752.01,
+        "tags": [
+          "moonshot"
+        ],
+        "first_signal": {
+          "timestamp": 1761416411,
+          "price": 10.08
+        },
+        "metrics": {
+          "uniqueWallets": 1,
+          "inflow24h": 4995,
+          "trades": [
+            {
+              "timestamp": "2025-10-31T18:22:17.000Z",
+              "type": "BUY",
+              "amount": 785.370766,
+              "usdValue": 4995,
+              "wallet": {
+                "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+                "name": "Chillguy32x"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+            "name": "Chillguy32x",
+            "score": 1,
+            "tokens": [
+              {
+                "token_address": "METAwkXcqyXKy1AtsSgJ8JiUHwGCafnZL38n3vYmeta",
+                "balance": 785.370766,
+                "token_price": 6.35,
+                "token_decimals": 6,
+                "token_symbol": "META",
+                "token_name": "MetaDAO",
+                "value": 4987.1043641
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "sells": []
   }
 }
