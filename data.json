@@ -1,7 +1,98 @@
 {
   "success": true,
-  "timestamp": "2025-11-02T04:56:45.845Z",
+  "timestamp": "2025-11-02T05:13:40.407Z",
   "data": [
+    {
+      "address": "DNH4MTv8WWpoARP2D44wAsWtWb6YnrMh8SQjXGga3Hot",
+      "symbol": "GOONCOIN",
+      "name": "gooncoin",
+      "decimals": 6,
+      "icon": "https://pbs.twimg.com/media/G4jSHyZWoAExu_d.png",
+      "created_time": 1761874677,
+      "website": "",
+      "twitter": "https://twitter.com/Ga__ke/status/1984072301944701223",
+      "holder": 848,
+      "market_cap": 210668,
+      "price": 0.0002106,
+      "price_change_24h": 1001,
+      "volume_24h": 324128.81,
+      "pool_address": "solana_GLfBKm1MTxw3SNrTV9vkWrGvS7NdWvfMw7UwtMnbYSfR",
+      "ath": 0.0002106,
+      "ath_pool": "",
+      "dexId": "pumpswap",
+      "pairAddress": "GLfBKm1MTxw3SNrTV9vkWrGvS7NdWvfMw7UwtMnbYSfR",
+      "txns_24h": {
+        "buys": 1517,
+        "sells": 1194
+      },
+      "fdv_usd": 210668,
+      "total_reserve_in_usd": 57780.53,
+      "tags": [],
+      "first_signal": {
+        "timestamp": 1762060419,
+        "price": 0.0002106
+      },
+      "metrics": {
+        "uniqueWallets": 2,
+        "inflow24h": 0.8917764455375732,
+        "trades": [
+          {
+            "timestamp": "2025-11-02T05:12:10.000Z",
+            "type": "BUY",
+            "amount": 1932333.806102,
+            "usdValue": 378.0324050268362,
+            "wallet": {
+              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+              "name": "OGmoodeng"
+            }
+          },
+          {
+            "timestamp": "2025-11-02T05:07:17.000Z",
+            "type": "SELL",
+            "amount": 1014070.971914,
+            "usdValue": 377.14062858129864,
+            "wallet": {
+              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+              "name": "DNF 哥"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+          "name": "OGmoodeng",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "DNH4MTv8WWpoARP2D44wAsWtWb6YnrMh8SQjXGga3Hot",
+              "balance": 1932333.806102,
+              "token_price": 0.0002106,
+              "token_decimals": 6,
+              "token_symbol": "GOONCOIN",
+              "token_name": "gooncoin",
+              "value": 406.94949956508117
+            }
+          ]
+        },
+        {
+          "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+          "name": "DNF 哥",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "DNH4MTv8WWpoARP2D44wAsWtWb6YnrMh8SQjXGga3Hot",
+              "balance": 9126638.747218,
+              "token_price": 0.0002106,
+              "token_decimals": 6,
+              "token_symbol": "GOONCOIN",
+              "token_name": "gooncoin",
+              "value": 1922.0701201641107
+            }
+          ]
+        }
+      ]
+    },
     {
       "address": "7E2iF4WFs5biCtkAVFCBPEdnpg7t2D19VzxjxEPvpump",
       "symbol": "CAP",
@@ -11,11 +102,11 @@
       "created_time": 1759757440,
       "website": "",
       "twitter": "",
-      "holder": 4030,
-      "market_cap": 745587,
-      "price": 0.0007456,
-      "price_change_24h": 84.91,
-      "volume_24h": 317024.82,
+      "holder": 4040,
+      "market_cap": 713976,
+      "price": 0.0007139,
+      "price_change_24h": 76.41,
+      "volume_24h": 319160.2,
       "pool_address": "solana_Dmu6p74f6QKrDnD83RyXy5R6SzBHgpxfZWbc5dtHePfF",
       "ath": 0.008013816993822998,
       "ath_timestamp": 1759795200,
@@ -23,11 +114,11 @@
       "dexId": "pumpswap",
       "pairAddress": "Dmu6p74f6QKrDnD83RyXy5R6SzBHgpxfZWbc5dtHePfF",
       "txns_24h": {
-        "buys": 1323,
-        "sells": 858
+        "buys": 1324,
+        "sells": 869
       },
-      "fdv_usd": 745587,
-      "total_reserve_in_usd": 129909.5,
+      "fdv_usd": 713976,
+      "total_reserve_in_usd": 126906.18,
       "tags": [
         "moonshot"
       ],
@@ -60,11 +151,11 @@
             {
               "token_address": "7E2iF4WFs5biCtkAVFCBPEdnpg7t2D19VzxjxEPvpump",
               "balance": 18447701.021329,
-              "token_price": 0.0007456,
+              "token_price": 0.0007139,
               "token_decimals": 6,
               "token_symbol": "CAP",
               "token_name": "Cap",
-              "value": 13754.605881502903
+              "value": 13169.813759126773
             }
           ]
         }
@@ -72,7 +163,99 @@
     }
   ],
   "groups": {
-    "latestSignals": [],
+    "latestSignals": [
+      {
+        "address": "DNH4MTv8WWpoARP2D44wAsWtWb6YnrMh8SQjXGga3Hot",
+        "symbol": "GOONCOIN",
+        "name": "gooncoin",
+        "decimals": 6,
+        "icon": "https://pbs.twimg.com/media/G4jSHyZWoAExu_d.png",
+        "created_time": 1761874677,
+        "website": "",
+        "twitter": "https://twitter.com/Ga__ke/status/1984072301944701223",
+        "holder": 848,
+        "market_cap": 210668,
+        "price": 0.0002106,
+        "price_change_24h": 1001,
+        "volume_24h": 324128.81,
+        "pool_address": "solana_GLfBKm1MTxw3SNrTV9vkWrGvS7NdWvfMw7UwtMnbYSfR",
+        "ath": 0.0002106,
+        "ath_pool": "",
+        "dexId": "pumpswap",
+        "pairAddress": "GLfBKm1MTxw3SNrTV9vkWrGvS7NdWvfMw7UwtMnbYSfR",
+        "txns_24h": {
+          "buys": 1517,
+          "sells": 1194
+        },
+        "fdv_usd": 210668,
+        "total_reserve_in_usd": 57780.53,
+        "tags": [],
+        "first_signal": {
+          "timestamp": 1762060419,
+          "price": 0.0002106
+        },
+        "metrics": {
+          "uniqueWallets": 2,
+          "inflow24h": 0.8917764455375732,
+          "trades": [
+            {
+              "timestamp": "2025-11-02T05:12:10.000Z",
+              "type": "BUY",
+              "amount": 1932333.806102,
+              "usdValue": 378.0324050268362,
+              "wallet": {
+                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+                "name": "OGmoodeng"
+              }
+            },
+            {
+              "timestamp": "2025-11-02T05:07:17.000Z",
+              "type": "SELL",
+              "amount": 1014070.971914,
+              "usdValue": 377.14062858129864,
+              "wallet": {
+                "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+                "name": "DNF 哥"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+            "name": "OGmoodeng",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "DNH4MTv8WWpoARP2D44wAsWtWb6YnrMh8SQjXGga3Hot",
+                "balance": 1932333.806102,
+                "token_price": 0.0002106,
+                "token_decimals": 6,
+                "token_symbol": "GOONCOIN",
+                "token_name": "gooncoin",
+                "value": 406.94949956508117
+              }
+            ]
+          },
+          {
+            "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+            "name": "DNF 哥",
+            "score": 3,
+            "tokens": [
+              {
+                "token_address": "DNH4MTv8WWpoARP2D44wAsWtWb6YnrMh8SQjXGga3Hot",
+                "balance": 9126638.747218,
+                "token_price": 0.0002106,
+                "token_decimals": 6,
+                "token_symbol": "GOONCOIN",
+                "token_name": "gooncoin",
+                "value": 1922.0701201641107
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "buys": [
       {
         "address": "7E2iF4WFs5biCtkAVFCBPEdnpg7t2D19VzxjxEPvpump",
@@ -83,11 +266,11 @@
         "created_time": 1759757440,
         "website": "",
         "twitter": "",
-        "holder": 4030,
-        "market_cap": 745587,
-        "price": 0.0007456,
-        "price_change_24h": 84.91,
-        "volume_24h": 317024.82,
+        "holder": 4040,
+        "market_cap": 713976,
+        "price": 0.0007139,
+        "price_change_24h": 76.41,
+        "volume_24h": 319160.2,
         "pool_address": "solana_Dmu6p74f6QKrDnD83RyXy5R6SzBHgpxfZWbc5dtHePfF",
         "ath": 0.008013816993822998,
         "ath_timestamp": 1759795200,
@@ -95,11 +278,11 @@
         "dexId": "pumpswap",
         "pairAddress": "Dmu6p74f6QKrDnD83RyXy5R6SzBHgpxfZWbc5dtHePfF",
         "txns_24h": {
-          "buys": 1323,
-          "sells": 858
+          "buys": 1324,
+          "sells": 869
         },
-        "fdv_usd": 745587,
-        "total_reserve_in_usd": 129909.5,
+        "fdv_usd": 713976,
+        "total_reserve_in_usd": 126906.18,
         "tags": [
           "moonshot"
         ],
@@ -132,11 +315,11 @@
               {
                 "token_address": "7E2iF4WFs5biCtkAVFCBPEdnpg7t2D19VzxjxEPvpump",
                 "balance": 18447701.021329,
-                "token_price": 0.0007456,
+                "token_price": 0.0007139,
                 "token_decimals": 6,
                 "token_symbol": "CAP",
                 "token_name": "Cap",
-                "value": 13754.605881502903
+                "value": 13169.813759126773
               }
             ]
           }
