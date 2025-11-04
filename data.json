@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-11-04T01:37:16.693Z",
+  "timestamp": "2025-11-04T03:01:14.628Z",
   "data": [
     {
       "address": "CsB1jaGKcuksihnHA8r4NtL7fTCGCj5FhSFU7m3Kpump",
@@ -11,11 +11,11 @@
       "created_time": 1762216780,
       "website": "",
       "twitter": "",
-      "holder": 957,
-      "market_cap": 425517,
-      "price": 0.0004255,
-      "price_change_24h": 521,
-      "volume_24h": 675577.15,
+      "holder": 962,
+      "market_cap": 288658,
+      "price": 0.0002886,
+      "price_change_24h": 321,
+      "volume_24h": 1071089.72,
       "pool_address": "solana_AAnn4DQ1iftKE25ey9woXUXr7T6Q18eMTgE5MiHi3aRf",
       "ath": 0.0004362,
       "ath_timestamp": 1762219881,
@@ -23,11 +23,11 @@
       "dexId": "pumpswap",
       "pairAddress": "AAnn4DQ1iftKE25ey9woXUXr7T6Q18eMTgE5MiHi3aRf",
       "txns_24h": {
-        "buys": 3676,
-        "sells": 2707
+        "buys": 6221,
+        "sells": 4635
       },
-      "fdv_usd": 425517,
-      "total_reserve_in_usd": 72614.22,
+      "fdv_usd": 288658,
+      "total_reserve_in_usd": 60314.05,
       "tags": [],
       "first_signal": {
         "timestamp": 1762219875,
@@ -35,8 +35,18 @@
       },
       "metrics": {
         "uniqueWallets": 2,
-        "inflow24h": 6556.464935820867,
+        "inflow24h": 5908.739746427255,
         "trades": [
+          {
+            "timestamp": "2025-11-04T01:56:05.000Z",
+            "type": "SELL",
+            "amount": 2105197.341386,
+            "usdValue": 647.7251893936116,
+            "wallet": {
+              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+              "name": "OGmoodeng"
+            }
+          },
           {
             "timestamp": "2025-11-04T01:28:36.000Z",
             "type": "BUY",
@@ -61,6 +71,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+          "name": "OGmoodeng",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "CsB1jaGKcuksihnHA8r4NtL7fTCGCj5FhSFU7m3Kpump",
+              "balance": 0,
+              "token_price": 0.0002886,
+              "token_decimals": 6,
+              "token_symbol": "FLC",
+              "token_name": "Forklift Certified",
+              "value": 0
+            }
+          ]
+        },
+        {
           "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
           "name": "DNF 哥",
           "score": 3,
@@ -68,27 +94,11 @@
             {
               "token_address": "CsB1jaGKcuksihnHA8r4NtL7fTCGCj5FhSFU7m3Kpump",
               "balance": 16491568.852068,
-              "token_price": 0.0004255,
+              "token_price": 0.0002886,
               "token_decimals": 6,
               "token_symbol": "FLC",
               "token_name": "Forklift Certified",
-              "value": 7017.162546554933
-            }
-          ]
-        },
-        {
-          "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-          "name": "OGmoodeng",
-          "score": 2,
-          "tokens": [
-            {
-              "token_address": "CsB1jaGKcuksihnHA8r4NtL7fTCGCj5FhSFU7m3Kpump",
-              "balance": 2105197.341386,
-              "token_price": 0.0004255,
-              "token_decimals": 6,
-              "token_symbol": "FLC",
-              "token_name": "Forklift Certified",
-              "value": 895.761468759743
+              "value": 4759.466770706825
             }
           ]
         }
@@ -103,11 +113,11 @@
       "created_time": 1754525722,
       "website": "",
       "twitter": "",
-      "holder": 3778,
-      "market_cap": 117067561,
-      "price": 5.28,
-      "price_change_24h": -6.37,
-      "volume_24h": 4959947.39,
+      "holder": 3780,
+      "market_cap": 118347829,
+      "price": 5.34,
+      "price_change_24h": -2.53,
+      "volume_24h": 4911603.93,
       "pool_address": "solana_EXpXkwcWDhjEYyC5pfNfxsu8fUtK4CDCYTZR4ApQNRzo",
       "ath": 10.54684412218773,
       "ath_timestamp": 1761436800,
@@ -115,11 +125,11 @@
       "dexId": "meteora",
       "pairAddress": "EXpXkwcWDhjEYyC5pfNfxsu8fUtK4CDCYTZR4ApQNRzo",
       "txns_24h": {
-        "buys": 3709,
-        "sells": 3561
+        "buys": 3732,
+        "sells": 3612
       },
-      "fdv_usd": 117067561,
-      "total_reserve_in_usd": 2515702.57,
+      "fdv_usd": 118347829,
+      "total_reserve_in_usd": 2529492.01,
       "tags": [
         "moonshot"
       ],
@@ -162,109 +172,11 @@
             {
               "token_address": "METAwkXcqyXKy1AtsSgJ8JiUHwGCafnZL38n3vYmeta",
               "balance": 570.703444,
-              "token_price": 5.28,
+              "token_price": 5.34,
               "token_decimals": 6,
               "token_symbol": "META",
               "token_name": "MetaDAO",
-              "value": 3013.31418432
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "address": "Cr2mM4szbt8286XMn7iTpY5A8S17LbGAu1UyodkyEwn4",
-      "symbol": "FITCOIN",
-      "name": "FITCOIN",
-      "decimals": 9,
-      "icon": "https://pbs.twimg.com/profile_images/1888011901872832512/FQKPjcrc_400x400.jpg",
-      "created_time": 1747074908,
-      "website": "",
-      "twitter": "",
-      "holder": 4190,
-      "market_cap": 2538773,
-      "price": 0.002809,
-      "price_change_24h": -16.82,
-      "volume_24h": 157324.02,
-      "pool_address": "solana_Fn1pbVqR1jXhSTaR5t4ZX6eJkqYNQEtCeAu1df6bbLLg",
-      "ath": 0.014461570492914473,
-      "ath_timestamp": 1747584780,
-      "ath_pool": "Fn1pbVqR1jXhSTaR5t4ZX6eJkqYNQEtCeAu1df6bbLLg",
-      "dexId": "meteora",
-      "pairAddress": "Fn1pbVqR1jXhSTaR5t4ZX6eJkqYNQEtCeAu1df6bbLLg",
-      "txns_24h": {
-        "buys": 215,
-        "sells": 83
-      },
-      "fdv_usd": 2594437,
-      "total_reserve_in_usd": 329337.3,
-      "tags": [
-        "moonshot"
-      ],
-      "first_signal": {
-        "timestamp": 1747570589,
-        "price": 0.009999607649909984
-      },
-      "metrics": {
-        "uniqueWallets": 1,
-        "inflow24h": -626.3791821357675,
-        "trades": [
-          {
-            "timestamp": "2025-11-03T04:08:55.000Z",
-            "type": "SELL",
-            "amount": 404008.864412348,
-            "usdValue": 1026.7350493869578,
-            "wallet": {
-              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
-              "name": "凉粉小刀"
-            }
-          },
-          {
-            "timestamp": "2025-11-03T04:08:55.000Z",
-            "type": "SELL",
-            "amount": 418817.02605489,
-            "usdValue": 1063.5871597488097,
-            "wallet": {
-              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
-              "name": "凉粉小刀"
-            }
-          },
-          {
-            "timestamp": "2025-11-03T04:08:55.000Z",
-            "type": "SELL",
-            "amount": 91611.98739509,
-            "usdValue": 234.356973,
-            "wallet": {
-              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
-              "name": "凉粉小刀"
-            }
-          },
-          {
-            "timestamp": "2025-11-03T02:04:07.000Z",
-            "type": "BUY",
-            "amount": 500912.787131043,
-            "usdValue": 1698.3,
-            "wallet": {
-              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
-              "name": "凉粉小刀"
-            }
-          }
-        ]
-      },
-      "walletPortfolios": [
-        {
-          "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
-          "name": "凉粉小刀",
-          "score": 2,
-          "tokens": [
-            {
-              "token_address": "Cr2mM4szbt8286XMn7iTpY5A8S17LbGAu1UyodkyEwn4",
-              "balance": 0,
-              "token_price": 0.002809,
-              "token_decimals": 9,
-              "token_symbol": "FITCOIN",
-              "token_name": "FITCOIN",
-              "value": 0
+              "value": 3047.55639096
             }
           ]
         }
@@ -282,11 +194,11 @@
         "created_time": 1762216780,
         "website": "",
         "twitter": "",
-        "holder": 957,
-        "market_cap": 425517,
-        "price": 0.0004255,
-        "price_change_24h": 521,
-        "volume_24h": 675577.15,
+        "holder": 962,
+        "market_cap": 288658,
+        "price": 0.0002886,
+        "price_change_24h": 321,
+        "volume_24h": 1071089.72,
         "pool_address": "solana_AAnn4DQ1iftKE25ey9woXUXr7T6Q18eMTgE5MiHi3aRf",
         "ath": 0.0004362,
         "ath_timestamp": 1762219881,
@@ -294,11 +206,11 @@
         "dexId": "pumpswap",
         "pairAddress": "AAnn4DQ1iftKE25ey9woXUXr7T6Q18eMTgE5MiHi3aRf",
         "txns_24h": {
-          "buys": 3676,
-          "sells": 2707
+          "buys": 6221,
+          "sells": 4635
         },
-        "fdv_usd": 425517,
-        "total_reserve_in_usd": 72614.22,
+        "fdv_usd": 288658,
+        "total_reserve_in_usd": 60314.05,
         "tags": [],
         "first_signal": {
           "timestamp": 1762219875,
@@ -306,8 +218,18 @@
         },
         "metrics": {
           "uniqueWallets": 2,
-          "inflow24h": 6556.464935820867,
+          "inflow24h": 5908.739746427255,
           "trades": [
+            {
+              "timestamp": "2025-11-04T01:56:05.000Z",
+              "type": "SELL",
+              "amount": 2105197.341386,
+              "usdValue": 647.7251893936116,
+              "wallet": {
+                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+                "name": "OGmoodeng"
+              }
+            },
             {
               "timestamp": "2025-11-04T01:28:36.000Z",
               "type": "BUY",
@@ -332,6 +254,22 @@
         },
         "walletPortfolios": [
           {
+            "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+            "name": "OGmoodeng",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "CsB1jaGKcuksihnHA8r4NtL7fTCGCj5FhSFU7m3Kpump",
+                "balance": 0,
+                "token_price": 0.0002886,
+                "token_decimals": 6,
+                "token_symbol": "FLC",
+                "token_name": "Forklift Certified",
+                "value": 0
+              }
+            ]
+          },
+          {
             "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
             "name": "DNF 哥",
             "score": 3,
@@ -339,27 +277,11 @@
               {
                 "token_address": "CsB1jaGKcuksihnHA8r4NtL7fTCGCj5FhSFU7m3Kpump",
                 "balance": 16491568.852068,
-                "token_price": 0.0004255,
+                "token_price": 0.0002886,
                 "token_decimals": 6,
                 "token_symbol": "FLC",
                 "token_name": "Forklift Certified",
-                "value": 7017.162546554933
-              }
-            ]
-          },
-          {
-            "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-            "name": "OGmoodeng",
-            "score": 2,
-            "tokens": [
-              {
-                "token_address": "CsB1jaGKcuksihnHA8r4NtL7fTCGCj5FhSFU7m3Kpump",
-                "balance": 2105197.341386,
-                "token_price": 0.0004255,
-                "token_decimals": 6,
-                "token_symbol": "FLC",
-                "token_name": "Forklift Certified",
-                "value": 895.761468759743
+                "value": 4759.466770706825
               }
             ]
           }
@@ -376,11 +298,11 @@
         "created_time": 1754525722,
         "website": "",
         "twitter": "",
-        "holder": 3778,
-        "market_cap": 117067561,
-        "price": 5.28,
-        "price_change_24h": -6.37,
-        "volume_24h": 4959947.39,
+        "holder": 3780,
+        "market_cap": 118347829,
+        "price": 5.34,
+        "price_change_24h": -2.53,
+        "volume_24h": 4911603.93,
         "pool_address": "solana_EXpXkwcWDhjEYyC5pfNfxsu8fUtK4CDCYTZR4ApQNRzo",
         "ath": 10.54684412218773,
         "ath_timestamp": 1761436800,
@@ -388,11 +310,11 @@
         "dexId": "meteora",
         "pairAddress": "EXpXkwcWDhjEYyC5pfNfxsu8fUtK4CDCYTZR4ApQNRzo",
         "txns_24h": {
-          "buys": 3709,
-          "sells": 3561
+          "buys": 3732,
+          "sells": 3612
         },
-        "fdv_usd": 117067561,
-        "total_reserve_in_usd": 2515702.57,
+        "fdv_usd": 118347829,
+        "total_reserve_in_usd": 2529492.01,
         "tags": [
           "moonshot"
         ],
@@ -435,116 +357,17 @@
               {
                 "token_address": "METAwkXcqyXKy1AtsSgJ8JiUHwGCafnZL38n3vYmeta",
                 "balance": 570.703444,
-                "token_price": 5.28,
+                "token_price": 5.34,
                 "token_decimals": 6,
                 "token_symbol": "META",
                 "token_name": "MetaDAO",
-                "value": 3013.31418432
+                "value": 3047.55639096
               }
             ]
           }
         ]
       }
     ],
-    "sells": [
-      {
-        "address": "Cr2mM4szbt8286XMn7iTpY5A8S17LbGAu1UyodkyEwn4",
-        "symbol": "FITCOIN",
-        "name": "FITCOIN",
-        "decimals": 9,
-        "icon": "https://pbs.twimg.com/profile_images/1888011901872832512/FQKPjcrc_400x400.jpg",
-        "created_time": 1747074908,
-        "website": "",
-        "twitter": "",
-        "holder": 4190,
-        "market_cap": 2538773,
-        "price": 0.002809,
-        "price_change_24h": -16.82,
-        "volume_24h": 157324.02,
-        "pool_address": "solana_Fn1pbVqR1jXhSTaR5t4ZX6eJkqYNQEtCeAu1df6bbLLg",
-        "ath": 0.014461570492914473,
-        "ath_timestamp": 1747584780,
-        "ath_pool": "Fn1pbVqR1jXhSTaR5t4ZX6eJkqYNQEtCeAu1df6bbLLg",
-        "dexId": "meteora",
-        "pairAddress": "Fn1pbVqR1jXhSTaR5t4ZX6eJkqYNQEtCeAu1df6bbLLg",
-        "txns_24h": {
-          "buys": 215,
-          "sells": 83
-        },
-        "fdv_usd": 2594437,
-        "total_reserve_in_usd": 329337.3,
-        "tags": [
-          "moonshot"
-        ],
-        "first_signal": {
-          "timestamp": 1747570589,
-          "price": 0.009999607649909984
-        },
-        "metrics": {
-          "uniqueWallets": 1,
-          "inflow24h": -626.3791821357675,
-          "trades": [
-            {
-              "timestamp": "2025-11-03T04:08:55.000Z",
-              "type": "SELL",
-              "amount": 404008.864412348,
-              "usdValue": 1026.7350493869578,
-              "wallet": {
-                "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
-                "name": "凉粉小刀"
-              }
-            },
-            {
-              "timestamp": "2025-11-03T04:08:55.000Z",
-              "type": "SELL",
-              "amount": 418817.02605489,
-              "usdValue": 1063.5871597488097,
-              "wallet": {
-                "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
-                "name": "凉粉小刀"
-              }
-            },
-            {
-              "timestamp": "2025-11-03T04:08:55.000Z",
-              "type": "SELL",
-              "amount": 91611.98739509,
-              "usdValue": 234.356973,
-              "wallet": {
-                "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
-                "name": "凉粉小刀"
-              }
-            },
-            {
-              "timestamp": "2025-11-03T02:04:07.000Z",
-              "type": "BUY",
-              "amount": 500912.787131043,
-              "usdValue": 1698.3,
-              "wallet": {
-                "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
-                "name": "凉粉小刀"
-              }
-            }
-          ]
-        },
-        "walletPortfolios": [
-          {
-            "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
-            "name": "凉粉小刀",
-            "score": 2,
-            "tokens": [
-              {
-                "token_address": "Cr2mM4szbt8286XMn7iTpY5A8S17LbGAu1UyodkyEwn4",
-                "balance": 0,
-                "token_price": 0.002809,
-                "token_decimals": 9,
-                "token_symbol": "FITCOIN",
-                "token_name": "FITCOIN",
-                "value": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
+    "sells": []
   }
 }
