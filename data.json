@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-11-04T17:30:00.110Z",
+  "timestamp": "2025-11-04T17:41:30.811Z",
   "data": [
     {
       "address": "METAwkXcqyXKy1AtsSgJ8JiUHwGCafnZL38n3vYmeta",
@@ -11,11 +11,11 @@
       "created_time": 1754525722,
       "website": "",
       "twitter": "",
-      "holder": 3875,
-      "market_cap": 138803679,
-      "price": 6.26,
-      "price_change_24h": 23.96,
-      "volume_24h": 7538637.89,
+      "holder": 3881,
+      "market_cap": 130976433,
+      "price": 5.91,
+      "price_change_24h": 8.11,
+      "volume_24h": 7618322.51,
       "pool_address": "solana_EXpXkwcWDhjEYyC5pfNfxsu8fUtK4CDCYTZR4ApQNRzo",
       "ath": 10.54684412218773,
       "ath_timestamp": 1761436800,
@@ -23,11 +23,11 @@
       "dexId": "meteora",
       "pairAddress": "EXpXkwcWDhjEYyC5pfNfxsu8fUtK4CDCYTZR4ApQNRzo",
       "txns_24h": {
-        "buys": 4227,
-        "sells": 5124
+        "buys": 4424,
+        "sells": 5102
       },
-      "fdv_usd": 138803679,
-      "total_reserve_in_usd": 2752935.66,
+      "fdv_usd": 130976433,
+      "total_reserve_in_usd": 2674668.09,
       "tags": [
         "moonshot"
       ],
@@ -36,9 +36,29 @@
         "price": 10.08
       },
       "metrics": {
-        "uniqueWallets": 1,
-        "inflow24h": 5000,
+        "uniqueWallets": 2,
+        "inflow24h": -15501.581579999998,
         "trades": [
+          {
+            "timestamp": "2025-11-04T17:32:55.000Z",
+            "type": "SELL",
+            "amount": 1338.855205,
+            "usdValue": 8254.274173,
+            "wallet": {
+              "address": "3DKfZz4iHgu42LGu3ttQxqz6u4m5z9ptuar8pBsRqkKC",
+              "name": "ai16zWhale"
+            }
+          },
+          {
+            "timestamp": "2025-11-04T17:31:50.000Z",
+            "type": "SELL",
+            "amount": 1996.8012,
+            "usdValue": 12247.307407,
+            "wallet": {
+              "address": "3DKfZz4iHgu42LGu3ttQxqz6u4m5z9ptuar8pBsRqkKC",
+              "name": "ai16zWhale"
+            }
+          },
           {
             "timestamp": "2025-11-04T14:52:52.000Z",
             "type": "BUY",
@@ -63,6 +83,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "3DKfZz4iHgu42LGu3ttQxqz6u4m5z9ptuar8pBsRqkKC",
+          "name": "ai16zWhale",
+          "score": 1,
+          "tokens": [
+            {
+              "token_address": "METAwkXcqyXKy1AtsSgJ8JiUHwGCafnZL38n3vYmeta",
+              "balance": 10000.283911,
+              "token_price": 5.91,
+              "token_decimals": 6,
+              "token_symbol": "META",
+              "token_name": "MetaDAO",
+              "value": 59101.677914010004
+            }
+          ]
+        },
+        {
           "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
           "name": "Chillguy32x",
           "score": 1,
@@ -70,11 +106,11 @@
             {
               "token_address": "METAwkXcqyXKy1AtsSgJ8JiUHwGCafnZL38n3vYmeta",
               "balance": 932.624523,
-              "token_price": 6.26,
+              "token_price": 5.91,
               "token_decimals": 6,
               "token_symbol": "META",
               "token_name": "MetaDAO",
-              "value": 5838.22951398
+              "value": 5511.81093093
             }
           ]
         }
@@ -90,10 +126,10 @@
       "website": "",
       "twitter": "",
       "holder": 816,
-      "market_cap": 115624,
-      "price": 0.0001156,
-      "price_change_24h": 68.83,
-      "volume_24h": 1515452.05,
+      "market_cap": 109660,
+      "price": 0.0001096,
+      "price_change_24h": 60.12,
+      "volume_24h": 1517055.23,
       "pool_address": "solana_AAnn4DQ1iftKE25ey9woXUXr7T6Q18eMTgE5MiHi3aRf",
       "ath": 0.0004362,
       "ath_timestamp": 1762219881,
@@ -104,11 +140,11 @@
         "active": 50
       },
       "txns_24h": {
-        "buys": 9563,
-        "sells": 7413
+        "buys": 9569,
+        "sells": 7423
       },
-      "fdv_usd": 115624,
-      "total_reserve_in_usd": 37698.93,
+      "fdv_usd": 109660,
+      "total_reserve_in_usd": 36869.87,
       "tags": [],
       "first_signal": {
         "timestamp": 1762219875,
@@ -116,8 +152,18 @@
       },
       "metrics": {
         "uniqueWallets": 2,
-        "inflow24h": 5912.122559351437,
+        "inflow24h": 5910.856998349606,
         "trades": [
+          {
+            "timestamp": "2025-11-04T17:40:38.000Z",
+            "type": "SELL",
+            "amount": 12573.474203,
+            "usdValue": 1.2655610018313879,
+            "wallet": {
+              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+              "name": "OGmoodeng"
+            }
+          },
           {
             "timestamp": "2025-11-04T03:55:06.000Z",
             "type": "BUY",
@@ -168,12 +214,12 @@
           "tokens": [
             {
               "token_address": "CsB1jaGKcuksihnHA8r4NtL7fTCGCj5FhSFU7m3Kpump",
-              "balance": 12573.474203,
-              "token_price": 0.0001156,
+              "balance": 0,
+              "token_price": 0.0001096,
               "token_decimals": 6,
               "token_symbol": "FLC",
               "token_name": "Forklift Certified",
-              "value": 1.4534936178668
+              "value": 0
             }
           ]
         },
@@ -185,11 +231,11 @@
             {
               "token_address": "CsB1jaGKcuksihnHA8r4NtL7fTCGCj5FhSFU7m3Kpump",
               "balance": 16491568.852068,
-              "token_price": 0.0001156,
+              "token_price": 0.0001096,
               "token_decimals": 6,
               "token_symbol": "FLC",
               "token_name": "Forklift Certified",
-              "value": 1906.4253592990608
+              "value": 1807.4759461866527
             }
           ]
         }
@@ -208,10 +254,10 @@
         "website": "",
         "twitter": "",
         "holder": 816,
-        "market_cap": 115624,
-        "price": 0.0001156,
-        "price_change_24h": 68.83,
-        "volume_24h": 1515452.05,
+        "market_cap": 109660,
+        "price": 0.0001096,
+        "price_change_24h": 60.12,
+        "volume_24h": 1517055.23,
         "pool_address": "solana_AAnn4DQ1iftKE25ey9woXUXr7T6Q18eMTgE5MiHi3aRf",
         "ath": 0.0004362,
         "ath_timestamp": 1762219881,
@@ -222,11 +268,11 @@
           "active": 50
         },
         "txns_24h": {
-          "buys": 9563,
-          "sells": 7413
+          "buys": 9569,
+          "sells": 7423
         },
-        "fdv_usd": 115624,
-        "total_reserve_in_usd": 37698.93,
+        "fdv_usd": 109660,
+        "total_reserve_in_usd": 36869.87,
         "tags": [],
         "first_signal": {
           "timestamp": 1762219875,
@@ -234,8 +280,18 @@
         },
         "metrics": {
           "uniqueWallets": 2,
-          "inflow24h": 5912.122559351437,
+          "inflow24h": 5910.856998349606,
           "trades": [
+            {
+              "timestamp": "2025-11-04T17:40:38.000Z",
+              "type": "SELL",
+              "amount": 12573.474203,
+              "usdValue": 1.2655610018313879,
+              "wallet": {
+                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+                "name": "OGmoodeng"
+              }
+            },
             {
               "timestamp": "2025-11-04T03:55:06.000Z",
               "type": "BUY",
@@ -286,12 +342,12 @@
             "tokens": [
               {
                 "token_address": "CsB1jaGKcuksihnHA8r4NtL7fTCGCj5FhSFU7m3Kpump",
-                "balance": 12573.474203,
-                "token_price": 0.0001156,
+                "balance": 0,
+                "token_price": 0.0001096,
                 "token_decimals": 6,
                 "token_symbol": "FLC",
                 "token_name": "Forklift Certified",
-                "value": 1.4534936178668
+                "value": 0
               }
             ]
           },
@@ -303,18 +359,19 @@
               {
                 "token_address": "CsB1jaGKcuksihnHA8r4NtL7fTCGCj5FhSFU7m3Kpump",
                 "balance": 16491568.852068,
-                "token_price": 0.0001156,
+                "token_price": 0.0001096,
                 "token_decimals": 6,
                 "token_symbol": "FLC",
                 "token_name": "Forklift Certified",
-                "value": 1906.4253592990608
+                "value": 1807.4759461866527
               }
             ]
           }
         ]
       }
     ],
-    "buys": [
+    "buys": [],
+    "sells": [
       {
         "address": "METAwkXcqyXKy1AtsSgJ8JiUHwGCafnZL38n3vYmeta",
         "symbol": "META",
@@ -324,11 +381,11 @@
         "created_time": 1754525722,
         "website": "",
         "twitter": "",
-        "holder": 3875,
-        "market_cap": 138803679,
-        "price": 6.26,
-        "price_change_24h": 23.96,
-        "volume_24h": 7538637.89,
+        "holder": 3881,
+        "market_cap": 130976433,
+        "price": 5.91,
+        "price_change_24h": 8.11,
+        "volume_24h": 7618322.51,
         "pool_address": "solana_EXpXkwcWDhjEYyC5pfNfxsu8fUtK4CDCYTZR4ApQNRzo",
         "ath": 10.54684412218773,
         "ath_timestamp": 1761436800,
@@ -336,11 +393,11 @@
         "dexId": "meteora",
         "pairAddress": "EXpXkwcWDhjEYyC5pfNfxsu8fUtK4CDCYTZR4ApQNRzo",
         "txns_24h": {
-          "buys": 4227,
-          "sells": 5124
+          "buys": 4424,
+          "sells": 5102
         },
-        "fdv_usd": 138803679,
-        "total_reserve_in_usd": 2752935.66,
+        "fdv_usd": 130976433,
+        "total_reserve_in_usd": 2674668.09,
         "tags": [
           "moonshot"
         ],
@@ -349,9 +406,29 @@
           "price": 10.08
         },
         "metrics": {
-          "uniqueWallets": 1,
-          "inflow24h": 5000,
+          "uniqueWallets": 2,
+          "inflow24h": -15501.581579999998,
           "trades": [
+            {
+              "timestamp": "2025-11-04T17:32:55.000Z",
+              "type": "SELL",
+              "amount": 1338.855205,
+              "usdValue": 8254.274173,
+              "wallet": {
+                "address": "3DKfZz4iHgu42LGu3ttQxqz6u4m5z9ptuar8pBsRqkKC",
+                "name": "ai16zWhale"
+              }
+            },
+            {
+              "timestamp": "2025-11-04T17:31:50.000Z",
+              "type": "SELL",
+              "amount": 1996.8012,
+              "usdValue": 12247.307407,
+              "wallet": {
+                "address": "3DKfZz4iHgu42LGu3ttQxqz6u4m5z9ptuar8pBsRqkKC",
+                "name": "ai16zWhale"
+              }
+            },
             {
               "timestamp": "2025-11-04T14:52:52.000Z",
               "type": "BUY",
@@ -376,6 +453,22 @@
         },
         "walletPortfolios": [
           {
+            "address": "3DKfZz4iHgu42LGu3ttQxqz6u4m5z9ptuar8pBsRqkKC",
+            "name": "ai16zWhale",
+            "score": 1,
+            "tokens": [
+              {
+                "token_address": "METAwkXcqyXKy1AtsSgJ8JiUHwGCafnZL38n3vYmeta",
+                "balance": 10000.283911,
+                "token_price": 5.91,
+                "token_decimals": 6,
+                "token_symbol": "META",
+                "token_name": "MetaDAO",
+                "value": 59101.677914010004
+              }
+            ]
+          },
+          {
             "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
             "name": "Chillguy32x",
             "score": 1,
@@ -383,17 +476,16 @@
               {
                 "token_address": "METAwkXcqyXKy1AtsSgJ8JiUHwGCafnZL38n3vYmeta",
                 "balance": 932.624523,
-                "token_price": 6.26,
+                "token_price": 5.91,
                 "token_decimals": 6,
                 "token_symbol": "META",
                 "token_name": "MetaDAO",
-                "value": 5838.22951398
+                "value": 5511.81093093
               }
             ]
           }
         ]
       }
-    ],
-    "sells": []
+    ]
   }
 }
