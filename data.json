@@ -1,7 +1,85 @@
 {
   "success": true,
-  "timestamp": "2025-11-04T14:42:37.518Z",
+  "timestamp": "2025-11-04T14:54:18.065Z",
   "data": [
+    {
+      "address": "METAwkXcqyXKy1AtsSgJ8JiUHwGCafnZL38n3vYmeta",
+      "symbol": "META",
+      "name": "MetaDAO",
+      "decimals": 6,
+      "icon": "https://raw.githubusercontent.com/metaDAOproject/futarchy/refs/heads/develop/scripts/assets/META/META.png",
+      "created_time": 1754525722,
+      "website": "",
+      "twitter": "",
+      "holder": 3857,
+      "market_cap": 122119438,
+      "price": 5.51,
+      "price_change_24h": 15.54,
+      "volume_24h": 5018402.01,
+      "pool_address": "solana_EXpXkwcWDhjEYyC5pfNfxsu8fUtK4CDCYTZR4ApQNRzo",
+      "ath": 10.54684412218773,
+      "ath_timestamp": 1761436800,
+      "ath_pool": "EXpXkwcWDhjEYyC5pfNfxsu8fUtK4CDCYTZR4ApQNRzo",
+      "dexId": "meteora",
+      "pairAddress": "EXpXkwcWDhjEYyC5pfNfxsu8fUtK4CDCYTZR4ApQNRzo",
+      "txns_24h": {
+        "buys": 3289,
+        "sells": 4302
+      },
+      "fdv_usd": 122119438,
+      "total_reserve_in_usd": 2574819.36,
+      "tags": [
+        "moonshot"
+      ],
+      "first_signal": {
+        "timestamp": 1761416411,
+        "price": 10.08
+      },
+      "metrics": {
+        "uniqueWallets": 1,
+        "inflow24h": 5000,
+        "trades": [
+          {
+            "timestamp": "2025-11-04T14:52:52.000Z",
+            "type": "BUY",
+            "amount": 361.921079,
+            "usdValue": 2000,
+            "wallet": {
+              "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+              "name": "Chillguy32x"
+            }
+          },
+          {
+            "timestamp": "2025-11-03T21:03:16.000Z",
+            "type": "BUY",
+            "amount": 570.703444,
+            "usdValue": 3000,
+            "wallet": {
+              "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+              "name": "Chillguy32x"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+          "name": "Chillguy32x",
+          "score": 1,
+          "tokens": [
+            {
+              "token_address": "METAwkXcqyXKy1AtsSgJ8JiUHwGCafnZL38n3vYmeta",
+              "balance": 932.624523,
+              "token_price": 5.51,
+              "token_decimals": 6,
+              "token_symbol": "META",
+              "token_name": "MetaDAO",
+              "value": 5138.761121729999
+            }
+          ]
+        }
+      ]
+    },
     {
       "address": "CsB1jaGKcuksihnHA8r4NtL7fTCGCj5FhSFU7m3Kpump",
       "symbol": "FLC",
@@ -12,10 +90,10 @@
       "website": "",
       "twitter": "",
       "holder": 820,
-      "market_cap": 117269,
-      "price": 0.0001172,
-      "price_change_24h": 71.23,
-      "volume_24h": 1469921.02,
+      "market_cap": 114598,
+      "price": 0.0001145,
+      "price_change_24h": 67.33,
+      "volume_24h": 1472006.21,
       "pool_address": "solana_AAnn4DQ1iftKE25ey9woXUXr7T6Q18eMTgE5MiHi3aRf",
       "ath": 0.0004362,
       "ath_timestamp": 1762219881,
@@ -23,11 +101,11 @@
       "dexId": "pumpswap",
       "pairAddress": "AAnn4DQ1iftKE25ey9woXUXr7T6Q18eMTgE5MiHi3aRf",
       "txns_24h": {
-        "buys": 9214,
-        "sells": 7162
+        "buys": 9236,
+        "sells": 7179
       },
-      "fdv_usd": 117269,
-      "total_reserve_in_usd": 38548.69,
+      "fdv_usd": 114598,
+      "total_reserve_in_usd": 38357.4,
       "tags": [],
       "first_signal": {
         "timestamp": 1762219875,
@@ -88,11 +166,11 @@
             {
               "token_address": "CsB1jaGKcuksihnHA8r4NtL7fTCGCj5FhSFU7m3Kpump",
               "balance": 12573.474203,
-              "token_price": 0.0001172,
+              "token_price": 0.0001145,
               "token_decimals": 6,
               "token_symbol": "FLC",
               "token_name": "Forklift Certified",
-              "value": 1.4736111765916
+              "value": 1.4396627962435
             }
           ]
         },
@@ -104,79 +182,11 @@
             {
               "token_address": "CsB1jaGKcuksihnHA8r4NtL7fTCGCj5FhSFU7m3Kpump",
               "balance": 16491568.852068,
-              "token_price": 0.0001172,
+              "token_price": 0.0001145,
               "token_decimals": 6,
               "token_symbol": "FLC",
               "token_name": "Forklift Certified",
-              "value": 1932.8118694623695
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "address": "METAwkXcqyXKy1AtsSgJ8JiUHwGCafnZL38n3vYmeta",
-      "symbol": "META",
-      "name": "MetaDAO",
-      "decimals": 6,
-      "icon": "https://raw.githubusercontent.com/metaDAOproject/futarchy/refs/heads/develop/scripts/assets/META/META.png",
-      "created_time": 1754525722,
-      "website": "",
-      "twitter": "",
-      "holder": 3857,
-      "market_cap": 124980789,
-      "price": 5.64,
-      "price_change_24h": 19.49,
-      "volume_24h": 4975423.41,
-      "pool_address": "solana_EXpXkwcWDhjEYyC5pfNfxsu8fUtK4CDCYTZR4ApQNRzo",
-      "ath": 10.54684412218773,
-      "ath_timestamp": 1761436800,
-      "ath_pool": "EXpXkwcWDhjEYyC5pfNfxsu8fUtK4CDCYTZR4ApQNRzo",
-      "dexId": "meteora",
-      "pairAddress": "EXpXkwcWDhjEYyC5pfNfxsu8fUtK4CDCYTZR4ApQNRzo",
-      "txns_24h": {
-        "buys": 3242,
-        "sells": 4299
-      },
-      "fdv_usd": 124980789,
-      "total_reserve_in_usd": 2604690.37,
-      "tags": [
-        "moonshot"
-      ],
-      "first_signal": {
-        "timestamp": 1761416411,
-        "price": 10.08
-      },
-      "metrics": {
-        "uniqueWallets": 1,
-        "inflow24h": 3000,
-        "trades": [
-          {
-            "timestamp": "2025-11-03T21:03:16.000Z",
-            "type": "BUY",
-            "amount": 570.703444,
-            "usdValue": 3000,
-            "wallet": {
-              "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
-              "name": "Chillguy32x"
-            }
-          }
-        ]
-      },
-      "walletPortfolios": [
-        {
-          "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
-          "name": "Chillguy32x",
-          "score": 1,
-          "tokens": [
-            {
-              "token_address": "METAwkXcqyXKy1AtsSgJ8JiUHwGCafnZL38n3vYmeta",
-              "balance": 570.703444,
-              "token_price": 5.64,
-              "token_decimals": 6,
-              "token_symbol": "META",
-              "token_name": "MetaDAO",
-              "value": 3218.76742416
+              "value": 1888.284633561786
             }
           ]
         }
@@ -195,10 +205,10 @@
         "website": "",
         "twitter": "",
         "holder": 820,
-        "market_cap": 117269,
-        "price": 0.0001172,
-        "price_change_24h": 71.23,
-        "volume_24h": 1469921.02,
+        "market_cap": 114598,
+        "price": 0.0001145,
+        "price_change_24h": 67.33,
+        "volume_24h": 1472006.21,
         "pool_address": "solana_AAnn4DQ1iftKE25ey9woXUXr7T6Q18eMTgE5MiHi3aRf",
         "ath": 0.0004362,
         "ath_timestamp": 1762219881,
@@ -206,11 +216,11 @@
         "dexId": "pumpswap",
         "pairAddress": "AAnn4DQ1iftKE25ey9woXUXr7T6Q18eMTgE5MiHi3aRf",
         "txns_24h": {
-          "buys": 9214,
-          "sells": 7162
+          "buys": 9236,
+          "sells": 7179
         },
-        "fdv_usd": 117269,
-        "total_reserve_in_usd": 38548.69,
+        "fdv_usd": 114598,
+        "total_reserve_in_usd": 38357.4,
         "tags": [],
         "first_signal": {
           "timestamp": 1762219875,
@@ -271,11 +281,11 @@
               {
                 "token_address": "CsB1jaGKcuksihnHA8r4NtL7fTCGCj5FhSFU7m3Kpump",
                 "balance": 12573.474203,
-                "token_price": 0.0001172,
+                "token_price": 0.0001145,
                 "token_decimals": 6,
                 "token_symbol": "FLC",
                 "token_name": "Forklift Certified",
-                "value": 1.4736111765916
+                "value": 1.4396627962435
               }
             ]
           },
@@ -287,11 +297,11 @@
               {
                 "token_address": "CsB1jaGKcuksihnHA8r4NtL7fTCGCj5FhSFU7m3Kpump",
                 "balance": 16491568.852068,
-                "token_price": 0.0001172,
+                "token_price": 0.0001145,
                 "token_decimals": 6,
                 "token_symbol": "FLC",
                 "token_name": "Forklift Certified",
-                "value": 1932.8118694623695
+                "value": 1888.284633561786
               }
             ]
           }
@@ -309,10 +319,10 @@
         "website": "",
         "twitter": "",
         "holder": 3857,
-        "market_cap": 124980789,
-        "price": 5.64,
-        "price_change_24h": 19.49,
-        "volume_24h": 4975423.41,
+        "market_cap": 122119438,
+        "price": 5.51,
+        "price_change_24h": 15.54,
+        "volume_24h": 5018402.01,
         "pool_address": "solana_EXpXkwcWDhjEYyC5pfNfxsu8fUtK4CDCYTZR4ApQNRzo",
         "ath": 10.54684412218773,
         "ath_timestamp": 1761436800,
@@ -320,11 +330,11 @@
         "dexId": "meteora",
         "pairAddress": "EXpXkwcWDhjEYyC5pfNfxsu8fUtK4CDCYTZR4ApQNRzo",
         "txns_24h": {
-          "buys": 3242,
-          "sells": 4299
+          "buys": 3289,
+          "sells": 4302
         },
-        "fdv_usd": 124980789,
-        "total_reserve_in_usd": 2604690.37,
+        "fdv_usd": 122119438,
+        "total_reserve_in_usd": 2574819.36,
         "tags": [
           "moonshot"
         ],
@@ -334,8 +344,18 @@
         },
         "metrics": {
           "uniqueWallets": 1,
-          "inflow24h": 3000,
+          "inflow24h": 5000,
           "trades": [
+            {
+              "timestamp": "2025-11-04T14:52:52.000Z",
+              "type": "BUY",
+              "amount": 361.921079,
+              "usdValue": 2000,
+              "wallet": {
+                "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+                "name": "Chillguy32x"
+              }
+            },
             {
               "timestamp": "2025-11-03T21:03:16.000Z",
               "type": "BUY",
@@ -356,12 +376,12 @@
             "tokens": [
               {
                 "token_address": "METAwkXcqyXKy1AtsSgJ8JiUHwGCafnZL38n3vYmeta",
-                "balance": 570.703444,
-                "token_price": 5.64,
+                "balance": 932.624523,
+                "token_price": 5.51,
                 "token_decimals": 6,
                 "token_symbol": "META",
                 "token_name": "MetaDAO",
-                "value": 3218.76742416
+                "value": 5138.761121729999
               }
             ]
           }
