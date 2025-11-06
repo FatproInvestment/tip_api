@@ -1,7 +1,131 @@
 {
   "success": true,
-  "timestamp": "2025-11-06T17:19:17.056Z",
+  "timestamp": "2025-11-06T17:36:03.528Z",
   "data": [
+    {
+      "address": "Sg4k4iFaEeqhv5866cQmsFTMhRx8sVCPAq2j8Xcpump",
+      "symbol": "SPSN",
+      "name": "South Park Sucks Now",
+      "decimals": 6,
+      "icon": "https://api-main.uxento.io/api/v1/proxy/image?url=https%3A%2F%2Fthumbnails.padre.gg%2FSOLANA-6oqv2r6HQuLRf9ucUWvxbCFCiQBpVFomZLx4Mtwbpump",
+      "created_time": 1761963573,
+      "website": "",
+      "twitter": "https://x.com/3nnard/status/1984444065421656371?s=46",
+      "holder": 5681,
+      "market_cap": 4286972,
+      "price": 0.004287,
+      "price_change_24h": 183,
+      "volume_24h": 1678024.03,
+      "pool_address": "solana_9n97DeJbnJrrUbpCAyv1v1UUzvPo8DcJMVe5cRrpZ8YV",
+      "ath": 0.006945456653163265,
+      "ath_timestamp": 1761980400,
+      "ath_pool": "AcXffc8cMWqWhUCdp28fwYbSs4YSCibaLKa4DDZBi6ou",
+      "dexId": "pumpswap",
+      "pairAddress": "9n97DeJbnJrrUbpCAyv1v1UUzvPo8DcJMVe5cRrpZ8YV",
+      "txns_24h": {
+        "buys": 4006,
+        "sells": 3891
+      },
+      "fdv_usd": 4286972,
+      "total_reserve_in_usd": 299323.05,
+      "tags": [
+        "moonshot"
+      ],
+      "first_signal": {
+        "timestamp": 1761967573,
+        "price": 0.004041
+      },
+      "metrics": {
+        "uniqueWallets": 2,
+        "inflow24h": 8231.817191330856,
+        "trades": [
+          {
+            "timestamp": "2025-11-06T17:35:39.000Z",
+            "type": "BUY",
+            "amount": 335163.437233,
+            "usdValue": 1546.3066778234813,
+            "wallet": {
+              "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+              "name": "Winner"
+            }
+          },
+          {
+            "timestamp": "2025-11-06T17:35:37.000Z",
+            "type": "BUY",
+            "amount": 699051.771888,
+            "usdValue": 3092.61335549077,
+            "wallet": {
+              "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+              "name": "Winner"
+            }
+          },
+          {
+            "timestamp": "2025-11-06T17:34:19.000Z",
+            "type": "BUY",
+            "amount": 1771741.500935,
+            "usdValue": 7731.533388961215,
+            "wallet": {
+              "address": "8zFZHuSRuDpuAR7J6FzwyF3vKNx4CVW3DFHJerQhc7Zd",
+              "name": "Pow"
+            }
+          },
+          {
+            "timestamp": "2025-11-06T17:34:17.000Z",
+            "type": "BUY",
+            "amount": 1889366.847463,
+            "usdValue": 7731.533388961215,
+            "wallet": {
+              "address": "8zFZHuSRuDpuAR7J6FzwyF3vKNx4CVW3DFHJerQhc7Zd",
+              "name": "Pow"
+            }
+          },
+          {
+            "timestamp": "2025-11-05T19:14:38.000Z",
+            "type": "SELL",
+            "amount": 8222521.897676,
+            "usdValue": 11870.169619905826,
+            "wallet": {
+              "address": "8zFZHuSRuDpuAR7J6FzwyF3vKNx4CVW3DFHJerQhc7Zd",
+              "name": "Pow"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+          "name": "Winner",
+          "score": 0.5,
+          "tokens": [
+            {
+              "token_address": "Sg4k4iFaEeqhv5866cQmsFTMhRx8sVCPAq2j8Xcpump",
+              "balance": 1034215.209121,
+              "token_price": 0.004287,
+              "token_decimals": 6,
+              "token_symbol": "SPSN",
+              "token_name": "South Park Sucks Now",
+              "value": 4433.680601501727
+            }
+          ]
+        },
+        {
+          "address": "8zFZHuSRuDpuAR7J6FzwyF3vKNx4CVW3DFHJerQhc7Zd",
+          "name": "Pow",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "Sg4k4iFaEeqhv5866cQmsFTMhRx8sVCPAq2j8Xcpump",
+              "balance": 3661108.348398,
+              "token_price": 0.004287,
+              "token_decimals": 6,
+              "token_symbol": "SPSN",
+              "token_name": "South Park Sucks Now",
+              "value": 15695.171489582226
+            }
+          ]
+        }
+      ]
+    },
     {
       "address": "BuhyqqURetnUuouatgLXWikrbUG93ShcxCJk27a7pump",
       "symbol": "ZEC",
@@ -12,10 +136,10 @@
       "website": "https://coinmarketcap.com/currencies/zcash/",
       "twitter": "https://x.com/0xMert_/status/1976002909511831934",
       "holder": 1249,
-      "market_cap": 196602,
-      "price": 0.0002105,
-      "price_change_24h": 224,
-      "volume_24h": 1328549.08,
+      "market_cap": 188476,
+      "price": 0.0002018,
+      "price_change_24h": 210,
+      "volume_24h": 1357576.74,
       "pool_address": "solana_DWc2KX18ukVk7MX4DWpwbLL2CeLhCALq4kZ5ZEy1JnMg",
       "ath": 0.0003783644846115805,
       "ath_timestamp": 1762441200,
@@ -26,11 +150,11 @@
         "active": 10
       },
       "txns_24h": {
-        "buys": 10054,
-        "sells": 8005
+        "buys": 10240,
+        "sells": 8184
       },
-      "fdv_usd": 196602,
-      "total_reserve_in_usd": 50902.29,
+      "fdv_usd": 188476,
+      "total_reserve_in_usd": 50043.78,
       "tags": [],
       "first_signal": {
         "timestamp": 1762439585,
@@ -91,11 +215,11 @@
             {
               "token_address": "BuhyqqURetnUuouatgLXWikrbUG93ShcxCJk27a7pump",
               "balance": 103609.480703,
-              "token_price": 0.0002105,
+              "token_price": 0.0002018,
               "token_decimals": 6,
               "token_symbol": "ZEC",
               "token_name": "Zero Effort Coin",
-              "value": 21.8097956879815
+              "value": 20.908393205865398
             }
           ]
         },
@@ -107,7 +231,7 @@
             {
               "token_address": "BuhyqqURetnUuouatgLXWikrbUG93ShcxCJk27a7pump",
               "balance": 0,
-              "token_price": 0.0002105,
+              "token_price": 0.0002018,
               "token_decimals": 6,
               "token_symbol": "ZEC",
               "token_name": "Zero Effort Coin",
@@ -127,10 +251,10 @@
       "website": "",
       "twitter": "https://x.com/i/communities/1968442277552074769",
       "holder": 11452,
-      "market_cap": 26245974,
-      "price": 0.02624,
-      "price_change_24h": -26.55,
-      "volume_24h": 5139863.32,
+      "market_cap": 25155591,
+      "price": 0.02515,
+      "price_change_24h": -32.11,
+      "volume_24h": 5039850.34,
       "pool_address": "solana_6sEkZ73vph5AFYmQTzaV6H5vAQQLZ2C8WqeCQ6MhLqFk",
       "ath": 0.05122120012315754,
       "ath_timestamp": 1762300800,
@@ -138,11 +262,11 @@
       "dexId": "raydium",
       "pairAddress": "6sEkZ73vph5AFYmQTzaV6H5vAQQLZ2C8WqeCQ6MhLqFk",
       "txns_24h": {
-        "buys": 9257,
-        "sells": 7883
+        "buys": 9141,
+        "sells": 7676
       },
-      "fdv_usd": 26246226,
-      "total_reserve_in_usd": 937684.45,
+      "fdv_usd": 25155833,
+      "total_reserve_in_usd": 918223.43,
       "tags": [
         "moonshot"
       ],
@@ -305,7 +429,7 @@
             {
               "token_address": "GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk",
               "balance": 0,
-              "token_price": 0.02624,
+              "token_price": 0.02515,
               "token_decimals": 6,
               "token_symbol": "1",
               "token_name": "1 coin can change your life",
@@ -328,10 +452,10 @@
         "website": "https://coinmarketcap.com/currencies/zcash/",
         "twitter": "https://x.com/0xMert_/status/1976002909511831934",
         "holder": 1249,
-        "market_cap": 196602,
-        "price": 0.0002105,
-        "price_change_24h": 224,
-        "volume_24h": 1328549.08,
+        "market_cap": 188476,
+        "price": 0.0002018,
+        "price_change_24h": 210,
+        "volume_24h": 1357576.74,
         "pool_address": "solana_DWc2KX18ukVk7MX4DWpwbLL2CeLhCALq4kZ5ZEy1JnMg",
         "ath": 0.0003783644846115805,
         "ath_timestamp": 1762441200,
@@ -342,11 +466,11 @@
           "active": 10
         },
         "txns_24h": {
-          "buys": 10054,
-          "sells": 8005
+          "buys": 10240,
+          "sells": 8184
         },
-        "fdv_usd": 196602,
-        "total_reserve_in_usd": 50902.29,
+        "fdv_usd": 188476,
+        "total_reserve_in_usd": 50043.78,
         "tags": [],
         "first_signal": {
           "timestamp": 1762439585,
@@ -407,11 +531,11 @@
               {
                 "token_address": "BuhyqqURetnUuouatgLXWikrbUG93ShcxCJk27a7pump",
                 "balance": 103609.480703,
-                "token_price": 0.0002105,
+                "token_price": 0.0002018,
                 "token_decimals": 6,
                 "token_symbol": "ZEC",
                 "token_name": "Zero Effort Coin",
-                "value": 21.8097956879815
+                "value": 20.908393205865398
               }
             ]
           },
@@ -423,7 +547,7 @@
               {
                 "token_address": "BuhyqqURetnUuouatgLXWikrbUG93ShcxCJk27a7pump",
                 "balance": 0,
-                "token_price": 0.0002105,
+                "token_price": 0.0002018,
                 "token_decimals": 6,
                 "token_symbol": "ZEC",
                 "token_name": "Zero Effort Coin",
@@ -434,7 +558,132 @@
         ]
       }
     ],
-    "buys": [],
+    "buys": [
+      {
+        "address": "Sg4k4iFaEeqhv5866cQmsFTMhRx8sVCPAq2j8Xcpump",
+        "symbol": "SPSN",
+        "name": "South Park Sucks Now",
+        "decimals": 6,
+        "icon": "https://api-main.uxento.io/api/v1/proxy/image?url=https%3A%2F%2Fthumbnails.padre.gg%2FSOLANA-6oqv2r6HQuLRf9ucUWvxbCFCiQBpVFomZLx4Mtwbpump",
+        "created_time": 1761963573,
+        "website": "",
+        "twitter": "https://x.com/3nnard/status/1984444065421656371?s=46",
+        "holder": 5681,
+        "market_cap": 4286972,
+        "price": 0.004287,
+        "price_change_24h": 183,
+        "volume_24h": 1678024.03,
+        "pool_address": "solana_9n97DeJbnJrrUbpCAyv1v1UUzvPo8DcJMVe5cRrpZ8YV",
+        "ath": 0.006945456653163265,
+        "ath_timestamp": 1761980400,
+        "ath_pool": "AcXffc8cMWqWhUCdp28fwYbSs4YSCibaLKa4DDZBi6ou",
+        "dexId": "pumpswap",
+        "pairAddress": "9n97DeJbnJrrUbpCAyv1v1UUzvPo8DcJMVe5cRrpZ8YV",
+        "txns_24h": {
+          "buys": 4006,
+          "sells": 3891
+        },
+        "fdv_usd": 4286972,
+        "total_reserve_in_usd": 299323.05,
+        "tags": [
+          "moonshot"
+        ],
+        "first_signal": {
+          "timestamp": 1761967573,
+          "price": 0.004041
+        },
+        "metrics": {
+          "uniqueWallets": 2,
+          "inflow24h": 8231.817191330856,
+          "trades": [
+            {
+              "timestamp": "2025-11-06T17:35:39.000Z",
+              "type": "BUY",
+              "amount": 335163.437233,
+              "usdValue": 1546.3066778234813,
+              "wallet": {
+                "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+                "name": "Winner"
+              }
+            },
+            {
+              "timestamp": "2025-11-06T17:35:37.000Z",
+              "type": "BUY",
+              "amount": 699051.771888,
+              "usdValue": 3092.61335549077,
+              "wallet": {
+                "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+                "name": "Winner"
+              }
+            },
+            {
+              "timestamp": "2025-11-06T17:34:19.000Z",
+              "type": "BUY",
+              "amount": 1771741.500935,
+              "usdValue": 7731.533388961215,
+              "wallet": {
+                "address": "8zFZHuSRuDpuAR7J6FzwyF3vKNx4CVW3DFHJerQhc7Zd",
+                "name": "Pow"
+              }
+            },
+            {
+              "timestamp": "2025-11-06T17:34:17.000Z",
+              "type": "BUY",
+              "amount": 1889366.847463,
+              "usdValue": 7731.533388961215,
+              "wallet": {
+                "address": "8zFZHuSRuDpuAR7J6FzwyF3vKNx4CVW3DFHJerQhc7Zd",
+                "name": "Pow"
+              }
+            },
+            {
+              "timestamp": "2025-11-05T19:14:38.000Z",
+              "type": "SELL",
+              "amount": 8222521.897676,
+              "usdValue": 11870.169619905826,
+              "wallet": {
+                "address": "8zFZHuSRuDpuAR7J6FzwyF3vKNx4CVW3DFHJerQhc7Zd",
+                "name": "Pow"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "CLegS2MSiCsBksVazCg4Y7Gz3NqeBK21QyvzK4Q7S168",
+            "name": "Winner",
+            "score": 0.5,
+            "tokens": [
+              {
+                "token_address": "Sg4k4iFaEeqhv5866cQmsFTMhRx8sVCPAq2j8Xcpump",
+                "balance": 1034215.209121,
+                "token_price": 0.004287,
+                "token_decimals": 6,
+                "token_symbol": "SPSN",
+                "token_name": "South Park Sucks Now",
+                "value": 4433.680601501727
+              }
+            ]
+          },
+          {
+            "address": "8zFZHuSRuDpuAR7J6FzwyF3vKNx4CVW3DFHJerQhc7Zd",
+            "name": "Pow",
+            "score": 3,
+            "tokens": [
+              {
+                "token_address": "Sg4k4iFaEeqhv5866cQmsFTMhRx8sVCPAq2j8Xcpump",
+                "balance": 3661108.348398,
+                "token_price": 0.004287,
+                "token_decimals": 6,
+                "token_symbol": "SPSN",
+                "token_name": "South Park Sucks Now",
+                "value": 15695.171489582226
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "sells": [
       {
         "address": "GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk",
@@ -446,10 +695,10 @@
         "website": "",
         "twitter": "https://x.com/i/communities/1968442277552074769",
         "holder": 11452,
-        "market_cap": 26245974,
-        "price": 0.02624,
-        "price_change_24h": -26.55,
-        "volume_24h": 5139863.32,
+        "market_cap": 25155591,
+        "price": 0.02515,
+        "price_change_24h": -32.11,
+        "volume_24h": 5039850.34,
         "pool_address": "solana_6sEkZ73vph5AFYmQTzaV6H5vAQQLZ2C8WqeCQ6MhLqFk",
         "ath": 0.05122120012315754,
         "ath_timestamp": 1762300800,
@@ -457,11 +706,11 @@
         "dexId": "raydium",
         "pairAddress": "6sEkZ73vph5AFYmQTzaV6H5vAQQLZ2C8WqeCQ6MhLqFk",
         "txns_24h": {
-          "buys": 9257,
-          "sells": 7883
+          "buys": 9141,
+          "sells": 7676
         },
-        "fdv_usd": 26246226,
-        "total_reserve_in_usd": 937684.45,
+        "fdv_usd": 25155833,
+        "total_reserve_in_usd": 918223.43,
         "tags": [
           "moonshot"
         ],
@@ -624,7 +873,7 @@
               {
                 "token_address": "GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk",
                 "balance": 0,
-                "token_price": 0.02624,
+                "token_price": 0.02515,
                 "token_decimals": 6,
                 "token_symbol": "1",
                 "token_name": "1 coin can change your life",
