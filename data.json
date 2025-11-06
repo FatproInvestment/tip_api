@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-11-06T15:55:59.261Z",
+  "timestamp": "2025-11-06T16:16:08.076Z",
   "data": [
     {
       "address": "BuhyqqURetnUuouatgLXWikrbUG93ShcxCJk27a7pump",
@@ -12,10 +12,10 @@
       "website": "https://coinmarketcap.com/currencies/zcash/",
       "twitter": "https://x.com/0xMert_/status/1976002909511831934",
       "holder": 1363,
-      "market_cap": 191204,
-      "price": 0.0002047,
-      "price_change_24h": 215,
-      "volume_24h": 1160082.63,
+      "market_cap": 180295,
+      "price": 0.000193,
+      "price_change_24h": 197,
+      "volume_24h": 1215230.27,
       "pool_address": "solana_DWc2KX18ukVk7MX4DWpwbLL2CeLhCALq4kZ5ZEy1JnMg",
       "ath": 0.0003783644846115805,
       "ath_timestamp": 1762441200,
@@ -26,11 +26,11 @@
         "active": 10
       },
       "txns_24h": {
-        "buys": 9010,
-        "sells": 7046
+        "buys": 9423,
+        "sells": 7408
       },
-      "fdv_usd": 191204,
-      "total_reserve_in_usd": 49929.29,
+      "fdv_usd": 180295,
+      "total_reserve_in_usd": 48635.49,
       "tags": [],
       "first_signal": {
         "timestamp": 1762439585,
@@ -38,8 +38,18 @@
       },
       "metrics": {
         "uniqueWallets": 2,
-        "inflow24h": -429.69564173960833,
+        "inflow24h": -428.1151877306426,
         "trades": [
+          {
+            "timestamp": "2025-11-06T16:06:51.000Z",
+            "type": "BUY",
+            "amount": 7644.651411,
+            "usdValue": 1.5804540089657784,
+            "wallet": {
+              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+              "name": "OGmoodeng"
+            }
+          },
           {
             "timestamp": "2025-11-06T15:17:09.000Z",
             "type": "SELL",
@@ -74,6 +84,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+          "name": "OGmoodeng",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "BuhyqqURetnUuouatgLXWikrbUG93ShcxCJk27a7pump",
+              "balance": 103609.480703,
+              "token_price": 0.000193,
+              "token_decimals": 6,
+              "token_symbol": "ZEC",
+              "token_name": "Zero Effort Coin",
+              "value": 19.996629775679
+            }
+          ]
+        },
+        {
           "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
           "name": "cooker",
           "score": 2,
@@ -81,27 +107,11 @@
             {
               "token_address": "BuhyqqURetnUuouatgLXWikrbUG93ShcxCJk27a7pump",
               "balance": 0,
-              "token_price": 0.0002047,
+              "token_price": 0.000193,
               "token_decimals": 6,
               "token_symbol": "ZEC",
               "token_name": "Zero Effort Coin",
               "value": 0
-            }
-          ]
-        },
-        {
-          "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-          "name": "OGmoodeng",
-          "score": 2,
-          "tokens": [
-            {
-              "token_address": "BuhyqqURetnUuouatgLXWikrbUG93ShcxCJk27a7pump",
-              "balance": 95964.829292,
-              "token_price": 0.0002047,
-              "token_decimals": 6,
-              "token_symbol": "ZEC",
-              "token_name": "Zero Effort Coin",
-              "value": 19.6440005560724
             }
           ]
         }
@@ -117,10 +127,10 @@
       "website": "",
       "twitter": "https://x.com/i/communities/1968442277552074769",
       "holder": 11573,
-      "market_cap": 26550104,
-      "price": 0.02655,
-      "price_change_24h": -30.65,
-      "volume_24h": 8173457,
+      "market_cap": 27245215,
+      "price": 0.02724,
+      "price_change_24h": -21.74,
+      "volume_24h": 6348635.54,
       "pool_address": "solana_6sEkZ73vph5AFYmQTzaV6H5vAQQLZ2C8WqeCQ6MhLqFk",
       "ath": 0.05122120012315754,
       "ath_timestamp": 1762300800,
@@ -128,11 +138,11 @@
       "dexId": "raydium",
       "pairAddress": "6sEkZ73vph5AFYmQTzaV6H5vAQQLZ2C8WqeCQ6MhLqFk",
       "txns_24h": {
-        "buys": 12427,
-        "sells": 11116
+        "buys": 10360,
+        "sells": 9619
       },
-      "fdv_usd": 26550359,
-      "total_reserve_in_usd": 942698.24,
+      "fdv_usd": 27245477,
+      "total_reserve_in_usd": 954891.62,
       "tags": [
         "moonshot"
       ],
@@ -295,7 +305,7 @@
             {
               "token_address": "GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk",
               "balance": 0,
-              "token_price": 0.02655,
+              "token_price": 0.02724,
               "token_decimals": 6,
               "token_symbol": "1",
               "token_name": "1 coin can change your life",
@@ -315,10 +325,10 @@
       "website": "",
       "twitter": "",
       "holder": 10010,
-      "market_cap": 12928467,
-      "price": 0.01292,
-      "price_change_24h": 11.86,
-      "volume_24h": 1066956.04,
+      "market_cap": 13210491,
+      "price": 0.01321,
+      "price_change_24h": 9.81,
+      "volume_24h": 1051632.63,
       "pool_address": "solana_D4RsTBHeborjgvM1fXZYWJNnoLBopqUSBM4FDzHwRPaM",
       "ath": 0.018040083278296086,
       "ath_timestamp": 1762300800,
@@ -326,11 +336,11 @@
       "dexId": "meteora",
       "pairAddress": "D4RsTBHeborjgvM1fXZYWJNnoLBopqUSBM4FDzHwRPaM",
       "txns_24h": {
-        "buys": 3301,
-        "sells": 1880
+        "buys": 3265,
+        "sells": 1897
       },
-      "fdv_usd": 12928467,
-      "total_reserve_in_usd": 406273.49,
+      "fdv_usd": 13210491,
+      "total_reserve_in_usd": 411202.19,
       "tags": [
         "moonshot"
       ],
@@ -363,79 +373,11 @@
             {
               "token_address": "BBKPiLM9KjdJW7oQSKt99RVWcZdhF6sEHRKnwqeBGHST",
               "balance": 2621966.122584937,
-              "token_price": 0.01292,
+              "token_price": 0.01321,
               "token_decimals": 9,
               "token_symbol": "GHOST",
               "token_name": "GhostwareOS",
-              "value": 33875.80230379738
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "address": "8Aq4fWMgPqJbF3w8w8PnLDRVUAFe4mzsCvPKxAArbonk",
-      "symbol": "Real",
-      "name": "Real",
-      "decimals": 6,
-      "icon": "https://assets.coingecko.com/coins/images/69475/standard/WechatIMG484.jpg?1758709133",
-      "created_time": 1758569422,
-      "website": "",
-      "twitter": "",
-      "holder": 4486,
-      "market_cap": 21051683,
-      "price": 0.02105,
-      "price_change_24h": 85.6,
-      "volume_24h": 586886.88,
-      "pool_address": "solana_5NwVQbxTgdbgvttGmdEAf5oqdzDN6bRPciszDmh2U3fE",
-      "ath": 0.18033862453525532,
-      "ath_timestamp": 1758758400,
-      "ath_pool": "EDMMcG9Lt6LyisRd2qRPyC8cACsw6YwTsfcUmeHjWU76",
-      "dexId": "raydium",
-      "pairAddress": "5NwVQbxTgdbgvttGmdEAf5oqdzDN6bRPciszDmh2U3fE",
-      "txns_24h": {
-        "buys": 2906,
-        "sells": 2570
-      },
-      "fdv_usd": 21051683,
-      "total_reserve_in_usd": 525657.05,
-      "tags": [
-        "moonshot"
-      ],
-      "first_signal": {
-        "timestamp": 1758746944,
-        "price": 0.1363
-      },
-      "metrics": {
-        "uniqueWallets": 1,
-        "inflow24h": 8022.016922270758,
-        "trades": [
-          {
-            "timestamp": "2025-11-05T16:01:50.000Z",
-            "type": "BUY",
-            "amount": 388881.207788,
-            "usdValue": 8022.016922270758,
-            "wallet": {
-              "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
-              "name": "soloxbt.sol"
-            }
-          }
-        ]
-      },
-      "walletPortfolios": [
-        {
-          "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
-          "name": "soloxbt.sol",
-          "score": 2,
-          "tokens": [
-            {
-              "token_address": "8Aq4fWMgPqJbF3w8w8PnLDRVUAFe4mzsCvPKxAArbonk",
-              "balance": 1005690.461963,
-              "token_price": 0.02105,
-              "token_decimals": 6,
-              "token_symbol": "Real",
-              "token_name": "Real",
-              "value": 21169.78422432115
+              "value": 34636.17247934702
             }
           ]
         }
@@ -454,10 +396,10 @@
         "website": "https://coinmarketcap.com/currencies/zcash/",
         "twitter": "https://x.com/0xMert_/status/1976002909511831934",
         "holder": 1363,
-        "market_cap": 191204,
-        "price": 0.0002047,
-        "price_change_24h": 215,
-        "volume_24h": 1160082.63,
+        "market_cap": 180295,
+        "price": 0.000193,
+        "price_change_24h": 197,
+        "volume_24h": 1215230.27,
         "pool_address": "solana_DWc2KX18ukVk7MX4DWpwbLL2CeLhCALq4kZ5ZEy1JnMg",
         "ath": 0.0003783644846115805,
         "ath_timestamp": 1762441200,
@@ -468,11 +410,11 @@
           "active": 10
         },
         "txns_24h": {
-          "buys": 9010,
-          "sells": 7046
+          "buys": 9423,
+          "sells": 7408
         },
-        "fdv_usd": 191204,
-        "total_reserve_in_usd": 49929.29,
+        "fdv_usd": 180295,
+        "total_reserve_in_usd": 48635.49,
         "tags": [],
         "first_signal": {
           "timestamp": 1762439585,
@@ -480,8 +422,18 @@
         },
         "metrics": {
           "uniqueWallets": 2,
-          "inflow24h": -429.69564173960833,
+          "inflow24h": -428.1151877306426,
           "trades": [
+            {
+              "timestamp": "2025-11-06T16:06:51.000Z",
+              "type": "BUY",
+              "amount": 7644.651411,
+              "usdValue": 1.5804540089657784,
+              "wallet": {
+                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+                "name": "OGmoodeng"
+              }
+            },
             {
               "timestamp": "2025-11-06T15:17:09.000Z",
               "type": "SELL",
@@ -516,6 +468,22 @@
         },
         "walletPortfolios": [
           {
+            "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+            "name": "OGmoodeng",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "BuhyqqURetnUuouatgLXWikrbUG93ShcxCJk27a7pump",
+                "balance": 103609.480703,
+                "token_price": 0.000193,
+                "token_decimals": 6,
+                "token_symbol": "ZEC",
+                "token_name": "Zero Effort Coin",
+                "value": 19.996629775679
+              }
+            ]
+          },
+          {
             "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
             "name": "cooker",
             "score": 2,
@@ -523,27 +491,11 @@
               {
                 "token_address": "BuhyqqURetnUuouatgLXWikrbUG93ShcxCJk27a7pump",
                 "balance": 0,
-                "token_price": 0.0002047,
+                "token_price": 0.000193,
                 "token_decimals": 6,
                 "token_symbol": "ZEC",
                 "token_name": "Zero Effort Coin",
                 "value": 0
-              }
-            ]
-          },
-          {
-            "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-            "name": "OGmoodeng",
-            "score": 2,
-            "tokens": [
-              {
-                "token_address": "BuhyqqURetnUuouatgLXWikrbUG93ShcxCJk27a7pump",
-                "balance": 95964.829292,
-                "token_price": 0.0002047,
-                "token_decimals": 6,
-                "token_symbol": "ZEC",
-                "token_name": "Zero Effort Coin",
-                "value": 19.6440005560724
               }
             ]
           }
@@ -561,10 +513,10 @@
         "website": "",
         "twitter": "",
         "holder": 10010,
-        "market_cap": 12928467,
-        "price": 0.01292,
-        "price_change_24h": 11.86,
-        "volume_24h": 1066956.04,
+        "market_cap": 13210491,
+        "price": 0.01321,
+        "price_change_24h": 9.81,
+        "volume_24h": 1051632.63,
         "pool_address": "solana_D4RsTBHeborjgvM1fXZYWJNnoLBopqUSBM4FDzHwRPaM",
         "ath": 0.018040083278296086,
         "ath_timestamp": 1762300800,
@@ -572,11 +524,11 @@
         "dexId": "meteora",
         "pairAddress": "D4RsTBHeborjgvM1fXZYWJNnoLBopqUSBM4FDzHwRPaM",
         "txns_24h": {
-          "buys": 3301,
-          "sells": 1880
+          "buys": 3265,
+          "sells": 1897
         },
-        "fdv_usd": 12928467,
-        "total_reserve_in_usd": 406273.49,
+        "fdv_usd": 13210491,
+        "total_reserve_in_usd": 411202.19,
         "tags": [
           "moonshot"
         ],
@@ -609,79 +561,11 @@
               {
                 "token_address": "BBKPiLM9KjdJW7oQSKt99RVWcZdhF6sEHRKnwqeBGHST",
                 "balance": 2621966.122584937,
-                "token_price": 0.01292,
+                "token_price": 0.01321,
                 "token_decimals": 9,
                 "token_symbol": "GHOST",
                 "token_name": "GhostwareOS",
-                "value": 33875.80230379738
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "address": "8Aq4fWMgPqJbF3w8w8PnLDRVUAFe4mzsCvPKxAArbonk",
-        "symbol": "Real",
-        "name": "Real",
-        "decimals": 6,
-        "icon": "https://assets.coingecko.com/coins/images/69475/standard/WechatIMG484.jpg?1758709133",
-        "created_time": 1758569422,
-        "website": "",
-        "twitter": "",
-        "holder": 4486,
-        "market_cap": 21051683,
-        "price": 0.02105,
-        "price_change_24h": 85.6,
-        "volume_24h": 586886.88,
-        "pool_address": "solana_5NwVQbxTgdbgvttGmdEAf5oqdzDN6bRPciszDmh2U3fE",
-        "ath": 0.18033862453525532,
-        "ath_timestamp": 1758758400,
-        "ath_pool": "EDMMcG9Lt6LyisRd2qRPyC8cACsw6YwTsfcUmeHjWU76",
-        "dexId": "raydium",
-        "pairAddress": "5NwVQbxTgdbgvttGmdEAf5oqdzDN6bRPciszDmh2U3fE",
-        "txns_24h": {
-          "buys": 2906,
-          "sells": 2570
-        },
-        "fdv_usd": 21051683,
-        "total_reserve_in_usd": 525657.05,
-        "tags": [
-          "moonshot"
-        ],
-        "first_signal": {
-          "timestamp": 1758746944,
-          "price": 0.1363
-        },
-        "metrics": {
-          "uniqueWallets": 1,
-          "inflow24h": 8022.016922270758,
-          "trades": [
-            {
-              "timestamp": "2025-11-05T16:01:50.000Z",
-              "type": "BUY",
-              "amount": 388881.207788,
-              "usdValue": 8022.016922270758,
-              "wallet": {
-                "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
-                "name": "soloxbt.sol"
-              }
-            }
-          ]
-        },
-        "walletPortfolios": [
-          {
-            "address": "FTg1gqW7vPm4kdU1LPM7JJnizbgPdRDy2PitKw6mY27j",
-            "name": "soloxbt.sol",
-            "score": 2,
-            "tokens": [
-              {
-                "token_address": "8Aq4fWMgPqJbF3w8w8PnLDRVUAFe4mzsCvPKxAArbonk",
-                "balance": 1005690.461963,
-                "token_price": 0.02105,
-                "token_decimals": 6,
-                "token_symbol": "Real",
-                "token_name": "Real",
-                "value": 21169.78422432115
+                "value": 34636.17247934702
               }
             ]
           }
@@ -699,10 +583,10 @@
         "website": "",
         "twitter": "https://x.com/i/communities/1968442277552074769",
         "holder": 11573,
-        "market_cap": 26550104,
-        "price": 0.02655,
-        "price_change_24h": -30.65,
-        "volume_24h": 8173457,
+        "market_cap": 27245215,
+        "price": 0.02724,
+        "price_change_24h": -21.74,
+        "volume_24h": 6348635.54,
         "pool_address": "solana_6sEkZ73vph5AFYmQTzaV6H5vAQQLZ2C8WqeCQ6MhLqFk",
         "ath": 0.05122120012315754,
         "ath_timestamp": 1762300800,
@@ -710,11 +594,11 @@
         "dexId": "raydium",
         "pairAddress": "6sEkZ73vph5AFYmQTzaV6H5vAQQLZ2C8WqeCQ6MhLqFk",
         "txns_24h": {
-          "buys": 12427,
-          "sells": 11116
+          "buys": 10360,
+          "sells": 9619
         },
-        "fdv_usd": 26550359,
-        "total_reserve_in_usd": 942698.24,
+        "fdv_usd": 27245477,
+        "total_reserve_in_usd": 954891.62,
         "tags": [
           "moonshot"
         ],
@@ -877,7 +761,7 @@
               {
                 "token_address": "GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk",
                 "balance": 0,
-                "token_price": 0.02655,
+                "token_price": 0.02724,
                 "token_decimals": 6,
                 "token_symbol": "1",
                 "token_name": "1 coin can change your life",
