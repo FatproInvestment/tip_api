@@ -1,7 +1,151 @@
 {
   "success": true,
-  "timestamp": "2025-11-13T07:35:04.173Z",
+  "timestamp": "2025-11-13T07:44:16.118Z",
   "data": [
+    {
+      "address": "METAwkXcqyXKy1AtsSgJ8JiUHwGCafnZL38n3vYmeta",
+      "symbol": "META",
+      "name": "MetaDAO",
+      "decimals": 6,
+      "icon": "https://raw.githubusercontent.com/metaDAOproject/futarchy/refs/heads/develop/scripts/assets/META/META.png",
+      "created_time": 1754525722,
+      "website": "",
+      "twitter": "",
+      "holder": 4185,
+      "market_cap": 150486760,
+      "price": 6.79,
+      "price_change_24h": -3.71,
+      "volume_24h": 3247166.3,
+      "pool_address": "solana_EXpXkwcWDhjEYyC5pfNfxsu8fUtK4CDCYTZR4ApQNRzo",
+      "ath": 10.54684412218773,
+      "ath_timestamp": 1761436800,
+      "ath_pool": "EXpXkwcWDhjEYyC5pfNfxsu8fUtK4CDCYTZR4ApQNRzo",
+      "dexId": "meteora",
+      "pairAddress": "EXpXkwcWDhjEYyC5pfNfxsu8fUtK4CDCYTZR4ApQNRzo",
+      "txns_24h": {
+        "buys": 2637,
+        "sells": 2146
+      },
+      "fdv_usd": 150486760,
+      "total_reserve_in_usd": 2922376.21,
+      "tags": [
+        "moonshot"
+      ],
+      "first_signal": {
+        "timestamp": 1761416411,
+        "price": 10.08
+      },
+      "metrics": {
+        "uniqueWallets": 2,
+        "inflow24h": 18982,
+        "trades": [
+          {
+            "timestamp": "2025-11-13T07:38:47.000Z",
+            "type": "BUY",
+            "amount": 439.442418,
+            "usdValue": 2997,
+            "wallet": {
+              "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
+              "name": "Wizard100x"
+            }
+          },
+          {
+            "timestamp": "2025-11-13T07:37:29.000Z",
+            "type": "BUY",
+            "amount": 441.537883,
+            "usdValue": 2997,
+            "wallet": {
+              "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
+              "name": "Wizard100x"
+            }
+          },
+          {
+            "timestamp": "2025-11-13T07:37:11.000Z",
+            "type": "BUY",
+            "amount": 442.072319,
+            "usdValue": 2997,
+            "wallet": {
+              "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
+              "name": "Wizard100x"
+            }
+          },
+          {
+            "timestamp": "2025-11-13T07:36:55.000Z",
+            "type": "BUY",
+            "amount": 442.54634,
+            "usdValue": 2997,
+            "wallet": {
+              "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
+              "name": "Wizard100x"
+            }
+          },
+          {
+            "timestamp": "2025-11-13T07:36:41.000Z",
+            "type": "BUY",
+            "amount": 443.853825,
+            "usdValue": 2997,
+            "wallet": {
+              "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
+              "name": "Wizard100x"
+            }
+          },
+          {
+            "timestamp": "2025-11-13T07:36:17.000Z",
+            "type": "BUY",
+            "amount": 445.325852,
+            "usdValue": 2997,
+            "wallet": {
+              "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
+              "name": "Wizard100x"
+            }
+          },
+          {
+            "timestamp": "2025-11-12T14:43:00.000Z",
+            "type": "BUY",
+            "amount": 131.839962,
+            "usdValue": 1000,
+            "wallet": {
+              "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+              "name": "Chillguy32x"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
+          "name": "Wizard100x",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "METAwkXcqyXKy1AtsSgJ8JiUHwGCafnZL38n3vYmeta",
+              "balance": 2654.778637,
+              "token_price": 6.79,
+              "token_decimals": 6,
+              "token_symbol": "META",
+              "token_name": "MetaDAO",
+              "value": 18025.94694523
+            }
+          ]
+        },
+        {
+          "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+          "name": "Chillguy32x",
+          "score": 1,
+          "tokens": [
+            {
+              "token_address": "METAwkXcqyXKy1AtsSgJ8JiUHwGCafnZL38n3vYmeta",
+              "balance": 1703.352889,
+              "token_price": 6.79,
+              "token_decimals": 6,
+              "token_symbol": "META",
+              "token_name": "MetaDAO",
+              "value": 11565.76611631
+            }
+          ]
+        }
+      ]
+    },
     {
       "address": "Ge8baxy8SCtTNumMTeHXULrguEpTDaoVYuPL2AGipump",
       "symbol": "diVINE",
@@ -12,10 +156,10 @@
       "website": "https://techcrunch.com/2025/11/12/jack-dorsey-funds-divine-a-vine-reboot-that-includes-vines-video-archive/",
       "twitter": "",
       "holder": 1951,
-      "market_cap": 422367,
-      "price": 0.0004223,
-      "price_change_24h": 612,
-      "volume_24h": 6309465.09,
+      "market_cap": 438165,
+      "price": 0.0004381,
+      "price_change_24h": 639,
+      "volume_24h": 6345611.39,
       "pool_address": "solana_6k91yoLjDpxVJPYxNpcyKV1VcPPvy1K5f9p6Yp1Epw4Y",
       "ath": 0.0005284270725586952,
       "ath_timestamp": 1763006400,
@@ -26,11 +170,11 @@
         "active": 20
       },
       "txns_24h": {
-        "buys": 25709,
-        "sells": 22258
+        "buys": 25897,
+        "sells": 22397
       },
-      "fdv_usd": 422367,
-      "total_reserve_in_usd": 76036.95,
+      "fdv_usd": 438165,
+      "total_reserve_in_usd": 77364.2,
       "tags": [],
       "first_signal": {
         "timestamp": 1763005922,
@@ -91,7 +235,7 @@
             {
               "token_address": "Ge8baxy8SCtTNumMTeHXULrguEpTDaoVYuPL2AGipump",
               "balance": 0,
-              "token_price": 0.0004223,
+              "token_price": 0.0004381,
               "token_decimals": 6,
               "token_symbol": "diVINE",
               "token_name": "DiVINE",
@@ -107,11 +251,11 @@
             {
               "token_address": "Ge8baxy8SCtTNumMTeHXULrguEpTDaoVYuPL2AGipump",
               "balance": 4509234.38746,
-              "token_price": 0.0004223,
+              "token_price": 0.0004381,
               "token_decimals": 6,
               "token_symbol": "diVINE",
               "token_name": "DiVINE",
-              "value": 1904.249681824358
+              "value": 1975.495585146226
             }
           ]
         }
@@ -127,10 +271,10 @@
       "website": "https://ore.supply",
       "twitter": "https://x.com/oresupply",
       "holder": 25149,
-      "market_cap": 60450070,
-      "price": 225.24,
-      "price_change_24h": 3.36,
-      "volume_24h": 8651412.36,
+      "market_cap": 59741160,
+      "price": 222.6,
+      "price_change_24h": 6.24,
+      "volume_24h": 8597321.94,
       "pool_address": "solana_27ExzqiGapKFd6NhffapRfdSkuykTVUqY5qeuNnrzBNm",
       "ath": 441.9767625838575,
       "ath_timestamp": 1762819200,
@@ -138,11 +282,11 @@
       "dexId": "meteora",
       "pairAddress": "3Mt1bpU3fnSXyPEm66HKKXyQTpLWrwYziPLqwTqK4ZT7",
       "txns_24h": {
-        "buys": 11648,
-        "sells": 11908
+        "buys": 11580,
+        "sells": 11874
       },
-      "fdv_usd": 60450070,
-      "total_reserve_in_usd": 528172.52,
+      "fdv_usd": 59741160,
+      "total_reserve_in_usd": 522198.83,
       "tags": [
         "moonshot"
       ],
@@ -275,7 +419,7 @@
             {
               "token_address": "oreoU2P8bN6jkk3jbaiVxYnG1dCXcYxwhwyK9jSybcp",
               "balance": 0,
-              "token_price": 225.24,
+              "token_price": 222.6,
               "token_decimals": 11,
               "token_symbol": "ORE",
               "token_name": "ORE",
@@ -291,7 +435,7 @@
             {
               "token_address": "oreoU2P8bN6jkk3jbaiVxYnG1dCXcYxwhwyK9jSybcp",
               "balance": 0,
-              "token_price": 225.24,
+              "token_price": 222.6,
               "token_decimals": 11,
               "token_symbol": "ORE",
               "token_name": "ORE",
@@ -314,10 +458,10 @@
         "website": "https://techcrunch.com/2025/11/12/jack-dorsey-funds-divine-a-vine-reboot-that-includes-vines-video-archive/",
         "twitter": "",
         "holder": 1951,
-        "market_cap": 422367,
-        "price": 0.0004223,
-        "price_change_24h": 612,
-        "volume_24h": 6309465.09,
+        "market_cap": 438165,
+        "price": 0.0004381,
+        "price_change_24h": 639,
+        "volume_24h": 6345611.39,
         "pool_address": "solana_6k91yoLjDpxVJPYxNpcyKV1VcPPvy1K5f9p6Yp1Epw4Y",
         "ath": 0.0005284270725586952,
         "ath_timestamp": 1763006400,
@@ -328,11 +472,11 @@
           "active": 20
         },
         "txns_24h": {
-          "buys": 25709,
-          "sells": 22258
+          "buys": 25897,
+          "sells": 22397
         },
-        "fdv_usd": 422367,
-        "total_reserve_in_usd": 76036.95,
+        "fdv_usd": 438165,
+        "total_reserve_in_usd": 77364.2,
         "tags": [],
         "first_signal": {
           "timestamp": 1763005922,
@@ -393,7 +537,7 @@
               {
                 "token_address": "Ge8baxy8SCtTNumMTeHXULrguEpTDaoVYuPL2AGipump",
                 "balance": 0,
-                "token_price": 0.0004223,
+                "token_price": 0.0004381,
                 "token_decimals": 6,
                 "token_symbol": "diVINE",
                 "token_name": "DiVINE",
@@ -409,18 +553,163 @@
               {
                 "token_address": "Ge8baxy8SCtTNumMTeHXULrguEpTDaoVYuPL2AGipump",
                 "balance": 4509234.38746,
-                "token_price": 0.0004223,
+                "token_price": 0.0004381,
                 "token_decimals": 6,
                 "token_symbol": "diVINE",
                 "token_name": "DiVINE",
-                "value": 1904.249681824358
+                "value": 1975.495585146226
               }
             ]
           }
         ]
       }
     ],
-    "buys": [],
+    "buys": [
+      {
+        "address": "METAwkXcqyXKy1AtsSgJ8JiUHwGCafnZL38n3vYmeta",
+        "symbol": "META",
+        "name": "MetaDAO",
+        "decimals": 6,
+        "icon": "https://raw.githubusercontent.com/metaDAOproject/futarchy/refs/heads/develop/scripts/assets/META/META.png",
+        "created_time": 1754525722,
+        "website": "",
+        "twitter": "",
+        "holder": 4185,
+        "market_cap": 150486760,
+        "price": 6.79,
+        "price_change_24h": -3.71,
+        "volume_24h": 3247166.3,
+        "pool_address": "solana_EXpXkwcWDhjEYyC5pfNfxsu8fUtK4CDCYTZR4ApQNRzo",
+        "ath": 10.54684412218773,
+        "ath_timestamp": 1761436800,
+        "ath_pool": "EXpXkwcWDhjEYyC5pfNfxsu8fUtK4CDCYTZR4ApQNRzo",
+        "dexId": "meteora",
+        "pairAddress": "EXpXkwcWDhjEYyC5pfNfxsu8fUtK4CDCYTZR4ApQNRzo",
+        "txns_24h": {
+          "buys": 2637,
+          "sells": 2146
+        },
+        "fdv_usd": 150486760,
+        "total_reserve_in_usd": 2922376.21,
+        "tags": [
+          "moonshot"
+        ],
+        "first_signal": {
+          "timestamp": 1761416411,
+          "price": 10.08
+        },
+        "metrics": {
+          "uniqueWallets": 2,
+          "inflow24h": 18982,
+          "trades": [
+            {
+              "timestamp": "2025-11-13T07:38:47.000Z",
+              "type": "BUY",
+              "amount": 439.442418,
+              "usdValue": 2997,
+              "wallet": {
+                "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
+                "name": "Wizard100x"
+              }
+            },
+            {
+              "timestamp": "2025-11-13T07:37:29.000Z",
+              "type": "BUY",
+              "amount": 441.537883,
+              "usdValue": 2997,
+              "wallet": {
+                "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
+                "name": "Wizard100x"
+              }
+            },
+            {
+              "timestamp": "2025-11-13T07:37:11.000Z",
+              "type": "BUY",
+              "amount": 442.072319,
+              "usdValue": 2997,
+              "wallet": {
+                "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
+                "name": "Wizard100x"
+              }
+            },
+            {
+              "timestamp": "2025-11-13T07:36:55.000Z",
+              "type": "BUY",
+              "amount": 442.54634,
+              "usdValue": 2997,
+              "wallet": {
+                "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
+                "name": "Wizard100x"
+              }
+            },
+            {
+              "timestamp": "2025-11-13T07:36:41.000Z",
+              "type": "BUY",
+              "amount": 443.853825,
+              "usdValue": 2997,
+              "wallet": {
+                "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
+                "name": "Wizard100x"
+              }
+            },
+            {
+              "timestamp": "2025-11-13T07:36:17.000Z",
+              "type": "BUY",
+              "amount": 445.325852,
+              "usdValue": 2997,
+              "wallet": {
+                "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
+                "name": "Wizard100x"
+              }
+            },
+            {
+              "timestamp": "2025-11-12T14:43:00.000Z",
+              "type": "BUY",
+              "amount": 131.839962,
+              "usdValue": 1000,
+              "wallet": {
+                "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+                "name": "Chillguy32x"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
+            "name": "Wizard100x",
+            "score": 3,
+            "tokens": [
+              {
+                "token_address": "METAwkXcqyXKy1AtsSgJ8JiUHwGCafnZL38n3vYmeta",
+                "balance": 2654.778637,
+                "token_price": 6.79,
+                "token_decimals": 6,
+                "token_symbol": "META",
+                "token_name": "MetaDAO",
+                "value": 18025.94694523
+              }
+            ]
+          },
+          {
+            "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+            "name": "Chillguy32x",
+            "score": 1,
+            "tokens": [
+              {
+                "token_address": "METAwkXcqyXKy1AtsSgJ8JiUHwGCafnZL38n3vYmeta",
+                "balance": 1703.352889,
+                "token_price": 6.79,
+                "token_decimals": 6,
+                "token_symbol": "META",
+                "token_name": "MetaDAO",
+                "value": 11565.76611631
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "sells": [
       {
         "address": "oreoU2P8bN6jkk3jbaiVxYnG1dCXcYxwhwyK9jSybcp",
@@ -432,10 +721,10 @@
         "website": "https://ore.supply",
         "twitter": "https://x.com/oresupply",
         "holder": 25149,
-        "market_cap": 60450070,
-        "price": 225.24,
-        "price_change_24h": 3.36,
-        "volume_24h": 8651412.36,
+        "market_cap": 59741160,
+        "price": 222.6,
+        "price_change_24h": 6.24,
+        "volume_24h": 8597321.94,
         "pool_address": "solana_27ExzqiGapKFd6NhffapRfdSkuykTVUqY5qeuNnrzBNm",
         "ath": 441.9767625838575,
         "ath_timestamp": 1762819200,
@@ -443,11 +732,11 @@
         "dexId": "meteora",
         "pairAddress": "3Mt1bpU3fnSXyPEm66HKKXyQTpLWrwYziPLqwTqK4ZT7",
         "txns_24h": {
-          "buys": 11648,
-          "sells": 11908
+          "buys": 11580,
+          "sells": 11874
         },
-        "fdv_usd": 60450070,
-        "total_reserve_in_usd": 528172.52,
+        "fdv_usd": 59741160,
+        "total_reserve_in_usd": 522198.83,
         "tags": [
           "moonshot"
         ],
@@ -580,7 +869,7 @@
               {
                 "token_address": "oreoU2P8bN6jkk3jbaiVxYnG1dCXcYxwhwyK9jSybcp",
                 "balance": 0,
-                "token_price": 225.24,
+                "token_price": 222.6,
                 "token_decimals": 11,
                 "token_symbol": "ORE",
                 "token_name": "ORE",
@@ -596,7 +885,7 @@
               {
                 "token_address": "oreoU2P8bN6jkk3jbaiVxYnG1dCXcYxwhwyK9jSybcp",
                 "balance": 0,
-                "token_price": 225.24,
+                "token_price": 222.6,
                 "token_decimals": 11,
                 "token_symbol": "ORE",
                 "token_name": "ORE",
