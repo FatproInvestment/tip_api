@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-11-19T08:56:28.624Z",
+  "timestamp": "2025-11-19T09:16:18.316Z",
   "data": [
     {
       "address": "8NfK7b9u1RvMpHJnAnZki4mNQwjhvzrVZs7bRQatpump",
@@ -12,10 +12,10 @@
       "website": "https://www.tiktok.com/search?q=The%20Lion&t=1758671644565",
       "twitter": "",
       "holder": 4195,
-      "market_cap": 705423,
-      "price": 0.0007054,
-      "price_change_24h": 41.48,
-      "volume_24h": 117129.14,
+      "market_cap": 652938,
+      "price": 0.000653,
+      "price_change_24h": 31.85,
+      "volume_24h": 120524.95,
       "pool_address": "solana_HnXNdEk9sUXvN12UrQuCCXc267BWM1n472DhcvJMJ35",
       "ath": 0.009850154266117472,
       "ath_timestamp": 1760400000,
@@ -23,11 +23,11 @@
       "dexId": "pumpswap",
       "pairAddress": "HnXNdEk9sUXvN12UrQuCCXc267BWM1n472DhcvJMJ35",
       "txns_24h": {
-        "buys": 698,
-        "sells": 520
+        "buys": 720,
+        "sells": 526
       },
-      "fdv_usd": 705423,
-      "total_reserve_in_usd": 127352.96,
+      "fdv_usd": 652938,
+      "total_reserve_in_usd": 122377.79,
       "tags": [
         "moonshot"
       ],
@@ -37,8 +37,18 @@
       },
       "metrics": {
         "uniqueWallets": 1,
-        "inflow24h": 999,
+        "inflow24h": -150.687855360424,
         "trades": [
+          {
+            "timestamp": "2025-11-19T09:09:28.000Z",
+            "type": "SELL",
+            "amount": 1692335.716476,
+            "usdValue": 1149.687855360424,
+            "wallet": {
+              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+              "name": "凉粉小刀"
+            }
+          },
           {
             "timestamp": "2025-11-19T07:30:40.000Z",
             "type": "BUY",
@@ -59,12 +69,12 @@
           "tokens": [
             {
               "token_address": "8NfK7b9u1RvMpHJnAnZki4mNQwjhvzrVZs7bRQatpump",
-              "balance": 1692335.716476,
-              "token_price": 0.0007054,
+              "balance": 0,
+              "token_price": 0.000653,
               "token_decimals": 6,
               "token_symbol": "LION",
               "token_name": "The Lion",
-              "value": 1193.7736144021703
+              "value": 0
             }
           ]
         }
@@ -73,7 +83,8 @@
   ],
   "groups": {
     "latestSignals": [],
-    "buys": [
+    "buys": [],
+    "sells": [
       {
         "address": "8NfK7b9u1RvMpHJnAnZki4mNQwjhvzrVZs7bRQatpump",
         "symbol": "LION",
@@ -84,10 +95,10 @@
         "website": "https://www.tiktok.com/search?q=The%20Lion&t=1758671644565",
         "twitter": "",
         "holder": 4195,
-        "market_cap": 705423,
-        "price": 0.0007054,
-        "price_change_24h": 41.48,
-        "volume_24h": 117129.14,
+        "market_cap": 652938,
+        "price": 0.000653,
+        "price_change_24h": 31.85,
+        "volume_24h": 120524.95,
         "pool_address": "solana_HnXNdEk9sUXvN12UrQuCCXc267BWM1n472DhcvJMJ35",
         "ath": 0.009850154266117472,
         "ath_timestamp": 1760400000,
@@ -95,11 +106,11 @@
         "dexId": "pumpswap",
         "pairAddress": "HnXNdEk9sUXvN12UrQuCCXc267BWM1n472DhcvJMJ35",
         "txns_24h": {
-          "buys": 698,
-          "sells": 520
+          "buys": 720,
+          "sells": 526
         },
-        "fdv_usd": 705423,
-        "total_reserve_in_usd": 127352.96,
+        "fdv_usd": 652938,
+        "total_reserve_in_usd": 122377.79,
         "tags": [
           "moonshot"
         ],
@@ -109,8 +120,18 @@
         },
         "metrics": {
           "uniqueWallets": 1,
-          "inflow24h": 999,
+          "inflow24h": -150.687855360424,
           "trades": [
+            {
+              "timestamp": "2025-11-19T09:09:28.000Z",
+              "type": "SELL",
+              "amount": 1692335.716476,
+              "usdValue": 1149.687855360424,
+              "wallet": {
+                "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+                "name": "凉粉小刀"
+              }
+            },
             {
               "timestamp": "2025-11-19T07:30:40.000Z",
               "type": "BUY",
@@ -131,18 +152,17 @@
             "tokens": [
               {
                 "token_address": "8NfK7b9u1RvMpHJnAnZki4mNQwjhvzrVZs7bRQatpump",
-                "balance": 1692335.716476,
-                "token_price": 0.0007054,
+                "balance": 0,
+                "token_price": 0.000653,
                 "token_decimals": 6,
                 "token_symbol": "LION",
                 "token_name": "The Lion",
-                "value": 1193.7736144021703
+                "value": 0
               }
             ]
           }
         ]
       }
-    ],
-    "sells": []
+    ]
   }
 }
