@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-11-25T06:35:49.348Z",
+  "timestamp": "2025-11-25T06:55:40.962Z",
   "data": [
     {
       "address": "Hxai4E6xQdtQJXZJTfs67mdFGfF22y78ut9heLHpqUSA",
@@ -12,10 +12,10 @@
       "website": "https://america.game",
       "twitter": "https://x.com/americadotgame",
       "holder": 657,
-      "market_cap": 1330166,
-      "price": 0.00133,
-      "price_change_24h": 1985,
-      "volume_24h": 1198844.62,
+      "market_cap": 1485082,
+      "price": 0.001485,
+      "price_change_24h": 2228,
+      "volume_24h": 1211330.43,
       "pool_address": "solana_6Arq5QqM5ijQdtNdixPW6w1ZuPdjp9u5Wd97DH7VJSiV",
       "ath": 0.0017219211590327286,
       "ath_timestamp": 1764046800,
@@ -23,11 +23,11 @@
       "dexId": "raydium",
       "pairAddress": "6Arq5QqM5ijQdtNdixPW6w1ZuPdjp9u5Wd97DH7VJSiV",
       "txns_24h": {
-        "buys": 3936,
-        "sells": 3819
+        "buys": 3973,
+        "sells": 3847
       },
-      "fdv_usd": 1330166,
-      "total_reserve_in_usd": 120236.59,
+      "fdv_usd": 1485082,
+      "total_reserve_in_usd": 127112.04,
       "tags": [],
       "first_signal": {
         "timestamp": 1764037477,
@@ -35,8 +35,18 @@
       },
       "metrics": {
         "uniqueWallets": 2,
-        "inflow24h": -4734.262219815835,
+        "inflow24h": -4642.006609161959,
         "trades": [
+          {
+            "timestamp": "2025-11-25T06:41:10.000Z",
+            "type": "BUY",
+            "amount": 66927.827663,
+            "usdValue": 92.25561065387754,
+            "wallet": {
+              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+              "name": "OGmoodeng"
+            }
+          },
           {
             "timestamp": "2025-11-25T02:03:51.000Z",
             "type": "SWAP",
@@ -81,6 +91,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+          "name": "OGmoodeng",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "Hxai4E6xQdtQJXZJTfs67mdFGfF22y78ut9heLHpqUSA",
+              "balance": 1623626.65751,
+              "token_price": 0.001485,
+              "token_decimals": 6,
+              "token_symbol": "$US",
+              "token_name": "America: The Game",
+              "value": 2411.08558640235
+            }
+          ]
+        },
+        {
           "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
           "name": "cooker",
           "score": 2,
@@ -88,27 +114,11 @@
             {
               "token_address": "Hxai4E6xQdtQJXZJTfs67mdFGfF22y78ut9heLHpqUSA",
               "balance": 0,
-              "token_price": 0.00133,
+              "token_price": 0.001485,
               "token_decimals": 6,
               "token_symbol": "$US",
               "token_name": "America: The Game",
               "value": 0
-            }
-          ]
-        },
-        {
-          "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-          "name": "OGmoodeng",
-          "score": 2,
-          "tokens": [
-            {
-              "token_address": "Hxai4E6xQdtQJXZJTfs67mdFGfF22y78ut9heLHpqUSA",
-              "balance": 1556698.829847,
-              "token_price": 0.00133,
-              "token_decimals": 6,
-              "token_symbol": "$US",
-              "token_name": "America: The Game",
-              "value": 2070.40944369651
             }
           ]
         }
@@ -124,10 +134,10 @@
       "website": "",
       "twitter": "https://x.com/i/communities/1993031094766121194",
       "holder": 644,
-      "market_cap": 68058,
-      "price": 6.805e-05,
-      "price_change_24h": 20.78,
-      "volume_24h": 967627.26,
+      "market_cap": 65727,
+      "price": 6.572e-05,
+      "price_change_24h": 16.65,
+      "volume_24h": 971987.93,
       "pool_address": "solana_4n3M9mUXjAXY8JP84QuSfyABxxB3hrAQj8UjTmY9DW6k",
       "ath": 0.0002553192740721955,
       "ath_timestamp": 1764025200,
@@ -138,11 +148,11 @@
         "active": 10
       },
       "txns_24h": {
-        "buys": 9227,
-        "sells": 6402
+        "buys": 9275,
+        "sells": 6439
       },
-      "fdv_usd": 68058,
-      "total_reserve_in_usd": 26859.63,
+      "fdv_usd": 65727,
+      "total_reserve_in_usd": 26433.74,
       "tags": [],
       "first_signal": {
         "timestamp": 1764017184,
@@ -303,7 +313,7 @@
             {
               "token_address": "4wVtRm2CExz1CN3jp8ujNNhiCSKMVerdYPTXTby4pump",
               "balance": 0,
-              "token_price": 6.805e-05,
+              "token_price": 6.572e-05,
               "token_decimals": 6,
               "token_symbol": "bsadnqtri[",
               "token_name": "ghavupgcwoghpawhecuwhmvwhta",
@@ -319,7 +329,7 @@
             {
               "token_address": "4wVtRm2CExz1CN3jp8ujNNhiCSKMVerdYPTXTby4pump",
               "balance": 0,
-              "token_price": 6.805e-05,
+              "token_price": 6.572e-05,
               "token_decimals": 6,
               "token_symbol": "bsadnqtri[",
               "token_name": "ghavupgcwoghpawhecuwhmvwhta",
@@ -339,10 +349,10 @@
       "website": "",
       "twitter": "https://x.com/i/communities/1964847225126748559",
       "holder": 12081,
-      "market_cap": 27255718,
-      "price": 0.02726,
-      "price_change_24h": 45.82,
-      "volume_24h": 2622212.12,
+      "market_cap": 27272070,
+      "price": 0.02728,
+      "price_change_24h": 41.08,
+      "volume_24h": 2601415.63,
       "pool_address": "solana_DMAFL613XTipuA3jFNYczavWT7XsiYf9cR3qmRMZQhB6",
       "ath": 0.044470507921312574,
       "ath_timestamp": 1763424000,
@@ -350,11 +360,11 @@
       "dexId": "pumpswap",
       "pairAddress": "DMAFL613XTipuA3jFNYczavWT7XsiYf9cR3qmRMZQhB6",
       "txns_24h": {
-        "buys": 5112,
-        "sells": 5500
+        "buys": 5072,
+        "sells": 5457
       },
-      "fdv_usd": 27255718,
-      "total_reserve_in_usd": 867125.65,
+      "fdv_usd": 27272070,
+      "total_reserve_in_usd": 868277.57,
       "tags": [
         "moonshot"
       ],
@@ -407,11 +417,11 @@
             {
               "token_address": "9AvytnUKsLxPxFHFqS6VLxaxt5p6BhYNr53SD2Chpump",
               "balance": 633934.506283,
-              "token_price": 0.02726,
+              "token_price": 0.02728,
               "token_decimals": 6,
               "token_symbol": "67",
               "token_name": "The Official 67 Coin",
-              "value": 17281.05464127458
+              "value": 17293.73333140024
             }
           ]
         }
@@ -427,10 +437,10 @@
       "website": "",
       "twitter": "",
       "holder": 414,
-      "market_cap": 23072,
-      "price": 2.348e-05,
-      "price_change_24h": 126,
-      "volume_24h": 282410.21,
+      "market_cap": 23235,
+      "price": 2.364e-05,
+      "price_change_24h": 127,
+      "volume_24h": 283280.56,
       "pool_address": "solana_CLwbMfT7kAqbEsBCy4xcMhAc2m5kynqwhBxpCGd6rwuS",
       "ath": 0.0001868,
       "ath_timestamp": 1764012587,
@@ -441,11 +451,11 @@
         "active": 10
       },
       "txns_24h": {
-        "buys": 1526,
-        "sells": 1094
+        "buys": 1531,
+        "sells": 1099
       },
-      "fdv_usd": 23072,
-      "total_reserve_in_usd": 16820.57,
+      "fdv_usd": 23235,
+      "total_reserve_in_usd": 16890.47,
       "tags": [],
       "first_signal": {
         "timestamp": 1764012581,
@@ -526,7 +536,7 @@
             {
               "token_address": "nevGs9Yyuu1UvvDCZkDgBjzVVxgCMjsB8t6jLekpump",
               "balance": 0,
-              "token_price": 2.348e-05,
+              "token_price": 2.364e-05,
               "token_decimals": 6,
               "token_symbol": "ONODA",
               "token_name": "Japanese Soldier",
@@ -542,7 +552,7 @@
             {
               "token_address": "nevGs9Yyuu1UvvDCZkDgBjzVVxgCMjsB8t6jLekpump",
               "balance": 0,
-              "token_price": 2.348e-05,
+              "token_price": 2.364e-05,
               "token_decimals": 6,
               "token_symbol": "ONODA",
               "token_name": "Japanese Soldier",
@@ -565,10 +575,10 @@
         "website": "https://america.game",
         "twitter": "https://x.com/americadotgame",
         "holder": 657,
-        "market_cap": 1330166,
-        "price": 0.00133,
-        "price_change_24h": 1985,
-        "volume_24h": 1198844.62,
+        "market_cap": 1485082,
+        "price": 0.001485,
+        "price_change_24h": 2228,
+        "volume_24h": 1211330.43,
         "pool_address": "solana_6Arq5QqM5ijQdtNdixPW6w1ZuPdjp9u5Wd97DH7VJSiV",
         "ath": 0.0017219211590327286,
         "ath_timestamp": 1764046800,
@@ -576,11 +586,11 @@
         "dexId": "raydium",
         "pairAddress": "6Arq5QqM5ijQdtNdixPW6w1ZuPdjp9u5Wd97DH7VJSiV",
         "txns_24h": {
-          "buys": 3936,
-          "sells": 3819
+          "buys": 3973,
+          "sells": 3847
         },
-        "fdv_usd": 1330166,
-        "total_reserve_in_usd": 120236.59,
+        "fdv_usd": 1485082,
+        "total_reserve_in_usd": 127112.04,
         "tags": [],
         "first_signal": {
           "timestamp": 1764037477,
@@ -588,8 +598,18 @@
         },
         "metrics": {
           "uniqueWallets": 2,
-          "inflow24h": -4734.262219815835,
+          "inflow24h": -4642.006609161959,
           "trades": [
+            {
+              "timestamp": "2025-11-25T06:41:10.000Z",
+              "type": "BUY",
+              "amount": 66927.827663,
+              "usdValue": 92.25561065387754,
+              "wallet": {
+                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+                "name": "OGmoodeng"
+              }
+            },
             {
               "timestamp": "2025-11-25T02:03:51.000Z",
               "type": "SWAP",
@@ -634,6 +654,22 @@
         },
         "walletPortfolios": [
           {
+            "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+            "name": "OGmoodeng",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "Hxai4E6xQdtQJXZJTfs67mdFGfF22y78ut9heLHpqUSA",
+                "balance": 1623626.65751,
+                "token_price": 0.001485,
+                "token_decimals": 6,
+                "token_symbol": "$US",
+                "token_name": "America: The Game",
+                "value": 2411.08558640235
+              }
+            ]
+          },
+          {
             "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
             "name": "cooker",
             "score": 2,
@@ -641,27 +677,11 @@
               {
                 "token_address": "Hxai4E6xQdtQJXZJTfs67mdFGfF22y78ut9heLHpqUSA",
                 "balance": 0,
-                "token_price": 0.00133,
+                "token_price": 0.001485,
                 "token_decimals": 6,
                 "token_symbol": "$US",
                 "token_name": "America: The Game",
                 "value": 0
-              }
-            ]
-          },
-          {
-            "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-            "name": "OGmoodeng",
-            "score": 2,
-            "tokens": [
-              {
-                "token_address": "Hxai4E6xQdtQJXZJTfs67mdFGfF22y78ut9heLHpqUSA",
-                "balance": 1556698.829847,
-                "token_price": 0.00133,
-                "token_decimals": 6,
-                "token_symbol": "$US",
-                "token_name": "America: The Game",
-                "value": 2070.40944369651
               }
             ]
           }
@@ -677,10 +697,10 @@
         "website": "",
         "twitter": "https://x.com/i/communities/1993031094766121194",
         "holder": 644,
-        "market_cap": 68058,
-        "price": 6.805e-05,
-        "price_change_24h": 20.78,
-        "volume_24h": 967627.26,
+        "market_cap": 65727,
+        "price": 6.572e-05,
+        "price_change_24h": 16.65,
+        "volume_24h": 971987.93,
         "pool_address": "solana_4n3M9mUXjAXY8JP84QuSfyABxxB3hrAQj8UjTmY9DW6k",
         "ath": 0.0002553192740721955,
         "ath_timestamp": 1764025200,
@@ -691,11 +711,11 @@
           "active": 10
         },
         "txns_24h": {
-          "buys": 9227,
-          "sells": 6402
+          "buys": 9275,
+          "sells": 6439
         },
-        "fdv_usd": 68058,
-        "total_reserve_in_usd": 26859.63,
+        "fdv_usd": 65727,
+        "total_reserve_in_usd": 26433.74,
         "tags": [],
         "first_signal": {
           "timestamp": 1764017184,
@@ -856,7 +876,7 @@
               {
                 "token_address": "4wVtRm2CExz1CN3jp8ujNNhiCSKMVerdYPTXTby4pump",
                 "balance": 0,
-                "token_price": 6.805e-05,
+                "token_price": 6.572e-05,
                 "token_decimals": 6,
                 "token_symbol": "bsadnqtri[",
                 "token_name": "ghavupgcwoghpawhecuwhmvwhta",
@@ -872,7 +892,7 @@
               {
                 "token_address": "4wVtRm2CExz1CN3jp8ujNNhiCSKMVerdYPTXTby4pump",
                 "balance": 0,
-                "token_price": 6.805e-05,
+                "token_price": 6.572e-05,
                 "token_decimals": 6,
                 "token_symbol": "bsadnqtri[",
                 "token_name": "ghavupgcwoghpawhecuwhmvwhta",
@@ -892,10 +912,10 @@
         "website": "",
         "twitter": "",
         "holder": 414,
-        "market_cap": 23072,
-        "price": 2.348e-05,
-        "price_change_24h": 126,
-        "volume_24h": 282410.21,
+        "market_cap": 23235,
+        "price": 2.364e-05,
+        "price_change_24h": 127,
+        "volume_24h": 283280.56,
         "pool_address": "solana_CLwbMfT7kAqbEsBCy4xcMhAc2m5kynqwhBxpCGd6rwuS",
         "ath": 0.0001868,
         "ath_timestamp": 1764012587,
@@ -906,11 +926,11 @@
           "active": 10
         },
         "txns_24h": {
-          "buys": 1526,
-          "sells": 1094
+          "buys": 1531,
+          "sells": 1099
         },
-        "fdv_usd": 23072,
-        "total_reserve_in_usd": 16820.57,
+        "fdv_usd": 23235,
+        "total_reserve_in_usd": 16890.47,
         "tags": [],
         "first_signal": {
           "timestamp": 1764012581,
@@ -991,7 +1011,7 @@
               {
                 "token_address": "nevGs9Yyuu1UvvDCZkDgBjzVVxgCMjsB8t6jLekpump",
                 "balance": 0,
-                "token_price": 2.348e-05,
+                "token_price": 2.364e-05,
                 "token_decimals": 6,
                 "token_symbol": "ONODA",
                 "token_name": "Japanese Soldier",
@@ -1007,7 +1027,7 @@
               {
                 "token_address": "nevGs9Yyuu1UvvDCZkDgBjzVVxgCMjsB8t6jLekpump",
                 "balance": 0,
-                "token_price": 2.348e-05,
+                "token_price": 2.364e-05,
                 "token_decimals": 6,
                 "token_symbol": "ONODA",
                 "token_name": "Japanese Soldier",
@@ -1029,10 +1049,10 @@
         "website": "",
         "twitter": "https://x.com/i/communities/1964847225126748559",
         "holder": 12081,
-        "market_cap": 27255718,
-        "price": 0.02726,
-        "price_change_24h": 45.82,
-        "volume_24h": 2622212.12,
+        "market_cap": 27272070,
+        "price": 0.02728,
+        "price_change_24h": 41.08,
+        "volume_24h": 2601415.63,
         "pool_address": "solana_DMAFL613XTipuA3jFNYczavWT7XsiYf9cR3qmRMZQhB6",
         "ath": 0.044470507921312574,
         "ath_timestamp": 1763424000,
@@ -1040,11 +1060,11 @@
         "dexId": "pumpswap",
         "pairAddress": "DMAFL613XTipuA3jFNYczavWT7XsiYf9cR3qmRMZQhB6",
         "txns_24h": {
-          "buys": 5112,
-          "sells": 5500
+          "buys": 5072,
+          "sells": 5457
         },
-        "fdv_usd": 27255718,
-        "total_reserve_in_usd": 867125.65,
+        "fdv_usd": 27272070,
+        "total_reserve_in_usd": 868277.57,
         "tags": [
           "moonshot"
         ],
@@ -1097,11 +1117,11 @@
               {
                 "token_address": "9AvytnUKsLxPxFHFqS6VLxaxt5p6BhYNr53SD2Chpump",
                 "balance": 633934.506283,
-                "token_price": 0.02726,
+                "token_price": 0.02728,
                 "token_decimals": 6,
                 "token_symbol": "67",
                 "token_name": "The Official 67 Coin",
-                "value": 17281.05464127458
+                "value": 17293.73333140024
               }
             ]
           }
