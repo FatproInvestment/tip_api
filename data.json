@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-11-27T06:00:20.551Z",
+  "timestamp": "2025-11-27T06:36:48.514Z",
   "data": [
     {
       "address": "CKyngN43ZPTmR8hKmpzGixUAYBNCmDSQ5tJNabktbonk",
@@ -11,11 +11,11 @@
       "created_time": 1762490239,
       "website": "",
       "twitter": "https://x.com/OnchainRamsay/status/1986653997080715386",
-      "holder": 1085,
-      "market_cap": 606072,
-      "price": 0.02886,
-      "price_change_24h": -4.45,
-      "volume_24h": 977244.95,
+      "holder": 1104,
+      "market_cap": 676637,
+      "price": 0.03222,
+      "price_change_24h": -2.01,
+      "volume_24h": 943956.58,
       "pool_address": "solana_H4xQ47MmQh66NXtqNyQmHHNRA4pxu81JYRvAZdBqgBzZ",
       "ath": 0.04199,
       "ath_timestamp": 1764159998,
@@ -23,11 +23,11 @@
       "dexId": "raydium",
       "pairAddress": "H4xQ47MmQh66NXtqNyQmHHNRA4pxu81JYRvAZdBqgBzZ",
       "txns_24h": {
-        "buys": 3925,
-        "sells": 3406
+        "buys": 3830,
+        "sells": 3347
       },
-      "fdv_usd": 606072,
-      "total_reserve_in_usd": 118820.33,
+      "fdv_usd": 676637,
+      "total_reserve_in_usd": 125570.97,
       "tags": [],
       "first_signal": {
         "timestamp": 1764159991,
@@ -35,8 +35,18 @@
       },
       "metrics": {
         "uniqueWallets": 2,
-        "inflow24h": -882.9361339854448,
+        "inflow24h": -786.7807433341295,
         "trades": [
+          {
+            "timestamp": "2025-11-27T06:20:29.000Z",
+            "type": "BUY",
+            "amount": 3271.733975,
+            "usdValue": 96.15539065131527,
+            "wallet": {
+              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+              "name": "OGmoodeng"
+            }
+          },
           {
             "timestamp": "2025-11-27T03:10:59.000Z",
             "type": "SELL",
@@ -77,12 +87,12 @@
           "tokens": [
             {
               "token_address": "CKyngN43ZPTmR8hKmpzGixUAYBNCmDSQ5tJNabktbonk",
-              "balance": 0,
-              "token_price": 0.02886,
+              "balance": 3271.733975,
+              "token_price": 0.03222,
               "token_decimals": 6,
               "token_symbol": "USACoin",
               "token_name": "USACoin",
-              "value": 0
+              "value": 105.4152686745
             }
           ]
         },
@@ -94,129 +104,11 @@
             {
               "token_address": "CKyngN43ZPTmR8hKmpzGixUAYBNCmDSQ5tJNabktbonk",
               "balance": 193571.549727,
-              "token_price": 0.02886,
+              "token_price": 0.03222,
               "token_decimals": 6,
               "token_symbol": "USACoin",
               "token_name": "USACoin",
-              "value": 5586.474925121221
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "address": "METAwkXcqyXKy1AtsSgJ8JiUHwGCafnZL38n3vYmeta",
-      "symbol": "META",
-      "name": "MetaDAO",
-      "decimals": 6,
-      "icon": "https://raw.githubusercontent.com/metaDAOproject/futarchy/refs/heads/develop/scripts/assets/META/META.png",
-      "created_time": 1754525722,
-      "website": "",
-      "twitter": "",
-      "holder": 4354,
-      "market_cap": 124693924,
-      "price": 5.63,
-      "price_change_24h": 3.76,
-      "volume_24h": 565417.15,
-      "pool_address": "solana_EXpXkwcWDhjEYyC5pfNfxsu8fUtK4CDCYTZR4ApQNRzo",
-      "ath": 10.54684412218773,
-      "ath_timestamp": 1761436800,
-      "ath_pool": "EXpXkwcWDhjEYyC5pfNfxsu8fUtK4CDCYTZR4ApQNRzo",
-      "dexId": "meteora",
-      "pairAddress": "EXpXkwcWDhjEYyC5pfNfxsu8fUtK4CDCYTZR4ApQNRzo",
-      "txns_24h": {
-        "buys": 697,
-        "sells": 820
-      },
-      "fdv_usd": 124693924,
-      "total_reserve_in_usd": 2714732.22,
-      "tags": [
-        "moonshot"
-      ],
-      "first_signal": {
-        "timestamp": 1761416411,
-        "price": 10.08
-      },
-      "metrics": {
-        "uniqueWallets": 1,
-        "inflow24h": 5250.971672882427,
-        "trades": [
-          {
-            "timestamp": "2025-11-26T06:03:30.000Z",
-            "type": "BUY",
-            "amount": 33.894363,
-            "usdValue": 184.767399,
-            "wallet": {
-              "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
-              "name": "Wizard100x"
-            }
-          },
-          {
-            "timestamp": "2025-11-26T06:01:13.000Z",
-            "type": "BUY",
-            "amount": 127.188422,
-            "usdValue": 695.0109258824273,
-            "wallet": {
-              "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
-              "name": "Wizard100x"
-            }
-          },
-          {
-            "timestamp": "2025-11-26T06:01:03.000Z",
-            "type": "BUY",
-            "amount": 240.4777,
-            "usdValue": 1310.450226,
-            "wallet": {
-              "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
-              "name": "Wizard100x"
-            }
-          },
-          {
-            "timestamp": "2025-11-26T06:00:56.000Z",
-            "type": "BUY",
-            "amount": 183.381946,
-            "usdValue": 999,
-            "wallet": {
-              "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
-              "name": "Wizard100x"
-            }
-          },
-          {
-            "timestamp": "2025-11-26T06:00:49.000Z",
-            "type": "BUY",
-            "amount": 183.431943,
-            "usdValue": 999,
-            "wallet": {
-              "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
-              "name": "Wizard100x"
-            }
-          },
-          {
-            "timestamp": "2025-11-26T06:00:13.000Z",
-            "type": "BUY",
-            "amount": 195.191079,
-            "usdValue": 1062.743122,
-            "wallet": {
-              "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
-              "name": "Wizard100x"
-            }
-          }
-        ]
-      },
-      "walletPortfolios": [
-        {
-          "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
-          "name": "Wizard100x",
-          "score": 3,
-          "tokens": [
-            {
-              "token_address": "METAwkXcqyXKy1AtsSgJ8JiUHwGCafnZL38n3vYmeta",
-              "balance": 1698.01112,
-              "token_price": 5.63,
-              "token_decimals": 6,
-              "token_symbol": "META",
-              "token_name": "MetaDAO",
-              "value": 9559.8026056
+              "value": 6236.87533220394
             }
           ]
         }
@@ -234,11 +126,11 @@
         "created_time": 1762490239,
         "website": "",
         "twitter": "https://x.com/OnchainRamsay/status/1986653997080715386",
-        "holder": 1085,
-        "market_cap": 606072,
-        "price": 0.02886,
-        "price_change_24h": -4.45,
-        "volume_24h": 977244.95,
+        "holder": 1104,
+        "market_cap": 676637,
+        "price": 0.03222,
+        "price_change_24h": -2.01,
+        "volume_24h": 943956.58,
         "pool_address": "solana_H4xQ47MmQh66NXtqNyQmHHNRA4pxu81JYRvAZdBqgBzZ",
         "ath": 0.04199,
         "ath_timestamp": 1764159998,
@@ -246,11 +138,11 @@
         "dexId": "raydium",
         "pairAddress": "H4xQ47MmQh66NXtqNyQmHHNRA4pxu81JYRvAZdBqgBzZ",
         "txns_24h": {
-          "buys": 3925,
-          "sells": 3406
+          "buys": 3830,
+          "sells": 3347
         },
-        "fdv_usd": 606072,
-        "total_reserve_in_usd": 118820.33,
+        "fdv_usd": 676637,
+        "total_reserve_in_usd": 125570.97,
         "tags": [],
         "first_signal": {
           "timestamp": 1764159991,
@@ -258,8 +150,18 @@
         },
         "metrics": {
           "uniqueWallets": 2,
-          "inflow24h": -882.9361339854448,
+          "inflow24h": -786.7807433341295,
           "trades": [
+            {
+              "timestamp": "2025-11-27T06:20:29.000Z",
+              "type": "BUY",
+              "amount": 3271.733975,
+              "usdValue": 96.15539065131527,
+              "wallet": {
+                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+                "name": "OGmoodeng"
+              }
+            },
             {
               "timestamp": "2025-11-27T03:10:59.000Z",
               "type": "SELL",
@@ -300,12 +202,12 @@
             "tokens": [
               {
                 "token_address": "CKyngN43ZPTmR8hKmpzGixUAYBNCmDSQ5tJNabktbonk",
-                "balance": 0,
-                "token_price": 0.02886,
+                "balance": 3271.733975,
+                "token_price": 0.03222,
                 "token_decimals": 6,
                 "token_symbol": "USACoin",
                 "token_name": "USACoin",
-                "value": 0
+                "value": 105.4152686745
               }
             ]
           },
@@ -317,137 +219,18 @@
               {
                 "token_address": "CKyngN43ZPTmR8hKmpzGixUAYBNCmDSQ5tJNabktbonk",
                 "balance": 193571.549727,
-                "token_price": 0.02886,
+                "token_price": 0.03222,
                 "token_decimals": 6,
                 "token_symbol": "USACoin",
                 "token_name": "USACoin",
-                "value": 5586.474925121221
+                "value": 6236.87533220394
               }
             ]
           }
         ]
       }
     ],
-    "buys": [
-      {
-        "address": "METAwkXcqyXKy1AtsSgJ8JiUHwGCafnZL38n3vYmeta",
-        "symbol": "META",
-        "name": "MetaDAO",
-        "decimals": 6,
-        "icon": "https://raw.githubusercontent.com/metaDAOproject/futarchy/refs/heads/develop/scripts/assets/META/META.png",
-        "created_time": 1754525722,
-        "website": "",
-        "twitter": "",
-        "holder": 4354,
-        "market_cap": 124693924,
-        "price": 5.63,
-        "price_change_24h": 3.76,
-        "volume_24h": 565417.15,
-        "pool_address": "solana_EXpXkwcWDhjEYyC5pfNfxsu8fUtK4CDCYTZR4ApQNRzo",
-        "ath": 10.54684412218773,
-        "ath_timestamp": 1761436800,
-        "ath_pool": "EXpXkwcWDhjEYyC5pfNfxsu8fUtK4CDCYTZR4ApQNRzo",
-        "dexId": "meteora",
-        "pairAddress": "EXpXkwcWDhjEYyC5pfNfxsu8fUtK4CDCYTZR4ApQNRzo",
-        "txns_24h": {
-          "buys": 697,
-          "sells": 820
-        },
-        "fdv_usd": 124693924,
-        "total_reserve_in_usd": 2714732.22,
-        "tags": [
-          "moonshot"
-        ],
-        "first_signal": {
-          "timestamp": 1761416411,
-          "price": 10.08
-        },
-        "metrics": {
-          "uniqueWallets": 1,
-          "inflow24h": 5250.971672882427,
-          "trades": [
-            {
-              "timestamp": "2025-11-26T06:03:30.000Z",
-              "type": "BUY",
-              "amount": 33.894363,
-              "usdValue": 184.767399,
-              "wallet": {
-                "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
-                "name": "Wizard100x"
-              }
-            },
-            {
-              "timestamp": "2025-11-26T06:01:13.000Z",
-              "type": "BUY",
-              "amount": 127.188422,
-              "usdValue": 695.0109258824273,
-              "wallet": {
-                "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
-                "name": "Wizard100x"
-              }
-            },
-            {
-              "timestamp": "2025-11-26T06:01:03.000Z",
-              "type": "BUY",
-              "amount": 240.4777,
-              "usdValue": 1310.450226,
-              "wallet": {
-                "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
-                "name": "Wizard100x"
-              }
-            },
-            {
-              "timestamp": "2025-11-26T06:00:56.000Z",
-              "type": "BUY",
-              "amount": 183.381946,
-              "usdValue": 999,
-              "wallet": {
-                "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
-                "name": "Wizard100x"
-              }
-            },
-            {
-              "timestamp": "2025-11-26T06:00:49.000Z",
-              "type": "BUY",
-              "amount": 183.431943,
-              "usdValue": 999,
-              "wallet": {
-                "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
-                "name": "Wizard100x"
-              }
-            },
-            {
-              "timestamp": "2025-11-26T06:00:13.000Z",
-              "type": "BUY",
-              "amount": 195.191079,
-              "usdValue": 1062.743122,
-              "wallet": {
-                "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
-                "name": "Wizard100x"
-              }
-            }
-          ]
-        },
-        "walletPortfolios": [
-          {
-            "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
-            "name": "Wizard100x",
-            "score": 3,
-            "tokens": [
-              {
-                "token_address": "METAwkXcqyXKy1AtsSgJ8JiUHwGCafnZL38n3vYmeta",
-                "balance": 1698.01112,
-                "token_price": 5.63,
-                "token_decimals": 6,
-                "token_symbol": "META",
-                "token_name": "MetaDAO",
-                "value": 9559.8026056
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "buys": [],
     "sells": []
   }
 }
