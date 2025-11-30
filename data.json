@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-11-30T23:30:26.485Z",
+  "timestamp": "2025-11-30T23:40:05.137Z",
   "data": [
     {
       "address": "CKyngN43ZPTmR8hKmpzGixUAYBNCmDSQ5tJNabktbonk",
@@ -12,10 +12,10 @@
       "website": "",
       "twitter": "https://x.com/OnchainRamsay/status/1986653997080715386",
       "holder": 1585,
-      "market_cap": 875883,
-      "price": 0.0417,
-      "price_change_24h": -33.7,
-      "volume_24h": 950213.8,
+      "market_cap": 692617,
+      "price": 0.03298,
+      "price_change_24h": -47.65,
+      "volume_24h": 990073.59,
       "pool_address": "solana_H4xQ47MmQh66NXtqNyQmHHNRA4pxu81JYRvAZdBqgBzZ",
       "ath": 0.09761940679437328,
       "ath_timestamp": 1764460800,
@@ -23,11 +23,11 @@
       "dexId": "raydium",
       "pairAddress": "H4xQ47MmQh66NXtqNyQmHHNRA4pxu81JYRvAZdBqgBzZ",
       "txns_24h": {
-        "buys": 3171,
-        "sells": 2878
+        "buys": 3252,
+        "sells": 2945
       },
-      "fdv_usd": 875883,
-      "total_reserve_in_usd": 147578.55,
+      "fdv_usd": 692617,
+      "total_reserve_in_usd": 131369.98,
       "tags": [],
       "first_signal": {
         "timestamp": 1764159991,
@@ -35,8 +35,18 @@
       },
       "metrics": {
         "uniqueWallets": 2,
-        "inflow24h": -2033.196516484682,
+        "inflow24h": -2844.729452742152,
         "trades": [
+          {
+            "timestamp": "2025-11-30T23:33:22.000Z",
+            "type": "SELL",
+            "amount": 20000.399971,
+            "usdValue": 811.5329362574698,
+            "wallet": {
+              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+              "name": "DNF 哥"
+            }
+          },
           {
             "timestamp": "2025-11-30T20:46:13.000Z",
             "type": "BUY",
@@ -81,6 +91,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+          "name": "DNF 哥",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "CKyngN43ZPTmR8hKmpzGixUAYBNCmDSQ5tJNabktbonk",
+              "balance": 113335.599837,
+              "token_price": 0.03298,
+              "token_decimals": 6,
+              "token_symbol": "USACoin",
+              "token_name": "USACoin",
+              "value": 3737.8080826242604
+            }
+          ]
+        },
+        {
           "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
           "name": "OGmoodeng",
           "score": 2,
@@ -88,27 +114,11 @@
             {
               "token_address": "CKyngN43ZPTmR8hKmpzGixUAYBNCmDSQ5tJNabktbonk",
               "balance": 488.901934,
-              "token_price": 0.0417,
+              "token_price": 0.03298,
               "token_decimals": 6,
               "token_symbol": "USACoin",
               "token_name": "USACoin",
-              "value": 20.3872106478
-            }
-          ]
-        },
-        {
-          "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-          "name": "DNF 哥",
-          "score": 3,
-          "tokens": [
-            {
-              "token_address": "CKyngN43ZPTmR8hKmpzGixUAYBNCmDSQ5tJNabktbonk",
-              "balance": 133335.999808,
-              "token_price": 0.0417,
-              "token_decimals": 6,
-              "token_symbol": "USACoin",
-              "token_name": "USACoin",
-              "value": 5560.1111919936
+              "value": 16.123985783320002
             }
           ]
         }
@@ -117,7 +127,8 @@
   ],
   "groups": {
     "latestSignals": [],
-    "buys": [
+    "buys": [],
+    "sells": [
       {
         "address": "CKyngN43ZPTmR8hKmpzGixUAYBNCmDSQ5tJNabktbonk",
         "symbol": "USACoin",
@@ -128,10 +139,10 @@
         "website": "",
         "twitter": "https://x.com/OnchainRamsay/status/1986653997080715386",
         "holder": 1585,
-        "market_cap": 875883,
-        "price": 0.0417,
-        "price_change_24h": -33.7,
-        "volume_24h": 950213.8,
+        "market_cap": 692617,
+        "price": 0.03298,
+        "price_change_24h": -47.65,
+        "volume_24h": 990073.59,
         "pool_address": "solana_H4xQ47MmQh66NXtqNyQmHHNRA4pxu81JYRvAZdBqgBzZ",
         "ath": 0.09761940679437328,
         "ath_timestamp": 1764460800,
@@ -139,11 +150,11 @@
         "dexId": "raydium",
         "pairAddress": "H4xQ47MmQh66NXtqNyQmHHNRA4pxu81JYRvAZdBqgBzZ",
         "txns_24h": {
-          "buys": 3171,
-          "sells": 2878
+          "buys": 3252,
+          "sells": 2945
         },
-        "fdv_usd": 875883,
-        "total_reserve_in_usd": 147578.55,
+        "fdv_usd": 692617,
+        "total_reserve_in_usd": 131369.98,
         "tags": [],
         "first_signal": {
           "timestamp": 1764159991,
@@ -151,8 +162,18 @@
         },
         "metrics": {
           "uniqueWallets": 2,
-          "inflow24h": -2033.196516484682,
+          "inflow24h": -2844.729452742152,
           "trades": [
+            {
+              "timestamp": "2025-11-30T23:33:22.000Z",
+              "type": "SELL",
+              "amount": 20000.399971,
+              "usdValue": 811.5329362574698,
+              "wallet": {
+                "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+                "name": "DNF 哥"
+              }
+            },
             {
               "timestamp": "2025-11-30T20:46:13.000Z",
               "type": "BUY",
@@ -197,6 +218,22 @@
         },
         "walletPortfolios": [
           {
+            "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+            "name": "DNF 哥",
+            "score": 3,
+            "tokens": [
+              {
+                "token_address": "CKyngN43ZPTmR8hKmpzGixUAYBNCmDSQ5tJNabktbonk",
+                "balance": 113335.599837,
+                "token_price": 0.03298,
+                "token_decimals": 6,
+                "token_symbol": "USACoin",
+                "token_name": "USACoin",
+                "value": 3737.8080826242604
+              }
+            ]
+          },
+          {
             "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
             "name": "OGmoodeng",
             "score": 2,
@@ -204,33 +241,16 @@
               {
                 "token_address": "CKyngN43ZPTmR8hKmpzGixUAYBNCmDSQ5tJNabktbonk",
                 "balance": 488.901934,
-                "token_price": 0.0417,
+                "token_price": 0.03298,
                 "token_decimals": 6,
                 "token_symbol": "USACoin",
                 "token_name": "USACoin",
-                "value": 20.3872106478
-              }
-            ]
-          },
-          {
-            "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-            "name": "DNF 哥",
-            "score": 3,
-            "tokens": [
-              {
-                "token_address": "CKyngN43ZPTmR8hKmpzGixUAYBNCmDSQ5tJNabktbonk",
-                "balance": 133335.999808,
-                "token_price": 0.0417,
-                "token_decimals": 6,
-                "token_symbol": "USACoin",
-                "token_name": "USACoin",
-                "value": 5560.1111919936
+                "value": 16.123985783320002
               }
             ]
           }
         ]
       }
-    ],
-    "sells": []
+    ]
   }
 }
