@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-12-07T06:23:41.734Z",
+  "timestamp": "2025-12-07T06:45:32.888Z",
   "data": [
     {
       "address": "CSrwNk6B1DwWCHRMsaoDVUfD5bBMQCJPY72ZG3Nnpump",
@@ -12,10 +12,10 @@
       "website": "https://x.com/LevanInSolana/status/1995452066488058258?s=20",
       "twitter": "https://x.com/LevanInSolana/status/1995452066488058258?s=20",
       "holder": 7429,
-      "market_cap": 4927229,
-      "price": 0.004927,
-      "price_change_24h": -39.72,
-      "volume_24h": 14386161.34,
+      "market_cap": 4614367,
+      "price": 0.004614,
+      "price_change_24h": -44.86,
+      "volume_24h": 14417607.95,
       "pool_address": "solana_8wXzwpLjk6QJMYYC1VHueNnxRVW2nFGvQjgEnV4Mv8sY",
       "ath": 0.017830890765035693,
       "ath_timestamp": 1765033200,
@@ -23,11 +23,11 @@
       "dexId": "pumpswap",
       "pairAddress": "8wXzwpLjk6QJMYYC1VHueNnxRVW2nFGvQjgEnV4Mv8sY",
       "txns_24h": {
-        "buys": 39859,
-        "sells": 28667
+        "buys": 39978,
+        "sells": 28650
       },
-      "fdv_usd": 4927229,
-      "total_reserve_in_usd": 306179.4,
+      "fdv_usd": 4614367,
+      "total_reserve_in_usd": 296785.2,
       "tags": [
         "moonshot"
       ],
@@ -37,8 +37,48 @@
       },
       "metrics": {
         "uniqueWallets": 2,
-        "inflow24h": 16235.844372999996,
+        "inflow24h": 14454.722403,
         "trades": [
+          {
+            "timestamp": "2025-12-07T06:44:30.000Z",
+            "type": "SELL",
+            "amount": 100000,
+            "usdValue": 446.056742,
+            "wallet": {
+              "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
+              "name": "Wizard100x"
+            }
+          },
+          {
+            "timestamp": "2025-12-07T06:44:05.000Z",
+            "type": "SELL",
+            "amount": 100000,
+            "usdValue": 445.754752,
+            "wallet": {
+              "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
+              "name": "Wizard100x"
+            }
+          },
+          {
+            "timestamp": "2025-12-07T06:43:38.000Z",
+            "type": "SELL",
+            "amount": 100000,
+            "usdValue": 443.222762,
+            "wallet": {
+              "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
+              "name": "Wizard100x"
+            }
+          },
+          {
+            "timestamp": "2025-12-07T06:43:11.000Z",
+            "type": "SELL",
+            "amount": 100000,
+            "usdValue": 446.087714,
+            "wallet": {
+              "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
+              "name": "Wizard100x"
+            }
+          },
           {
             "timestamp": "2025-12-06T14:48:12.000Z",
             "type": "BUY",
@@ -373,6 +413,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
+          "name": "Wizard100x",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "CSrwNk6B1DwWCHRMsaoDVUfD5bBMQCJPY72ZG3Nnpump",
+              "balance": 1264569.227447,
+              "token_price": 0.004614,
+              "token_decimals": 6,
+              "token_symbol": "Franklin",
+              "token_name": "Franklin The Turtle",
+              "value": 5834.7224154404585
+            }
+          ]
+        },
+        {
           "address": "8KPzQg5DEJAGknj1AC8F7W4cmdXBzkHym6DydFwh4ynK",
           "name": "神中神",
           "score": 1,
@@ -380,27 +436,11 @@
             {
               "token_address": "CSrwNk6B1DwWCHRMsaoDVUfD5bBMQCJPY72ZG3Nnpump",
               "balance": 40198.246838,
-              "token_price": 0.004927,
+              "token_price": 0.004614,
               "token_decimals": 6,
               "token_symbol": "Franklin",
               "token_name": "Franklin The Turtle",
-              "value": 198.056762170826
-            }
-          ]
-        },
-        {
-          "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
-          "name": "Wizard100x",
-          "score": 3,
-          "tokens": [
-            {
-              "token_address": "CSrwNk6B1DwWCHRMsaoDVUfD5bBMQCJPY72ZG3Nnpump",
-              "balance": 1664569.227447,
-              "token_price": 0.004927,
-              "token_decimals": 6,
-              "token_symbol": "Franklin",
-              "token_name": "Franklin The Turtle",
-              "value": 8201.332583631369
+              "value": 185.474710910532
             }
           ]
         }
@@ -409,7 +449,8 @@
   ],
   "groups": {
     "latestSignals": [],
-    "buys": [
+    "buys": [],
+    "sells": [
       {
         "address": "CSrwNk6B1DwWCHRMsaoDVUfD5bBMQCJPY72ZG3Nnpump",
         "symbol": "Franklin",
@@ -420,10 +461,10 @@
         "website": "https://x.com/LevanInSolana/status/1995452066488058258?s=20",
         "twitter": "https://x.com/LevanInSolana/status/1995452066488058258?s=20",
         "holder": 7429,
-        "market_cap": 4927229,
-        "price": 0.004927,
-        "price_change_24h": -39.72,
-        "volume_24h": 14386161.34,
+        "market_cap": 4614367,
+        "price": 0.004614,
+        "price_change_24h": -44.86,
+        "volume_24h": 14417607.95,
         "pool_address": "solana_8wXzwpLjk6QJMYYC1VHueNnxRVW2nFGvQjgEnV4Mv8sY",
         "ath": 0.017830890765035693,
         "ath_timestamp": 1765033200,
@@ -431,11 +472,11 @@
         "dexId": "pumpswap",
         "pairAddress": "8wXzwpLjk6QJMYYC1VHueNnxRVW2nFGvQjgEnV4Mv8sY",
         "txns_24h": {
-          "buys": 39859,
-          "sells": 28667
+          "buys": 39978,
+          "sells": 28650
         },
-        "fdv_usd": 4927229,
-        "total_reserve_in_usd": 306179.4,
+        "fdv_usd": 4614367,
+        "total_reserve_in_usd": 296785.2,
         "tags": [
           "moonshot"
         ],
@@ -445,8 +486,48 @@
         },
         "metrics": {
           "uniqueWallets": 2,
-          "inflow24h": 16235.844372999996,
+          "inflow24h": 14454.722403,
           "trades": [
+            {
+              "timestamp": "2025-12-07T06:44:30.000Z",
+              "type": "SELL",
+              "amount": 100000,
+              "usdValue": 446.056742,
+              "wallet": {
+                "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
+                "name": "Wizard100x"
+              }
+            },
+            {
+              "timestamp": "2025-12-07T06:44:05.000Z",
+              "type": "SELL",
+              "amount": 100000,
+              "usdValue": 445.754752,
+              "wallet": {
+                "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
+                "name": "Wizard100x"
+              }
+            },
+            {
+              "timestamp": "2025-12-07T06:43:38.000Z",
+              "type": "SELL",
+              "amount": 100000,
+              "usdValue": 443.222762,
+              "wallet": {
+                "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
+                "name": "Wizard100x"
+              }
+            },
+            {
+              "timestamp": "2025-12-07T06:43:11.000Z",
+              "type": "SELL",
+              "amount": 100000,
+              "usdValue": 446.087714,
+              "wallet": {
+                "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
+                "name": "Wizard100x"
+              }
+            },
             {
               "timestamp": "2025-12-06T14:48:12.000Z",
               "type": "BUY",
@@ -781,6 +862,22 @@
         },
         "walletPortfolios": [
           {
+            "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
+            "name": "Wizard100x",
+            "score": 3,
+            "tokens": [
+              {
+                "token_address": "CSrwNk6B1DwWCHRMsaoDVUfD5bBMQCJPY72ZG3Nnpump",
+                "balance": 1264569.227447,
+                "token_price": 0.004614,
+                "token_decimals": 6,
+                "token_symbol": "Franklin",
+                "token_name": "Franklin The Turtle",
+                "value": 5834.7224154404585
+              }
+            ]
+          },
+          {
             "address": "8KPzQg5DEJAGknj1AC8F7W4cmdXBzkHym6DydFwh4ynK",
             "name": "神中神",
             "score": 1,
@@ -788,33 +885,16 @@
               {
                 "token_address": "CSrwNk6B1DwWCHRMsaoDVUfD5bBMQCJPY72ZG3Nnpump",
                 "balance": 40198.246838,
-                "token_price": 0.004927,
+                "token_price": 0.004614,
                 "token_decimals": 6,
                 "token_symbol": "Franklin",
                 "token_name": "Franklin The Turtle",
-                "value": 198.056762170826
-              }
-            ]
-          },
-          {
-            "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
-            "name": "Wizard100x",
-            "score": 3,
-            "tokens": [
-              {
-                "token_address": "CSrwNk6B1DwWCHRMsaoDVUfD5bBMQCJPY72ZG3Nnpump",
-                "balance": 1664569.227447,
-                "token_price": 0.004927,
-                "token_decimals": 6,
-                "token_symbol": "Franklin",
-                "token_name": "Franklin The Turtle",
-                "value": 8201.332583631369
+                "value": 185.474710910532
               }
             ]
           }
         ]
       }
-    ],
-    "sells": []
+    ]
   }
 }
