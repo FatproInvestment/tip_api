@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-12-23T13:58:05.397Z",
+  "timestamp": "2025-12-23T14:19:02.256Z",
   "data": [
     {
       "address": "864WM2kzNiM6cFqDeHs1pw6J2nGGRG1RuoAuxWJtpump",
@@ -12,10 +12,10 @@
       "website": "https://pumpfunv2.fun/",
       "twitter": "https://x.com/i/communities/2003191088689922072",
       "holder": 3620,
-      "market_cap": 2439016,
-      "price": 0.002439,
-      "price_change_24h": 4656,
-      "volume_24h": 7408670.56,
+      "market_cap": 2067039,
+      "price": 0.002067,
+      "price_change_24h": 3931,
+      "volume_24h": 7547125.33,
       "pool_address": "solana_4ZotbqiuwLKaAd9URshB1rLDSPpLasj6uSNGsBxFAKHg",
       "ath": 0.0027292910412392156,
       "ath_timestamp": 1766448000,
@@ -23,20 +23,40 @@
       "dexId": "pumpswap",
       "pairAddress": "4ZotbqiuwLKaAd9URshB1rLDSPpLasj6uSNGsBxFAKHg",
       "txns_24h": {
-        "buys": 37054,
-        "sells": 30230
+        "buys": 37715,
+        "sells": 30646
       },
-      "fdv_usd": 2439016,
-      "total_reserve_in_usd": 171827.42,
+      "fdv_usd": 2067039,
+      "total_reserve_in_usd": 158249.34,
       "tags": [],
       "first_signal": {
         "timestamp": 1766439717,
         "price": 0.0005731
       },
       "metrics": {
-        "uniqueWallets": 2,
-        "inflow24h": -11042.092265929663,
+        "uniqueWallets": 3,
+        "inflow24h": -9095.48532948778,
         "trades": [
+          {
+            "timestamp": "2025-12-23T14:15:24.000Z",
+            "type": "BUY",
+            "amount": 473250.640115,
+            "usdValue": 973.0246810078759,
+            "wallet": {
+              "address": "hrx1rPTK8akUcjRPMgQeGcH1hvQ76LhnrD3LkKCkR86",
+              "name": "4MILGOAT"
+            }
+          },
+          {
+            "timestamp": "2025-12-23T14:15:15.000Z",
+            "type": "BUY",
+            "amount": 476594.681332,
+            "usdValue": 973.5822554340068,
+            "wallet": {
+              "address": "hrx1rPTK8akUcjRPMgQeGcH1hvQ76LhnrD3LkKCkR86",
+              "name": "4MILGOAT"
+            }
+          },
           {
             "timestamp": "2025-12-23T09:25:02.000Z",
             "type": "SELL",
@@ -211,6 +231,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "hrx1rPTK8akUcjRPMgQeGcH1hvQ76LhnrD3LkKCkR86",
+          "name": "4MILGOAT",
+          "score": 1,
+          "tokens": [
+            {
+              "token_address": "864WM2kzNiM6cFqDeHs1pw6J2nGGRG1RuoAuxWJtpump",
+              "balance": 949845.321447,
+              "token_price": 0.002067,
+              "token_decimals": 6,
+              "token_symbol": "PUMPv2",
+              "token_name": "Pumpfun v2",
+              "value": 1963.3302794309488
+            }
+          ]
+        },
+        {
           "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
           "name": "cooker",
           "score": 2,
@@ -218,7 +254,7 @@
             {
               "token_address": "864WM2kzNiM6cFqDeHs1pw6J2nGGRG1RuoAuxWJtpump",
               "balance": 0,
-              "token_price": 0.002439,
+              "token_price": 0.002067,
               "token_decimals": 6,
               "token_symbol": "PUMPv2",
               "token_name": "Pumpfun v2",
@@ -234,11 +270,11 @@
             {
               "token_address": "864WM2kzNiM6cFqDeHs1pw6J2nGGRG1RuoAuxWJtpump",
               "balance": 269830.633571,
-              "token_price": 0.002439,
+              "token_price": 0.002067,
               "token_decimals": 6,
               "token_symbol": "PUMPv2",
               "token_name": "Pumpfun v2",
-              "value": 658.1169152796691
+              "value": 557.739919591257
             }
           ]
         }
@@ -257,10 +293,10 @@
         "website": "https://pumpfunv2.fun/",
         "twitter": "https://x.com/i/communities/2003191088689922072",
         "holder": 3620,
-        "market_cap": 2439016,
-        "price": 0.002439,
-        "price_change_24h": 4656,
-        "volume_24h": 7408670.56,
+        "market_cap": 2067039,
+        "price": 0.002067,
+        "price_change_24h": 3931,
+        "volume_24h": 7547125.33,
         "pool_address": "solana_4ZotbqiuwLKaAd9URshB1rLDSPpLasj6uSNGsBxFAKHg",
         "ath": 0.0027292910412392156,
         "ath_timestamp": 1766448000,
@@ -268,20 +304,40 @@
         "dexId": "pumpswap",
         "pairAddress": "4ZotbqiuwLKaAd9URshB1rLDSPpLasj6uSNGsBxFAKHg",
         "txns_24h": {
-          "buys": 37054,
-          "sells": 30230
+          "buys": 37715,
+          "sells": 30646
         },
-        "fdv_usd": 2439016,
-        "total_reserve_in_usd": 171827.42,
+        "fdv_usd": 2067039,
+        "total_reserve_in_usd": 158249.34,
         "tags": [],
         "first_signal": {
           "timestamp": 1766439717,
           "price": 0.0005731
         },
         "metrics": {
-          "uniqueWallets": 2,
-          "inflow24h": -11042.092265929663,
+          "uniqueWallets": 3,
+          "inflow24h": -9095.48532948778,
           "trades": [
+            {
+              "timestamp": "2025-12-23T14:15:24.000Z",
+              "type": "BUY",
+              "amount": 473250.640115,
+              "usdValue": 973.0246810078759,
+              "wallet": {
+                "address": "hrx1rPTK8akUcjRPMgQeGcH1hvQ76LhnrD3LkKCkR86",
+                "name": "4MILGOAT"
+              }
+            },
+            {
+              "timestamp": "2025-12-23T14:15:15.000Z",
+              "type": "BUY",
+              "amount": 476594.681332,
+              "usdValue": 973.5822554340068,
+              "wallet": {
+                "address": "hrx1rPTK8akUcjRPMgQeGcH1hvQ76LhnrD3LkKCkR86",
+                "name": "4MILGOAT"
+              }
+            },
             {
               "timestamp": "2025-12-23T09:25:02.000Z",
               "type": "SELL",
@@ -456,6 +512,22 @@
         },
         "walletPortfolios": [
           {
+            "address": "hrx1rPTK8akUcjRPMgQeGcH1hvQ76LhnrD3LkKCkR86",
+            "name": "4MILGOAT",
+            "score": 1,
+            "tokens": [
+              {
+                "token_address": "864WM2kzNiM6cFqDeHs1pw6J2nGGRG1RuoAuxWJtpump",
+                "balance": 949845.321447,
+                "token_price": 0.002067,
+                "token_decimals": 6,
+                "token_symbol": "PUMPv2",
+                "token_name": "Pumpfun v2",
+                "value": 1963.3302794309488
+              }
+            ]
+          },
+          {
             "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
             "name": "cooker",
             "score": 2,
@@ -463,7 +535,7 @@
               {
                 "token_address": "864WM2kzNiM6cFqDeHs1pw6J2nGGRG1RuoAuxWJtpump",
                 "balance": 0,
-                "token_price": 0.002439,
+                "token_price": 0.002067,
                 "token_decimals": 6,
                 "token_symbol": "PUMPv2",
                 "token_name": "Pumpfun v2",
@@ -479,11 +551,11 @@
               {
                 "token_address": "864WM2kzNiM6cFqDeHs1pw6J2nGGRG1RuoAuxWJtpump",
                 "balance": 269830.633571,
-                "token_price": 0.002439,
+                "token_price": 0.002067,
                 "token_decimals": 6,
                 "token_symbol": "PUMPv2",
                 "token_name": "Pumpfun v2",
-                "value": 658.1169152796691
+                "value": 557.739919591257
               }
             ]
           }
