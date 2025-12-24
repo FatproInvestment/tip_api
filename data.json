@@ -1,7 +1,155 @@
 {
   "success": true,
-  "timestamp": "2025-12-24T20:17:06.695Z",
+  "timestamp": "2025-12-24T20:36:19.113Z",
   "data": [
+    {
+      "address": "864WM2kzNiM6cFqDeHs1pw6J2nGGRG1RuoAuxWJtpump",
+      "symbol": "PUMPv2",
+      "name": "Pumpfun v2",
+      "decimals": 6,
+      "icon": "https://ipfs.io/ipfs/bafkreib6rw5phtwzvkfyjv5vwu3xpgsyykowdih3zjjuhvv4l5upzbswhq",
+      "created_time": 1766436971,
+      "website": "https://pumpfunv2.fun/",
+      "twitter": "https://x.com/i/communities/2003191088689922072",
+      "holder": 4251,
+      "market_cap": 1019711,
+      "price": 0.00102,
+      "price_change_24h": -39.63,
+      "volume_24h": 2173636.62,
+      "pool_address": "solana_4ZotbqiuwLKaAd9URshB1rLDSPpLasj6uSNGsBxFAKHg",
+      "ath": 0.003478236038524653,
+      "ath_timestamp": 1766448000,
+      "ath_pool": "4ZotbqiuwLKaAd9URshB1rLDSPpLasj6uSNGsBxFAKHg",
+      "dexId": "pumpswap",
+      "pairAddress": "4ZotbqiuwLKaAd9URshB1rLDSPpLasj6uSNGsBxFAKHg",
+      "txns_24h": {
+        "buys": 11667,
+        "sells": 8691
+      },
+      "fdv_usd": 1019711,
+      "total_reserve_in_usd": 117305.41,
+      "tags": [],
+      "first_signal": {
+        "timestamp": 1766439717,
+        "price": 0.0005731
+      },
+      "metrics": {
+        "uniqueWallets": 3,
+        "inflow24h": -1619.9368255416052,
+        "trades": [
+          {
+            "timestamp": "2025-12-24T20:23:02.000Z",
+            "type": "BUY",
+            "amount": 12546.379186,
+            "usdValue": 12.282600934200575,
+            "wallet": {
+              "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+              "name": "Ansem"
+            }
+          },
+          {
+            "timestamp": "2025-12-24T20:22:47.000Z",
+            "type": "BUY",
+            "amount": 132344.999599,
+            "usdValue": 122.82600934200575,
+            "wallet": {
+              "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+              "name": "Ansem"
+            }
+          },
+          {
+            "timestamp": "2025-12-24T20:09:38.000Z",
+            "type": "SWAP",
+            "amount": 461251.792692,
+            "usdValue": 450.283382,
+            "wallet": {
+              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+              "name": "凉粉小刀"
+            }
+          },
+          {
+            "timestamp": "2025-12-24T11:25:17.000Z",
+            "type": "SELL",
+            "amount": 474922.660724,
+            "usdValue": 867.0676350033115,
+            "wallet": {
+              "address": "hrx1rPTK8akUcjRPMgQeGcH1hvQ76LhnrD3LkKCkR86",
+              "name": "4MILGOAT"
+            }
+          },
+          {
+            "timestamp": "2025-12-24T11:25:07.000Z",
+            "type": "SELL",
+            "amount": 474922.660723,
+            "usdValue": 870.5011133526503,
+            "wallet": {
+              "address": "hrx1rPTK8akUcjRPMgQeGcH1hvQ76LhnrD3LkKCkR86",
+              "name": "4MILGOAT"
+            }
+          },
+          {
+            "timestamp": "2025-12-24T00:53:03.000Z",
+            "type": "BUY",
+            "amount": 191421.159121,
+            "usdValue": 432.8066945381501,
+            "wallet": {
+              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+              "name": "凉粉小刀"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+          "name": "Ansem",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "864WM2kzNiM6cFqDeHs1pw6J2nGGRG1RuoAuxWJtpump",
+              "balance": 3184614.476329,
+              "token_price": 0.00102,
+              "token_decimals": 6,
+              "token_symbol": "PUMPv2",
+              "token_name": "Pumpfun v2",
+              "value": 3248.3067658555806
+            }
+          ]
+        },
+        {
+          "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+          "name": "凉粉小刀",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "864WM2kzNiM6cFqDeHs1pw6J2nGGRG1RuoAuxWJtpump",
+              "balance": 0,
+              "token_price": 0.00102,
+              "token_decimals": 6,
+              "token_symbol": "PUMPv2",
+              "token_name": "Pumpfun v2",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "address": "hrx1rPTK8akUcjRPMgQeGcH1hvQ76LhnrD3LkKCkR86",
+          "name": "4MILGOAT",
+          "score": 1,
+          "tokens": [
+            {
+              "token_address": "864WM2kzNiM6cFqDeHs1pw6J2nGGRG1RuoAuxWJtpump",
+              "balance": 0,
+              "token_price": 0.00102,
+              "token_decimals": 6,
+              "token_symbol": "PUMPv2",
+              "token_name": "Pumpfun v2",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
     {
       "address": "Gbu7JAKhTVtGyRryg8cYPiKNhonXpUqbrZuCDjfUpump",
       "symbol": "snowball",
@@ -12,10 +160,10 @@
       "website": "",
       "twitter": "https://x.com/i/communities/2001678386968564186",
       "holder": 8315,
-      "market_cap": 5588200,
-      "price": 0.005621,
-      "price_change_24h": -15.42,
-      "volume_24h": 3361559.06,
+      "market_cap": 5479726,
+      "price": 0.005512,
+      "price_change_24h": -12.45,
+      "volume_24h": 3369080.35,
       "pool_address": "solana_4KfHWqcSJWsrTq19FLzFYm3cGN4oASAj7ZCiUoFx16KS",
       "ath": 0.01157782177877458,
       "ath_timestamp": 1766361600,
@@ -23,11 +171,11 @@
       "dexId": "pumpswap",
       "pairAddress": "4KfHWqcSJWsrTq19FLzFYm3cGN4oASAj7ZCiUoFx16KS",
       "txns_24h": {
-        "buys": 12490,
-        "sells": 8533
+        "buys": 12556,
+        "sells": 8553
       },
-      "fdv_usd": 5588200,
-      "total_reserve_in_usd": 335220.48,
+      "fdv_usd": 5479726,
+      "total_reserve_in_usd": 331832.9,
       "tags": [
         "moonshot"
       ],
@@ -70,11 +218,11 @@
             {
               "token_address": "Gbu7JAKhTVtGyRryg8cYPiKNhonXpUqbrZuCDjfUpump",
               "balance": 500586.619477,
-              "token_price": 0.005621,
+              "token_price": 0.005512,
               "token_decimals": 6,
               "token_symbol": "snowball",
               "token_name": "snowball",
-              "value": 2813.797388080217
+              "value": 2759.233446557224
             }
           ]
         }
@@ -90,10 +238,10 @@
       "website": "https://moodwriter.net/",
       "twitter": "https://x.com/moodwriters",
       "holder": 392,
-      "market_cap": 88799,
-      "price": 8.88e-05,
-      "price_change_24h": 675,
-      "volume_24h": 450139.36,
+      "market_cap": 87218,
+      "price": 8.722e-05,
+      "price_change_24h": 661,
+      "volume_24h": 450412.53,
       "pool_address": "solana_BZGFe756HUDdwtSmPfhqmF3d41UuBE6BAqkgkpToLRoM",
       "ath": 0.00020391728046423226,
       "ath_timestamp": 1766577600,
@@ -101,11 +249,11 @@
       "dexId": "pumpswap",
       "pairAddress": "BZGFe756HUDdwtSmPfhqmF3d41UuBE6BAqkgkpToLRoM",
       "txns_24h": {
-        "buys": 2884,
-        "sells": 2175
+        "buys": 2886,
+        "sells": 2177
       },
-      "fdv_usd": 88799,
-      "total_reserve_in_usd": 28547.56,
+      "fdv_usd": 87218,
+      "total_reserve_in_usd": 28284.5,
       "tags": [],
       "first_signal": {
         "timestamp": 1766572861,
@@ -156,11 +304,11 @@
             {
               "token_address": "H3tZwtXUG6tUR28gkJNaYpgioos1EDxouGuFMCKkpump",
               "balance": 15532286.269305,
-              "token_price": 8.88e-05,
+              "token_price": 8.722e-05,
               "token_decimals": 6,
               "token_symbol": "MOOD",
               "token_name": "Moodwriters",
-              "value": 1379.2670207142842
+              "value": 1354.726008408782
             }
           ]
         },
@@ -172,11 +320,11 @@
             {
               "token_address": "H3tZwtXUG6tUR28gkJNaYpgioos1EDxouGuFMCKkpump",
               "balance": 13046280.099263,
-              "token_price": 8.88e-05,
+              "token_price": 8.722e-05,
               "token_decimals": 6,
               "token_symbol": "MOOD",
               "token_name": "Moodwriters",
-              "value": 1158.5096728145543
+              "value": 1137.8965502577187
             }
           ]
         }
@@ -195,10 +343,10 @@
         "website": "https://moodwriter.net/",
         "twitter": "https://x.com/moodwriters",
         "holder": 392,
-        "market_cap": 88799,
-        "price": 8.88e-05,
-        "price_change_24h": 675,
-        "volume_24h": 450139.36,
+        "market_cap": 87218,
+        "price": 8.722e-05,
+        "price_change_24h": 661,
+        "volume_24h": 450412.53,
         "pool_address": "solana_BZGFe756HUDdwtSmPfhqmF3d41UuBE6BAqkgkpToLRoM",
         "ath": 0.00020391728046423226,
         "ath_timestamp": 1766577600,
@@ -206,11 +354,11 @@
         "dexId": "pumpswap",
         "pairAddress": "BZGFe756HUDdwtSmPfhqmF3d41UuBE6BAqkgkpToLRoM",
         "txns_24h": {
-          "buys": 2884,
-          "sells": 2175
+          "buys": 2886,
+          "sells": 2177
         },
-        "fdv_usd": 88799,
-        "total_reserve_in_usd": 28547.56,
+        "fdv_usd": 87218,
+        "total_reserve_in_usd": 28284.5,
         "tags": [],
         "first_signal": {
           "timestamp": 1766572861,
@@ -261,11 +409,11 @@
               {
                 "token_address": "H3tZwtXUG6tUR28gkJNaYpgioos1EDxouGuFMCKkpump",
                 "balance": 15532286.269305,
-                "token_price": 8.88e-05,
+                "token_price": 8.722e-05,
                 "token_decimals": 6,
                 "token_symbol": "MOOD",
                 "token_name": "Moodwriters",
-                "value": 1379.2670207142842
+                "value": 1354.726008408782
               }
             ]
           },
@@ -277,11 +425,11 @@
               {
                 "token_address": "H3tZwtXUG6tUR28gkJNaYpgioos1EDxouGuFMCKkpump",
                 "balance": 13046280.099263,
-                "token_price": 8.88e-05,
+                "token_price": 8.722e-05,
                 "token_decimals": 6,
                 "token_symbol": "MOOD",
                 "token_name": "Moodwriters",
-                "value": 1158.5096728145543
+                "value": 1137.8965502577187
               }
             ]
           }
@@ -289,6 +437,154 @@
       }
     ],
     "buys": [
+      {
+        "address": "864WM2kzNiM6cFqDeHs1pw6J2nGGRG1RuoAuxWJtpump",
+        "symbol": "PUMPv2",
+        "name": "Pumpfun v2",
+        "decimals": 6,
+        "icon": "https://ipfs.io/ipfs/bafkreib6rw5phtwzvkfyjv5vwu3xpgsyykowdih3zjjuhvv4l5upzbswhq",
+        "created_time": 1766436971,
+        "website": "https://pumpfunv2.fun/",
+        "twitter": "https://x.com/i/communities/2003191088689922072",
+        "holder": 4251,
+        "market_cap": 1019711,
+        "price": 0.00102,
+        "price_change_24h": -39.63,
+        "volume_24h": 2173636.62,
+        "pool_address": "solana_4ZotbqiuwLKaAd9URshB1rLDSPpLasj6uSNGsBxFAKHg",
+        "ath": 0.003478236038524653,
+        "ath_timestamp": 1766448000,
+        "ath_pool": "4ZotbqiuwLKaAd9URshB1rLDSPpLasj6uSNGsBxFAKHg",
+        "dexId": "pumpswap",
+        "pairAddress": "4ZotbqiuwLKaAd9URshB1rLDSPpLasj6uSNGsBxFAKHg",
+        "txns_24h": {
+          "buys": 11667,
+          "sells": 8691
+        },
+        "fdv_usd": 1019711,
+        "total_reserve_in_usd": 117305.41,
+        "tags": [],
+        "first_signal": {
+          "timestamp": 1766439717,
+          "price": 0.0005731
+        },
+        "metrics": {
+          "uniqueWallets": 3,
+          "inflow24h": -1619.9368255416052,
+          "trades": [
+            {
+              "timestamp": "2025-12-24T20:23:02.000Z",
+              "type": "BUY",
+              "amount": 12546.379186,
+              "usdValue": 12.282600934200575,
+              "wallet": {
+                "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+                "name": "Ansem"
+              }
+            },
+            {
+              "timestamp": "2025-12-24T20:22:47.000Z",
+              "type": "BUY",
+              "amount": 132344.999599,
+              "usdValue": 122.82600934200575,
+              "wallet": {
+                "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+                "name": "Ansem"
+              }
+            },
+            {
+              "timestamp": "2025-12-24T20:09:38.000Z",
+              "type": "SWAP",
+              "amount": 461251.792692,
+              "usdValue": 450.283382,
+              "wallet": {
+                "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+                "name": "凉粉小刀"
+              }
+            },
+            {
+              "timestamp": "2025-12-24T11:25:17.000Z",
+              "type": "SELL",
+              "amount": 474922.660724,
+              "usdValue": 867.0676350033115,
+              "wallet": {
+                "address": "hrx1rPTK8akUcjRPMgQeGcH1hvQ76LhnrD3LkKCkR86",
+                "name": "4MILGOAT"
+              }
+            },
+            {
+              "timestamp": "2025-12-24T11:25:07.000Z",
+              "type": "SELL",
+              "amount": 474922.660723,
+              "usdValue": 870.5011133526503,
+              "wallet": {
+                "address": "hrx1rPTK8akUcjRPMgQeGcH1hvQ76LhnrD3LkKCkR86",
+                "name": "4MILGOAT"
+              }
+            },
+            {
+              "timestamp": "2025-12-24T00:53:03.000Z",
+              "type": "BUY",
+              "amount": 191421.159121,
+              "usdValue": 432.8066945381501,
+              "wallet": {
+                "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+                "name": "凉粉小刀"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+            "name": "Ansem",
+            "score": 3,
+            "tokens": [
+              {
+                "token_address": "864WM2kzNiM6cFqDeHs1pw6J2nGGRG1RuoAuxWJtpump",
+                "balance": 3184614.476329,
+                "token_price": 0.00102,
+                "token_decimals": 6,
+                "token_symbol": "PUMPv2",
+                "token_name": "Pumpfun v2",
+                "value": 3248.3067658555806
+              }
+            ]
+          },
+          {
+            "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+            "name": "凉粉小刀",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "864WM2kzNiM6cFqDeHs1pw6J2nGGRG1RuoAuxWJtpump",
+                "balance": 0,
+                "token_price": 0.00102,
+                "token_decimals": 6,
+                "token_symbol": "PUMPv2",
+                "token_name": "Pumpfun v2",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "address": "hrx1rPTK8akUcjRPMgQeGcH1hvQ76LhnrD3LkKCkR86",
+            "name": "4MILGOAT",
+            "score": 1,
+            "tokens": [
+              {
+                "token_address": "864WM2kzNiM6cFqDeHs1pw6J2nGGRG1RuoAuxWJtpump",
+                "balance": 0,
+                "token_price": 0.00102,
+                "token_decimals": 6,
+                "token_symbol": "PUMPv2",
+                "token_name": "Pumpfun v2",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
       {
         "address": "Gbu7JAKhTVtGyRryg8cYPiKNhonXpUqbrZuCDjfUpump",
         "symbol": "snowball",
@@ -299,10 +595,10 @@
         "website": "",
         "twitter": "https://x.com/i/communities/2001678386968564186",
         "holder": 8315,
-        "market_cap": 5588200,
-        "price": 0.005621,
-        "price_change_24h": -15.42,
-        "volume_24h": 3361559.06,
+        "market_cap": 5479726,
+        "price": 0.005512,
+        "price_change_24h": -12.45,
+        "volume_24h": 3369080.35,
         "pool_address": "solana_4KfHWqcSJWsrTq19FLzFYm3cGN4oASAj7ZCiUoFx16KS",
         "ath": 0.01157782177877458,
         "ath_timestamp": 1766361600,
@@ -310,11 +606,11 @@
         "dexId": "pumpswap",
         "pairAddress": "4KfHWqcSJWsrTq19FLzFYm3cGN4oASAj7ZCiUoFx16KS",
         "txns_24h": {
-          "buys": 12490,
-          "sells": 8533
+          "buys": 12556,
+          "sells": 8553
         },
-        "fdv_usd": 5588200,
-        "total_reserve_in_usd": 335220.48,
+        "fdv_usd": 5479726,
+        "total_reserve_in_usd": 331832.9,
         "tags": [
           "moonshot"
         ],
@@ -357,11 +653,11 @@
               {
                 "token_address": "Gbu7JAKhTVtGyRryg8cYPiKNhonXpUqbrZuCDjfUpump",
                 "balance": 500586.619477,
-                "token_price": 0.005621,
+                "token_price": 0.005512,
                 "token_decimals": 6,
                 "token_symbol": "snowball",
                 "token_name": "snowball",
-                "value": 2813.797388080217
+                "value": 2759.233446557224
               }
             ]
           }
