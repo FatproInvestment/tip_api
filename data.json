@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-12-24T15:47:52.805Z",
+  "timestamp": "2025-12-24T15:55:22.541Z",
   "data": [
     {
       "address": "Gbu7JAKhTVtGyRryg8cYPiKNhonXpUqbrZuCDjfUpump",
@@ -12,10 +12,10 @@
       "website": "",
       "twitter": "https://x.com/i/communities/2001678386968564186",
       "holder": 8373,
-      "market_cap": 6394415,
-      "price": 0.006416,
-      "price_change_24h": 2.56,
-      "volume_24h": 3757601.66,
+      "market_cap": 6203707,
+      "price": 0.006225,
+      "price_change_24h": -2.07,
+      "volume_24h": 3783411.91,
       "pool_address": "solana_4KfHWqcSJWsrTq19FLzFYm3cGN4oASAj7ZCiUoFx16KS",
       "ath": 0.01157782177877458,
       "ath_timestamp": 1766361600,
@@ -23,11 +23,11 @@
       "dexId": "pumpswap",
       "pairAddress": "4KfHWqcSJWsrTq19FLzFYm3cGN4oASAj7ZCiUoFx16KS",
       "txns_24h": {
-        "buys": 12577,
-        "sells": 9424
+        "buys": 12639,
+        "sells": 9460
       },
-      "fdv_usd": 6381464,
-      "total_reserve_in_usd": 356247.21,
+      "fdv_usd": 6191142,
+      "total_reserve_in_usd": 350675.69,
       "tags": [
         "moonshot"
       ],
@@ -70,11 +70,11 @@
             {
               "token_address": "Gbu7JAKhTVtGyRryg8cYPiKNhonXpUqbrZuCDjfUpump",
               "balance": 500586.619477,
-              "token_price": 0.006416,
+              "token_price": 0.006225,
               "token_decimals": 6,
               "token_symbol": "snowball",
               "token_name": "snowball",
-              "value": 3211.7637505644316
+              "value": 3116.1517062443245
             }
           ]
         }
@@ -90,10 +90,10 @@
       "website": "https://moodwriter.net/",
       "twitter": "https://x.com/moodwriters",
       "holder": 489,
-      "market_cap": 138640,
-      "price": 0.0001386,
-      "price_change_24h": 998,
-      "volume_24h": 406042.22,
+      "market_cap": 107153,
+      "price": 0.0001071,
+      "price_change_24h": 748,
+      "volume_24h": 412939.9,
       "pool_address": "solana_BZGFe756HUDdwtSmPfhqmF3d41UuBE6BAqkgkpToLRoM",
       "ath": 0.00020391728046423226,
       "ath_timestamp": 1766577600,
@@ -101,11 +101,11 @@
       "dexId": "pumpswap",
       "pairAddress": "BZGFe756HUDdwtSmPfhqmF3d41UuBE6BAqkgkpToLRoM",
       "txns_24h": {
-        "buys": 2521,
-        "sells": 1822
+        "buys": 2583,
+        "sells": 1863
       },
-      "fdv_usd": 138640,
-      "total_reserve_in_usd": 35549.23,
+      "fdv_usd": 107153,
+      "total_reserve_in_usd": 31226.55,
       "tags": [],
       "first_signal": {
         "timestamp": 1766572861,
@@ -113,8 +113,18 @@
       },
       "metrics": {
         "uniqueWallets": 2,
-        "inflow24h": 3032.8363734913305,
+        "inflow24h": 1723.5610433138183,
         "trades": [
+          {
+            "timestamp": "2025-12-24T15:54:06.000Z",
+            "type": "SELL",
+            "amount": 10354857.51287,
+            "usdValue": 1309.2753301775122,
+            "wallet": {
+              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+              "name": "DNF 哥"
+            }
+          },
           {
             "timestamp": "2025-12-24T10:27:52.000Z",
             "type": "SELL",
@@ -139,6 +149,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+          "name": "DNF 哥",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "H3tZwtXUG6tUR28gkJNaYpgioos1EDxouGuFMCKkpump",
+              "balance": 15532286.269305,
+              "token_price": 0.0001071,
+              "token_decimals": 6,
+              "token_symbol": "MOOD",
+              "token_name": "Moodwriters",
+              "value": 1663.5078594425656
+            }
+          ]
+        },
+        {
           "address": "4jSmEmBkuBi1JxZHM1khkf57xPR2oW1EnkRxqehq1cSK",
           "name": "1000xSniper",
           "score": 1,
@@ -146,27 +172,11 @@
             {
               "token_address": "H3tZwtXUG6tUR28gkJNaYpgioos1EDxouGuFMCKkpump",
               "balance": 13046280.099263,
-              "token_price": 0.0001386,
+              "token_price": 0.0001071,
               "token_decimals": 6,
               "token_symbol": "MOOD",
               "token_name": "Moodwriters",
-              "value": 1808.2144217578518
-            }
-          ]
-        },
-        {
-          "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-          "name": "DNF 哥",
-          "score": 3,
-          "tokens": [
-            {
-              "token_address": "H3tZwtXUG6tUR28gkJNaYpgioos1EDxouGuFMCKkpump",
-              "balance": 25887143.782175,
-              "token_price": 0.0001386,
-              "token_decimals": 6,
-              "token_symbol": "MOOD",
-              "token_name": "Moodwriters",
-              "value": 3587.9581282094555
+              "value": 1397.2565986310672
             }
           ]
         }
@@ -185,10 +195,10 @@
         "website": "https://moodwriter.net/",
         "twitter": "https://x.com/moodwriters",
         "holder": 489,
-        "market_cap": 138640,
-        "price": 0.0001386,
-        "price_change_24h": 998,
-        "volume_24h": 406042.22,
+        "market_cap": 107153,
+        "price": 0.0001071,
+        "price_change_24h": 748,
+        "volume_24h": 412939.9,
         "pool_address": "solana_BZGFe756HUDdwtSmPfhqmF3d41UuBE6BAqkgkpToLRoM",
         "ath": 0.00020391728046423226,
         "ath_timestamp": 1766577600,
@@ -196,11 +206,11 @@
         "dexId": "pumpswap",
         "pairAddress": "BZGFe756HUDdwtSmPfhqmF3d41UuBE6BAqkgkpToLRoM",
         "txns_24h": {
-          "buys": 2521,
-          "sells": 1822
+          "buys": 2583,
+          "sells": 1863
         },
-        "fdv_usd": 138640,
-        "total_reserve_in_usd": 35549.23,
+        "fdv_usd": 107153,
+        "total_reserve_in_usd": 31226.55,
         "tags": [],
         "first_signal": {
           "timestamp": 1766572861,
@@ -208,8 +218,18 @@
         },
         "metrics": {
           "uniqueWallets": 2,
-          "inflow24h": 3032.8363734913305,
+          "inflow24h": 1723.5610433138183,
           "trades": [
+            {
+              "timestamp": "2025-12-24T15:54:06.000Z",
+              "type": "SELL",
+              "amount": 10354857.51287,
+              "usdValue": 1309.2753301775122,
+              "wallet": {
+                "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+                "name": "DNF 哥"
+              }
+            },
             {
               "timestamp": "2025-12-24T10:27:52.000Z",
               "type": "SELL",
@@ -234,6 +254,22 @@
         },
         "walletPortfolios": [
           {
+            "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+            "name": "DNF 哥",
+            "score": 3,
+            "tokens": [
+              {
+                "token_address": "H3tZwtXUG6tUR28gkJNaYpgioos1EDxouGuFMCKkpump",
+                "balance": 15532286.269305,
+                "token_price": 0.0001071,
+                "token_decimals": 6,
+                "token_symbol": "MOOD",
+                "token_name": "Moodwriters",
+                "value": 1663.5078594425656
+              }
+            ]
+          },
+          {
             "address": "4jSmEmBkuBi1JxZHM1khkf57xPR2oW1EnkRxqehq1cSK",
             "name": "1000xSniper",
             "score": 1,
@@ -241,27 +277,11 @@
               {
                 "token_address": "H3tZwtXUG6tUR28gkJNaYpgioos1EDxouGuFMCKkpump",
                 "balance": 13046280.099263,
-                "token_price": 0.0001386,
+                "token_price": 0.0001071,
                 "token_decimals": 6,
                 "token_symbol": "MOOD",
                 "token_name": "Moodwriters",
-                "value": 1808.2144217578518
-              }
-            ]
-          },
-          {
-            "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-            "name": "DNF 哥",
-            "score": 3,
-            "tokens": [
-              {
-                "token_address": "H3tZwtXUG6tUR28gkJNaYpgioos1EDxouGuFMCKkpump",
-                "balance": 25887143.782175,
-                "token_price": 0.0001386,
-                "token_decimals": 6,
-                "token_symbol": "MOOD",
-                "token_name": "Moodwriters",
-                "value": 3587.9581282094555
+                "value": 1397.2565986310672
               }
             ]
           }
@@ -279,10 +299,10 @@
         "website": "",
         "twitter": "https://x.com/i/communities/2001678386968564186",
         "holder": 8373,
-        "market_cap": 6394415,
-        "price": 0.006416,
-        "price_change_24h": 2.56,
-        "volume_24h": 3757601.66,
+        "market_cap": 6203707,
+        "price": 0.006225,
+        "price_change_24h": -2.07,
+        "volume_24h": 3783411.91,
         "pool_address": "solana_4KfHWqcSJWsrTq19FLzFYm3cGN4oASAj7ZCiUoFx16KS",
         "ath": 0.01157782177877458,
         "ath_timestamp": 1766361600,
@@ -290,11 +310,11 @@
         "dexId": "pumpswap",
         "pairAddress": "4KfHWqcSJWsrTq19FLzFYm3cGN4oASAj7ZCiUoFx16KS",
         "txns_24h": {
-          "buys": 12577,
-          "sells": 9424
+          "buys": 12639,
+          "sells": 9460
         },
-        "fdv_usd": 6381464,
-        "total_reserve_in_usd": 356247.21,
+        "fdv_usd": 6191142,
+        "total_reserve_in_usd": 350675.69,
         "tags": [
           "moonshot"
         ],
@@ -337,11 +357,11 @@
               {
                 "token_address": "Gbu7JAKhTVtGyRryg8cYPiKNhonXpUqbrZuCDjfUpump",
                 "balance": 500586.619477,
-                "token_price": 0.006416,
+                "token_price": 0.006225,
                 "token_decimals": 6,
                 "token_symbol": "snowball",
                 "token_name": "snowball",
-                "value": 3211.7637505644316
+                "value": 3116.1517062443245
               }
             ]
           }
