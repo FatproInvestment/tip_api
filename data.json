@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2026-01-13T01:50:32.889Z",
+  "timestamp": "2026-01-13T03:19:27.184Z",
   "data": [
     {
       "address": "2nP9yKQNSGQy851iyawDvBkzkK2R2aqKArQCKc2gpump",
@@ -11,11 +11,11 @@
       "created_time": 1768005629,
       "website": "https://x.com/PsyopAnime",
       "twitter": "https://x.com/nigwardio/status/2009787318651994415?s=20",
-      "holder": 7683,
-      "market_cap": 22847141,
-      "price": 0.02284,
-      "price_change_24h": 4138,
-      "volume_24h": 25000620.55,
+      "holder": 8517,
+      "market_cap": 22435391,
+      "price": 0.02243,
+      "price_change_24h": 4834,
+      "volume_24h": 27849413.73,
       "pool_address": "solana_FpyosQzp5ijfrxqqBVNm67rfam7VsbVNAm7PUf8Yvt1c",
       "ath": 0.02237155387881882,
       "ath_timestamp": 1768258800,
@@ -23,11 +23,11 @@
       "dexId": "pumpswap",
       "pairAddress": "FpyosQzp5ijfrxqqBVNm67rfam7VsbVNAm7PUf8Yvt1c",
       "txns_24h": {
-        "buys": 47275,
-        "sells": 41934
+        "buys": 52714,
+        "sells": 47148
       },
-      "fdv_usd": 22847141,
-      "total_reserve_in_usd": 613539.55,
+      "fdv_usd": 22435391,
+      "total_reserve_in_usd": 613067.55,
       "tags": [
         "moonshot"
       ],
@@ -37,8 +37,28 @@
       },
       "metrics": {
         "uniqueWallets": 4,
-        "inflow24h": 16269.089893885941,
+        "inflow24h": 16482.38295988594,
         "trades": [
+          {
+            "timestamp": "2026-01-13T03:07:55.000Z",
+            "type": "BUY",
+            "amount": 126057.873069,
+            "usdValue": 2997,
+            "wallet": {
+              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+              "name": "凉粉小刀"
+            }
+          },
+          {
+            "timestamp": "2026-01-13T02:53:31.000Z",
+            "type": "SELL",
+            "amount": 107278.671345,
+            "usdValue": 2783.706934,
+            "wallet": {
+              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+              "name": "凉粉小刀"
+            }
+          },
           {
             "timestamp": "2026-01-12T22:08:32.000Z",
             "type": "SELL",
@@ -183,6 +203,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+          "name": "凉粉小刀",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "2nP9yKQNSGQy851iyawDvBkzkK2R2aqKArQCKc2gpump",
+              "balance": 126057.873069,
+              "token_price": 0.02243,
+              "token_decimals": 6,
+              "token_symbol": "PsyopAnime",
+              "token_name": "PsyopAnime",
+              "value": 2827.4780929376698
+            }
+          ]
+        },
+        {
           "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
           "name": "cooker",
           "score": 2,
@@ -190,7 +226,7 @@
             {
               "token_address": "2nP9yKQNSGQy851iyawDvBkzkK2R2aqKArQCKc2gpump",
               "balance": 0,
-              "token_price": 0.02284,
+              "token_price": 0.02243,
               "token_decimals": 6,
               "token_symbol": "PsyopAnime",
               "token_name": "PsyopAnime",
@@ -206,27 +242,11 @@
             {
               "token_address": "2nP9yKQNSGQy851iyawDvBkzkK2R2aqKArQCKc2gpump",
               "balance": 0,
-              "token_price": 0.02284,
+              "token_price": 0.02243,
               "token_decimals": 6,
               "token_symbol": "PsyopAnime",
               "token_name": "PsyopAnime",
               "value": 0
-            }
-          ]
-        },
-        {
-          "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
-          "name": "凉粉小刀",
-          "score": 2,
-          "tokens": [
-            {
-              "token_address": "2nP9yKQNSGQy851iyawDvBkzkK2R2aqKArQCKc2gpump",
-              "balance": 107278.671345,
-              "token_price": 0.02284,
-              "token_decimals": 6,
-              "token_symbol": "PsyopAnime",
-              "token_name": "PsyopAnime",
-              "value": 2450.2448535198
             }
           ]
         },
@@ -238,11 +258,11 @@
             {
               "token_address": "2nP9yKQNSGQy851iyawDvBkzkK2R2aqKArQCKc2gpump",
               "balance": 1864039.64993,
-              "token_price": 0.02284,
+              "token_price": 0.02243,
               "token_decimals": 6,
               "token_symbol": "PsyopAnime",
               "token_name": "PsyopAnime",
-              "value": 42574.6656044012
+              "value": 41810.4093479299
             }
           ]
         }
@@ -257,11 +277,11 @@
       "created_time": 1756252301,
       "website": "",
       "twitter": "",
-      "holder": 9666,
-      "market_cap": 16593919,
-      "price": 0.06442,
-      "price_change_24h": 12.77,
-      "volume_24h": 3050046.6,
+      "holder": 9663,
+      "market_cap": 16417842,
+      "price": 0.06374,
+      "price_change_24h": 4.37,
+      "volume_24h": 2985260.54,
       "pool_address": "solana_HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD",
       "ath": 0.3830175199241448,
       "ath_timestamp": 1757808000,
@@ -269,11 +289,11 @@
       "dexId": "raydium",
       "pairAddress": "HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD",
       "txns_24h": {
-        "buys": 3662,
-        "sells": 2630
+        "buys": 3641,
+        "sells": 2541
       },
-      "fdv_usd": 128858672,
-      "total_reserve_in_usd": 1023991.34,
+      "fdv_usd": 127491361,
+      "total_reserve_in_usd": 1018554.25,
       "tags": [
         "moonshot"
       ],
@@ -316,11 +336,11 @@
             {
               "token_address": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
               "balance": 73465.645644,
-              "token_price": 0.06442,
+              "token_price": 0.06374,
               "token_decimals": 6,
               "token_symbol": "CARDS",
               "token_name": "Collector Crypt",
-              "value": 4732.656892386481
+              "value": 4682.70025334856
             }
           ]
         }
@@ -335,11 +355,11 @@
       "created_time": 1764867563,
       "website": "",
       "twitter": "https://x.com/Dum_Ilustrador",
-      "holder": 5330,
-      "market_cap": 2642457,
-      "price": 0.002642,
-      "price_change_24h": -3.33,
-      "volume_24h": 859205.15,
+      "holder": 5318,
+      "market_cap": 2587620,
+      "price": 0.002587,
+      "price_change_24h": 2.32,
+      "volume_24h": 847561.66,
       "pool_address": "solana_7RewgB9eXiLbaFdLU14cQLY46wH4Ccn46DxsMh51iGay",
       "ath": 0.0039036345246174923,
       "ath_timestamp": 1768176000,
@@ -347,11 +367,11 @@
       "dexId": "pumpswap",
       "pairAddress": "7RewgB9eXiLbaFdLU14cQLY46wH4Ccn46DxsMh51iGay",
       "txns_24h": {
-        "buys": 2165,
-        "sells": 2144
+        "buys": 2089,
+        "sells": 2121
       },
-      "fdv_usd": 2642457,
-      "total_reserve_in_usd": 244708.01,
+      "fdv_usd": 2587620,
+      "total_reserve_in_usd": 241942.85,
       "tags": [
         "moonshot"
       ],
@@ -524,7 +544,7 @@
             {
               "token_address": "Gka1TQEevBbVw4W9K15ER96ZzKByMTb6TBMQzWFEpump",
               "balance": 0,
-              "token_price": 0.002642,
+              "token_price": 0.002587,
               "token_decimals": 6,
               "token_symbol": "MINER",
               "token_name": "Never Give Up",
@@ -546,11 +566,11 @@
         "created_time": 1768005629,
         "website": "https://x.com/PsyopAnime",
         "twitter": "https://x.com/nigwardio/status/2009787318651994415?s=20",
-        "holder": 7683,
-        "market_cap": 22847141,
-        "price": 0.02284,
-        "price_change_24h": 4138,
-        "volume_24h": 25000620.55,
+        "holder": 8517,
+        "market_cap": 22435391,
+        "price": 0.02243,
+        "price_change_24h": 4834,
+        "volume_24h": 27849413.73,
         "pool_address": "solana_FpyosQzp5ijfrxqqBVNm67rfam7VsbVNAm7PUf8Yvt1c",
         "ath": 0.02237155387881882,
         "ath_timestamp": 1768258800,
@@ -558,11 +578,11 @@
         "dexId": "pumpswap",
         "pairAddress": "FpyosQzp5ijfrxqqBVNm67rfam7VsbVNAm7PUf8Yvt1c",
         "txns_24h": {
-          "buys": 47275,
-          "sells": 41934
+          "buys": 52714,
+          "sells": 47148
         },
-        "fdv_usd": 22847141,
-        "total_reserve_in_usd": 613539.55,
+        "fdv_usd": 22435391,
+        "total_reserve_in_usd": 613067.55,
         "tags": [
           "moonshot"
         ],
@@ -572,8 +592,28 @@
         },
         "metrics": {
           "uniqueWallets": 4,
-          "inflow24h": 16269.089893885941,
+          "inflow24h": 16482.38295988594,
           "trades": [
+            {
+              "timestamp": "2026-01-13T03:07:55.000Z",
+              "type": "BUY",
+              "amount": 126057.873069,
+              "usdValue": 2997,
+              "wallet": {
+                "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+                "name": "凉粉小刀"
+              }
+            },
+            {
+              "timestamp": "2026-01-13T02:53:31.000Z",
+              "type": "SELL",
+              "amount": 107278.671345,
+              "usdValue": 2783.706934,
+              "wallet": {
+                "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+                "name": "凉粉小刀"
+              }
+            },
             {
               "timestamp": "2026-01-12T22:08:32.000Z",
               "type": "SELL",
@@ -718,6 +758,22 @@
         },
         "walletPortfolios": [
           {
+            "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+            "name": "凉粉小刀",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "2nP9yKQNSGQy851iyawDvBkzkK2R2aqKArQCKc2gpump",
+                "balance": 126057.873069,
+                "token_price": 0.02243,
+                "token_decimals": 6,
+                "token_symbol": "PsyopAnime",
+                "token_name": "PsyopAnime",
+                "value": 2827.4780929376698
+              }
+            ]
+          },
+          {
             "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
             "name": "cooker",
             "score": 2,
@@ -725,7 +781,7 @@
               {
                 "token_address": "2nP9yKQNSGQy851iyawDvBkzkK2R2aqKArQCKc2gpump",
                 "balance": 0,
-                "token_price": 0.02284,
+                "token_price": 0.02243,
                 "token_decimals": 6,
                 "token_symbol": "PsyopAnime",
                 "token_name": "PsyopAnime",
@@ -741,27 +797,11 @@
               {
                 "token_address": "2nP9yKQNSGQy851iyawDvBkzkK2R2aqKArQCKc2gpump",
                 "balance": 0,
-                "token_price": 0.02284,
+                "token_price": 0.02243,
                 "token_decimals": 6,
                 "token_symbol": "PsyopAnime",
                 "token_name": "PsyopAnime",
                 "value": 0
-              }
-            ]
-          },
-          {
-            "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
-            "name": "凉粉小刀",
-            "score": 2,
-            "tokens": [
-              {
-                "token_address": "2nP9yKQNSGQy851iyawDvBkzkK2R2aqKArQCKc2gpump",
-                "balance": 107278.671345,
-                "token_price": 0.02284,
-                "token_decimals": 6,
-                "token_symbol": "PsyopAnime",
-                "token_name": "PsyopAnime",
-                "value": 2450.2448535198
               }
             ]
           },
@@ -773,11 +813,11 @@
               {
                 "token_address": "2nP9yKQNSGQy851iyawDvBkzkK2R2aqKArQCKc2gpump",
                 "balance": 1864039.64993,
-                "token_price": 0.02284,
+                "token_price": 0.02243,
                 "token_decimals": 6,
                 "token_symbol": "PsyopAnime",
                 "token_name": "PsyopAnime",
-                "value": 42574.6656044012
+                "value": 41810.4093479299
               }
             ]
           }
@@ -794,11 +834,11 @@
         "created_time": 1756252301,
         "website": "",
         "twitter": "",
-        "holder": 9666,
-        "market_cap": 16593919,
-        "price": 0.06442,
-        "price_change_24h": 12.77,
-        "volume_24h": 3050046.6,
+        "holder": 9663,
+        "market_cap": 16417842,
+        "price": 0.06374,
+        "price_change_24h": 4.37,
+        "volume_24h": 2985260.54,
         "pool_address": "solana_HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD",
         "ath": 0.3830175199241448,
         "ath_timestamp": 1757808000,
@@ -806,11 +846,11 @@
         "dexId": "raydium",
         "pairAddress": "HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD",
         "txns_24h": {
-          "buys": 3662,
-          "sells": 2630
+          "buys": 3641,
+          "sells": 2541
         },
-        "fdv_usd": 128858672,
-        "total_reserve_in_usd": 1023991.34,
+        "fdv_usd": 127491361,
+        "total_reserve_in_usd": 1018554.25,
         "tags": [
           "moonshot"
         ],
@@ -853,11 +893,11 @@
               {
                 "token_address": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
                 "balance": 73465.645644,
-                "token_price": 0.06442,
+                "token_price": 0.06374,
                 "token_decimals": 6,
                 "token_symbol": "CARDS",
                 "token_name": "Collector Crypt",
-                "value": 4732.656892386481
+                "value": 4682.70025334856
               }
             ]
           }
@@ -874,11 +914,11 @@
         "created_time": 1764867563,
         "website": "",
         "twitter": "https://x.com/Dum_Ilustrador",
-        "holder": 5330,
-        "market_cap": 2642457,
-        "price": 0.002642,
-        "price_change_24h": -3.33,
-        "volume_24h": 859205.15,
+        "holder": 5318,
+        "market_cap": 2587620,
+        "price": 0.002587,
+        "price_change_24h": 2.32,
+        "volume_24h": 847561.66,
         "pool_address": "solana_7RewgB9eXiLbaFdLU14cQLY46wH4Ccn46DxsMh51iGay",
         "ath": 0.0039036345246174923,
         "ath_timestamp": 1768176000,
@@ -886,11 +926,11 @@
         "dexId": "pumpswap",
         "pairAddress": "7RewgB9eXiLbaFdLU14cQLY46wH4Ccn46DxsMh51iGay",
         "txns_24h": {
-          "buys": 2165,
-          "sells": 2144
+          "buys": 2089,
+          "sells": 2121
         },
-        "fdv_usd": 2642457,
-        "total_reserve_in_usd": 244708.01,
+        "fdv_usd": 2587620,
+        "total_reserve_in_usd": 241942.85,
         "tags": [
           "moonshot"
         ],
@@ -1063,7 +1103,7 @@
               {
                 "token_address": "Gka1TQEevBbVw4W9K15ER96ZzKByMTb6TBMQzWFEpump",
                 "balance": 0,
-                "token_price": 0.002642,
+                "token_price": 0.002587,
                 "token_decimals": 6,
                 "token_symbol": "MINER",
                 "token_name": "Never Give Up",
