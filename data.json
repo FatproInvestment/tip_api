@@ -1,7 +1,131 @@
 {
   "success": true,
-  "timestamp": "2026-01-16T01:07:42.974Z",
+  "timestamp": "2026-01-16T03:05:17.902Z",
   "data": [
+    {
+      "address": "E88iga2puk2X8g2UagjmBnHBBp6fKvXsncNJcLMzpump",
+      "symbol": "Peanut",
+      "name": "The Burnt Peanut",
+      "decimals": 6,
+      "icon": "https://ipfs.io/ipfs/bafkreif2tlk2iapmp7ezwalub2cnyyijgoep6z2pjb6dks7grfaavdoym4",
+      "created_time": 1768526193,
+      "website": "https://x.com/Dexerto/status/2011888040050847777",
+      "twitter": "https://x.com/i/communities/2011968385605656695",
+      "holder": 1153,
+      "market_cap": 133623,
+      "price": 0.0001336,
+      "price_change_24h": 127,
+      "volume_24h": 993829.42,
+      "pool_address": "solana_GiJJc55UDvbE5KvjJnUGqRQVW5hvhb2w886LFfD9YPMq",
+      "ath": 0.0001336,
+      "ath_pool": "",
+      "dexId": "pumpswap",
+      "pairAddress": "GiJJc55UDvbE5KvjJnUGqRQVW5hvhb2w886LFfD9YPMq",
+      "boosts": {
+        "active": 10
+      },
+      "txns_24h": {
+        "buys": 6986,
+        "sells": 6038
+      },
+      "fdv_usd": 133623,
+      "total_reserve_in_usd": 38286.11,
+      "tags": [],
+      "first_signal": {
+        "timestamp": 1768532716,
+        "price": 0.0001336
+      },
+      "metrics": {
+        "uniqueWallets": 2,
+        "inflow24h": 3070.8898049934387,
+        "trades": [
+          {
+            "timestamp": "2026-01-16T02:38:56.000Z",
+            "type": "SELL",
+            "amount": 11011216.297314,
+            "usdValue": 2243.2851772893478,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-01-16T02:32:30.000Z",
+            "type": "BUY",
+            "amount": 3994171.986714,
+            "usdValue": 710.8129277029713,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-01-16T02:32:30.000Z",
+            "type": "BUY",
+            "amount": 2511261.824672,
+            "usdValue": 426.48775662178275,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-01-16T02:32:23.000Z",
+            "type": "BUY",
+            "amount": 4505782.485928,
+            "usdValue": 710.8129277029713,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-01-16T01:41:38.000Z",
+            "type": "BUY",
+            "amount": 21408932.150141,
+            "usdValue": 3466.0613702550613,
+            "wallet": {
+              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+              "name": "DNF 哥"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+          "name": "cooker",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "E88iga2puk2X8g2UagjmBnHBBp6fKvXsncNJcLMzpump",
+              "balance": 0,
+              "token_price": 0.0001336,
+              "token_decimals": 6,
+              "token_symbol": "Peanut",
+              "token_name": "The Burnt Peanut",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+          "name": "DNF 哥",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "E88iga2puk2X8g2UagjmBnHBBp6fKvXsncNJcLMzpump",
+              "balance": 21408932.150141,
+              "token_price": 0.0001336,
+              "token_decimals": 6,
+              "token_symbol": "Peanut",
+              "token_name": "The Burnt Peanut",
+              "value": 2860.2333352588375
+            }
+          ]
+        }
+      ]
+    },
     {
       "address": "FD9XWDc4SECT2dysEskoikPKGZYBaZWhN9byxAL9pump",
       "symbol": "BTC",
@@ -11,11 +135,11 @@
       "created_time": 1768514080,
       "website": "",
       "twitter": "https://x.com/coinbase/status/2011848444327940469?s=46&t=JQmNFn94sEXRJU2hkHIuDQ",
-      "holder": 1915,
-      "market_cap": 303571,
-      "price": 0.0003035,
-      "price_change_24h": 420,
-      "volume_24h": 8813958.68,
+      "holder": 1859,
+      "market_cap": 327736,
+      "price": 0.0003277,
+      "price_change_24h": 462,
+      "volume_24h": 9003352.57,
       "pool_address": "solana_753raM92XfvGxFaLJVKeJL7vTyVqWNAbHtcCi9ayNkd3",
       "ath": 0.0007634712109229998,
       "ath_timestamp": 1768518000,
@@ -23,11 +147,11 @@
       "dexId": "pumpswap",
       "pairAddress": "753raM92XfvGxFaLJVKeJL7vTyVqWNAbHtcCi9ayNkd3",
       "txns_24h": {
-        "buys": 24460,
-        "sells": 20243
+        "buys": 25566,
+        "sells": 21165
       },
-      "fdv_usd": 303571,
-      "total_reserve_in_usd": 65418.66,
+      "fdv_usd": 327736,
+      "total_reserve_in_usd": 68399.61,
       "tags": [],
       "first_signal": {
         "timestamp": 1768515315,
@@ -88,11 +212,11 @@
             {
               "token_address": "FD9XWDc4SECT2dysEskoikPKGZYBaZWhN9byxAL9pump",
               "balance": 11851306.531245,
-              "token_price": 0.0003035,
+              "token_price": 0.0003277,
               "token_decimals": 6,
               "token_symbol": "BTC",
               "token_name": "Bid The Car",
-              "value": 3596.8715322328576
+              "value": 3883.6731502889866
             }
           ]
         },
@@ -104,11 +228,11 @@
             {
               "token_address": "FD9XWDc4SECT2dysEskoikPKGZYBaZWhN9byxAL9pump",
               "balance": 462392.815207,
-              "token_price": 0.0003035,
+              "token_price": 0.0003277,
               "token_decimals": 6,
               "token_symbol": "BTC",
               "token_name": "Bid The Car",
-              "value": 140.3362194153245
+              "value": 151.5261255433339
             }
           ]
         },
@@ -120,7 +244,7 @@
             {
               "token_address": "FD9XWDc4SECT2dysEskoikPKGZYBaZWhN9byxAL9pump",
               "balance": 0,
-              "token_price": 0.0003035,
+              "token_price": 0.0003277,
               "token_decimals": 6,
               "token_symbol": "BTC",
               "token_name": "Bid The Car",
@@ -139,23 +263,23 @@
       "created_time": 1768497045,
       "website": "",
       "twitter": "https://x.com/coinbase/status/2011848444327940469",
-      "holder": 251,
-      "market_cap": 78595,
-      "price": 7.859e-05,
-      "price_change_24h": 10.56,
-      "volume_24h": 612106.94,
+      "holder": 231,
+      "market_cap": 42551,
+      "price": 4.255e-05,
+      "price_change_24h": -40.14,
+      "volume_24h": 633639.45,
       "pool_address": "solana_AbnPkdyDvrVywdXgAtYkByxRa1xdGk3khcKEDfEUCkrU",
-      "ath": 7.059e-05,
-      "ath_timestamp": 1768521377,
+      "ath": 7.859e-05,
+      "ath_timestamp": 1768525663,
       "ath_pool": "BjpJTsgfSdGGUj5ySGqY2ZjFp5nTh6rqo2NyPJgSqMnH",
       "dexId": "meteora",
       "pairAddress": "AbnPkdyDvrVywdXgAtYkByxRa1xdGk3khcKEDfEUCkrU",
       "txns_24h": {
-        "buys": 3841,
-        "sells": 3174
+        "buys": 3975,
+        "sells": 3271
       },
-      "fdv_usd": 78595,
-      "total_reserve_in_usd": 25421.06,
+      "fdv_usd": 42551,
+      "total_reserve_in_usd": 18706.47,
       "tags": [],
       "first_signal": {
         "timestamp": 1768515160,
@@ -206,11 +330,11 @@
             {
               "token_address": "4cwrhQMSCzFuP7K48GwTEnKgK7H6Y5Yp2Yeu1TXfBAGS",
               "balance": 4504509.43401284,
-              "token_price": 7.859e-05,
+              "token_price": 4.255e-05,
               "token_decimals": 9,
               "token_symbol": "BTC",
               "token_name": "BUY THE CAR",
-              "value": 354.0093964190691
+              "value": 191.6668764172463
             }
           ]
         },
@@ -222,7 +346,7 @@
             {
               "token_address": "4cwrhQMSCzFuP7K48GwTEnKgK7H6Y5Yp2Yeu1TXfBAGS",
               "balance": 0,
-              "token_price": 7.859e-05,
+              "token_price": 4.255e-05,
               "token_decimals": 9,
               "token_symbol": "BTC",
               "token_name": "BUY THE CAR",
@@ -241,11 +365,11 @@
       "created_time": 1768489543,
       "website": "https://www.tiktok.com/@thewolfofinsurance",
       "twitter": "",
-      "holder": 418,
-      "market_cap": 23234,
-      "price": 2.323e-05,
-      "price_change_24h": -60.54,
-      "volume_24h": 591819.09,
+      "holder": 392,
+      "market_cap": 26182,
+      "price": 2.618e-05,
+      "price_change_24h": -55.53,
+      "volume_24h": 597558.23,
       "pool_address": "solana_FLwtAjNVTBXA73u6DDPsye7XzWXDwByFAdpTfgZ2Vnb3",
       "ath": 0.000112,
       "ath_timestamp": 1768501603,
@@ -253,11 +377,11 @@
       "dexId": "pumpswap",
       "pairAddress": "FLwtAjNVTBXA73u6DDPsye7XzWXDwByFAdpTfgZ2Vnb3",
       "txns_24h": {
-        "buys": 4354,
-        "sells": 3716
+        "buys": 4404,
+        "sells": 3781
       },
-      "fdv_usd": 23234,
-      "total_reserve_in_usd": 15703.15,
+      "fdv_usd": 26182,
+      "total_reserve_in_usd": 16676.18,
       "tags": [],
       "first_signal": {
         "timestamp": 1768501594,
@@ -298,11 +422,11 @@
             {
               "token_address": "Bcz4bUXgaqnfwcmodQwzrGW57fXT2vffJzj2U4FHpump",
               "balance": 12106920.229016,
-              "token_price": 2.323e-05,
+              "token_price": 2.618e-05,
               "token_decimals": 6,
               "token_symbol": "JULIANO",
               "token_name": "@thewolfofinsurance",
-              "value": 281.2437569200417
+              "value": 316.9591715956389
             }
           ]
         },
@@ -314,11 +438,11 @@
             {
               "token_address": "Bcz4bUXgaqnfwcmodQwzrGW57fXT2vffJzj2U4FHpump",
               "balance": 21805631.762279,
-              "token_price": 2.323e-05,
+              "token_price": 2.618e-05,
               "token_decimals": 6,
               "token_symbol": "JULIANO",
               "token_name": "@thewolfofinsurance",
-              "value": 506.54482583774114
+              "value": 570.8714395364642
             }
           ]
         }
@@ -333,11 +457,11 @@
       "created_time": 1758148219,
       "website": "",
       "twitter": "https://x.com/i/communities/1968442277552074769",
-      "holder": 11723,
-      "market_cap": 17162502,
-      "price": 0.01716,
-      "price_change_24h": -11.55,
-      "volume_24h": 682734.85,
+      "holder": 11727,
+      "market_cap": 16330412,
+      "price": 0.01633,
+      "price_change_24h": -15.26,
+      "volume_24h": 637996.19,
       "pool_address": "solana_6sEkZ73vph5AFYmQTzaV6H5vAQQLZ2C8WqeCQ6MhLqFk",
       "ath": 0.05122120012315754,
       "ath_timestamp": 1762300800,
@@ -345,11 +469,11 @@
       "dexId": "raydium",
       "pairAddress": "6sEkZ73vph5AFYmQTzaV6H5vAQQLZ2C8WqeCQ6MhLqFk",
       "txns_24h": {
-        "buys": 1381,
-        "sells": 1515
+        "buys": 1315,
+        "sells": 1388
       },
-      "fdv_usd": 17162502,
-      "total_reserve_in_usd": 914500.73,
+      "fdv_usd": 16330412,
+      "total_reserve_in_usd": 892157.49,
       "tags": [
         "moonshot"
       ],
@@ -472,245 +596,11 @@
             {
               "token_address": "GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk",
               "balance": 529203.706911,
-              "token_price": 0.01716,
+              "token_price": 0.01633,
               "token_decimals": 6,
               "token_symbol": "1",
               "token_name": "1 coin can change your life",
-              "value": 9081.13561059276
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "address": "jk1T35eWK41MBMM8AWoYVaNbjHEEQzMDetTsfnqpump",
-      "symbol": "SOL",
-      "name": "Sol The Trophy Tomato",
-      "decimals": 6,
-      "icon": "https://ipfs.io/ipfs/bafybeihamjzwd4mbasd2c5x4lmrcsgcoglz652epp5k6s4kcnr2fkz2mau",
-      "created_time": 1767043925,
-      "website": "",
-      "twitter": "https://x.com/d33v33d0/status/2005749018681565541?s=20",
-      "holder": 5104,
-      "market_cap": 14526720,
-      "price": 0.01741,
-      "price_change_24h": 52.01,
-      "volume_24h": 2554178.54,
-      "pool_address": "solana_CcYbXbMHr2o9Vyz2wmJcRvi59wh42xkXf6qrzChbHPN5",
-      "ath": 0.019716362425551897,
-      "ath_timestamp": 1768435200,
-      "ath_pool": "CcYbXbMHr2o9Vyz2wmJcRvi59wh42xkXf6qrzChbHPN5",
-      "dexId": "pumpswap",
-      "pairAddress": "CcYbXbMHr2o9Vyz2wmJcRvi59wh42xkXf6qrzChbHPN5",
-      "txns_24h": {
-        "buys": 3404,
-        "sells": 3660
-      },
-      "fdv_usd": 14526720,
-      "total_reserve_in_usd": 575507.99,
-      "tags": [],
-      "first_signal": {
-        "timestamp": 1768352048,
-        "price": 0.01037
-      },
-      "metrics": {
-        "uniqueWallets": 2,
-        "inflow24h": 45716.13786063183,
-        "trades": [
-          {
-            "timestamp": "2026-01-15T07:34:49.000Z",
-            "type": "BUY",
-            "amount": 3468565.374256,
-            "usdValue": 49950,
-            "wallet": {
-              "address": "GgG65z3MXpmGnV3ZapKv5ayDqox1x7CJnqP1LD8FaZdt",
-              "name": "y22.sol"
-            }
-          },
-          {
-            "timestamp": "2026-01-15T01:28:11.000Z",
-            "type": "SELL",
-            "amount": 400000,
-            "usdValue": 4233.8621393681715,
-            "wallet": {
-              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-              "name": "DNF 哥"
-            }
-          }
-        ]
-      },
-      "walletPortfolios": [
-        {
-          "address": "GgG65z3MXpmGnV3ZapKv5ayDqox1x7CJnqP1LD8FaZdt",
-          "name": "y22.sol",
-          "score": 1,
-          "tokens": [
-            {
-              "token_address": "jk1T35eWK41MBMM8AWoYVaNbjHEEQzMDetTsfnqpump",
-              "balance": 3468565.374256,
-              "token_price": 0.01741,
-              "token_decimals": 6,
-              "token_symbol": "SOL",
-              "token_name": "Sol The Trophy Tomato",
-              "value": 60387.72316579695
-            }
-          ]
-        },
-        {
-          "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-          "name": "DNF 哥",
-          "score": 3,
-          "tokens": [
-            {
-              "token_address": "jk1T35eWK41MBMM8AWoYVaNbjHEEQzMDetTsfnqpump",
-              "balance": 1007444.2616,
-              "token_price": 0.01741,
-              "token_decimals": 6,
-              "token_symbol": "SOL",
-              "token_name": "Sol The Trophy Tomato",
-              "value": 17539.604594456
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "address": "9kU4rZuXKniqw9z1zBrrb4Mjw3PW1hYm82ckLGfefren",
-      "symbol": "SHAWTY",
-      "name": "when shawty talkin bout",
-      "decimals": 6,
-      "icon": "https://30iqer.s3.us-east-1.amazonaws.com/ticker/bcce899e-8bc4-401d-9b5e-92d8d9889bc7.jpeg",
-      "created_time": 1768433805,
-      "website": "https://frenzy.fun/token/9kU4rZuXKniqw9z1zBrrb4Mjw3PW1hYm82ckLGfefren",
-      "twitter": "https://www.tiktok.com/music/d%C5%BAwi%C4%99k-oryginalny-7571958772546046743",
-      "holder": 1100,
-      "market_cap": 130262,
-      "price": 0.0001302,
-      "price_change_24h": -6.79,
-      "volume_24h": 2604933.94,
-      "pool_address": "solana_3J4ahP6aqVeAvNfqvwg3mvRH9cio9oaGg2xiWDjzhexn",
-      "ath": 0.0008077032614524294,
-      "ath_timestamp": 1768460400,
-      "ath_pool": "3J4ahP6aqVeAvNfqvwg3mvRH9cio9oaGg2xiWDjzhexn",
-      "dexId": "pumpswap",
-      "pairAddress": "3J4ahP6aqVeAvNfqvwg3mvRH9cio9oaGg2xiWDjzhexn",
-      "txns_24h": {
-        "buys": 10543,
-        "sells": 9442
-      },
-      "fdv_usd": 130262,
-      "total_reserve_in_usd": 40388.04,
-      "tags": [],
-      "first_signal": {
-        "timestamp": 1768446670,
-        "price": 0.0006877
-      },
-      "metrics": {
-        "uniqueWallets": 2,
-        "inflow24h": 10576.173229673024,
-        "trades": [
-          {
-            "timestamp": "2026-01-15T02:23:59.000Z",
-            "type": "BUY",
-            "amount": 3658401.093851,
-            "usdValue": 2903.694968584969,
-            "wallet": {
-              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-              "name": "cooker"
-            }
-          },
-          {
-            "timestamp": "2026-01-15T02:19:33.000Z",
-            "type": "BUY",
-            "amount": 3058618.781208,
-            "usdValue": 2899.571016717986,
-            "wallet": {
-              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-              "name": "cooker"
-            }
-          },
-          {
-            "timestamp": "2026-01-15T02:17:45.000Z",
-            "type": "BUY",
-            "amount": 3020044.799982,
-            "usdValue": 2899.571016717986,
-            "wallet": {
-              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-              "name": "cooker"
-            }
-          },
-          {
-            "timestamp": "2026-01-15T02:11:07.000Z",
-            "type": "SELL",
-            "amount": 1100494.907731,
-            "usdValue": 472.18474051448584,
-            "wallet": {
-              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-              "name": "DNF 哥"
-            }
-          },
-          {
-            "timestamp": "2026-01-15T02:10:59.000Z",
-            "type": "SELL",
-            "amount": 2200989.815461,
-            "usdValue": 944.3694810285425,
-            "wallet": {
-              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-              "name": "DNF 哥"
-            }
-          },
-          {
-            "timestamp": "2026-01-15T01:36:46.000Z",
-            "type": "SELL",
-            "amount": 2200989.81546,
-            "usdValue": 1141.4516685159708,
-            "wallet": {
-              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-              "name": "DNF 哥"
-            }
-          },
-          {
-            "timestamp": "2026-01-15T01:23:17.000Z",
-            "type": "BUY",
-            "amount": 22009898.154608,
-            "usdValue": 4431.342117711082,
-            "wallet": {
-              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-              "name": "DNF 哥"
-            }
-          }
-        ]
-      },
-      "walletPortfolios": [
-        {
-          "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-          "name": "cooker",
-          "score": 2,
-          "tokens": [
-            {
-              "token_address": "9kU4rZuXKniqw9z1zBrrb4Mjw3PW1hYm82ckLGfefren",
-              "balance": 9737064.675041,
-              "token_price": 0.0001302,
-              "token_decimals": 6,
-              "token_symbol": "SHAWTY",
-              "token_name": "when shawty talkin bout",
-              "value": 1267.7658206903382
-            }
-          ]
-        },
-        {
-          "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-          "name": "DNF 哥",
-          "score": 3,
-          "tokens": [
-            {
-              "token_address": "9kU4rZuXKniqw9z1zBrrb4Mjw3PW1hYm82ckLGfefren",
-              "balance": 16507423.615956,
-              "token_price": 0.0001302,
-              "token_decimals": 6,
-              "token_symbol": "SHAWTY",
-              "token_name": "when shawty talkin bout",
-              "value": 2149.266554797471
+              "value": 8641.89653385663
             }
           ]
         }
@@ -720,6 +610,130 @@
   "groups": {
     "latestSignals": [
       {
+        "address": "E88iga2puk2X8g2UagjmBnHBBp6fKvXsncNJcLMzpump",
+        "symbol": "Peanut",
+        "name": "The Burnt Peanut",
+        "decimals": 6,
+        "icon": "https://ipfs.io/ipfs/bafkreif2tlk2iapmp7ezwalub2cnyyijgoep6z2pjb6dks7grfaavdoym4",
+        "created_time": 1768526193,
+        "website": "https://x.com/Dexerto/status/2011888040050847777",
+        "twitter": "https://x.com/i/communities/2011968385605656695",
+        "holder": 1153,
+        "market_cap": 133623,
+        "price": 0.0001336,
+        "price_change_24h": 127,
+        "volume_24h": 993829.42,
+        "pool_address": "solana_GiJJc55UDvbE5KvjJnUGqRQVW5hvhb2w886LFfD9YPMq",
+        "ath": 0.0001336,
+        "ath_pool": "",
+        "dexId": "pumpswap",
+        "pairAddress": "GiJJc55UDvbE5KvjJnUGqRQVW5hvhb2w886LFfD9YPMq",
+        "boosts": {
+          "active": 10
+        },
+        "txns_24h": {
+          "buys": 6986,
+          "sells": 6038
+        },
+        "fdv_usd": 133623,
+        "total_reserve_in_usd": 38286.11,
+        "tags": [],
+        "first_signal": {
+          "timestamp": 1768532716,
+          "price": 0.0001336
+        },
+        "metrics": {
+          "uniqueWallets": 2,
+          "inflow24h": 3070.8898049934387,
+          "trades": [
+            {
+              "timestamp": "2026-01-16T02:38:56.000Z",
+              "type": "SELL",
+              "amount": 11011216.297314,
+              "usdValue": 2243.2851772893478,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-01-16T02:32:30.000Z",
+              "type": "BUY",
+              "amount": 3994171.986714,
+              "usdValue": 710.8129277029713,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-01-16T02:32:30.000Z",
+              "type": "BUY",
+              "amount": 2511261.824672,
+              "usdValue": 426.48775662178275,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-01-16T02:32:23.000Z",
+              "type": "BUY",
+              "amount": 4505782.485928,
+              "usdValue": 710.8129277029713,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-01-16T01:41:38.000Z",
+              "type": "BUY",
+              "amount": 21408932.150141,
+              "usdValue": 3466.0613702550613,
+              "wallet": {
+                "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+                "name": "DNF 哥"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+            "name": "cooker",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "E88iga2puk2X8g2UagjmBnHBBp6fKvXsncNJcLMzpump",
+                "balance": 0,
+                "token_price": 0.0001336,
+                "token_decimals": 6,
+                "token_symbol": "Peanut",
+                "token_name": "The Burnt Peanut",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+            "name": "DNF 哥",
+            "score": 3,
+            "tokens": [
+              {
+                "token_address": "E88iga2puk2X8g2UagjmBnHBBp6fKvXsncNJcLMzpump",
+                "balance": 21408932.150141,
+                "token_price": 0.0001336,
+                "token_decimals": 6,
+                "token_symbol": "Peanut",
+                "token_name": "The Burnt Peanut",
+                "value": 2860.2333352588375
+              }
+            ]
+          }
+        ]
+      },
+      {
         "address": "FD9XWDc4SECT2dysEskoikPKGZYBaZWhN9byxAL9pump",
         "symbol": "BTC",
         "name": "Bid The Car",
@@ -728,11 +742,11 @@
         "created_time": 1768514080,
         "website": "",
         "twitter": "https://x.com/coinbase/status/2011848444327940469?s=46&t=JQmNFn94sEXRJU2hkHIuDQ",
-        "holder": 1915,
-        "market_cap": 303571,
-        "price": 0.0003035,
-        "price_change_24h": 420,
-        "volume_24h": 8813958.68,
+        "holder": 1859,
+        "market_cap": 327736,
+        "price": 0.0003277,
+        "price_change_24h": 462,
+        "volume_24h": 9003352.57,
         "pool_address": "solana_753raM92XfvGxFaLJVKeJL7vTyVqWNAbHtcCi9ayNkd3",
         "ath": 0.0007634712109229998,
         "ath_timestamp": 1768518000,
@@ -740,11 +754,11 @@
         "dexId": "pumpswap",
         "pairAddress": "753raM92XfvGxFaLJVKeJL7vTyVqWNAbHtcCi9ayNkd3",
         "txns_24h": {
-          "buys": 24460,
-          "sells": 20243
+          "buys": 25566,
+          "sells": 21165
         },
-        "fdv_usd": 303571,
-        "total_reserve_in_usd": 65418.66,
+        "fdv_usd": 327736,
+        "total_reserve_in_usd": 68399.61,
         "tags": [],
         "first_signal": {
           "timestamp": 1768515315,
@@ -805,11 +819,11 @@
               {
                 "token_address": "FD9XWDc4SECT2dysEskoikPKGZYBaZWhN9byxAL9pump",
                 "balance": 11851306.531245,
-                "token_price": 0.0003035,
+                "token_price": 0.0003277,
                 "token_decimals": 6,
                 "token_symbol": "BTC",
                 "token_name": "Bid The Car",
-                "value": 3596.8715322328576
+                "value": 3883.6731502889866
               }
             ]
           },
@@ -821,11 +835,11 @@
               {
                 "token_address": "FD9XWDc4SECT2dysEskoikPKGZYBaZWhN9byxAL9pump",
                 "balance": 462392.815207,
-                "token_price": 0.0003035,
+                "token_price": 0.0003277,
                 "token_decimals": 6,
                 "token_symbol": "BTC",
                 "token_name": "Bid The Car",
-                "value": 140.3362194153245
+                "value": 151.5261255433339
               }
             ]
           },
@@ -837,7 +851,7 @@
               {
                 "token_address": "FD9XWDc4SECT2dysEskoikPKGZYBaZWhN9byxAL9pump",
                 "balance": 0,
-                "token_price": 0.0003035,
+                "token_price": 0.0003277,
                 "token_decimals": 6,
                 "token_symbol": "BTC",
                 "token_name": "Bid The Car",
@@ -856,23 +870,23 @@
         "created_time": 1768497045,
         "website": "",
         "twitter": "https://x.com/coinbase/status/2011848444327940469",
-        "holder": 251,
-        "market_cap": 78595,
-        "price": 7.859e-05,
-        "price_change_24h": 10.56,
-        "volume_24h": 612106.94,
+        "holder": 231,
+        "market_cap": 42551,
+        "price": 4.255e-05,
+        "price_change_24h": -40.14,
+        "volume_24h": 633639.45,
         "pool_address": "solana_AbnPkdyDvrVywdXgAtYkByxRa1xdGk3khcKEDfEUCkrU",
-        "ath": 7.059e-05,
-        "ath_timestamp": 1768521377,
+        "ath": 7.859e-05,
+        "ath_timestamp": 1768525663,
         "ath_pool": "BjpJTsgfSdGGUj5ySGqY2ZjFp5nTh6rqo2NyPJgSqMnH",
         "dexId": "meteora",
         "pairAddress": "AbnPkdyDvrVywdXgAtYkByxRa1xdGk3khcKEDfEUCkrU",
         "txns_24h": {
-          "buys": 3841,
-          "sells": 3174
+          "buys": 3975,
+          "sells": 3271
         },
-        "fdv_usd": 78595,
-        "total_reserve_in_usd": 25421.06,
+        "fdv_usd": 42551,
+        "total_reserve_in_usd": 18706.47,
         "tags": [],
         "first_signal": {
           "timestamp": 1768515160,
@@ -923,11 +937,11 @@
               {
                 "token_address": "4cwrhQMSCzFuP7K48GwTEnKgK7H6Y5Yp2Yeu1TXfBAGS",
                 "balance": 4504509.43401284,
-                "token_price": 7.859e-05,
+                "token_price": 4.255e-05,
                 "token_decimals": 9,
                 "token_symbol": "BTC",
                 "token_name": "BUY THE CAR",
-                "value": 354.0093964190691
+                "value": 191.6668764172463
               }
             ]
           },
@@ -939,7 +953,7 @@
               {
                 "token_address": "4cwrhQMSCzFuP7K48GwTEnKgK7H6Y5Yp2Yeu1TXfBAGS",
                 "balance": 0,
-                "token_price": 7.859e-05,
+                "token_price": 4.255e-05,
                 "token_decimals": 9,
                 "token_symbol": "BTC",
                 "token_name": "BUY THE CAR",
@@ -958,11 +972,11 @@
         "created_time": 1768489543,
         "website": "https://www.tiktok.com/@thewolfofinsurance",
         "twitter": "",
-        "holder": 418,
-        "market_cap": 23234,
-        "price": 2.323e-05,
-        "price_change_24h": -60.54,
-        "volume_24h": 591819.09,
+        "holder": 392,
+        "market_cap": 26182,
+        "price": 2.618e-05,
+        "price_change_24h": -55.53,
+        "volume_24h": 597558.23,
         "pool_address": "solana_FLwtAjNVTBXA73u6DDPsye7XzWXDwByFAdpTfgZ2Vnb3",
         "ath": 0.000112,
         "ath_timestamp": 1768501603,
@@ -970,11 +984,11 @@
         "dexId": "pumpswap",
         "pairAddress": "FLwtAjNVTBXA73u6DDPsye7XzWXDwByFAdpTfgZ2Vnb3",
         "txns_24h": {
-          "buys": 4354,
-          "sells": 3716
+          "buys": 4404,
+          "sells": 3781
         },
-        "fdv_usd": 23234,
-        "total_reserve_in_usd": 15703.15,
+        "fdv_usd": 26182,
+        "total_reserve_in_usd": 16676.18,
         "tags": [],
         "first_signal": {
           "timestamp": 1768501594,
@@ -1015,11 +1029,11 @@
               {
                 "token_address": "Bcz4bUXgaqnfwcmodQwzrGW57fXT2vffJzj2U4FHpump",
                 "balance": 12106920.229016,
-                "token_price": 2.323e-05,
+                "token_price": 2.618e-05,
                 "token_decimals": 6,
                 "token_symbol": "JULIANO",
                 "token_name": "@thewolfofinsurance",
-                "value": 281.2437569200417
+                "value": 316.9591715956389
               }
             ]
           },
@@ -1031,153 +1045,11 @@
               {
                 "token_address": "Bcz4bUXgaqnfwcmodQwzrGW57fXT2vffJzj2U4FHpump",
                 "balance": 21805631.762279,
-                "token_price": 2.323e-05,
+                "token_price": 2.618e-05,
                 "token_decimals": 6,
                 "token_symbol": "JULIANO",
                 "token_name": "@thewolfofinsurance",
-                "value": 506.54482583774114
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "address": "9kU4rZuXKniqw9z1zBrrb4Mjw3PW1hYm82ckLGfefren",
-        "symbol": "SHAWTY",
-        "name": "when shawty talkin bout",
-        "decimals": 6,
-        "icon": "https://30iqer.s3.us-east-1.amazonaws.com/ticker/bcce899e-8bc4-401d-9b5e-92d8d9889bc7.jpeg",
-        "created_time": 1768433805,
-        "website": "https://frenzy.fun/token/9kU4rZuXKniqw9z1zBrrb4Mjw3PW1hYm82ckLGfefren",
-        "twitter": "https://www.tiktok.com/music/d%C5%BAwi%C4%99k-oryginalny-7571958772546046743",
-        "holder": 1100,
-        "market_cap": 130262,
-        "price": 0.0001302,
-        "price_change_24h": -6.79,
-        "volume_24h": 2604933.94,
-        "pool_address": "solana_3J4ahP6aqVeAvNfqvwg3mvRH9cio9oaGg2xiWDjzhexn",
-        "ath": 0.0008077032614524294,
-        "ath_timestamp": 1768460400,
-        "ath_pool": "3J4ahP6aqVeAvNfqvwg3mvRH9cio9oaGg2xiWDjzhexn",
-        "dexId": "pumpswap",
-        "pairAddress": "3J4ahP6aqVeAvNfqvwg3mvRH9cio9oaGg2xiWDjzhexn",
-        "txns_24h": {
-          "buys": 10543,
-          "sells": 9442
-        },
-        "fdv_usd": 130262,
-        "total_reserve_in_usd": 40388.04,
-        "tags": [],
-        "first_signal": {
-          "timestamp": 1768446670,
-          "price": 0.0006877
-        },
-        "metrics": {
-          "uniqueWallets": 2,
-          "inflow24h": 10576.173229673024,
-          "trades": [
-            {
-              "timestamp": "2026-01-15T02:23:59.000Z",
-              "type": "BUY",
-              "amount": 3658401.093851,
-              "usdValue": 2903.694968584969,
-              "wallet": {
-                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-                "name": "cooker"
-              }
-            },
-            {
-              "timestamp": "2026-01-15T02:19:33.000Z",
-              "type": "BUY",
-              "amount": 3058618.781208,
-              "usdValue": 2899.571016717986,
-              "wallet": {
-                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-                "name": "cooker"
-              }
-            },
-            {
-              "timestamp": "2026-01-15T02:17:45.000Z",
-              "type": "BUY",
-              "amount": 3020044.799982,
-              "usdValue": 2899.571016717986,
-              "wallet": {
-                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-                "name": "cooker"
-              }
-            },
-            {
-              "timestamp": "2026-01-15T02:11:07.000Z",
-              "type": "SELL",
-              "amount": 1100494.907731,
-              "usdValue": 472.18474051448584,
-              "wallet": {
-                "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-                "name": "DNF 哥"
-              }
-            },
-            {
-              "timestamp": "2026-01-15T02:10:59.000Z",
-              "type": "SELL",
-              "amount": 2200989.815461,
-              "usdValue": 944.3694810285425,
-              "wallet": {
-                "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-                "name": "DNF 哥"
-              }
-            },
-            {
-              "timestamp": "2026-01-15T01:36:46.000Z",
-              "type": "SELL",
-              "amount": 2200989.81546,
-              "usdValue": 1141.4516685159708,
-              "wallet": {
-                "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-                "name": "DNF 哥"
-              }
-            },
-            {
-              "timestamp": "2026-01-15T01:23:17.000Z",
-              "type": "BUY",
-              "amount": 22009898.154608,
-              "usdValue": 4431.342117711082,
-              "wallet": {
-                "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-                "name": "DNF 哥"
-              }
-            }
-          ]
-        },
-        "walletPortfolios": [
-          {
-            "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-            "name": "cooker",
-            "score": 2,
-            "tokens": [
-              {
-                "token_address": "9kU4rZuXKniqw9z1zBrrb4Mjw3PW1hYm82ckLGfefren",
-                "balance": 9737064.675041,
-                "token_price": 0.0001302,
-                "token_decimals": 6,
-                "token_symbol": "SHAWTY",
-                "token_name": "when shawty talkin bout",
-                "value": 1267.7658206903382
-              }
-            ]
-          },
-          {
-            "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-            "name": "DNF 哥",
-            "score": 3,
-            "tokens": [
-              {
-                "token_address": "9kU4rZuXKniqw9z1zBrrb4Mjw3PW1hYm82ckLGfefren",
-                "balance": 16507423.615956,
-                "token_price": 0.0001302,
-                "token_decimals": 6,
-                "token_symbol": "SHAWTY",
-                "token_name": "when shawty talkin bout",
-                "value": 2149.266554797471
+                "value": 570.8714395364642
               }
             ]
           }
@@ -1194,11 +1066,11 @@
         "created_time": 1758148219,
         "website": "",
         "twitter": "https://x.com/i/communities/1968442277552074769",
-        "holder": 11723,
-        "market_cap": 17162502,
-        "price": 0.01716,
-        "price_change_24h": -11.55,
-        "volume_24h": 682734.85,
+        "holder": 11727,
+        "market_cap": 16330412,
+        "price": 0.01633,
+        "price_change_24h": -15.26,
+        "volume_24h": 637996.19,
         "pool_address": "solana_6sEkZ73vph5AFYmQTzaV6H5vAQQLZ2C8WqeCQ6MhLqFk",
         "ath": 0.05122120012315754,
         "ath_timestamp": 1762300800,
@@ -1206,11 +1078,11 @@
         "dexId": "raydium",
         "pairAddress": "6sEkZ73vph5AFYmQTzaV6H5vAQQLZ2C8WqeCQ6MhLqFk",
         "txns_24h": {
-          "buys": 1381,
-          "sells": 1515
+          "buys": 1315,
+          "sells": 1388
         },
-        "fdv_usd": 17162502,
-        "total_reserve_in_usd": 914500.73,
+        "fdv_usd": 16330412,
+        "total_reserve_in_usd": 892157.49,
         "tags": [
           "moonshot"
         ],
@@ -1333,103 +1205,11 @@
               {
                 "token_address": "GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk",
                 "balance": 529203.706911,
-                "token_price": 0.01716,
+                "token_price": 0.01633,
                 "token_decimals": 6,
                 "token_symbol": "1",
                 "token_name": "1 coin can change your life",
-                "value": 9081.13561059276
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "address": "jk1T35eWK41MBMM8AWoYVaNbjHEEQzMDetTsfnqpump",
-        "symbol": "SOL",
-        "name": "Sol The Trophy Tomato",
-        "decimals": 6,
-        "icon": "https://ipfs.io/ipfs/bafybeihamjzwd4mbasd2c5x4lmrcsgcoglz652epp5k6s4kcnr2fkz2mau",
-        "created_time": 1767043925,
-        "website": "",
-        "twitter": "https://x.com/d33v33d0/status/2005749018681565541?s=20",
-        "holder": 5104,
-        "market_cap": 14526720,
-        "price": 0.01741,
-        "price_change_24h": 52.01,
-        "volume_24h": 2554178.54,
-        "pool_address": "solana_CcYbXbMHr2o9Vyz2wmJcRvi59wh42xkXf6qrzChbHPN5",
-        "ath": 0.019716362425551897,
-        "ath_timestamp": 1768435200,
-        "ath_pool": "CcYbXbMHr2o9Vyz2wmJcRvi59wh42xkXf6qrzChbHPN5",
-        "dexId": "pumpswap",
-        "pairAddress": "CcYbXbMHr2o9Vyz2wmJcRvi59wh42xkXf6qrzChbHPN5",
-        "txns_24h": {
-          "buys": 3404,
-          "sells": 3660
-        },
-        "fdv_usd": 14526720,
-        "total_reserve_in_usd": 575507.99,
-        "tags": [],
-        "first_signal": {
-          "timestamp": 1768352048,
-          "price": 0.01037
-        },
-        "metrics": {
-          "uniqueWallets": 2,
-          "inflow24h": 45716.13786063183,
-          "trades": [
-            {
-              "timestamp": "2026-01-15T07:34:49.000Z",
-              "type": "BUY",
-              "amount": 3468565.374256,
-              "usdValue": 49950,
-              "wallet": {
-                "address": "GgG65z3MXpmGnV3ZapKv5ayDqox1x7CJnqP1LD8FaZdt",
-                "name": "y22.sol"
-              }
-            },
-            {
-              "timestamp": "2026-01-15T01:28:11.000Z",
-              "type": "SELL",
-              "amount": 400000,
-              "usdValue": 4233.8621393681715,
-              "wallet": {
-                "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-                "name": "DNF 哥"
-              }
-            }
-          ]
-        },
-        "walletPortfolios": [
-          {
-            "address": "GgG65z3MXpmGnV3ZapKv5ayDqox1x7CJnqP1LD8FaZdt",
-            "name": "y22.sol",
-            "score": 1,
-            "tokens": [
-              {
-                "token_address": "jk1T35eWK41MBMM8AWoYVaNbjHEEQzMDetTsfnqpump",
-                "balance": 3468565.374256,
-                "token_price": 0.01741,
-                "token_decimals": 6,
-                "token_symbol": "SOL",
-                "token_name": "Sol The Trophy Tomato",
-                "value": 60387.72316579695
-              }
-            ]
-          },
-          {
-            "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-            "name": "DNF 哥",
-            "score": 3,
-            "tokens": [
-              {
-                "token_address": "jk1T35eWK41MBMM8AWoYVaNbjHEEQzMDetTsfnqpump",
-                "balance": 1007444.2616,
-                "token_price": 0.01741,
-                "token_decimals": 6,
-                "token_symbol": "SOL",
-                "token_name": "Sol The Trophy Tomato",
-                "value": 17539.604594456
+                "value": 8641.89653385663
               }
             ]
           }
