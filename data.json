@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2026-01-16T06:57:56.129Z",
+  "timestamp": "2026-01-16T07:21:58.419Z",
   "data": [
     {
       "address": "7pskt3A1Zsjhngazam7vHWjWHnfgiRump916Xj7ABAGS",
@@ -12,10 +12,10 @@
       "website": "https://steve-yegge.medium.com/welcome-to-gas-town-4f25ee16dd04",
       "twitter": "https://x.com/i/communities/2008397129065394644",
       "holder": 5865,
-      "market_cap": 39932958,
-      "price": 0.03993,
-      "price_change_24h": 543,
-      "volume_24h": 11758217.47,
+      "market_cap": 32860569,
+      "price": 0.03286,
+      "price_change_24h": 453,
+      "volume_24h": 12403665.24,
       "pool_address": "solana_FiNu5nSFwvjQbAFDESxDxvLhQJa3H7QYBrLUqFRB27v9",
       "ath": 0.038027278812713984,
       "ath_timestamp": 1768543200,
@@ -23,11 +23,11 @@
       "dexId": "meteora",
       "pairAddress": "FiNu5nSFwvjQbAFDESxDxvLhQJa3H7QYBrLUqFRB27v9",
       "txns_24h": {
-        "buys": 13431,
-        "sells": 14298
+        "buys": 14299,
+        "sells": 14877
       },
-      "fdv_usd": 39932958,
-      "total_reserve_in_usd": 654559.13,
+      "fdv_usd": 32860569,
+      "total_reserve_in_usd": 592158.48,
       "tags": [],
       "first_signal": {
         "timestamp": 1768539812,
@@ -35,8 +35,58 @@
       },
       "metrics": {
         "uniqueWallets": 5,
-        "inflow24h": 53877.61690337809,
+        "inflow24h": 31383.21161473119,
         "trades": [
+          {
+            "timestamp": "2026-01-16T07:20:26.000Z",
+            "type": "SELL",
+            "amount": 242551.814195894,
+            "usdValue": 7630.544669410996,
+            "wallet": {
+              "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
+              "name": "eca.eth"
+            }
+          },
+          {
+            "timestamp": "2026-01-16T07:20:23.000Z",
+            "type": "SELL",
+            "amount": 269502.015773216,
+            "usdValue": 8574.346508567132,
+            "wallet": {
+              "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
+              "name": "eca.eth"
+            }
+          },
+          {
+            "timestamp": "2026-01-16T07:20:22.000Z",
+            "type": "SELL",
+            "amount": 299446.684192462,
+            "usdValue": 9786.014110668757,
+            "wallet": {
+              "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
+              "name": "eca.eth"
+            }
+          },
+          {
+            "timestamp": "2026-01-16T07:10:11.000Z",
+            "type": "BUY",
+            "amount": 52784.954273005,
+            "usdValue": 1998,
+            "wallet": {
+              "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
+              "name": "Wizard100x"
+            }
+          },
+          {
+            "timestamp": "2026-01-16T06:58:55.000Z",
+            "type": "BUY",
+            "amount": 35342.914928283,
+            "usdValue": 1498.5,
+            "wallet": {
+              "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
+              "name": "Wizard100x"
+            }
+          },
           {
             "timestamp": "2026-01-16T06:47:02.000Z",
             "type": "BUY",
@@ -201,18 +251,34 @@
       },
       "walletPortfolios": [
         {
+          "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
+          "name": "eca.eth",
+          "score": 1,
+          "tokens": [
+            {
+              "token_address": "7pskt3A1Zsjhngazam7vHWjWHnfgiRump916Xj7ABAGS",
+              "balance": 2182966.327763054,
+              "token_price": 0.03286,
+              "token_decimals": 9,
+              "token_symbol": "GAS",
+              "token_name": "Gas Town",
+              "value": 71732.27353029395
+            }
+          ]
+        },
+        {
           "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
           "name": "Wizard100x",
           "score": 3,
           "tokens": [
             {
               "token_address": "7pskt3A1Zsjhngazam7vHWjWHnfgiRump916Xj7ABAGS",
-              "balance": 65488.980970036,
-              "token_price": 0.03993,
+              "balance": 153616.850171324,
+              "token_price": 0.03286,
               "token_decimals": 9,
               "token_symbol": "GAS",
               "token_name": "Gas Town",
-              "value": 2614.9750101335376
+              "value": 5047.849696629707
             }
           ]
         },
@@ -224,11 +290,11 @@
             {
               "token_address": "7pskt3A1Zsjhngazam7vHWjWHnfgiRump916Xj7ABAGS",
               "balance": 2156889.353744625,
-              "token_price": 0.03993,
+              "token_price": 0.03286,
               "token_decimals": 9,
               "token_symbol": "GAS",
               "token_name": "Gas Town",
-              "value": 86124.59189502288
+              "value": 70875.38416404839
             }
           ]
         },
@@ -240,27 +306,11 @@
             {
               "token_address": "7pskt3A1Zsjhngazam7vHWjWHnfgiRump916Xj7ABAGS",
               "balance": 0,
-              "token_price": 0.03993,
+              "token_price": 0.03286,
               "token_decimals": 9,
               "token_symbol": "GAS",
               "token_name": "Gas Town",
               "value": 0
-            }
-          ]
-        },
-        {
-          "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
-          "name": "eca.eth",
-          "score": 1,
-          "tokens": [
-            {
-              "token_address": "7pskt3A1Zsjhngazam7vHWjWHnfgiRump916Xj7ABAGS",
-              "balance": 2994466.841924626,
-              "token_price": 0.03993,
-              "token_decimals": 9,
-              "token_symbol": "GAS",
-              "token_name": "Gas Town",
-              "value": 119569.0609980503
             }
           ]
         },
@@ -272,11 +322,11 @@
             {
               "token_address": "7pskt3A1Zsjhngazam7vHWjWHnfgiRump916Xj7ABAGS",
               "balance": 233871.415109946,
-              "token_price": 0.03993,
+              "token_price": 0.03286,
               "token_decimals": 9,
               "token_symbol": "GAS",
               "token_name": "Gas Town",
-              "value": 9338.485605340144
+              "value": 7685.0147005128265
             }
           ]
         }
@@ -292,21 +342,22 @@
       "website": "https://github.com/jasonkneen/huggi?tab=readme-ov-file",
       "twitter": "https://x.com/3937480reufd/status/2012038243068625124",
       "holder": 1550,
-      "market_cap": 806497,
-      "price": 0.0008064,
-      "price_change_24h": 1064,
-      "volume_24h": 3657164.25,
+      "market_cap": 352806,
+      "price": 0.0003528,
+      "price_change_24h": 409,
+      "volume_24h": 3922288.93,
       "pool_address": "solana_BUAWNueM8SN4N7x5BYpR5sJaQs7u88BACzcaJ5a2uvwL",
       "ath": 0.0008064,
-      "ath_pool": "",
+      "ath_timestamp": 1768546685,
+      "ath_pool": "BUAWNueM8SN4N7x5BYpR5sJaQs7u88BACzcaJ5a2uvwL",
       "dexId": "meteora",
       "pairAddress": "BUAWNueM8SN4N7x5BYpR5sJaQs7u88BACzcaJ5a2uvwL",
       "txns_24h": {
-        "buys": 11807,
-        "sells": 11742
+        "buys": 13221,
+        "sells": 12567
       },
-      "fdv_usd": 806497,
-      "total_reserve_in_usd": 84702.25,
+      "fdv_usd": 352806,
+      "total_reserve_in_usd": 56508.22,
       "tags": [],
       "first_signal": {
         "timestamp": 1768546673,
@@ -367,7 +418,7 @@
             {
               "token_address": "96zMCM9nALK2cDv5p2CiDkGrgbJX9McCnQkxyBaoBAGS",
               "balance": 0,
-              "token_price": 0.0008064,
+              "token_price": 0.0003528,
               "token_decimals": 9,
               "token_symbol": "Huggi",
               "token_name": "Huggi",
@@ -383,11 +434,11 @@
             {
               "token_address": "96zMCM9nALK2cDv5p2CiDkGrgbJX9McCnQkxyBaoBAGS",
               "balance": 6417476.516040556,
-              "token_price": 0.0008064,
+              "token_price": 0.0003528,
               "token_decimals": 9,
               "token_symbol": "Huggi",
               "token_name": "Huggi",
-              "value": 5175.053062535104
+              "value": 2264.085714859108
             }
           ]
         }
@@ -403,10 +454,10 @@
       "website": "",
       "twitter": "https://x.com/i/communities/1968442277552074769",
       "holder": 11831,
-      "market_cap": 13849166,
-      "price": 0.01384,
-      "price_change_24h": -29.35,
-      "volume_24h": 718973.52,
+      "market_cap": 13582689,
+      "price": 0.01358,
+      "price_change_24h": -29.25,
+      "volume_24h": 759826.37,
       "pool_address": "solana_6sEkZ73vph5AFYmQTzaV6H5vAQQLZ2C8WqeCQ6MhLqFk",
       "ath": 0.05122120012315754,
       "ath_timestamp": 1762300800,
@@ -414,11 +465,11 @@
       "dexId": "raydium",
       "pairAddress": "6sEkZ73vph5AFYmQTzaV6H5vAQQLZ2C8WqeCQ6MhLqFk",
       "txns_24h": {
-        "buys": 1868,
-        "sells": 1368
+        "buys": 2044,
+        "sells": 1423
       },
-      "fdv_usd": 13849166,
-      "total_reserve_in_usd": 822001.67,
+      "fdv_usd": 13582689,
+      "total_reserve_in_usd": 814196.07,
       "tags": [
         "moonshot"
       ],
@@ -601,11 +652,11 @@
             {
               "token_address": "GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk",
               "balance": 726034.6007,
-              "token_price": 0.01384,
+              "token_price": 0.01358,
               "token_decimals": 6,
               "token_symbol": "1",
               "token_name": "1 coin can change your life",
-              "value": 10048.318873687998
+              "value": 9859.549877505999
             }
           ]
         }
@@ -621,10 +672,10 @@
       "website": "https://x.com/Dexerto/status/2011888040050847777",
       "twitter": "https://x.com/i/communities/2011968385605656695",
       "holder": 1149,
-      "market_cap": 38644,
-      "price": 3.864e-05,
-      "price_change_24h": -34.23,
-      "volume_24h": 1515582.57,
+      "market_cap": 41318,
+      "price": 4.131e-05,
+      "price_change_24h": -29.67,
+      "volume_24h": 1524073.13,
       "pool_address": "solana_GiJJc55UDvbE5KvjJnUGqRQVW5hvhb2w886LFfD9YPMq",
       "ath": 0.00023200092213665634,
       "ath_timestamp": 1768536000,
@@ -635,11 +686,11 @@
         "active": 10
       },
       "txns_24h": {
-        "buys": 10925,
-        "sells": 8955
+        "buys": 11032,
+        "sells": 9051
       },
-      "fdv_usd": 38644,
-      "total_reserve_in_usd": 21130.9,
+      "fdv_usd": 41318,
+      "total_reserve_in_usd": 21836.82,
       "tags": [],
       "first_signal": {
         "timestamp": 1768532716,
@@ -720,11 +771,11 @@
             {
               "token_address": "E88iga2puk2X8g2UagjmBnHBBp6fKvXsncNJcLMzpump",
               "balance": 10704466.075071,
-              "token_price": 3.864e-05,
+              "token_price": 4.131e-05,
               "token_decimals": 6,
               "token_symbol": "Peanut",
               "token_name": "The Burnt Peanut",
-              "value": 413.62056914074344
+              "value": 442.20149356118304
             }
           ]
         },
@@ -736,7 +787,7 @@
             {
               "token_address": "E88iga2puk2X8g2UagjmBnHBBp6fKvXsncNJcLMzpump",
               "balance": 0,
-              "token_price": 3.864e-05,
+              "token_price": 4.131e-05,
               "token_decimals": 6,
               "token_symbol": "Peanut",
               "token_name": "The Burnt Peanut",
@@ -756,10 +807,10 @@
       "website": "",
       "twitter": "https://x.com/coinbase/status/2011848444327940469?s=46&t=JQmNFn94sEXRJU2hkHIuDQ",
       "holder": 1819,
-      "market_cap": 154175,
-      "price": 0.0001541,
-      "price_change_24h": 164,
-      "volume_24h": 9201113.41,
+      "market_cap": 163063,
+      "price": 0.000163,
+      "price_change_24h": 180,
+      "volume_24h": 9206440.75,
       "pool_address": "solana_753raM92XfvGxFaLJVKeJL7vTyVqWNAbHtcCi9ayNkd3",
       "ath": 0.0007634712109229998,
       "ath_timestamp": 1768518000,
@@ -767,11 +818,11 @@
       "dexId": "pumpswap",
       "pairAddress": "753raM92XfvGxFaLJVKeJL7vTyVqWNAbHtcCi9ayNkd3",
       "txns_24h": {
-        "buys": 26796,
-        "sells": 22179
+        "buys": 26829,
+        "sells": 22246
       },
-      "fdv_usd": 154175,
-      "total_reserve_in_usd": 47419.21,
+      "fdv_usd": 163063,
+      "total_reserve_in_usd": 48737.88,
       "tags": [],
       "first_signal": {
         "timestamp": 1768515315,
@@ -842,7 +893,7 @@
             {
               "token_address": "FD9XWDc4SECT2dysEskoikPKGZYBaZWhN9byxAL9pump",
               "balance": 0,
-              "token_price": 0.0001541,
+              "token_price": 0.000163,
               "token_decimals": 6,
               "token_symbol": "BTC",
               "token_name": "Bid The Car",
@@ -858,11 +909,11 @@
             {
               "token_address": "FD9XWDc4SECT2dysEskoikPKGZYBaZWhN9byxAL9pump",
               "balance": 11851306.531245,
-              "token_price": 0.0001541,
+              "token_price": 0.000163,
               "token_decimals": 6,
               "token_symbol": "BTC",
               "token_name": "Bid The Car",
-              "value": 1826.2863364648547
+              "value": 1931.762964592935
             }
           ]
         },
@@ -874,7 +925,7 @@
             {
               "token_address": "FD9XWDc4SECT2dysEskoikPKGZYBaZWhN9byxAL9pump",
               "balance": 0,
-              "token_price": 0.0001541,
+              "token_price": 0.000163,
               "token_decimals": 6,
               "token_symbol": "BTC",
               "token_name": "Bid The Car",
@@ -894,10 +945,10 @@
       "website": "",
       "twitter": "https://x.com/coinbase/status/2011848444327940469",
       "holder": 223,
-      "market_cap": 31237,
-      "price": 3.123e-05,
-      "price_change_24h": -56.06,
-      "volume_24h": 651268.19,
+      "market_cap": 27536,
+      "price": 2.753e-05,
+      "price_change_24h": -61.26,
+      "volume_24h": 652444.44,
       "pool_address": "solana_AbnPkdyDvrVywdXgAtYkByxRa1xdGk3khcKEDfEUCkrU",
       "ath": 7.859e-05,
       "ath_timestamp": 1768525663,
@@ -905,11 +956,11 @@
       "dexId": "meteora",
       "pairAddress": "AbnPkdyDvrVywdXgAtYkByxRa1xdGk3khcKEDfEUCkrU",
       "txns_24h": {
-        "buys": 4086,
-        "sells": 3383
+        "buys": 4095,
+        "sells": 3395
       },
-      "fdv_usd": 31237,
-      "total_reserve_in_usd": 16088.97,
+      "fdv_usd": 27536,
+      "total_reserve_in_usd": 15092.7,
       "tags": [],
       "first_signal": {
         "timestamp": 1768515160,
@@ -970,7 +1021,7 @@
             {
               "token_address": "4cwrhQMSCzFuP7K48GwTEnKgK7H6Y5Yp2Yeu1TXfBAGS",
               "balance": 0,
-              "token_price": 3.123e-05,
+              "token_price": 2.753e-05,
               "token_decimals": 9,
               "token_symbol": "BTC",
               "token_name": "BUY THE CAR",
@@ -986,7 +1037,7 @@
             {
               "token_address": "4cwrhQMSCzFuP7K48GwTEnKgK7H6Y5Yp2Yeu1TXfBAGS",
               "balance": 0,
-              "token_price": 3.123e-05,
+              "token_price": 2.753e-05,
               "token_decimals": 9,
               "token_symbol": "BTC",
               "token_name": "BUY THE CAR",
@@ -1006,10 +1057,10 @@
       "website": "https://www.tiktok.com/@thewolfofinsurance",
       "twitter": "",
       "holder": 383,
-      "market_cap": 20452,
-      "price": 2.045e-05,
-      "price_change_24h": -65.27,
-      "volume_24h": 617084.12,
+      "market_cap": 19486,
+      "price": 1.948e-05,
+      "price_change_24h": -66.91,
+      "volume_24h": 617713.03,
       "pool_address": "solana_FLwtAjNVTBXA73u6DDPsye7XzWXDwByFAdpTfgZ2Vnb3",
       "ath": 0.000112,
       "ath_timestamp": 1768501603,
@@ -1017,11 +1068,11 @@
       "dexId": "pumpswap",
       "pairAddress": "FLwtAjNVTBXA73u6DDPsye7XzWXDwByFAdpTfgZ2Vnb3",
       "txns_24h": {
-        "buys": 4523,
-        "sells": 3891
+        "buys": 4528,
+        "sells": 3902
       },
-      "fdv_usd": 20452,
-      "total_reserve_in_usd": 14797.18,
+      "fdv_usd": 19486,
+      "total_reserve_in_usd": 14436.43,
       "tags": [],
       "first_signal": {
         "timestamp": 1768501594,
@@ -1062,11 +1113,11 @@
             {
               "token_address": "Bcz4bUXgaqnfwcmodQwzrGW57fXT2vffJzj2U4FHpump",
               "balance": 12106920.229016,
-              "token_price": 2.045e-05,
+              "token_price": 1.948e-05,
               "token_decimals": 6,
               "token_symbol": "JULIANO",
               "token_name": "@thewolfofinsurance",
-              "value": 247.5865186833772
+              "value": 235.8428060612317
             }
           ]
         },
@@ -1078,11 +1129,11 @@
             {
               "token_address": "Bcz4bUXgaqnfwcmodQwzrGW57fXT2vffJzj2U4FHpump",
               "balance": 21805631.762279,
-              "token_price": 2.045e-05,
+              "token_price": 1.948e-05,
               "token_decimals": 6,
               "token_symbol": "JULIANO",
               "token_name": "@thewolfofinsurance",
-              "value": 445.92516953860553
+              "value": 424.77370672919494
             }
           ]
         }
@@ -1101,21 +1152,22 @@
         "website": "https://github.com/jasonkneen/huggi?tab=readme-ov-file",
         "twitter": "https://x.com/3937480reufd/status/2012038243068625124",
         "holder": 1550,
-        "market_cap": 806497,
-        "price": 0.0008064,
-        "price_change_24h": 1064,
-        "volume_24h": 3657164.25,
+        "market_cap": 352806,
+        "price": 0.0003528,
+        "price_change_24h": 409,
+        "volume_24h": 3922288.93,
         "pool_address": "solana_BUAWNueM8SN4N7x5BYpR5sJaQs7u88BACzcaJ5a2uvwL",
         "ath": 0.0008064,
-        "ath_pool": "",
+        "ath_timestamp": 1768546685,
+        "ath_pool": "BUAWNueM8SN4N7x5BYpR5sJaQs7u88BACzcaJ5a2uvwL",
         "dexId": "meteora",
         "pairAddress": "BUAWNueM8SN4N7x5BYpR5sJaQs7u88BACzcaJ5a2uvwL",
         "txns_24h": {
-          "buys": 11807,
-          "sells": 11742
+          "buys": 13221,
+          "sells": 12567
         },
-        "fdv_usd": 806497,
-        "total_reserve_in_usd": 84702.25,
+        "fdv_usd": 352806,
+        "total_reserve_in_usd": 56508.22,
         "tags": [],
         "first_signal": {
           "timestamp": 1768546673,
@@ -1176,7 +1228,7 @@
               {
                 "token_address": "96zMCM9nALK2cDv5p2CiDkGrgbJX9McCnQkxyBaoBAGS",
                 "balance": 0,
-                "token_price": 0.0008064,
+                "token_price": 0.0003528,
                 "token_decimals": 9,
                 "token_symbol": "Huggi",
                 "token_name": "Huggi",
@@ -1192,11 +1244,11 @@
               {
                 "token_address": "96zMCM9nALK2cDv5p2CiDkGrgbJX9McCnQkxyBaoBAGS",
                 "balance": 6417476.516040556,
-                "token_price": 0.0008064,
+                "token_price": 0.0003528,
                 "token_decimals": 9,
                 "token_symbol": "Huggi",
                 "token_name": "Huggi",
-                "value": 5175.053062535104
+                "value": 2264.085714859108
               }
             ]
           }
@@ -1212,10 +1264,10 @@
         "website": "https://steve-yegge.medium.com/welcome-to-gas-town-4f25ee16dd04",
         "twitter": "https://x.com/i/communities/2008397129065394644",
         "holder": 5865,
-        "market_cap": 39932958,
-        "price": 0.03993,
-        "price_change_24h": 543,
-        "volume_24h": 11758217.47,
+        "market_cap": 32860569,
+        "price": 0.03286,
+        "price_change_24h": 453,
+        "volume_24h": 12403665.24,
         "pool_address": "solana_FiNu5nSFwvjQbAFDESxDxvLhQJa3H7QYBrLUqFRB27v9",
         "ath": 0.038027278812713984,
         "ath_timestamp": 1768543200,
@@ -1223,11 +1275,11 @@
         "dexId": "meteora",
         "pairAddress": "FiNu5nSFwvjQbAFDESxDxvLhQJa3H7QYBrLUqFRB27v9",
         "txns_24h": {
-          "buys": 13431,
-          "sells": 14298
+          "buys": 14299,
+          "sells": 14877
         },
-        "fdv_usd": 39932958,
-        "total_reserve_in_usd": 654559.13,
+        "fdv_usd": 32860569,
+        "total_reserve_in_usd": 592158.48,
         "tags": [],
         "first_signal": {
           "timestamp": 1768539812,
@@ -1235,8 +1287,58 @@
         },
         "metrics": {
           "uniqueWallets": 5,
-          "inflow24h": 53877.61690337809,
+          "inflow24h": 31383.21161473119,
           "trades": [
+            {
+              "timestamp": "2026-01-16T07:20:26.000Z",
+              "type": "SELL",
+              "amount": 242551.814195894,
+              "usdValue": 7630.544669410996,
+              "wallet": {
+                "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
+                "name": "eca.eth"
+              }
+            },
+            {
+              "timestamp": "2026-01-16T07:20:23.000Z",
+              "type": "SELL",
+              "amount": 269502.015773216,
+              "usdValue": 8574.346508567132,
+              "wallet": {
+                "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
+                "name": "eca.eth"
+              }
+            },
+            {
+              "timestamp": "2026-01-16T07:20:22.000Z",
+              "type": "SELL",
+              "amount": 299446.684192462,
+              "usdValue": 9786.014110668757,
+              "wallet": {
+                "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
+                "name": "eca.eth"
+              }
+            },
+            {
+              "timestamp": "2026-01-16T07:10:11.000Z",
+              "type": "BUY",
+              "amount": 52784.954273005,
+              "usdValue": 1998,
+              "wallet": {
+                "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
+                "name": "Wizard100x"
+              }
+            },
+            {
+              "timestamp": "2026-01-16T06:58:55.000Z",
+              "type": "BUY",
+              "amount": 35342.914928283,
+              "usdValue": 1498.5,
+              "wallet": {
+                "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
+                "name": "Wizard100x"
+              }
+            },
             {
               "timestamp": "2026-01-16T06:47:02.000Z",
               "type": "BUY",
@@ -1401,18 +1503,34 @@
         },
         "walletPortfolios": [
           {
+            "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
+            "name": "eca.eth",
+            "score": 1,
+            "tokens": [
+              {
+                "token_address": "7pskt3A1Zsjhngazam7vHWjWHnfgiRump916Xj7ABAGS",
+                "balance": 2182966.327763054,
+                "token_price": 0.03286,
+                "token_decimals": 9,
+                "token_symbol": "GAS",
+                "token_name": "Gas Town",
+                "value": 71732.27353029395
+              }
+            ]
+          },
+          {
             "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
             "name": "Wizard100x",
             "score": 3,
             "tokens": [
               {
                 "token_address": "7pskt3A1Zsjhngazam7vHWjWHnfgiRump916Xj7ABAGS",
-                "balance": 65488.980970036,
-                "token_price": 0.03993,
+                "balance": 153616.850171324,
+                "token_price": 0.03286,
                 "token_decimals": 9,
                 "token_symbol": "GAS",
                 "token_name": "Gas Town",
-                "value": 2614.9750101335376
+                "value": 5047.849696629707
               }
             ]
           },
@@ -1424,11 +1542,11 @@
               {
                 "token_address": "7pskt3A1Zsjhngazam7vHWjWHnfgiRump916Xj7ABAGS",
                 "balance": 2156889.353744625,
-                "token_price": 0.03993,
+                "token_price": 0.03286,
                 "token_decimals": 9,
                 "token_symbol": "GAS",
                 "token_name": "Gas Town",
-                "value": 86124.59189502288
+                "value": 70875.38416404839
               }
             ]
           },
@@ -1440,27 +1558,11 @@
               {
                 "token_address": "7pskt3A1Zsjhngazam7vHWjWHnfgiRump916Xj7ABAGS",
                 "balance": 0,
-                "token_price": 0.03993,
+                "token_price": 0.03286,
                 "token_decimals": 9,
                 "token_symbol": "GAS",
                 "token_name": "Gas Town",
                 "value": 0
-              }
-            ]
-          },
-          {
-            "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
-            "name": "eca.eth",
-            "score": 1,
-            "tokens": [
-              {
-                "token_address": "7pskt3A1Zsjhngazam7vHWjWHnfgiRump916Xj7ABAGS",
-                "balance": 2994466.841924626,
-                "token_price": 0.03993,
-                "token_decimals": 9,
-                "token_symbol": "GAS",
-                "token_name": "Gas Town",
-                "value": 119569.0609980503
               }
             ]
           },
@@ -1472,11 +1574,11 @@
               {
                 "token_address": "7pskt3A1Zsjhngazam7vHWjWHnfgiRump916Xj7ABAGS",
                 "balance": 233871.415109946,
-                "token_price": 0.03993,
+                "token_price": 0.03286,
                 "token_decimals": 9,
                 "token_symbol": "GAS",
                 "token_name": "Gas Town",
-                "value": 9338.485605340144
+                "value": 7685.0147005128265
               }
             ]
           }
@@ -1492,10 +1594,10 @@
         "website": "https://x.com/Dexerto/status/2011888040050847777",
         "twitter": "https://x.com/i/communities/2011968385605656695",
         "holder": 1149,
-        "market_cap": 38644,
-        "price": 3.864e-05,
-        "price_change_24h": -34.23,
-        "volume_24h": 1515582.57,
+        "market_cap": 41318,
+        "price": 4.131e-05,
+        "price_change_24h": -29.67,
+        "volume_24h": 1524073.13,
         "pool_address": "solana_GiJJc55UDvbE5KvjJnUGqRQVW5hvhb2w886LFfD9YPMq",
         "ath": 0.00023200092213665634,
         "ath_timestamp": 1768536000,
@@ -1506,11 +1608,11 @@
           "active": 10
         },
         "txns_24h": {
-          "buys": 10925,
-          "sells": 8955
+          "buys": 11032,
+          "sells": 9051
         },
-        "fdv_usd": 38644,
-        "total_reserve_in_usd": 21130.9,
+        "fdv_usd": 41318,
+        "total_reserve_in_usd": 21836.82,
         "tags": [],
         "first_signal": {
           "timestamp": 1768532716,
@@ -1591,11 +1693,11 @@
               {
                 "token_address": "E88iga2puk2X8g2UagjmBnHBBp6fKvXsncNJcLMzpump",
                 "balance": 10704466.075071,
-                "token_price": 3.864e-05,
+                "token_price": 4.131e-05,
                 "token_decimals": 6,
                 "token_symbol": "Peanut",
                 "token_name": "The Burnt Peanut",
-                "value": 413.62056914074344
+                "value": 442.20149356118304
               }
             ]
           },
@@ -1607,7 +1709,7 @@
               {
                 "token_address": "E88iga2puk2X8g2UagjmBnHBBp6fKvXsncNJcLMzpump",
                 "balance": 0,
-                "token_price": 3.864e-05,
+                "token_price": 4.131e-05,
                 "token_decimals": 6,
                 "token_symbol": "Peanut",
                 "token_name": "The Burnt Peanut",
@@ -1627,10 +1729,10 @@
         "website": "",
         "twitter": "https://x.com/coinbase/status/2011848444327940469?s=46&t=JQmNFn94sEXRJU2hkHIuDQ",
         "holder": 1819,
-        "market_cap": 154175,
-        "price": 0.0001541,
-        "price_change_24h": 164,
-        "volume_24h": 9201113.41,
+        "market_cap": 163063,
+        "price": 0.000163,
+        "price_change_24h": 180,
+        "volume_24h": 9206440.75,
         "pool_address": "solana_753raM92XfvGxFaLJVKeJL7vTyVqWNAbHtcCi9ayNkd3",
         "ath": 0.0007634712109229998,
         "ath_timestamp": 1768518000,
@@ -1638,11 +1740,11 @@
         "dexId": "pumpswap",
         "pairAddress": "753raM92XfvGxFaLJVKeJL7vTyVqWNAbHtcCi9ayNkd3",
         "txns_24h": {
-          "buys": 26796,
-          "sells": 22179
+          "buys": 26829,
+          "sells": 22246
         },
-        "fdv_usd": 154175,
-        "total_reserve_in_usd": 47419.21,
+        "fdv_usd": 163063,
+        "total_reserve_in_usd": 48737.88,
         "tags": [],
         "first_signal": {
           "timestamp": 1768515315,
@@ -1713,7 +1815,7 @@
               {
                 "token_address": "FD9XWDc4SECT2dysEskoikPKGZYBaZWhN9byxAL9pump",
                 "balance": 0,
-                "token_price": 0.0001541,
+                "token_price": 0.000163,
                 "token_decimals": 6,
                 "token_symbol": "BTC",
                 "token_name": "Bid The Car",
@@ -1729,11 +1831,11 @@
               {
                 "token_address": "FD9XWDc4SECT2dysEskoikPKGZYBaZWhN9byxAL9pump",
                 "balance": 11851306.531245,
-                "token_price": 0.0001541,
+                "token_price": 0.000163,
                 "token_decimals": 6,
                 "token_symbol": "BTC",
                 "token_name": "Bid The Car",
-                "value": 1826.2863364648547
+                "value": 1931.762964592935
               }
             ]
           },
@@ -1745,7 +1847,7 @@
               {
                 "token_address": "FD9XWDc4SECT2dysEskoikPKGZYBaZWhN9byxAL9pump",
                 "balance": 0,
-                "token_price": 0.0001541,
+                "token_price": 0.000163,
                 "token_decimals": 6,
                 "token_symbol": "BTC",
                 "token_name": "Bid The Car",
@@ -1765,10 +1867,10 @@
         "website": "",
         "twitter": "https://x.com/coinbase/status/2011848444327940469",
         "holder": 223,
-        "market_cap": 31237,
-        "price": 3.123e-05,
-        "price_change_24h": -56.06,
-        "volume_24h": 651268.19,
+        "market_cap": 27536,
+        "price": 2.753e-05,
+        "price_change_24h": -61.26,
+        "volume_24h": 652444.44,
         "pool_address": "solana_AbnPkdyDvrVywdXgAtYkByxRa1xdGk3khcKEDfEUCkrU",
         "ath": 7.859e-05,
         "ath_timestamp": 1768525663,
@@ -1776,11 +1878,11 @@
         "dexId": "meteora",
         "pairAddress": "AbnPkdyDvrVywdXgAtYkByxRa1xdGk3khcKEDfEUCkrU",
         "txns_24h": {
-          "buys": 4086,
-          "sells": 3383
+          "buys": 4095,
+          "sells": 3395
         },
-        "fdv_usd": 31237,
-        "total_reserve_in_usd": 16088.97,
+        "fdv_usd": 27536,
+        "total_reserve_in_usd": 15092.7,
         "tags": [],
         "first_signal": {
           "timestamp": 1768515160,
@@ -1841,7 +1943,7 @@
               {
                 "token_address": "4cwrhQMSCzFuP7K48GwTEnKgK7H6Y5Yp2Yeu1TXfBAGS",
                 "balance": 0,
-                "token_price": 3.123e-05,
+                "token_price": 2.753e-05,
                 "token_decimals": 9,
                 "token_symbol": "BTC",
                 "token_name": "BUY THE CAR",
@@ -1857,7 +1959,7 @@
               {
                 "token_address": "4cwrhQMSCzFuP7K48GwTEnKgK7H6Y5Yp2Yeu1TXfBAGS",
                 "balance": 0,
-                "token_price": 3.123e-05,
+                "token_price": 2.753e-05,
                 "token_decimals": 9,
                 "token_symbol": "BTC",
                 "token_name": "BUY THE CAR",
@@ -1877,10 +1979,10 @@
         "website": "https://www.tiktok.com/@thewolfofinsurance",
         "twitter": "",
         "holder": 383,
-        "market_cap": 20452,
-        "price": 2.045e-05,
-        "price_change_24h": -65.27,
-        "volume_24h": 617084.12,
+        "market_cap": 19486,
+        "price": 1.948e-05,
+        "price_change_24h": -66.91,
+        "volume_24h": 617713.03,
         "pool_address": "solana_FLwtAjNVTBXA73u6DDPsye7XzWXDwByFAdpTfgZ2Vnb3",
         "ath": 0.000112,
         "ath_timestamp": 1768501603,
@@ -1888,11 +1990,11 @@
         "dexId": "pumpswap",
         "pairAddress": "FLwtAjNVTBXA73u6DDPsye7XzWXDwByFAdpTfgZ2Vnb3",
         "txns_24h": {
-          "buys": 4523,
-          "sells": 3891
+          "buys": 4528,
+          "sells": 3902
         },
-        "fdv_usd": 20452,
-        "total_reserve_in_usd": 14797.18,
+        "fdv_usd": 19486,
+        "total_reserve_in_usd": 14436.43,
         "tags": [],
         "first_signal": {
           "timestamp": 1768501594,
@@ -1933,11 +2035,11 @@
               {
                 "token_address": "Bcz4bUXgaqnfwcmodQwzrGW57fXT2vffJzj2U4FHpump",
                 "balance": 12106920.229016,
-                "token_price": 2.045e-05,
+                "token_price": 1.948e-05,
                 "token_decimals": 6,
                 "token_symbol": "JULIANO",
                 "token_name": "@thewolfofinsurance",
-                "value": 247.5865186833772
+                "value": 235.8428060612317
               }
             ]
           },
@@ -1949,11 +2051,11 @@
               {
                 "token_address": "Bcz4bUXgaqnfwcmodQwzrGW57fXT2vffJzj2U4FHpump",
                 "balance": 21805631.762279,
-                "token_price": 2.045e-05,
+                "token_price": 1.948e-05,
                 "token_decimals": 6,
                 "token_symbol": "JULIANO",
                 "token_name": "@thewolfofinsurance",
-                "value": 445.92516953860553
+                "value": 424.77370672919494
               }
             ]
           }
@@ -1971,10 +2073,10 @@
         "website": "",
         "twitter": "https://x.com/i/communities/1968442277552074769",
         "holder": 11831,
-        "market_cap": 13849166,
-        "price": 0.01384,
-        "price_change_24h": -29.35,
-        "volume_24h": 718973.52,
+        "market_cap": 13582689,
+        "price": 0.01358,
+        "price_change_24h": -29.25,
+        "volume_24h": 759826.37,
         "pool_address": "solana_6sEkZ73vph5AFYmQTzaV6H5vAQQLZ2C8WqeCQ6MhLqFk",
         "ath": 0.05122120012315754,
         "ath_timestamp": 1762300800,
@@ -1982,11 +2084,11 @@
         "dexId": "raydium",
         "pairAddress": "6sEkZ73vph5AFYmQTzaV6H5vAQQLZ2C8WqeCQ6MhLqFk",
         "txns_24h": {
-          "buys": 1868,
-          "sells": 1368
+          "buys": 2044,
+          "sells": 1423
         },
-        "fdv_usd": 13849166,
-        "total_reserve_in_usd": 822001.67,
+        "fdv_usd": 13582689,
+        "total_reserve_in_usd": 814196.07,
         "tags": [
           "moonshot"
         ],
@@ -2169,11 +2271,11 @@
               {
                 "token_address": "GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk",
                 "balance": 726034.6007,
-                "token_price": 0.01384,
+                "token_price": 0.01358,
                 "token_decimals": 6,
                 "token_symbol": "1",
                 "token_name": "1 coin can change your life",
-                "value": 10048.318873687998
+                "value": 9859.549877505999
               }
             ]
           }
