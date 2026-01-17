@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2026-01-17T14:09:31.496Z",
+  "timestamp": "2026-01-17T14:31:23.823Z",
   "data": [
     {
       "address": "7pskt3A1Zsjhngazam7vHWjWHnfgiRump916Xj7ABAGS",
@@ -12,10 +12,10 @@
       "website": "https://steve-yegge.medium.com/welcome-to-gas-town-4f25ee16dd04",
       "twitter": "https://x.com/i/communities/2008397129065394644",
       "holder": 10002,
-      "market_cap": 14751147,
-      "price": 0.01475,
-      "price_change_24h": -44.96,
-      "volume_24h": 5283642.84,
+      "market_cap": 15180757,
+      "price": 0.01518,
+      "price_change_24h": -53.19,
+      "volume_24h": 5148140.25,
       "pool_address": "solana_7TvFBXQLS8c3Ty6GrU5D9EBqj6DEHE7gPqwgrVio2Xur",
       "ath": 0.052468551203094106,
       "ath_timestamp": 1768543200,
@@ -23,11 +23,11 @@
       "dexId": "meteora",
       "pairAddress": "FiNu5nSFwvjQbAFDESxDxvLhQJa3H7QYBrLUqFRB27v9",
       "txns_24h": {
-        "buys": 6623,
-        "sells": 7006
+        "buys": 6564,
+        "sells": 6822
       },
-      "fdv_usd": 14751147,
-      "total_reserve_in_usd": 360564.27,
+      "fdv_usd": 15180756,
+      "total_reserve_in_usd": 365917.49,
       "tags": [
         "moonshot"
       ],
@@ -37,8 +37,18 @@
       },
       "metrics": {
         "uniqueWallets": 6,
-        "inflow24h": -33355.847984653374,
+        "inflow24h": -33442.23520465338,
         "trades": [
+          {
+            "timestamp": "2026-01-17T14:29:38.000Z",
+            "type": "SELL",
+            "amount": 50000,
+            "usdValue": 744.390915,
+            "wallet": {
+              "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+              "name": "Chillguy32x"
+            }
+          },
           {
             "timestamp": "2026-01-17T13:21:01.000Z",
             "type": "SELL",
@@ -298,20 +308,26 @@
               "address": "6zHcjFHjd3X1ptLznSJ989LVfKZvnmKN96dyvwfXoFSB",
               "name": "SolidBalls"
             }
-          },
-          {
-            "timestamp": "2026-01-16T14:17:28.000Z",
-            "type": "SELL",
-            "amount": 22000,
-            "usdValue": 658.003695,
-            "wallet": {
-              "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
-              "name": "Chillguy32x"
-            }
           }
         ]
       },
       "walletPortfolios": [
+        {
+          "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+          "name": "Chillguy32x",
+          "score": 1,
+          "tokens": [
+            {
+              "token_address": "7pskt3A1Zsjhngazam7vHWjWHnfgiRump916Xj7ABAGS",
+              "balance": 50000,
+              "token_price": 0.01518,
+              "token_decimals": 9,
+              "token_symbol": "GAS",
+              "token_name": "Gas Town",
+              "value": 759
+            }
+          ]
+        },
         {
           "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
           "name": "Wizard100x",
@@ -320,11 +336,11 @@
             {
               "token_address": "7pskt3A1Zsjhngazam7vHWjWHnfgiRump916Xj7ABAGS",
               "balance": 1e-09,
-              "token_price": 0.01475,
+              "token_price": 0.01518,
               "token_decimals": 9,
               "token_symbol": "GAS",
               "token_name": "Gas Town",
-              "value": 1.475e-11
+              "value": 1.5180000000000003e-11
             }
           ]
         },
@@ -336,27 +352,11 @@
             {
               "token_address": "7pskt3A1Zsjhngazam7vHWjWHnfgiRump916Xj7ABAGS",
               "balance": 805637.366800505,
-              "token_price": 0.01475,
+              "token_price": 0.01518,
               "token_decimals": 9,
               "token_symbol": "GAS",
               "token_name": "Gas Town",
-              "value": 11883.151160307447
-            }
-          ]
-        },
-        {
-          "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
-          "name": "Chillguy32x",
-          "score": 1,
-          "tokens": [
-            {
-              "token_address": "7pskt3A1Zsjhngazam7vHWjWHnfgiRump916Xj7ABAGS",
-              "balance": 100000,
-              "token_price": 0.01475,
-              "token_decimals": 9,
-              "token_symbol": "GAS",
-              "token_name": "Gas Town",
-              "value": 1475
+              "value": 12229.575228031666
             }
           ]
         },
@@ -368,7 +368,7 @@
             {
               "token_address": "7pskt3A1Zsjhngazam7vHWjWHnfgiRump916Xj7ABAGS",
               "balance": 0,
-              "token_price": 0.01475,
+              "token_price": 0.01518,
               "token_decimals": 9,
               "token_symbol": "GAS",
               "token_name": "Gas Town",
@@ -384,11 +384,11 @@
             {
               "token_address": "7pskt3A1Zsjhngazam7vHWjWHnfgiRump916Xj7ABAGS",
               "balance": 1122142.698532035,
-              "token_price": 0.01475,
+              "token_price": 0.01518,
               "token_decimals": 9,
               "token_symbol": "GAS",
               "token_name": "Gas Town",
-              "value": 16551.604803347516
+              "value": 17034.126163716293
             }
           ]
         },
@@ -400,11 +400,11 @@
             {
               "token_address": "7pskt3A1Zsjhngazam7vHWjWHnfgiRump916Xj7ABAGS",
               "balance": 31548.875985983,
-              "token_price": 0.01475,
+              "token_price": 0.01518,
               "token_decimals": 9,
               "token_symbol": "GAS",
               "token_name": "Gas Town",
-              "value": 465.3459207932492
+              "value": 478.91193746722195
             }
           ]
         }
@@ -419,11 +419,11 @@
       "created_time": 1768549101,
       "website": "https://bags.fm/BBSAW49Sru7jiSajWVKTSWs39psrjjHbMMtWGWTJBAGS",
       "twitter": "",
-      "holder": 6991,
-      "market_cap": 2217498,
-      "price": 0.002217,
-      "price_change_24h": -64.26,
-      "volume_24h": 6152563.44,
+      "holder": 6865,
+      "market_cap": 2778986,
+      "price": 0.002778,
+      "price_change_24h": -46.93,
+      "volume_24h": 5488688.84,
       "pool_address": "solana_FvKG7ETMs5cRyKEpK9edPse9R56JF1aguzUhnhmeBK5",
       "ath": 0.007069126947780891,
       "ath_timestamp": 1768572000,
@@ -431,11 +431,11 @@
       "dexId": "meteora",
       "pairAddress": "99RJ6jkZPb5wdWYV6CyK8S9Dx4irSUqqka1EupcD5mQT",
       "txns_24h": {
-        "buys": 16766,
-        "sells": 12943
+        "buys": 15391,
+        "sells": 12024
       },
-      "fdv_usd": 2217498,
-      "total_reserve_in_usd": 139310.02,
+      "fdv_usd": 2778986,
+      "total_reserve_in_usd": 156012.48,
       "tags": [
         "moonshot"
       ],
@@ -518,11 +518,11 @@
             {
               "token_address": "BBSAW49Sru7jiSajWVKTSWs39psrjjHbMMtWGWTJBAGS",
               "balance": 292153.92552086,
-              "token_price": 0.002217,
+              "token_price": 0.002778,
               "token_decimals": 9,
               "token_symbol": "TERRA",
               "token_name": "Terraformation",
-              "value": 647.7052528797466
+              "value": 811.6036050969491
             }
           ]
         },
@@ -534,7 +534,7 @@
             {
               "token_address": "BBSAW49Sru7jiSajWVKTSWs39psrjjHbMMtWGWTJBAGS",
               "balance": 0,
-              "token_price": 0.002217,
+              "token_price": 0.002778,
               "token_decimals": 9,
               "token_symbol": "TERRA",
               "token_name": "Terraformation",
@@ -550,11 +550,11 @@
             {
               "token_address": "BBSAW49Sru7jiSajWVKTSWs39psrjjHbMMtWGWTJBAGS",
               "balance": 1491087.878754427,
-              "token_price": 0.002217,
+              "token_price": 0.002778,
               "token_decimals": 9,
               "token_symbol": "TERRA",
               "token_name": "Terraformation",
-              "value": 3305.7418271985644
+              "value": 4142.242127179798
             }
           ]
         }
@@ -569,11 +569,11 @@
       "created_time": 1767594227,
       "website": "https://x.com/GeoffreyHuntley/status/2008061519788228699",
       "twitter": "https://x.com/GeoffreyHuntley/status/2008061519788228699",
-      "holder": 5569,
-      "market_cap": 25632822,
-      "price": 0.02563,
-      "price_change_24h": 17.14,
-      "volume_24h": 5995872.22,
+      "holder": 5574,
+      "market_cap": 21704650,
+      "price": 0.0217,
+      "price_change_24h": -11.8,
+      "volume_24h": 6038689.9,
       "pool_address": "solana_BUHmixPipAmmozkApdGrgTLYkkHMNiAvf4oBQoXpQrq4",
       "ath": 0.048225333266877654,
       "ath_timestamp": 1768608000,
@@ -581,11 +581,11 @@
       "dexId": "meteora",
       "pairAddress": "DbyK8gEiXwNeh2zFW2Lo1svUQ1WkHAeQyNDsRaKQ6BHf",
       "txns_24h": {
-        "buys": 6773,
-        "sells": 6434
+        "buys": 6788,
+        "sells": 6469
       },
-      "fdv_usd": 25632822,
-      "total_reserve_in_usd": 469631.66,
+      "fdv_usd": 21704650,
+      "total_reserve_in_usd": 432134.13,
       "tags": [
         "moonshot"
       ],
@@ -628,7 +628,7 @@
             {
               "token_address": "CxWPdDBqxVo3fnTMRTvNuSrd4gkp78udSrFvkVDBAGS",
               "balance": 0,
-              "token_price": 0.02563,
+              "token_price": 0.0217,
               "token_decimals": 9,
               "token_symbol": "Ralph",
               "token_name": "Ralph Wiggum",
@@ -648,22 +648,22 @@
       "website": "",
       "twitter": "",
       "holder": 2552,
-      "market_cap": 1278145,
-      "price": 0.001278,
-      "price_change_24h": 306,
-      "volume_24h": 2224665.06,
+      "market_cap": 1296681,
+      "price": 0.001296,
+      "price_change_24h": 281,
+      "volume_24h": 2242310.98,
       "pool_address": "solana_ECKGkgyM8SvQYVcF7xRzr3jN4cGNHvf4WmkxkeeiA2tE",
-      "ath": 0.0013843551626865134,
+      "ath": 0.0014143876131849683,
       "ath_timestamp": 1768608000,
       "ath_pool": "ECKGkgyM8SvQYVcF7xRzr3jN4cGNHvf4WmkxkeeiA2tE",
       "dexId": "pumpswap",
       "pairAddress": "ECKGkgyM8SvQYVcF7xRzr3jN4cGNHvf4WmkxkeeiA2tE",
       "txns_24h": {
-        "buys": 14746,
-        "sells": 8386
+        "buys": 14781,
+        "sells": 8420
       },
-      "fdv_usd": 1278145,
-      "total_reserve_in_usd": 128633.32,
+      "fdv_usd": 1296681,
+      "total_reserve_in_usd": 129701.41,
       "tags": [],
       "first_signal": {
         "timestamp": 1768606548,
@@ -671,8 +671,18 @@
       },
       "metrics": {
         "uniqueWallets": 2,
-        "inflow24h": -337.0474833329363,
+        "inflow24h": -1113.1328617535091,
         "trades": [
+          {
+            "timestamp": "2026-01-17T14:30:04.000Z",
+            "type": "SELL",
+            "amount": 573526.145287,
+            "usdValue": 776.0853784205727,
+            "wallet": {
+              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+              "name": "DNF 哥"
+            }
+          },
           {
             "timestamp": "2026-01-17T04:18:27.000Z",
             "type": "SELL",
@@ -727,6 +737,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+          "name": "DNF 哥",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "7iX4yQ4zTraFSRXEGpF89emA9xGrhgv6jX57dMENpump",
+              "balance": 7619704.501675,
+              "token_price": 0.001296,
+              "token_decimals": 6,
+              "token_symbol": "brainrot",
+              "token_name": "brainrot",
+              "value": 9875.1370341708
+            }
+          ]
+        },
+        {
           "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
           "name": "eca.eth",
           "score": 1,
@@ -734,27 +760,11 @@
             {
               "token_address": "7iX4yQ4zTraFSRXEGpF89emA9xGrhgv6jX57dMENpump",
               "balance": 0,
-              "token_price": 0.001278,
+              "token_price": 0.001296,
               "token_decimals": 6,
               "token_symbol": "brainrot",
               "token_name": "brainrot",
               "value": 0
-            }
-          ]
-        },
-        {
-          "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-          "name": "DNF 哥",
-          "score": 3,
-          "tokens": [
-            {
-              "token_address": "7iX4yQ4zTraFSRXEGpF89emA9xGrhgv6jX57dMENpump",
-              "balance": 8193230.646962,
-              "token_price": 0.001278,
-              "token_decimals": 6,
-              "token_symbol": "brainrot",
-              "token_name": "brainrot",
-              "value": 10470.948766817437
             }
           ]
         }
@@ -770,10 +780,10 @@
       "website": "https://x.com/search?q=%22wet%20claude%22&src=typed_query&f=live",
       "twitter": "https://x.com/skooookum/status/1979998847234457850",
       "holder": 615,
-      "market_cap": 169382,
-      "price": 0.0001694,
-      "price_change_24h": -31.34,
-      "volume_24h": 217575.99,
+      "market_cap": 165170,
+      "price": 0.0001652,
+      "price_change_24h": -32.9,
+      "volume_24h": 207745.71,
       "pool_address": "solana_HkA7kVqNeiHQ9jbdW2bi8imWM5KcvnpXNr75N7dsmPVZ",
       "ath": 0.000758320734538739,
       "ath_timestamp": 1761609600,
@@ -781,11 +791,11 @@
       "dexId": "pumpswap",
       "pairAddress": "HkA7kVqNeiHQ9jbdW2bi8imWM5KcvnpXNr75N7dsmPVZ",
       "txns_24h": {
-        "buys": 1082,
-        "sells": 920
+        "buys": 1036,
+        "sells": 897
       },
-      "fdv_usd": 169382,
-      "total_reserve_in_usd": 48659.83,
+      "fdv_usd": 165170,
+      "total_reserve_in_usd": 48070.35,
       "tags": [],
       "first_signal": {
         "timestamp": 1761198939,
@@ -836,11 +846,11 @@
             {
               "token_address": "BwbZ992sMqabbBYnEj4tfNBmtdYtjRkSqgAGCyCRpump",
               "balance": 12690629.124362,
-              "token_price": 0.0001694,
+              "token_price": 0.0001652,
               "token_decimals": 6,
               "token_symbol": "WetClaude",
               "token_name": "Wet Claude",
-              "value": 2149.7925736669226
+              "value": 2096.4919313446026
             }
           ]
         },
@@ -852,11 +862,11 @@
             {
               "token_address": "BwbZ992sMqabbBYnEj4tfNBmtdYtjRkSqgAGCyCRpump",
               "balance": 12694498.404057,
-              "token_price": 0.0001694,
+              "token_price": 0.0001652,
               "token_decimals": 6,
               "token_symbol": "WetClaude",
               "token_name": "Wet Claude",
-              "value": 2150.4480296472557
+              "value": 2097.1311363502164
             }
           ]
         }
@@ -872,10 +882,10 @@
       "website": "https://bags.fm/DtTPiFFX5oNnozjfoyYfDRFcSdPDuJNkYaZeEvSCBAGS",
       "twitter": "https://x.com/SexyBagWorker/status/2012086584980447528?s=20",
       "holder": 1887,
-      "market_cap": 1342834,
-      "price": 0.001342,
-      "price_change_24h": 65.28,
-      "volume_24h": 3139307.22,
+      "market_cap": 1435068,
+      "price": 0.001435,
+      "price_change_24h": 62.98,
+      "volume_24h": 3049055.01,
       "pool_address": "solana_AY54H935sAnYU2bHTeBEN5KiBAW8LkQJxxyAuYQWvk2p",
       "ath": 0.0024186176287341126,
       "ath_timestamp": 1768590000,
@@ -886,11 +896,11 @@
         "active": 10
       },
       "txns_24h": {
-        "buys": 11859,
-        "sells": 9148
+        "buys": 11643,
+        "sells": 8972
       },
-      "fdv_usd": 1342834,
-      "total_reserve_in_usd": 108841.48,
+      "fdv_usd": 1435068,
+      "total_reserve_in_usd": 112532.97,
       "tags": [],
       "first_signal": {
         "timestamp": 1768567985,
@@ -991,11 +1001,11 @@
             {
               "token_address": "DtTPiFFX5oNnozjfoyYfDRFcSdPDuJNkYaZeEvSCBAGS",
               "balance": 3967725.477859433,
-              "token_price": 0.001342,
+              "token_price": 0.001435,
               "token_decimals": 9,
               "token_symbol": "ZACK",
               "token_name": "ZACK MORRIS",
-              "value": 5324.687591287359
+              "value": 5693.686060728286
             }
           ]
         },
@@ -1007,7 +1017,7 @@
             {
               "token_address": "DtTPiFFX5oNnozjfoyYfDRFcSdPDuJNkYaZeEvSCBAGS",
               "balance": 0,
-              "token_price": 0.001342,
+              "token_price": 0.001435,
               "token_decimals": 9,
               "token_symbol": "ZACK",
               "token_name": "ZACK MORRIS",
@@ -1023,11 +1033,11 @@
             {
               "token_address": "DtTPiFFX5oNnozjfoyYfDRFcSdPDuJNkYaZeEvSCBAGS",
               "balance": 845030.248129478,
-              "token_price": 0.001342,
+              "token_price": 0.001435,
               "token_decimals": 9,
               "token_symbol": "ZACK",
               "token_name": "ZACK MORRIS",
-              "value": 1134.0305929897595
+              "value": 1212.6184060658009
             }
           ]
         }
@@ -1046,22 +1056,22 @@
         "website": "",
         "twitter": "",
         "holder": 2552,
-        "market_cap": 1278145,
-        "price": 0.001278,
-        "price_change_24h": 306,
-        "volume_24h": 2224665.06,
+        "market_cap": 1296681,
+        "price": 0.001296,
+        "price_change_24h": 281,
+        "volume_24h": 2242310.98,
         "pool_address": "solana_ECKGkgyM8SvQYVcF7xRzr3jN4cGNHvf4WmkxkeeiA2tE",
-        "ath": 0.0013843551626865134,
+        "ath": 0.0014143876131849683,
         "ath_timestamp": 1768608000,
         "ath_pool": "ECKGkgyM8SvQYVcF7xRzr3jN4cGNHvf4WmkxkeeiA2tE",
         "dexId": "pumpswap",
         "pairAddress": "ECKGkgyM8SvQYVcF7xRzr3jN4cGNHvf4WmkxkeeiA2tE",
         "txns_24h": {
-          "buys": 14746,
-          "sells": 8386
+          "buys": 14781,
+          "sells": 8420
         },
-        "fdv_usd": 1278145,
-        "total_reserve_in_usd": 128633.32,
+        "fdv_usd": 1296681,
+        "total_reserve_in_usd": 129701.41,
         "tags": [],
         "first_signal": {
           "timestamp": 1768606548,
@@ -1069,8 +1079,18 @@
         },
         "metrics": {
           "uniqueWallets": 2,
-          "inflow24h": -337.0474833329363,
+          "inflow24h": -1113.1328617535091,
           "trades": [
+            {
+              "timestamp": "2026-01-17T14:30:04.000Z",
+              "type": "SELL",
+              "amount": 573526.145287,
+              "usdValue": 776.0853784205727,
+              "wallet": {
+                "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+                "name": "DNF 哥"
+              }
+            },
             {
               "timestamp": "2026-01-17T04:18:27.000Z",
               "type": "SELL",
@@ -1125,6 +1145,22 @@
         },
         "walletPortfolios": [
           {
+            "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+            "name": "DNF 哥",
+            "score": 3,
+            "tokens": [
+              {
+                "token_address": "7iX4yQ4zTraFSRXEGpF89emA9xGrhgv6jX57dMENpump",
+                "balance": 7619704.501675,
+                "token_price": 0.001296,
+                "token_decimals": 6,
+                "token_symbol": "brainrot",
+                "token_name": "brainrot",
+                "value": 9875.1370341708
+              }
+            ]
+          },
+          {
             "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
             "name": "eca.eth",
             "score": 1,
@@ -1132,27 +1168,11 @@
               {
                 "token_address": "7iX4yQ4zTraFSRXEGpF89emA9xGrhgv6jX57dMENpump",
                 "balance": 0,
-                "token_price": 0.001278,
+                "token_price": 0.001296,
                 "token_decimals": 6,
                 "token_symbol": "brainrot",
                 "token_name": "brainrot",
                 "value": 0
-              }
-            ]
-          },
-          {
-            "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-            "name": "DNF 哥",
-            "score": 3,
-            "tokens": [
-              {
-                "token_address": "7iX4yQ4zTraFSRXEGpF89emA9xGrhgv6jX57dMENpump",
-                "balance": 8193230.646962,
-                "token_price": 0.001278,
-                "token_decimals": 6,
-                "token_symbol": "brainrot",
-                "token_name": "brainrot",
-                "value": 10470.948766817437
               }
             ]
           }
@@ -1169,11 +1189,11 @@
         "created_time": 1768549101,
         "website": "https://bags.fm/BBSAW49Sru7jiSajWVKTSWs39psrjjHbMMtWGWTJBAGS",
         "twitter": "",
-        "holder": 6991,
-        "market_cap": 2217498,
-        "price": 0.002217,
-        "price_change_24h": -64.26,
-        "volume_24h": 6152563.44,
+        "holder": 6865,
+        "market_cap": 2778986,
+        "price": 0.002778,
+        "price_change_24h": -46.93,
+        "volume_24h": 5488688.84,
         "pool_address": "solana_FvKG7ETMs5cRyKEpK9edPse9R56JF1aguzUhnhmeBK5",
         "ath": 0.007069126947780891,
         "ath_timestamp": 1768572000,
@@ -1181,11 +1201,11 @@
         "dexId": "meteora",
         "pairAddress": "99RJ6jkZPb5wdWYV6CyK8S9Dx4irSUqqka1EupcD5mQT",
         "txns_24h": {
-          "buys": 16766,
-          "sells": 12943
+          "buys": 15391,
+          "sells": 12024
         },
-        "fdv_usd": 2217498,
-        "total_reserve_in_usd": 139310.02,
+        "fdv_usd": 2778986,
+        "total_reserve_in_usd": 156012.48,
         "tags": [
           "moonshot"
         ],
@@ -1268,11 +1288,11 @@
               {
                 "token_address": "BBSAW49Sru7jiSajWVKTSWs39psrjjHbMMtWGWTJBAGS",
                 "balance": 292153.92552086,
-                "token_price": 0.002217,
+                "token_price": 0.002778,
                 "token_decimals": 9,
                 "token_symbol": "TERRA",
                 "token_name": "Terraformation",
-                "value": 647.7052528797466
+                "value": 811.6036050969491
               }
             ]
           },
@@ -1284,7 +1304,7 @@
               {
                 "token_address": "BBSAW49Sru7jiSajWVKTSWs39psrjjHbMMtWGWTJBAGS",
                 "balance": 0,
-                "token_price": 0.002217,
+                "token_price": 0.002778,
                 "token_decimals": 9,
                 "token_symbol": "TERRA",
                 "token_name": "Terraformation",
@@ -1300,11 +1320,11 @@
               {
                 "token_address": "BBSAW49Sru7jiSajWVKTSWs39psrjjHbMMtWGWTJBAGS",
                 "balance": 1491087.878754427,
-                "token_price": 0.002217,
+                "token_price": 0.002778,
                 "token_decimals": 9,
                 "token_symbol": "TERRA",
                 "token_name": "Terraformation",
-                "value": 3305.7418271985644
+                "value": 4142.242127179798
               }
             ]
           }
@@ -1312,279 +1332,6 @@
       }
     ],
     "sells": [
-      {
-        "address": "BwbZ992sMqabbBYnEj4tfNBmtdYtjRkSqgAGCyCRpump",
-        "symbol": "WetClaude",
-        "name": "Wet Claude",
-        "decimals": 6,
-        "icon": "https://ipfs.io/ipfs/bafybeigbrvg7rmswtbywcoh6dgog5oms5pgbxwulvbylnucow2g6bwqvfu",
-        "created_time": 1760909772,
-        "website": "https://x.com/search?q=%22wet%20claude%22&src=typed_query&f=live",
-        "twitter": "https://x.com/skooookum/status/1979998847234457850",
-        "holder": 615,
-        "market_cap": 169382,
-        "price": 0.0001694,
-        "price_change_24h": -31.34,
-        "volume_24h": 217575.99,
-        "pool_address": "solana_HkA7kVqNeiHQ9jbdW2bi8imWM5KcvnpXNr75N7dsmPVZ",
-        "ath": 0.000758320734538739,
-        "ath_timestamp": 1761609600,
-        "ath_pool": "HkA7kVqNeiHQ9jbdW2bi8imWM5KcvnpXNr75N7dsmPVZ",
-        "dexId": "pumpswap",
-        "pairAddress": "HkA7kVqNeiHQ9jbdW2bi8imWM5KcvnpXNr75N7dsmPVZ",
-        "txns_24h": {
-          "buys": 1082,
-          "sells": 920
-        },
-        "fdv_usd": 169382,
-        "total_reserve_in_usd": 48659.83,
-        "tags": [],
-        "first_signal": {
-          "timestamp": 1761198939,
-          "price": 7.785e-05
-        },
-        "metrics": {
-          "uniqueWallets": 2,
-          "inflow24h": -1648.1588571434152,
-          "trades": [
-            {
-              "timestamp": "2026-01-17T14:02:19.000Z",
-              "type": "SELL",
-              "amount": 5438841.053298,
-              "usdValue": 951.7841186122866,
-              "wallet": {
-                "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-                "name": "DNF 哥"
-              }
-            },
-            {
-              "timestamp": "2026-01-17T05:51:08.000Z",
-              "type": "SELL",
-              "amount": 4532367.544414,
-              "usdValue": 981.8719523333493,
-              "wallet": {
-                "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-                "name": "DNF 哥"
-              }
-            },
-            {
-              "timestamp": "2026-01-16T19:52:12.000Z",
-              "type": "BUY",
-              "amount": 777707.947795,
-              "usdValue": 285.49721380222076,
-              "wallet": {
-                "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
-                "name": "eca.eth"
-              }
-            }
-          ]
-        },
-        "walletPortfolios": [
-          {
-            "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-            "name": "DNF 哥",
-            "score": 3,
-            "tokens": [
-              {
-                "token_address": "BwbZ992sMqabbBYnEj4tfNBmtdYtjRkSqgAGCyCRpump",
-                "balance": 12690629.124362,
-                "token_price": 0.0001694,
-                "token_decimals": 6,
-                "token_symbol": "WetClaude",
-                "token_name": "Wet Claude",
-                "value": 2149.7925736669226
-              }
-            ]
-          },
-          {
-            "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
-            "name": "eca.eth",
-            "score": 1,
-            "tokens": [
-              {
-                "token_address": "BwbZ992sMqabbBYnEj4tfNBmtdYtjRkSqgAGCyCRpump",
-                "balance": 12694498.404057,
-                "token_price": 0.0001694,
-                "token_decimals": 6,
-                "token_symbol": "WetClaude",
-                "token_name": "Wet Claude",
-                "value": 2150.4480296472557
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "address": "DtTPiFFX5oNnozjfoyYfDRFcSdPDuJNkYaZeEvSCBAGS",
-        "symbol": "ZACK",
-        "name": "ZACK MORRIS",
-        "decimals": 9,
-        "icon": "https://ipfs.io/ipfs/QmRqSJJb7fLfxGkxJYdG9S1q4Xv3wSkurjWijY7HAxr8hw",
-        "created_time": 1768553818,
-        "website": "https://bags.fm/DtTPiFFX5oNnozjfoyYfDRFcSdPDuJNkYaZeEvSCBAGS",
-        "twitter": "https://x.com/SexyBagWorker/status/2012086584980447528?s=20",
-        "holder": 1887,
-        "market_cap": 1342834,
-        "price": 0.001342,
-        "price_change_24h": 65.28,
-        "volume_24h": 3139307.22,
-        "pool_address": "solana_AY54H935sAnYU2bHTeBEN5KiBAW8LkQJxxyAuYQWvk2p",
-        "ath": 0.0024186176287341126,
-        "ath_timestamp": 1768590000,
-        "ath_pool": "AY54H935sAnYU2bHTeBEN5KiBAW8LkQJxxyAuYQWvk2p",
-        "dexId": "meteora",
-        "pairAddress": "AY54H935sAnYU2bHTeBEN5KiBAW8LkQJxxyAuYQWvk2p",
-        "boosts": {
-          "active": 10
-        },
-        "txns_24h": {
-          "buys": 11859,
-          "sells": 9148
-        },
-        "fdv_usd": 1342834,
-        "total_reserve_in_usd": 108841.48,
-        "tags": [],
-        "first_signal": {
-          "timestamp": 1768567985,
-          "price": 0.0006139
-        },
-        "metrics": {
-          "uniqueWallets": 3,
-          "inflow24h": -10561.39781074611,
-          "trades": [
-            {
-              "timestamp": "2026-01-17T14:02:05.000Z",
-              "type": "SELL",
-              "amount": 1700453.77622547,
-              "usdValue": 2305.121170637861,
-              "wallet": {
-                "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-                "name": "DNF 哥"
-              }
-            },
-            {
-              "timestamp": "2026-01-17T08:10:40.000Z",
-              "type": "SELL",
-              "amount": 1417044.813521225,
-              "usdValue": 1902.262647511894,
-              "wallet": {
-                "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-                "name": "DNF 哥"
-              }
-            },
-            {
-              "timestamp": "2026-01-17T05:50:51.000Z",
-              "type": "SELL",
-              "amount": 1250333.658989316,
-              "usdValue": 1952.8929107156855,
-              "wallet": {
-                "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-                "name": "DNF 哥"
-              }
-            },
-            {
-              "timestamp": "2026-01-16T20:59:38.000Z",
-              "type": "SELL",
-              "amount": 524864.291296134,
-              "usdValue": 827.520017957245,
-              "wallet": {
-                "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
-                "name": "凉粉小刀"
-              }
-            },
-            {
-              "timestamp": "2026-01-16T20:39:20.000Z",
-              "type": "SELL",
-              "amount": 524864.291296133,
-              "usdValue": 1056.6377087079445,
-              "wallet": {
-                "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
-                "name": "凉粉小刀"
-              }
-            },
-            {
-              "timestamp": "2026-01-16T19:51:50.000Z",
-              "type": "SELL",
-              "amount": 490326.92509385,
-              "usdValue": 1019.9746292367666,
-              "wallet": {
-                "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-                "name": "DNF 哥"
-              }
-            },
-            {
-              "timestamp": "2026-01-16T19:36:32.000Z",
-              "type": "SELL",
-              "amount": 980653.8501877,
-              "usdValue": 1777.378132409717,
-              "wallet": {
-                "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-                "name": "DNF 哥"
-              }
-            },
-            {
-              "timestamp": "2026-01-16T16:00:00.000Z",
-              "type": "BUY",
-              "amount": 378685.808684667,
-              "usdValue": 280.38940643100256,
-              "wallet": {
-                "address": "65jT5wk8FQyUWcSjgBsBRLU5NiSYGVYwRSKRiopPNAQ3",
-                "name": "iamachillguy"
-              }
-            }
-          ]
-        },
-        "walletPortfolios": [
-          {
-            "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-            "name": "DNF 哥",
-            "score": 3,
-            "tokens": [
-              {
-                "token_address": "DtTPiFFX5oNnozjfoyYfDRFcSdPDuJNkYaZeEvSCBAGS",
-                "balance": 3967725.477859433,
-                "token_price": 0.001342,
-                "token_decimals": 9,
-                "token_symbol": "ZACK",
-                "token_name": "ZACK MORRIS",
-                "value": 5324.687591287359
-              }
-            ]
-          },
-          {
-            "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
-            "name": "凉粉小刀",
-            "score": 2,
-            "tokens": [
-              {
-                "token_address": "DtTPiFFX5oNnozjfoyYfDRFcSdPDuJNkYaZeEvSCBAGS",
-                "balance": 0,
-                "token_price": 0.001342,
-                "token_decimals": 9,
-                "token_symbol": "ZACK",
-                "token_name": "ZACK MORRIS",
-                "value": 0
-              }
-            ]
-          },
-          {
-            "address": "65jT5wk8FQyUWcSjgBsBRLU5NiSYGVYwRSKRiopPNAQ3",
-            "name": "iamachillguy",
-            "score": 0.5,
-            "tokens": [
-              {
-                "token_address": "DtTPiFFX5oNnozjfoyYfDRFcSdPDuJNkYaZeEvSCBAGS",
-                "balance": 845030.248129478,
-                "token_price": 0.001342,
-                "token_decimals": 9,
-                "token_symbol": "ZACK",
-                "token_name": "ZACK MORRIS",
-                "value": 1134.0305929897595
-              }
-            ]
-          }
-        ]
-      },
       {
         "address": "7pskt3A1Zsjhngazam7vHWjWHnfgiRump916Xj7ABAGS",
         "symbol": "GAS",
@@ -1595,10 +1342,10 @@
         "website": "https://steve-yegge.medium.com/welcome-to-gas-town-4f25ee16dd04",
         "twitter": "https://x.com/i/communities/2008397129065394644",
         "holder": 10002,
-        "market_cap": 14751147,
-        "price": 0.01475,
-        "price_change_24h": -44.96,
-        "volume_24h": 5283642.84,
+        "market_cap": 15180757,
+        "price": 0.01518,
+        "price_change_24h": -53.19,
+        "volume_24h": 5148140.25,
         "pool_address": "solana_7TvFBXQLS8c3Ty6GrU5D9EBqj6DEHE7gPqwgrVio2Xur",
         "ath": 0.052468551203094106,
         "ath_timestamp": 1768543200,
@@ -1606,11 +1353,11 @@
         "dexId": "meteora",
         "pairAddress": "FiNu5nSFwvjQbAFDESxDxvLhQJa3H7QYBrLUqFRB27v9",
         "txns_24h": {
-          "buys": 6623,
-          "sells": 7006
+          "buys": 6564,
+          "sells": 6822
         },
-        "fdv_usd": 14751147,
-        "total_reserve_in_usd": 360564.27,
+        "fdv_usd": 15180756,
+        "total_reserve_in_usd": 365917.49,
         "tags": [
           "moonshot"
         ],
@@ -1620,8 +1367,18 @@
         },
         "metrics": {
           "uniqueWallets": 6,
-          "inflow24h": -33355.847984653374,
+          "inflow24h": -33442.23520465338,
           "trades": [
+            {
+              "timestamp": "2026-01-17T14:29:38.000Z",
+              "type": "SELL",
+              "amount": 50000,
+              "usdValue": 744.390915,
+              "wallet": {
+                "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+                "name": "Chillguy32x"
+              }
+            },
             {
               "timestamp": "2026-01-17T13:21:01.000Z",
               "type": "SELL",
@@ -1881,20 +1638,26 @@
                 "address": "6zHcjFHjd3X1ptLznSJ989LVfKZvnmKN96dyvwfXoFSB",
                 "name": "SolidBalls"
               }
-            },
-            {
-              "timestamp": "2026-01-16T14:17:28.000Z",
-              "type": "SELL",
-              "amount": 22000,
-              "usdValue": 658.003695,
-              "wallet": {
-                "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
-                "name": "Chillguy32x"
-              }
             }
           ]
         },
         "walletPortfolios": [
+          {
+            "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+            "name": "Chillguy32x",
+            "score": 1,
+            "tokens": [
+              {
+                "token_address": "7pskt3A1Zsjhngazam7vHWjWHnfgiRump916Xj7ABAGS",
+                "balance": 50000,
+                "token_price": 0.01518,
+                "token_decimals": 9,
+                "token_symbol": "GAS",
+                "token_name": "Gas Town",
+                "value": 759
+              }
+            ]
+          },
           {
             "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
             "name": "Wizard100x",
@@ -1903,11 +1666,11 @@
               {
                 "token_address": "7pskt3A1Zsjhngazam7vHWjWHnfgiRump916Xj7ABAGS",
                 "balance": 1e-09,
-                "token_price": 0.01475,
+                "token_price": 0.01518,
                 "token_decimals": 9,
                 "token_symbol": "GAS",
                 "token_name": "Gas Town",
-                "value": 1.475e-11
+                "value": 1.5180000000000003e-11
               }
             ]
           },
@@ -1919,27 +1682,11 @@
               {
                 "token_address": "7pskt3A1Zsjhngazam7vHWjWHnfgiRump916Xj7ABAGS",
                 "balance": 805637.366800505,
-                "token_price": 0.01475,
+                "token_price": 0.01518,
                 "token_decimals": 9,
                 "token_symbol": "GAS",
                 "token_name": "Gas Town",
-                "value": 11883.151160307447
-              }
-            ]
-          },
-          {
-            "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
-            "name": "Chillguy32x",
-            "score": 1,
-            "tokens": [
-              {
-                "token_address": "7pskt3A1Zsjhngazam7vHWjWHnfgiRump916Xj7ABAGS",
-                "balance": 100000,
-                "token_price": 0.01475,
-                "token_decimals": 9,
-                "token_symbol": "GAS",
-                "token_name": "Gas Town",
-                "value": 1475
+                "value": 12229.575228031666
               }
             ]
           },
@@ -1951,7 +1698,7 @@
               {
                 "token_address": "7pskt3A1Zsjhngazam7vHWjWHnfgiRump916Xj7ABAGS",
                 "balance": 0,
-                "token_price": 0.01475,
+                "token_price": 0.01518,
                 "token_decimals": 9,
                 "token_symbol": "GAS",
                 "token_name": "Gas Town",
@@ -1967,11 +1714,11 @@
               {
                 "token_address": "7pskt3A1Zsjhngazam7vHWjWHnfgiRump916Xj7ABAGS",
                 "balance": 1122142.698532035,
-                "token_price": 0.01475,
+                "token_price": 0.01518,
                 "token_decimals": 9,
                 "token_symbol": "GAS",
                 "token_name": "Gas Town",
-                "value": 16551.604803347516
+                "value": 17034.126163716293
               }
             ]
           },
@@ -1983,11 +1730,284 @@
               {
                 "token_address": "7pskt3A1Zsjhngazam7vHWjWHnfgiRump916Xj7ABAGS",
                 "balance": 31548.875985983,
-                "token_price": 0.01475,
+                "token_price": 0.01518,
                 "token_decimals": 9,
                 "token_symbol": "GAS",
                 "token_name": "Gas Town",
-                "value": 465.3459207932492
+                "value": 478.91193746722195
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "address": "BwbZ992sMqabbBYnEj4tfNBmtdYtjRkSqgAGCyCRpump",
+        "symbol": "WetClaude",
+        "name": "Wet Claude",
+        "decimals": 6,
+        "icon": "https://ipfs.io/ipfs/bafybeigbrvg7rmswtbywcoh6dgog5oms5pgbxwulvbylnucow2g6bwqvfu",
+        "created_time": 1760909772,
+        "website": "https://x.com/search?q=%22wet%20claude%22&src=typed_query&f=live",
+        "twitter": "https://x.com/skooookum/status/1979998847234457850",
+        "holder": 615,
+        "market_cap": 165170,
+        "price": 0.0001652,
+        "price_change_24h": -32.9,
+        "volume_24h": 207745.71,
+        "pool_address": "solana_HkA7kVqNeiHQ9jbdW2bi8imWM5KcvnpXNr75N7dsmPVZ",
+        "ath": 0.000758320734538739,
+        "ath_timestamp": 1761609600,
+        "ath_pool": "HkA7kVqNeiHQ9jbdW2bi8imWM5KcvnpXNr75N7dsmPVZ",
+        "dexId": "pumpswap",
+        "pairAddress": "HkA7kVqNeiHQ9jbdW2bi8imWM5KcvnpXNr75N7dsmPVZ",
+        "txns_24h": {
+          "buys": 1036,
+          "sells": 897
+        },
+        "fdv_usd": 165170,
+        "total_reserve_in_usd": 48070.35,
+        "tags": [],
+        "first_signal": {
+          "timestamp": 1761198939,
+          "price": 7.785e-05
+        },
+        "metrics": {
+          "uniqueWallets": 2,
+          "inflow24h": -1648.1588571434152,
+          "trades": [
+            {
+              "timestamp": "2026-01-17T14:02:19.000Z",
+              "type": "SELL",
+              "amount": 5438841.053298,
+              "usdValue": 951.7841186122866,
+              "wallet": {
+                "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+                "name": "DNF 哥"
+              }
+            },
+            {
+              "timestamp": "2026-01-17T05:51:08.000Z",
+              "type": "SELL",
+              "amount": 4532367.544414,
+              "usdValue": 981.8719523333493,
+              "wallet": {
+                "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+                "name": "DNF 哥"
+              }
+            },
+            {
+              "timestamp": "2026-01-16T19:52:12.000Z",
+              "type": "BUY",
+              "amount": 777707.947795,
+              "usdValue": 285.49721380222076,
+              "wallet": {
+                "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
+                "name": "eca.eth"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+            "name": "DNF 哥",
+            "score": 3,
+            "tokens": [
+              {
+                "token_address": "BwbZ992sMqabbBYnEj4tfNBmtdYtjRkSqgAGCyCRpump",
+                "balance": 12690629.124362,
+                "token_price": 0.0001652,
+                "token_decimals": 6,
+                "token_symbol": "WetClaude",
+                "token_name": "Wet Claude",
+                "value": 2096.4919313446026
+              }
+            ]
+          },
+          {
+            "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
+            "name": "eca.eth",
+            "score": 1,
+            "tokens": [
+              {
+                "token_address": "BwbZ992sMqabbBYnEj4tfNBmtdYtjRkSqgAGCyCRpump",
+                "balance": 12694498.404057,
+                "token_price": 0.0001652,
+                "token_decimals": 6,
+                "token_symbol": "WetClaude",
+                "token_name": "Wet Claude",
+                "value": 2097.1311363502164
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "address": "DtTPiFFX5oNnozjfoyYfDRFcSdPDuJNkYaZeEvSCBAGS",
+        "symbol": "ZACK",
+        "name": "ZACK MORRIS",
+        "decimals": 9,
+        "icon": "https://ipfs.io/ipfs/QmRqSJJb7fLfxGkxJYdG9S1q4Xv3wSkurjWijY7HAxr8hw",
+        "created_time": 1768553818,
+        "website": "https://bags.fm/DtTPiFFX5oNnozjfoyYfDRFcSdPDuJNkYaZeEvSCBAGS",
+        "twitter": "https://x.com/SexyBagWorker/status/2012086584980447528?s=20",
+        "holder": 1887,
+        "market_cap": 1435068,
+        "price": 0.001435,
+        "price_change_24h": 62.98,
+        "volume_24h": 3049055.01,
+        "pool_address": "solana_AY54H935sAnYU2bHTeBEN5KiBAW8LkQJxxyAuYQWvk2p",
+        "ath": 0.0024186176287341126,
+        "ath_timestamp": 1768590000,
+        "ath_pool": "AY54H935sAnYU2bHTeBEN5KiBAW8LkQJxxyAuYQWvk2p",
+        "dexId": "meteora",
+        "pairAddress": "AY54H935sAnYU2bHTeBEN5KiBAW8LkQJxxyAuYQWvk2p",
+        "boosts": {
+          "active": 10
+        },
+        "txns_24h": {
+          "buys": 11643,
+          "sells": 8972
+        },
+        "fdv_usd": 1435068,
+        "total_reserve_in_usd": 112532.97,
+        "tags": [],
+        "first_signal": {
+          "timestamp": 1768567985,
+          "price": 0.0006139
+        },
+        "metrics": {
+          "uniqueWallets": 3,
+          "inflow24h": -10561.39781074611,
+          "trades": [
+            {
+              "timestamp": "2026-01-17T14:02:05.000Z",
+              "type": "SELL",
+              "amount": 1700453.77622547,
+              "usdValue": 2305.121170637861,
+              "wallet": {
+                "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+                "name": "DNF 哥"
+              }
+            },
+            {
+              "timestamp": "2026-01-17T08:10:40.000Z",
+              "type": "SELL",
+              "amount": 1417044.813521225,
+              "usdValue": 1902.262647511894,
+              "wallet": {
+                "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+                "name": "DNF 哥"
+              }
+            },
+            {
+              "timestamp": "2026-01-17T05:50:51.000Z",
+              "type": "SELL",
+              "amount": 1250333.658989316,
+              "usdValue": 1952.8929107156855,
+              "wallet": {
+                "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+                "name": "DNF 哥"
+              }
+            },
+            {
+              "timestamp": "2026-01-16T20:59:38.000Z",
+              "type": "SELL",
+              "amount": 524864.291296134,
+              "usdValue": 827.520017957245,
+              "wallet": {
+                "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+                "name": "凉粉小刀"
+              }
+            },
+            {
+              "timestamp": "2026-01-16T20:39:20.000Z",
+              "type": "SELL",
+              "amount": 524864.291296133,
+              "usdValue": 1056.6377087079445,
+              "wallet": {
+                "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+                "name": "凉粉小刀"
+              }
+            },
+            {
+              "timestamp": "2026-01-16T19:51:50.000Z",
+              "type": "SELL",
+              "amount": 490326.92509385,
+              "usdValue": 1019.9746292367666,
+              "wallet": {
+                "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+                "name": "DNF 哥"
+              }
+            },
+            {
+              "timestamp": "2026-01-16T19:36:32.000Z",
+              "type": "SELL",
+              "amount": 980653.8501877,
+              "usdValue": 1777.378132409717,
+              "wallet": {
+                "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+                "name": "DNF 哥"
+              }
+            },
+            {
+              "timestamp": "2026-01-16T16:00:00.000Z",
+              "type": "BUY",
+              "amount": 378685.808684667,
+              "usdValue": 280.38940643100256,
+              "wallet": {
+                "address": "65jT5wk8FQyUWcSjgBsBRLU5NiSYGVYwRSKRiopPNAQ3",
+                "name": "iamachillguy"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+            "name": "DNF 哥",
+            "score": 3,
+            "tokens": [
+              {
+                "token_address": "DtTPiFFX5oNnozjfoyYfDRFcSdPDuJNkYaZeEvSCBAGS",
+                "balance": 3967725.477859433,
+                "token_price": 0.001435,
+                "token_decimals": 9,
+                "token_symbol": "ZACK",
+                "token_name": "ZACK MORRIS",
+                "value": 5693.686060728286
+              }
+            ]
+          },
+          {
+            "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+            "name": "凉粉小刀",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "DtTPiFFX5oNnozjfoyYfDRFcSdPDuJNkYaZeEvSCBAGS",
+                "balance": 0,
+                "token_price": 0.001435,
+                "token_decimals": 9,
+                "token_symbol": "ZACK",
+                "token_name": "ZACK MORRIS",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "address": "65jT5wk8FQyUWcSjgBsBRLU5NiSYGVYwRSKRiopPNAQ3",
+            "name": "iamachillguy",
+            "score": 0.5,
+            "tokens": [
+              {
+                "token_address": "DtTPiFFX5oNnozjfoyYfDRFcSdPDuJNkYaZeEvSCBAGS",
+                "balance": 845030.248129478,
+                "token_price": 0.001435,
+                "token_decimals": 9,
+                "token_symbol": "ZACK",
+                "token_name": "ZACK MORRIS",
+                "value": 1212.6184060658009
               }
             ]
           }
@@ -2002,11 +2022,11 @@
         "created_time": 1767594227,
         "website": "https://x.com/GeoffreyHuntley/status/2008061519788228699",
         "twitter": "https://x.com/GeoffreyHuntley/status/2008061519788228699",
-        "holder": 5569,
-        "market_cap": 25632822,
-        "price": 0.02563,
-        "price_change_24h": 17.14,
-        "volume_24h": 5995872.22,
+        "holder": 5574,
+        "market_cap": 21704650,
+        "price": 0.0217,
+        "price_change_24h": -11.8,
+        "volume_24h": 6038689.9,
         "pool_address": "solana_BUHmixPipAmmozkApdGrgTLYkkHMNiAvf4oBQoXpQrq4",
         "ath": 0.048225333266877654,
         "ath_timestamp": 1768608000,
@@ -2014,11 +2034,11 @@
         "dexId": "meteora",
         "pairAddress": "DbyK8gEiXwNeh2zFW2Lo1svUQ1WkHAeQyNDsRaKQ6BHf",
         "txns_24h": {
-          "buys": 6773,
-          "sells": 6434
+          "buys": 6788,
+          "sells": 6469
         },
-        "fdv_usd": 25632822,
-        "total_reserve_in_usd": 469631.66,
+        "fdv_usd": 21704650,
+        "total_reserve_in_usd": 432134.13,
         "tags": [
           "moonshot"
         ],
@@ -2061,7 +2081,7 @@
               {
                 "token_address": "CxWPdDBqxVo3fnTMRTvNuSrd4gkp78udSrFvkVDBAGS",
                 "balance": 0,
-                "token_price": 0.02563,
+                "token_price": 0.0217,
                 "token_decimals": 9,
                 "token_symbol": "Ralph",
                 "token_name": "Ralph Wiggum",
