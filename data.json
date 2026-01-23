@@ -1,7 +1,98 @@
 {
   "success": true,
-  "timestamp": "2026-01-23T21:16:58.558Z",
+  "timestamp": "2026-01-23T21:35:34.163Z",
   "data": [
+    {
+      "address": "DK9nBUMfdu4XprPRWeh8f6KnQiGWD8Z4xz3yzs9gpump",
+      "symbol": "GOLD",
+      "name": "Gold",
+      "decimals": 6,
+      "icon": "https://ipfs.io/ipfs/bafybeigpfd7q7aaudfetmqsjvlt76eedrjqqrhz5a7sqhqg7xssfg2p3ga",
+      "created_time": 1769200452,
+      "website": "https://github.com/HyperscapeAI/hyperscape",
+      "twitter": "https://x.com/hyperscapeai",
+      "holder": 1694,
+      "market_cap": 908003,
+      "price": 0.000908,
+      "price_change_24h": 1638,
+      "volume_24h": 4861596.1,
+      "pool_address": "solana_2rZu22GK61MP6tLXiP9ygxFjci12Y267tDJ6NPgKHXxf",
+      "ath": 0.000908,
+      "ath_pool": "",
+      "dexId": "pumpswap",
+      "pairAddress": "2rZu22GK61MP6tLXiP9ygxFjci12Y267tDJ6NPgKHXxf",
+      "txns_24h": {
+        "buys": 16472,
+        "sells": 15626
+      },
+      "fdv_usd": 908003,
+      "total_reserve_in_usd": 120327.74,
+      "tags": [],
+      "first_signal": {
+        "timestamp": 1769204132,
+        "price": 0.000908
+      },
+      "metrics": {
+        "uniqueWallets": 2,
+        "inflow24h": 3042.0485721144832,
+        "trades": [
+          {
+            "timestamp": "2026-01-23T21:18:44.000Z",
+            "type": "BUY",
+            "amount": 2272806.498609,
+            "usdValue": 2542.0485721144832,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-01-23T21:02:19.000Z",
+            "type": "BUY",
+            "amount": 337217.626766,
+            "usdValue": 500,
+            "wallet": {
+              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+              "name": "凉粉小刀"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+          "name": "cooker",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "DK9nBUMfdu4XprPRWeh8f6KnQiGWD8Z4xz3yzs9gpump",
+              "balance": 2272806.498609,
+              "token_price": 0.000908,
+              "token_decimals": 6,
+              "token_symbol": "GOLD",
+              "token_name": "Gold",
+              "value": 2063.708300736972
+            }
+          ]
+        },
+        {
+          "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+          "name": "凉粉小刀",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "DK9nBUMfdu4XprPRWeh8f6KnQiGWD8Z4xz3yzs9gpump",
+              "balance": 337217.626766,
+              "token_price": 0.000908,
+              "token_decimals": 6,
+              "token_symbol": "GOLD",
+              "token_name": "Gold",
+              "value": 306.193605103528
+            }
+          ]
+        }
+      ]
+    },
     {
       "address": "FbmmdcCYHL7WETG89xtWmNFMzQAaQ8Zs9NXVbimibonk",
       "symbol": "DONT",
@@ -11,11 +102,11 @@
       "created_time": 1769084088,
       "website": "",
       "twitter": "",
-      "holder": 12593,
-      "market_cap": 15158119,
-      "price": 3.802e-05,
-      "price_change_24h": -49.83,
-      "volume_24h": 9468188.71,
+      "holder": 12441,
+      "market_cap": 14203312,
+      "price": 3.562e-05,
+      "price_change_24h": -56.05,
+      "volume_24h": 9216361.82,
       "pool_address": "solana_FQd8z3Dy6NRxZgx152SUmYL9AyyqAbYCPtSmy4spEgnH",
       "ath": 7.756494094382983e-05,
       "ath_timestamp": 1769173200,
@@ -23,11 +114,11 @@
       "dexId": "raydium",
       "pairAddress": "FQd8z3Dy6NRxZgx152SUmYL9AyyqAbYCPtSmy4spEgnH",
       "txns_24h": {
-        "buys": 27311,
-        "sells": 22781
+        "buys": 26637,
+        "sells": 22213
       },
-      "fdv_usd": 15969999,
-      "total_reserve_in_usd": 499685.18,
+      "fdv_usd": 14964052,
+      "total_reserve_in_usd": 484334.92,
       "tags": [
         "moonshot"
       ],
@@ -150,11 +241,11 @@
             {
               "token_address": "FbmmdcCYHL7WETG89xtWmNFMzQAaQ8Zs9NXVbimibonk",
               "balance": 103433965.814498,
-              "token_price": 3.802e-05,
+              "token_price": 3.562e-05,
               "token_decimals": 6,
               "token_symbol": "DONT",
               "token_name": "DisclaimerCoin",
-              "value": 3932.5593802672142
+              "value": 3684.317862312419
             }
           ]
         },
@@ -166,7 +257,7 @@
             {
               "token_address": "FbmmdcCYHL7WETG89xtWmNFMzQAaQ8Zs9NXVbimibonk",
               "balance": 0,
-              "token_price": 3.802e-05,
+              "token_price": 3.562e-05,
               "token_decimals": 6,
               "token_symbol": "DONT",
               "token_name": "DisclaimerCoin",
@@ -185,11 +276,11 @@
       "created_time": 1768587795,
       "website": "https://x.com/Fufu_FNF/status/2012228702894010472?s=20",
       "twitter": "https://x.com/Fufu_FNF/status/2012228702894010472?s=20",
-      "holder": 12902,
-      "market_cap": 16107184,
-      "price": 0.0161,
-      "price_change_24h": 275,
-      "volume_24h": 11131409.23,
+      "holder": 13110,
+      "market_cap": 16909018,
+      "price": 0.0169,
+      "price_change_24h": 282,
+      "volume_24h": 11225813.82,
       "pool_address": "solana_DRAf8QxQY86h7yeHdo9GytXAF6GoTTT8oZjknwXV6dCS",
       "ath": 0.01919981625506222,
       "ath_timestamp": 1769126400,
@@ -197,11 +288,11 @@
       "dexId": "pumpswap",
       "pairAddress": "DRAf8QxQY86h7yeHdo9GytXAF6GoTTT8oZjknwXV6dCS",
       "txns_24h": {
-        "buys": 30661,
-        "sells": 24959
+        "buys": 30836,
+        "sells": 25140
       },
-      "fdv_usd": 16107184,
-      "total_reserve_in_usd": 486676.02,
+      "fdv_usd": 16909018,
+      "total_reserve_in_usd": 498772.11,
       "tags": [
         "moonshot"
       ],
@@ -284,7 +375,7 @@
             {
               "token_address": "8Jx8AAHj86wbQgUTjGuj6GTTL5Ps3cqxKRTvpaJApump",
               "balance": 0,
-              "token_price": 0.0161,
+              "token_price": 0.0169,
               "token_decimals": 6,
               "token_symbol": "PENGUIN",
               "token_name": "Nietzschean Penguin",
@@ -304,10 +395,10 @@
       "website": "",
       "twitter": "https://x.com/solanamobile",
       "holder": 29085,
-      "market_cap": 167641090,
-      "price": 0.02941,
-      "price_change_24h": -29.67,
-      "volume_24h": 7628001.76,
+      "market_cap": 166026205,
+      "price": 0.02912,
+      "price_change_24h": -26.86,
+      "volume_24h": 7408351.45,
       "pool_address": "solana_CFC6n181TdaxSZWNxYH5MmoLsVAf2V94bzWSbdhu8TgH",
       "ath": 0.04719024338413159,
       "ath_timestamp": 1769122800,
@@ -315,11 +406,11 @@
       "dexId": "meteora",
       "pairAddress": "CFC6n181TdaxSZWNxYH5MmoLsVAf2V94bzWSbdhu8TgH",
       "txns_24h": {
-        "buys": 17315,
-        "sells": 20255
+        "buys": 16545,
+        "sells": 19483
       },
-      "fdv_usd": 294107176,
-      "total_reserve_in_usd": 761420.91,
+      "fdv_usd": 291274045,
+      "total_reserve_in_usd": 760468.23,
       "tags": [
         "moonshot",
         "binanceAlpha"
@@ -363,7 +454,7 @@
             {
               "token_address": "SKRbvo6Gf7GondiT3BbTfuRDPqLWei4j2Qy2NPGZhW3",
               "balance": 0,
-              "token_price": 0.02941,
+              "token_price": 0.02912,
               "token_decimals": 6,
               "token_symbol": "SKR",
               "token_name": "Seeker",
@@ -377,6 +468,97 @@
   "groups": {
     "latestSignals": [
       {
+        "address": "DK9nBUMfdu4XprPRWeh8f6KnQiGWD8Z4xz3yzs9gpump",
+        "symbol": "GOLD",
+        "name": "Gold",
+        "decimals": 6,
+        "icon": "https://ipfs.io/ipfs/bafybeigpfd7q7aaudfetmqsjvlt76eedrjqqrhz5a7sqhqg7xssfg2p3ga",
+        "created_time": 1769200452,
+        "website": "https://github.com/HyperscapeAI/hyperscape",
+        "twitter": "https://x.com/hyperscapeai",
+        "holder": 1694,
+        "market_cap": 908003,
+        "price": 0.000908,
+        "price_change_24h": 1638,
+        "volume_24h": 4861596.1,
+        "pool_address": "solana_2rZu22GK61MP6tLXiP9ygxFjci12Y267tDJ6NPgKHXxf",
+        "ath": 0.000908,
+        "ath_pool": "",
+        "dexId": "pumpswap",
+        "pairAddress": "2rZu22GK61MP6tLXiP9ygxFjci12Y267tDJ6NPgKHXxf",
+        "txns_24h": {
+          "buys": 16472,
+          "sells": 15626
+        },
+        "fdv_usd": 908003,
+        "total_reserve_in_usd": 120327.74,
+        "tags": [],
+        "first_signal": {
+          "timestamp": 1769204132,
+          "price": 0.000908
+        },
+        "metrics": {
+          "uniqueWallets": 2,
+          "inflow24h": 3042.0485721144832,
+          "trades": [
+            {
+              "timestamp": "2026-01-23T21:18:44.000Z",
+              "type": "BUY",
+              "amount": 2272806.498609,
+              "usdValue": 2542.0485721144832,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-01-23T21:02:19.000Z",
+              "type": "BUY",
+              "amount": 337217.626766,
+              "usdValue": 500,
+              "wallet": {
+                "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+                "name": "凉粉小刀"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+            "name": "cooker",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "DK9nBUMfdu4XprPRWeh8f6KnQiGWD8Z4xz3yzs9gpump",
+                "balance": 2272806.498609,
+                "token_price": 0.000908,
+                "token_decimals": 6,
+                "token_symbol": "GOLD",
+                "token_name": "Gold",
+                "value": 2063.708300736972
+              }
+            ]
+          },
+          {
+            "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+            "name": "凉粉小刀",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "DK9nBUMfdu4XprPRWeh8f6KnQiGWD8Z4xz3yzs9gpump",
+                "balance": 337217.626766,
+                "token_price": 0.000908,
+                "token_decimals": 6,
+                "token_symbol": "GOLD",
+                "token_name": "Gold",
+                "value": 306.193605103528
+              }
+            ]
+          }
+        ]
+      },
+      {
         "address": "FbmmdcCYHL7WETG89xtWmNFMzQAaQ8Zs9NXVbimibonk",
         "symbol": "DONT",
         "name": "DisclaimerCoin",
@@ -385,11 +567,11 @@
         "created_time": 1769084088,
         "website": "",
         "twitter": "",
-        "holder": 12593,
-        "market_cap": 15158119,
-        "price": 3.802e-05,
-        "price_change_24h": -49.83,
-        "volume_24h": 9468188.71,
+        "holder": 12441,
+        "market_cap": 14203312,
+        "price": 3.562e-05,
+        "price_change_24h": -56.05,
+        "volume_24h": 9216361.82,
         "pool_address": "solana_FQd8z3Dy6NRxZgx152SUmYL9AyyqAbYCPtSmy4spEgnH",
         "ath": 7.756494094382983e-05,
         "ath_timestamp": 1769173200,
@@ -397,11 +579,11 @@
         "dexId": "raydium",
         "pairAddress": "FQd8z3Dy6NRxZgx152SUmYL9AyyqAbYCPtSmy4spEgnH",
         "txns_24h": {
-          "buys": 27311,
-          "sells": 22781
+          "buys": 26637,
+          "sells": 22213
         },
-        "fdv_usd": 15969999,
-        "total_reserve_in_usd": 499685.18,
+        "fdv_usd": 14964052,
+        "total_reserve_in_usd": 484334.92,
         "tags": [
           "moonshot"
         ],
@@ -524,11 +706,11 @@
               {
                 "token_address": "FbmmdcCYHL7WETG89xtWmNFMzQAaQ8Zs9NXVbimibonk",
                 "balance": 103433965.814498,
-                "token_price": 3.802e-05,
+                "token_price": 3.562e-05,
                 "token_decimals": 6,
                 "token_symbol": "DONT",
                 "token_name": "DisclaimerCoin",
-                "value": 3932.5593802672142
+                "value": 3684.317862312419
               }
             ]
           },
@@ -540,7 +722,7 @@
               {
                 "token_address": "FbmmdcCYHL7WETG89xtWmNFMzQAaQ8Zs9NXVbimibonk",
                 "balance": 0,
-                "token_price": 3.802e-05,
+                "token_price": 3.562e-05,
                 "token_decimals": 6,
                 "token_symbol": "DONT",
                 "token_name": "DisclaimerCoin",
@@ -559,11 +741,11 @@
         "created_time": 1768587795,
         "website": "https://x.com/Fufu_FNF/status/2012228702894010472?s=20",
         "twitter": "https://x.com/Fufu_FNF/status/2012228702894010472?s=20",
-        "holder": 12902,
-        "market_cap": 16107184,
-        "price": 0.0161,
-        "price_change_24h": 275,
-        "volume_24h": 11131409.23,
+        "holder": 13110,
+        "market_cap": 16909018,
+        "price": 0.0169,
+        "price_change_24h": 282,
+        "volume_24h": 11225813.82,
         "pool_address": "solana_DRAf8QxQY86h7yeHdo9GytXAF6GoTTT8oZjknwXV6dCS",
         "ath": 0.01919981625506222,
         "ath_timestamp": 1769126400,
@@ -571,11 +753,11 @@
         "dexId": "pumpswap",
         "pairAddress": "DRAf8QxQY86h7yeHdo9GytXAF6GoTTT8oZjknwXV6dCS",
         "txns_24h": {
-          "buys": 30661,
-          "sells": 24959
+          "buys": 30836,
+          "sells": 25140
         },
-        "fdv_usd": 16107184,
-        "total_reserve_in_usd": 486676.02,
+        "fdv_usd": 16909018,
+        "total_reserve_in_usd": 498772.11,
         "tags": [
           "moonshot"
         ],
@@ -658,7 +840,7 @@
               {
                 "token_address": "8Jx8AAHj86wbQgUTjGuj6GTTL5Ps3cqxKRTvpaJApump",
                 "balance": 0,
-                "token_price": 0.0161,
+                "token_price": 0.0169,
                 "token_decimals": 6,
                 "token_symbol": "PENGUIN",
                 "token_name": "Nietzschean Penguin",
@@ -678,10 +860,10 @@
         "website": "",
         "twitter": "https://x.com/solanamobile",
         "holder": 29085,
-        "market_cap": 167641090,
-        "price": 0.02941,
-        "price_change_24h": -29.67,
-        "volume_24h": 7628001.76,
+        "market_cap": 166026205,
+        "price": 0.02912,
+        "price_change_24h": -26.86,
+        "volume_24h": 7408351.45,
         "pool_address": "solana_CFC6n181TdaxSZWNxYH5MmoLsVAf2V94bzWSbdhu8TgH",
         "ath": 0.04719024338413159,
         "ath_timestamp": 1769122800,
@@ -689,11 +871,11 @@
         "dexId": "meteora",
         "pairAddress": "CFC6n181TdaxSZWNxYH5MmoLsVAf2V94bzWSbdhu8TgH",
         "txns_24h": {
-          "buys": 17315,
-          "sells": 20255
+          "buys": 16545,
+          "sells": 19483
         },
-        "fdv_usd": 294107176,
-        "total_reserve_in_usd": 761420.91,
+        "fdv_usd": 291274045,
+        "total_reserve_in_usd": 760468.23,
         "tags": [
           "moonshot",
           "binanceAlpha"
@@ -737,7 +919,7 @@
               {
                 "token_address": "SKRbvo6Gf7GondiT3BbTfuRDPqLWei4j2Qy2NPGZhW3",
                 "balance": 0,
-                "token_price": 0.02941,
+                "token_price": 0.02912,
                 "token_decimals": 6,
                 "token_symbol": "SKR",
                 "token_name": "Seeker",
