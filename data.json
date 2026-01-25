@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2026-01-25T05:57:29.932Z",
+  "timestamp": "2026-01-25T06:26:26.963Z",
   "data": [
     {
       "address": "Hoi9Lo8s2PP7EM9mv9bZjQ3aSB7ijyS238sTqQjbpump",
@@ -11,11 +11,11 @@
       "created_time": 1764713002,
       "website": "https://clawd.me/",
       "twitter": "https://x.com/clawdbot",
-      "holder": 2575,
-      "market_cap": 4307034,
-      "price": 0.00431,
-      "price_change_24h": 10965,
-      "volume_24h": 4648194.57,
+      "holder": 2942,
+      "market_cap": 5479391,
+      "price": 0.005483,
+      "price_change_24h": 11657,
+      "volume_24h": 5615270.04,
       "pool_address": "solana_A57Fy21eADuTzXS9e6ks6knbmy8tNHZ5FkbMg3oEF1te",
       "ath": 0.004122698856563062,
       "ath_timestamp": 1769317200,
@@ -23,11 +23,11 @@
       "dexId": "pumpswap",
       "pairAddress": "A57Fy21eADuTzXS9e6ks6knbmy8tNHZ5FkbMg3oEF1te",
       "txns_24h": {
-        "buys": 10953,
-        "sells": 8438
+        "buys": 12692,
+        "sells": 10096
       },
-      "fdv_usd": 4307034,
-      "total_reserve_in_usd": 243435.64,
+      "fdv_usd": 5479391,
+      "total_reserve_in_usd": 276248.9,
       "tags": [],
       "first_signal": {
         "timestamp": 1769314520,
@@ -35,8 +35,48 @@
       },
       "metrics": {
         "uniqueWallets": 3,
-        "inflow24h": -38339.42537915434,
+        "inflow24h": -48796.76449245003,
         "trades": [
+          {
+            "timestamp": "2026-01-25T06:25:23.000Z",
+            "type": "SELL",
+            "amount": 412857.304966,
+            "usdValue": 2343.8791118692816,
+            "wallet": {
+              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+              "name": "DNF 哥"
+            }
+          },
+          {
+            "timestamp": "2026-01-25T06:22:12.000Z",
+            "type": "SELL",
+            "amount": 458730.338851,
+            "usdValue": 2815.958564789548,
+            "wallet": {
+              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+              "name": "DNF 哥"
+            }
+          },
+          {
+            "timestamp": "2026-01-25T06:17:26.000Z",
+            "type": "SELL",
+            "amount": 509700.376501,
+            "usdValue": 2561.3393888781275,
+            "wallet": {
+              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+              "name": "DNF 哥"
+            }
+          },
+          {
+            "timestamp": "2026-01-25T06:08:48.000Z",
+            "type": "SELL",
+            "amount": 566333.751668,
+            "usdValue": 2736.162047758736,
+            "wallet": {
+              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+              "name": "DNF 哥"
+            }
+          },
           {
             "timestamp": "2026-01-25T04:57:23.000Z",
             "type": "SELL",
@@ -171,6 +211,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+          "name": "DNF 哥",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "Hoi9Lo8s2PP7EM9mv9bZjQ3aSB7ijyS238sTqQjbpump",
+              "balance": 3715715.744695,
+              "token_price": 0.005483,
+              "token_decimals": 6,
+              "token_symbol": "clawd",
+              "token_name": "clawdbot",
+              "value": 20373.269428162683
+            }
+          ]
+        },
+        {
           "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
           "name": "eca.eth",
           "score": 1,
@@ -178,27 +234,11 @@
             {
               "token_address": "Hoi9Lo8s2PP7EM9mv9bZjQ3aSB7ijyS238sTqQjbpump",
               "balance": 0,
-              "token_price": 0.00431,
+              "token_price": 0.005483,
               "token_decimals": 6,
               "token_symbol": "clawd",
               "token_name": "clawdbot",
               "value": 0
-            }
-          ]
-        },
-        {
-          "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-          "name": "DNF 哥",
-          "score": 3,
-          "tokens": [
-            {
-              "token_address": "Hoi9Lo8s2PP7EM9mv9bZjQ3aSB7ijyS238sTqQjbpump",
-              "balance": 5663337.516681,
-              "token_price": 0.00431,
-              "token_decimals": 6,
-              "token_symbol": "clawd",
-              "token_name": "clawdbot",
-              "value": 24408.984696895106
             }
           ]
         },
@@ -210,11 +250,11 @@
             {
               "token_address": "Hoi9Lo8s2PP7EM9mv9bZjQ3aSB7ijyS238sTqQjbpump",
               "balance": 549271.533684,
-              "token_price": 0.00431,
+              "token_price": 0.005483,
               "token_decimals": 6,
               "token_symbol": "clawd",
               "token_name": "clawdbot",
-              "value": 2367.36031017804
+              "value": 3011.6558191893723
             }
           ]
         }
@@ -229,11 +269,11 @@
       "created_time": 1769274635,
       "website": "https://youtu.be/pAnGwRiQ4-4?t=754",
       "twitter": "",
-      "holder": 4779,
-      "market_cap": 1842027,
-      "price": 0.001842,
-      "price_change_24h": 3479,
-      "volume_24h": 13602113.38,
+      "holder": 4986,
+      "market_cap": 2171461,
+      "price": 0.002171,
+      "price_change_24h": 4119,
+      "volume_24h": 13768527.92,
       "pool_address": "solana_2fDUxPqLabB1zVKuEKH4bGxxtvA95mhdMenxbKUNbYP6",
       "ath": 0.003298168254460749,
       "ath_timestamp": 1769310000,
@@ -244,11 +284,11 @@
         "active": 80
       },
       "txns_24h": {
-        "buys": 41428,
-        "sells": 34200
+        "buys": 41995,
+        "sells": 34657
       },
-      "fdv_usd": 1842027,
-      "total_reserve_in_usd": 157431.91,
+      "fdv_usd": 2171461,
+      "total_reserve_in_usd": 171103.12,
       "tags": [],
       "first_signal": {
         "timestamp": 1769306700,
@@ -339,7 +379,7 @@
             {
               "token_address": "7MDApufGNAKDDTcM3hrUpUfZ8jcaXdaoSZy1sQdRpump",
               "balance": 0,
-              "token_price": 0.001842,
+              "token_price": 0.002171,
               "token_decimals": 6,
               "token_symbol": "Dale",
               "token_name": "Dale",
@@ -355,11 +395,11 @@
             {
               "token_address": "7MDApufGNAKDDTcM3hrUpUfZ8jcaXdaoSZy1sQdRpump",
               "balance": 221467.687801,
-              "token_price": 0.001842,
+              "token_price": 0.002171,
               "token_decimals": 6,
               "token_symbol": "Dale",
               "token_name": "Dale",
-              "value": 407.943480929442
+              "value": 480.806350215971
             }
           ]
         },
@@ -371,11 +411,11 @@
             {
               "token_address": "7MDApufGNAKDDTcM3hrUpUfZ8jcaXdaoSZy1sQdRpump",
               "balance": 15270.564171,
-              "token_price": 0.001842,
+              "token_price": 0.002171,
               "token_decimals": 6,
               "token_symbol": "Dale",
               "token_name": "Dale",
-              "value": 28.128379202982
+              "value": 33.152394815241
             }
           ]
         }
@@ -390,11 +430,11 @@
       "created_time": 1769298710,
       "website": "",
       "twitter": "https://x.com/nypost/status/2015210900093894800",
-      "holder": 327,
-      "market_cap": 13778,
-      "price": 1.378e-05,
-      "price_change_24h": -73.69,
-      "volume_24h": 556470.06,
+      "holder": 312,
+      "market_cap": 14034,
+      "price": 1.403e-05,
+      "price_change_24h": -73.2,
+      "volume_24h": 557302.43,
       "pool_address": "solana_2m9oKEZFUcy4vu4vEFAovsSzPhCrMv2vTm4mkMrNrq3d",
       "ath": 6.732e-05,
       "ath_timestamp": 1769306743,
@@ -402,11 +442,11 @@
       "dexId": "pumpswap",
       "pairAddress": "2m9oKEZFUcy4vu4vEFAovsSzPhCrMv2vTm4mkMrNrq3d",
       "txns_24h": {
-        "buys": 4463,
-        "sells": 3692
+        "buys": 4474,
+        "sells": 3700
       },
-      "fdv_usd": 13778,
-      "total_reserve_in_usd": 11359.23,
+      "fdv_usd": 14034,
+      "total_reserve_in_usd": 11449.53,
       "tags": [],
       "first_signal": {
         "timestamp": 1769306699,
@@ -507,7 +547,7 @@
             {
               "token_address": "FKt1qJTDeSGMaXyJ49uuPtVFunkv5pvCXtFnJG4bUYca",
               "balance": 0,
-              "token_price": 1.378e-05,
+              "token_price": 1.403e-05,
               "token_decimals": 6,
               "token_symbol": "Raccoon",
               "token_name": "The Courageous Raccoon",
@@ -523,7 +563,7 @@
             {
               "token_address": "FKt1qJTDeSGMaXyJ49uuPtVFunkv5pvCXtFnJG4bUYca",
               "balance": 0,
-              "token_price": 1.378e-05,
+              "token_price": 1.403e-05,
               "token_decimals": 6,
               "token_symbol": "Raccoon",
               "token_name": "The Courageous Raccoon",
@@ -543,10 +583,10 @@
       "website": "https://x.com/Fufu_FNF/status/2012228702894010472?s=20",
       "twitter": "https://x.com/Fufu_FNF/status/2012228702894010472?s=20",
       "holder": 45664,
-      "market_cap": 126482528,
-      "price": 0.1264,
-      "price_change_24h": 108,
-      "volume_24h": 101745469.05,
+      "market_cap": 117034571,
+      "price": 0.117,
+      "price_change_24h": 116,
+      "volume_24h": 99670097.85,
       "pool_address": "solana_DRAf8QxQY86h7yeHdo9GytXAF6GoTTT8oZjknwXV6dCS",
       "ath": 0.17112331196605585,
       "ath_timestamp": 1769212800,
@@ -554,11 +594,11 @@
       "dexId": "pumpswap",
       "pairAddress": "DRAf8QxQY86h7yeHdo9GytXAF6GoTTT8oZjknwXV6dCS",
       "txns_24h": {
-        "buys": 156197,
-        "sells": 125254
+        "buys": 152730,
+        "sells": 122352
       },
-      "fdv_usd": 126482413,
-      "total_reserve_in_usd": 1679194.17,
+      "fdv_usd": 117034464,
+      "total_reserve_in_usd": 1615092.55,
       "tags": [
         "moonshot",
         "binanceAlpha"
@@ -602,11 +642,11 @@
             {
               "token_address": "8Jx8AAHj86wbQgUTjGuj6GTTL5Ps3cqxKRTvpaJApump",
               "balance": 19341.580641,
-              "token_price": 0.1264,
+              "token_price": 0.117,
               "token_decimals": 6,
               "token_symbol": "PENGUIN",
               "token_name": "Nietzschean Penguin",
-              "value": 2444.7757930224
+              "value": 2262.964934997
             }
           ]
         },
@@ -618,11 +658,11 @@
             {
               "token_address": "8Jx8AAHj86wbQgUTjGuj6GTTL5Ps3cqxKRTvpaJApump",
               "balance": 521.495462,
-              "token_price": 0.1264,
+              "token_price": 0.117,
               "token_decimals": 6,
               "token_symbol": "PENGUIN",
               "token_name": "Nietzschean Penguin",
-              "value": 65.9170263968
+              "value": 61.014969054
             }
           ]
         }
@@ -638,10 +678,10 @@
       "website": "https://x.com/guyfieri/status/2014352568831426620",
       "twitter": "",
       "holder": 242,
-      "market_cap": 32200,
-      "price": 3.219e-05,
-      "price_change_24h": -38.65,
-      "volume_24h": 392634.59,
+      "market_cap": 37810,
+      "price": 3.78e-05,
+      "price_change_24h": -27.96,
+      "volume_24h": 394110.26,
       "pool_address": "solana_3Z9LLMe2MxvHpH414Qcd22Qk93jMA7B8DVHc4igRzmGE",
       "ath": 8.796e-05,
       "ath_timestamp": 1769295679,
@@ -649,11 +689,11 @@
       "dexId": "pumpswap",
       "pairAddress": "3Z9LLMe2MxvHpH414Qcd22Qk93jMA7B8DVHc4igRzmGE",
       "txns_24h": {
-        "buys": 3078,
-        "sells": 2439
+        "buys": 3085,
+        "sells": 2446
       },
-      "fdv_usd": 32200,
-      "total_reserve_in_usd": 17167.15,
+      "fdv_usd": 37810,
+      "total_reserve_in_usd": 18585.37,
       "tags": [],
       "first_signal": {
         "timestamp": 1769295657,
@@ -724,11 +764,11 @@
             {
               "token_address": "DthcRHKY3qbknGpyxPY6ifUVTMNjYnZGptS6xwAKpump",
               "balance": 34535123.430319,
-              "token_price": 3.219e-05,
+              "token_price": 3.78e-05,
               "token_decimals": 6,
               "token_symbol": "NEWGUY",
               "token_name": "New Guy Fieri",
-              "value": 1111.6856232219686
+              "value": 1305.427665666058
             }
           ]
         },
@@ -740,11 +780,11 @@
             {
               "token_address": "DthcRHKY3qbknGpyxPY6ifUVTMNjYnZGptS6xwAKpump",
               "balance": 9799034.954456,
-              "token_price": 3.219e-05,
+              "token_price": 3.78e-05,
               "token_decimals": 6,
               "token_symbol": "NEWGUY",
               "token_name": "New Guy Fieri",
-              "value": 315.43093518393863
+              "value": 370.40352127843676
             }
           ]
         }
@@ -760,10 +800,10 @@
       "website": "https://x.com/aydoxbt/status/2015189680774316161",
       "twitter": "https://x.com/i/communities/2015189240800264667",
       "holder": 547,
-      "market_cap": 58922,
-      "price": 5.892e-05,
-      "price_change_24h": 14.85,
-      "volume_24h": 802718.99,
+      "market_cap": 61547,
+      "price": 6.154e-05,
+      "price_change_24h": 19.97,
+      "volume_24h": 804590.82,
       "pool_address": "solana_4LoWEFK9v8qTi5jU3UmcKTPG3wf5ByUfgBaXDJujXVgD",
       "ath": 0.00017232405975967137,
       "ath_timestamp": 1769299200,
@@ -774,11 +814,11 @@
         "active": 10
       },
       "txns_24h": {
-        "buys": 6702,
-        "sells": 5322
+        "buys": 6717,
+        "sells": 5338
       },
-      "fdv_usd": 58922,
-      "total_reserve_in_usd": 24142.96,
+      "fdv_usd": 61547,
+      "total_reserve_in_usd": 24655.22,
       "tags": [],
       "first_signal": {
         "timestamp": 1769295238,
@@ -849,7 +889,7 @@
             {
               "token_address": "GGiM8BaN45RxZ7jKiMfg2RC5zVn41HL21crv6cfSpump",
               "balance": 0,
-              "token_price": 5.892e-05,
+              "token_price": 6.154e-05,
               "token_decimals": 6,
               "token_symbol": "FEW",
               "token_name": "few understand",
@@ -865,7 +905,7 @@
             {
               "token_address": "GGiM8BaN45RxZ7jKiMfg2RC5zVn41HL21crv6cfSpump",
               "balance": 0,
-              "token_price": 5.892e-05,
+              "token_price": 6.154e-05,
               "token_decimals": 6,
               "token_symbol": "FEW",
               "token_name": "few understand",
@@ -885,10 +925,10 @@
       "website": "https://x.com/i/communities/2015171659389440017",
       "twitter": "https://x.com/icantquant/status/2015174175481070061",
       "holder": 422,
-      "market_cap": 12683,
-      "price": 1.268e-05,
-      "price_change_24h": -73.09,
-      "volume_24h": 646322.62,
+      "market_cap": 12489,
+      "price": 1.249e-05,
+      "price_change_24h": -73.5,
+      "volume_24h": 647069.79,
       "pool_address": "solana_6UvqYEDJcrq8gsJwu4srY6KAm6YeHjU9DCUBMQW5G4dF",
       "ath": 0.0001790368305094335,
       "ath_timestamp": 1769292000,
@@ -899,11 +939,11 @@
         "active": 10
       },
       "txns_24h": {
-        "buys": 6557,
-        "sells": 5147
+        "buys": 6565,
+        "sells": 5165
       },
-      "fdv_usd": 12683,
-      "total_reserve_in_usd": 10992.25,
+      "fdv_usd": 12489,
+      "total_reserve_in_usd": 10895.51,
       "tags": [],
       "first_signal": {
         "timestamp": 1769291662,
@@ -1084,7 +1124,7 @@
             {
               "token_address": "5RCwoHUz9GNRtfNvxnbZe8rMjkNeWJcsWDCZq99hpump",
               "balance": 0,
-              "token_price": 1.268e-05,
+              "token_price": 1.249e-05,
               "token_decimals": 6,
               "token_symbol": "Nihilism",
               "token_name": "Nihilism",
@@ -1100,11 +1140,11 @@
             {
               "token_address": "5RCwoHUz9GNRtfNvxnbZe8rMjkNeWJcsWDCZq99hpump",
               "balance": 2597930.974757,
-              "token_price": 1.268e-05,
+              "token_price": 1.249e-05,
               "token_decimals": 6,
               "token_symbol": "Nihilism",
               "token_name": "Nihilism",
-              "value": 32.94176475991876
+              "value": 32.44815787471493
             }
           ]
         },
@@ -1116,7 +1156,7 @@
             {
               "token_address": "5RCwoHUz9GNRtfNvxnbZe8rMjkNeWJcsWDCZq99hpump",
               "balance": 0,
-              "token_price": 1.268e-05,
+              "token_price": 1.249e-05,
               "token_decimals": 6,
               "token_symbol": "Nihilism",
               "token_name": "Nihilism",
@@ -1136,10 +1176,10 @@
       "website": "https://www.visitsealife.com/melbourne/whats-inside/animals/king-and-gentoo-penguins/meet-pesto/?",
       "twitter": "https://x.com/melbaquarium?s=21&t=zyngat0b3pg5-8b96o8suw",
       "holder": 10289,
-      "market_cap": 299120,
-      "price": 0.0002991,
-      "price_change_24h": 11.43,
-      "volume_24h": 269320.03,
+      "market_cap": 279885,
+      "price": 0.0002799,
+      "price_change_24h": 14.93,
+      "volume_24h": 266164.65,
       "pool_address": "solana_A9KLSS9modWzMc1A189c6HXwy1QkgUupun9TPJZkhmaw",
       "ath": 0.00039890760380039076,
       "ath_timestamp": 1769212800,
@@ -1147,11 +1187,11 @@
       "dexId": "raydium",
       "pairAddress": "A9KLSS9modWzMc1A189c6HXwy1QkgUupun9TPJZkhmaw",
       "txns_24h": {
-        "buys": 968,
-        "sells": 813
+        "buys": 954,
+        "sells": 802
       },
-      "fdv_usd": 299120,
-      "total_reserve_in_usd": 197465.05,
+      "fdv_usd": 279885,
+      "total_reserve_in_usd": 190847.26,
       "tags": [
         "moonshot"
       ],
@@ -1314,7 +1354,7 @@
             {
               "token_address": "34a8ALsPmbWxp7D3bQ6erERrCLz1ahr6u6o66Udmpump",
               "balance": 0,
-              "token_price": 0.0002991,
+              "token_price": 0.0002799,
               "token_decimals": 6,
               "token_symbol": "PESTO",
               "token_name": "Pesto the Baby King Penguin",
@@ -1334,10 +1374,10 @@
       "website": "",
       "twitter": "",
       "holder": 701,
-      "market_cap": 154106,
-      "price": 0.0001816,
-      "price_change_24h": 84.38,
-      "volume_24h": 585104.75,
+      "market_cap": 172424,
+      "price": 0.0002032,
+      "price_change_24h": 125,
+      "volume_24h": 584215.59,
       "pool_address": "solana_4pHiZTUr8TqrvgdDYyDgYhPcnWWdtpmAcL3ZiecF29s9",
       "ath": 0.00032980823011783197,
       "ath_timestamp": 1769299200,
@@ -1345,11 +1385,11 @@
       "dexId": "pumpswap",
       "pairAddress": "4pHiZTUr8TqrvgdDYyDgYhPcnWWdtpmAcL3ZiecF29s9",
       "txns_24h": {
-        "buys": 2986,
-        "sells": 2512
+        "buys": 2902,
+        "sells": 2452
       },
-      "fdv_usd": 154106,
-      "total_reserve_in_usd": 42917.91,
+      "fdv_usd": 172424,
+      "total_reserve_in_usd": 45382.13,
       "tags": [],
       "first_signal": {
         "timestamp": 1769227649,
@@ -1420,7 +1460,7 @@
             {
               "token_address": "8yupJtHtBqt2TiDsTFXyyjEewbTF3XdnyivW16XBpump",
               "balance": 0,
-              "token_price": 0.0001816,
+              "token_price": 0.0002032,
               "token_decimals": 6,
               "token_symbol": "WOLF",
               "token_name": "wolf in sheeps clothing",
@@ -1436,11 +1476,11 @@
             {
               "token_address": "8yupJtHtBqt2TiDsTFXyyjEewbTF3XdnyivW16XBpump",
               "balance": 16592560.375261,
-              "token_price": 0.0001816,
+              "token_price": 0.0002032,
               "token_decimals": 6,
               "token_symbol": "WOLF",
               "token_name": "wolf in sheeps clothing",
-              "value": 3013.2089641473976
+              "value": 3371.608268253035
             }
           ]
         },
@@ -1452,7 +1492,7 @@
             {
               "token_address": "8yupJtHtBqt2TiDsTFXyyjEewbTF3XdnyivW16XBpump",
               "balance": 0,
-              "token_price": 0.0001816,
+              "token_price": 0.0002032,
               "token_decimals": 6,
               "token_symbol": "WOLF",
               "token_name": "wolf in sheeps clothing",
@@ -1472,10 +1512,10 @@
       "website": "",
       "twitter": "https://x.com/i/communities/1968442277552074769",
       "holder": 12319,
-      "market_cap": 8682280,
-      "price": 0.008682,
-      "price_change_24h": -24.68,
-      "volume_24h": 2299128.11,
+      "market_cap": 8602161,
+      "price": 0.008602,
+      "price_change_24h": -26.8,
+      "volume_24h": 2244046.79,
       "pool_address": "solana_6sEkZ73vph5AFYmQTzaV6H5vAQQLZ2C8WqeCQ6MhLqFk",
       "ath": 0.05122120012315754,
       "ath_timestamp": 1762300800,
@@ -1483,11 +1523,11 @@
       "dexId": "raydium",
       "pairAddress": "6sEkZ73vph5AFYmQTzaV6H5vAQQLZ2C8WqeCQ6MhLqFk",
       "txns_24h": {
-        "buys": 4924,
-        "sells": 4574
+        "buys": 4824,
+        "sells": 4525
       },
-      "fdv_usd": 8682280,
-      "total_reserve_in_usd": 667581.12,
+      "fdv_usd": 8602161,
+      "total_reserve_in_usd": 664524.77,
       "tags": [
         "moonshot"
       ],
@@ -1600,7 +1640,7 @@
             {
               "token_address": "GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk",
               "balance": 0,
-              "token_price": 0.008682,
+              "token_price": 0.008602,
               "token_decimals": 6,
               "token_symbol": "1",
               "token_name": "1 coin can change your life",
@@ -1622,11 +1662,11 @@
         "created_time": 1764713002,
         "website": "https://clawd.me/",
         "twitter": "https://x.com/clawdbot",
-        "holder": 2575,
-        "market_cap": 4307034,
-        "price": 0.00431,
-        "price_change_24h": 10965,
-        "volume_24h": 4648194.57,
+        "holder": 2942,
+        "market_cap": 5479391,
+        "price": 0.005483,
+        "price_change_24h": 11657,
+        "volume_24h": 5615270.04,
         "pool_address": "solana_A57Fy21eADuTzXS9e6ks6knbmy8tNHZ5FkbMg3oEF1te",
         "ath": 0.004122698856563062,
         "ath_timestamp": 1769317200,
@@ -1634,11 +1674,11 @@
         "dexId": "pumpswap",
         "pairAddress": "A57Fy21eADuTzXS9e6ks6knbmy8tNHZ5FkbMg3oEF1te",
         "txns_24h": {
-          "buys": 10953,
-          "sells": 8438
+          "buys": 12692,
+          "sells": 10096
         },
-        "fdv_usd": 4307034,
-        "total_reserve_in_usd": 243435.64,
+        "fdv_usd": 5479391,
+        "total_reserve_in_usd": 276248.9,
         "tags": [],
         "first_signal": {
           "timestamp": 1769314520,
@@ -1646,8 +1686,48 @@
         },
         "metrics": {
           "uniqueWallets": 3,
-          "inflow24h": -38339.42537915434,
+          "inflow24h": -48796.76449245003,
           "trades": [
+            {
+              "timestamp": "2026-01-25T06:25:23.000Z",
+              "type": "SELL",
+              "amount": 412857.304966,
+              "usdValue": 2343.8791118692816,
+              "wallet": {
+                "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+                "name": "DNF 哥"
+              }
+            },
+            {
+              "timestamp": "2026-01-25T06:22:12.000Z",
+              "type": "SELL",
+              "amount": 458730.338851,
+              "usdValue": 2815.958564789548,
+              "wallet": {
+                "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+                "name": "DNF 哥"
+              }
+            },
+            {
+              "timestamp": "2026-01-25T06:17:26.000Z",
+              "type": "SELL",
+              "amount": 509700.376501,
+              "usdValue": 2561.3393888781275,
+              "wallet": {
+                "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+                "name": "DNF 哥"
+              }
+            },
+            {
+              "timestamp": "2026-01-25T06:08:48.000Z",
+              "type": "SELL",
+              "amount": 566333.751668,
+              "usdValue": 2736.162047758736,
+              "wallet": {
+                "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+                "name": "DNF 哥"
+              }
+            },
             {
               "timestamp": "2026-01-25T04:57:23.000Z",
               "type": "SELL",
@@ -1782,6 +1862,22 @@
         },
         "walletPortfolios": [
           {
+            "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+            "name": "DNF 哥",
+            "score": 3,
+            "tokens": [
+              {
+                "token_address": "Hoi9Lo8s2PP7EM9mv9bZjQ3aSB7ijyS238sTqQjbpump",
+                "balance": 3715715.744695,
+                "token_price": 0.005483,
+                "token_decimals": 6,
+                "token_symbol": "clawd",
+                "token_name": "clawdbot",
+                "value": 20373.269428162683
+              }
+            ]
+          },
+          {
             "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
             "name": "eca.eth",
             "score": 1,
@@ -1789,27 +1885,11 @@
               {
                 "token_address": "Hoi9Lo8s2PP7EM9mv9bZjQ3aSB7ijyS238sTqQjbpump",
                 "balance": 0,
-                "token_price": 0.00431,
+                "token_price": 0.005483,
                 "token_decimals": 6,
                 "token_symbol": "clawd",
                 "token_name": "clawdbot",
                 "value": 0
-              }
-            ]
-          },
-          {
-            "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-            "name": "DNF 哥",
-            "score": 3,
-            "tokens": [
-              {
-                "token_address": "Hoi9Lo8s2PP7EM9mv9bZjQ3aSB7ijyS238sTqQjbpump",
-                "balance": 5663337.516681,
-                "token_price": 0.00431,
-                "token_decimals": 6,
-                "token_symbol": "clawd",
-                "token_name": "clawdbot",
-                "value": 24408.984696895106
               }
             ]
           },
@@ -1821,11 +1901,11 @@
               {
                 "token_address": "Hoi9Lo8s2PP7EM9mv9bZjQ3aSB7ijyS238sTqQjbpump",
                 "balance": 549271.533684,
-                "token_price": 0.00431,
+                "token_price": 0.005483,
                 "token_decimals": 6,
                 "token_symbol": "clawd",
                 "token_name": "clawdbot",
-                "value": 2367.36031017804
+                "value": 3011.6558191893723
               }
             ]
           }
@@ -1840,11 +1920,11 @@
         "created_time": 1769274635,
         "website": "https://youtu.be/pAnGwRiQ4-4?t=754",
         "twitter": "",
-        "holder": 4779,
-        "market_cap": 1842027,
-        "price": 0.001842,
-        "price_change_24h": 3479,
-        "volume_24h": 13602113.38,
+        "holder": 4986,
+        "market_cap": 2171461,
+        "price": 0.002171,
+        "price_change_24h": 4119,
+        "volume_24h": 13768527.92,
         "pool_address": "solana_2fDUxPqLabB1zVKuEKH4bGxxtvA95mhdMenxbKUNbYP6",
         "ath": 0.003298168254460749,
         "ath_timestamp": 1769310000,
@@ -1855,11 +1935,11 @@
           "active": 80
         },
         "txns_24h": {
-          "buys": 41428,
-          "sells": 34200
+          "buys": 41995,
+          "sells": 34657
         },
-        "fdv_usd": 1842027,
-        "total_reserve_in_usd": 157431.91,
+        "fdv_usd": 2171461,
+        "total_reserve_in_usd": 171103.12,
         "tags": [],
         "first_signal": {
           "timestamp": 1769306700,
@@ -1950,7 +2030,7 @@
               {
                 "token_address": "7MDApufGNAKDDTcM3hrUpUfZ8jcaXdaoSZy1sQdRpump",
                 "balance": 0,
-                "token_price": 0.001842,
+                "token_price": 0.002171,
                 "token_decimals": 6,
                 "token_symbol": "Dale",
                 "token_name": "Dale",
@@ -1966,11 +2046,11 @@
               {
                 "token_address": "7MDApufGNAKDDTcM3hrUpUfZ8jcaXdaoSZy1sQdRpump",
                 "balance": 221467.687801,
-                "token_price": 0.001842,
+                "token_price": 0.002171,
                 "token_decimals": 6,
                 "token_symbol": "Dale",
                 "token_name": "Dale",
-                "value": 407.943480929442
+                "value": 480.806350215971
               }
             ]
           },
@@ -1982,11 +2062,11 @@
               {
                 "token_address": "7MDApufGNAKDDTcM3hrUpUfZ8jcaXdaoSZy1sQdRpump",
                 "balance": 15270.564171,
-                "token_price": 0.001842,
+                "token_price": 0.002171,
                 "token_decimals": 6,
                 "token_symbol": "Dale",
                 "token_name": "Dale",
-                "value": 28.128379202982
+                "value": 33.152394815241
               }
             ]
           }
@@ -2001,11 +2081,11 @@
         "created_time": 1769298710,
         "website": "",
         "twitter": "https://x.com/nypost/status/2015210900093894800",
-        "holder": 327,
-        "market_cap": 13778,
-        "price": 1.378e-05,
-        "price_change_24h": -73.69,
-        "volume_24h": 556470.06,
+        "holder": 312,
+        "market_cap": 14034,
+        "price": 1.403e-05,
+        "price_change_24h": -73.2,
+        "volume_24h": 557302.43,
         "pool_address": "solana_2m9oKEZFUcy4vu4vEFAovsSzPhCrMv2vTm4mkMrNrq3d",
         "ath": 6.732e-05,
         "ath_timestamp": 1769306743,
@@ -2013,11 +2093,11 @@
         "dexId": "pumpswap",
         "pairAddress": "2m9oKEZFUcy4vu4vEFAovsSzPhCrMv2vTm4mkMrNrq3d",
         "txns_24h": {
-          "buys": 4463,
-          "sells": 3692
+          "buys": 4474,
+          "sells": 3700
         },
-        "fdv_usd": 13778,
-        "total_reserve_in_usd": 11359.23,
+        "fdv_usd": 14034,
+        "total_reserve_in_usd": 11449.53,
         "tags": [],
         "first_signal": {
           "timestamp": 1769306699,
@@ -2118,7 +2198,7 @@
               {
                 "token_address": "FKt1qJTDeSGMaXyJ49uuPtVFunkv5pvCXtFnJG4bUYca",
                 "balance": 0,
-                "token_price": 1.378e-05,
+                "token_price": 1.403e-05,
                 "token_decimals": 6,
                 "token_symbol": "Raccoon",
                 "token_name": "The Courageous Raccoon",
@@ -2134,7 +2214,7 @@
               {
                 "token_address": "FKt1qJTDeSGMaXyJ49uuPtVFunkv5pvCXtFnJG4bUYca",
                 "balance": 0,
-                "token_price": 1.378e-05,
+                "token_price": 1.403e-05,
                 "token_decimals": 6,
                 "token_symbol": "Raccoon",
                 "token_name": "The Courageous Raccoon",
@@ -2154,10 +2234,10 @@
         "website": "https://x.com/guyfieri/status/2014352568831426620",
         "twitter": "",
         "holder": 242,
-        "market_cap": 32200,
-        "price": 3.219e-05,
-        "price_change_24h": -38.65,
-        "volume_24h": 392634.59,
+        "market_cap": 37810,
+        "price": 3.78e-05,
+        "price_change_24h": -27.96,
+        "volume_24h": 394110.26,
         "pool_address": "solana_3Z9LLMe2MxvHpH414Qcd22Qk93jMA7B8DVHc4igRzmGE",
         "ath": 8.796e-05,
         "ath_timestamp": 1769295679,
@@ -2165,11 +2245,11 @@
         "dexId": "pumpswap",
         "pairAddress": "3Z9LLMe2MxvHpH414Qcd22Qk93jMA7B8DVHc4igRzmGE",
         "txns_24h": {
-          "buys": 3078,
-          "sells": 2439
+          "buys": 3085,
+          "sells": 2446
         },
-        "fdv_usd": 32200,
-        "total_reserve_in_usd": 17167.15,
+        "fdv_usd": 37810,
+        "total_reserve_in_usd": 18585.37,
         "tags": [],
         "first_signal": {
           "timestamp": 1769295657,
@@ -2240,11 +2320,11 @@
               {
                 "token_address": "DthcRHKY3qbknGpyxPY6ifUVTMNjYnZGptS6xwAKpump",
                 "balance": 34535123.430319,
-                "token_price": 3.219e-05,
+                "token_price": 3.78e-05,
                 "token_decimals": 6,
                 "token_symbol": "NEWGUY",
                 "token_name": "New Guy Fieri",
-                "value": 1111.6856232219686
+                "value": 1305.427665666058
               }
             ]
           },
@@ -2256,11 +2336,11 @@
               {
                 "token_address": "DthcRHKY3qbknGpyxPY6ifUVTMNjYnZGptS6xwAKpump",
                 "balance": 9799034.954456,
-                "token_price": 3.219e-05,
+                "token_price": 3.78e-05,
                 "token_decimals": 6,
                 "token_symbol": "NEWGUY",
                 "token_name": "New Guy Fieri",
-                "value": 315.43093518393863
+                "value": 370.40352127843676
               }
             ]
           }
@@ -2276,10 +2356,10 @@
         "website": "https://x.com/aydoxbt/status/2015189680774316161",
         "twitter": "https://x.com/i/communities/2015189240800264667",
         "holder": 547,
-        "market_cap": 58922,
-        "price": 5.892e-05,
-        "price_change_24h": 14.85,
-        "volume_24h": 802718.99,
+        "market_cap": 61547,
+        "price": 6.154e-05,
+        "price_change_24h": 19.97,
+        "volume_24h": 804590.82,
         "pool_address": "solana_4LoWEFK9v8qTi5jU3UmcKTPG3wf5ByUfgBaXDJujXVgD",
         "ath": 0.00017232405975967137,
         "ath_timestamp": 1769299200,
@@ -2290,11 +2370,11 @@
           "active": 10
         },
         "txns_24h": {
-          "buys": 6702,
-          "sells": 5322
+          "buys": 6717,
+          "sells": 5338
         },
-        "fdv_usd": 58922,
-        "total_reserve_in_usd": 24142.96,
+        "fdv_usd": 61547,
+        "total_reserve_in_usd": 24655.22,
         "tags": [],
         "first_signal": {
           "timestamp": 1769295238,
@@ -2365,7 +2445,7 @@
               {
                 "token_address": "GGiM8BaN45RxZ7jKiMfg2RC5zVn41HL21crv6cfSpump",
                 "balance": 0,
-                "token_price": 5.892e-05,
+                "token_price": 6.154e-05,
                 "token_decimals": 6,
                 "token_symbol": "FEW",
                 "token_name": "few understand",
@@ -2381,7 +2461,7 @@
               {
                 "token_address": "GGiM8BaN45RxZ7jKiMfg2RC5zVn41HL21crv6cfSpump",
                 "balance": 0,
-                "token_price": 5.892e-05,
+                "token_price": 6.154e-05,
                 "token_decimals": 6,
                 "token_symbol": "FEW",
                 "token_name": "few understand",
@@ -2401,10 +2481,10 @@
         "website": "https://x.com/i/communities/2015171659389440017",
         "twitter": "https://x.com/icantquant/status/2015174175481070061",
         "holder": 422,
-        "market_cap": 12683,
-        "price": 1.268e-05,
-        "price_change_24h": -73.09,
-        "volume_24h": 646322.62,
+        "market_cap": 12489,
+        "price": 1.249e-05,
+        "price_change_24h": -73.5,
+        "volume_24h": 647069.79,
         "pool_address": "solana_6UvqYEDJcrq8gsJwu4srY6KAm6YeHjU9DCUBMQW5G4dF",
         "ath": 0.0001790368305094335,
         "ath_timestamp": 1769292000,
@@ -2415,11 +2495,11 @@
           "active": 10
         },
         "txns_24h": {
-          "buys": 6557,
-          "sells": 5147
+          "buys": 6565,
+          "sells": 5165
         },
-        "fdv_usd": 12683,
-        "total_reserve_in_usd": 10992.25,
+        "fdv_usd": 12489,
+        "total_reserve_in_usd": 10895.51,
         "tags": [],
         "first_signal": {
           "timestamp": 1769291662,
@@ -2600,7 +2680,7 @@
               {
                 "token_address": "5RCwoHUz9GNRtfNvxnbZe8rMjkNeWJcsWDCZq99hpump",
                 "balance": 0,
-                "token_price": 1.268e-05,
+                "token_price": 1.249e-05,
                 "token_decimals": 6,
                 "token_symbol": "Nihilism",
                 "token_name": "Nihilism",
@@ -2616,11 +2696,11 @@
               {
                 "token_address": "5RCwoHUz9GNRtfNvxnbZe8rMjkNeWJcsWDCZq99hpump",
                 "balance": 2597930.974757,
-                "token_price": 1.268e-05,
+                "token_price": 1.249e-05,
                 "token_decimals": 6,
                 "token_symbol": "Nihilism",
                 "token_name": "Nihilism",
-                "value": 32.94176475991876
+                "value": 32.44815787471493
               }
             ]
           },
@@ -2632,7 +2712,7 @@
               {
                 "token_address": "5RCwoHUz9GNRtfNvxnbZe8rMjkNeWJcsWDCZq99hpump",
                 "balance": 0,
-                "token_price": 1.268e-05,
+                "token_price": 1.249e-05,
                 "token_decimals": 6,
                 "token_symbol": "Nihilism",
                 "token_name": "Nihilism",
@@ -2654,10 +2734,10 @@
         "website": "https://x.com/Fufu_FNF/status/2012228702894010472?s=20",
         "twitter": "https://x.com/Fufu_FNF/status/2012228702894010472?s=20",
         "holder": 45664,
-        "market_cap": 126482528,
-        "price": 0.1264,
-        "price_change_24h": 108,
-        "volume_24h": 101745469.05,
+        "market_cap": 117034571,
+        "price": 0.117,
+        "price_change_24h": 116,
+        "volume_24h": 99670097.85,
         "pool_address": "solana_DRAf8QxQY86h7yeHdo9GytXAF6GoTTT8oZjknwXV6dCS",
         "ath": 0.17112331196605585,
         "ath_timestamp": 1769212800,
@@ -2665,11 +2745,11 @@
         "dexId": "pumpswap",
         "pairAddress": "DRAf8QxQY86h7yeHdo9GytXAF6GoTTT8oZjknwXV6dCS",
         "txns_24h": {
-          "buys": 156197,
-          "sells": 125254
+          "buys": 152730,
+          "sells": 122352
         },
-        "fdv_usd": 126482413,
-        "total_reserve_in_usd": 1679194.17,
+        "fdv_usd": 117034464,
+        "total_reserve_in_usd": 1615092.55,
         "tags": [
           "moonshot",
           "binanceAlpha"
@@ -2713,11 +2793,11 @@
               {
                 "token_address": "8Jx8AAHj86wbQgUTjGuj6GTTL5Ps3cqxKRTvpaJApump",
                 "balance": 19341.580641,
-                "token_price": 0.1264,
+                "token_price": 0.117,
                 "token_decimals": 6,
                 "token_symbol": "PENGUIN",
                 "token_name": "Nietzschean Penguin",
-                "value": 2444.7757930224
+                "value": 2262.964934997
               }
             ]
           },
@@ -2729,11 +2809,11 @@
               {
                 "token_address": "8Jx8AAHj86wbQgUTjGuj6GTTL5Ps3cqxKRTvpaJApump",
                 "balance": 521.495462,
-                "token_price": 0.1264,
+                "token_price": 0.117,
                 "token_decimals": 6,
                 "token_symbol": "PENGUIN",
                 "token_name": "Nietzschean Penguin",
-                "value": 65.9170263968
+                "value": 61.014969054
               }
             ]
           }
@@ -2751,10 +2831,10 @@
         "website": "",
         "twitter": "",
         "holder": 701,
-        "market_cap": 154106,
-        "price": 0.0001816,
-        "price_change_24h": 84.38,
-        "volume_24h": 585104.75,
+        "market_cap": 172424,
+        "price": 0.0002032,
+        "price_change_24h": 125,
+        "volume_24h": 584215.59,
         "pool_address": "solana_4pHiZTUr8TqrvgdDYyDgYhPcnWWdtpmAcL3ZiecF29s9",
         "ath": 0.00032980823011783197,
         "ath_timestamp": 1769299200,
@@ -2762,11 +2842,11 @@
         "dexId": "pumpswap",
         "pairAddress": "4pHiZTUr8TqrvgdDYyDgYhPcnWWdtpmAcL3ZiecF29s9",
         "txns_24h": {
-          "buys": 2986,
-          "sells": 2512
+          "buys": 2902,
+          "sells": 2452
         },
-        "fdv_usd": 154106,
-        "total_reserve_in_usd": 42917.91,
+        "fdv_usd": 172424,
+        "total_reserve_in_usd": 45382.13,
         "tags": [],
         "first_signal": {
           "timestamp": 1769227649,
@@ -2837,7 +2917,7 @@
               {
                 "token_address": "8yupJtHtBqt2TiDsTFXyyjEewbTF3XdnyivW16XBpump",
                 "balance": 0,
-                "token_price": 0.0001816,
+                "token_price": 0.0002032,
                 "token_decimals": 6,
                 "token_symbol": "WOLF",
                 "token_name": "wolf in sheeps clothing",
@@ -2853,11 +2933,11 @@
               {
                 "token_address": "8yupJtHtBqt2TiDsTFXyyjEewbTF3XdnyivW16XBpump",
                 "balance": 16592560.375261,
-                "token_price": 0.0001816,
+                "token_price": 0.0002032,
                 "token_decimals": 6,
                 "token_symbol": "WOLF",
                 "token_name": "wolf in sheeps clothing",
-                "value": 3013.2089641473976
+                "value": 3371.608268253035
               }
             ]
           },
@@ -2869,7 +2949,7 @@
               {
                 "token_address": "8yupJtHtBqt2TiDsTFXyyjEewbTF3XdnyivW16XBpump",
                 "balance": 0,
-                "token_price": 0.0001816,
+                "token_price": 0.0002032,
                 "token_decimals": 6,
                 "token_symbol": "WOLF",
                 "token_name": "wolf in sheeps clothing",
@@ -2889,10 +2969,10 @@
         "website": "https://www.visitsealife.com/melbourne/whats-inside/animals/king-and-gentoo-penguins/meet-pesto/?",
         "twitter": "https://x.com/melbaquarium?s=21&t=zyngat0b3pg5-8b96o8suw",
         "holder": 10289,
-        "market_cap": 299120,
-        "price": 0.0002991,
-        "price_change_24h": 11.43,
-        "volume_24h": 269320.03,
+        "market_cap": 279885,
+        "price": 0.0002799,
+        "price_change_24h": 14.93,
+        "volume_24h": 266164.65,
         "pool_address": "solana_A9KLSS9modWzMc1A189c6HXwy1QkgUupun9TPJZkhmaw",
         "ath": 0.00039890760380039076,
         "ath_timestamp": 1769212800,
@@ -2900,11 +2980,11 @@
         "dexId": "raydium",
         "pairAddress": "A9KLSS9modWzMc1A189c6HXwy1QkgUupun9TPJZkhmaw",
         "txns_24h": {
-          "buys": 968,
-          "sells": 813
+          "buys": 954,
+          "sells": 802
         },
-        "fdv_usd": 299120,
-        "total_reserve_in_usd": 197465.05,
+        "fdv_usd": 279885,
+        "total_reserve_in_usd": 190847.26,
         "tags": [
           "moonshot"
         ],
@@ -3067,7 +3147,7 @@
               {
                 "token_address": "34a8ALsPmbWxp7D3bQ6erERrCLz1ahr6u6o66Udmpump",
                 "balance": 0,
-                "token_price": 0.0002991,
+                "token_price": 0.0002799,
                 "token_decimals": 6,
                 "token_symbol": "PESTO",
                 "token_name": "Pesto the Baby King Penguin",
@@ -3087,10 +3167,10 @@
         "website": "",
         "twitter": "https://x.com/i/communities/1968442277552074769",
         "holder": 12319,
-        "market_cap": 8682280,
-        "price": 0.008682,
-        "price_change_24h": -24.68,
-        "volume_24h": 2299128.11,
+        "market_cap": 8602161,
+        "price": 0.008602,
+        "price_change_24h": -26.8,
+        "volume_24h": 2244046.79,
         "pool_address": "solana_6sEkZ73vph5AFYmQTzaV6H5vAQQLZ2C8WqeCQ6MhLqFk",
         "ath": 0.05122120012315754,
         "ath_timestamp": 1762300800,
@@ -3098,11 +3178,11 @@
         "dexId": "raydium",
         "pairAddress": "6sEkZ73vph5AFYmQTzaV6H5vAQQLZ2C8WqeCQ6MhLqFk",
         "txns_24h": {
-          "buys": 4924,
-          "sells": 4574
+          "buys": 4824,
+          "sells": 4525
         },
-        "fdv_usd": 8682280,
-        "total_reserve_in_usd": 667581.12,
+        "fdv_usd": 8602161,
+        "total_reserve_in_usd": 664524.77,
         "tags": [
           "moonshot"
         ],
@@ -3215,7 +3295,7 @@
               {
                 "token_address": "GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk",
                 "balance": 0,
-                "token_price": 0.008682,
+                "token_price": 0.008602,
                 "token_decimals": 6,
                 "token_symbol": "1",
                 "token_name": "1 coin can change your life",
