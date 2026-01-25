@@ -1,7 +1,138 @@
 {
   "success": true,
-  "timestamp": "2026-01-25T13:58:56.226Z",
+  "timestamp": "2026-01-25T14:19:50.428Z",
   "data": [
+    {
+      "address": "EwcVckR7G28Hzzg4XxBnEC3uEYjgKx9kyLQBsbLHpump",
+      "symbol": "CHICKEN",
+      "name": "Retarded Chicken",
+      "decimals": 6,
+      "icon": "https://ipfs.io/ipfs/bafybeia2al25g5uutp3ifsanifmwjz7ia3teeypd7e2n4c75nuilt7diem",
+      "created_time": 1769337383,
+      "website": "",
+      "twitter": "",
+      "holder": 4452,
+      "market_cap": 1114292,
+      "price": 0.001114,
+      "price_change_24h": 1988,
+      "volume_24h": 8082861.59,
+      "pool_address": "solana_Gh4X5VtDTjvVP4AyZV2bVBdWHZDhkfzp7u2Eqnge3XHL",
+      "ath": 0.00231,
+      "ath_timestamp": 1769343547,
+      "ath_pool": "Gh4X5VtDTjvVP4AyZV2bVBdWHZDhkfzp7u2Eqnge3XHL",
+      "dexId": "pumpswap",
+      "pairAddress": "Gh4X5VtDTjvVP4AyZV2bVBdWHZDhkfzp7u2Eqnge3XHL",
+      "boosts": {
+        "active": 10
+      },
+      "txns_24h": {
+        "buys": 39105,
+        "sells": 31438
+      },
+      "fdv_usd": 1114292,
+      "total_reserve_in_usd": 116228.81,
+      "tags": [],
+      "first_signal": {
+        "timestamp": 1769343536,
+        "price": 0.00231
+      },
+      "metrics": {
+        "uniqueWallets": 3,
+        "inflow24h": 6793.898773990168,
+        "trades": [
+          {
+            "timestamp": "2026-01-25T14:03:42.000Z",
+            "type": "BUY",
+            "amount": 7142270.748418,
+            "usdValue": 6276.304002612747,
+            "wallet": {
+              "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
+              "name": "eca.eth"
+            }
+          },
+          {
+            "timestamp": "2026-01-25T12:13:07.000Z",
+            "type": "BUY",
+            "amount": 186371.874891,
+            "usdValue": 497.5,
+            "wallet": {
+              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+              "name": "凉粉小刀"
+            }
+          },
+          {
+            "timestamp": "2026-01-25T11:34:38.000Z",
+            "type": "SELL",
+            "amount": 726915.313542,
+            "usdValue": 274.0042625983961,
+            "wallet": {
+              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+              "name": "OGmoodeng"
+            }
+          },
+          {
+            "timestamp": "2026-01-25T11:34:13.000Z",
+            "type": "BUY",
+            "amount": 726915.313542,
+            "usdValue": 294.0990339758163,
+            "wallet": {
+              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+              "name": "OGmoodeng"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
+          "name": "eca.eth",
+          "score": 1,
+          "tokens": [
+            {
+              "token_address": "EwcVckR7G28Hzzg4XxBnEC3uEYjgKx9kyLQBsbLHpump",
+              "balance": 7142270.748418,
+              "token_price": 0.001114,
+              "token_decimals": 6,
+              "token_symbol": "CHICKEN",
+              "token_name": "Retarded Chicken",
+              "value": 7956.489613737652
+            }
+          ]
+        },
+        {
+          "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+          "name": "凉粉小刀",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "EwcVckR7G28Hzzg4XxBnEC3uEYjgKx9kyLQBsbLHpump",
+              "balance": 186371.874891,
+              "token_price": 0.001114,
+              "token_decimals": 6,
+              "token_symbol": "CHICKEN",
+              "token_name": "Retarded Chicken",
+              "value": 207.61826862857401
+            }
+          ]
+        },
+        {
+          "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+          "name": "OGmoodeng",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "EwcVckR7G28Hzzg4XxBnEC3uEYjgKx9kyLQBsbLHpump",
+              "balance": 0,
+              "token_price": 0.001114,
+              "token_decimals": 6,
+              "token_symbol": "CHICKEN",
+              "token_name": "Retarded Chicken",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
     {
       "address": "DyZoWtRjbZbUUUYZVbwwWqeSdDpVEtLjFYm7LXyApump",
       "symbol": "monty",
@@ -11,11 +142,11 @@
       "created_time": 1769284105,
       "website": "https://x.com/Mericamemed/status/2014661891671326801?s=20",
       "twitter": "https://x.com/hyperborecat",
-      "holder": 956,
-      "market_cap": 83643,
-      "price": 8.364e-05,
-      "price_change_24h": 71.56,
-      "volume_24h": 2404676.75,
+      "holder": 1068,
+      "market_cap": 95493,
+      "price": 9.549e-05,
+      "price_change_24h": 95.86,
+      "volume_24h": 2417841.72,
       "pool_address": "solana_BVmFEZpcQVT6W5XASs9hsnASSXhADYtdnHGGDvaUdaG",
       "ath": 0.0001124212974,
       "ath_timestamp": 1769348157,
@@ -23,11 +154,11 @@
       "dexId": "pumpswap",
       "pairAddress": "BVmFEZpcQVT6W5XASs9hsnASSXhADYtdnHGGDvaUdaG",
       "txns_24h": {
-        "buys": 14503,
-        "sells": 11623
+        "buys": 14672,
+        "sells": 11712
       },
-      "fdv_usd": 83643,
-      "total_reserve_in_usd": 30711.43,
+      "fdv_usd": 95493,
+      "total_reserve_in_usd": 32769.91,
       "tags": [],
       "first_signal": {
         "timestamp": 1769346309,
@@ -88,11 +219,11 @@
             {
               "token_address": "DyZoWtRjbZbUUUYZVbwwWqeSdDpVEtLjFYm7LXyApump",
               "balance": 37509777.546113,
-              "token_price": 8.364e-05,
+              "token_price": 9.549e-05,
               "token_decimals": 6,
               "token_symbol": "monty",
               "token_name": "Hyperborean Monstercat",
-              "value": 3137.3177939568914
+              "value": 3581.80865787833
             }
           ]
         },
@@ -104,115 +235,10 @@
             {
               "token_address": "DyZoWtRjbZbUUUYZVbwwWqeSdDpVEtLjFYm7LXyApump",
               "balance": 0,
-              "token_price": 8.364e-05,
+              "token_price": 9.549e-05,
               "token_decimals": 6,
               "token_symbol": "monty",
               "token_name": "Hyperborean Monstercat",
-              "value": 0
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "address": "EwcVckR7G28Hzzg4XxBnEC3uEYjgKx9kyLQBsbLHpump",
-      "symbol": "CHICKEN",
-      "name": "Retarded Chicken",
-      "decimals": 6,
-      "icon": "https://ipfs.io/ipfs/bafybeia2al25g5uutp3ifsanifmwjz7ia3teeypd7e2n4c75nuilt7diem",
-      "created_time": 1769337383,
-      "website": "",
-      "twitter": "",
-      "holder": 4452,
-      "market_cap": 1176282,
-      "price": 0.001176,
-      "price_change_24h": 2104,
-      "volume_24h": 7545367.85,
-      "pool_address": "solana_Gh4X5VtDTjvVP4AyZV2bVBdWHZDhkfzp7u2Eqnge3XHL",
-      "ath": 0.00231,
-      "ath_timestamp": 1769343547,
-      "ath_pool": "Gh4X5VtDTjvVP4AyZV2bVBdWHZDhkfzp7u2Eqnge3XHL",
-      "dexId": "pumpswap",
-      "pairAddress": "Gh4X5VtDTjvVP4AyZV2bVBdWHZDhkfzp7u2Eqnge3XHL",
-      "boosts": {
-        "active": 10
-      },
-      "txns_24h": {
-        "buys": 36224,
-        "sells": 29493
-      },
-      "fdv_usd": 1176282,
-      "total_reserve_in_usd": 118485.27,
-      "tags": [],
-      "first_signal": {
-        "timestamp": 1769343536,
-        "price": 0.00231
-      },
-      "metrics": {
-        "uniqueWallets": 2,
-        "inflow24h": 517.5947713774202,
-        "trades": [
-          {
-            "timestamp": "2026-01-25T12:13:07.000Z",
-            "type": "BUY",
-            "amount": 186371.874891,
-            "usdValue": 497.5,
-            "wallet": {
-              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
-              "name": "凉粉小刀"
-            }
-          },
-          {
-            "timestamp": "2026-01-25T11:34:38.000Z",
-            "type": "SELL",
-            "amount": 726915.313542,
-            "usdValue": 274.0042625983961,
-            "wallet": {
-              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-              "name": "OGmoodeng"
-            }
-          },
-          {
-            "timestamp": "2026-01-25T11:34:13.000Z",
-            "type": "BUY",
-            "amount": 726915.313542,
-            "usdValue": 294.0990339758163,
-            "wallet": {
-              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-              "name": "OGmoodeng"
-            }
-          }
-        ]
-      },
-      "walletPortfolios": [
-        {
-          "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
-          "name": "凉粉小刀",
-          "score": 2,
-          "tokens": [
-            {
-              "token_address": "EwcVckR7G28Hzzg4XxBnEC3uEYjgKx9kyLQBsbLHpump",
-              "balance": 186371.874891,
-              "token_price": 0.001176,
-              "token_decimals": 6,
-              "token_symbol": "CHICKEN",
-              "token_name": "Retarded Chicken",
-              "value": 219.17332487181602
-            }
-          ]
-        },
-        {
-          "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-          "name": "OGmoodeng",
-          "score": 2,
-          "tokens": [
-            {
-              "token_address": "EwcVckR7G28Hzzg4XxBnEC3uEYjgKx9kyLQBsbLHpump",
-              "balance": 0,
-              "token_price": 0.001176,
-              "token_decimals": 6,
-              "token_symbol": "CHICKEN",
-              "token_name": "Retarded Chicken",
               "value": 0
             }
           ]
@@ -228,11 +254,11 @@
       "created_time": 1764713002,
       "website": "https://clawd.me/",
       "twitter": "https://x.com/clawdbot",
-      "holder": 4729,
-      "market_cap": 5039087,
-      "price": 0.005042,
-      "price_change_24h": 7402,
-      "volume_24h": 12083322.87,
+      "holder": 4747,
+      "market_cap": 4542716,
+      "price": 0.004546,
+      "price_change_24h": 4332,
+      "volume_24h": 12184711.74,
       "pool_address": "solana_A57Fy21eADuTzXS9e6ks6knbmy8tNHZ5FkbMg3oEF1te",
       "ath": 0.0107195770769801,
       "ath_timestamp": 1769331600,
@@ -240,11 +266,11 @@
       "dexId": "pumpswap",
       "pairAddress": "A57Fy21eADuTzXS9e6ks6knbmy8tNHZ5FkbMg3oEF1te",
       "txns_24h": {
-        "buys": 26878,
-        "sells": 22082
+        "buys": 27153,
+        "sells": 22326
       },
-      "fdv_usd": 5039087,
-      "total_reserve_in_usd": 276709.04,
+      "fdv_usd": 4542716,
+      "total_reserve_in_usd": 262375.17,
       "tags": [],
       "first_signal": {
         "timestamp": 1769314520,
@@ -455,11 +481,11 @@
             {
               "token_address": "Hoi9Lo8s2PP7EM9mv9bZjQ3aSB7ijyS238sTqQjbpump",
               "balance": 3995781.794005,
-              "token_price": 0.005042,
+              "token_price": 0.004546,
               "token_decimals": 6,
               "token_symbol": "clawd",
               "token_name": "clawdbot",
-              "value": 20146.73180537321
+              "value": 18164.824035546728
             }
           ]
         },
@@ -471,7 +497,7 @@
             {
               "token_address": "Hoi9Lo8s2PP7EM9mv9bZjQ3aSB7ijyS238sTqQjbpump",
               "balance": 0,
-              "token_price": 0.005042,
+              "token_price": 0.004546,
               "token_decimals": 6,
               "token_symbol": "clawd",
               "token_name": "clawdbot",
@@ -487,11 +513,11 @@
             {
               "token_address": "Hoi9Lo8s2PP7EM9mv9bZjQ3aSB7ijyS238sTqQjbpump",
               "balance": 549271.533684,
-              "token_price": 0.005042,
+              "token_price": 0.004546,
               "token_decimals": 6,
               "token_symbol": "clawd",
               "token_name": "clawdbot",
-              "value": 2769.427072834728
+              "value": 2496.988392127464
             }
           ]
         }
@@ -506,11 +532,11 @@
       "created_time": 1768347810,
       "website": "https://www.tiktok.com/@stokescroaks/video/7594504182866906381",
       "twitter": "https://x.com/i/communities/2009787487984529695",
-      "holder": 496,
-      "market_cap": 165464,
-      "price": 0.0001654,
-      "price_change_24h": 48.82,
-      "volume_24h": 216006.65,
+      "holder": 503,
+      "market_cap": 180019,
+      "price": 0.00018,
+      "price_change_24h": 35.3,
+      "volume_24h": 209945.42,
       "pool_address": "solana_5EzRmcFcLHTpC4RGcZs5sUZXPvPWqycVtANYVDmNWmY7",
       "ath": 0.00021559913825885358,
       "ath_timestamp": 1769335200,
@@ -521,11 +547,11 @@
         "active": 50
       },
       "txns_24h": {
-        "buys": 1164,
-        "sells": 856
+        "buys": 1135,
+        "sells": 832
       },
-      "fdv_usd": 165464,
-      "total_reserve_in_usd": 39878.76,
+      "fdv_usd": 180019,
+      "total_reserve_in_usd": 41528.67,
       "tags": [],
       "first_signal": {
         "timestamp": 1769333902,
@@ -606,7 +632,7 @@
             {
               "token_address": "5Zhi5VjYPafHRogNLJ3fVo8tLTAq58KaiMRpVU6Vpump",
               "balance": 0,
-              "token_price": 0.0001654,
+              "token_price": 0.00018,
               "token_decimals": 6,
               "token_symbol": "Horse",
               "token_name": "Reassuring Horse",
@@ -622,11 +648,11 @@
             {
               "token_address": "5Zhi5VjYPafHRogNLJ3fVo8tLTAq58KaiMRpVU6Vpump",
               "balance": 21746030.437882,
-              "token_price": 0.0001654,
+              "token_price": 0.00018,
               "token_decimals": 6,
               "token_symbol": "Horse",
               "token_name": "Reassuring Horse",
-              "value": 3596.793434425683
+              "value": 3914.28547881876
             }
           ]
         }
@@ -641,11 +667,11 @@
       "created_time": 1769290004,
       "website": "https://x.com/i/communities/2015171659389440017",
       "twitter": "https://x.com/icantquant/status/2015174175481070061",
-      "holder": 383,
-      "market_cap": 21990,
-      "price": 2.199e-05,
-      "price_change_24h": -53.35,
-      "volume_24h": 771157.18,
+      "holder": 369,
+      "market_cap": 22688,
+      "price": 2.269e-05,
+      "price_change_24h": -51.86,
+      "volume_24h": 771495.77,
       "pool_address": "solana_6UvqYEDJcrq8gsJwu4srY6KAm6YeHjU9DCUBMQW5G4dF",
       "ath": 0.0001790368305094335,
       "ath_timestamp": 1769292000,
@@ -653,11 +679,11 @@
       "dexId": "pumpswap",
       "pairAddress": "6UvqYEDJcrq8gsJwu4srY6KAm6YeHjU9DCUBMQW5G4dF",
       "txns_24h": {
-        "buys": 7518,
-        "sells": 6043
+        "buys": 7522,
+        "sells": 6048
       },
-      "fdv_usd": 21990,
-      "total_reserve_in_usd": 14532.65,
+      "fdv_usd": 22688,
+      "total_reserve_in_usd": 14733.96,
       "tags": [],
       "first_signal": {
         "timestamp": 1769291662,
@@ -898,7 +924,7 @@
             {
               "token_address": "5RCwoHUz9GNRtfNvxnbZe8rMjkNeWJcsWDCZq99hpump",
               "balance": 0,
-              "token_price": 2.199e-05,
+              "token_price": 2.269e-05,
               "token_decimals": 6,
               "token_symbol": "Nihilism",
               "token_name": "Nihilism",
@@ -914,11 +940,11 @@
             {
               "token_address": "5RCwoHUz9GNRtfNvxnbZe8rMjkNeWJcsWDCZq99hpump",
               "balance": 2597930.974757,
-              "token_price": 2.199e-05,
+              "token_price": 2.269e-05,
               "token_decimals": 6,
               "token_symbol": "Nihilism",
               "token_name": "Nihilism",
-              "value": 57.128502134906434
+              "value": 58.94705381723633
             }
           ]
         },
@@ -930,7 +956,7 @@
             {
               "token_address": "5RCwoHUz9GNRtfNvxnbZe8rMjkNeWJcsWDCZq99hpump",
               "balance": 0,
-              "token_price": 2.199e-05,
+              "token_price": 2.269e-05,
               "token_decimals": 6,
               "token_symbol": "Nihilism",
               "token_name": "Nihilism",
@@ -949,11 +975,11 @@
       "created_time": 1769274635,
       "website": "https://youtu.be/pAnGwRiQ4-4?t=754",
       "twitter": "",
-      "holder": 5724,
-      "market_cap": 3474970,
-      "price": 0.003474,
-      "price_change_24h": 6652,
-      "volume_24h": 17068461.76,
+      "holder": 6046,
+      "market_cap": 3258921,
+      "price": 0.003258,
+      "price_change_24h": 6232,
+      "volume_24h": 17148691.43,
       "pool_address": "solana_2fDUxPqLabB1zVKuEKH4bGxxtvA95mhdMenxbKUNbYP6",
       "ath": 0.004775430186057817,
       "ath_timestamp": 1769338800,
@@ -961,11 +987,11 @@
       "dexId": "pumpswap",
       "pairAddress": "2fDUxPqLabB1zVKuEKH4bGxxtvA95mhdMenxbKUNbYP6",
       "txns_24h": {
-        "buys": 51758,
-        "sells": 43500
+        "buys": 52057,
+        "sells": 43785
       },
-      "fdv_usd": 3474970,
-      "total_reserve_in_usd": 224351.87,
+      "fdv_usd": 3258921,
+      "total_reserve_in_usd": 216959.24,
       "tags": [],
       "first_signal": {
         "timestamp": 1769306700,
@@ -1056,7 +1082,7 @@
             {
               "token_address": "7MDApufGNAKDDTcM3hrUpUfZ8jcaXdaoSZy1sQdRpump",
               "balance": 0,
-              "token_price": 0.003474,
+              "token_price": 0.003258,
               "token_decimals": 6,
               "token_symbol": "Dale",
               "token_name": "Dale",
@@ -1072,11 +1098,11 @@
             {
               "token_address": "7MDApufGNAKDDTcM3hrUpUfZ8jcaXdaoSZy1sQdRpump",
               "balance": 221467.687801,
-              "token_price": 0.003474,
+              "token_price": 0.003258,
               "token_decimals": 6,
               "token_symbol": "Dale",
               "token_name": "Dale",
-              "value": 769.378747420674
+              "value": 721.541726855658
             }
           ]
         },
@@ -1088,11 +1114,11 @@
             {
               "token_address": "7MDApufGNAKDDTcM3hrUpUfZ8jcaXdaoSZy1sQdRpump",
               "balance": 15270.564171,
-              "token_price": 0.003474,
+              "token_price": 0.003258,
               "token_decimals": 6,
               "token_symbol": "Dale",
               "token_name": "Dale",
-              "value": 53.049939930054
+              "value": 49.751498069118
             }
           ]
         }
@@ -1107,11 +1133,11 @@
       "created_time": 1769298710,
       "website": "",
       "twitter": "https://x.com/nypost/status/2015210900093894800",
-      "holder": 241,
-      "market_cap": 7285,
-      "price": 7.288e-06,
-      "price_change_24h": -86.09,
-      "volume_24h": 561928.61,
+      "holder": 239,
+      "market_cap": 6474,
+      "price": 6.478e-06,
+      "price_change_24h": -87.63,
+      "volume_24h": 562165.53,
       "pool_address": "solana_5tmCGu7FvMmr9q4mbTdPUJKwQiqVi8jJPk739Hb2MHgH",
       "ath": 6.732e-05,
       "ath_timestamp": 1769306743,
@@ -1120,10 +1146,10 @@
       "pairAddress": "2m9oKEZFUcy4vu4vEFAovsSzPhCrMv2vTm4mkMrNrq3d",
       "txns_24h": {
         "buys": 4520,
-        "sells": 3801
+        "sells": 3807
       },
-      "fdv_usd": 7285,
-      "total_reserve_in_usd": 8263.28,
+      "fdv_usd": 6474,
+      "total_reserve_in_usd": 7775.79,
       "tags": [],
       "first_signal": {
         "timestamp": 1769306699,
@@ -1224,7 +1250,7 @@
             {
               "token_address": "FKt1qJTDeSGMaXyJ49uuPtVFunkv5pvCXtFnJG4bUYca",
               "balance": 0,
-              "token_price": 7.288e-06,
+              "token_price": 6.478e-06,
               "token_decimals": 6,
               "token_symbol": "Raccoon",
               "token_name": "The Courageous Raccoon",
@@ -1240,7 +1266,7 @@
             {
               "token_address": "FKt1qJTDeSGMaXyJ49uuPtVFunkv5pvCXtFnJG4bUYca",
               "balance": 0,
-              "token_price": 7.288e-06,
+              "token_price": 6.478e-06,
               "token_decimals": 6,
               "token_symbol": "Raccoon",
               "token_name": "The Courageous Raccoon",
@@ -1260,10 +1286,10 @@
       "website": "https://x.com/Fufu_FNF/status/2012228702894010472?s=20",
       "twitter": "https://x.com/Fufu_FNF/status/2012228702894010472?s=20",
       "holder": 46664,
-      "market_cap": 114212122,
-      "price": 0.1142,
-      "price_change_24h": 26.81,
-      "volume_24h": 94534874.84,
+      "market_cap": 109194258,
+      "price": 0.1091,
+      "price_change_24h": 30.2,
+      "volume_24h": 94231602.37,
       "pool_address": "solana_DRAf8QxQY86h7yeHdo9GytXAF6GoTTT8oZjknwXV6dCS",
       "ath": 0.17112331196605585,
       "ath_timestamp": 1769212800,
@@ -1271,11 +1297,11 @@
       "dexId": "pumpswap",
       "pairAddress": "DRAf8QxQY86h7yeHdo9GytXAF6GoTTT8oZjknwXV6dCS",
       "txns_24h": {
-        "buys": 139252,
-        "sells": 112692
+        "buys": 138158,
+        "sells": 112070
       },
-      "fdv_usd": 114212017,
-      "total_reserve_in_usd": 1622186.26,
+      "fdv_usd": 109194157,
+      "total_reserve_in_usd": 1585029.11,
       "tags": [
         "moonshot",
         "binanceAlpha"
@@ -1319,11 +1345,11 @@
             {
               "token_address": "8Jx8AAHj86wbQgUTjGuj6GTTL5Ps3cqxKRTvpaJApump",
               "balance": 19341.580641,
-              "token_price": 0.1142,
+              "token_price": 0.1091,
               "token_decimals": 6,
               "token_symbol": "PENGUIN",
               "token_name": "Nietzschean Penguin",
-              "value": 2208.8085092022
+              "value": 2110.1664479331002
             }
           ]
         },
@@ -1335,11 +1361,11 @@
             {
               "token_address": "8Jx8AAHj86wbQgUTjGuj6GTTL5Ps3cqxKRTvpaJApump",
               "balance": 521.495462,
-              "token_price": 0.1142,
+              "token_price": 0.1091,
               "token_decimals": 6,
               "token_symbol": "PENGUIN",
               "token_name": "Nietzschean Penguin",
-              "value": 59.5547817604
+              "value": 56.8951549042
             }
           ]
         }
@@ -1354,11 +1380,11 @@
       "created_time": 1769281410,
       "website": "https://x.com/guyfieri/status/2014352568831426620",
       "twitter": "",
-      "holder": 224,
-      "market_cap": 25682,
-      "price": 2.568e-05,
-      "price_change_24h": -51.07,
-      "volume_24h": 405590.61,
+      "holder": 214,
+      "market_cap": 22459,
+      "price": 2.245e-05,
+      "price_change_24h": -57.21,
+      "volume_24h": 406746.07,
       "pool_address": "solana_3Z9LLMe2MxvHpH414Qcd22Qk93jMA7B8DVHc4igRzmGE",
       "ath": 8.796e-05,
       "ath_timestamp": 1769295679,
@@ -1366,11 +1392,11 @@
       "dexId": "pumpswap",
       "pairAddress": "3Z9LLMe2MxvHpH414Qcd22Qk93jMA7B8DVHc4igRzmGE",
       "txns_24h": {
-        "buys": 3197,
-        "sells": 2558
+        "buys": 3203,
+        "sells": 2569
       },
-      "fdv_usd": 25682,
-      "total_reserve_in_usd": 15342.27,
+      "fdv_usd": 22459,
+      "total_reserve_in_usd": 14313.23,
       "tags": [],
       "first_signal": {
         "timestamp": 1769295657,
@@ -1441,11 +1467,11 @@
             {
               "token_address": "DthcRHKY3qbknGpyxPY6ifUVTMNjYnZGptS6xwAKpump",
               "balance": 34535123.430319,
-              "token_price": 2.568e-05,
+              "token_price": 2.245e-05,
               "token_decimals": 6,
               "token_symbol": "NEWGUY",
               "token_name": "New Guy Fieri",
-              "value": 886.8619696905919
+              "value": 775.3135210106615
             }
           ]
         },
@@ -1457,11 +1483,11 @@
             {
               "token_address": "DthcRHKY3qbknGpyxPY6ifUVTMNjYnZGptS6xwAKpump",
               "balance": 9799034.954456,
-              "token_price": 2.568e-05,
+              "token_price": 2.245e-05,
               "token_decimals": 6,
               "token_symbol": "NEWGUY",
               "token_name": "New Guy Fieri",
-              "value": 251.6392176304301
+              "value": 219.9883347275372
             }
           ]
         }
@@ -1476,11 +1502,11 @@
       "created_time": 1769293662,
       "website": "https://x.com/aydoxbt/status/2015189680774316161",
       "twitter": "https://x.com/i/communities/2015189240800264667",
-      "holder": 536,
-      "market_cap": 38598,
-      "price": 3.859e-05,
-      "price_change_24h": -24.76,
-      "volume_24h": 847404.21,
+      "holder": 517,
+      "market_cap": 41195,
+      "price": 4.119e-05,
+      "price_change_24h": -19.7,
+      "volume_24h": 848616.72,
       "pool_address": "solana_4LoWEFK9v8qTi5jU3UmcKTPG3wf5ByUfgBaXDJujXVgD",
       "ath": 0.00017232405975967137,
       "ath_timestamp": 1769299200,
@@ -1488,11 +1514,11 @@
       "dexId": "pumpswap",
       "pairAddress": "4LoWEFK9v8qTi5jU3UmcKTPG3wf5ByUfgBaXDJujXVgD",
       "txns_24h": {
-        "buys": 7115,
-        "sells": 5656
+        "buys": 7129,
+        "sells": 5674
       },
-      "fdv_usd": 38598,
-      "total_reserve_in_usd": 19594.64,
+      "fdv_usd": 41195,
+      "total_reserve_in_usd": 20216.18,
       "tags": [],
       "first_signal": {
         "timestamp": 1769295238,
@@ -1563,7 +1589,7 @@
             {
               "token_address": "GGiM8BaN45RxZ7jKiMfg2RC5zVn41HL21crv6cfSpump",
               "balance": 0,
-              "token_price": 3.859e-05,
+              "token_price": 4.119e-05,
               "token_decimals": 6,
               "token_symbol": "FEW",
               "token_name": "few understand",
@@ -1579,7 +1605,7 @@
             {
               "token_address": "GGiM8BaN45RxZ7jKiMfg2RC5zVn41HL21crv6cfSpump",
               "balance": 0,
-              "token_price": 3.859e-05,
+              "token_price": 4.119e-05,
               "token_decimals": 6,
               "token_symbol": "FEW",
               "token_name": "few understand",
@@ -1598,11 +1624,11 @@
       "created_time": 1726326698,
       "website": "https://www.visitsealife.com/melbourne/whats-inside/animals/king-and-gentoo-penguins/meet-pesto/?",
       "twitter": "https://x.com/melbaquarium?s=21&t=zyngat0b3pg5-8b96o8suw",
-      "holder": 10263,
-      "market_cap": 236895,
-      "price": 0.0002369,
-      "price_change_24h": -15.46,
-      "volume_24h": 239529.14,
+      "holder": 10259,
+      "market_cap": 235108,
+      "price": 0.0002351,
+      "price_change_24h": -13.11,
+      "volume_24h": 237737.78,
       "pool_address": "solana_A9KLSS9modWzMc1A189c6HXwy1QkgUupun9TPJZkhmaw",
       "ath": 0.00039890760380039076,
       "ath_timestamp": 1769212800,
@@ -1610,11 +1636,11 @@
       "dexId": "raydium",
       "pairAddress": "A9KLSS9modWzMc1A189c6HXwy1QkgUupun9TPJZkhmaw",
       "txns_24h": {
-        "buys": 867,
-        "sells": 770
+        "buys": 863,
+        "sells": 767
       },
-      "fdv_usd": 236895,
-      "total_reserve_in_usd": 175826.54,
+      "fdv_usd": 235108,
+      "total_reserve_in_usd": 174899.93,
       "tags": [
         "moonshot"
       ],
@@ -1777,7 +1803,7 @@
             {
               "token_address": "34a8ALsPmbWxp7D3bQ6erERrCLz1ahr6u6o66Udmpump",
               "balance": 0,
-              "token_price": 0.0002369,
+              "token_price": 0.0002351,
               "token_decimals": 6,
               "token_symbol": "PESTO",
               "token_name": "Pesto the Baby King Penguin",
@@ -1796,11 +1822,11 @@
       "created_time": 1756252301,
       "website": "",
       "twitter": "",
-      "holder": 9721,
-      "market_cap": 14362425,
-      "price": 0.05576,
+      "holder": 9714,
+      "market_cap": 14347308,
+      "price": 0.0557,
       "price_change_24h": -3.48,
-      "volume_24h": 583366.13,
+      "volume_24h": 583199.46,
       "pool_address": "solana_HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD",
       "ath": 0.3830175199241448,
       "ath_timestamp": 1757808000,
@@ -1809,10 +1835,10 @@
       "pairAddress": "HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD",
       "txns_24h": {
         "buys": 526,
-        "sells": 511
+        "sells": 506
       },
-      "fdv_usd": 111530190,
-      "total_reserve_in_usd": 1069052.63,
+      "fdv_usd": 111412802,
+      "total_reserve_in_usd": 1068434.44,
       "tags": [
         "moonshot"
       ],
@@ -1865,7 +1891,7 @@
             {
               "token_address": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
               "balance": 0,
-              "token_price": 0.05576,
+              "token_price": 0.0557,
               "token_decimals": 6,
               "token_symbol": "CARDS",
               "token_name": "Collector Crypt",
@@ -1881,7 +1907,7 @@
             {
               "token_address": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
               "balance": 0,
-              "token_price": 0.05576,
+              "token_price": 0.0557,
               "token_decimals": 6,
               "token_symbol": "CARDS",
               "token_name": "Collector Crypt",
@@ -1903,11 +1929,11 @@
         "created_time": 1769284105,
         "website": "https://x.com/Mericamemed/status/2014661891671326801?s=20",
         "twitter": "https://x.com/hyperborecat",
-        "holder": 956,
-        "market_cap": 83643,
-        "price": 8.364e-05,
-        "price_change_24h": 71.56,
-        "volume_24h": 2404676.75,
+        "holder": 1068,
+        "market_cap": 95493,
+        "price": 9.549e-05,
+        "price_change_24h": 95.86,
+        "volume_24h": 2417841.72,
         "pool_address": "solana_BVmFEZpcQVT6W5XASs9hsnASSXhADYtdnHGGDvaUdaG",
         "ath": 0.0001124212974,
         "ath_timestamp": 1769348157,
@@ -1915,11 +1941,11 @@
         "dexId": "pumpswap",
         "pairAddress": "BVmFEZpcQVT6W5XASs9hsnASSXhADYtdnHGGDvaUdaG",
         "txns_24h": {
-          "buys": 14503,
-          "sells": 11623
+          "buys": 14672,
+          "sells": 11712
         },
-        "fdv_usd": 83643,
-        "total_reserve_in_usd": 30711.43,
+        "fdv_usd": 95493,
+        "total_reserve_in_usd": 32769.91,
         "tags": [],
         "first_signal": {
           "timestamp": 1769346309,
@@ -1980,11 +2006,11 @@
               {
                 "token_address": "DyZoWtRjbZbUUUYZVbwwWqeSdDpVEtLjFYm7LXyApump",
                 "balance": 37509777.546113,
-                "token_price": 8.364e-05,
+                "token_price": 9.549e-05,
                 "token_decimals": 6,
                 "token_symbol": "monty",
                 "token_name": "Hyperborean Monstercat",
-                "value": 3137.3177939568914
+                "value": 3581.80865787833
               }
             ]
           },
@@ -1996,7 +2022,7 @@
               {
                 "token_address": "DyZoWtRjbZbUUUYZVbwwWqeSdDpVEtLjFYm7LXyApump",
                 "balance": 0,
-                "token_price": 8.364e-05,
+                "token_price": 9.549e-05,
                 "token_decimals": 6,
                 "token_symbol": "monty",
                 "token_name": "Hyperborean Monstercat",
@@ -2016,10 +2042,10 @@
         "website": "",
         "twitter": "",
         "holder": 4452,
-        "market_cap": 1176282,
-        "price": 0.001176,
-        "price_change_24h": 2104,
-        "volume_24h": 7545367.85,
+        "market_cap": 1114292,
+        "price": 0.001114,
+        "price_change_24h": 1988,
+        "volume_24h": 8082861.59,
         "pool_address": "solana_Gh4X5VtDTjvVP4AyZV2bVBdWHZDhkfzp7u2Eqnge3XHL",
         "ath": 0.00231,
         "ath_timestamp": 1769343547,
@@ -2030,20 +2056,30 @@
           "active": 10
         },
         "txns_24h": {
-          "buys": 36224,
-          "sells": 29493
+          "buys": 39105,
+          "sells": 31438
         },
-        "fdv_usd": 1176282,
-        "total_reserve_in_usd": 118485.27,
+        "fdv_usd": 1114292,
+        "total_reserve_in_usd": 116228.81,
         "tags": [],
         "first_signal": {
           "timestamp": 1769343536,
           "price": 0.00231
         },
         "metrics": {
-          "uniqueWallets": 2,
-          "inflow24h": 517.5947713774202,
+          "uniqueWallets": 3,
+          "inflow24h": 6793.898773990168,
           "trades": [
+            {
+              "timestamp": "2026-01-25T14:03:42.000Z",
+              "type": "BUY",
+              "amount": 7142270.748418,
+              "usdValue": 6276.304002612747,
+              "wallet": {
+                "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
+                "name": "eca.eth"
+              }
+            },
             {
               "timestamp": "2026-01-25T12:13:07.000Z",
               "type": "BUY",
@@ -2078,6 +2114,22 @@
         },
         "walletPortfolios": [
           {
+            "address": "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
+            "name": "eca.eth",
+            "score": 1,
+            "tokens": [
+              {
+                "token_address": "EwcVckR7G28Hzzg4XxBnEC3uEYjgKx9kyLQBsbLHpump",
+                "balance": 7142270.748418,
+                "token_price": 0.001114,
+                "token_decimals": 6,
+                "token_symbol": "CHICKEN",
+                "token_name": "Retarded Chicken",
+                "value": 7956.489613737652
+              }
+            ]
+          },
+          {
             "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
             "name": "凉粉小刀",
             "score": 2,
@@ -2085,11 +2137,11 @@
               {
                 "token_address": "EwcVckR7G28Hzzg4XxBnEC3uEYjgKx9kyLQBsbLHpump",
                 "balance": 186371.874891,
-                "token_price": 0.001176,
+                "token_price": 0.001114,
                 "token_decimals": 6,
                 "token_symbol": "CHICKEN",
                 "token_name": "Retarded Chicken",
-                "value": 219.17332487181602
+                "value": 207.61826862857401
               }
             ]
           },
@@ -2101,7 +2153,7 @@
               {
                 "token_address": "EwcVckR7G28Hzzg4XxBnEC3uEYjgKx9kyLQBsbLHpump",
                 "balance": 0,
-                "token_price": 0.001176,
+                "token_price": 0.001114,
                 "token_decimals": 6,
                 "token_symbol": "CHICKEN",
                 "token_name": "Retarded Chicken",
@@ -2120,11 +2172,11 @@
         "created_time": 1768347810,
         "website": "https://www.tiktok.com/@stokescroaks/video/7594504182866906381",
         "twitter": "https://x.com/i/communities/2009787487984529695",
-        "holder": 496,
-        "market_cap": 165464,
-        "price": 0.0001654,
-        "price_change_24h": 48.82,
-        "volume_24h": 216006.65,
+        "holder": 503,
+        "market_cap": 180019,
+        "price": 0.00018,
+        "price_change_24h": 35.3,
+        "volume_24h": 209945.42,
         "pool_address": "solana_5EzRmcFcLHTpC4RGcZs5sUZXPvPWqycVtANYVDmNWmY7",
         "ath": 0.00021559913825885358,
         "ath_timestamp": 1769335200,
@@ -2135,11 +2187,11 @@
           "active": 50
         },
         "txns_24h": {
-          "buys": 1164,
-          "sells": 856
+          "buys": 1135,
+          "sells": 832
         },
-        "fdv_usd": 165464,
-        "total_reserve_in_usd": 39878.76,
+        "fdv_usd": 180019,
+        "total_reserve_in_usd": 41528.67,
         "tags": [],
         "first_signal": {
           "timestamp": 1769333902,
@@ -2220,7 +2272,7 @@
               {
                 "token_address": "5Zhi5VjYPafHRogNLJ3fVo8tLTAq58KaiMRpVU6Vpump",
                 "balance": 0,
-                "token_price": 0.0001654,
+                "token_price": 0.00018,
                 "token_decimals": 6,
                 "token_symbol": "Horse",
                 "token_name": "Reassuring Horse",
@@ -2236,11 +2288,11 @@
               {
                 "token_address": "5Zhi5VjYPafHRogNLJ3fVo8tLTAq58KaiMRpVU6Vpump",
                 "balance": 21746030.437882,
-                "token_price": 0.0001654,
+                "token_price": 0.00018,
                 "token_decimals": 6,
                 "token_symbol": "Horse",
                 "token_name": "Reassuring Horse",
-                "value": 3596.793434425683
+                "value": 3914.28547881876
               }
             ]
           }
@@ -2255,11 +2307,11 @@
         "created_time": 1764713002,
         "website": "https://clawd.me/",
         "twitter": "https://x.com/clawdbot",
-        "holder": 4729,
-        "market_cap": 5039087,
-        "price": 0.005042,
-        "price_change_24h": 7402,
-        "volume_24h": 12083322.87,
+        "holder": 4747,
+        "market_cap": 4542716,
+        "price": 0.004546,
+        "price_change_24h": 4332,
+        "volume_24h": 12184711.74,
         "pool_address": "solana_A57Fy21eADuTzXS9e6ks6knbmy8tNHZ5FkbMg3oEF1te",
         "ath": 0.0107195770769801,
         "ath_timestamp": 1769331600,
@@ -2267,11 +2319,11 @@
         "dexId": "pumpswap",
         "pairAddress": "A57Fy21eADuTzXS9e6ks6knbmy8tNHZ5FkbMg3oEF1te",
         "txns_24h": {
-          "buys": 26878,
-          "sells": 22082
+          "buys": 27153,
+          "sells": 22326
         },
-        "fdv_usd": 5039087,
-        "total_reserve_in_usd": 276709.04,
+        "fdv_usd": 4542716,
+        "total_reserve_in_usd": 262375.17,
         "tags": [],
         "first_signal": {
           "timestamp": 1769314520,
@@ -2482,11 +2534,11 @@
               {
                 "token_address": "Hoi9Lo8s2PP7EM9mv9bZjQ3aSB7ijyS238sTqQjbpump",
                 "balance": 3995781.794005,
-                "token_price": 0.005042,
+                "token_price": 0.004546,
                 "token_decimals": 6,
                 "token_symbol": "clawd",
                 "token_name": "clawdbot",
-                "value": 20146.73180537321
+                "value": 18164.824035546728
               }
             ]
           },
@@ -2498,7 +2550,7 @@
               {
                 "token_address": "Hoi9Lo8s2PP7EM9mv9bZjQ3aSB7ijyS238sTqQjbpump",
                 "balance": 0,
-                "token_price": 0.005042,
+                "token_price": 0.004546,
                 "token_decimals": 6,
                 "token_symbol": "clawd",
                 "token_name": "clawdbot",
@@ -2514,11 +2566,11 @@
               {
                 "token_address": "Hoi9Lo8s2PP7EM9mv9bZjQ3aSB7ijyS238sTqQjbpump",
                 "balance": 549271.533684,
-                "token_price": 0.005042,
+                "token_price": 0.004546,
                 "token_decimals": 6,
                 "token_symbol": "clawd",
                 "token_name": "clawdbot",
-                "value": 2769.427072834728
+                "value": 2496.988392127464
               }
             ]
           }
@@ -2533,11 +2585,11 @@
         "created_time": 1769274635,
         "website": "https://youtu.be/pAnGwRiQ4-4?t=754",
         "twitter": "",
-        "holder": 5724,
-        "market_cap": 3474970,
-        "price": 0.003474,
-        "price_change_24h": 6652,
-        "volume_24h": 17068461.76,
+        "holder": 6046,
+        "market_cap": 3258921,
+        "price": 0.003258,
+        "price_change_24h": 6232,
+        "volume_24h": 17148691.43,
         "pool_address": "solana_2fDUxPqLabB1zVKuEKH4bGxxtvA95mhdMenxbKUNbYP6",
         "ath": 0.004775430186057817,
         "ath_timestamp": 1769338800,
@@ -2545,11 +2597,11 @@
         "dexId": "pumpswap",
         "pairAddress": "2fDUxPqLabB1zVKuEKH4bGxxtvA95mhdMenxbKUNbYP6",
         "txns_24h": {
-          "buys": 51758,
-          "sells": 43500
+          "buys": 52057,
+          "sells": 43785
         },
-        "fdv_usd": 3474970,
-        "total_reserve_in_usd": 224351.87,
+        "fdv_usd": 3258921,
+        "total_reserve_in_usd": 216959.24,
         "tags": [],
         "first_signal": {
           "timestamp": 1769306700,
@@ -2640,7 +2692,7 @@
               {
                 "token_address": "7MDApufGNAKDDTcM3hrUpUfZ8jcaXdaoSZy1sQdRpump",
                 "balance": 0,
-                "token_price": 0.003474,
+                "token_price": 0.003258,
                 "token_decimals": 6,
                 "token_symbol": "Dale",
                 "token_name": "Dale",
@@ -2656,11 +2708,11 @@
               {
                 "token_address": "7MDApufGNAKDDTcM3hrUpUfZ8jcaXdaoSZy1sQdRpump",
                 "balance": 221467.687801,
-                "token_price": 0.003474,
+                "token_price": 0.003258,
                 "token_decimals": 6,
                 "token_symbol": "Dale",
                 "token_name": "Dale",
-                "value": 769.378747420674
+                "value": 721.541726855658
               }
             ]
           },
@@ -2672,11 +2724,11 @@
               {
                 "token_address": "7MDApufGNAKDDTcM3hrUpUfZ8jcaXdaoSZy1sQdRpump",
                 "balance": 15270.564171,
-                "token_price": 0.003474,
+                "token_price": 0.003258,
                 "token_decimals": 6,
                 "token_symbol": "Dale",
                 "token_name": "Dale",
-                "value": 53.049939930054
+                "value": 49.751498069118
               }
             ]
           }
@@ -2691,11 +2743,11 @@
         "created_time": 1769298710,
         "website": "",
         "twitter": "https://x.com/nypost/status/2015210900093894800",
-        "holder": 241,
-        "market_cap": 7285,
-        "price": 7.288e-06,
-        "price_change_24h": -86.09,
-        "volume_24h": 561928.61,
+        "holder": 239,
+        "market_cap": 6474,
+        "price": 6.478e-06,
+        "price_change_24h": -87.63,
+        "volume_24h": 562165.53,
         "pool_address": "solana_5tmCGu7FvMmr9q4mbTdPUJKwQiqVi8jJPk739Hb2MHgH",
         "ath": 6.732e-05,
         "ath_timestamp": 1769306743,
@@ -2704,10 +2756,10 @@
         "pairAddress": "2m9oKEZFUcy4vu4vEFAovsSzPhCrMv2vTm4mkMrNrq3d",
         "txns_24h": {
           "buys": 4520,
-          "sells": 3801
+          "sells": 3807
         },
-        "fdv_usd": 7285,
-        "total_reserve_in_usd": 8263.28,
+        "fdv_usd": 6474,
+        "total_reserve_in_usd": 7775.79,
         "tags": [],
         "first_signal": {
           "timestamp": 1769306699,
@@ -2808,7 +2860,7 @@
               {
                 "token_address": "FKt1qJTDeSGMaXyJ49uuPtVFunkv5pvCXtFnJG4bUYca",
                 "balance": 0,
-                "token_price": 7.288e-06,
+                "token_price": 6.478e-06,
                 "token_decimals": 6,
                 "token_symbol": "Raccoon",
                 "token_name": "The Courageous Raccoon",
@@ -2824,7 +2876,7 @@
               {
                 "token_address": "FKt1qJTDeSGMaXyJ49uuPtVFunkv5pvCXtFnJG4bUYca",
                 "balance": 0,
-                "token_price": 7.288e-06,
+                "token_price": 6.478e-06,
                 "token_decimals": 6,
                 "token_symbol": "Raccoon",
                 "token_name": "The Courageous Raccoon",
@@ -2843,11 +2895,11 @@
         "created_time": 1769281410,
         "website": "https://x.com/guyfieri/status/2014352568831426620",
         "twitter": "",
-        "holder": 224,
-        "market_cap": 25682,
-        "price": 2.568e-05,
-        "price_change_24h": -51.07,
-        "volume_24h": 405590.61,
+        "holder": 214,
+        "market_cap": 22459,
+        "price": 2.245e-05,
+        "price_change_24h": -57.21,
+        "volume_24h": 406746.07,
         "pool_address": "solana_3Z9LLMe2MxvHpH414Qcd22Qk93jMA7B8DVHc4igRzmGE",
         "ath": 8.796e-05,
         "ath_timestamp": 1769295679,
@@ -2855,11 +2907,11 @@
         "dexId": "pumpswap",
         "pairAddress": "3Z9LLMe2MxvHpH414Qcd22Qk93jMA7B8DVHc4igRzmGE",
         "txns_24h": {
-          "buys": 3197,
-          "sells": 2558
+          "buys": 3203,
+          "sells": 2569
         },
-        "fdv_usd": 25682,
-        "total_reserve_in_usd": 15342.27,
+        "fdv_usd": 22459,
+        "total_reserve_in_usd": 14313.23,
         "tags": [],
         "first_signal": {
           "timestamp": 1769295657,
@@ -2930,11 +2982,11 @@
               {
                 "token_address": "DthcRHKY3qbknGpyxPY6ifUVTMNjYnZGptS6xwAKpump",
                 "balance": 34535123.430319,
-                "token_price": 2.568e-05,
+                "token_price": 2.245e-05,
                 "token_decimals": 6,
                 "token_symbol": "NEWGUY",
                 "token_name": "New Guy Fieri",
-                "value": 886.8619696905919
+                "value": 775.3135210106615
               }
             ]
           },
@@ -2946,11 +2998,11 @@
               {
                 "token_address": "DthcRHKY3qbknGpyxPY6ifUVTMNjYnZGptS6xwAKpump",
                 "balance": 9799034.954456,
-                "token_price": 2.568e-05,
+                "token_price": 2.245e-05,
                 "token_decimals": 6,
                 "token_symbol": "NEWGUY",
                 "token_name": "New Guy Fieri",
-                "value": 251.6392176304301
+                "value": 219.9883347275372
               }
             ]
           }
@@ -2965,11 +3017,11 @@
         "created_time": 1769293662,
         "website": "https://x.com/aydoxbt/status/2015189680774316161",
         "twitter": "https://x.com/i/communities/2015189240800264667",
-        "holder": 536,
-        "market_cap": 38598,
-        "price": 3.859e-05,
-        "price_change_24h": -24.76,
-        "volume_24h": 847404.21,
+        "holder": 517,
+        "market_cap": 41195,
+        "price": 4.119e-05,
+        "price_change_24h": -19.7,
+        "volume_24h": 848616.72,
         "pool_address": "solana_4LoWEFK9v8qTi5jU3UmcKTPG3wf5ByUfgBaXDJujXVgD",
         "ath": 0.00017232405975967137,
         "ath_timestamp": 1769299200,
@@ -2977,11 +3029,11 @@
         "dexId": "pumpswap",
         "pairAddress": "4LoWEFK9v8qTi5jU3UmcKTPG3wf5ByUfgBaXDJujXVgD",
         "txns_24h": {
-          "buys": 7115,
-          "sells": 5656
+          "buys": 7129,
+          "sells": 5674
         },
-        "fdv_usd": 38598,
-        "total_reserve_in_usd": 19594.64,
+        "fdv_usd": 41195,
+        "total_reserve_in_usd": 20216.18,
         "tags": [],
         "first_signal": {
           "timestamp": 1769295238,
@@ -3052,7 +3104,7 @@
               {
                 "token_address": "GGiM8BaN45RxZ7jKiMfg2RC5zVn41HL21crv6cfSpump",
                 "balance": 0,
-                "token_price": 3.859e-05,
+                "token_price": 4.119e-05,
                 "token_decimals": 6,
                 "token_symbol": "FEW",
                 "token_name": "few understand",
@@ -3068,7 +3120,7 @@
               {
                 "token_address": "GGiM8BaN45RxZ7jKiMfg2RC5zVn41HL21crv6cfSpump",
                 "balance": 0,
-                "token_price": 3.859e-05,
+                "token_price": 4.119e-05,
                 "token_decimals": 6,
                 "token_symbol": "FEW",
                 "token_name": "few understand",
@@ -3087,11 +3139,11 @@
         "created_time": 1769290004,
         "website": "https://x.com/i/communities/2015171659389440017",
         "twitter": "https://x.com/icantquant/status/2015174175481070061",
-        "holder": 383,
-        "market_cap": 21990,
-        "price": 2.199e-05,
-        "price_change_24h": -53.35,
-        "volume_24h": 771157.18,
+        "holder": 369,
+        "market_cap": 22688,
+        "price": 2.269e-05,
+        "price_change_24h": -51.86,
+        "volume_24h": 771495.77,
         "pool_address": "solana_6UvqYEDJcrq8gsJwu4srY6KAm6YeHjU9DCUBMQW5G4dF",
         "ath": 0.0001790368305094335,
         "ath_timestamp": 1769292000,
@@ -3099,11 +3151,11 @@
         "dexId": "pumpswap",
         "pairAddress": "6UvqYEDJcrq8gsJwu4srY6KAm6YeHjU9DCUBMQW5G4dF",
         "txns_24h": {
-          "buys": 7518,
-          "sells": 6043
+          "buys": 7522,
+          "sells": 6048
         },
-        "fdv_usd": 21990,
-        "total_reserve_in_usd": 14532.65,
+        "fdv_usd": 22688,
+        "total_reserve_in_usd": 14733.96,
         "tags": [],
         "first_signal": {
           "timestamp": 1769291662,
@@ -3344,7 +3396,7 @@
               {
                 "token_address": "5RCwoHUz9GNRtfNvxnbZe8rMjkNeWJcsWDCZq99hpump",
                 "balance": 0,
-                "token_price": 2.199e-05,
+                "token_price": 2.269e-05,
                 "token_decimals": 6,
                 "token_symbol": "Nihilism",
                 "token_name": "Nihilism",
@@ -3360,11 +3412,11 @@
               {
                 "token_address": "5RCwoHUz9GNRtfNvxnbZe8rMjkNeWJcsWDCZq99hpump",
                 "balance": 2597930.974757,
-                "token_price": 2.199e-05,
+                "token_price": 2.269e-05,
                 "token_decimals": 6,
                 "token_symbol": "Nihilism",
                 "token_name": "Nihilism",
-                "value": 57.128502134906434
+                "value": 58.94705381723633
               }
             ]
           },
@@ -3376,7 +3428,7 @@
               {
                 "token_address": "5RCwoHUz9GNRtfNvxnbZe8rMjkNeWJcsWDCZq99hpump",
                 "balance": 0,
-                "token_price": 2.199e-05,
+                "token_price": 2.269e-05,
                 "token_decimals": 6,
                 "token_symbol": "Nihilism",
                 "token_name": "Nihilism",
@@ -3398,10 +3450,10 @@
         "website": "https://x.com/Fufu_FNF/status/2012228702894010472?s=20",
         "twitter": "https://x.com/Fufu_FNF/status/2012228702894010472?s=20",
         "holder": 46664,
-        "market_cap": 114212122,
-        "price": 0.1142,
-        "price_change_24h": 26.81,
-        "volume_24h": 94534874.84,
+        "market_cap": 109194258,
+        "price": 0.1091,
+        "price_change_24h": 30.2,
+        "volume_24h": 94231602.37,
         "pool_address": "solana_DRAf8QxQY86h7yeHdo9GytXAF6GoTTT8oZjknwXV6dCS",
         "ath": 0.17112331196605585,
         "ath_timestamp": 1769212800,
@@ -3409,11 +3461,11 @@
         "dexId": "pumpswap",
         "pairAddress": "DRAf8QxQY86h7yeHdo9GytXAF6GoTTT8oZjknwXV6dCS",
         "txns_24h": {
-          "buys": 139252,
-          "sells": 112692
+          "buys": 138158,
+          "sells": 112070
         },
-        "fdv_usd": 114212017,
-        "total_reserve_in_usd": 1622186.26,
+        "fdv_usd": 109194157,
+        "total_reserve_in_usd": 1585029.11,
         "tags": [
           "moonshot",
           "binanceAlpha"
@@ -3457,11 +3509,11 @@
               {
                 "token_address": "8Jx8AAHj86wbQgUTjGuj6GTTL5Ps3cqxKRTvpaJApump",
                 "balance": 19341.580641,
-                "token_price": 0.1142,
+                "token_price": 0.1091,
                 "token_decimals": 6,
                 "token_symbol": "PENGUIN",
                 "token_name": "Nietzschean Penguin",
-                "value": 2208.8085092022
+                "value": 2110.1664479331002
               }
             ]
           },
@@ -3473,11 +3525,11 @@
               {
                 "token_address": "8Jx8AAHj86wbQgUTjGuj6GTTL5Ps3cqxKRTvpaJApump",
                 "balance": 521.495462,
-                "token_price": 0.1142,
+                "token_price": 0.1091,
                 "token_decimals": 6,
                 "token_symbol": "PENGUIN",
                 "token_name": "Nietzschean Penguin",
-                "value": 59.5547817604
+                "value": 56.8951549042
               }
             ]
           }
@@ -3494,11 +3546,11 @@
         "created_time": 1726326698,
         "website": "https://www.visitsealife.com/melbourne/whats-inside/animals/king-and-gentoo-penguins/meet-pesto/?",
         "twitter": "https://x.com/melbaquarium?s=21&t=zyngat0b3pg5-8b96o8suw",
-        "holder": 10263,
-        "market_cap": 236895,
-        "price": 0.0002369,
-        "price_change_24h": -15.46,
-        "volume_24h": 239529.14,
+        "holder": 10259,
+        "market_cap": 235108,
+        "price": 0.0002351,
+        "price_change_24h": -13.11,
+        "volume_24h": 237737.78,
         "pool_address": "solana_A9KLSS9modWzMc1A189c6HXwy1QkgUupun9TPJZkhmaw",
         "ath": 0.00039890760380039076,
         "ath_timestamp": 1769212800,
@@ -3506,11 +3558,11 @@
         "dexId": "raydium",
         "pairAddress": "A9KLSS9modWzMc1A189c6HXwy1QkgUupun9TPJZkhmaw",
         "txns_24h": {
-          "buys": 867,
-          "sells": 770
+          "buys": 863,
+          "sells": 767
         },
-        "fdv_usd": 236895,
-        "total_reserve_in_usd": 175826.54,
+        "fdv_usd": 235108,
+        "total_reserve_in_usd": 174899.93,
         "tags": [
           "moonshot"
         ],
@@ -3673,7 +3725,7 @@
               {
                 "token_address": "34a8ALsPmbWxp7D3bQ6erERrCLz1ahr6u6o66Udmpump",
                 "balance": 0,
-                "token_price": 0.0002369,
+                "token_price": 0.0002351,
                 "token_decimals": 6,
                 "token_symbol": "PESTO",
                 "token_name": "Pesto the Baby King Penguin",
