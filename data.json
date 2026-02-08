@@ -1,9 +1,213 @@
 {
   "success": true,
-  "timestamp": "2026-02-08T09:39:20.455Z",
-  "data": [],
+  "timestamp": "2026-02-08T09:56:58.159Z",
+  "data": [
+    {
+      "address": "6YdDyLQ5RnKpjcVFCKVe8GURVxFsAVhXwArW9wrRpump",
+      "symbol": "WoW",
+      "name": "WoW Gold",
+      "decimals": 6,
+      "icon": "https://ipfs.io/ipfs/bafkreidnpt4nmnslfsv7nyi62xdm7b5bvoqnmig6kg4mvkfcneawaxadlm",
+      "created_time": 1765596380,
+      "website": "https://patrolcrypto.com/laundering-101-how-brock-pierce-moved-epsteins-funds/",
+      "twitter": "https://x.com/esotericpigeon/status/1999682182240174401?s=20",
+      "holder": 432,
+      "market_cap": 78358,
+      "price": 8.024e-05,
+      "price_change_24h": 2416,
+      "volume_24h": 225564.86,
+      "pool_address": "solana_7RCM4UcynJcLsjJmwx2duh4KJt5eoqayx9DsCa1aDGMf",
+      "ath": 8.024e-05,
+      "ath_pool": "",
+      "dexId": "pumpswap",
+      "pairAddress": "7RCM4UcynJcLsjJmwx2duh4KJt5eoqayx9DsCa1aDGMf",
+      "txns_24h": {
+        "buys": 1877,
+        "sells": 1386
+      },
+      "fdv_usd": 78358,
+      "total_reserve_in_usd": 23457.87,
+      "tags": [],
+      "first_signal": {
+        "timestamp": 1770544616,
+        "price": 8.024e-05
+      },
+      "metrics": {
+        "uniqueWallets": 2,
+        "inflow24h": 270.77552756554786,
+        "trades": [
+          {
+            "timestamp": "2026-02-08T09:53:30.000Z",
+            "type": "SELL",
+            "amount": 5690059.352481,
+            "usdValue": 520.9943954932883,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-02-08T09:53:07.000Z",
+            "type": "BUY",
+            "amount": 5690059.352481,
+            "usdValue": 437.5970402290623,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-02-08T09:50:03.000Z",
+            "type": "BUY",
+            "amount": 5494744.169966,
+            "usdValue": 354.1728828297738,
+            "wallet": {
+              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+              "name": "OGmoodeng"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+          "name": "cooker",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "6YdDyLQ5RnKpjcVFCKVe8GURVxFsAVhXwArW9wrRpump",
+              "balance": 0,
+              "token_price": 8.024e-05,
+              "token_decimals": 6,
+              "token_symbol": "WoW",
+              "token_name": "WoW Gold",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+          "name": "OGmoodeng",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "6YdDyLQ5RnKpjcVFCKVe8GURVxFsAVhXwArW9wrRpump",
+              "balance": 5494744.169966,
+              "token_price": 8.024e-05,
+              "token_decimals": 6,
+              "token_symbol": "WoW",
+              "token_name": "WoW Gold",
+              "value": 440.8982721980719
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "groups": {
-    "latestSignals": [],
+    "latestSignals": [
+      {
+        "address": "6YdDyLQ5RnKpjcVFCKVe8GURVxFsAVhXwArW9wrRpump",
+        "symbol": "WoW",
+        "name": "WoW Gold",
+        "decimals": 6,
+        "icon": "https://ipfs.io/ipfs/bafkreidnpt4nmnslfsv7nyi62xdm7b5bvoqnmig6kg4mvkfcneawaxadlm",
+        "created_time": 1765596380,
+        "website": "https://patrolcrypto.com/laundering-101-how-brock-pierce-moved-epsteins-funds/",
+        "twitter": "https://x.com/esotericpigeon/status/1999682182240174401?s=20",
+        "holder": 432,
+        "market_cap": 78358,
+        "price": 8.024e-05,
+        "price_change_24h": 2416,
+        "volume_24h": 225564.86,
+        "pool_address": "solana_7RCM4UcynJcLsjJmwx2duh4KJt5eoqayx9DsCa1aDGMf",
+        "ath": 8.024e-05,
+        "ath_pool": "",
+        "dexId": "pumpswap",
+        "pairAddress": "7RCM4UcynJcLsjJmwx2duh4KJt5eoqayx9DsCa1aDGMf",
+        "txns_24h": {
+          "buys": 1877,
+          "sells": 1386
+        },
+        "fdv_usd": 78358,
+        "total_reserve_in_usd": 23457.87,
+        "tags": [],
+        "first_signal": {
+          "timestamp": 1770544616,
+          "price": 8.024e-05
+        },
+        "metrics": {
+          "uniqueWallets": 2,
+          "inflow24h": 270.77552756554786,
+          "trades": [
+            {
+              "timestamp": "2026-02-08T09:53:30.000Z",
+              "type": "SELL",
+              "amount": 5690059.352481,
+              "usdValue": 520.9943954932883,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-02-08T09:53:07.000Z",
+              "type": "BUY",
+              "amount": 5690059.352481,
+              "usdValue": 437.5970402290623,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-02-08T09:50:03.000Z",
+              "type": "BUY",
+              "amount": 5494744.169966,
+              "usdValue": 354.1728828297738,
+              "wallet": {
+                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+                "name": "OGmoodeng"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+            "name": "cooker",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "6YdDyLQ5RnKpjcVFCKVe8GURVxFsAVhXwArW9wrRpump",
+                "balance": 0,
+                "token_price": 8.024e-05,
+                "token_decimals": 6,
+                "token_symbol": "WoW",
+                "token_name": "WoW Gold",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+            "name": "OGmoodeng",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "6YdDyLQ5RnKpjcVFCKVe8GURVxFsAVhXwArW9wrRpump",
+                "balance": 5494744.169966,
+                "token_price": 8.024e-05,
+                "token_decimals": 6,
+                "token_symbol": "WoW",
+                "token_name": "WoW Gold",
+                "value": 440.8982721980719
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "buys": [],
     "sells": []
   }
