@@ -1,7 +1,109 @@
 {
   "success": true,
-  "timestamp": "2026-02-10T07:46:29.096Z",
+  "timestamp": "2026-02-10T08:30:43.705Z",
   "data": [
+    {
+      "address": "AWpiFo35mSrSXMbTrXbFsdqZb5LJR3Lb1ET5mMNvbonk",
+      "symbol": "Company",
+      "name": "Company",
+      "decimals": 6,
+      "icon": "https://axiomtrading.sfo3.cdn.digitaloceanspaces.com/F7EwPjoZQ5b5QW6THtXbcHxegs24gZqyywuVa89vw3WM.webp",
+      "created_time": 1770667916,
+      "website": "",
+      "twitter": "https://x.com/i/communities/2020953544501694851",
+      "holder": 925,
+      "market_cap": 527381,
+      "price": 0.008789,
+      "price_change_24h": 1657,
+      "volume_24h": 2184200.35,
+      "pool_address": "solana_4JfhE93Lg7JdBqs2834Dd7FcQ5kqCjrhWwVBv7Zeo5dT",
+      "ath": 0.009112,
+      "ath_timestamp": 1770711031,
+      "ath_pool": "4JfhE93Lg7JdBqs2834Dd7FcQ5kqCjrhWwVBv7Zeo5dT",
+      "dexId": "raydium",
+      "pairAddress": "4JfhE93Lg7JdBqs2834Dd7FcQ5kqCjrhWwVBv7Zeo5dT",
+      "txns_24h": {
+        "buys": 12892,
+        "sells": 9794
+      },
+      "fdv_usd": 527381,
+      "total_reserve_in_usd": 74415.39,
+      "tags": [],
+      "first_signal": {
+        "timestamp": 1770711018,
+        "price": 0.009112
+      },
+      "metrics": {
+        "uniqueWallets": 2,
+        "inflow24h": -244.5235773517993,
+        "trades": [
+          {
+            "timestamp": "2026-02-10T08:03:43.000Z",
+            "type": "BUY",
+            "amount": 188991.322099,
+            "usdValue": 1129.16271,
+            "wallet": {
+              "address": "8zFZHuSRuDpuAR7J6FzwyF3vKNx4CVW3DFHJerQhc7Zd",
+              "name": "Pow"
+            }
+          },
+          {
+            "timestamp": "2026-02-09T21:52:58.000Z",
+            "type": "SWAP",
+            "amount": 215885.622217,
+            "usdValue": 514.615273628808,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-02-09T21:44:13.000Z",
+            "type": "SWAP",
+            "amount": 283692.275442,
+            "usdValue": 859.0710137229913,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "8zFZHuSRuDpuAR7J6FzwyF3vKNx4CVW3DFHJerQhc7Zd",
+          "name": "Pow",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "AWpiFo35mSrSXMbTrXbFsdqZb5LJR3Lb1ET5mMNvbonk",
+              "balance": 188991.322099,
+              "token_price": 0.008789,
+              "token_decimals": 6,
+              "token_symbol": "Company",
+              "token_name": "Company",
+              "value": 1661.044729928111
+            }
+          ]
+        },
+        {
+          "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+          "name": "cooker",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "AWpiFo35mSrSXMbTrXbFsdqZb5LJR3Lb1ET5mMNvbonk",
+              "balance": 0,
+              "token_price": 0.008789,
+              "token_decimals": 6,
+              "token_symbol": "Company",
+              "token_name": "Company",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
     {
       "address": "GsQBSa1Z5pz2VJWXpJ3ks73M2x8JXN6d3r6RGfypump",
       "symbol": "MoonBase",
@@ -12,10 +114,10 @@
       "website": "https://www.spacex.com/updates#moon-and-beyond",
       "twitter": "https://x.com/i/communities/2020860050743447894",
       "holder": 278,
-      "market_cap": 15098,
-      "price": 1.509e-05,
-      "price_change_24h": -55.46,
-      "volume_24h": 391417.89,
+      "market_cap": 14304,
+      "price": 1.43e-05,
+      "price_change_24h": -57.8,
+      "volume_24h": 391905.41,
       "pool_address": "solana_AzDP83DAxguwrm27iqacvFLVPZcYff6jCcU41bEtR4Ft",
       "ath": 3.875956879561724e-05,
       "ath_timestamp": 1770670800,
@@ -23,11 +125,11 @@
       "dexId": "pumpswap",
       "pairAddress": "AzDP83DAxguwrm27iqacvFLVPZcYff6jCcU41bEtR4Ft",
       "txns_24h": {
-        "buys": 4995,
-        "sells": 4223
+        "buys": 5002,
+        "sells": 4230
       },
-      "fdv_usd": 15098,
-      "total_reserve_in_usd": 9745.67,
+      "fdv_usd": 14304,
+      "total_reserve_in_usd": 9490.35,
       "tags": [],
       "first_signal": {
         "timestamp": 1770665823,
@@ -78,7 +180,7 @@
             {
               "token_address": "GsQBSa1Z5pz2VJWXpJ3ks73M2x8JXN6d3r6RGfypump",
               "balance": 0,
-              "token_price": 1.509e-05,
+              "token_price": 1.43e-05,
               "token_decimals": 6,
               "token_symbol": "MoonBase",
               "token_name": "Moon Base Alpha",
@@ -94,7 +196,7 @@
             {
               "token_address": "GsQBSa1Z5pz2VJWXpJ3ks73M2x8JXN6d3r6RGfypump",
               "balance": 0,
-              "token_price": 1.509e-05,
+              "token_price": 1.43e-05,
               "token_decimals": 6,
               "token_symbol": "MoonBase",
               "token_name": "Moon Base Alpha",
@@ -108,6 +210,108 @@
   "groups": {
     "latestSignals": [
       {
+        "address": "AWpiFo35mSrSXMbTrXbFsdqZb5LJR3Lb1ET5mMNvbonk",
+        "symbol": "Company",
+        "name": "Company",
+        "decimals": 6,
+        "icon": "https://axiomtrading.sfo3.cdn.digitaloceanspaces.com/F7EwPjoZQ5b5QW6THtXbcHxegs24gZqyywuVa89vw3WM.webp",
+        "created_time": 1770667916,
+        "website": "",
+        "twitter": "https://x.com/i/communities/2020953544501694851",
+        "holder": 925,
+        "market_cap": 527381,
+        "price": 0.008789,
+        "price_change_24h": 1657,
+        "volume_24h": 2184200.35,
+        "pool_address": "solana_4JfhE93Lg7JdBqs2834Dd7FcQ5kqCjrhWwVBv7Zeo5dT",
+        "ath": 0.009112,
+        "ath_timestamp": 1770711031,
+        "ath_pool": "4JfhE93Lg7JdBqs2834Dd7FcQ5kqCjrhWwVBv7Zeo5dT",
+        "dexId": "raydium",
+        "pairAddress": "4JfhE93Lg7JdBqs2834Dd7FcQ5kqCjrhWwVBv7Zeo5dT",
+        "txns_24h": {
+          "buys": 12892,
+          "sells": 9794
+        },
+        "fdv_usd": 527381,
+        "total_reserve_in_usd": 74415.39,
+        "tags": [],
+        "first_signal": {
+          "timestamp": 1770711018,
+          "price": 0.009112
+        },
+        "metrics": {
+          "uniqueWallets": 2,
+          "inflow24h": -244.5235773517993,
+          "trades": [
+            {
+              "timestamp": "2026-02-10T08:03:43.000Z",
+              "type": "BUY",
+              "amount": 188991.322099,
+              "usdValue": 1129.16271,
+              "wallet": {
+                "address": "8zFZHuSRuDpuAR7J6FzwyF3vKNx4CVW3DFHJerQhc7Zd",
+                "name": "Pow"
+              }
+            },
+            {
+              "timestamp": "2026-02-09T21:52:58.000Z",
+              "type": "SWAP",
+              "amount": 215885.622217,
+              "usdValue": 514.615273628808,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-02-09T21:44:13.000Z",
+              "type": "SWAP",
+              "amount": 283692.275442,
+              "usdValue": 859.0710137229913,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "8zFZHuSRuDpuAR7J6FzwyF3vKNx4CVW3DFHJerQhc7Zd",
+            "name": "Pow",
+            "score": 3,
+            "tokens": [
+              {
+                "token_address": "AWpiFo35mSrSXMbTrXbFsdqZb5LJR3Lb1ET5mMNvbonk",
+                "balance": 188991.322099,
+                "token_price": 0.008789,
+                "token_decimals": 6,
+                "token_symbol": "Company",
+                "token_name": "Company",
+                "value": 1661.044729928111
+              }
+            ]
+          },
+          {
+            "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+            "name": "cooker",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "AWpiFo35mSrSXMbTrXbFsdqZb5LJR3Lb1ET5mMNvbonk",
+                "balance": 0,
+                "token_price": 0.008789,
+                "token_decimals": 6,
+                "token_symbol": "Company",
+                "token_name": "Company",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
         "address": "GsQBSa1Z5pz2VJWXpJ3ks73M2x8JXN6d3r6RGfypump",
         "symbol": "MoonBase",
         "name": "Moon Base Alpha",
@@ -117,10 +321,10 @@
         "website": "https://www.spacex.com/updates#moon-and-beyond",
         "twitter": "https://x.com/i/communities/2020860050743447894",
         "holder": 278,
-        "market_cap": 15098,
-        "price": 1.509e-05,
-        "price_change_24h": -55.46,
-        "volume_24h": 391417.89,
+        "market_cap": 14304,
+        "price": 1.43e-05,
+        "price_change_24h": -57.8,
+        "volume_24h": 391905.41,
         "pool_address": "solana_AzDP83DAxguwrm27iqacvFLVPZcYff6jCcU41bEtR4Ft",
         "ath": 3.875956879561724e-05,
         "ath_timestamp": 1770670800,
@@ -128,11 +332,11 @@
         "dexId": "pumpswap",
         "pairAddress": "AzDP83DAxguwrm27iqacvFLVPZcYff6jCcU41bEtR4Ft",
         "txns_24h": {
-          "buys": 4995,
-          "sells": 4223
+          "buys": 5002,
+          "sells": 4230
         },
-        "fdv_usd": 15098,
-        "total_reserve_in_usd": 9745.67,
+        "fdv_usd": 14304,
+        "total_reserve_in_usd": 9490.35,
         "tags": [],
         "first_signal": {
           "timestamp": 1770665823,
@@ -183,7 +387,7 @@
               {
                 "token_address": "GsQBSa1Z5pz2VJWXpJ3ks73M2x8JXN6d3r6RGfypump",
                 "balance": 0,
-                "token_price": 1.509e-05,
+                "token_price": 1.43e-05,
                 "token_decimals": 6,
                 "token_symbol": "MoonBase",
                 "token_name": "Moon Base Alpha",
@@ -199,7 +403,7 @@
               {
                 "token_address": "GsQBSa1Z5pz2VJWXpJ3ks73M2x8JXN6d3r6RGfypump",
                 "balance": 0,
-                "token_price": 1.509e-05,
+                "token_price": 1.43e-05,
                 "token_decimals": 6,
                 "token_symbol": "MoonBase",
                 "token_name": "Moon Base Alpha",
