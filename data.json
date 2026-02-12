@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2026-02-12T04:49:04.448Z",
+  "timestamp": "2026-02-12T05:53:54.138Z",
   "data": [
     {
       "address": "93ms5WE6SoXUEAynzqp8CAFMr4165Q3Vzpnz1e8xpump",
@@ -11,31 +11,52 @@
       "created_time": 1770866034,
       "website": "https://x.com/i/communities/2021779095718072370",
       "twitter": "https://x.com/nigwardo0x/status/2021784240443048074?s=20",
-      "holder": 1493,
-      "market_cap": 280949,
-      "price": 0.0002809,
-      "price_change_24h": 730,
-      "volume_24h": 1606363.4,
+      "holder": 1292,
+      "market_cap": 166373,
+      "price": 0.0001663,
+      "price_change_24h": 392,
+      "volume_24h": 1918517.6,
       "pool_address": "solana_36aGLetTmUUvaxXRtGHT1PLiD6BVmSSamFSF2eFN2Z3U",
       "ath": 0.0002809,
-      "ath_pool": "",
+      "ath_timestamp": 1770871764,
+      "ath_pool": "9wzqZNktwa1KZQeDTUdrU7c6Lc4YS2AFj8knN991Ciw1",
       "dexId": "pumpswap",
       "pairAddress": "36aGLetTmUUvaxXRtGHT1PLiD6BVmSSamFSF2eFN2Z3U",
       "txns_24h": {
-        "buys": 15231,
-        "sells": 11808
+        "buys": 18204,
+        "sells": 13998
       },
-      "fdv_usd": 280949,
-      "total_reserve_in_usd": 43595.41,
+      "fdv_usd": 166373,
+      "total_reserve_in_usd": 34073.13,
       "tags": [],
       "first_signal": {
-        "timestamp": 1770871740,
+        "timestamp": 1770871741,
         "price": 0.0002809
       },
       "metrics": {
         "uniqueWallets": 3,
-        "inflow24h": 5339.874142374885,
+        "inflow24h": 3831.4249769326757,
         "trades": [
+          {
+            "timestamp": "2026-02-12T05:19:30.000Z",
+            "type": "SELL",
+            "amount": 5654176.041085,
+            "usdValue": 1008.554426064825,
+            "wallet": {
+              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+              "name": "DNF 哥"
+            }
+          },
+          {
+            "timestamp": "2026-02-12T04:52:22.000Z",
+            "type": "SELL",
+            "amount": 1940969.375181,
+            "usdValue": 499.89473937738427,
+            "wallet": {
+              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+              "name": "OGmoodeng"
+            }
+          },
           {
             "timestamp": "2026-02-12T04:48:08.000Z",
             "type": "BUY",
@@ -170,18 +191,34 @@
       },
       "walletPortfolios": [
         {
+          "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+          "name": "DNF 哥",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "93ms5WE6SoXUEAynzqp8CAFMr4165Q3Vzpnz1e8xpump",
+              "balance": 5654176.041085,
+              "token_price": 0.0001663,
+              "token_decimals": 6,
+              "token_symbol": "HODL",
+              "token_name": "HODL",
+              "value": 940.2894756324356
+            }
+          ]
+        },
+        {
           "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
           "name": "OGmoodeng",
           "score": 2,
           "tokens": [
             {
               "token_address": "93ms5WE6SoXUEAynzqp8CAFMr4165Q3Vzpnz1e8xpump",
-              "balance": 1940969.375181,
-              "token_price": 0.0002809,
+              "balance": 0,
+              "token_price": 0.0001663,
               "token_decimals": 6,
               "token_symbol": "HODL",
               "token_name": "HODL",
-              "value": 545.2182974883428
+              "value": 0
             }
           ]
         },
@@ -193,27 +230,11 @@
             {
               "token_address": "93ms5WE6SoXUEAynzqp8CAFMr4165Q3Vzpnz1e8xpump",
               "balance": 15549850.206818,
-              "token_price": 0.0002809,
+              "token_price": 0.0001663,
               "token_decimals": 6,
               "token_symbol": "HODL",
               "token_name": "HODL",
-              "value": 4367.952923095176
-            }
-          ]
-        },
-        {
-          "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-          "name": "DNF 哥",
-          "score": 3,
-          "tokens": [
-            {
-              "token_address": "93ms5WE6SoXUEAynzqp8CAFMr4165Q3Vzpnz1e8xpump",
-              "balance": 11308352.08217,
-              "token_price": 0.0002809,
-              "token_decimals": 6,
-              "token_symbol": "HODL",
-              "token_name": "HODL",
-              "value": 3176.516099881553
+              "value": 2585.940089393833
             }
           ]
         }
@@ -231,31 +252,52 @@
         "created_time": 1770866034,
         "website": "https://x.com/i/communities/2021779095718072370",
         "twitter": "https://x.com/nigwardo0x/status/2021784240443048074?s=20",
-        "holder": 1493,
-        "market_cap": 280949,
-        "price": 0.0002809,
-        "price_change_24h": 730,
-        "volume_24h": 1606363.4,
+        "holder": 1292,
+        "market_cap": 166373,
+        "price": 0.0001663,
+        "price_change_24h": 392,
+        "volume_24h": 1918517.6,
         "pool_address": "solana_36aGLetTmUUvaxXRtGHT1PLiD6BVmSSamFSF2eFN2Z3U",
         "ath": 0.0002809,
-        "ath_pool": "",
+        "ath_timestamp": 1770871764,
+        "ath_pool": "9wzqZNktwa1KZQeDTUdrU7c6Lc4YS2AFj8knN991Ciw1",
         "dexId": "pumpswap",
         "pairAddress": "36aGLetTmUUvaxXRtGHT1PLiD6BVmSSamFSF2eFN2Z3U",
         "txns_24h": {
-          "buys": 15231,
-          "sells": 11808
+          "buys": 18204,
+          "sells": 13998
         },
-        "fdv_usd": 280949,
-        "total_reserve_in_usd": 43595.41,
+        "fdv_usd": 166373,
+        "total_reserve_in_usd": 34073.13,
         "tags": [],
         "first_signal": {
-          "timestamp": 1770871740,
+          "timestamp": 1770871741,
           "price": 0.0002809
         },
         "metrics": {
           "uniqueWallets": 3,
-          "inflow24h": 5339.874142374885,
+          "inflow24h": 3831.4249769326757,
           "trades": [
+            {
+              "timestamp": "2026-02-12T05:19:30.000Z",
+              "type": "SELL",
+              "amount": 5654176.041085,
+              "usdValue": 1008.554426064825,
+              "wallet": {
+                "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+                "name": "DNF 哥"
+              }
+            },
+            {
+              "timestamp": "2026-02-12T04:52:22.000Z",
+              "type": "SELL",
+              "amount": 1940969.375181,
+              "usdValue": 499.89473937738427,
+              "wallet": {
+                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+                "name": "OGmoodeng"
+              }
+            },
             {
               "timestamp": "2026-02-12T04:48:08.000Z",
               "type": "BUY",
@@ -390,18 +432,34 @@
         },
         "walletPortfolios": [
           {
+            "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+            "name": "DNF 哥",
+            "score": 3,
+            "tokens": [
+              {
+                "token_address": "93ms5WE6SoXUEAynzqp8CAFMr4165Q3Vzpnz1e8xpump",
+                "balance": 5654176.041085,
+                "token_price": 0.0001663,
+                "token_decimals": 6,
+                "token_symbol": "HODL",
+                "token_name": "HODL",
+                "value": 940.2894756324356
+              }
+            ]
+          },
+          {
             "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
             "name": "OGmoodeng",
             "score": 2,
             "tokens": [
               {
                 "token_address": "93ms5WE6SoXUEAynzqp8CAFMr4165Q3Vzpnz1e8xpump",
-                "balance": 1940969.375181,
-                "token_price": 0.0002809,
+                "balance": 0,
+                "token_price": 0.0001663,
                 "token_decimals": 6,
                 "token_symbol": "HODL",
                 "token_name": "HODL",
-                "value": 545.2182974883428
+                "value": 0
               }
             ]
           },
@@ -413,27 +471,11 @@
               {
                 "token_address": "93ms5WE6SoXUEAynzqp8CAFMr4165Q3Vzpnz1e8xpump",
                 "balance": 15549850.206818,
-                "token_price": 0.0002809,
+                "token_price": 0.0001663,
                 "token_decimals": 6,
                 "token_symbol": "HODL",
                 "token_name": "HODL",
-                "value": 4367.952923095176
-              }
-            ]
-          },
-          {
-            "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-            "name": "DNF 哥",
-            "score": 3,
-            "tokens": [
-              {
-                "token_address": "93ms5WE6SoXUEAynzqp8CAFMr4165Q3Vzpnz1e8xpump",
-                "balance": 11308352.08217,
-                "token_price": 0.0002809,
-                "token_decimals": 6,
-                "token_symbol": "HODL",
-                "token_name": "HODL",
-                "value": 3176.516099881553
+                "value": 2585.940089393833
               }
             ]
           }
