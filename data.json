@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2026-02-24T09:03:04.555Z",
+  "timestamp": "2026-02-24T10:01:23.134Z",
   "data": [
     {
       "address": "NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump",
@@ -12,10 +12,10 @@
       "website": "https://x.com/Euphorbia10182/status/2018888215525269643",
       "twitter": "https://x.com/ord1nary_fella/status/2019331973789909450",
       "holder": 24911,
-      "market_cap": 23972068,
-      "price": 0.02397,
-      "price_change_24h": -19.59,
-      "volume_24h": 9220459.88,
+      "market_cap": 25747812,
+      "price": 0.02574,
+      "price_change_24h": -19.45,
+      "volume_24h": 9293219.86,
       "pool_address": "solana_A6KHMiFzn9AM7VKBtVP4fZNY9bCo2jP63R9dphaW1vrq",
       "ath": 0.05832637690337913,
       "ath_timestamp": 1771718400,
@@ -26,11 +26,11 @@
         "active": 100
       },
       "txns_24h": {
-        "buys": 22787,
-        "sells": 20030
+        "buys": 22857,
+        "sells": 20209
       },
-      "fdv_usd": 23972068,
-      "total_reserve_in_usd": 681930.78,
+      "fdv_usd": 25747812,
+      "total_reserve_in_usd": 705751.78,
       "tags": [
         "moonshot"
       ],
@@ -39,9 +39,29 @@
         "price": 0.01422
       },
       "metrics": {
-        "uniqueWallets": 1,
-        "inflow24h": 24077.276088989704,
+        "uniqueWallets": 2,
+        "inflow24h": 17798.772136254163,
         "trades": [
+          {
+            "timestamp": "2026-02-24T09:30:53.000Z",
+            "type": "SELL",
+            "amount": 128969.253813,
+            "usdValue": 3128.3843123317515,
+            "wallet": {
+              "address": "hrx1rPTK8akUcjRPMgQeGcH1hvQ76LhnrD3LkKCkR86",
+              "name": "4MILGOAT"
+            }
+          },
+          {
+            "timestamp": "2026-02-24T09:30:43.000Z",
+            "type": "SELL",
+            "amount": 128969.253813,
+            "usdValue": 3150.119640403783,
+            "wallet": {
+              "address": "hrx1rPTK8akUcjRPMgQeGcH1hvQ76LhnrD3LkKCkR86",
+              "name": "4MILGOAT"
+            }
+          },
           {
             "timestamp": "2026-02-23T10:37:02.000Z",
             "type": "BUY",
@@ -346,6 +366,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "hrx1rPTK8akUcjRPMgQeGcH1hvQ76LhnrD3LkKCkR86",
+          "name": "4MILGOAT",
+          "score": 1,
+          "tokens": [
+            {
+              "token_address": "NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump",
+              "balance": 0,
+              "token_price": 0.02574,
+              "token_decimals": 6,
+              "token_symbol": "Punch",
+              "token_name": "パンチ",
+              "value": 0
+            }
+          ]
+        },
+        {
           "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
           "name": "cooker",
           "score": 2,
@@ -353,11 +389,11 @@
             {
               "token_address": "NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump",
               "balance": 777609.916601,
-              "token_price": 0.02397,
+              "token_price": 0.02574,
               "token_decimals": 6,
               "token_symbol": "Punch",
               "token_name": "パンチ",
-              "value": 18639.309700925973
+              "value": 20015.67925330974
             }
           ]
         }
@@ -366,7 +402,8 @@
   ],
   "groups": {
     "latestSignals": [],
-    "buys": [
+    "buys": [],
+    "sells": [
       {
         "address": "NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump",
         "symbol": "Punch",
@@ -377,10 +414,10 @@
         "website": "https://x.com/Euphorbia10182/status/2018888215525269643",
         "twitter": "https://x.com/ord1nary_fella/status/2019331973789909450",
         "holder": 24911,
-        "market_cap": 23972068,
-        "price": 0.02397,
-        "price_change_24h": -19.59,
-        "volume_24h": 9220459.88,
+        "market_cap": 25747812,
+        "price": 0.02574,
+        "price_change_24h": -19.45,
+        "volume_24h": 9293219.86,
         "pool_address": "solana_A6KHMiFzn9AM7VKBtVP4fZNY9bCo2jP63R9dphaW1vrq",
         "ath": 0.05832637690337913,
         "ath_timestamp": 1771718400,
@@ -391,11 +428,11 @@
           "active": 100
         },
         "txns_24h": {
-          "buys": 22787,
-          "sells": 20030
+          "buys": 22857,
+          "sells": 20209
         },
-        "fdv_usd": 23972068,
-        "total_reserve_in_usd": 681930.78,
+        "fdv_usd": 25747812,
+        "total_reserve_in_usd": 705751.78,
         "tags": [
           "moonshot"
         ],
@@ -404,9 +441,29 @@
           "price": 0.01422
         },
         "metrics": {
-          "uniqueWallets": 1,
-          "inflow24h": 24077.276088989704,
+          "uniqueWallets": 2,
+          "inflow24h": 17798.772136254163,
           "trades": [
+            {
+              "timestamp": "2026-02-24T09:30:53.000Z",
+              "type": "SELL",
+              "amount": 128969.253813,
+              "usdValue": 3128.3843123317515,
+              "wallet": {
+                "address": "hrx1rPTK8akUcjRPMgQeGcH1hvQ76LhnrD3LkKCkR86",
+                "name": "4MILGOAT"
+              }
+            },
+            {
+              "timestamp": "2026-02-24T09:30:43.000Z",
+              "type": "SELL",
+              "amount": 128969.253813,
+              "usdValue": 3150.119640403783,
+              "wallet": {
+                "address": "hrx1rPTK8akUcjRPMgQeGcH1hvQ76LhnrD3LkKCkR86",
+                "name": "4MILGOAT"
+              }
+            },
             {
               "timestamp": "2026-02-23T10:37:02.000Z",
               "type": "BUY",
@@ -711,6 +768,22 @@
         },
         "walletPortfolios": [
           {
+            "address": "hrx1rPTK8akUcjRPMgQeGcH1hvQ76LhnrD3LkKCkR86",
+            "name": "4MILGOAT",
+            "score": 1,
+            "tokens": [
+              {
+                "token_address": "NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump",
+                "balance": 0,
+                "token_price": 0.02574,
+                "token_decimals": 6,
+                "token_symbol": "Punch",
+                "token_name": "パンチ",
+                "value": 0
+              }
+            ]
+          },
+          {
             "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
             "name": "cooker",
             "score": 2,
@@ -718,17 +791,16 @@
               {
                 "token_address": "NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump",
                 "balance": 777609.916601,
-                "token_price": 0.02397,
+                "token_price": 0.02574,
                 "token_decimals": 6,
                 "token_symbol": "Punch",
                 "token_name": "パンチ",
-                "value": 18639.309700925973
+                "value": 20015.67925330974
               }
             ]
           }
         ]
       }
-    ],
-    "sells": []
+    ]
   }
 }
