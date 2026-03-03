@@ -1,7 +1,139 @@
 {
   "success": true,
-  "timestamp": "2026-03-03T20:40:35.746Z",
+  "timestamp": "2026-03-03T21:01:57.048Z",
   "data": [
+    {
+      "address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+      "symbol": "USD1",
+      "name": "World Liberty Financial USD",
+      "decimals": 6,
+      "icon": "https://raw.githubusercontent.com/worldliberty/usd1-metadata/refs/heads/main/logo.png",
+      "created_time": 1752528060,
+      "website": "",
+      "twitter": "",
+      "holder": 239457,
+      "market_cap": 157907942,
+      "price": 0.9994,
+      "price_change_24h": -0.01,
+      "volume_24h": 807459.47,
+      "pool_address": "solana_AQAGYQsdU853WAKhXM79CgNdoyhrRwXvYHX6qrDyC1FS",
+      "ath": 1.0487321954051128,
+      "ath_timestamp": 1757635200,
+      "ath_pool": "BCDdHonby65iduz3Ev3c9v5XjNkzyu5e56KRFHpBM4T9",
+      "dexId": "orca",
+      "pairAddress": "4qpDaAUb5oUrFH7EomqoEvvTjQeh9D4svZ48sUk7JVrk",
+      "txns_24h": {
+        "buys": 910,
+        "sells": 952
+      },
+      "fdv_usd": 157907942,
+      "total_reserve_in_usd": 255928.41,
+      "tags": [],
+      "first_signal": {
+        "timestamp": 1757553221,
+        "price": 0.9994
+      },
+      "metrics": {
+        "uniqueWallets": 2,
+        "inflow24h": -634.2764007149826,
+        "trades": [
+          {
+            "timestamp": "2026-03-03T20:49:56.000Z",
+            "type": "SELL",
+            "amount": 102.824276,
+            "usdValue": 102.55109949299619,
+            "wallet": {
+              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+              "name": "OGmoodeng"
+            }
+          },
+          {
+            "timestamp": "2026-03-03T20:44:47.000Z",
+            "type": "SWAP",
+            "amount": 84.986483,
+            "usdValue": 84.92891054852245,
+            "wallet": {
+              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+              "name": "OGmoodeng"
+            }
+          },
+          {
+            "timestamp": "2026-03-03T20:44:47.000Z",
+            "type": "BUY",
+            "amount": 84.986483,
+            "usdValue": 85.07711789468875,
+            "wallet": {
+              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+              "name": "OGmoodeng"
+            }
+          },
+          {
+            "timestamp": "2026-03-02T23:34:17.000Z",
+            "type": "SELL",
+            "amount": 484.479979,
+            "usdValue": 483.2591796569307,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-03-02T23:33:38.000Z",
+            "type": "SWAP",
+            "amount": 433.503875,
+            "usdValue": 483.1173259214834,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-03-02T23:33:38.000Z",
+            "type": "BUY",
+            "amount": 433.503875,
+            "usdValue": 434.5029970102614,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+          "name": "OGmoodeng",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+              "balance": 0,
+              "token_price": 0.9994,
+              "token_decimals": 6,
+              "token_symbol": "USD1",
+              "token_name": "World Liberty Financial USD",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+          "name": "cooker",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+              "balance": 0,
+              "token_price": 0.9994,
+              "token_decimals": 6,
+              "token_symbol": "USD1",
+              "token_name": "World Liberty Financial USD",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
     {
       "address": "HiaMVEbMdcGgT35RXJ8QdY67EGnGQqSbb1shV6PSpump",
       "symbol": "Microslop",
@@ -12,10 +144,10 @@
       "website": "https://knowyourmeme.com/memes/microslop",
       "twitter": "https://x.com/i/communities/2028605986479718676",
       "holder": 111,
-      "market_cap": 7055,
-      "price": 7.054e-06,
-      "price_change_24h": -79.94,
-      "volume_24h": 191630.27,
+      "market_cap": 7216,
+      "price": 7.215e-06,
+      "price_change_24h": -79.48,
+      "volume_24h": 191669.65,
       "pool_address": "solana_cZLKKjVgroBFYXUavG2gWf8jnmvhzoDVbJiyJa6BJab",
       "ath": 1.1008826992248714e-05,
       "ath_timestamp": 1772560800,
@@ -23,11 +155,11 @@
       "dexId": "pumpswap",
       "pairAddress": "cZLKKjVgroBFYXUavG2gWf8jnmvhzoDVbJiyJa6BJab",
       "txns_24h": {
-        "buys": 3736,
-        "sells": 2686
+        "buys": 3737,
+        "sells": 2687
       },
-      "fdv_usd": 7055,
-      "total_reserve_in_usd": 6567.94,
+      "fdv_usd": 7216,
+      "total_reserve_in_usd": 6635.83,
       "tags": [],
       "first_signal": {
         "timestamp": 1772558854,
@@ -88,7 +220,7 @@
             {
               "token_address": "HiaMVEbMdcGgT35RXJ8QdY67EGnGQqSbb1shV6PSpump",
               "balance": 0,
-              "token_price": 7.054e-06,
+              "token_price": 7.215e-06,
               "token_decimals": 6,
               "token_symbol": "Microslop",
               "token_name": "Microslop",
@@ -104,7 +236,7 @@
             {
               "token_address": "HiaMVEbMdcGgT35RXJ8QdY67EGnGQqSbb1shV6PSpump",
               "balance": 0,
-              "token_price": 7.054e-06,
+              "token_price": 7.215e-06,
               "token_decimals": 6,
               "token_symbol": "Microslop",
               "token_name": "Microslop",
@@ -124,10 +256,10 @@
       "website": "https://x.com/Euphorbia10182/status/2018888215525269643",
       "twitter": "https://x.com/ord1nary_fella/status/2019331973789909450",
       "holder": 24861,
-      "market_cap": 12228929,
-      "price": 0.01222,
-      "price_change_24h": -13.04,
-      "volume_24h": 3293561.52,
+      "market_cap": 11682325,
+      "price": 0.01168,
+      "price_change_24h": -15.73,
+      "volume_24h": 3310864.62,
       "pool_address": "solana_A6KHMiFzn9AM7VKBtVP4fZNY9bCo2jP63R9dphaW1vrq",
       "ath": 0.05832637690337913,
       "ath_timestamp": 1771718400,
@@ -135,11 +267,11 @@
       "dexId": "pumpswap",
       "pairAddress": "A6KHMiFzn9AM7VKBtVP4fZNY9bCo2jP63R9dphaW1vrq",
       "txns_24h": {
-        "buys": 11206,
-        "sells": 9656
+        "buys": 11278,
+        "sells": 9652
       },
-      "fdv_usd": 12228929,
-      "total_reserve_in_usd": 588770.02,
+      "fdv_usd": 11682325,
+      "total_reserve_in_usd": 574458.79,
       "tags": [
         "moonshot"
       ],
@@ -332,11 +464,11 @@
             {
               "token_address": "NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump",
               "balance": 118492.374735,
-              "token_price": 0.01222,
+              "token_price": 0.01168,
               "token_decimals": 6,
               "token_symbol": "Punch",
               "token_name": "パンチ",
-              "value": 1447.9768192617
+              "value": 1383.9909369048
             }
           ]
         },
@@ -348,11 +480,11 @@
             {
               "token_address": "NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump",
               "balance": 818354.975111,
-              "token_price": 0.01222,
+              "token_price": 0.01168,
               "token_decimals": 6,
               "token_symbol": "Punch",
               "token_name": "パンチ",
-              "value": 10000.29779585642
+              "value": 9558.38610929648
             }
           ]
         }
@@ -368,10 +500,10 @@
       "website": "",
       "twitter": "",
       "holder": 461,
-      "market_cap": 22360,
-      "price": 2.236e-05,
-      "price_change_24h": -35.4,
-      "volume_24h": 1355990.24,
+      "market_cap": 15854,
+      "price": 1.585e-05,
+      "price_change_24h": -54.19,
+      "volume_24h": 1359908.3,
       "pool_address": "solana_BGGXNhA2KsLbmffiHY6iSU6SnBdBr4FEUPWbvQeUxHcs",
       "ath": 0.0004930998658534134,
       "ath_timestamp": 1772517600,
@@ -379,11 +511,11 @@
       "dexId": "meteora",
       "pairAddress": "BGGXNhA2KsLbmffiHY6iSU6SnBdBr4FEUPWbvQeUxHcs",
       "txns_24h": {
-        "buys": 11193,
-        "sells": 6788
+        "buys": 11236,
+        "sells": 6822
       },
-      "fdv_usd": 22360,
-      "total_reserve_in_usd": 11697.04,
+      "fdv_usd": 15854,
+      "total_reserve_in_usd": 9838.53,
       "tags": [],
       "first_signal": {
         "timestamp": 1772517285,
@@ -3514,7 +3646,7 @@
             {
               "token_address": "3VhpH2eJwfE1dLApVMGKnkM7t2hUUNZxiayJJ6sCSpLt",
               "balance": 0,
-              "token_price": 2.236e-05,
+              "token_price": 1.585e-05,
               "token_decimals": 9,
               "token_symbol": "Conviction",
               "token_name": "Conviction",
@@ -3530,7 +3662,7 @@
             {
               "token_address": "3VhpH2eJwfE1dLApVMGKnkM7t2hUUNZxiayJJ6sCSpLt",
               "balance": 0,
-              "token_price": 2.236e-05,
+              "token_price": 1.585e-05,
               "token_decimals": 9,
               "token_symbol": "Conviction",
               "token_name": "Conviction",
@@ -3553,10 +3685,10 @@
         "website": "https://knowyourmeme.com/memes/microslop",
         "twitter": "https://x.com/i/communities/2028605986479718676",
         "holder": 111,
-        "market_cap": 7055,
-        "price": 7.054e-06,
-        "price_change_24h": -79.94,
-        "volume_24h": 191630.27,
+        "market_cap": 7216,
+        "price": 7.215e-06,
+        "price_change_24h": -79.48,
+        "volume_24h": 191669.65,
         "pool_address": "solana_cZLKKjVgroBFYXUavG2gWf8jnmvhzoDVbJiyJa6BJab",
         "ath": 1.1008826992248714e-05,
         "ath_timestamp": 1772560800,
@@ -3564,11 +3696,11 @@
         "dexId": "pumpswap",
         "pairAddress": "cZLKKjVgroBFYXUavG2gWf8jnmvhzoDVbJiyJa6BJab",
         "txns_24h": {
-          "buys": 3736,
-          "sells": 2686
+          "buys": 3737,
+          "sells": 2687
         },
-        "fdv_usd": 7055,
-        "total_reserve_in_usd": 6567.94,
+        "fdv_usd": 7216,
+        "total_reserve_in_usd": 6635.83,
         "tags": [],
         "first_signal": {
           "timestamp": 1772558854,
@@ -3629,7 +3761,7 @@
               {
                 "token_address": "HiaMVEbMdcGgT35RXJ8QdY67EGnGQqSbb1shV6PSpump",
                 "balance": 0,
-                "token_price": 7.054e-06,
+                "token_price": 7.215e-06,
                 "token_decimals": 6,
                 "token_symbol": "Microslop",
                 "token_name": "Microslop",
@@ -3645,7 +3777,7 @@
               {
                 "token_address": "HiaMVEbMdcGgT35RXJ8QdY67EGnGQqSbb1shV6PSpump",
                 "balance": 0,
-                "token_price": 7.054e-06,
+                "token_price": 7.215e-06,
                 "token_decimals": 6,
                 "token_symbol": "Microslop",
                 "token_name": "Microslop",
@@ -3665,10 +3797,10 @@
         "website": "",
         "twitter": "",
         "holder": 461,
-        "market_cap": 22360,
-        "price": 2.236e-05,
-        "price_change_24h": -35.4,
-        "volume_24h": 1355990.24,
+        "market_cap": 15854,
+        "price": 1.585e-05,
+        "price_change_24h": -54.19,
+        "volume_24h": 1359908.3,
         "pool_address": "solana_BGGXNhA2KsLbmffiHY6iSU6SnBdBr4FEUPWbvQeUxHcs",
         "ath": 0.0004930998658534134,
         "ath_timestamp": 1772517600,
@@ -3676,11 +3808,11 @@
         "dexId": "meteora",
         "pairAddress": "BGGXNhA2KsLbmffiHY6iSU6SnBdBr4FEUPWbvQeUxHcs",
         "txns_24h": {
-          "buys": 11193,
-          "sells": 6788
+          "buys": 11236,
+          "sells": 6822
         },
-        "fdv_usd": 22360,
-        "total_reserve_in_usd": 11697.04,
+        "fdv_usd": 15854,
+        "total_reserve_in_usd": 9838.53,
         "tags": [],
         "first_signal": {
           "timestamp": 1772517285,
@@ -6811,7 +6943,7 @@
               {
                 "token_address": "3VhpH2eJwfE1dLApVMGKnkM7t2hUUNZxiayJJ6sCSpLt",
                 "balance": 0,
-                "token_price": 2.236e-05,
+                "token_price": 1.585e-05,
                 "token_decimals": 9,
                 "token_symbol": "Conviction",
                 "token_name": "Conviction",
@@ -6827,7 +6959,7 @@
               {
                 "token_address": "3VhpH2eJwfE1dLApVMGKnkM7t2hUUNZxiayJJ6sCSpLt",
                 "balance": 0,
-                "token_price": 2.236e-05,
+                "token_price": 1.585e-05,
                 "token_decimals": 9,
                 "token_symbol": "Conviction",
                 "token_name": "Conviction",
@@ -6841,6 +6973,138 @@
     "buys": [],
     "sells": [
       {
+        "address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+        "symbol": "USD1",
+        "name": "World Liberty Financial USD",
+        "decimals": 6,
+        "icon": "https://raw.githubusercontent.com/worldliberty/usd1-metadata/refs/heads/main/logo.png",
+        "created_time": 1752528060,
+        "website": "",
+        "twitter": "",
+        "holder": 239457,
+        "market_cap": 157907942,
+        "price": 0.9994,
+        "price_change_24h": -0.01,
+        "volume_24h": 807459.47,
+        "pool_address": "solana_AQAGYQsdU853WAKhXM79CgNdoyhrRwXvYHX6qrDyC1FS",
+        "ath": 1.0487321954051128,
+        "ath_timestamp": 1757635200,
+        "ath_pool": "BCDdHonby65iduz3Ev3c9v5XjNkzyu5e56KRFHpBM4T9",
+        "dexId": "orca",
+        "pairAddress": "4qpDaAUb5oUrFH7EomqoEvvTjQeh9D4svZ48sUk7JVrk",
+        "txns_24h": {
+          "buys": 910,
+          "sells": 952
+        },
+        "fdv_usd": 157907942,
+        "total_reserve_in_usd": 255928.41,
+        "tags": [],
+        "first_signal": {
+          "timestamp": 1757553221,
+          "price": 0.9994
+        },
+        "metrics": {
+          "uniqueWallets": 2,
+          "inflow24h": -634.2764007149826,
+          "trades": [
+            {
+              "timestamp": "2026-03-03T20:49:56.000Z",
+              "type": "SELL",
+              "amount": 102.824276,
+              "usdValue": 102.55109949299619,
+              "wallet": {
+                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+                "name": "OGmoodeng"
+              }
+            },
+            {
+              "timestamp": "2026-03-03T20:44:47.000Z",
+              "type": "SWAP",
+              "amount": 84.986483,
+              "usdValue": 84.92891054852245,
+              "wallet": {
+                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+                "name": "OGmoodeng"
+              }
+            },
+            {
+              "timestamp": "2026-03-03T20:44:47.000Z",
+              "type": "BUY",
+              "amount": 84.986483,
+              "usdValue": 85.07711789468875,
+              "wallet": {
+                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+                "name": "OGmoodeng"
+              }
+            },
+            {
+              "timestamp": "2026-03-02T23:34:17.000Z",
+              "type": "SELL",
+              "amount": 484.479979,
+              "usdValue": 483.2591796569307,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-03-02T23:33:38.000Z",
+              "type": "SWAP",
+              "amount": 433.503875,
+              "usdValue": 483.1173259214834,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-03-02T23:33:38.000Z",
+              "type": "BUY",
+              "amount": 433.503875,
+              "usdValue": 434.5029970102614,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+            "name": "OGmoodeng",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+                "balance": 0,
+                "token_price": 0.9994,
+                "token_decimals": 6,
+                "token_symbol": "USD1",
+                "token_name": "World Liberty Financial USD",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+            "name": "cooker",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+                "balance": 0,
+                "token_price": 0.9994,
+                "token_decimals": 6,
+                "token_symbol": "USD1",
+                "token_name": "World Liberty Financial USD",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
         "address": "NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump",
         "symbol": "Punch",
         "name": "パンチ",
@@ -6850,10 +7114,10 @@
         "website": "https://x.com/Euphorbia10182/status/2018888215525269643",
         "twitter": "https://x.com/ord1nary_fella/status/2019331973789909450",
         "holder": 24861,
-        "market_cap": 12228929,
-        "price": 0.01222,
-        "price_change_24h": -13.04,
-        "volume_24h": 3293561.52,
+        "market_cap": 11682325,
+        "price": 0.01168,
+        "price_change_24h": -15.73,
+        "volume_24h": 3310864.62,
         "pool_address": "solana_A6KHMiFzn9AM7VKBtVP4fZNY9bCo2jP63R9dphaW1vrq",
         "ath": 0.05832637690337913,
         "ath_timestamp": 1771718400,
@@ -6861,11 +7125,11 @@
         "dexId": "pumpswap",
         "pairAddress": "A6KHMiFzn9AM7VKBtVP4fZNY9bCo2jP63R9dphaW1vrq",
         "txns_24h": {
-          "buys": 11206,
-          "sells": 9656
+          "buys": 11278,
+          "sells": 9652
         },
-        "fdv_usd": 12228929,
-        "total_reserve_in_usd": 588770.02,
+        "fdv_usd": 11682325,
+        "total_reserve_in_usd": 574458.79,
         "tags": [
           "moonshot"
         ],
@@ -7058,11 +7322,11 @@
               {
                 "token_address": "NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump",
                 "balance": 118492.374735,
-                "token_price": 0.01222,
+                "token_price": 0.01168,
                 "token_decimals": 6,
                 "token_symbol": "Punch",
                 "token_name": "パンチ",
-                "value": 1447.9768192617
+                "value": 1383.9909369048
               }
             ]
           },
@@ -7074,11 +7338,11 @@
               {
                 "token_address": "NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump",
                 "balance": 818354.975111,
-                "token_price": 0.01222,
+                "token_price": 0.01168,
                 "token_decimals": 6,
                 "token_symbol": "Punch",
                 "token_name": "パンチ",
-                "value": 10000.29779585642
+                "value": 9558.38610929648
               }
             ]
           }
