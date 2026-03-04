@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2026-03-04T08:59:34.260Z",
+  "timestamp": "2026-03-04T09:42:16.748Z",
   "data": [
     {
       "address": "NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump",
@@ -11,11 +11,11 @@
       "created_time": 1770281241,
       "website": "https://x.com/Euphorbia10182/status/2018888215525269643",
       "twitter": "https://x.com/ord1nary_fella/status/2019331973789909450",
-      "holder": 24652,
-      "market_cap": 12447350,
-      "price": 0.01244,
-      "price_change_24h": -8.77,
-      "volume_24h": 2543224.73,
+      "holder": 24648,
+      "market_cap": 14229390,
+      "price": 0.01422,
+      "price_change_24h": 3.61,
+      "volume_24h": 2680464.25,
       "pool_address": "solana_A6KHMiFzn9AM7VKBtVP4fZNY9bCo2jP63R9dphaW1vrq",
       "ath": 0.05832637690337913,
       "ath_timestamp": 1771718400,
@@ -26,11 +26,11 @@
         "active": 100
       },
       "txns_24h": {
-        "buys": 8163,
-        "sells": 6892
+        "buys": 8279,
+        "sells": 7447
       },
-      "fdv_usd": 12447350,
-      "total_reserve_in_usd": 609649.17,
+      "fdv_usd": 14229390,
+      "total_reserve_in_usd": 659068,
       "tags": [
         "moonshot"
       ],
@@ -39,9 +39,19 @@
         "price": 0.01422
       },
       "metrics": {
-        "uniqueWallets": 1,
-        "inflow24h": -6232.133933672218,
+        "uniqueWallets": 2,
+        "inflow24h": -11782.591985844465,
         "trades": [
+          {
+            "timestamp": "2026-03-04T09:11:46.000Z",
+            "type": "SELL",
+            "amount": 409177.487555,
+            "usdValue": 5550.4580521722455,
+            "wallet": {
+              "address": "hrx1rPTK8akUcjRPMgQeGcH1hvQ76LhnrD3LkKCkR86",
+              "name": "4MILGOAT"
+            }
+          },
           {
             "timestamp": "2026-03-03T15:37:07.000Z",
             "type": "SELL",
@@ -206,6 +216,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "hrx1rPTK8akUcjRPMgQeGcH1hvQ76LhnrD3LkKCkR86",
+          "name": "4MILGOAT",
+          "score": 1,
+          "tokens": [
+            {
+              "token_address": "NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump",
+              "balance": 409177.487556,
+              "token_price": 0.01422,
+              "token_decimals": 6,
+              "token_symbol": "Punch",
+              "token_name": "パンチ",
+              "value": 5818.50387304632
+            }
+          ]
+        },
+        {
           "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
           "name": "Wizard100x",
           "score": 3,
@@ -213,11 +239,11 @@
             {
               "token_address": "NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump",
               "balance": 118492.374735,
-              "token_price": 0.01244,
+              "token_price": 0.01422,
               "token_decimals": 6,
               "token_symbol": "Punch",
               "token_name": "パンチ",
-              "value": 1474.0451417034
+              "value": 1684.9615687317
             }
           ]
         }
@@ -233,10 +259,10 @@
       "website": "",
       "twitter": "",
       "holder": 402,
-      "market_cap": 7872,
-      "price": 7.872e-06,
-      "price_change_24h": -97.62,
-      "volume_24h": 352510.89,
+      "market_cap": 8239,
+      "price": 8.239e-06,
+      "price_change_24h": -97.32,
+      "volume_24h": 282874.51,
       "pool_address": "solana_BGGXNhA2KsLbmffiHY6iSU6SnBdBr4FEUPWbvQeUxHcs",
       "ath": 0.0004930998658534134,
       "ath_timestamp": 1772517600,
@@ -244,11 +270,11 @@
       "dexId": "meteora",
       "pairAddress": "BGGXNhA2KsLbmffiHY6iSU6SnBdBr4FEUPWbvQeUxHcs",
       "txns_24h": {
-        "buys": 5500,
-        "sells": 2726
+        "buys": 4979,
+        "sells": 2404
       },
-      "fdv_usd": 7872,
-      "total_reserve_in_usd": 7045.79,
+      "fdv_usd": 8239,
+      "total_reserve_in_usd": 7339.28,
       "tags": [],
       "first_signal": {
         "timestamp": 1772517285,
@@ -256,7 +282,7 @@
       },
       "metrics": {
         "uniqueWallets": 2,
-        "inflow24h": -587.5615534897868,
+        "inflow24h": -1435.3666253281522,
         "trades": [
           {
             "timestamp": "2026-03-03T11:14:38.000Z",
@@ -287,16 +313,6 @@
               "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
               "name": "DNF 哥"
             }
-          },
-          {
-            "timestamp": "2026-03-03T09:21:43.000Z",
-            "type": "BUY",
-            "amount": 3345837.524788711,
-            "usdValue": 847.8050718383654,
-            "wallet": {
-              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-              "name": "DNF 哥"
-            }
           }
         ]
       },
@@ -309,7 +325,7 @@
             {
               "token_address": "3VhpH2eJwfE1dLApVMGKnkM7t2hUUNZxiayJJ6sCSpLt",
               "balance": 0,
-              "token_price": 7.872e-06,
+              "token_price": 8.239e-06,
               "token_decimals": 9,
               "token_symbol": "Conviction",
               "token_name": "Conviction",
@@ -325,7 +341,7 @@
             {
               "token_address": "3VhpH2eJwfE1dLApVMGKnkM7t2hUUNZxiayJJ6sCSpLt",
               "balance": 0,
-              "token_price": 7.872e-06,
+              "token_price": 8.239e-06,
               "token_decimals": 9,
               "token_symbol": "Conviction",
               "token_name": "Conviction",
@@ -349,11 +365,11 @@
         "created_time": 1770281241,
         "website": "https://x.com/Euphorbia10182/status/2018888215525269643",
         "twitter": "https://x.com/ord1nary_fella/status/2019331973789909450",
-        "holder": 24652,
-        "market_cap": 12447350,
-        "price": 0.01244,
-        "price_change_24h": -8.77,
-        "volume_24h": 2543224.73,
+        "holder": 24648,
+        "market_cap": 14229390,
+        "price": 0.01422,
+        "price_change_24h": 3.61,
+        "volume_24h": 2680464.25,
         "pool_address": "solana_A6KHMiFzn9AM7VKBtVP4fZNY9bCo2jP63R9dphaW1vrq",
         "ath": 0.05832637690337913,
         "ath_timestamp": 1771718400,
@@ -364,11 +380,11 @@
           "active": 100
         },
         "txns_24h": {
-          "buys": 8163,
-          "sells": 6892
+          "buys": 8279,
+          "sells": 7447
         },
-        "fdv_usd": 12447350,
-        "total_reserve_in_usd": 609649.17,
+        "fdv_usd": 14229390,
+        "total_reserve_in_usd": 659068,
         "tags": [
           "moonshot"
         ],
@@ -377,9 +393,19 @@
           "price": 0.01422
         },
         "metrics": {
-          "uniqueWallets": 1,
-          "inflow24h": -6232.133933672218,
+          "uniqueWallets": 2,
+          "inflow24h": -11782.591985844465,
           "trades": [
+            {
+              "timestamp": "2026-03-04T09:11:46.000Z",
+              "type": "SELL",
+              "amount": 409177.487555,
+              "usdValue": 5550.4580521722455,
+              "wallet": {
+                "address": "hrx1rPTK8akUcjRPMgQeGcH1hvQ76LhnrD3LkKCkR86",
+                "name": "4MILGOAT"
+              }
+            },
             {
               "timestamp": "2026-03-03T15:37:07.000Z",
               "type": "SELL",
@@ -544,6 +570,22 @@
         },
         "walletPortfolios": [
           {
+            "address": "hrx1rPTK8akUcjRPMgQeGcH1hvQ76LhnrD3LkKCkR86",
+            "name": "4MILGOAT",
+            "score": 1,
+            "tokens": [
+              {
+                "token_address": "NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump",
+                "balance": 409177.487556,
+                "token_price": 0.01422,
+                "token_decimals": 6,
+                "token_symbol": "Punch",
+                "token_name": "パンチ",
+                "value": 5818.50387304632
+              }
+            ]
+          },
+          {
             "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
             "name": "Wizard100x",
             "score": 3,
@@ -551,11 +593,11 @@
               {
                 "token_address": "NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump",
                 "balance": 118492.374735,
-                "token_price": 0.01244,
+                "token_price": 0.01422,
                 "token_decimals": 6,
                 "token_symbol": "Punch",
                 "token_name": "パンチ",
-                "value": 1474.0451417034
+                "value": 1684.9615687317
               }
             ]
           }
@@ -571,10 +613,10 @@
         "website": "",
         "twitter": "",
         "holder": 402,
-        "market_cap": 7872,
-        "price": 7.872e-06,
-        "price_change_24h": -97.62,
-        "volume_24h": 352510.89,
+        "market_cap": 8239,
+        "price": 8.239e-06,
+        "price_change_24h": -97.32,
+        "volume_24h": 282874.51,
         "pool_address": "solana_BGGXNhA2KsLbmffiHY6iSU6SnBdBr4FEUPWbvQeUxHcs",
         "ath": 0.0004930998658534134,
         "ath_timestamp": 1772517600,
@@ -582,11 +624,11 @@
         "dexId": "meteora",
         "pairAddress": "BGGXNhA2KsLbmffiHY6iSU6SnBdBr4FEUPWbvQeUxHcs",
         "txns_24h": {
-          "buys": 5500,
-          "sells": 2726
+          "buys": 4979,
+          "sells": 2404
         },
-        "fdv_usd": 7872,
-        "total_reserve_in_usd": 7045.79,
+        "fdv_usd": 8239,
+        "total_reserve_in_usd": 7339.28,
         "tags": [],
         "first_signal": {
           "timestamp": 1772517285,
@@ -594,7 +636,7 @@
         },
         "metrics": {
           "uniqueWallets": 2,
-          "inflow24h": -587.5615534897868,
+          "inflow24h": -1435.3666253281522,
           "trades": [
             {
               "timestamp": "2026-03-03T11:14:38.000Z",
@@ -625,16 +667,6 @@
                 "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
                 "name": "DNF 哥"
               }
-            },
-            {
-              "timestamp": "2026-03-03T09:21:43.000Z",
-              "type": "BUY",
-              "amount": 3345837.524788711,
-              "usdValue": 847.8050718383654,
-              "wallet": {
-                "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-                "name": "DNF 哥"
-              }
             }
           ]
         },
@@ -647,7 +679,7 @@
               {
                 "token_address": "3VhpH2eJwfE1dLApVMGKnkM7t2hUUNZxiayJJ6sCSpLt",
                 "balance": 0,
-                "token_price": 7.872e-06,
+                "token_price": 8.239e-06,
                 "token_decimals": 9,
                 "token_symbol": "Conviction",
                 "token_name": "Conviction",
@@ -663,7 +695,7 @@
               {
                 "token_address": "3VhpH2eJwfE1dLApVMGKnkM7t2hUUNZxiayJJ6sCSpLt",
                 "balance": 0,
-                "token_price": 7.872e-06,
+                "token_price": 8.239e-06,
                 "token_decimals": 9,
                 "token_symbol": "Conviction",
                 "token_name": "Conviction",
