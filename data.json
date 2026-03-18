@@ -1,9 +1,233 @@
 {
   "success": true,
-  "timestamp": "2026-03-18T16:49:58.533Z",
-  "data": [],
+  "timestamp": "2026-03-18T17:47:26.195Z",
+  "data": [
+    {
+      "address": "65YnRAiThkUda2czNFXVuMaCTiNpiq3LLLWbtGTLpump",
+      "symbol": "Aliens",
+      "name": "Aliens.GOV",
+      "decimals": 6,
+      "icon": "https://ipfs.io/ipfs/bafkreidiacdbruk57tla6rvdlxvfpeebu3qp4ij4hkqqkdhtllvo2kkq6q",
+      "created_time": 1773846184,
+      "website": "",
+      "twitter": "",
+      "holder": 1249,
+      "market_cap": 210265,
+      "price": 0.0002102,
+      "price_change_24h": 474,
+      "volume_24h": 734353.77,
+      "pool_address": "solana_CH3QNj2GPA5fodd5o867sZsqVMWJvpNB1pjh1Anpzju5",
+      "ath": 0.0002102,
+      "ath_pool": "",
+      "dexId": "pumpswap",
+      "pairAddress": "CH3QNj2GPA5fodd5o867sZsqVMWJvpNB1pjh1Anpzju5",
+      "txns_24h": {
+        "buys": 7853,
+        "sells": 7174
+      },
+      "fdv_usd": 210265,
+      "total_reserve_in_usd": 38484.06,
+      "tags": [],
+      "first_signal": {
+        "timestamp": 1773856043,
+        "price": 0.0002102
+      },
+      "metrics": {
+        "uniqueWallets": 2,
+        "inflow24h": -100.31713025749832,
+        "trades": [
+          {
+            "timestamp": "2026-03-18T17:06:07.000Z",
+            "type": "SELL",
+            "amount": 1032210.836559,
+            "usdValue": 129.4602246554902,
+            "wallet": {
+              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+              "name": "OGmoodeng"
+            }
+          },
+          {
+            "timestamp": "2026-03-18T17:05:26.000Z",
+            "type": "SELL",
+            "amount": 7419918.218356,
+            "usdValue": 1038.2476440016585,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-03-18T17:03:50.000Z",
+            "type": "BUY",
+            "amount": 1032210.836559,
+            "usdValue": 178.03198038523067,
+            "wallet": {
+              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+              "name": "OGmoodeng"
+            }
+          },
+          {
+            "timestamp": "2026-03-18T17:02:09.000Z",
+            "type": "BUY",
+            "amount": 7419918.218356,
+            "usdValue": 889.3587580144198,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+          "name": "OGmoodeng",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "65YnRAiThkUda2czNFXVuMaCTiNpiq3LLLWbtGTLpump",
+              "balance": 0,
+              "token_price": 0.0002102,
+              "token_decimals": 6,
+              "token_symbol": "Aliens",
+              "token_name": "Aliens.GOV",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+          "name": "cooker",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "65YnRAiThkUda2czNFXVuMaCTiNpiq3LLLWbtGTLpump",
+              "balance": 0,
+              "token_price": 0.0002102,
+              "token_decimals": 6,
+              "token_symbol": "Aliens",
+              "token_name": "Aliens.GOV",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "groups": {
-    "latestSignals": [],
+    "latestSignals": [
+      {
+        "address": "65YnRAiThkUda2czNFXVuMaCTiNpiq3LLLWbtGTLpump",
+        "symbol": "Aliens",
+        "name": "Aliens.GOV",
+        "decimals": 6,
+        "icon": "https://ipfs.io/ipfs/bafkreidiacdbruk57tla6rvdlxvfpeebu3qp4ij4hkqqkdhtllvo2kkq6q",
+        "created_time": 1773846184,
+        "website": "",
+        "twitter": "",
+        "holder": 1249,
+        "market_cap": 210265,
+        "price": 0.0002102,
+        "price_change_24h": 474,
+        "volume_24h": 734353.77,
+        "pool_address": "solana_CH3QNj2GPA5fodd5o867sZsqVMWJvpNB1pjh1Anpzju5",
+        "ath": 0.0002102,
+        "ath_pool": "",
+        "dexId": "pumpswap",
+        "pairAddress": "CH3QNj2GPA5fodd5o867sZsqVMWJvpNB1pjh1Anpzju5",
+        "txns_24h": {
+          "buys": 7853,
+          "sells": 7174
+        },
+        "fdv_usd": 210265,
+        "total_reserve_in_usd": 38484.06,
+        "tags": [],
+        "first_signal": {
+          "timestamp": 1773856043,
+          "price": 0.0002102
+        },
+        "metrics": {
+          "uniqueWallets": 2,
+          "inflow24h": -100.31713025749832,
+          "trades": [
+            {
+              "timestamp": "2026-03-18T17:06:07.000Z",
+              "type": "SELL",
+              "amount": 1032210.836559,
+              "usdValue": 129.4602246554902,
+              "wallet": {
+                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+                "name": "OGmoodeng"
+              }
+            },
+            {
+              "timestamp": "2026-03-18T17:05:26.000Z",
+              "type": "SELL",
+              "amount": 7419918.218356,
+              "usdValue": 1038.2476440016585,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-03-18T17:03:50.000Z",
+              "type": "BUY",
+              "amount": 1032210.836559,
+              "usdValue": 178.03198038523067,
+              "wallet": {
+                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+                "name": "OGmoodeng"
+              }
+            },
+            {
+              "timestamp": "2026-03-18T17:02:09.000Z",
+              "type": "BUY",
+              "amount": 7419918.218356,
+              "usdValue": 889.3587580144198,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+            "name": "OGmoodeng",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "65YnRAiThkUda2czNFXVuMaCTiNpiq3LLLWbtGTLpump",
+                "balance": 0,
+                "token_price": 0.0002102,
+                "token_decimals": 6,
+                "token_symbol": "Aliens",
+                "token_name": "Aliens.GOV",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+            "name": "cooker",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "65YnRAiThkUda2czNFXVuMaCTiNpiq3LLLWbtGTLpump",
+                "balance": 0,
+                "token_price": 0.0002102,
+                "token_decimals": 6,
+                "token_symbol": "Aliens",
+                "token_name": "Aliens.GOV",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "buys": [],
     "sells": []
   }
