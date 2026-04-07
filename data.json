@@ -1,10 +1,296 @@
 {
   "success": true,
-  "timestamp": "2026-04-07T23:01:21.999Z",
-  "data": [],
+  "timestamp": "2026-04-07T23:45:18.020Z",
+  "data": [
+    {
+      "address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+      "symbol": "USD1",
+      "name": "World Liberty Financial USD",
+      "decimals": 6,
+      "icon": "https://raw.githubusercontent.com/worldliberty/usd1-metadata/refs/heads/main/logo.png",
+      "created_time": 1752528060,
+      "website": "",
+      "twitter": "",
+      "holder": 258446,
+      "market_cap": 157951995,
+      "price": 0.9996,
+      "price_change_24h": -0.01,
+      "volume_24h": 4760574.76,
+      "pool_address": "solana_AQAGYQsdU853WAKhXM79CgNdoyhrRwXvYHX6qrDyC1FS",
+      "ath": 1.0487321954051128,
+      "ath_timestamp": 1757635200,
+      "ath_pool": "BCDdHonby65iduz3Ev3c9v5XjNkzyu5e56KRFHpBM4T9",
+      "dexId": "raydium",
+      "pairAddress": "BCDdHonby65iduz3Ev3c9v5XjNkzyu5e56KRFHpBM4T9",
+      "txns_24h": {
+        "buys": 2421,
+        "sells": 1748
+      },
+      "fdv_usd": 157951995,
+      "total_reserve_in_usd": 9896091.91,
+      "tags": [],
+      "first_signal": {
+        "timestamp": 1757553221,
+        "price": 0.9994
+      },
+      "metrics": {
+        "uniqueWallets": 2,
+        "inflow24h": 239.3142611753206,
+        "trades": [
+          {
+            "timestamp": "2026-04-07T23:03:58.000Z",
+            "type": "SELL",
+            "amount": 116.983025,
+            "usdValue": 116.8777299214251,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-04-07T23:03:48.000Z",
+            "type": "SWAP",
+            "amount": 8.526816,
+            "usdValue": -1,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-04-07T23:03:48.000Z",
+            "type": "BUY",
+            "amount": 8.526816,
+            "usdValue": 8.562045268826093,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-04-07T23:03:25.000Z",
+            "type": "SWAP",
+            "amount": 255.86008,
+            "usdValue": -1,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-04-07T23:03:25.000Z",
+            "type": "BUY",
+            "amount": 255.86008,
+            "usdValue": 256.8613580647828,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-04-07T02:32:15.000Z",
+            "type": "SWAP",
+            "amount": 87.361688,
+            "usdValue": -1,
+            "wallet": {
+              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+              "name": "OGmoodeng"
+            }
+          },
+          {
+            "timestamp": "2026-04-07T02:32:15.000Z",
+            "type": "BUY",
+            "amount": 87.361688,
+            "usdValue": 87.76858776313681,
+            "wallet": {
+              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+              "name": "OGmoodeng"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+          "name": "cooker",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+              "balance": 0,
+              "token_price": 0.9996,
+              "token_decimals": 6,
+              "token_symbol": "USD1",
+              "token_name": "World Liberty Financial USD",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+          "name": "OGmoodeng",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+              "balance": 0,
+              "token_price": 0.9996,
+              "token_decimals": 6,
+              "token_symbol": "USD1",
+              "token_name": "World Liberty Financial USD",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "groups": {
     "latestSignals": [],
     "buys": [],
-    "sells": []
+    "sells": [
+      {
+        "address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+        "symbol": "USD1",
+        "name": "World Liberty Financial USD",
+        "decimals": 6,
+        "icon": "https://raw.githubusercontent.com/worldliberty/usd1-metadata/refs/heads/main/logo.png",
+        "created_time": 1752528060,
+        "website": "",
+        "twitter": "",
+        "holder": 258446,
+        "market_cap": 157951995,
+        "price": 0.9996,
+        "price_change_24h": -0.01,
+        "volume_24h": 4760574.76,
+        "pool_address": "solana_AQAGYQsdU853WAKhXM79CgNdoyhrRwXvYHX6qrDyC1FS",
+        "ath": 1.0487321954051128,
+        "ath_timestamp": 1757635200,
+        "ath_pool": "BCDdHonby65iduz3Ev3c9v5XjNkzyu5e56KRFHpBM4T9",
+        "dexId": "raydium",
+        "pairAddress": "BCDdHonby65iduz3Ev3c9v5XjNkzyu5e56KRFHpBM4T9",
+        "txns_24h": {
+          "buys": 2421,
+          "sells": 1748
+        },
+        "fdv_usd": 157951995,
+        "total_reserve_in_usd": 9896091.91,
+        "tags": [],
+        "first_signal": {
+          "timestamp": 1757553221,
+          "price": 0.9994
+        },
+        "metrics": {
+          "uniqueWallets": 2,
+          "inflow24h": 239.3142611753206,
+          "trades": [
+            {
+              "timestamp": "2026-04-07T23:03:58.000Z",
+              "type": "SELL",
+              "amount": 116.983025,
+              "usdValue": 116.8777299214251,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-04-07T23:03:48.000Z",
+              "type": "SWAP",
+              "amount": 8.526816,
+              "usdValue": -1,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-04-07T23:03:48.000Z",
+              "type": "BUY",
+              "amount": 8.526816,
+              "usdValue": 8.562045268826093,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-04-07T23:03:25.000Z",
+              "type": "SWAP",
+              "amount": 255.86008,
+              "usdValue": -1,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-04-07T23:03:25.000Z",
+              "type": "BUY",
+              "amount": 255.86008,
+              "usdValue": 256.8613580647828,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-04-07T02:32:15.000Z",
+              "type": "SWAP",
+              "amount": 87.361688,
+              "usdValue": -1,
+              "wallet": {
+                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+                "name": "OGmoodeng"
+              }
+            },
+            {
+              "timestamp": "2026-04-07T02:32:15.000Z",
+              "type": "BUY",
+              "amount": 87.361688,
+              "usdValue": 87.76858776313681,
+              "wallet": {
+                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+                "name": "OGmoodeng"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+            "name": "cooker",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+                "balance": 0,
+                "token_price": 0.9996,
+                "token_decimals": 6,
+                "token_symbol": "USD1",
+                "token_name": "World Liberty Financial USD",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+            "name": "OGmoodeng",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+                "balance": 0,
+                "token_price": 0.9996,
+                "token_decimals": 6,
+                "token_symbol": "USD1",
+                "token_name": "World Liberty Financial USD",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 }
