@@ -1,7 +1,108 @@
 {
   "success": true,
-  "timestamp": "2026-04-27T11:22:51.621Z",
+  "timestamp": "2026-04-27T12:56:02.158Z",
   "data": [
+    {
+      "address": "71J7km7xf7Qmake5DGDMA8Dx6AWn6mgNqx89CNuApump",
+      "symbol": "KICAU",
+      "name": "Kicau Mania",
+      "decimals": 6,
+      "icon": "https://ipfs.io/ipfs/bafkreicuhtbldi4hnm5kslkbnyvvavba5kavyf6sim6pqnfwwvfvuj6usm",
+      "created_time": 1776641651,
+      "website": "",
+      "twitter": "",
+      "holder": 136,
+      "market_cap": 18345,
+      "price": 1.834e-05,
+      "price_change_24h": 66.6,
+      "volume_24h": 33893.26,
+      "pool_address": "solana_2BuYRAi8hjMU3bdwCs2GxhdzicR4PgzDb4DMjY6yvVRY",
+      "ath": 1.834e-05,
+      "ath_pool": "",
+      "dexId": "pumpswap",
+      "pairAddress": "2BuYRAi8hjMU3bdwCs2GxhdzicR4PgzDb4DMjY6yvVRY",
+      "txns_24h": {
+        "buys": 524,
+        "sells": 270
+      },
+      "fdv_usd": 18345,
+      "total_reserve_in_usd": 10564.59,
+      "tags": [],
+      "first_signal": {
+        "timestamp": 1777294559,
+        "price": 1.834e-05
+      },
+      "metrics": {
+        "uniqueWallets": 2,
+        "inflow24h": -90.53379403665124,
+        "trades": [
+          {
+            "timestamp": "2026-04-27T12:45:06.000Z",
+            "type": "SELL",
+            "amount": 17434799.225289,
+            "usdValue": 345.5710737790037,
+            "wallet": {
+              "address": "4jSmEmBkuBi1JxZHM1khkf57xPR2oW1EnkRxqehq1cSK",
+              "name": "1000xSniper"
+            }
+          },
+          {
+            "timestamp": "2026-04-27T12:44:47.000Z",
+            "type": "BUY",
+            "amount": 34869598.450577,
+            "usdValue": 426.56559024392675,
+            "wallet": {
+              "address": "4jSmEmBkuBi1JxZHM1khkf57xPR2oW1EnkRxqehq1cSK",
+              "name": "1000xSniper"
+            }
+          },
+          {
+            "timestamp": "2026-04-26T15:01:11.000Z",
+            "type": "SELL",
+            "amount": 10000000,
+            "usdValue": 171.52831050157428,
+            "wallet": {
+              "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+              "name": "Ansem"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "4jSmEmBkuBi1JxZHM1khkf57xPR2oW1EnkRxqehq1cSK",
+          "name": "1000xSniper",
+          "score": 1,
+          "tokens": [
+            {
+              "token_address": "71J7km7xf7Qmake5DGDMA8Dx6AWn6mgNqx89CNuApump",
+              "balance": 17434799.225288,
+              "token_price": 1.834e-05,
+              "token_decimals": 6,
+              "token_symbol": "KICAU",
+              "token_name": "Kicau Mania",
+              "value": 319.7542177917819
+            }
+          ]
+        },
+        {
+          "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+          "name": "Ansem",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "71J7km7xf7Qmake5DGDMA8Dx6AWn6mgNqx89CNuApump",
+              "balance": 0,
+              "token_price": 1.834e-05,
+              "token_decimals": 6,
+              "token_symbol": "KICAU",
+              "token_name": "Kicau Mania",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
     {
       "address": "CJUrENDAuSm4FxxziUgftnUJqqXjm4VL1zhJgwXupump",
       "symbol": "HENRY",
@@ -11,11 +112,11 @@
       "created_time": 1777169976,
       "website": "https://axiom.trade/@sellhigh",
       "twitter": "https://x.com/PerryALPHA/status/2048225107173163115",
-      "holder": 7888,
-      "market_cap": 1900379,
-      "price": 0.0019,
-      "price_change_24h": 63.83,
-      "volume_24h": 11614960.76,
+      "holder": 7936,
+      "market_cap": 2099453,
+      "price": 0.002099,
+      "price_change_24h": 103,
+      "volume_24h": 11320625.76,
       "pool_address": "solana_5JSMSd7NSp2iLZNAJo9H2oewxEewqphR1skL65F9Uywt",
       "ath": 0.003282,
       "ath_timestamp": 1777253491,
@@ -23,11 +124,11 @@
       "dexId": "pumpswap",
       "pairAddress": "5JSMSd7NSp2iLZNAJo9H2oewxEewqphR1skL65F9Uywt",
       "txns_24h": {
-        "buys": 72049,
-        "sells": 61162
+        "buys": 67162,
+        "sells": 58434
       },
-      "fdv_usd": 1900379,
-      "total_reserve_in_usd": 148309.63,
+      "fdv_usd": 2099453,
+      "total_reserve_in_usd": 156147.59,
       "tags": [
         "moonshot"
       ],
@@ -70,7 +171,7 @@
             {
               "token_address": "CJUrENDAuSm4FxxziUgftnUJqqXjm4VL1zhJgwXupump",
               "balance": 0,
-              "token_price": 0.0019,
+              "token_price": 0.002099,
               "token_decimals": 6,
               "token_symbol": "HENRY",
               "token_name": "The Man from the Future",
@@ -84,6 +185,107 @@
   "groups": {
     "latestSignals": [
       {
+        "address": "71J7km7xf7Qmake5DGDMA8Dx6AWn6mgNqx89CNuApump",
+        "symbol": "KICAU",
+        "name": "Kicau Mania",
+        "decimals": 6,
+        "icon": "https://ipfs.io/ipfs/bafkreicuhtbldi4hnm5kslkbnyvvavba5kavyf6sim6pqnfwwvfvuj6usm",
+        "created_time": 1776641651,
+        "website": "",
+        "twitter": "",
+        "holder": 136,
+        "market_cap": 18345,
+        "price": 1.834e-05,
+        "price_change_24h": 66.6,
+        "volume_24h": 33893.26,
+        "pool_address": "solana_2BuYRAi8hjMU3bdwCs2GxhdzicR4PgzDb4DMjY6yvVRY",
+        "ath": 1.834e-05,
+        "ath_pool": "",
+        "dexId": "pumpswap",
+        "pairAddress": "2BuYRAi8hjMU3bdwCs2GxhdzicR4PgzDb4DMjY6yvVRY",
+        "txns_24h": {
+          "buys": 524,
+          "sells": 270
+        },
+        "fdv_usd": 18345,
+        "total_reserve_in_usd": 10564.59,
+        "tags": [],
+        "first_signal": {
+          "timestamp": 1777294559,
+          "price": 1.834e-05
+        },
+        "metrics": {
+          "uniqueWallets": 2,
+          "inflow24h": -90.53379403665124,
+          "trades": [
+            {
+              "timestamp": "2026-04-27T12:45:06.000Z",
+              "type": "SELL",
+              "amount": 17434799.225289,
+              "usdValue": 345.5710737790037,
+              "wallet": {
+                "address": "4jSmEmBkuBi1JxZHM1khkf57xPR2oW1EnkRxqehq1cSK",
+                "name": "1000xSniper"
+              }
+            },
+            {
+              "timestamp": "2026-04-27T12:44:47.000Z",
+              "type": "BUY",
+              "amount": 34869598.450577,
+              "usdValue": 426.56559024392675,
+              "wallet": {
+                "address": "4jSmEmBkuBi1JxZHM1khkf57xPR2oW1EnkRxqehq1cSK",
+                "name": "1000xSniper"
+              }
+            },
+            {
+              "timestamp": "2026-04-26T15:01:11.000Z",
+              "type": "SELL",
+              "amount": 10000000,
+              "usdValue": 171.52831050157428,
+              "wallet": {
+                "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+                "name": "Ansem"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "4jSmEmBkuBi1JxZHM1khkf57xPR2oW1EnkRxqehq1cSK",
+            "name": "1000xSniper",
+            "score": 1,
+            "tokens": [
+              {
+                "token_address": "71J7km7xf7Qmake5DGDMA8Dx6AWn6mgNqx89CNuApump",
+                "balance": 17434799.225288,
+                "token_price": 1.834e-05,
+                "token_decimals": 6,
+                "token_symbol": "KICAU",
+                "token_name": "Kicau Mania",
+                "value": 319.7542177917819
+              }
+            ]
+          },
+          {
+            "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+            "name": "Ansem",
+            "score": 3,
+            "tokens": [
+              {
+                "token_address": "71J7km7xf7Qmake5DGDMA8Dx6AWn6mgNqx89CNuApump",
+                "balance": 0,
+                "token_price": 1.834e-05,
+                "token_decimals": 6,
+                "token_symbol": "KICAU",
+                "token_name": "Kicau Mania",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
         "address": "CJUrENDAuSm4FxxziUgftnUJqqXjm4VL1zhJgwXupump",
         "symbol": "HENRY",
         "name": "The Man from the Future",
@@ -92,11 +294,11 @@
         "created_time": 1777169976,
         "website": "https://axiom.trade/@sellhigh",
         "twitter": "https://x.com/PerryALPHA/status/2048225107173163115",
-        "holder": 7888,
-        "market_cap": 1900379,
-        "price": 0.0019,
-        "price_change_24h": 63.83,
-        "volume_24h": 11614960.76,
+        "holder": 7936,
+        "market_cap": 2099453,
+        "price": 0.002099,
+        "price_change_24h": 103,
+        "volume_24h": 11320625.76,
         "pool_address": "solana_5JSMSd7NSp2iLZNAJo9H2oewxEewqphR1skL65F9Uywt",
         "ath": 0.003282,
         "ath_timestamp": 1777253491,
@@ -104,11 +306,11 @@
         "dexId": "pumpswap",
         "pairAddress": "5JSMSd7NSp2iLZNAJo9H2oewxEewqphR1skL65F9Uywt",
         "txns_24h": {
-          "buys": 72049,
-          "sells": 61162
+          "buys": 67162,
+          "sells": 58434
         },
-        "fdv_usd": 1900379,
-        "total_reserve_in_usd": 148309.63,
+        "fdv_usd": 2099453,
+        "total_reserve_in_usd": 156147.59,
         "tags": [
           "moonshot"
         ],
@@ -151,7 +353,7 @@
               {
                 "token_address": "CJUrENDAuSm4FxxziUgftnUJqqXjm4VL1zhJgwXupump",
                 "balance": 0,
-                "token_price": 0.0019,
+                "token_price": 0.002099,
                 "token_decimals": 6,
                 "token_symbol": "HENRY",
                 "token_name": "The Man from the Future",
