@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2026-05-05T21:14:13.432Z",
+  "timestamp": "2026-05-05T22:12:10.973Z",
   "data": [
     {
       "address": "PAYmo6moDF3Ro3X6bU2jwe2UdBnBhv8YjLgL1j4DxGu",
@@ -11,11 +11,11 @@
       "created_time": 1762096251,
       "website": "https://payai.network",
       "twitter": "https://x.com/PayAINetwork",
-      "holder": 5315,
-      "market_cap": 8118760,
-      "price": 0.008119,
-      "price_change_24h": 257,
-      "volume_24h": 2066050.91,
+      "holder": 5365,
+      "market_cap": 8939303,
+      "price": 0.008939,
+      "price_change_24h": 291,
+      "volume_24h": 2249909.88,
       "pool_address": "solana_dAVkU4eGCj9qzEV2pDFynpF3nwL97odmbFHfDBKDvLz",
       "ath": 0.008759,
       "ath_timestamp": 1778012098,
@@ -23,11 +23,11 @@
       "dexId": "raydium",
       "pairAddress": "dAVkU4eGCj9qzEV2pDFynpF3nwL97odmbFHfDBKDvLz",
       "txns_24h": {
-        "buys": 4139,
-        "sells": 3538
+        "buys": 4306,
+        "sells": 3866
       },
-      "fdv_usd": 8118760,
-      "total_reserve_in_usd": 664172.73,
+      "fdv_usd": 8939303,
+      "total_reserve_in_usd": 704734.97,
       "tags": [],
       "first_signal": {
         "timestamp": 1778012087,
@@ -35,8 +35,28 @@
       },
       "metrics": {
         "uniqueWallets": 3,
-        "inflow24h": 38355.75154837479,
+        "inflow24h": 59773.407776187996,
         "trades": [
+          {
+            "timestamp": "2026-05-05T21:44:35.000Z",
+            "type": "BUY",
+            "amount": 910344.17753939,
+            "usdValue": 8564.100437111425,
+            "wallet": {
+              "address": "71CPXu3TvH3iUKaY1bNkAAow24k6tjH473SsKprQBABC",
+              "name": "王小二"
+            }
+          },
+          {
+            "timestamp": "2026-05-05T21:43:21.000Z",
+            "type": "BUY",
+            "amount": 1391578.016787276,
+            "usdValue": 12853.55579070178,
+            "wallet": {
+              "address": "71CPXu3TvH3iUKaY1bNkAAow24k6tjH473SsKprQBABC",
+              "name": "王小二"
+            }
+          },
           {
             "timestamp": "2026-05-05T19:21:45.000Z",
             "type": "SELL",
@@ -131,6 +151,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "71CPXu3TvH3iUKaY1bNkAAow24k6tjH473SsKprQBABC",
+          "name": "王小二",
+          "score": 1,
+          "tokens": [
+            {
+              "token_address": "PAYmo6moDF3Ro3X6bU2jwe2UdBnBhv8YjLgL1j4DxGu",
+              "balance": 7978607.622814855,
+              "token_price": 0.008939,
+              "token_decimals": 9,
+              "token_symbol": "PAYAI",
+              "token_name": "PayAI",
+              "value": 71320.773540342
+            }
+          ]
+        },
+        {
           "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
           "name": "Wizard100x",
           "score": 3,
@@ -138,27 +174,11 @@
             {
               "token_address": "PAYmo6moDF3Ro3X6bU2jwe2UdBnBhv8YjLgL1j4DxGu",
               "balance": 0,
-              "token_price": 0.008119,
+              "token_price": 0.008939,
               "token_decimals": 9,
               "token_symbol": "PAYAI",
               "token_name": "PayAI",
               "value": 0
-            }
-          ]
-        },
-        {
-          "address": "71CPXu3TvH3iUKaY1bNkAAow24k6tjH473SsKprQBABC",
-          "name": "王小二",
-          "score": 1,
-          "tokens": [
-            {
-              "token_address": "PAYmo6moDF3Ro3X6bU2jwe2UdBnBhv8YjLgL1j4DxGu",
-              "balance": 5676685.428488189,
-              "token_price": 0.008119,
-              "token_decimals": 9,
-              "token_symbol": "PAYAI",
-              "token_name": "PayAI",
-              "value": 46089.00899389561
             }
           ]
         },
@@ -170,11 +190,89 @@
             {
               "token_address": "PAYmo6moDF3Ro3X6bU2jwe2UdBnBhv8YjLgL1j4DxGu",
               "balance": 0,
-              "token_price": 0.008119,
+              "token_price": 0.008939,
               "token_decimals": 9,
               "token_symbol": "PAYAI",
               "token_name": "PayAI",
               "value": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "address": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
+      "symbol": "CARDS",
+      "name": "Collector Crypt",
+      "decimals": 6,
+      "icon": "https://gateway.irys.xyz/2wrjAk4pYAACF3siDHAxt7yJY7kHgt57TZAkbgecKHMR",
+      "created_time": 1756252301,
+      "website": "",
+      "twitter": "",
+      "holder": 11959,
+      "market_cap": 41218240,
+      "price": 0.16,
+      "price_change_24h": -0.99,
+      "volume_24h": 579494.27,
+      "pool_address": "solana_HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD",
+      "ath": 0.3830175199241448,
+      "ath_timestamp": 1757808000,
+      "ath_pool": "HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD",
+      "dexId": "raydium",
+      "pairAddress": "F3DAAusn8mob9swWaX4ehaRrhi2Q3XJScKkuUpXdvn2i",
+      "txns_24h": {
+        "buys": 5904,
+        "sells": 5655
+      },
+      "fdv_usd": 320076745,
+      "total_reserve_in_usd": 46147.88,
+      "tags": [
+        "moonshot"
+      ],
+      "first_signal": {
+        "timestamp": 1756868654,
+        "price": 0.09945
+      },
+      "metrics": {
+        "uniqueWallets": 1,
+        "inflow24h": -484.0429370658228,
+        "trades": [
+          {
+            "timestamp": "2026-05-05T21:34:14.000Z",
+            "type": "BUY",
+            "amount": 11505.736774,
+            "usdValue": 1726.2614054563126,
+            "wallet": {
+              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+              "name": "凉粉小刀"
+            }
+          },
+          {
+            "timestamp": "2026-05-05T00:49:13.000Z",
+            "type": "SELL",
+            "amount": 12811.158324,
+            "usdValue": 2210.3043425221354,
+            "wallet": {
+              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+              "name": "凉粉小刀"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+          "name": "凉粉小刀",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
+              "balance": 11505.736774,
+              "token_price": 0.16,
+              "token_decimals": 6,
+              "token_symbol": "CARDS",
+              "token_name": "Collector Crypt",
+              "value": 1840.9178838400003
             }
           ]
         }
@@ -189,23 +287,23 @@
       "created_time": 1777130737,
       "website": "",
       "twitter": "https://x.com/ffooo000/status/2048060828012757143",
-      "holder": 4224,
-      "market_cap": 4299621,
-      "price": 0.005945,
-      "price_change_24h": 228,
-      "volume_24h": 3630671.76,
+      "holder": 4438,
+      "market_cap": 3974366,
+      "price": 0.005496,
+      "price_change_24h": 182,
+      "volume_24h": 3789903.01,
       "pool_address": "solana_BJt1j9BqcGGHLmFMmCwYvD5aapSEut1MvFCR64xmrAYV",
-      "ath": 0.004687,
-      "ath_timestamp": 1778012098,
+      "ath": 0.005945,
+      "ath_timestamp": 1778015653,
       "ath_pool": "3yPpxAKkN2uu4q2Gxb9HWZfiUWK4DEKeQFFe6WWXhrds",
       "dexId": "pumpswap",
       "pairAddress": "BJt1j9BqcGGHLmFMmCwYvD5aapSEut1MvFCR64xmrAYV",
       "txns_24h": {
-        "buys": 11171,
-        "sells": 11606
+        "buys": 11741,
+        "sells": 12047
       },
-      "fdv_usd": 4276199,
-      "total_reserve_in_usd": 296515.16,
+      "fdv_usd": 3952614,
+      "total_reserve_in_usd": 285411.38,
       "tags": [
         "moonshot"
       ],
@@ -288,11 +386,11 @@
             {
               "token_address": "3KHMZhpthXuiCcgfTv7vVu9PpEz64KAEURFwi6Lopump",
               "balance": 302950.444548,
-              "token_price": 0.005945,
+              "token_price": 0.005496,
               "token_decimals": 6,
               "token_symbol": "Goblin",
               "token_name": "GoblinCoin",
-              "value": 1801.0403928378598
+              "value": 1665.015643235808
             }
           ]
         }
@@ -310,11 +408,11 @@
         "created_time": 1762096251,
         "website": "https://payai.network",
         "twitter": "https://x.com/PayAINetwork",
-        "holder": 5315,
-        "market_cap": 8118760,
-        "price": 0.008119,
-        "price_change_24h": 257,
-        "volume_24h": 2066050.91,
+        "holder": 5365,
+        "market_cap": 8939303,
+        "price": 0.008939,
+        "price_change_24h": 291,
+        "volume_24h": 2249909.88,
         "pool_address": "solana_dAVkU4eGCj9qzEV2pDFynpF3nwL97odmbFHfDBKDvLz",
         "ath": 0.008759,
         "ath_timestamp": 1778012098,
@@ -322,11 +420,11 @@
         "dexId": "raydium",
         "pairAddress": "dAVkU4eGCj9qzEV2pDFynpF3nwL97odmbFHfDBKDvLz",
         "txns_24h": {
-          "buys": 4139,
-          "sells": 3538
+          "buys": 4306,
+          "sells": 3866
         },
-        "fdv_usd": 8118760,
-        "total_reserve_in_usd": 664172.73,
+        "fdv_usd": 8939303,
+        "total_reserve_in_usd": 704734.97,
         "tags": [],
         "first_signal": {
           "timestamp": 1778012087,
@@ -334,8 +432,28 @@
         },
         "metrics": {
           "uniqueWallets": 3,
-          "inflow24h": 38355.75154837479,
+          "inflow24h": 59773.407776187996,
           "trades": [
+            {
+              "timestamp": "2026-05-05T21:44:35.000Z",
+              "type": "BUY",
+              "amount": 910344.17753939,
+              "usdValue": 8564.100437111425,
+              "wallet": {
+                "address": "71CPXu3TvH3iUKaY1bNkAAow24k6tjH473SsKprQBABC",
+                "name": "王小二"
+              }
+            },
+            {
+              "timestamp": "2026-05-05T21:43:21.000Z",
+              "type": "BUY",
+              "amount": 1391578.016787276,
+              "usdValue": 12853.55579070178,
+              "wallet": {
+                "address": "71CPXu3TvH3iUKaY1bNkAAow24k6tjH473SsKprQBABC",
+                "name": "王小二"
+              }
+            },
             {
               "timestamp": "2026-05-05T19:21:45.000Z",
               "type": "SELL",
@@ -430,6 +548,22 @@
         },
         "walletPortfolios": [
           {
+            "address": "71CPXu3TvH3iUKaY1bNkAAow24k6tjH473SsKprQBABC",
+            "name": "王小二",
+            "score": 1,
+            "tokens": [
+              {
+                "token_address": "PAYmo6moDF3Ro3X6bU2jwe2UdBnBhv8YjLgL1j4DxGu",
+                "balance": 7978607.622814855,
+                "token_price": 0.008939,
+                "token_decimals": 9,
+                "token_symbol": "PAYAI",
+                "token_name": "PayAI",
+                "value": 71320.773540342
+              }
+            ]
+          },
+          {
             "address": "Fuc5NafXzpsAoRpM1fFXCFU5Wcd2CARRhGfcvj2RMs87",
             "name": "Wizard100x",
             "score": 3,
@@ -437,27 +571,11 @@
               {
                 "token_address": "PAYmo6moDF3Ro3X6bU2jwe2UdBnBhv8YjLgL1j4DxGu",
                 "balance": 0,
-                "token_price": 0.008119,
+                "token_price": 0.008939,
                 "token_decimals": 9,
                 "token_symbol": "PAYAI",
                 "token_name": "PayAI",
                 "value": 0
-              }
-            ]
-          },
-          {
-            "address": "71CPXu3TvH3iUKaY1bNkAAow24k6tjH473SsKprQBABC",
-            "name": "王小二",
-            "score": 1,
-            "tokens": [
-              {
-                "token_address": "PAYmo6moDF3Ro3X6bU2jwe2UdBnBhv8YjLgL1j4DxGu",
-                "balance": 5676685.428488189,
-                "token_price": 0.008119,
-                "token_decimals": 9,
-                "token_symbol": "PAYAI",
-                "token_name": "PayAI",
-                "value": 46089.00899389561
               }
             ]
           },
@@ -469,7 +587,7 @@
               {
                 "token_address": "PAYmo6moDF3Ro3X6bU2jwe2UdBnBhv8YjLgL1j4DxGu",
                 "balance": 0,
-                "token_price": 0.008119,
+                "token_price": 0.008939,
                 "token_decimals": 9,
                 "token_symbol": "PAYAI",
                 "token_name": "PayAI",
@@ -488,23 +606,23 @@
         "created_time": 1777130737,
         "website": "",
         "twitter": "https://x.com/ffooo000/status/2048060828012757143",
-        "holder": 4224,
-        "market_cap": 4299621,
-        "price": 0.005945,
-        "price_change_24h": 228,
-        "volume_24h": 3630671.76,
+        "holder": 4438,
+        "market_cap": 3974366,
+        "price": 0.005496,
+        "price_change_24h": 182,
+        "volume_24h": 3789903.01,
         "pool_address": "solana_BJt1j9BqcGGHLmFMmCwYvD5aapSEut1MvFCR64xmrAYV",
-        "ath": 0.004687,
-        "ath_timestamp": 1778012098,
+        "ath": 0.005945,
+        "ath_timestamp": 1778015653,
         "ath_pool": "3yPpxAKkN2uu4q2Gxb9HWZfiUWK4DEKeQFFe6WWXhrds",
         "dexId": "pumpswap",
         "pairAddress": "BJt1j9BqcGGHLmFMmCwYvD5aapSEut1MvFCR64xmrAYV",
         "txns_24h": {
-          "buys": 11171,
-          "sells": 11606
+          "buys": 11741,
+          "sells": 12047
         },
-        "fdv_usd": 4276199,
-        "total_reserve_in_usd": 296515.16,
+        "fdv_usd": 3952614,
+        "total_reserve_in_usd": 285411.38,
         "tags": [
           "moonshot"
         ],
@@ -587,18 +705,97 @@
               {
                 "token_address": "3KHMZhpthXuiCcgfTv7vVu9PpEz64KAEURFwi6Lopump",
                 "balance": 302950.444548,
-                "token_price": 0.005945,
+                "token_price": 0.005496,
                 "token_decimals": 6,
                 "token_symbol": "Goblin",
                 "token_name": "GoblinCoin",
-                "value": 1801.0403928378598
+                "value": 1665.015643235808
               }
             ]
           }
         ]
       }
     ],
-    "buys": [],
+    "buys": [
+      {
+        "address": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
+        "symbol": "CARDS",
+        "name": "Collector Crypt",
+        "decimals": 6,
+        "icon": "https://gateway.irys.xyz/2wrjAk4pYAACF3siDHAxt7yJY7kHgt57TZAkbgecKHMR",
+        "created_time": 1756252301,
+        "website": "",
+        "twitter": "",
+        "holder": 11959,
+        "market_cap": 41218240,
+        "price": 0.16,
+        "price_change_24h": -0.99,
+        "volume_24h": 579494.27,
+        "pool_address": "solana_HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD",
+        "ath": 0.3830175199241448,
+        "ath_timestamp": 1757808000,
+        "ath_pool": "HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD",
+        "dexId": "raydium",
+        "pairAddress": "F3DAAusn8mob9swWaX4ehaRrhi2Q3XJScKkuUpXdvn2i",
+        "txns_24h": {
+          "buys": 5904,
+          "sells": 5655
+        },
+        "fdv_usd": 320076745,
+        "total_reserve_in_usd": 46147.88,
+        "tags": [
+          "moonshot"
+        ],
+        "first_signal": {
+          "timestamp": 1756868654,
+          "price": 0.09945
+        },
+        "metrics": {
+          "uniqueWallets": 1,
+          "inflow24h": -484.0429370658228,
+          "trades": [
+            {
+              "timestamp": "2026-05-05T21:34:14.000Z",
+              "type": "BUY",
+              "amount": 11505.736774,
+              "usdValue": 1726.2614054563126,
+              "wallet": {
+                "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+                "name": "凉粉小刀"
+              }
+            },
+            {
+              "timestamp": "2026-05-05T00:49:13.000Z",
+              "type": "SELL",
+              "amount": 12811.158324,
+              "usdValue": 2210.3043425221354,
+              "wallet": {
+                "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+                "name": "凉粉小刀"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+            "name": "凉粉小刀",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
+                "balance": 11505.736774,
+                "token_price": 0.16,
+                "token_decimals": 6,
+                "token_symbol": "CARDS",
+                "token_name": "Collector Crypt",
+                "value": 1840.9178838400003
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "sells": []
   }
 }
