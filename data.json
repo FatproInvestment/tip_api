@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2026-05-21T23:38:51.512Z",
+  "timestamp": "2026-05-22T01:33:14.375Z",
   "data": [
     {
       "address": "4fKLGZe7G1E55pytM9VytuBNEUKB9ZyptXorgGAxpump",
@@ -11,23 +11,23 @@
       "created_time": 1779394351,
       "website": "",
       "twitter": "",
-      "holder": 517,
-      "market_cap": 205695,
-      "price": 0.0002056,
-      "price_change_24h": 468,
-      "volume_24h": 544074.22,
+      "holder": 916,
+      "market_cap": 303122,
+      "price": 0.0003031,
+      "price_change_24h": 738,
+      "volume_24h": 736983.32,
       "pool_address": "solana_2GgZ1UbPADYZR9EeBsKxt1VvNCuVwmt6qGGrv3whT9dE",
-      "ath": 0.00020080101703035485,
-      "ath_timestamp": 1779404400,
+      "ath": 0.0003294814175985531,
+      "ath_timestamp": 1779408000,
       "ath_pool": "2GgZ1UbPADYZR9EeBsKxt1VvNCuVwmt6qGGrv3whT9dE",
       "dexId": "pumpswap",
       "pairAddress": "2GgZ1UbPADYZR9EeBsKxt1VvNCuVwmt6qGGrv3whT9dE",
       "txns_24h": {
-        "buys": 4899,
-        "sells": 3804
+        "buys": 6914,
+        "sells": 5006
       },
-      "fdv_usd": 205695,
-      "total_reserve_in_usd": 37071.07,
+      "fdv_usd": 303122,
+      "total_reserve_in_usd": 45371.37,
       "tags": [],
       "first_signal": {
         "timestamp": 1779397936,
@@ -35,8 +35,18 @@
       },
       "metrics": {
         "uniqueWallets": 2,
-        "inflow24h": 70.01325419215232,
+        "inflow24h": 71.75698658601283,
         "trades": [
+          {
+            "timestamp": "2026-05-22T00:04:39.000Z",
+            "type": "BUY",
+            "amount": 13062.753414,
+            "usdValue": 1.743732393860514,
+            "wallet": {
+              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+              "name": "OGmoodeng"
+            }
+          },
           {
             "timestamp": "2026-05-21T20:40:52.000Z",
             "type": "SELL",
@@ -81,6 +91,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+          "name": "OGmoodeng",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "4fKLGZe7G1E55pytM9VytuBNEUKB9ZyptXorgGAxpump",
+              "balance": 2059495.005462,
+              "token_price": 0.0003031,
+              "token_decimals": 6,
+              "token_symbol": "MILHOUSE",
+              "token_name": "Milhouse Coin ",
+              "value": 624.2329361555321
+            }
+          ]
+        },
+        {
           "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
           "name": "cooker",
           "score": 2,
@@ -88,165 +114,11 @@
             {
               "token_address": "4fKLGZe7G1E55pytM9VytuBNEUKB9ZyptXorgGAxpump",
               "balance": 0,
-              "token_price": 0.0002056,
+              "token_price": 0.0003031,
               "token_decimals": 6,
               "token_symbol": "MILHOUSE",
               "token_name": "Milhouse Coin ",
               "value": 0
-            }
-          ]
-        },
-        {
-          "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-          "name": "OGmoodeng",
-          "score": 2,
-          "tokens": [
-            {
-              "token_address": "4fKLGZe7G1E55pytM9VytuBNEUKB9ZyptXorgGAxpump",
-              "balance": 2046432.252048,
-              "token_price": 0.0002056,
-              "token_decimals": 6,
-              "token_symbol": "MILHOUSE",
-              "token_name": "Milhouse Coin ",
-              "value": 420.7464710210688
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "address": "BBigCqRMg57zqgBQMvccvFok2Kt24uwnid47w4rWpump",
-      "symbol": "Openhuman",
-      "name": "Openhuman",
-      "decimals": 6,
-      "icon": "https://metadata.rapidlaunch.io/images/5d69c9b0-b3fb-4fcd-a790-84def7aed476.png",
-      "created_time": 1776703223,
-      "website": "https://github.com/senamakel",
-      "twitter": "https://x.com/senamakel/status/2046266960707715277?s=20",
-      "holder": 872,
-      "market_cap": 136733,
-      "price": 0.0001367,
-      "price_change_24h": -2.62,
-      "volume_24h": 971207.22,
-      "pool_address": "solana_ERF7311b8iwZEcAnmMETPfeE4dgShEqw8k2qrU6DZfdZ",
-      "ath": 0.0004375080218638485,
-      "ath_timestamp": 1779375600,
-      "ath_pool": "ERF7311b8iwZEcAnmMETPfeE4dgShEqw8k2qrU6DZfdZ",
-      "dexId": "pumpswap",
-      "pairAddress": "ERF7311b8iwZEcAnmMETPfeE4dgShEqw8k2qrU6DZfdZ",
-      "txns_24h": {
-        "buys": 5548,
-        "sells": 4376
-      },
-      "fdv_usd": 136733,
-      "total_reserve_in_usd": 34925.77,
-      "tags": [],
-      "first_signal": {
-        "timestamp": 1779353908,
-        "price": 0.000295
-      },
-      "metrics": {
-        "uniqueWallets": 3,
-        "inflow24h": -760.6519412766672,
-        "trades": [
-          {
-            "timestamp": "2026-05-21T06:50:36.000Z",
-            "type": "SELL",
-            "amount": 2923756.296884,
-            "usdValue": 925.147931950266,
-            "wallet": {
-              "address": "CNudZYFgpbT26fidsiNrWfHeGTBMMeVWqruZXsEkcUPc",
-              "name": "Luce46x"
-            }
-          },
-          {
-            "timestamp": "2026-05-21T01:40:56.000Z",
-            "type": "SELL",
-            "amount": 1013205.289724,
-            "usdValue": 430.6076481132055,
-            "wallet": {
-              "address": "BieeZkdnBAgNYknzo3RH2vku7FcPkFZMZmRJANh2TpW",
-              "name": "degenai71x"
-            }
-          },
-          {
-            "timestamp": "2026-05-21T00:38:33.000Z",
-            "type": "SELL",
-            "amount": 1013205.289723,
-            "usdValue": 528.096593217928,
-            "wallet": {
-              "address": "BieeZkdnBAgNYknzo3RH2vku7FcPkFZMZmRJANh2TpW",
-              "name": "degenai71x"
-            }
-          },
-          {
-            "timestamp": "2026-05-21T00:29:12.000Z",
-            "type": "BUY",
-            "amount": 2026410.579447,
-            "usdValue": 862.0926345209248,
-            "wallet": {
-              "address": "BieeZkdnBAgNYknzo3RH2vku7FcPkFZMZmRJANh2TpW",
-              "name": "degenai71x"
-            }
-          },
-          {
-            "timestamp": "2026-05-21T00:22:13.000Z",
-            "type": "BUY",
-            "amount": 817192.510984,
-            "usdValue": 261.1075974838073,
-            "wallet": {
-              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-              "name": "DNF 哥"
-            }
-          }
-        ]
-      },
-      "walletPortfolios": [
-        {
-          "address": "CNudZYFgpbT26fidsiNrWfHeGTBMMeVWqruZXsEkcUPc",
-          "name": "Luce46x",
-          "score": 0.5,
-          "tokens": [
-            {
-              "token_address": "BBigCqRMg57zqgBQMvccvFok2Kt24uwnid47w4rWpump",
-              "balance": 4385634.445325,
-              "token_price": 0.0001367,
-              "token_decimals": 6,
-              "token_symbol": "Openhuman",
-              "token_name": "Openhuman",
-              "value": 599.5162286759274
-            }
-          ]
-        },
-        {
-          "address": "BieeZkdnBAgNYknzo3RH2vku7FcPkFZMZmRJANh2TpW",
-          "name": "degenai71x",
-          "score": 0.5,
-          "tokens": [
-            {
-              "token_address": "BBigCqRMg57zqgBQMvccvFok2Kt24uwnid47w4rWpump",
-              "balance": 0,
-              "token_price": 0.0001367,
-              "token_decimals": 6,
-              "token_symbol": "Openhuman",
-              "token_name": "Openhuman",
-              "value": 0
-            }
-          ]
-        },
-        {
-          "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-          "name": "DNF 哥",
-          "score": 3,
-          "tokens": [
-            {
-              "token_address": "BBigCqRMg57zqgBQMvccvFok2Kt24uwnid47w4rWpump",
-              "balance": 19327515.055978,
-              "token_price": 0.0001367,
-              "token_decimals": 6,
-              "token_symbol": "Openhuman",
-              "token_name": "Openhuman",
-              "value": 2642.0713081521926
             }
           ]
         }
@@ -264,23 +136,23 @@
         "created_time": 1779394351,
         "website": "",
         "twitter": "",
-        "holder": 517,
-        "market_cap": 205695,
-        "price": 0.0002056,
-        "price_change_24h": 468,
-        "volume_24h": 544074.22,
+        "holder": 916,
+        "market_cap": 303122,
+        "price": 0.0003031,
+        "price_change_24h": 738,
+        "volume_24h": 736983.32,
         "pool_address": "solana_2GgZ1UbPADYZR9EeBsKxt1VvNCuVwmt6qGGrv3whT9dE",
-        "ath": 0.00020080101703035485,
-        "ath_timestamp": 1779404400,
+        "ath": 0.0003294814175985531,
+        "ath_timestamp": 1779408000,
         "ath_pool": "2GgZ1UbPADYZR9EeBsKxt1VvNCuVwmt6qGGrv3whT9dE",
         "dexId": "pumpswap",
         "pairAddress": "2GgZ1UbPADYZR9EeBsKxt1VvNCuVwmt6qGGrv3whT9dE",
         "txns_24h": {
-          "buys": 4899,
-          "sells": 3804
+          "buys": 6914,
+          "sells": 5006
         },
-        "fdv_usd": 205695,
-        "total_reserve_in_usd": 37071.07,
+        "fdv_usd": 303122,
+        "total_reserve_in_usd": 45371.37,
         "tags": [],
         "first_signal": {
           "timestamp": 1779397936,
@@ -288,8 +160,18 @@
         },
         "metrics": {
           "uniqueWallets": 2,
-          "inflow24h": 70.01325419215232,
+          "inflow24h": 71.75698658601283,
           "trades": [
+            {
+              "timestamp": "2026-05-22T00:04:39.000Z",
+              "type": "BUY",
+              "amount": 13062.753414,
+              "usdValue": 1.743732393860514,
+              "wallet": {
+                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+                "name": "OGmoodeng"
+              }
+            },
             {
               "timestamp": "2026-05-21T20:40:52.000Z",
               "type": "SELL",
@@ -334,6 +216,22 @@
         },
         "walletPortfolios": [
           {
+            "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+            "name": "OGmoodeng",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "4fKLGZe7G1E55pytM9VytuBNEUKB9ZyptXorgGAxpump",
+                "balance": 2059495.005462,
+                "token_price": 0.0003031,
+                "token_decimals": 6,
+                "token_symbol": "MILHOUSE",
+                "token_name": "Milhouse Coin ",
+                "value": 624.2329361555321
+              }
+            ]
+          },
+          {
             "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
             "name": "cooker",
             "score": 2,
@@ -341,165 +239,11 @@
               {
                 "token_address": "4fKLGZe7G1E55pytM9VytuBNEUKB9ZyptXorgGAxpump",
                 "balance": 0,
-                "token_price": 0.0002056,
+                "token_price": 0.0003031,
                 "token_decimals": 6,
                 "token_symbol": "MILHOUSE",
                 "token_name": "Milhouse Coin ",
                 "value": 0
-              }
-            ]
-          },
-          {
-            "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-            "name": "OGmoodeng",
-            "score": 2,
-            "tokens": [
-              {
-                "token_address": "4fKLGZe7G1E55pytM9VytuBNEUKB9ZyptXorgGAxpump",
-                "balance": 2046432.252048,
-                "token_price": 0.0002056,
-                "token_decimals": 6,
-                "token_symbol": "MILHOUSE",
-                "token_name": "Milhouse Coin ",
-                "value": 420.7464710210688
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "address": "BBigCqRMg57zqgBQMvccvFok2Kt24uwnid47w4rWpump",
-        "symbol": "Openhuman",
-        "name": "Openhuman",
-        "decimals": 6,
-        "icon": "https://metadata.rapidlaunch.io/images/5d69c9b0-b3fb-4fcd-a790-84def7aed476.png",
-        "created_time": 1776703223,
-        "website": "https://github.com/senamakel",
-        "twitter": "https://x.com/senamakel/status/2046266960707715277?s=20",
-        "holder": 872,
-        "market_cap": 136733,
-        "price": 0.0001367,
-        "price_change_24h": -2.62,
-        "volume_24h": 971207.22,
-        "pool_address": "solana_ERF7311b8iwZEcAnmMETPfeE4dgShEqw8k2qrU6DZfdZ",
-        "ath": 0.0004375080218638485,
-        "ath_timestamp": 1779375600,
-        "ath_pool": "ERF7311b8iwZEcAnmMETPfeE4dgShEqw8k2qrU6DZfdZ",
-        "dexId": "pumpswap",
-        "pairAddress": "ERF7311b8iwZEcAnmMETPfeE4dgShEqw8k2qrU6DZfdZ",
-        "txns_24h": {
-          "buys": 5548,
-          "sells": 4376
-        },
-        "fdv_usd": 136733,
-        "total_reserve_in_usd": 34925.77,
-        "tags": [],
-        "first_signal": {
-          "timestamp": 1779353908,
-          "price": 0.000295
-        },
-        "metrics": {
-          "uniqueWallets": 3,
-          "inflow24h": -760.6519412766672,
-          "trades": [
-            {
-              "timestamp": "2026-05-21T06:50:36.000Z",
-              "type": "SELL",
-              "amount": 2923756.296884,
-              "usdValue": 925.147931950266,
-              "wallet": {
-                "address": "CNudZYFgpbT26fidsiNrWfHeGTBMMeVWqruZXsEkcUPc",
-                "name": "Luce46x"
-              }
-            },
-            {
-              "timestamp": "2026-05-21T01:40:56.000Z",
-              "type": "SELL",
-              "amount": 1013205.289724,
-              "usdValue": 430.6076481132055,
-              "wallet": {
-                "address": "BieeZkdnBAgNYknzo3RH2vku7FcPkFZMZmRJANh2TpW",
-                "name": "degenai71x"
-              }
-            },
-            {
-              "timestamp": "2026-05-21T00:38:33.000Z",
-              "type": "SELL",
-              "amount": 1013205.289723,
-              "usdValue": 528.096593217928,
-              "wallet": {
-                "address": "BieeZkdnBAgNYknzo3RH2vku7FcPkFZMZmRJANh2TpW",
-                "name": "degenai71x"
-              }
-            },
-            {
-              "timestamp": "2026-05-21T00:29:12.000Z",
-              "type": "BUY",
-              "amount": 2026410.579447,
-              "usdValue": 862.0926345209248,
-              "wallet": {
-                "address": "BieeZkdnBAgNYknzo3RH2vku7FcPkFZMZmRJANh2TpW",
-                "name": "degenai71x"
-              }
-            },
-            {
-              "timestamp": "2026-05-21T00:22:13.000Z",
-              "type": "BUY",
-              "amount": 817192.510984,
-              "usdValue": 261.1075974838073,
-              "wallet": {
-                "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-                "name": "DNF 哥"
-              }
-            }
-          ]
-        },
-        "walletPortfolios": [
-          {
-            "address": "CNudZYFgpbT26fidsiNrWfHeGTBMMeVWqruZXsEkcUPc",
-            "name": "Luce46x",
-            "score": 0.5,
-            "tokens": [
-              {
-                "token_address": "BBigCqRMg57zqgBQMvccvFok2Kt24uwnid47w4rWpump",
-                "balance": 4385634.445325,
-                "token_price": 0.0001367,
-                "token_decimals": 6,
-                "token_symbol": "Openhuman",
-                "token_name": "Openhuman",
-                "value": 599.5162286759274
-              }
-            ]
-          },
-          {
-            "address": "BieeZkdnBAgNYknzo3RH2vku7FcPkFZMZmRJANh2TpW",
-            "name": "degenai71x",
-            "score": 0.5,
-            "tokens": [
-              {
-                "token_address": "BBigCqRMg57zqgBQMvccvFok2Kt24uwnid47w4rWpump",
-                "balance": 0,
-                "token_price": 0.0001367,
-                "token_decimals": 6,
-                "token_symbol": "Openhuman",
-                "token_name": "Openhuman",
-                "value": 0
-              }
-            ]
-          },
-          {
-            "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
-            "name": "DNF 哥",
-            "score": 3,
-            "tokens": [
-              {
-                "token_address": "BBigCqRMg57zqgBQMvccvFok2Kt24uwnid47w4rWpump",
-                "balance": 19327515.055978,
-                "token_price": 0.0001367,
-                "token_decimals": 6,
-                "token_symbol": "Openhuman",
-                "token_name": "Openhuman",
-                "value": 2642.0713081521926
               }
             ]
           }
