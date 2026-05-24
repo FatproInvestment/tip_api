@@ -1,7 +1,98 @@
 {
   "success": true,
-  "timestamp": "2026-05-24T00:08:44.044Z",
+  "timestamp": "2026-05-24T04:35:56.806Z",
   "data": [
+    {
+      "address": "6SjVTj1VGwFSXn7wEjwFm77LvACeTqB7sQUebYKX8Ds5",
+      "symbol": "ROUTER",
+      "name": "Solrouter",
+      "decimals": 9,
+      "icon": "https://storage.googleapis.com/openserv-launchpad-bucket/project-69f363c5cb04bf6b66678a68/logo-1777558469568.png",
+      "created_time": 1777562015,
+      "website": "",
+      "twitter": "",
+      "holder": 1124,
+      "market_cap": 3335836,
+      "price": 0.005132,
+      "price_change_24h": 122,
+      "volume_24h": 185601.73,
+      "pool_address": "solana_DJ8qzBm3ZoRi4YiVmpiLBBuc67cq737vqaTNbMRJGcvZ",
+      "ath": 0.005132,
+      "ath_pool": "",
+      "dexId": "meteora",
+      "pairAddress": "2nBXSgowoxgM2Ps7cfFernV6GHdWw3siiGLHCFZbTyLP",
+      "txns_24h": {
+        "buys": 983,
+        "sells": 1077
+      },
+      "fdv_usd": 5132058,
+      "total_reserve_in_usd": 41455.34,
+      "tags": [],
+      "first_signal": {
+        "timestamp": 1779597355,
+        "price": 0.005132
+      },
+      "metrics": {
+        "uniqueWallets": 2,
+        "inflow24h": -5616.8637843701,
+        "trades": [
+          {
+            "timestamp": "2026-05-24T01:51:43.000Z",
+            "type": "BUY",
+            "amount": 298400.206926186,
+            "usdValue": 1500,
+            "wallet": {
+              "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+              "name": "Chillguy32x"
+            }
+          },
+          {
+            "timestamp": "2026-05-23T21:39:04.000Z",
+            "type": "SELL",
+            "amount": 1744378.593949843,
+            "usdValue": 7116.8637843701,
+            "wallet": {
+              "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+              "name": "Ansem"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+          "name": "Chillguy32x",
+          "score": 1,
+          "tokens": [
+            {
+              "token_address": "6SjVTj1VGwFSXn7wEjwFm77LvACeTqB7sQUebYKX8Ds5",
+              "balance": 298400.206926186,
+              "token_price": 0.005132,
+              "token_decimals": 9,
+              "token_symbol": "ROUTER",
+              "token_name": "Solrouter",
+              "value": 1531.3898619451866
+            }
+          ]
+        },
+        {
+          "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+          "name": "Ansem",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "6SjVTj1VGwFSXn7wEjwFm77LvACeTqB7sQUebYKX8Ds5",
+              "balance": 0,
+              "token_price": 0.005132,
+              "token_decimals": 9,
+              "token_symbol": "ROUTER",
+              "token_name": "Solrouter",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
     {
       "address": "EN2nnxrg8uUi6x2sJkzNPd2eT6rB9rdSoQNNaENA4RZA",
       "symbol": "SQUIRE",
@@ -11,11 +102,11 @@
       "created_time": 1773864853,
       "website": "",
       "twitter": "squire_bot",
-      "holder": 1182,
-      "market_cap": 2393394,
-      "price": 0.002393,
-      "price_change_24h": 67.42,
-      "volume_24h": 891602.1,
+      "holder": 1178,
+      "market_cap": 2676585,
+      "price": 0.002677,
+      "price_change_24h": 68.62,
+      "volume_24h": 913256.49,
       "pool_address": "solana_4CPVihvjKUUsXq3HFrS8wniUKffbpDqz2h6jHKjeXoYD",
       "ath": 0.0028992392698547267,
       "ath_timestamp": 1779566400,
@@ -23,11 +114,11 @@
       "dexId": "pumpswap",
       "pairAddress": "4CPVihvjKUUsXq3HFrS8wniUKffbpDqz2h6jHKjeXoYD",
       "txns_24h": {
-        "buys": 3579,
-        "sells": 3549
+        "buys": 3643,
+        "sells": 3476
       },
-      "fdv_usd": 2393394,
-      "total_reserve_in_usd": 151990.83,
+      "fdv_usd": 2676585,
+      "total_reserve_in_usd": 161155.05,
       "tags": [],
       "first_signal": {
         "timestamp": 1779564970,
@@ -88,11 +179,11 @@
             {
               "token_address": "EN2nnxrg8uUi6x2sJkzNPd2eT6rB9rdSoQNNaENA4RZA",
               "balance": 1990156.75638,
-              "token_price": 0.002393,
+              "token_price": 0.002677,
               "token_decimals": 6,
               "token_symbol": "SQUIRE",
               "token_name": "Pod the Squire",
-              "value": 4762.44511801734
+              "value": 5327.64963682926
             }
           ]
         },
@@ -104,11 +195,11 @@
             {
               "token_address": "EN2nnxrg8uUi6x2sJkzNPd2eT6rB9rdSoQNNaENA4RZA",
               "balance": 6012098.154734,
-              "token_price": 0.002393,
+              "token_price": 0.002677,
               "token_decimals": 6,
               "token_symbol": "SQUIRE",
               "token_name": "Pod the Squire",
-              "value": 14386.950884278462
+              "value": 16094.386760222918
             }
           ]
         },
@@ -120,7 +211,7 @@
             {
               "token_address": "EN2nnxrg8uUi6x2sJkzNPd2eT6rB9rdSoQNNaENA4RZA",
               "balance": 0,
-              "token_price": 0.002393,
+              "token_price": 0.002677,
               "token_decimals": 6,
               "token_symbol": "SQUIRE",
               "token_name": "Pod the Squire",
@@ -134,6 +225,97 @@
   "groups": {
     "latestSignals": [
       {
+        "address": "6SjVTj1VGwFSXn7wEjwFm77LvACeTqB7sQUebYKX8Ds5",
+        "symbol": "ROUTER",
+        "name": "Solrouter",
+        "decimals": 9,
+        "icon": "https://storage.googleapis.com/openserv-launchpad-bucket/project-69f363c5cb04bf6b66678a68/logo-1777558469568.png",
+        "created_time": 1777562015,
+        "website": "",
+        "twitter": "",
+        "holder": 1124,
+        "market_cap": 3335836,
+        "price": 0.005132,
+        "price_change_24h": 122,
+        "volume_24h": 185601.73,
+        "pool_address": "solana_DJ8qzBm3ZoRi4YiVmpiLBBuc67cq737vqaTNbMRJGcvZ",
+        "ath": 0.005132,
+        "ath_pool": "",
+        "dexId": "meteora",
+        "pairAddress": "2nBXSgowoxgM2Ps7cfFernV6GHdWw3siiGLHCFZbTyLP",
+        "txns_24h": {
+          "buys": 983,
+          "sells": 1077
+        },
+        "fdv_usd": 5132058,
+        "total_reserve_in_usd": 41455.34,
+        "tags": [],
+        "first_signal": {
+          "timestamp": 1779597355,
+          "price": 0.005132
+        },
+        "metrics": {
+          "uniqueWallets": 2,
+          "inflow24h": -5616.8637843701,
+          "trades": [
+            {
+              "timestamp": "2026-05-24T01:51:43.000Z",
+              "type": "BUY",
+              "amount": 298400.206926186,
+              "usdValue": 1500,
+              "wallet": {
+                "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+                "name": "Chillguy32x"
+              }
+            },
+            {
+              "timestamp": "2026-05-23T21:39:04.000Z",
+              "type": "SELL",
+              "amount": 1744378.593949843,
+              "usdValue": 7116.8637843701,
+              "wallet": {
+                "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+                "name": "Ansem"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+            "name": "Chillguy32x",
+            "score": 1,
+            "tokens": [
+              {
+                "token_address": "6SjVTj1VGwFSXn7wEjwFm77LvACeTqB7sQUebYKX8Ds5",
+                "balance": 298400.206926186,
+                "token_price": 0.005132,
+                "token_decimals": 9,
+                "token_symbol": "ROUTER",
+                "token_name": "Solrouter",
+                "value": 1531.3898619451866
+              }
+            ]
+          },
+          {
+            "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+            "name": "Ansem",
+            "score": 3,
+            "tokens": [
+              {
+                "token_address": "6SjVTj1VGwFSXn7wEjwFm77LvACeTqB7sQUebYKX8Ds5",
+                "balance": 0,
+                "token_price": 0.005132,
+                "token_decimals": 9,
+                "token_symbol": "ROUTER",
+                "token_name": "Solrouter",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
         "address": "EN2nnxrg8uUi6x2sJkzNPd2eT6rB9rdSoQNNaENA4RZA",
         "symbol": "SQUIRE",
         "name": "Pod the Squire",
@@ -142,11 +324,11 @@
         "created_time": 1773864853,
         "website": "",
         "twitter": "squire_bot",
-        "holder": 1182,
-        "market_cap": 2393394,
-        "price": 0.002393,
-        "price_change_24h": 67.42,
-        "volume_24h": 891602.1,
+        "holder": 1178,
+        "market_cap": 2676585,
+        "price": 0.002677,
+        "price_change_24h": 68.62,
+        "volume_24h": 913256.49,
         "pool_address": "solana_4CPVihvjKUUsXq3HFrS8wniUKffbpDqz2h6jHKjeXoYD",
         "ath": 0.0028992392698547267,
         "ath_timestamp": 1779566400,
@@ -154,11 +336,11 @@
         "dexId": "pumpswap",
         "pairAddress": "4CPVihvjKUUsXq3HFrS8wniUKffbpDqz2h6jHKjeXoYD",
         "txns_24h": {
-          "buys": 3579,
-          "sells": 3549
+          "buys": 3643,
+          "sells": 3476
         },
-        "fdv_usd": 2393394,
-        "total_reserve_in_usd": 151990.83,
+        "fdv_usd": 2676585,
+        "total_reserve_in_usd": 161155.05,
         "tags": [],
         "first_signal": {
           "timestamp": 1779564970,
@@ -219,11 +401,11 @@
               {
                 "token_address": "EN2nnxrg8uUi6x2sJkzNPd2eT6rB9rdSoQNNaENA4RZA",
                 "balance": 1990156.75638,
-                "token_price": 0.002393,
+                "token_price": 0.002677,
                 "token_decimals": 6,
                 "token_symbol": "SQUIRE",
                 "token_name": "Pod the Squire",
-                "value": 4762.44511801734
+                "value": 5327.64963682926
               }
             ]
           },
@@ -235,11 +417,11 @@
               {
                 "token_address": "EN2nnxrg8uUi6x2sJkzNPd2eT6rB9rdSoQNNaENA4RZA",
                 "balance": 6012098.154734,
-                "token_price": 0.002393,
+                "token_price": 0.002677,
                 "token_decimals": 6,
                 "token_symbol": "SQUIRE",
                 "token_name": "Pod the Squire",
-                "value": 14386.950884278462
+                "value": 16094.386760222918
               }
             ]
           },
@@ -251,7 +433,7 @@
               {
                 "token_address": "EN2nnxrg8uUi6x2sJkzNPd2eT6rB9rdSoQNNaENA4RZA",
                 "balance": 0,
-                "token_price": 0.002393,
+                "token_price": 0.002677,
                 "token_decimals": 6,
                 "token_symbol": "SQUIRE",
                 "token_name": "Pod the Squire",
