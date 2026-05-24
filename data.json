@@ -1,7 +1,75 @@
 {
   "success": true,
-  "timestamp": "2026-05-24T16:44:18.941Z",
+  "timestamp": "2026-05-24T17:41:29.201Z",
   "data": [
+    {
+      "address": "5EaYZcaKfTVdpQ2avVtJ7BNWJ1Rnj86F1dWxppawpump",
+      "symbol": "dollo",
+      "name": "DOLLO ALL IN",
+      "decimals": 6,
+      "icon": "https://ipfs.io/ipfs/bafybeifp3qydz5kwa23akdjcv63edlypcxbkbagso4stz4mcnfcvnjqs2a",
+      "created_time": 1752268905,
+      "website": "",
+      "twitter": "https://x.com/dolloallin",
+      "holder": 3568,
+      "market_cap": 170665,
+      "price": 0.0001889,
+      "price_change_24h": 33.41,
+      "volume_24h": 18108.91,
+      "pool_address": "solana_2H87WiHP7gMcBGodhRtzgmVc3MYqEx1xPcGdoVUHNQhj",
+      "ath": 0.01083347554659812,
+      "ath_timestamp": 1755192840,
+      "ath_pool": "2H87WiHP7gMcBGodhRtzgmVc3MYqEx1xPcGdoVUHNQhj",
+      "dexId": "pumpswap",
+      "pairAddress": "2H87WiHP7gMcBGodhRtzgmVc3MYqEx1xPcGdoVUHNQhj",
+      "txns_24h": {
+        "buys": 140,
+        "sells": 117
+      },
+      "fdv_usd": 188923,
+      "total_reserve_in_usd": 61835.64,
+      "tags": [
+        "moonshot"
+      ],
+      "first_signal": {
+        "timestamp": 1754345288,
+        "price": 0.003626
+      },
+      "metrics": {
+        "uniqueWallets": 1,
+        "inflow24h": 866.6453742392468,
+        "trades": [
+          {
+            "timestamp": "2026-05-24T17:05:46.000Z",
+            "type": "BUY",
+            "amount": 5885304.635502,
+            "usdValue": 866.6453742392468,
+            "wallet": {
+              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+              "name": "DNF 哥"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+          "name": "DNF 哥",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "5EaYZcaKfTVdpQ2avVtJ7BNWJ1Rnj86F1dWxppawpump",
+              "balance": 30470052.932325,
+              "token_price": 0.0001889,
+              "token_decimals": 6,
+              "token_symbol": "dollo",
+              "token_name": "DOLLO ALL IN",
+              "value": 5755.792998916193
+            }
+          ]
+        }
+      ]
+    },
     {
       "address": "5s7tf6ih2CEZf7ZPNkJAtcknAq9DL5GsWHMMT3Jdpump",
       "symbol": "Stake",
@@ -11,11 +79,11 @@
       "created_time": 1779607488,
       "website": "https://www.staked.fund",
       "twitter": "https://x.com/StakedBank",
-      "holder": 3562,
-      "market_cap": 2301774,
-      "price": 0.002301,
-      "price_change_24h": 6356,
-      "volume_24h": 4009181.14,
+      "holder": 4425,
+      "market_cap": 1824904,
+      "price": 0.001824,
+      "price_change_24h": 5018,
+      "volume_24h": 4482130.97,
       "pool_address": "solana_EyUhvULaCx9N1a3mj4LZTs6ju7Ejk49sFmtjNe65MPNv",
       "ath": 0.002619291021047228,
       "ath_timestamp": 1779638400,
@@ -26,11 +94,11 @@
         "active": 10
       },
       "txns_24h": {
-        "buys": 30386,
-        "sells": 24394
+        "buys": 33092,
+        "sells": 26649
       },
-      "fdv_usd": 2301774,
-      "total_reserve_in_usd": 132952.36,
+      "fdv_usd": 1824904,
+      "total_reserve_in_usd": 119520.81,
       "tags": [],
       "first_signal": {
         "timestamp": 1779620105,
@@ -38,8 +106,18 @@
       },
       "metrics": {
         "uniqueWallets": 2,
-        "inflow24h": -5498.601429372737,
+        "inflow24h": -6916.998605100322,
         "trades": [
+          {
+            "timestamp": "2026-05-24T16:45:30.000Z",
+            "type": "SELL",
+            "amount": 575532.234804,
+            "usdValue": 1418.397175727585,
+            "wallet": {
+              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+              "name": "DNF 哥"
+            }
+          },
           {
             "timestamp": "2026-05-24T16:25:01.000Z",
             "type": "SELL",
@@ -190,12 +268,12 @@
           "tokens": [
             {
               "token_address": "5s7tf6ih2CEZf7ZPNkJAtcknAq9DL5GsWHMMT3Jdpump",
-              "balance": 5755322.348043,
-              "token_price": 0.002301,
+              "balance": 5179790.113239,
+              "token_price": 0.001824,
               "token_decimals": 6,
               "token_symbol": "Stake",
               "token_name": "Staked Bank",
-              "value": 13242.996722846945
+              "value": 9447.937166547936
             }
           ]
         },
@@ -207,7 +285,7 @@
             {
               "token_address": "5s7tf6ih2CEZf7ZPNkJAtcknAq9DL5GsWHMMT3Jdpump",
               "balance": 0,
-              "token_price": 0.002301,
+              "token_price": 0.001824,
               "token_decimals": 6,
               "token_symbol": "Stake",
               "token_name": "Staked Bank",
@@ -226,11 +304,11 @@
       "created_time": 1777562015,
       "website": "",
       "twitter": "",
-      "holder": 1237,
-      "market_cap": 2920576,
-      "price": 0.004493,
-      "price_change_24h": 74.15,
-      "volume_24h": 252143.41,
+      "holder": 1240,
+      "market_cap": 2934329,
+      "price": 0.004514,
+      "price_change_24h": 82.71,
+      "volume_24h": 251181.98,
       "pool_address": "solana_DJ8qzBm3ZoRi4YiVmpiLBBuc67cq737vqaTNbMRJGcvZ",
       "ath": 0.006470552557062801,
       "ath_timestamp": 1779606000,
@@ -238,11 +316,11 @@
       "dexId": "meteora",
       "pairAddress": "2nBXSgowoxgM2Ps7cfFernV6GHdWw3siiGLHCFZbTyLP",
       "txns_24h": {
-        "buys": 1350,
-        "sells": 1405
+        "buys": 1342,
+        "sells": 1396
       },
-      "fdv_usd": 4493196,
-      "total_reserve_in_usd": 38640.23,
+      "fdv_usd": 4514354,
+      "total_reserve_in_usd": 38767.39,
       "tags": [],
       "first_signal": {
         "timestamp": 1779597356,
@@ -283,11 +361,11 @@
             {
               "token_address": "6SjVTj1VGwFSXn7wEjwFm77LvACeTqB7sQUebYKX8Ds5",
               "balance": 298400.206926186,
-              "token_price": 0.004493,
+              "token_price": 0.004514,
               "token_decimals": 9,
               "token_symbol": "ROUTER",
               "token_name": "Solrouter",
-              "value": 1340.7121297193535
+              "value": 1346.9785340648034
             }
           ]
         },
@@ -299,138 +377,10 @@
             {
               "token_address": "6SjVTj1VGwFSXn7wEjwFm77LvACeTqB7sQUebYKX8Ds5",
               "balance": 0,
-              "token_price": 0.004493,
+              "token_price": 0.004514,
               "token_decimals": 9,
               "token_symbol": "ROUTER",
               "token_name": "Solrouter",
-              "value": 0
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "address": "EN2nnxrg8uUi6x2sJkzNPd2eT6rB9rdSoQNNaENA4RZA",
-      "symbol": "SQUIRE",
-      "name": "Pod the Squire",
-      "decimals": 6,
-      "icon": "https://ipfs.io/ipfs/QmTPou8YT6Xs1UEk1MmtbxWHE5YKRwwxCzHg6LRYmS5mM6",
-      "created_time": 1773864853,
-      "website": "",
-      "twitter": "squire_bot",
-      "holder": 1302,
-      "market_cap": 3005079,
-      "price": 0.003005,
-      "price_change_24h": 24.79,
-      "volume_24h": 932101.96,
-      "pool_address": "solana_4CPVihvjKUUsXq3HFrS8wniUKffbpDqz2h6jHKjeXoYD",
-      "ath": 0.003675184888552945,
-      "ath_timestamp": 1779580800,
-      "ath_pool": "4CPVihvjKUUsXq3HFrS8wniUKffbpDqz2h6jHKjeXoYD",
-      "dexId": "pumpswap",
-      "pairAddress": "4CPVihvjKUUsXq3HFrS8wniUKffbpDqz2h6jHKjeXoYD",
-      "txns_24h": {
-        "buys": 3753,
-        "sells": 3488
-      },
-      "fdv_usd": 3005079,
-      "total_reserve_in_usd": 170946.39,
-      "tags": [],
-      "first_signal": {
-        "timestamp": 1779564970,
-        "price": 0.002619
-      },
-      "metrics": {
-        "uniqueWallets": 3,
-        "inflow24h": 1434.2489640308122,
-        "trades": [
-          {
-            "timestamp": "2026-05-23T20:57:57.000Z",
-            "type": "SWAP",
-            "amount": 500000,
-            "usdValue": 1349.2655269571978,
-            "wallet": {
-              "address": "BieeZkdnBAgNYknzo3RH2vku7FcPkFZMZmRJANh2TpW",
-              "name": "degenai71x"
-            }
-          },
-          {
-            "timestamp": "2026-05-23T19:16:29.000Z",
-            "type": "BUY",
-            "amount": 2956027.611272,
-            "usdValue": 7542.181426432402,
-            "wallet": {
-              "address": "3DKfZz4iHgu42LGu3ttQxqz6u4m5z9ptuar8pBsRqkKC",
-              "name": "ai16zWhale"
-            }
-          },
-          {
-            "timestamp": "2026-05-23T19:14:23.000Z",
-            "type": "BUY",
-            "amount": 3056070.543462,
-            "usdValue": 7553.826645042973,
-            "wallet": {
-              "address": "3DKfZz4iHgu42LGu3ttQxqz6u4m5z9ptuar8pBsRqkKC",
-              "name": "ai16zWhale"
-            }
-          },
-          {
-            "timestamp": "2026-05-23T17:01:12.000Z",
-            "type": "SWAP",
-            "amount": 6028504.323352,
-            "usdValue": 12312.493580487364,
-            "wallet": {
-              "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
-              "name": "Ansem"
-            }
-          }
-        ]
-      },
-      "walletPortfolios": [
-        {
-          "address": "BieeZkdnBAgNYknzo3RH2vku7FcPkFZMZmRJANh2TpW",
-          "name": "degenai71x",
-          "score": 0.5,
-          "tokens": [
-            {
-              "token_address": "EN2nnxrg8uUi6x2sJkzNPd2eT6rB9rdSoQNNaENA4RZA",
-              "balance": 1990156.75638,
-              "token_price": 0.003005,
-              "token_decimals": 6,
-              "token_symbol": "SQUIRE",
-              "token_name": "Pod the Squire",
-              "value": 5980.4210529219
-            }
-          ]
-        },
-        {
-          "address": "3DKfZz4iHgu42LGu3ttQxqz6u4m5z9ptuar8pBsRqkKC",
-          "name": "ai16zWhale",
-          "score": 1,
-          "tokens": [
-            {
-              "token_address": "EN2nnxrg8uUi6x2sJkzNPd2eT6rB9rdSoQNNaENA4RZA",
-              "balance": 6012098.154734,
-              "token_price": 0.003005,
-              "token_decimals": 6,
-              "token_symbol": "SQUIRE",
-              "token_name": "Pod the Squire",
-              "value": 18066.354954975668
-            }
-          ]
-        },
-        {
-          "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
-          "name": "Ansem",
-          "score": 3,
-          "tokens": [
-            {
-              "token_address": "EN2nnxrg8uUi6x2sJkzNPd2eT6rB9rdSoQNNaENA4RZA",
-              "balance": 0,
-              "token_price": 0.003005,
-              "token_decimals": 6,
-              "token_symbol": "SQUIRE",
-              "token_name": "Pod the Squire",
               "value": 0
             }
           ]
@@ -449,11 +399,11 @@
         "created_time": 1779607488,
         "website": "https://www.staked.fund",
         "twitter": "https://x.com/StakedBank",
-        "holder": 3562,
-        "market_cap": 2301774,
-        "price": 0.002301,
-        "price_change_24h": 6356,
-        "volume_24h": 4009181.14,
+        "holder": 4425,
+        "market_cap": 1824904,
+        "price": 0.001824,
+        "price_change_24h": 5018,
+        "volume_24h": 4482130.97,
         "pool_address": "solana_EyUhvULaCx9N1a3mj4LZTs6ju7Ejk49sFmtjNe65MPNv",
         "ath": 0.002619291021047228,
         "ath_timestamp": 1779638400,
@@ -464,11 +414,11 @@
           "active": 10
         },
         "txns_24h": {
-          "buys": 30386,
-          "sells": 24394
+          "buys": 33092,
+          "sells": 26649
         },
-        "fdv_usd": 2301774,
-        "total_reserve_in_usd": 132952.36,
+        "fdv_usd": 1824904,
+        "total_reserve_in_usd": 119520.81,
         "tags": [],
         "first_signal": {
           "timestamp": 1779620105,
@@ -476,8 +426,18 @@
         },
         "metrics": {
           "uniqueWallets": 2,
-          "inflow24h": -5498.601429372737,
+          "inflow24h": -6916.998605100322,
           "trades": [
+            {
+              "timestamp": "2026-05-24T16:45:30.000Z",
+              "type": "SELL",
+              "amount": 575532.234804,
+              "usdValue": 1418.397175727585,
+              "wallet": {
+                "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+                "name": "DNF 哥"
+              }
+            },
             {
               "timestamp": "2026-05-24T16:25:01.000Z",
               "type": "SELL",
@@ -628,12 +588,12 @@
             "tokens": [
               {
                 "token_address": "5s7tf6ih2CEZf7ZPNkJAtcknAq9DL5GsWHMMT3Jdpump",
-                "balance": 5755322.348043,
-                "token_price": 0.002301,
+                "balance": 5179790.113239,
+                "token_price": 0.001824,
                 "token_decimals": 6,
                 "token_symbol": "Stake",
                 "token_name": "Staked Bank",
-                "value": 13242.996722846945
+                "value": 9447.937166547936
               }
             ]
           },
@@ -645,7 +605,7 @@
               {
                 "token_address": "5s7tf6ih2CEZf7ZPNkJAtcknAq9DL5GsWHMMT3Jdpump",
                 "balance": 0,
-                "token_price": 0.002301,
+                "token_price": 0.001824,
                 "token_decimals": 6,
                 "token_symbol": "Stake",
                 "token_name": "Staked Bank",
@@ -664,11 +624,11 @@
         "created_time": 1777562015,
         "website": "",
         "twitter": "",
-        "holder": 1237,
-        "market_cap": 2920576,
-        "price": 0.004493,
-        "price_change_24h": 74.15,
-        "volume_24h": 252143.41,
+        "holder": 1240,
+        "market_cap": 2934329,
+        "price": 0.004514,
+        "price_change_24h": 82.71,
+        "volume_24h": 251181.98,
         "pool_address": "solana_DJ8qzBm3ZoRi4YiVmpiLBBuc67cq737vqaTNbMRJGcvZ",
         "ath": 0.006470552557062801,
         "ath_timestamp": 1779606000,
@@ -676,11 +636,11 @@
         "dexId": "meteora",
         "pairAddress": "2nBXSgowoxgM2Ps7cfFernV6GHdWw3siiGLHCFZbTyLP",
         "txns_24h": {
-          "buys": 1350,
-          "sells": 1405
+          "buys": 1342,
+          "sells": 1396
         },
-        "fdv_usd": 4493196,
-        "total_reserve_in_usd": 38640.23,
+        "fdv_usd": 4514354,
+        "total_reserve_in_usd": 38767.39,
         "tags": [],
         "first_signal": {
           "timestamp": 1779597356,
@@ -721,11 +681,11 @@
               {
                 "token_address": "6SjVTj1VGwFSXn7wEjwFm77LvACeTqB7sQUebYKX8Ds5",
                 "balance": 298400.206926186,
-                "token_price": 0.004493,
+                "token_price": 0.004514,
                 "token_decimals": 9,
                 "token_symbol": "ROUTER",
                 "token_name": "Solrouter",
-                "value": 1340.7121297193535
+                "value": 1346.9785340648034
               }
             ]
           },
@@ -737,7 +697,7 @@
               {
                 "token_address": "6SjVTj1VGwFSXn7wEjwFm77LvACeTqB7sQUebYKX8Ds5",
                 "balance": 0,
-                "token_price": 0.004493,
+                "token_price": 0.004514,
                 "token_decimals": 9,
                 "token_symbol": "ROUTER",
                 "token_name": "Solrouter",
@@ -746,137 +706,78 @@
             ]
           }
         ]
-      },
+      }
+    ],
+    "buys": [
       {
-        "address": "EN2nnxrg8uUi6x2sJkzNPd2eT6rB9rdSoQNNaENA4RZA",
-        "symbol": "SQUIRE",
-        "name": "Pod the Squire",
+        "address": "5EaYZcaKfTVdpQ2avVtJ7BNWJ1Rnj86F1dWxppawpump",
+        "symbol": "dollo",
+        "name": "DOLLO ALL IN",
         "decimals": 6,
-        "icon": "https://ipfs.io/ipfs/QmTPou8YT6Xs1UEk1MmtbxWHE5YKRwwxCzHg6LRYmS5mM6",
-        "created_time": 1773864853,
+        "icon": "https://ipfs.io/ipfs/bafybeifp3qydz5kwa23akdjcv63edlypcxbkbagso4stz4mcnfcvnjqs2a",
+        "created_time": 1752268905,
         "website": "",
-        "twitter": "squire_bot",
-        "holder": 1302,
-        "market_cap": 3005079,
-        "price": 0.003005,
-        "price_change_24h": 24.79,
-        "volume_24h": 932101.96,
-        "pool_address": "solana_4CPVihvjKUUsXq3HFrS8wniUKffbpDqz2h6jHKjeXoYD",
-        "ath": 0.003675184888552945,
-        "ath_timestamp": 1779580800,
-        "ath_pool": "4CPVihvjKUUsXq3HFrS8wniUKffbpDqz2h6jHKjeXoYD",
+        "twitter": "https://x.com/dolloallin",
+        "holder": 3568,
+        "market_cap": 170665,
+        "price": 0.0001889,
+        "price_change_24h": 33.41,
+        "volume_24h": 18108.91,
+        "pool_address": "solana_2H87WiHP7gMcBGodhRtzgmVc3MYqEx1xPcGdoVUHNQhj",
+        "ath": 0.01083347554659812,
+        "ath_timestamp": 1755192840,
+        "ath_pool": "2H87WiHP7gMcBGodhRtzgmVc3MYqEx1xPcGdoVUHNQhj",
         "dexId": "pumpswap",
-        "pairAddress": "4CPVihvjKUUsXq3HFrS8wniUKffbpDqz2h6jHKjeXoYD",
+        "pairAddress": "2H87WiHP7gMcBGodhRtzgmVc3MYqEx1xPcGdoVUHNQhj",
         "txns_24h": {
-          "buys": 3753,
-          "sells": 3488
+          "buys": 140,
+          "sells": 117
         },
-        "fdv_usd": 3005079,
-        "total_reserve_in_usd": 170946.39,
-        "tags": [],
+        "fdv_usd": 188923,
+        "total_reserve_in_usd": 61835.64,
+        "tags": [
+          "moonshot"
+        ],
         "first_signal": {
-          "timestamp": 1779564970,
-          "price": 0.002619
+          "timestamp": 1754345288,
+          "price": 0.003626
         },
         "metrics": {
-          "uniqueWallets": 3,
-          "inflow24h": 1434.2489640308122,
+          "uniqueWallets": 1,
+          "inflow24h": 866.6453742392468,
           "trades": [
             {
-              "timestamp": "2026-05-23T20:57:57.000Z",
-              "type": "SWAP",
-              "amount": 500000,
-              "usdValue": 1349.2655269571978,
-              "wallet": {
-                "address": "BieeZkdnBAgNYknzo3RH2vku7FcPkFZMZmRJANh2TpW",
-                "name": "degenai71x"
-              }
-            },
-            {
-              "timestamp": "2026-05-23T19:16:29.000Z",
+              "timestamp": "2026-05-24T17:05:46.000Z",
               "type": "BUY",
-              "amount": 2956027.611272,
-              "usdValue": 7542.181426432402,
+              "amount": 5885304.635502,
+              "usdValue": 866.6453742392468,
               "wallet": {
-                "address": "3DKfZz4iHgu42LGu3ttQxqz6u4m5z9ptuar8pBsRqkKC",
-                "name": "ai16zWhale"
-              }
-            },
-            {
-              "timestamp": "2026-05-23T19:14:23.000Z",
-              "type": "BUY",
-              "amount": 3056070.543462,
-              "usdValue": 7553.826645042973,
-              "wallet": {
-                "address": "3DKfZz4iHgu42LGu3ttQxqz6u4m5z9ptuar8pBsRqkKC",
-                "name": "ai16zWhale"
-              }
-            },
-            {
-              "timestamp": "2026-05-23T17:01:12.000Z",
-              "type": "SWAP",
-              "amount": 6028504.323352,
-              "usdValue": 12312.493580487364,
-              "wallet": {
-                "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
-                "name": "Ansem"
+                "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+                "name": "DNF 哥"
               }
             }
           ]
         },
         "walletPortfolios": [
           {
-            "address": "BieeZkdnBAgNYknzo3RH2vku7FcPkFZMZmRJANh2TpW",
-            "name": "degenai71x",
-            "score": 0.5,
-            "tokens": [
-              {
-                "token_address": "EN2nnxrg8uUi6x2sJkzNPd2eT6rB9rdSoQNNaENA4RZA",
-                "balance": 1990156.75638,
-                "token_price": 0.003005,
-                "token_decimals": 6,
-                "token_symbol": "SQUIRE",
-                "token_name": "Pod the Squire",
-                "value": 5980.4210529219
-              }
-            ]
-          },
-          {
-            "address": "3DKfZz4iHgu42LGu3ttQxqz6u4m5z9ptuar8pBsRqkKC",
-            "name": "ai16zWhale",
-            "score": 1,
-            "tokens": [
-              {
-                "token_address": "EN2nnxrg8uUi6x2sJkzNPd2eT6rB9rdSoQNNaENA4RZA",
-                "balance": 6012098.154734,
-                "token_price": 0.003005,
-                "token_decimals": 6,
-                "token_symbol": "SQUIRE",
-                "token_name": "Pod the Squire",
-                "value": 18066.354954975668
-              }
-            ]
-          },
-          {
-            "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
-            "name": "Ansem",
+            "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+            "name": "DNF 哥",
             "score": 3,
             "tokens": [
               {
-                "token_address": "EN2nnxrg8uUi6x2sJkzNPd2eT6rB9rdSoQNNaENA4RZA",
-                "balance": 0,
-                "token_price": 0.003005,
+                "token_address": "5EaYZcaKfTVdpQ2avVtJ7BNWJ1Rnj86F1dWxppawpump",
+                "balance": 30470052.932325,
+                "token_price": 0.0001889,
                 "token_decimals": 6,
-                "token_symbol": "SQUIRE",
-                "token_name": "Pod the Squire",
-                "value": 0
+                "token_symbol": "dollo",
+                "token_name": "DOLLO ALL IN",
+                "value": 5755.792998916193
               }
             ]
           }
         ]
       }
     ],
-    "buys": [],
     "sells": []
   }
 }
