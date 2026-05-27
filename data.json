@@ -1,9 +1,233 @@
 {
   "success": true,
-  "timestamp": "2026-05-26T23:46:24.775Z",
-  "data": [],
+  "timestamp": "2026-05-27T01:52:28.244Z",
+  "data": [
+    {
+      "address": "7bK4jRMa3aY85wJMQEQqWsmY9mmrRT32AFWZ23cBpump",
+      "symbol": "TinyWorld",
+      "name": "Tiny World Builder",
+      "decimals": 6,
+      "icon": "https://ipfs.io/ipfs/bafkreicrlgfmu5jnftiomcnkqstwtp3t32xibzijpzpis5ghmhwekp6nci",
+      "created_time": 1779267918,
+      "website": "",
+      "twitter": "",
+      "holder": 571,
+      "market_cap": 242171,
+      "price": 0.0002421,
+      "price_change_24h": 123,
+      "volume_24h": 750912,
+      "pool_address": "solana_HXFDxwervt35vNJq91y57P8vzfpocK3Qm8dC8kmBLwiH",
+      "ath": 0.0002421,
+      "ath_pool": "",
+      "dexId": "pumpswap",
+      "pairAddress": "HXFDxwervt35vNJq91y57P8vzfpocK3Qm8dC8kmBLwiH",
+      "txns_24h": {
+        "buys": 5311,
+        "sells": 4456
+      },
+      "fdv_usd": 242171,
+      "total_reserve_in_usd": 39985.31,
+      "tags": [],
+      "first_signal": {
+        "timestamp": 1779846747,
+        "price": 0.0002421
+      },
+      "metrics": {
+        "uniqueWallets": 2,
+        "inflow24h": 1789.6254915061445,
+        "trades": [
+          {
+            "timestamp": "2026-05-27T01:48:54.000Z",
+            "type": "SELL",
+            "amount": 194027,
+            "usdValue": 52.18582485900299,
+            "wallet": {
+              "address": "FqkfjoE6Vn22vDutjq3Zkbjrzgh7AKHgE7gqC1amFPwa",
+              "name": "Rizz5x"
+            }
+          },
+          {
+            "timestamp": "2026-05-27T00:28:34.000Z",
+            "type": "BUY",
+            "amount": 369159.184446,
+            "usdValue": 71.3022667852913,
+            "wallet": {
+              "address": "FqkfjoE6Vn22vDutjq3Zkbjrzgh7AKHgE7gqC1amFPwa",
+              "name": "Rizz5x"
+            }
+          },
+          {
+            "timestamp": "2026-05-26T23:15:38.000Z",
+            "type": "SELL",
+            "amount": 6614931.393937,
+            "usdValue": 1202.6294569909553,
+            "wallet": {
+              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+              "name": "DNF 哥"
+            }
+          },
+          {
+            "timestamp": "2026-05-26T15:39:45.000Z",
+            "type": "BUY",
+            "amount": 13229862.787875,
+            "usdValue": 2973.1385065708114,
+            "wallet": {
+              "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+              "name": "DNF 哥"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "FqkfjoE6Vn22vDutjq3Zkbjrzgh7AKHgE7gqC1amFPwa",
+          "name": "Rizz5x",
+          "score": 1,
+          "tokens": [
+            {
+              "token_address": "7bK4jRMa3aY85wJMQEQqWsmY9mmrRT32AFWZ23cBpump",
+              "balance": 1746247.83621,
+              "token_price": 0.0002421,
+              "token_decimals": 6,
+              "token_symbol": "TinyWorld",
+              "token_name": "Tiny World Builder",
+              "value": 422.766601146441
+            }
+          ]
+        },
+        {
+          "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+          "name": "DNF 哥",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "7bK4jRMa3aY85wJMQEQqWsmY9mmrRT32AFWZ23cBpump",
+              "balance": 6614931.393938,
+              "token_price": 0.0002421,
+              "token_decimals": 6,
+              "token_symbol": "TinyWorld",
+              "token_name": "Tiny World Builder",
+              "value": 1601.47489047239
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "groups": {
-    "latestSignals": [],
+    "latestSignals": [
+      {
+        "address": "7bK4jRMa3aY85wJMQEQqWsmY9mmrRT32AFWZ23cBpump",
+        "symbol": "TinyWorld",
+        "name": "Tiny World Builder",
+        "decimals": 6,
+        "icon": "https://ipfs.io/ipfs/bafkreicrlgfmu5jnftiomcnkqstwtp3t32xibzijpzpis5ghmhwekp6nci",
+        "created_time": 1779267918,
+        "website": "",
+        "twitter": "",
+        "holder": 571,
+        "market_cap": 242171,
+        "price": 0.0002421,
+        "price_change_24h": 123,
+        "volume_24h": 750912,
+        "pool_address": "solana_HXFDxwervt35vNJq91y57P8vzfpocK3Qm8dC8kmBLwiH",
+        "ath": 0.0002421,
+        "ath_pool": "",
+        "dexId": "pumpswap",
+        "pairAddress": "HXFDxwervt35vNJq91y57P8vzfpocK3Qm8dC8kmBLwiH",
+        "txns_24h": {
+          "buys": 5311,
+          "sells": 4456
+        },
+        "fdv_usd": 242171,
+        "total_reserve_in_usd": 39985.31,
+        "tags": [],
+        "first_signal": {
+          "timestamp": 1779846747,
+          "price": 0.0002421
+        },
+        "metrics": {
+          "uniqueWallets": 2,
+          "inflow24h": 1789.6254915061445,
+          "trades": [
+            {
+              "timestamp": "2026-05-27T01:48:54.000Z",
+              "type": "SELL",
+              "amount": 194027,
+              "usdValue": 52.18582485900299,
+              "wallet": {
+                "address": "FqkfjoE6Vn22vDutjq3Zkbjrzgh7AKHgE7gqC1amFPwa",
+                "name": "Rizz5x"
+              }
+            },
+            {
+              "timestamp": "2026-05-27T00:28:34.000Z",
+              "type": "BUY",
+              "amount": 369159.184446,
+              "usdValue": 71.3022667852913,
+              "wallet": {
+                "address": "FqkfjoE6Vn22vDutjq3Zkbjrzgh7AKHgE7gqC1amFPwa",
+                "name": "Rizz5x"
+              }
+            },
+            {
+              "timestamp": "2026-05-26T23:15:38.000Z",
+              "type": "SELL",
+              "amount": 6614931.393937,
+              "usdValue": 1202.6294569909553,
+              "wallet": {
+                "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+                "name": "DNF 哥"
+              }
+            },
+            {
+              "timestamp": "2026-05-26T15:39:45.000Z",
+              "type": "BUY",
+              "amount": 13229862.787875,
+              "usdValue": 2973.1385065708114,
+              "wallet": {
+                "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+                "name": "DNF 哥"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "FqkfjoE6Vn22vDutjq3Zkbjrzgh7AKHgE7gqC1amFPwa",
+            "name": "Rizz5x",
+            "score": 1,
+            "tokens": [
+              {
+                "token_address": "7bK4jRMa3aY85wJMQEQqWsmY9mmrRT32AFWZ23cBpump",
+                "balance": 1746247.83621,
+                "token_price": 0.0002421,
+                "token_decimals": 6,
+                "token_symbol": "TinyWorld",
+                "token_name": "Tiny World Builder",
+                "value": 422.766601146441
+              }
+            ]
+          },
+          {
+            "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
+            "name": "DNF 哥",
+            "score": 3,
+            "tokens": [
+              {
+                "token_address": "7bK4jRMa3aY85wJMQEQqWsmY9mmrRT32AFWZ23cBpump",
+                "balance": 6614931.393938,
+                "token_price": 0.0002421,
+                "token_decimals": 6,
+                "token_symbol": "TinyWorld",
+                "token_name": "Tiny World Builder",
+                "value": 1601.47489047239
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "buys": [],
     "sells": []
   }
