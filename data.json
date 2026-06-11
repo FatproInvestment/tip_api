@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2026-06-11T01:36:22.058Z",
+  "timestamp": "2026-06-11T06:20:58.136Z",
   "data": [
     {
       "address": "6TPQEMKviAYz3h7gWwtTZJSACMtF2tbofNnPwSyLpump",
@@ -11,26 +11,23 @@
       "created_time": 1780619578,
       "website": "https://pokeliquid.xyz",
       "twitter": "https://x.com/pokeliq",
-      "holder": 1073,
-      "market_cap": 533270,
-      "price": 0.0005333,
-      "price_change_24h": 20.23,
-      "volume_24h": 409921.61,
+      "holder": 1099,
+      "market_cap": 448595,
+      "price": 0.0004486,
+      "price_change_24h": 25.78,
+      "volume_24h": 472235.61,
       "pool_address": "solana_FP8UH4i17XaqLutKDkd1SUBjryk3m4A7TvE9EhiSAdhP",
       "ath": 0.0006497753695246354,
       "ath_timestamp": 1781121600,
       "ath_pool": "FP8UH4i17XaqLutKDkd1SUBjryk3m4A7TvE9EhiSAdhP",
       "dexId": "pumpswap",
       "pairAddress": "FP8UH4i17XaqLutKDkd1SUBjryk3m4A7TvE9EhiSAdhP",
-      "boosts": {
-        "active": 10
-      },
       "txns_24h": {
-        "buys": 2348,
-        "sells": 2366
+        "buys": 2748,
+        "sells": 2767
       },
-      "fdv_usd": 533270,
-      "total_reserve_in_usd": 58795.89,
+      "fdv_usd": 448595,
+      "total_reserve_in_usd": 54549.7,
       "tags": [],
       "first_signal": {
         "timestamp": 1781119509,
@@ -38,8 +35,18 @@
       },
       "metrics": {
         "uniqueWallets": 3,
-        "inflow24h": 1612.382630860829,
+        "inflow24h": -430.1633056169044,
         "trades": [
+          {
+            "timestamp": "2026-06-11T03:05:52.000Z",
+            "type": "SELL",
+            "amount": 4187740.04789,
+            "usdValue": 2042.5459364777334,
+            "wallet": {
+              "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+              "name": "Ansem"
+            }
+          },
           {
             "timestamp": "2026-06-10T17:09:35.000Z",
             "type": "BUY",
@@ -84,6 +91,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+          "name": "Ansem",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "6TPQEMKviAYz3h7gWwtTZJSACMtF2tbofNnPwSyLpump",
+              "balance": 0,
+              "token_price": 0.0004486,
+              "token_decimals": 6,
+              "token_symbol": "poke",
+              "token_name": "pokeliquid",
+              "value": 0
+            }
+          ]
+        },
+        {
           "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
           "name": "DNF 哥",
           "score": 3,
@@ -91,11 +114,11 @@
             {
               "token_address": "6TPQEMKviAYz3h7gWwtTZJSACMtF2tbofNnPwSyLpump",
               "balance": 3839621.850273,
-              "token_price": 0.0005333,
+              "token_price": 0.0004486,
               "token_decimals": 6,
               "token_symbol": "poke",
               "token_name": "pokeliquid",
-              "value": 2047.670332750591
+              "value": 1722.4543620324678
             }
           ]
         },
@@ -107,271 +130,11 @@
             {
               "token_address": "6TPQEMKviAYz3h7gWwtTZJSACMtF2tbofNnPwSyLpump",
               "balance": 16410050.124133,
-              "token_price": 0.0005333,
+              "token_price": 0.0004486,
               "token_decimals": 6,
               "token_symbol": "poke",
               "token_name": "pokeliquid",
-              "value": 8751.479731200128
-            }
-          ]
-        },
-        {
-          "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
-          "name": "Ansem",
-          "score": 3,
-          "tokens": [
-            {
-              "token_address": "6TPQEMKviAYz3h7gWwtTZJSACMtF2tbofNnPwSyLpump",
-              "balance": 4187740.04789,
-              "token_price": 0.0005333,
-              "token_decimals": 6,
-              "token_symbol": "poke",
-              "token_name": "pokeliquid",
-              "value": 2233.3217675397373
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "address": "7YQAAb8ANwmiv4C9SXofAujuoAF5qskMyXJ8HH9dpump",
-      "symbol": "CLAUBBIT",
-      "name": "CLAUBBIT",
-      "decimals": 6,
-      "icon": "https://ipfs.io/ipfs/bafkreiar5sbycsaxe53zx6qajucgorcw76jt6e3ae7rt7jdyvpa424cnle",
-      "created_time": 1781061958,
-      "website": "https://www.youtube.com/watch?v=GiqyYQdYoIY",
-      "twitter": "https://x.com/koopatroopwa/status/2064549542054224379",
-      "holder": 334,
-      "market_cap": 3461,
-      "price": 3.461e-06,
-      "price_change_24h": -86.72,
-      "volume_24h": 689999.03,
-      "pool_address": "solana_3cja6SQTcyFnrNFSNQakiDHqEkw1DFwdogLKHcp8cVLC",
-      "ath": 4.114346930235931e-05,
-      "ath_timestamp": 1781074800,
-      "ath_pool": "3cja6SQTcyFnrNFSNQakiDHqEkw1DFwdogLKHcp8cVLC",
-      "dexId": "pumpswap",
-      "pairAddress": "3cja6SQTcyFnrNFSNQakiDHqEkw1DFwdogLKHcp8cVLC",
-      "txns_24h": {
-        "buys": 12059,
-        "sells": 8339
-      },
-      "fdv_usd": 3461,
-      "total_reserve_in_usd": 4265.1,
-      "tags": [],
-      "first_signal": {
-        "timestamp": 1781071744,
-        "price": 4.081e-05
-      },
-      "metrics": {
-        "uniqueWallets": 2,
-        "inflow24h": -414.46191992994034,
-        "trades": [
-          {
-            "timestamp": "2026-06-10T04:46:24.000Z",
-            "type": "SELL",
-            "amount": 959188.776748,
-            "usdValue": 92.56550368327319,
-            "wallet": {
-              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-              "name": "OGmoodeng"
-            }
-          },
-          {
-            "timestamp": "2026-06-10T04:09:50.000Z",
-            "type": "BUY",
-            "amount": 959188.776748,
-            "usdValue": 64.50196612553802,
-            "wallet": {
-              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-              "name": "OGmoodeng"
-            }
-          },
-          {
-            "timestamp": "2026-06-10T03:55:20.000Z",
-            "type": "SELL",
-            "amount": 2285984.287443,
-            "usdValue": 86.83608942854741,
-            "wallet": {
-              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-              "name": "OGmoodeng"
-            }
-          },
-          {
-            "timestamp": "2026-06-10T03:49:56.000Z",
-            "type": "SELL",
-            "amount": 11277948.149592,
-            "usdValue": 255.33823045777407,
-            "wallet": {
-              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-              "name": "cooker"
-            }
-          },
-          {
-            "timestamp": "2026-06-10T03:29:51.000Z",
-            "type": "SELL",
-            "amount": 4752124.824301,
-            "usdValue": 44.22406248588365,
-            "wallet": {
-              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-              "name": "OGmoodeng"
-            }
-          }
-        ]
-      },
-      "walletPortfolios": [
-        {
-          "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-          "name": "OGmoodeng",
-          "score": 2,
-          "tokens": [
-            {
-              "token_address": "7YQAAb8ANwmiv4C9SXofAujuoAF5qskMyXJ8HH9dpump",
-              "balance": 0,
-              "token_price": 3.461e-06,
-              "token_decimals": 6,
-              "token_symbol": "CLAUBBIT",
-              "token_name": "CLAUBBIT",
-              "value": 0
-            }
-          ]
-        },
-        {
-          "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-          "name": "cooker",
-          "score": 2,
-          "tokens": [
-            {
-              "token_address": "7YQAAb8ANwmiv4C9SXofAujuoAF5qskMyXJ8HH9dpump",
-              "balance": 0,
-              "token_price": 3.461e-06,
-              "token_decimals": 6,
-              "token_symbol": "CLAUBBIT",
-              "token_name": "CLAUBBIT",
-              "value": 0
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "address": "9eVhxSQUjJLhWwbcStSFzKcS5SYvafg5Je3AqgXXpump",
-      "symbol": "ANIMA",
-      "name": "ANIMA",
-      "decimals": 6,
-      "icon": "https://ipfs.io/ipfs/bafkreien6wm7bw4qznaq5rp4o73auttr7bw3p3lldardgmcj5icvquplpm",
-      "created_time": 1781062668,
-      "website": "",
-      "twitter": "https://x.com/rezxjv",
-      "holder": 49,
-      "market_cap": 1333,
-      "price": 1.335e-06,
-      "price_change_24h": -94.99,
-      "volume_24h": 88765.67,
-      "pool_address": "solana_FVfiw1gLUSmRBUdyDDALyCgdrBtD13nSExeYS4GZwgsN",
-      "ath": 1.5179114745163752e-06,
-      "ath_timestamp": 1781074800,
-      "ath_pool": "FVfiw1gLUSmRBUdyDDALyCgdrBtD13nSExeYS4GZwgsN",
-      "dexId": "pumpswap",
-      "pairAddress": "FVfiw1gLUSmRBUdyDDALyCgdrBtD13nSExeYS4GZwgsN",
-      "txns_24h": {
-        "buys": 1190,
-        "sells": 1170
-      },
-      "fdv_usd": 1333,
-      "total_reserve_in_usd": 2464.49,
-      "tags": [],
-      "first_signal": {
-        "timestamp": 1781071744,
-        "price": 1.507e-06
-      },
-      "metrics": {
-        "uniqueWallets": 2,
-        "inflow24h": 189.56986666244967,
-        "trades": [
-          {
-            "timestamp": "2026-06-10T03:57:51.000Z",
-            "type": "SELL",
-            "amount": 5148460.618765,
-            "usdValue": 10.196996919027645,
-            "wallet": {
-              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-              "name": "cooker"
-            }
-          },
-          {
-            "timestamp": "2026-06-10T03:51:14.000Z",
-            "type": "BUY",
-            "amount": 171994.495836,
-            "usdValue": 6.44780846813034,
-            "wallet": {
-              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-              "name": "cooker"
-            }
-          },
-          {
-            "timestamp": "2026-06-10T03:50:36.000Z",
-            "type": "BUY",
-            "amount": 4976466.122929,
-            "usdValue": 193.382665617096,
-            "wallet": {
-              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-              "name": "cooker"
-            }
-          },
-          {
-            "timestamp": "2026-06-10T03:48:14.000Z",
-            "type": "SELL",
-            "amount": 2132392.721239,
-            "usdValue": 50.44929854418647,
-            "wallet": {
-              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-              "name": "OGmoodeng"
-            }
-          },
-          {
-            "timestamp": "2026-06-10T03:47:54.000Z",
-            "type": "BUY",
-            "amount": 2132392.721239,
-            "usdValue": 50.38568804043744,
-            "wallet": {
-              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-              "name": "OGmoodeng"
-            }
-          }
-        ]
-      },
-      "walletPortfolios": [
-        {
-          "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-          "name": "cooker",
-          "score": 2,
-          "tokens": [
-            {
-              "token_address": "9eVhxSQUjJLhWwbcStSFzKcS5SYvafg5Je3AqgXXpump",
-              "balance": 0,
-              "token_price": 1.335e-06,
-              "token_decimals": 6,
-              "token_symbol": "ANIMA",
-              "token_name": "ANIMA",
-              "value": 0
-            }
-          ]
-        },
-        {
-          "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-          "name": "OGmoodeng",
-          "score": 2,
-          "tokens": [
-            {
-              "token_address": "9eVhxSQUjJLhWwbcStSFzKcS5SYvafg5Je3AqgXXpump",
-              "balance": 0,
-              "token_price": 1.335e-06,
-              "token_decimals": 6,
-              "token_symbol": "ANIMA",
-              "token_name": "ANIMA",
-              "value": 0
+              "value": 7361.548485686064
             }
           ]
         }
@@ -389,26 +152,23 @@
         "created_time": 1780619578,
         "website": "https://pokeliquid.xyz",
         "twitter": "https://x.com/pokeliq",
-        "holder": 1073,
-        "market_cap": 533270,
-        "price": 0.0005333,
-        "price_change_24h": 20.23,
-        "volume_24h": 409921.61,
+        "holder": 1099,
+        "market_cap": 448595,
+        "price": 0.0004486,
+        "price_change_24h": 25.78,
+        "volume_24h": 472235.61,
         "pool_address": "solana_FP8UH4i17XaqLutKDkd1SUBjryk3m4A7TvE9EhiSAdhP",
         "ath": 0.0006497753695246354,
         "ath_timestamp": 1781121600,
         "ath_pool": "FP8UH4i17XaqLutKDkd1SUBjryk3m4A7TvE9EhiSAdhP",
         "dexId": "pumpswap",
         "pairAddress": "FP8UH4i17XaqLutKDkd1SUBjryk3m4A7TvE9EhiSAdhP",
-        "boosts": {
-          "active": 10
-        },
         "txns_24h": {
-          "buys": 2348,
-          "sells": 2366
+          "buys": 2748,
+          "sells": 2767
         },
-        "fdv_usd": 533270,
-        "total_reserve_in_usd": 58795.89,
+        "fdv_usd": 448595,
+        "total_reserve_in_usd": 54549.7,
         "tags": [],
         "first_signal": {
           "timestamp": 1781119509,
@@ -416,8 +176,18 @@
         },
         "metrics": {
           "uniqueWallets": 3,
-          "inflow24h": 1612.382630860829,
+          "inflow24h": -430.1633056169044,
           "trades": [
+            {
+              "timestamp": "2026-06-11T03:05:52.000Z",
+              "type": "SELL",
+              "amount": 4187740.04789,
+              "usdValue": 2042.5459364777334,
+              "wallet": {
+                "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+                "name": "Ansem"
+              }
+            },
             {
               "timestamp": "2026-06-10T17:09:35.000Z",
               "type": "BUY",
@@ -462,6 +232,22 @@
         },
         "walletPortfolios": [
           {
+            "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+            "name": "Ansem",
+            "score": 3,
+            "tokens": [
+              {
+                "token_address": "6TPQEMKviAYz3h7gWwtTZJSACMtF2tbofNnPwSyLpump",
+                "balance": 0,
+                "token_price": 0.0004486,
+                "token_decimals": 6,
+                "token_symbol": "poke",
+                "token_name": "pokeliquid",
+                "value": 0
+              }
+            ]
+          },
+          {
             "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
             "name": "DNF 哥",
             "score": 3,
@@ -469,11 +255,11 @@
               {
                 "token_address": "6TPQEMKviAYz3h7gWwtTZJSACMtF2tbofNnPwSyLpump",
                 "balance": 3839621.850273,
-                "token_price": 0.0005333,
+                "token_price": 0.0004486,
                 "token_decimals": 6,
                 "token_symbol": "poke",
                 "token_name": "pokeliquid",
-                "value": 2047.670332750591
+                "value": 1722.4543620324678
               }
             ]
           },
@@ -485,271 +271,11 @@
               {
                 "token_address": "6TPQEMKviAYz3h7gWwtTZJSACMtF2tbofNnPwSyLpump",
                 "balance": 16410050.124133,
-                "token_price": 0.0005333,
+                "token_price": 0.0004486,
                 "token_decimals": 6,
                 "token_symbol": "poke",
                 "token_name": "pokeliquid",
-                "value": 8751.479731200128
-              }
-            ]
-          },
-          {
-            "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
-            "name": "Ansem",
-            "score": 3,
-            "tokens": [
-              {
-                "token_address": "6TPQEMKviAYz3h7gWwtTZJSACMtF2tbofNnPwSyLpump",
-                "balance": 4187740.04789,
-                "token_price": 0.0005333,
-                "token_decimals": 6,
-                "token_symbol": "poke",
-                "token_name": "pokeliquid",
-                "value": 2233.3217675397373
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "address": "7YQAAb8ANwmiv4C9SXofAujuoAF5qskMyXJ8HH9dpump",
-        "symbol": "CLAUBBIT",
-        "name": "CLAUBBIT",
-        "decimals": 6,
-        "icon": "https://ipfs.io/ipfs/bafkreiar5sbycsaxe53zx6qajucgorcw76jt6e3ae7rt7jdyvpa424cnle",
-        "created_time": 1781061958,
-        "website": "https://www.youtube.com/watch?v=GiqyYQdYoIY",
-        "twitter": "https://x.com/koopatroopwa/status/2064549542054224379",
-        "holder": 334,
-        "market_cap": 3461,
-        "price": 3.461e-06,
-        "price_change_24h": -86.72,
-        "volume_24h": 689999.03,
-        "pool_address": "solana_3cja6SQTcyFnrNFSNQakiDHqEkw1DFwdogLKHcp8cVLC",
-        "ath": 4.114346930235931e-05,
-        "ath_timestamp": 1781074800,
-        "ath_pool": "3cja6SQTcyFnrNFSNQakiDHqEkw1DFwdogLKHcp8cVLC",
-        "dexId": "pumpswap",
-        "pairAddress": "3cja6SQTcyFnrNFSNQakiDHqEkw1DFwdogLKHcp8cVLC",
-        "txns_24h": {
-          "buys": 12059,
-          "sells": 8339
-        },
-        "fdv_usd": 3461,
-        "total_reserve_in_usd": 4265.1,
-        "tags": [],
-        "first_signal": {
-          "timestamp": 1781071744,
-          "price": 4.081e-05
-        },
-        "metrics": {
-          "uniqueWallets": 2,
-          "inflow24h": -414.46191992994034,
-          "trades": [
-            {
-              "timestamp": "2026-06-10T04:46:24.000Z",
-              "type": "SELL",
-              "amount": 959188.776748,
-              "usdValue": 92.56550368327319,
-              "wallet": {
-                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-                "name": "OGmoodeng"
-              }
-            },
-            {
-              "timestamp": "2026-06-10T04:09:50.000Z",
-              "type": "BUY",
-              "amount": 959188.776748,
-              "usdValue": 64.50196612553802,
-              "wallet": {
-                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-                "name": "OGmoodeng"
-              }
-            },
-            {
-              "timestamp": "2026-06-10T03:55:20.000Z",
-              "type": "SELL",
-              "amount": 2285984.287443,
-              "usdValue": 86.83608942854741,
-              "wallet": {
-                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-                "name": "OGmoodeng"
-              }
-            },
-            {
-              "timestamp": "2026-06-10T03:49:56.000Z",
-              "type": "SELL",
-              "amount": 11277948.149592,
-              "usdValue": 255.33823045777407,
-              "wallet": {
-                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-                "name": "cooker"
-              }
-            },
-            {
-              "timestamp": "2026-06-10T03:29:51.000Z",
-              "type": "SELL",
-              "amount": 4752124.824301,
-              "usdValue": 44.22406248588365,
-              "wallet": {
-                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-                "name": "OGmoodeng"
-              }
-            }
-          ]
-        },
-        "walletPortfolios": [
-          {
-            "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-            "name": "OGmoodeng",
-            "score": 2,
-            "tokens": [
-              {
-                "token_address": "7YQAAb8ANwmiv4C9SXofAujuoAF5qskMyXJ8HH9dpump",
-                "balance": 0,
-                "token_price": 3.461e-06,
-                "token_decimals": 6,
-                "token_symbol": "CLAUBBIT",
-                "token_name": "CLAUBBIT",
-                "value": 0
-              }
-            ]
-          },
-          {
-            "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-            "name": "cooker",
-            "score": 2,
-            "tokens": [
-              {
-                "token_address": "7YQAAb8ANwmiv4C9SXofAujuoAF5qskMyXJ8HH9dpump",
-                "balance": 0,
-                "token_price": 3.461e-06,
-                "token_decimals": 6,
-                "token_symbol": "CLAUBBIT",
-                "token_name": "CLAUBBIT",
-                "value": 0
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "address": "9eVhxSQUjJLhWwbcStSFzKcS5SYvafg5Je3AqgXXpump",
-        "symbol": "ANIMA",
-        "name": "ANIMA",
-        "decimals": 6,
-        "icon": "https://ipfs.io/ipfs/bafkreien6wm7bw4qznaq5rp4o73auttr7bw3p3lldardgmcj5icvquplpm",
-        "created_time": 1781062668,
-        "website": "",
-        "twitter": "https://x.com/rezxjv",
-        "holder": 49,
-        "market_cap": 1333,
-        "price": 1.335e-06,
-        "price_change_24h": -94.99,
-        "volume_24h": 88765.67,
-        "pool_address": "solana_FVfiw1gLUSmRBUdyDDALyCgdrBtD13nSExeYS4GZwgsN",
-        "ath": 1.5179114745163752e-06,
-        "ath_timestamp": 1781074800,
-        "ath_pool": "FVfiw1gLUSmRBUdyDDALyCgdrBtD13nSExeYS4GZwgsN",
-        "dexId": "pumpswap",
-        "pairAddress": "FVfiw1gLUSmRBUdyDDALyCgdrBtD13nSExeYS4GZwgsN",
-        "txns_24h": {
-          "buys": 1190,
-          "sells": 1170
-        },
-        "fdv_usd": 1333,
-        "total_reserve_in_usd": 2464.49,
-        "tags": [],
-        "first_signal": {
-          "timestamp": 1781071744,
-          "price": 1.507e-06
-        },
-        "metrics": {
-          "uniqueWallets": 2,
-          "inflow24h": 189.56986666244967,
-          "trades": [
-            {
-              "timestamp": "2026-06-10T03:57:51.000Z",
-              "type": "SELL",
-              "amount": 5148460.618765,
-              "usdValue": 10.196996919027645,
-              "wallet": {
-                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-                "name": "cooker"
-              }
-            },
-            {
-              "timestamp": "2026-06-10T03:51:14.000Z",
-              "type": "BUY",
-              "amount": 171994.495836,
-              "usdValue": 6.44780846813034,
-              "wallet": {
-                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-                "name": "cooker"
-              }
-            },
-            {
-              "timestamp": "2026-06-10T03:50:36.000Z",
-              "type": "BUY",
-              "amount": 4976466.122929,
-              "usdValue": 193.382665617096,
-              "wallet": {
-                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-                "name": "cooker"
-              }
-            },
-            {
-              "timestamp": "2026-06-10T03:48:14.000Z",
-              "type": "SELL",
-              "amount": 2132392.721239,
-              "usdValue": 50.44929854418647,
-              "wallet": {
-                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-                "name": "OGmoodeng"
-              }
-            },
-            {
-              "timestamp": "2026-06-10T03:47:54.000Z",
-              "type": "BUY",
-              "amount": 2132392.721239,
-              "usdValue": 50.38568804043744,
-              "wallet": {
-                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-                "name": "OGmoodeng"
-              }
-            }
-          ]
-        },
-        "walletPortfolios": [
-          {
-            "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-            "name": "cooker",
-            "score": 2,
-            "tokens": [
-              {
-                "token_address": "9eVhxSQUjJLhWwbcStSFzKcS5SYvafg5Je3AqgXXpump",
-                "balance": 0,
-                "token_price": 1.335e-06,
-                "token_decimals": 6,
-                "token_symbol": "ANIMA",
-                "token_name": "ANIMA",
-                "value": 0
-              }
-            ]
-          },
-          {
-            "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-            "name": "OGmoodeng",
-            "score": 2,
-            "tokens": [
-              {
-                "token_address": "9eVhxSQUjJLhWwbcStSFzKcS5SYvafg5Je3AqgXXpump",
-                "balance": 0,
-                "token_price": 1.335e-06,
-                "token_decimals": 6,
-                "token_symbol": "ANIMA",
-                "token_name": "ANIMA",
-                "value": 0
+                "value": 7361.548485686064
               }
             ]
           }
