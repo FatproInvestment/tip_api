@@ -1,7 +1,129 @@
 {
   "success": true,
-  "timestamp": "2026-06-11T11:00:28.890Z",
+  "timestamp": "2026-06-11T14:40:18.972Z",
   "data": [
+    {
+      "address": "EN2nnxrg8uUi6x2sJkzNPd2eT6rB9rdSoQNNaENA4RZA",
+      "symbol": "SQUIRE",
+      "name": "Pod the Squire",
+      "decimals": 6,
+      "icon": "https://ipfs.io/ipfs/QmTPou8YT6Xs1UEk1MmtbxWHE5YKRwwxCzHg6LRYmS5mM6",
+      "created_time": 1773864853,
+      "website": "",
+      "twitter": "squire_bot",
+      "holder": 2716,
+      "market_cap": 3766416,
+      "price": 0.003767,
+      "price_change_24h": 89.84,
+      "volume_24h": 435039.35,
+      "pool_address": "solana_4CPVihvjKUUsXq3HFrS8wniUKffbpDqz2h6jHKjeXoYD",
+      "ath": 0.009043367958773871,
+      "ath_timestamp": 1780012800,
+      "ath_pool": "4CPVihvjKUUsXq3HFrS8wniUKffbpDqz2h6jHKjeXoYD",
+      "dexId": "pumpswap",
+      "pairAddress": "4CPVihvjKUUsXq3HFrS8wniUKffbpDqz2h6jHKjeXoYD",
+      "txns_24h": {
+        "buys": 2015,
+        "sells": 3064
+      },
+      "fdv_usd": 3766416,
+      "total_reserve_in_usd": 183444.74,
+      "tags": [],
+      "first_signal": {
+        "timestamp": 1779564970,
+        "price": 0.002619
+      },
+      "metrics": {
+        "uniqueWallets": 2,
+        "inflow24h": 4355.504482689737,
+        "trades": [
+          {
+            "timestamp": "2026-06-11T13:13:01.000Z",
+            "type": "BUY",
+            "amount": 61909.478348,
+            "usdValue": 192.175072,
+            "wallet": {
+              "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+              "name": "Ansem"
+            }
+          },
+          {
+            "timestamp": "2026-06-11T13:13:01.000Z",
+            "type": "BUY",
+            "amount": 91214.821838,
+            "usdValue": 282.3207800129191,
+            "wallet": {
+              "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+              "name": "Ansem"
+            }
+          },
+          {
+            "timestamp": "2026-06-11T13:13:01.000Z",
+            "type": "BUY",
+            "amount": 10173.934656,
+            "usdValue": 31.3689755062847,
+            "wallet": {
+              "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+              "name": "Ansem"
+            }
+          },
+          {
+            "timestamp": "2026-06-11T11:02:50.000Z",
+            "type": "BUY",
+            "amount": 583035.786406,
+            "usdValue": 1500,
+            "wallet": {
+              "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+              "name": "Chillguy32x"
+            }
+          },
+          {
+            "timestamp": "2026-06-11T03:06:24.000Z",
+            "type": "BUY",
+            "amount": 1054054.025778,
+            "usdValue": 2349.639655170534,
+            "wallet": {
+              "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+              "name": "Ansem"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+          "name": "Ansem",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "EN2nnxrg8uUi6x2sJkzNPd2eT6rB9rdSoQNNaENA4RZA",
+              "balance": 1217352.26062,
+              "token_price": 0.003767,
+              "token_decimals": 6,
+              "token_symbol": "SQUIRE",
+              "token_name": "Pod the Squire",
+              "value": 4585.7659657555405
+            }
+          ]
+        },
+        {
+          "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+          "name": "Chillguy32x",
+          "score": 1,
+          "tokens": [
+            {
+              "token_address": "EN2nnxrg8uUi6x2sJkzNPd2eT6rB9rdSoQNNaENA4RZA",
+              "balance": 583035.786406,
+              "token_price": 0.003767,
+              "token_decimals": 6,
+              "token_symbol": "SQUIRE",
+              "token_name": "Pod the Squire",
+              "value": 2196.295807391402
+            }
+          ]
+        }
+      ]
+    },
     {
       "address": "6TPQEMKviAYz3h7gWwtTZJSACMtF2tbofNnPwSyLpump",
       "symbol": "poke",
@@ -11,11 +133,11 @@
       "created_time": 1780619578,
       "website": "https://pokeliquid.xyz",
       "twitter": "https://x.com/pokeliq",
-      "holder": 1058,
-      "market_cap": 505721,
-      "price": 0.0005057,
-      "price_change_24h": 60.75,
-      "volume_24h": 500486.07,
+      "holder": 1135,
+      "market_cap": 356252,
+      "price": 0.0003563,
+      "price_change_24h": -45.62,
+      "volume_24h": 420358.74,
       "pool_address": "solana_FP8UH4i17XaqLutKDkd1SUBjryk3m4A7TvE9EhiSAdhP",
       "ath": 0.0006497753695246354,
       "ath_timestamp": 1781121600,
@@ -23,19 +145,19 @@
       "dexId": "pumpswap",
       "pairAddress": "FP8UH4i17XaqLutKDkd1SUBjryk3m4A7TvE9EhiSAdhP",
       "txns_24h": {
-        "buys": 2984,
-        "sells": 3037
+        "buys": 2732,
+        "sells": 2718
       },
-      "fdv_usd": 505721,
-      "total_reserve_in_usd": 58152.47,
+      "fdv_usd": 356252,
+      "total_reserve_in_usd": 48905.35,
       "tags": [],
       "first_signal": {
         "timestamp": 1781119509,
         "price": 0.0006333
       },
       "metrics": {
-        "uniqueWallets": 3,
-        "inflow24h": -430.1633056169044,
+        "uniqueWallets": 2,
+        "inflow24h": -82.70800524143078,
         "trades": [
           {
             "timestamp": "2026-06-11T03:05:52.000Z",
@@ -56,36 +178,6 @@
               "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
               "name": "DNF 哥"
             }
-          },
-          {
-            "timestamp": "2026-06-10T13:53:37.000Z",
-            "type": "SELL",
-            "amount": 1823338.902682,
-            "usdValue": 1188.7394027033538,
-            "wallet": {
-              "address": "CNudZYFgpbT26fidsiNrWfHeGTBMMeVWqruZXsEkcUPc",
-              "name": "Luce46x"
-            }
-          },
-          {
-            "timestamp": "2026-06-10T13:53:09.000Z",
-            "type": "SELL",
-            "amount": 2025932.114091,
-            "usdValue": 1362.5357673808317,
-            "wallet": {
-              "address": "CNudZYFgpbT26fidsiNrWfHeGTBMMeVWqruZXsEkcUPc",
-              "name": "Luce46x"
-            }
-          },
-          {
-            "timestamp": "2026-06-10T13:52:24.000Z",
-            "type": "BUY",
-            "amount": 4187740.04789,
-            "usdValue": 2203.819869708712,
-            "wallet": {
-              "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
-              "name": "Ansem"
-            }
           }
         ]
       },
@@ -98,7 +190,7 @@
             {
               "token_address": "6TPQEMKviAYz3h7gWwtTZJSACMtF2tbofNnPwSyLpump",
               "balance": 0,
-              "token_price": 0.0005057,
+              "token_price": 0.0003563,
               "token_decimals": 6,
               "token_symbol": "poke",
               "token_name": "pokeliquid",
@@ -114,27 +206,11 @@
             {
               "token_address": "6TPQEMKviAYz3h7gWwtTZJSACMtF2tbofNnPwSyLpump",
               "balance": 3839621.850273,
-              "token_price": 0.0005057,
+              "token_price": 0.0003563,
               "token_decimals": 6,
               "token_symbol": "poke",
               "token_name": "pokeliquid",
-              "value": 1941.6967696830561
-            }
-          ]
-        },
-        {
-          "address": "CNudZYFgpbT26fidsiNrWfHeGTBMMeVWqruZXsEkcUPc",
-          "name": "Luce46x",
-          "score": 0.5,
-          "tokens": [
-            {
-              "token_address": "6TPQEMKviAYz3h7gWwtTZJSACMtF2tbofNnPwSyLpump",
-              "balance": 16410050.124133,
-              "token_price": 0.0005057,
-              "token_decimals": 6,
-              "token_symbol": "poke",
-              "token_name": "pokeliquid",
-              "value": 8298.562347774057
+              "value": 1368.0572652522699
             }
           ]
         }
@@ -152,11 +228,11 @@
         "created_time": 1780619578,
         "website": "https://pokeliquid.xyz",
         "twitter": "https://x.com/pokeliq",
-        "holder": 1058,
-        "market_cap": 505721,
-        "price": 0.0005057,
-        "price_change_24h": 60.75,
-        "volume_24h": 500486.07,
+        "holder": 1135,
+        "market_cap": 356252,
+        "price": 0.0003563,
+        "price_change_24h": -45.62,
+        "volume_24h": 420358.74,
         "pool_address": "solana_FP8UH4i17XaqLutKDkd1SUBjryk3m4A7TvE9EhiSAdhP",
         "ath": 0.0006497753695246354,
         "ath_timestamp": 1781121600,
@@ -164,19 +240,19 @@
         "dexId": "pumpswap",
         "pairAddress": "FP8UH4i17XaqLutKDkd1SUBjryk3m4A7TvE9EhiSAdhP",
         "txns_24h": {
-          "buys": 2984,
-          "sells": 3037
+          "buys": 2732,
+          "sells": 2718
         },
-        "fdv_usd": 505721,
-        "total_reserve_in_usd": 58152.47,
+        "fdv_usd": 356252,
+        "total_reserve_in_usd": 48905.35,
         "tags": [],
         "first_signal": {
           "timestamp": 1781119509,
           "price": 0.0006333
         },
         "metrics": {
-          "uniqueWallets": 3,
-          "inflow24h": -430.1633056169044,
+          "uniqueWallets": 2,
+          "inflow24h": -82.70800524143078,
           "trades": [
             {
               "timestamp": "2026-06-11T03:05:52.000Z",
@@ -197,36 +273,6 @@
                 "address": "DNfuF1L62WWyW3pNakVkyGGFzVVhj4Yr52jSmdTyeBHm",
                 "name": "DNF 哥"
               }
-            },
-            {
-              "timestamp": "2026-06-10T13:53:37.000Z",
-              "type": "SELL",
-              "amount": 1823338.902682,
-              "usdValue": 1188.7394027033538,
-              "wallet": {
-                "address": "CNudZYFgpbT26fidsiNrWfHeGTBMMeVWqruZXsEkcUPc",
-                "name": "Luce46x"
-              }
-            },
-            {
-              "timestamp": "2026-06-10T13:53:09.000Z",
-              "type": "SELL",
-              "amount": 2025932.114091,
-              "usdValue": 1362.5357673808317,
-              "wallet": {
-                "address": "CNudZYFgpbT26fidsiNrWfHeGTBMMeVWqruZXsEkcUPc",
-                "name": "Luce46x"
-              }
-            },
-            {
-              "timestamp": "2026-06-10T13:52:24.000Z",
-              "type": "BUY",
-              "amount": 4187740.04789,
-              "usdValue": 2203.819869708712,
-              "wallet": {
-                "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
-                "name": "Ansem"
-              }
             }
           ]
         },
@@ -239,7 +285,7 @@
               {
                 "token_address": "6TPQEMKviAYz3h7gWwtTZJSACMtF2tbofNnPwSyLpump",
                 "balance": 0,
-                "token_price": 0.0005057,
+                "token_price": 0.0003563,
                 "token_decimals": 6,
                 "token_symbol": "poke",
                 "token_name": "pokeliquid",
@@ -255,34 +301,141 @@
               {
                 "token_address": "6TPQEMKviAYz3h7gWwtTZJSACMtF2tbofNnPwSyLpump",
                 "balance": 3839621.850273,
-                "token_price": 0.0005057,
+                "token_price": 0.0003563,
                 "token_decimals": 6,
                 "token_symbol": "poke",
                 "token_name": "pokeliquid",
-                "value": 1941.6967696830561
-              }
-            ]
-          },
-          {
-            "address": "CNudZYFgpbT26fidsiNrWfHeGTBMMeVWqruZXsEkcUPc",
-            "name": "Luce46x",
-            "score": 0.5,
-            "tokens": [
-              {
-                "token_address": "6TPQEMKviAYz3h7gWwtTZJSACMtF2tbofNnPwSyLpump",
-                "balance": 16410050.124133,
-                "token_price": 0.0005057,
-                "token_decimals": 6,
-                "token_symbol": "poke",
-                "token_name": "pokeliquid",
-                "value": 8298.562347774057
+                "value": 1368.0572652522699
               }
             ]
           }
         ]
       }
     ],
-    "buys": [],
+    "buys": [
+      {
+        "address": "EN2nnxrg8uUi6x2sJkzNPd2eT6rB9rdSoQNNaENA4RZA",
+        "symbol": "SQUIRE",
+        "name": "Pod the Squire",
+        "decimals": 6,
+        "icon": "https://ipfs.io/ipfs/QmTPou8YT6Xs1UEk1MmtbxWHE5YKRwwxCzHg6LRYmS5mM6",
+        "created_time": 1773864853,
+        "website": "",
+        "twitter": "squire_bot",
+        "holder": 2716,
+        "market_cap": 3766416,
+        "price": 0.003767,
+        "price_change_24h": 89.84,
+        "volume_24h": 435039.35,
+        "pool_address": "solana_4CPVihvjKUUsXq3HFrS8wniUKffbpDqz2h6jHKjeXoYD",
+        "ath": 0.009043367958773871,
+        "ath_timestamp": 1780012800,
+        "ath_pool": "4CPVihvjKUUsXq3HFrS8wniUKffbpDqz2h6jHKjeXoYD",
+        "dexId": "pumpswap",
+        "pairAddress": "4CPVihvjKUUsXq3HFrS8wniUKffbpDqz2h6jHKjeXoYD",
+        "txns_24h": {
+          "buys": 2015,
+          "sells": 3064
+        },
+        "fdv_usd": 3766416,
+        "total_reserve_in_usd": 183444.74,
+        "tags": [],
+        "first_signal": {
+          "timestamp": 1779564970,
+          "price": 0.002619
+        },
+        "metrics": {
+          "uniqueWallets": 2,
+          "inflow24h": 4355.504482689737,
+          "trades": [
+            {
+              "timestamp": "2026-06-11T13:13:01.000Z",
+              "type": "BUY",
+              "amount": 61909.478348,
+              "usdValue": 192.175072,
+              "wallet": {
+                "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+                "name": "Ansem"
+              }
+            },
+            {
+              "timestamp": "2026-06-11T13:13:01.000Z",
+              "type": "BUY",
+              "amount": 91214.821838,
+              "usdValue": 282.3207800129191,
+              "wallet": {
+                "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+                "name": "Ansem"
+              }
+            },
+            {
+              "timestamp": "2026-06-11T13:13:01.000Z",
+              "type": "BUY",
+              "amount": 10173.934656,
+              "usdValue": 31.3689755062847,
+              "wallet": {
+                "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+                "name": "Ansem"
+              }
+            },
+            {
+              "timestamp": "2026-06-11T11:02:50.000Z",
+              "type": "BUY",
+              "amount": 583035.786406,
+              "usdValue": 1500,
+              "wallet": {
+                "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+                "name": "Chillguy32x"
+              }
+            },
+            {
+              "timestamp": "2026-06-11T03:06:24.000Z",
+              "type": "BUY",
+              "amount": 1054054.025778,
+              "usdValue": 2349.639655170534,
+              "wallet": {
+                "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+                "name": "Ansem"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+            "name": "Ansem",
+            "score": 3,
+            "tokens": [
+              {
+                "token_address": "EN2nnxrg8uUi6x2sJkzNPd2eT6rB9rdSoQNNaENA4RZA",
+                "balance": 1217352.26062,
+                "token_price": 0.003767,
+                "token_decimals": 6,
+                "token_symbol": "SQUIRE",
+                "token_name": "Pod the Squire",
+                "value": 4585.7659657555405
+              }
+            ]
+          },
+          {
+            "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+            "name": "Chillguy32x",
+            "score": 1,
+            "tokens": [
+              {
+                "token_address": "EN2nnxrg8uUi6x2sJkzNPd2eT6rB9rdSoQNNaENA4RZA",
+                "balance": 583035.786406,
+                "token_price": 0.003767,
+                "token_decimals": 6,
+                "token_symbol": "SQUIRE",
+                "token_name": "Pod the Squire",
+                "value": 2196.295807391402
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "sells": []
   }
 }
