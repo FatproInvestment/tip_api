@@ -1,9 +1,165 @@
 {
   "success": true,
-  "timestamp": "2026-06-17T02:07:42.705Z",
-  "data": [],
+  "timestamp": "2026-06-17T07:24:24.722Z",
+  "data": [
+    {
+      "address": "BPxxfRCXkUVhig4HS1Lh7kZqV6SPJhzfEk4x6fVBjPCy",
+      "symbol": "BP",
+      "name": "Backpack",
+      "decimals": 9,
+      "icon": "https://trek-labs.github.io/heart-metadata/bp/bp.png",
+      "created_time": 1773469658,
+      "website": "",
+      "twitter": "",
+      "holder": 3802,
+      "market_cap": 129756983,
+      "price": 0.519,
+      "price_change_24h": 14.42,
+      "volume_24h": 3115103.16,
+      "pool_address": "solana_6qz7THwQvcjF3HyDGLuKaLBUk6EyJKeZXZMWLAeiwfjd",
+      "ath": 0.519,
+      "ath_pool": "",
+      "dexId": "meteora",
+      "pairAddress": "6qz7THwQvcjF3HyDGLuKaLBUk6EyJKeZXZMWLAeiwfjd",
+      "txns_24h": {
+        "buys": 3196,
+        "sells": 4274
+      },
+      "fdv_usd": 519027931,
+      "total_reserve_in_usd": 1555731.84,
+      "tags": [
+        "moonshot"
+      ],
+      "first_signal": {
+        "timestamp": 1781681063,
+        "price": 0.519
+      },
+      "metrics": {
+        "uniqueWallets": 1,
+        "inflow24h": 52576.403340880366,
+        "trades": [
+          {
+            "timestamp": "2026-06-17T03:01:18.000Z",
+            "type": "BUY",
+            "amount": 5728.789023873,
+            "usdValue": 3173.590256,
+            "wallet": {
+              "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+              "name": "Ansem"
+            }
+          },
+          {
+            "timestamp": "2026-06-17T02:45:13.000Z",
+            "type": "BUY",
+            "amount": 94939.55467365,
+            "usdValue": 49402.81308488036,
+            "wallet": {
+              "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+              "name": "Ansem"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+          "name": "Ansem",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "BPxxfRCXkUVhig4HS1Lh7kZqV6SPJhzfEk4x6fVBjPCy",
+              "balance": 100668.343697523,
+              "token_price": 0.519,
+              "token_decimals": 9,
+              "token_symbol": "BP",
+              "token_name": "Backpack",
+              "value": 52246.870379014435
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "groups": {
-    "latestSignals": [],
+    "latestSignals": [
+      {
+        "address": "BPxxfRCXkUVhig4HS1Lh7kZqV6SPJhzfEk4x6fVBjPCy",
+        "symbol": "BP",
+        "name": "Backpack",
+        "decimals": 9,
+        "icon": "https://trek-labs.github.io/heart-metadata/bp/bp.png",
+        "created_time": 1773469658,
+        "website": "",
+        "twitter": "",
+        "holder": 3802,
+        "market_cap": 129756983,
+        "price": 0.519,
+        "price_change_24h": 14.42,
+        "volume_24h": 3115103.16,
+        "pool_address": "solana_6qz7THwQvcjF3HyDGLuKaLBUk6EyJKeZXZMWLAeiwfjd",
+        "ath": 0.519,
+        "ath_pool": "",
+        "dexId": "meteora",
+        "pairAddress": "6qz7THwQvcjF3HyDGLuKaLBUk6EyJKeZXZMWLAeiwfjd",
+        "txns_24h": {
+          "buys": 3196,
+          "sells": 4274
+        },
+        "fdv_usd": 519027931,
+        "total_reserve_in_usd": 1555731.84,
+        "tags": [
+          "moonshot"
+        ],
+        "first_signal": {
+          "timestamp": 1781681063,
+          "price": 0.519
+        },
+        "metrics": {
+          "uniqueWallets": 1,
+          "inflow24h": 52576.403340880366,
+          "trades": [
+            {
+              "timestamp": "2026-06-17T03:01:18.000Z",
+              "type": "BUY",
+              "amount": 5728.789023873,
+              "usdValue": 3173.590256,
+              "wallet": {
+                "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+                "name": "Ansem"
+              }
+            },
+            {
+              "timestamp": "2026-06-17T02:45:13.000Z",
+              "type": "BUY",
+              "amount": 94939.55467365,
+              "usdValue": 49402.81308488036,
+              "wallet": {
+                "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+                "name": "Ansem"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+            "name": "Ansem",
+            "score": 3,
+            "tokens": [
+              {
+                "token_address": "BPxxfRCXkUVhig4HS1Lh7kZqV6SPJhzfEk4x6fVBjPCy",
+                "balance": 100668.343697523,
+                "token_price": 0.519,
+                "token_decimals": 9,
+                "token_symbol": "BP",
+                "token_name": "Backpack",
+                "value": 52246.870379014435
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "buys": [],
     "sells": []
   }
