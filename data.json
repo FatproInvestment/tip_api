@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2026-06-20T17:59:33.339Z",
+  "timestamp": "2026-06-20T19:39:20.617Z",
   "data": [
     {
       "address": "EmcxFTNVDqyLHp11NvwvLZ4D7LKGbG9i7B8RF7dwpump",
@@ -11,11 +11,11 @@
       "created_time": 1780599598,
       "website": "https://c0mpute.ai",
       "twitter": "https://x.com/c0mputeAI",
-      "holder": 4608,
-      "market_cap": 9618268,
-      "price": 0.01086,
-      "price_change_24h": 166,
-      "volume_24h": 5131833.78,
+      "holder": 4690,
+      "market_cap": 9149379,
+      "price": 0.01033,
+      "price_change_24h": 88.27,
+      "volume_24h": 5196691.99,
       "pool_address": "solana_GN9whJWrkgU8jBRpM5oa4iwSzYw1LivjB397DSyvbVG",
       "ath": 0.015038327791363309,
       "ath_timestamp": 1781913600,
@@ -23,11 +23,11 @@
       "dexId": "pumpswap",
       "pairAddress": "GN9whJWrkgU8jBRpM5oa4iwSzYw1LivjB397DSyvbVG",
       "txns_24h": {
-        "buys": 11073,
-        "sells": 13566
+        "buys": 11448,
+        "sells": 13392
       },
-      "fdv_usd": 10702100,
-      "total_reserve_in_usd": 385919.37,
+      "fdv_usd": 10180374,
+      "total_reserve_in_usd": 376914.61,
       "tags": [
         "moonshot"
       ],
@@ -36,9 +36,19 @@
         "price": 0.004469
       },
       "metrics": {
-        "uniqueWallets": 3,
-        "inflow24h": 41084.66965680564,
+        "uniqueWallets": 2,
+        "inflow24h": -7137.308059569132,
         "trades": [
+          {
+            "timestamp": "2026-06-20T18:48:10.000Z",
+            "type": "SELL",
+            "amount": 4519007.422513,
+            "usdValue": 40225.97771637478,
+            "wallet": {
+              "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+              "name": "Ansem"
+            }
+          },
           {
             "timestamp": "2026-06-20T15:57:56.000Z",
             "type": "SELL",
@@ -68,30 +78,26 @@
               "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
               "name": "Chillguy32x"
             }
-          },
-          {
-            "timestamp": "2026-06-19T19:32:34.000Z",
-            "type": "BUY",
-            "amount": 779994.388639,
-            "usdValue": 4000,
-            "wallet": {
-              "address": "6Ee7NNNNCfbSXKD1u81616Qyj1jK34DyWvvH5BCEsMFU",
-              "name": "JustFollow!"
-            }
-          },
-          {
-            "timestamp": "2026-06-19T19:32:14.000Z",
-            "type": "BUY",
-            "amount": 809848.9426,
-            "usdValue": 3996,
-            "wallet": {
-              "address": "6Ee7NNNNCfbSXKD1u81616Qyj1jK34DyWvvH5BCEsMFU",
-              "name": "JustFollow!"
-            }
           }
         ]
       },
       "walletPortfolios": [
+        {
+          "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+          "name": "Ansem",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "EmcxFTNVDqyLHp11NvwvLZ4D7LKGbG9i7B8RF7dwpump",
+              "balance": 0,
+              "token_price": 0.01033,
+              "token_decimals": 6,
+              "token_symbol": "ZERO",
+              "token_name": "c0mpute",
+              "value": 0
+            }
+          ]
+        },
         {
           "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
           "name": "Chillguy32x",
@@ -100,43 +106,11 @@
             {
               "token_address": "EmcxFTNVDqyLHp11NvwvLZ4D7LKGbG9i7B8RF7dwpump",
               "balance": 200000,
-              "token_price": 0.01086,
+              "token_price": 0.01033,
               "token_decimals": 6,
               "token_symbol": "ZERO",
               "token_name": "c0mpute",
-              "value": 2172
-            }
-          ]
-        },
-        {
-          "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
-          "name": "Ansem",
-          "score": 3,
-          "tokens": [
-            {
-              "token_address": "EmcxFTNVDqyLHp11NvwvLZ4D7LKGbG9i7B8RF7dwpump",
-              "balance": 4519007.422513,
-              "token_price": 0.01086,
-              "token_decimals": 6,
-              "token_symbol": "ZERO",
-              "token_name": "c0mpute",
-              "value": 49076.42060849118
-            }
-          ]
-        },
-        {
-          "address": "6Ee7NNNNCfbSXKD1u81616Qyj1jK34DyWvvH5BCEsMFU",
-          "name": "JustFollow!",
-          "score": 1,
-          "tokens": [
-            {
-              "token_address": "EmcxFTNVDqyLHp11NvwvLZ4D7LKGbG9i7B8RF7dwpump",
-              "balance": 89843.331239,
-              "token_price": 0.01086,
-              "token_decimals": 6,
-              "token_symbol": "ZERO",
-              "token_name": "c0mpute",
-              "value": 975.69857725554
+              "value": 2066
             }
           ]
         }
@@ -156,11 +130,11 @@
         "created_time": 1780599598,
         "website": "https://c0mpute.ai",
         "twitter": "https://x.com/c0mputeAI",
-        "holder": 4608,
-        "market_cap": 9618268,
-        "price": 0.01086,
-        "price_change_24h": 166,
-        "volume_24h": 5131833.78,
+        "holder": 4690,
+        "market_cap": 9149379,
+        "price": 0.01033,
+        "price_change_24h": 88.27,
+        "volume_24h": 5196691.99,
         "pool_address": "solana_GN9whJWrkgU8jBRpM5oa4iwSzYw1LivjB397DSyvbVG",
         "ath": 0.015038327791363309,
         "ath_timestamp": 1781913600,
@@ -168,11 +142,11 @@
         "dexId": "pumpswap",
         "pairAddress": "GN9whJWrkgU8jBRpM5oa4iwSzYw1LivjB397DSyvbVG",
         "txns_24h": {
-          "buys": 11073,
-          "sells": 13566
+          "buys": 11448,
+          "sells": 13392
         },
-        "fdv_usd": 10702100,
-        "total_reserve_in_usd": 385919.37,
+        "fdv_usd": 10180374,
+        "total_reserve_in_usd": 376914.61,
         "tags": [
           "moonshot"
         ],
@@ -181,9 +155,19 @@
           "price": 0.004469
         },
         "metrics": {
-          "uniqueWallets": 3,
-          "inflow24h": 41084.66965680564,
+          "uniqueWallets": 2,
+          "inflow24h": -7137.308059569132,
           "trades": [
+            {
+              "timestamp": "2026-06-20T18:48:10.000Z",
+              "type": "SELL",
+              "amount": 4519007.422513,
+              "usdValue": 40225.97771637478,
+              "wallet": {
+                "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+                "name": "Ansem"
+              }
+            },
             {
               "timestamp": "2026-06-20T15:57:56.000Z",
               "type": "SELL",
@@ -213,30 +197,26 @@
                 "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
                 "name": "Chillguy32x"
               }
-            },
-            {
-              "timestamp": "2026-06-19T19:32:34.000Z",
-              "type": "BUY",
-              "amount": 779994.388639,
-              "usdValue": 4000,
-              "wallet": {
-                "address": "6Ee7NNNNCfbSXKD1u81616Qyj1jK34DyWvvH5BCEsMFU",
-                "name": "JustFollow!"
-              }
-            },
-            {
-              "timestamp": "2026-06-19T19:32:14.000Z",
-              "type": "BUY",
-              "amount": 809848.9426,
-              "usdValue": 3996,
-              "wallet": {
-                "address": "6Ee7NNNNCfbSXKD1u81616Qyj1jK34DyWvvH5BCEsMFU",
-                "name": "JustFollow!"
-              }
             }
           ]
         },
         "walletPortfolios": [
+          {
+            "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+            "name": "Ansem",
+            "score": 3,
+            "tokens": [
+              {
+                "token_address": "EmcxFTNVDqyLHp11NvwvLZ4D7LKGbG9i7B8RF7dwpump",
+                "balance": 0,
+                "token_price": 0.01033,
+                "token_decimals": 6,
+                "token_symbol": "ZERO",
+                "token_name": "c0mpute",
+                "value": 0
+              }
+            ]
+          },
           {
             "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
             "name": "Chillguy32x",
@@ -245,43 +225,11 @@
               {
                 "token_address": "EmcxFTNVDqyLHp11NvwvLZ4D7LKGbG9i7B8RF7dwpump",
                 "balance": 200000,
-                "token_price": 0.01086,
+                "token_price": 0.01033,
                 "token_decimals": 6,
                 "token_symbol": "ZERO",
                 "token_name": "c0mpute",
-                "value": 2172
-              }
-            ]
-          },
-          {
-            "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
-            "name": "Ansem",
-            "score": 3,
-            "tokens": [
-              {
-                "token_address": "EmcxFTNVDqyLHp11NvwvLZ4D7LKGbG9i7B8RF7dwpump",
-                "balance": 4519007.422513,
-                "token_price": 0.01086,
-                "token_decimals": 6,
-                "token_symbol": "ZERO",
-                "token_name": "c0mpute",
-                "value": 49076.42060849118
-              }
-            ]
-          },
-          {
-            "address": "6Ee7NNNNCfbSXKD1u81616Qyj1jK34DyWvvH5BCEsMFU",
-            "name": "JustFollow!",
-            "score": 1,
-            "tokens": [
-              {
-                "token_address": "EmcxFTNVDqyLHp11NvwvLZ4D7LKGbG9i7B8RF7dwpump",
-                "balance": 89843.331239,
-                "token_price": 0.01086,
-                "token_decimals": 6,
-                "token_symbol": "ZERO",
-                "token_name": "c0mpute",
-                "value": 975.69857725554
+                "value": 2066
               }
             ]
           }
