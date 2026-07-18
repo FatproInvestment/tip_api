@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2026-07-18T23:02:01.837Z",
+  "timestamp": "2026-07-18T23:59:34.333Z",
   "data": [
     {
       "address": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
@@ -11,11 +11,11 @@
       "created_time": 1781643948,
       "website": "",
       "twitter": "https://x.com/Donnieonchain/status/2066990360115683402",
-      "holder": 130279,
-      "market_cap": 190499157,
-      "price": 0.1905,
-      "price_change_24h": 9.49,
-      "volume_24h": 2678279.35,
+      "holder": 130229,
+      "market_cap": 183756324,
+      "price": 0.1837,
+      "price_change_24h": 1.8,
+      "volume_24h": 2655038.51,
       "pool_address": "solana_6e7V9eegCHw997T72MxgwwJipZ6GJyZF8NvjkzT1rvpN",
       "ath": 0.44818097457689093,
       "ath_timestamp": 1783296000,
@@ -23,11 +23,11 @@
       "dexId": "pumpswap",
       "pairAddress": "FnzKY6x7entQ1eR3D225dQyT7ybfka4PskBMQhb8L3CC",
       "txns_24h": {
-        "buys": 6591,
-        "sells": 6714
+        "buys": 6448,
+        "sells": 6554
       },
-      "fdv_usd": 190499157,
-      "total_reserve_in_usd": 1981739.07,
+      "fdv_usd": 183756324,
+      "total_reserve_in_usd": 1945942.25,
       "tags": [
         "moonshot"
       ],
@@ -37,8 +37,18 @@
       },
       "metrics": {
         "uniqueWallets": 1,
-        "inflow24h": 52725.23075045679,
+        "inflow24h": -823.01893007342,
         "trades": [
+          {
+            "timestamp": "2026-07-18T23:07:30.000Z",
+            "type": "SELL",
+            "amount": 299391.935587,
+            "usdValue": 53548.24968053021,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
           {
             "timestamp": "2026-07-18T19:46:24.000Z",
             "type": "BUY",
@@ -119,12 +129,12 @@
           "tokens": [
             {
               "token_address": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
-              "balance": 299391.935587,
-              "token_price": 0.1905,
+              "balance": 0,
+              "token_price": 0.1837,
               "token_decimals": 6,
               "token_symbol": "ANSEM",
               "token_name": "The Black Bull",
-              "value": 57034.163729323496
+              "value": 0
             }
           ]
         }
@@ -133,7 +143,8 @@
   ],
   "groups": {
     "latestSignals": [],
-    "buys": [
+    "buys": [],
+    "sells": [
       {
         "address": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
         "symbol": "ANSEM",
@@ -143,11 +154,11 @@
         "created_time": 1781643948,
         "website": "",
         "twitter": "https://x.com/Donnieonchain/status/2066990360115683402",
-        "holder": 130279,
-        "market_cap": 190499157,
-        "price": 0.1905,
-        "price_change_24h": 9.49,
-        "volume_24h": 2678279.35,
+        "holder": 130229,
+        "market_cap": 183756324,
+        "price": 0.1837,
+        "price_change_24h": 1.8,
+        "volume_24h": 2655038.51,
         "pool_address": "solana_6e7V9eegCHw997T72MxgwwJipZ6GJyZF8NvjkzT1rvpN",
         "ath": 0.44818097457689093,
         "ath_timestamp": 1783296000,
@@ -155,11 +166,11 @@
         "dexId": "pumpswap",
         "pairAddress": "FnzKY6x7entQ1eR3D225dQyT7ybfka4PskBMQhb8L3CC",
         "txns_24h": {
-          "buys": 6591,
-          "sells": 6714
+          "buys": 6448,
+          "sells": 6554
         },
-        "fdv_usd": 190499157,
-        "total_reserve_in_usd": 1981739.07,
+        "fdv_usd": 183756324,
+        "total_reserve_in_usd": 1945942.25,
         "tags": [
           "moonshot"
         ],
@@ -169,8 +180,18 @@
         },
         "metrics": {
           "uniqueWallets": 1,
-          "inflow24h": 52725.23075045679,
+          "inflow24h": -823.01893007342,
           "trades": [
+            {
+              "timestamp": "2026-07-18T23:07:30.000Z",
+              "type": "SELL",
+              "amount": 299391.935587,
+              "usdValue": 53548.24968053021,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
             {
               "timestamp": "2026-07-18T19:46:24.000Z",
               "type": "BUY",
@@ -251,18 +272,17 @@
             "tokens": [
               {
                 "token_address": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
-                "balance": 299391.935587,
-                "token_price": 0.1905,
+                "balance": 0,
+                "token_price": 0.1837,
                 "token_decimals": 6,
                 "token_symbol": "ANSEM",
                 "token_name": "The Black Bull",
-                "value": 57034.163729323496
+                "value": 0
               }
             ]
           }
         ]
       }
-    ],
-    "sells": []
+    ]
   }
 }
