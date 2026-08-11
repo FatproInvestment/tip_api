@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2026-08-11T21:58:44.546Z",
+  "timestamp": "2026-08-11T22:39:06.263Z",
   "data": [
     {
       "address": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
@@ -11,11 +11,11 @@
       "created_time": 1784833616,
       "website": "",
       "twitter": "",
-      "holder": 8921,
-      "market_cap": 11535828,
-      "price": 0.01153,
-      "price_change_24h": -3.14,
-      "volume_24h": 1336976.86,
+      "holder": 8930,
+      "market_cap": 10520983,
+      "price": 0.01112,
+      "price_change_24h": -19.97,
+      "volume_24h": 1303363.98,
       "pool_address": "solana_48M3tRdbVYmEbf5rCTFVAgqCCaZdChVmeg3VPBrmgT8m",
       "ath": 0.015896891022411312,
       "ath_timestamp": 1786406400,
@@ -23,11 +23,11 @@
       "dexId": "raydium",
       "pairAddress": "7a8xxAJBELDo6P9dikSYctdw6ce8F4mWr3ahcAD8Ao49",
       "txns_24h": {
-        "buys": 2099,
-        "sells": 2588
+        "buys": 2040,
+        "sells": 2530
       },
-      "fdv_usd": 11535828,
-      "total_reserve_in_usd": 467570.3,
+      "fdv_usd": 11127323,
+      "total_reserve_in_usd": 459636.9,
       "tags": [
         "moonshot"
       ],
@@ -37,8 +37,38 @@
       },
       "metrics": {
         "uniqueWallets": 2,
-        "inflow24h": 14741.202436675765,
+        "inflow24h": 13758.510515713906,
         "trades": [
+          {
+            "timestamp": "2026-08-11T22:10:14.000Z",
+            "type": "SWAP",
+            "amount": 29970,
+            "usdValue": 327.0567804591797,
+            "wallet": {
+              "address": "6Ee7NNNNCfbSXKD1u81616Qyj1jK34DyWvvH5BCEsMFU",
+              "name": "JustFollow!"
+            }
+          },
+          {
+            "timestamp": "2026-08-11T22:09:58.000Z",
+            "type": "SWAP",
+            "amount": 29970,
+            "usdValue": 330.06104659948204,
+            "wallet": {
+              "address": "6Ee7NNNNCfbSXKD1u81616Qyj1jK34DyWvvH5BCEsMFU",
+              "name": "JustFollow!"
+            }
+          },
+          {
+            "timestamp": "2026-08-11T22:09:40.000Z",
+            "type": "SWAP",
+            "amount": 30000,
+            "usdValue": 325.5740939031979,
+            "wallet": {
+              "address": "6Ee7NNNNCfbSXKD1u81616Qyj1jK34DyWvvH5BCEsMFU",
+              "name": "JustFollow!"
+            }
+          },
           {
             "timestamp": "2026-08-11T20:42:42.000Z",
             "type": "BUY",
@@ -63,6 +93,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "6Ee7NNNNCfbSXKD1u81616Qyj1jK34DyWvvH5BCEsMFU",
+          "name": "JustFollow!",
+          "score": 1,
+          "tokens": [
+            {
+              "token_address": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+              "balance": 940367.654168084,
+              "token_price": 0.01112,
+              "token_decimals": 9,
+              "token_symbol": "STONK",
+              "token_name": "STONK",
+              "value": 10456.888314349095
+            }
+          ]
+        },
+        {
           "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
           "name": "凉粉小刀",
           "score": 2,
@@ -70,27 +116,11 @@
             {
               "token_address": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
               "balance": 201418.678468909,
-              "token_price": 0.01153,
+              "token_price": 0.01112,
               "token_decimals": 9,
               "token_symbol": "STONK",
               "token_name": "STONK",
-              "value": 2322.3573627465207
-            }
-          ]
-        },
-        {
-          "address": "6Ee7NNNNCfbSXKD1u81616Qyj1jK34DyWvvH5BCEsMFU",
-          "name": "JustFollow!",
-          "score": 1,
-          "tokens": [
-            {
-              "token_address": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
-              "balance": 1030367.654168084,
-              "token_price": 0.01153,
-              "token_decimals": 9,
-              "token_symbol": "STONK",
-              "token_name": "STONK",
-              "value": 11880.13905255801
+              "value": 2239.775704574268
             }
           ]
         }
@@ -99,102 +129,7 @@
   ],
   "groups": {
     "latestSignals": [],
-    "buys": [
-      {
-        "address": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
-        "symbol": "STONK",
-        "name": "STONK",
-        "decimals": 9,
-        "icon": "https://gateway.irys.xyz/em5twmyoeTJw9eZDj25xoKbBjHYhbeXYCcZ55o23Ztg",
-        "created_time": 1784833616,
-        "website": "",
-        "twitter": "",
-        "holder": 8921,
-        "market_cap": 11535828,
-        "price": 0.01153,
-        "price_change_24h": -3.14,
-        "volume_24h": 1336976.86,
-        "pool_address": "solana_48M3tRdbVYmEbf5rCTFVAgqCCaZdChVmeg3VPBrmgT8m",
-        "ath": 0.015896891022411312,
-        "ath_timestamp": 1786406400,
-        "ath_pool": "7a8xxAJBELDo6P9dikSYctdw6ce8F4mWr3ahcAD8Ao49",
-        "dexId": "raydium",
-        "pairAddress": "7a8xxAJBELDo6P9dikSYctdw6ce8F4mWr3ahcAD8Ao49",
-        "txns_24h": {
-          "buys": 2099,
-          "sells": 2588
-        },
-        "fdv_usd": 11535828,
-        "total_reserve_in_usd": 467570.3,
-        "tags": [
-          "moonshot"
-        ],
-        "first_signal": {
-          "timestamp": 1785975302,
-          "price": 0.00892
-        },
-        "metrics": {
-          "uniqueWallets": 2,
-          "inflow24h": 14741.202436675765,
-          "trades": [
-            {
-              "timestamp": "2026-08-11T20:42:42.000Z",
-              "type": "BUY",
-              "amount": 63029.053134048,
-              "usdValue": 755.2024366757652,
-              "wallet": {
-                "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
-                "name": "凉粉小刀"
-              }
-            },
-            {
-              "timestamp": "2026-08-11T00:28:07.000Z",
-              "type": "BUY",
-              "amount": 1030367.654168084,
-              "usdValue": 13986,
-              "wallet": {
-                "address": "6Ee7NNNNCfbSXKD1u81616Qyj1jK34DyWvvH5BCEsMFU",
-                "name": "JustFollow!"
-              }
-            }
-          ]
-        },
-        "walletPortfolios": [
-          {
-            "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
-            "name": "凉粉小刀",
-            "score": 2,
-            "tokens": [
-              {
-                "token_address": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
-                "balance": 201418.678468909,
-                "token_price": 0.01153,
-                "token_decimals": 9,
-                "token_symbol": "STONK",
-                "token_name": "STONK",
-                "value": 2322.3573627465207
-              }
-            ]
-          },
-          {
-            "address": "6Ee7NNNNCfbSXKD1u81616Qyj1jK34DyWvvH5BCEsMFU",
-            "name": "JustFollow!",
-            "score": 1,
-            "tokens": [
-              {
-                "token_address": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
-                "balance": 1030367.654168084,
-                "token_price": 0.01153,
-                "token_decimals": 9,
-                "token_symbol": "STONK",
-                "token_name": "STONK",
-                "value": 11880.13905255801
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "buys": [],
     "sells": []
   }
 }
