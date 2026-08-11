@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2026-08-11T20:18:40.463Z",
+  "timestamp": "2026-08-11T21:06:45.907Z",
   "data": [
     {
       "address": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
@@ -11,11 +11,11 @@
       "created_time": 1784833616,
       "website": "",
       "twitter": "",
-      "holder": 9017,
-      "market_cap": 12620573,
-      "price": 0.01262,
-      "price_change_24h": 4.59,
-      "volume_24h": 1883145.12,
+      "holder": 8921,
+      "market_cap": 11818993,
+      "price": 0.01181,
+      "price_change_24h": -10.02,
+      "volume_24h": 1530204.85,
       "pool_address": "solana_48M3tRdbVYmEbf5rCTFVAgqCCaZdChVmeg3VPBrmgT8m",
       "ath": 0.015896891022411312,
       "ath_timestamp": 1786406400,
@@ -23,11 +23,11 @@
       "dexId": "raydium",
       "pairAddress": "7a8xxAJBELDo6P9dikSYctdw6ce8F4mWr3ahcAD8Ao49",
       "txns_24h": {
-        "buys": 3128,
-        "sells": 3763
+        "buys": 2381,
+        "sells": 3007
       },
-      "fdv_usd": 12620573,
-      "total_reserve_in_usd": 487831.22,
+      "fdv_usd": 11818993,
+      "total_reserve_in_usd": 472872.65,
       "tags": [
         "moonshot"
       ],
@@ -36,9 +36,19 @@
         "price": 0.00892
       },
       "metrics": {
-        "uniqueWallets": 3,
-        "inflow24h": 11932.793751039928,
+        "uniqueWallets": 2,
+        "inflow24h": 12945.322289715692,
         "trades": [
+          {
+            "timestamp": "2026-08-11T20:42:42.000Z",
+            "type": "BUY",
+            "amount": 63029.053134048,
+            "usdValue": 755.2024366757652,
+            "wallet": {
+              "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+              "name": "凉粉小刀"
+            }
+          },
           {
             "timestamp": "2026-08-11T00:28:07.000Z",
             "type": "BUY",
@@ -58,20 +68,26 @@
               "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
               "name": "凉粉小刀"
             }
-          },
-          {
-            "timestamp": "2026-08-10T20:47:27.000Z",
-            "type": "SELL",
-            "amount": 19317.04742506,
-            "usdValue": 257.326102,
-            "wallet": {
-              "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
-              "name": "Chillguy32x"
-            }
           }
         ]
       },
       "walletPortfolios": [
+        {
+          "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+          "name": "凉粉小刀",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+              "balance": 201418.678468909,
+              "token_price": 0.01181,
+              "token_decimals": 9,
+              "token_symbol": "STONK",
+              "token_name": "STONK",
+              "value": 2378.7545927178153
+            }
+          ]
+        },
         {
           "address": "6Ee7NNNNCfbSXKD1u81616Qyj1jK34DyWvvH5BCEsMFU",
           "name": "JustFollow!",
@@ -80,43 +96,11 @@
             {
               "token_address": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
               "balance": 1030367.654168084,
-              "token_price": 0.01262,
+              "token_price": 0.01181,
               "token_decimals": 9,
               "token_symbol": "STONK",
               "token_name": "STONK",
-              "value": 13003.23979560122
-            }
-          ]
-        },
-        {
-          "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
-          "name": "凉粉小刀",
-          "score": 2,
-          "tokens": [
-            {
-              "token_address": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
-              "balance": 138389.625334861,
-              "token_price": 0.01262,
-              "token_decimals": 9,
-              "token_symbol": "STONK",
-              "token_name": "STONK",
-              "value": 1746.4770717259455
-            }
-          ]
-        },
-        {
-          "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
-          "name": "Chillguy32x",
-          "score": 1,
-          "tokens": [
-            {
-              "token_address": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
-              "balance": 350855.426691335,
-              "token_price": 0.01262,
-              "token_decimals": 9,
-              "token_symbol": "STONK",
-              "token_name": "STONK",
-              "value": 4427.795484844647
+              "value": 12168.641995725071
             }
           ]
         }
@@ -135,11 +119,11 @@
         "created_time": 1784833616,
         "website": "",
         "twitter": "",
-        "holder": 9017,
-        "market_cap": 12620573,
-        "price": 0.01262,
-        "price_change_24h": 4.59,
-        "volume_24h": 1883145.12,
+        "holder": 8921,
+        "market_cap": 11818993,
+        "price": 0.01181,
+        "price_change_24h": -10.02,
+        "volume_24h": 1530204.85,
         "pool_address": "solana_48M3tRdbVYmEbf5rCTFVAgqCCaZdChVmeg3VPBrmgT8m",
         "ath": 0.015896891022411312,
         "ath_timestamp": 1786406400,
@@ -147,11 +131,11 @@
         "dexId": "raydium",
         "pairAddress": "7a8xxAJBELDo6P9dikSYctdw6ce8F4mWr3ahcAD8Ao49",
         "txns_24h": {
-          "buys": 3128,
-          "sells": 3763
+          "buys": 2381,
+          "sells": 3007
         },
-        "fdv_usd": 12620573,
-        "total_reserve_in_usd": 487831.22,
+        "fdv_usd": 11818993,
+        "total_reserve_in_usd": 472872.65,
         "tags": [
           "moonshot"
         ],
@@ -160,9 +144,19 @@
           "price": 0.00892
         },
         "metrics": {
-          "uniqueWallets": 3,
-          "inflow24h": 11932.793751039928,
+          "uniqueWallets": 2,
+          "inflow24h": 12945.322289715692,
           "trades": [
+            {
+              "timestamp": "2026-08-11T20:42:42.000Z",
+              "type": "BUY",
+              "amount": 63029.053134048,
+              "usdValue": 755.2024366757652,
+              "wallet": {
+                "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+                "name": "凉粉小刀"
+              }
+            },
             {
               "timestamp": "2026-08-11T00:28:07.000Z",
               "type": "BUY",
@@ -182,20 +176,26 @@
                 "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
                 "name": "凉粉小刀"
               }
-            },
-            {
-              "timestamp": "2026-08-10T20:47:27.000Z",
-              "type": "SELL",
-              "amount": 19317.04742506,
-              "usdValue": 257.326102,
-              "wallet": {
-                "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
-                "name": "Chillguy32x"
-              }
             }
           ]
         },
         "walletPortfolios": [
+          {
+            "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
+            "name": "凉粉小刀",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+                "balance": 201418.678468909,
+                "token_price": 0.01181,
+                "token_decimals": 9,
+                "token_symbol": "STONK",
+                "token_name": "STONK",
+                "value": 2378.7545927178153
+              }
+            ]
+          },
           {
             "address": "6Ee7NNNNCfbSXKD1u81616Qyj1jK34DyWvvH5BCEsMFU",
             "name": "JustFollow!",
@@ -204,43 +204,11 @@
               {
                 "token_address": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
                 "balance": 1030367.654168084,
-                "token_price": 0.01262,
+                "token_price": 0.01181,
                 "token_decimals": 9,
                 "token_symbol": "STONK",
                 "token_name": "STONK",
-                "value": 13003.23979560122
-              }
-            ]
-          },
-          {
-            "address": "3SYQn32YG7XowiCzXKuXqnqBWtFvQDp3WeK36eE8rTEi",
-            "name": "凉粉小刀",
-            "score": 2,
-            "tokens": [
-              {
-                "token_address": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
-                "balance": 138389.625334861,
-                "token_price": 0.01262,
-                "token_decimals": 9,
-                "token_symbol": "STONK",
-                "token_name": "STONK",
-                "value": 1746.4770717259455
-              }
-            ]
-          },
-          {
-            "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
-            "name": "Chillguy32x",
-            "score": 1,
-            "tokens": [
-              {
-                "token_address": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
-                "balance": 350855.426691335,
-                "token_price": 0.01262,
-                "token_decimals": 9,
-                "token_symbol": "STONK",
-                "token_name": "STONK",
-                "value": 4427.795484844647
+                "value": 12168.641995725071
               }
             ]
           }
