@@ -1,10 +1,188 @@
 {
   "success": true,
-  "timestamp": "2026-08-16T20:36:00.637Z",
-  "data": [],
+  "timestamp": "2026-08-16T20:53:02.284Z",
+  "data": [
+    {
+      "address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+      "symbol": "PUMP",
+      "name": "Pump",
+      "decimals": 6,
+      "icon": "https://ipfs.io/ipfs/bafkreibyb3hcn7gglvdqpmklfev3fut3eqv3kje54l3to3xzxxbgpt5wjm",
+      "created_time": 1752153028,
+      "website": "",
+      "twitter": "",
+      "holder": 131075,
+      "market_cap": 2301908130,
+      "price": 0.00274,
+      "price_change_24h": -1.17,
+      "volume_24h": 668999.2,
+      "pool_address": "solana_2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
+      "ath": 0.005381,
+      "ath_timestamp": 1769558400,
+      "ath_pool": "2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
+      "dexId": "pumpswap",
+      "pairAddress": "2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
+      "txns_24h": {
+        "buys": 672,
+        "sells": 902
+      },
+      "fdv_usd": 2301908130,
+      "total_reserve_in_usd": 17507032.25,
+      "tags": [
+        "moonshot"
+      ],
+      "first_signal": {
+        "timestamp": 1752515714,
+        "price": 0.005381
+      },
+      "metrics": {
+        "uniqueWallets": 1,
+        "inflow24h": -8.913999066290577,
+        "trades": [
+          {
+            "timestamp": "2026-08-16T20:49:23.000Z",
+            "type": "SELL",
+            "amount": 3253.733167,
+            "usdValue": 8.916705,
+            "wallet": {
+              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+              "name": "OGmoodeng"
+            }
+          },
+          {
+            "timestamp": "2026-08-16T20:46:53.000Z",
+            "type": "SWAP",
+            "amount": 4353.560973,
+            "usdValue": 11.997199066290577,
+            "wallet": {
+              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+              "name": "OGmoodeng"
+            }
+          },
+          {
+            "timestamp": "2026-08-16T20:46:53.000Z",
+            "type": "BUY",
+            "amount": 4353.560973,
+            "usdValue": 11.999905,
+            "wallet": {
+              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+              "name": "OGmoodeng"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+          "name": "OGmoodeng",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+              "balance": 0,
+              "token_price": 0.00274,
+              "token_decimals": 6,
+              "token_symbol": "PUMP",
+              "token_name": "Pump",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "groups": {
     "latestSignals": [],
     "buys": [],
-    "sells": []
+    "sells": [
+      {
+        "address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+        "symbol": "PUMP",
+        "name": "Pump",
+        "decimals": 6,
+        "icon": "https://ipfs.io/ipfs/bafkreibyb3hcn7gglvdqpmklfev3fut3eqv3kje54l3to3xzxxbgpt5wjm",
+        "created_time": 1752153028,
+        "website": "",
+        "twitter": "",
+        "holder": 131075,
+        "market_cap": 2301908130,
+        "price": 0.00274,
+        "price_change_24h": -1.17,
+        "volume_24h": 668999.2,
+        "pool_address": "solana_2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
+        "ath": 0.005381,
+        "ath_timestamp": 1769558400,
+        "ath_pool": "2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
+        "dexId": "pumpswap",
+        "pairAddress": "2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
+        "txns_24h": {
+          "buys": 672,
+          "sells": 902
+        },
+        "fdv_usd": 2301908130,
+        "total_reserve_in_usd": 17507032.25,
+        "tags": [
+          "moonshot"
+        ],
+        "first_signal": {
+          "timestamp": 1752515714,
+          "price": 0.005381
+        },
+        "metrics": {
+          "uniqueWallets": 1,
+          "inflow24h": -8.913999066290577,
+          "trades": [
+            {
+              "timestamp": "2026-08-16T20:49:23.000Z",
+              "type": "SELL",
+              "amount": 3253.733167,
+              "usdValue": 8.916705,
+              "wallet": {
+                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+                "name": "OGmoodeng"
+              }
+            },
+            {
+              "timestamp": "2026-08-16T20:46:53.000Z",
+              "type": "SWAP",
+              "amount": 4353.560973,
+              "usdValue": 11.997199066290577,
+              "wallet": {
+                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+                "name": "OGmoodeng"
+              }
+            },
+            {
+              "timestamp": "2026-08-16T20:46:53.000Z",
+              "type": "BUY",
+              "amount": 4353.560973,
+              "usdValue": 11.999905,
+              "wallet": {
+                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+                "name": "OGmoodeng"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+            "name": "OGmoodeng",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+                "balance": 0,
+                "token_price": 0.00274,
+                "token_decimals": 6,
+                "token_symbol": "PUMP",
+                "token_name": "Pump",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 }
