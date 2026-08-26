@@ -1,7 +1,84 @@
 {
   "success": true,
-  "timestamp": "2026-08-26T02:04:42.961Z",
+  "timestamp": "2026-08-26T03:14:01.873Z",
   "data": [
+    {
+      "address": "9Pfync3ejPC9eHqVzq3nYQJAhyhjqpnB9UsaSfLxpump",
+      "symbol": "KET",
+      "name": "KET",
+      "decimals": 6,
+      "icon": "https://ipfs.io/ipfs/QmdPDHowv48jptDxaNTs4kL4y1H9pXtxpok8oKCLPpPrLf",
+      "created_time": 1783382957,
+      "website": "https://ketcto.com/",
+      "twitter": "https://x.com/ket_on_solana",
+      "holder": 5824,
+      "market_cap": 8664613,
+      "price": 0.008664,
+      "price_change_24h": 27.15,
+      "volume_24h": 580939.32,
+      "pool_address": "solana_Fex8CSkNXfaxAPRqQARKGchYAMVfwDg28sfmBXXGkNGX",
+      "ath": 0.008664,
+      "ath_pool": "",
+      "dexId": "pumpswap",
+      "pairAddress": "Fex8CSkNXfaxAPRqQARKGchYAMVfwDg28sfmBXXGkNGX",
+      "txns_24h": {
+        "buys": 2367,
+        "sells": 2949
+      },
+      "fdv_usd": 8664572,
+      "total_reserve_in_usd": 327195.11,
+      "tags": [
+        "moonshot"
+      ],
+      "first_signal": {
+        "timestamp": 1787714039,
+        "price": 0.008664
+      },
+      "metrics": {
+        "uniqueWallets": 1,
+        "inflow24h": 11137.158177319143,
+        "trades": [
+          {
+            "timestamp": "2026-08-26T02:54:45.000Z",
+            "type": "BUY",
+            "amount": 680011.205494,
+            "usdValue": 5567.040707494529,
+            "wallet": {
+              "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+              "name": "Ansem"
+            }
+          },
+          {
+            "timestamp": "2026-08-26T02:54:40.000Z",
+            "type": "BUY",
+            "amount": 722364.978187,
+            "usdValue": 5570.117469824614,
+            "wallet": {
+              "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+              "name": "Ansem"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+          "name": "Ansem",
+          "score": 3,
+          "tokens": [
+            {
+              "token_address": "9Pfync3ejPC9eHqVzq3nYQJAhyhjqpnB9UsaSfLxpump",
+              "balance": 1402376.183681,
+              "token_price": 0.008664,
+              "token_decimals": 6,
+              "token_symbol": "KET",
+              "token_name": "KET",
+              "value": 12150.187255412184
+            }
+          ]
+        }
+      ]
+    },
     {
       "address": "FZqdw6oSDCbHtKYxmhnfbi97SnyVy8jaYpdCoMrrjKa2",
       "symbol": "Pistacio",
@@ -11,27 +88,28 @@
       "created_time": 1787685722,
       "website": "",
       "twitter": "https://x.com/jup_enjoyoors/status/2092331684863652241",
-      "holder": 17664,
-      "market_cap": 11707267,
-      "price": 0.01199,
-      "price_change_24h": 30580,
-      "volume_24h": 28782690.49,
+      "holder": 17900,
+      "market_cap": 10875722,
+      "price": 0.01114,
+      "price_change_24h": 28401,
+      "volume_24h": 30460290.17,
       "pool_address": "solana_22CfmLna8Bsh7xrbyvGSs6NdD31iFj1UFVnwB7EberWU",
       "ath": 0.01199,
-      "ath_pool": "",
+      "ath_timestamp": 1787709887,
+      "ath_pool": "5Mk7BiBhs1uh9YVpLs5hv6L9kXv5e466LrT3m3MYm1cZ",
       "dexId": "pumpswap",
       "pairAddress": "22CfmLna8Bsh7xrbyvGSs6NdD31iFj1UFVnwB7EberWU",
       "txns_24h": {
-        "buys": 121677,
-        "sells": 101890
+        "buys": 128775,
+        "sells": 107719
       },
-      "fdv_usd": 11707267,
-      "total_reserve_in_usd": 391737.54,
+      "fdv_usd": 10875722,
+      "total_reserve_in_usd": 381327.28,
       "tags": [
         "moonshot"
       ],
       "first_signal": {
-        "timestamp": 1787709881,
+        "timestamp": 1787709882,
         "price": 0.01199
       },
       "metrics": {
@@ -149,11 +227,11 @@
             {
               "token_address": "FZqdw6oSDCbHtKYxmhnfbi97SnyVy8jaYpdCoMrrjKa2",
               "balance": 5284346.658207,
-              "token_price": 0.01199,
+              "token_price": 0.01114,
               "token_decimals": 6,
               "token_symbol": "Pistacio",
               "token_name": "Pistacio",
-              "value": 63359.316431901934
+              "value": 58867.621772425984
             }
           ]
         }
@@ -168,11 +246,11 @@
       "created_time": 1723574870,
       "website": "",
       "twitter": "",
-      "holder": 7743,
-      "market_cap": 6633267,
-      "price": 0.006634,
-      "price_change_24h": 43.43,
-      "volume_24h": 127088.12,
+      "holder": 7744,
+      "market_cap": 6332072,
+      "price": 0.006333,
+      "price_change_24h": 32.76,
+      "volume_24h": 126769.65,
       "pool_address": "solana_8aSEvHmtHY6jcwugAA8zRMqFF7PR9bf9fKWsD82htbeA",
       "ath": 0.007152306233374491,
       "ath_timestamp": 1787695200,
@@ -180,11 +258,11 @@
       "dexId": "meteora",
       "pairAddress": "8aSEvHmtHY6jcwugAA8zRMqFF7PR9bf9fKWsD82htbeA",
       "txns_24h": {
-        "buys": 907,
-        "sells": 900
+        "buys": 909,
+        "sells": 872
       },
-      "fdv_usd": 6633267,
-      "total_reserve_in_usd": 107423.47,
+      "fdv_usd": 6332072,
+      "total_reserve_in_usd": 105030.27,
       "tags": [
         "moonshot"
       ],
@@ -194,8 +272,18 @@
       },
       "metrics": {
         "uniqueWallets": 1,
-        "inflow24h": 1663.4423777855427,
+        "inflow24h": 59.351078898524065,
         "trades": [
+          {
+            "timestamp": "2026-08-26T02:53:57.000Z",
+            "type": "SELL",
+            "amount": 248448.196324752,
+            "usdValue": 1604.0912988870186,
+            "wallet": {
+              "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+              "name": "Ansem"
+            }
+          },
           {
             "timestamp": "2026-08-25T19:53:22.000Z",
             "type": "BUY",
@@ -216,12 +304,12 @@
           "tokens": [
             {
               "token_address": "2oGLxYuNBJRcepT1mEV6KnETaLD7Bf6qq3CM6skasBfe",
-              "balance": 248448.196324752,
-              "token_price": 0.006634,
+              "balance": 0,
+              "token_price": 0.006333,
               "token_decimals": 9,
               "token_symbol": "PUPS",
               "token_name": "PUPS",
-              "value": 1648.2053344184048
+              "value": 0
             }
           ]
         }
@@ -236,11 +324,11 @@
       "created_time": 1786426414,
       "website": "https://x.com/i/trending/2087045795241472046?s=20",
       "twitter": "https://x.com/iluhchobani/status/2087049768820212139",
-      "holder": 4994,
-      "market_cap": 126548,
-      "price": 0.0001324,
-      "price_change_24h": -5.03,
-      "volume_24h": 175866.72,
+      "holder": 5041,
+      "market_cap": 119610,
+      "price": 0.0001251,
+      "price_change_24h": -7.69,
+      "volume_24h": 181614.38,
       "pool_address": "solana_J3hKH2nE88wRie1ShpE53Jd7KE12E2LMG7CNLb4BJFTN",
       "ath": 0.0002037,
       "ath_timestamp": 1787668410,
@@ -248,11 +336,11 @@
       "dexId": "pumpswap",
       "pairAddress": "J3hKH2nE88wRie1ShpE53Jd7KE12E2LMG7CNLb4BJFTN",
       "txns_24h": {
-        "buys": 1284,
-        "sells": 1211
+        "buys": 1339,
+        "sells": 1229
       },
-      "fdv_usd": 126548,
-      "total_reserve_in_usd": 49855.83,
+      "fdv_usd": 119610,
+      "total_reserve_in_usd": 48489.32,
       "tags": [
         "moonshot"
       ],
@@ -295,7 +383,7 @@
             {
               "token_address": "GCa9TZMK9Q3VUSkhZgX76YAQBjqQd1dPxkBnZojFpump",
               "balance": 0,
-              "token_price": 0.0001324,
+              "token_price": 0.0001251,
               "token_decimals": 6,
               "token_symbol": "Plumber",
               "token_name": "Plumber",
@@ -309,6 +397,83 @@
   "groups": {
     "latestSignals": [
       {
+        "address": "9Pfync3ejPC9eHqVzq3nYQJAhyhjqpnB9UsaSfLxpump",
+        "symbol": "KET",
+        "name": "KET",
+        "decimals": 6,
+        "icon": "https://ipfs.io/ipfs/QmdPDHowv48jptDxaNTs4kL4y1H9pXtxpok8oKCLPpPrLf",
+        "created_time": 1783382957,
+        "website": "https://ketcto.com/",
+        "twitter": "https://x.com/ket_on_solana",
+        "holder": 5824,
+        "market_cap": 8664613,
+        "price": 0.008664,
+        "price_change_24h": 27.15,
+        "volume_24h": 580939.32,
+        "pool_address": "solana_Fex8CSkNXfaxAPRqQARKGchYAMVfwDg28sfmBXXGkNGX",
+        "ath": 0.008664,
+        "ath_pool": "",
+        "dexId": "pumpswap",
+        "pairAddress": "Fex8CSkNXfaxAPRqQARKGchYAMVfwDg28sfmBXXGkNGX",
+        "txns_24h": {
+          "buys": 2367,
+          "sells": 2949
+        },
+        "fdv_usd": 8664572,
+        "total_reserve_in_usd": 327195.11,
+        "tags": [
+          "moonshot"
+        ],
+        "first_signal": {
+          "timestamp": 1787714039,
+          "price": 0.008664
+        },
+        "metrics": {
+          "uniqueWallets": 1,
+          "inflow24h": 11137.158177319143,
+          "trades": [
+            {
+              "timestamp": "2026-08-26T02:54:45.000Z",
+              "type": "BUY",
+              "amount": 680011.205494,
+              "usdValue": 5567.040707494529,
+              "wallet": {
+                "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+                "name": "Ansem"
+              }
+            },
+            {
+              "timestamp": "2026-08-26T02:54:40.000Z",
+              "type": "BUY",
+              "amount": 722364.978187,
+              "usdValue": 5570.117469824614,
+              "wallet": {
+                "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+                "name": "Ansem"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+            "name": "Ansem",
+            "score": 3,
+            "tokens": [
+              {
+                "token_address": "9Pfync3ejPC9eHqVzq3nYQJAhyhjqpnB9UsaSfLxpump",
+                "balance": 1402376.183681,
+                "token_price": 0.008664,
+                "token_decimals": 6,
+                "token_symbol": "KET",
+                "token_name": "KET",
+                "value": 12150.187255412184
+              }
+            ]
+          }
+        ]
+      },
+      {
         "address": "FZqdw6oSDCbHtKYxmhnfbi97SnyVy8jaYpdCoMrrjKa2",
         "symbol": "Pistacio",
         "name": "Pistacio",
@@ -317,27 +482,28 @@
         "created_time": 1787685722,
         "website": "",
         "twitter": "https://x.com/jup_enjoyoors/status/2092331684863652241",
-        "holder": 17664,
-        "market_cap": 11707267,
-        "price": 0.01199,
-        "price_change_24h": 30580,
-        "volume_24h": 28782690.49,
+        "holder": 17900,
+        "market_cap": 10875722,
+        "price": 0.01114,
+        "price_change_24h": 28401,
+        "volume_24h": 30460290.17,
         "pool_address": "solana_22CfmLna8Bsh7xrbyvGSs6NdD31iFj1UFVnwB7EberWU",
         "ath": 0.01199,
-        "ath_pool": "",
+        "ath_timestamp": 1787709887,
+        "ath_pool": "5Mk7BiBhs1uh9YVpLs5hv6L9kXv5e466LrT3m3MYm1cZ",
         "dexId": "pumpswap",
         "pairAddress": "22CfmLna8Bsh7xrbyvGSs6NdD31iFj1UFVnwB7EberWU",
         "txns_24h": {
-          "buys": 121677,
-          "sells": 101890
+          "buys": 128775,
+          "sells": 107719
         },
-        "fdv_usd": 11707267,
-        "total_reserve_in_usd": 391737.54,
+        "fdv_usd": 10875722,
+        "total_reserve_in_usd": 381327.28,
         "tags": [
           "moonshot"
         ],
         "first_signal": {
-          "timestamp": 1787709881,
+          "timestamp": 1787709882,
           "price": 0.01199
         },
         "metrics": {
@@ -455,11 +621,11 @@
               {
                 "token_address": "FZqdw6oSDCbHtKYxmhnfbi97SnyVy8jaYpdCoMrrjKa2",
                 "balance": 5284346.658207,
-                "token_price": 0.01199,
+                "token_price": 0.01114,
                 "token_decimals": 6,
                 "token_symbol": "Pistacio",
                 "token_name": "Pistacio",
-                "value": 63359.316431901934
+                "value": 58867.621772425984
               }
             ]
           }
@@ -474,11 +640,11 @@
         "created_time": 1723574870,
         "website": "",
         "twitter": "",
-        "holder": 7743,
-        "market_cap": 6633267,
-        "price": 0.006634,
-        "price_change_24h": 43.43,
-        "volume_24h": 127088.12,
+        "holder": 7744,
+        "market_cap": 6332072,
+        "price": 0.006333,
+        "price_change_24h": 32.76,
+        "volume_24h": 126769.65,
         "pool_address": "solana_8aSEvHmtHY6jcwugAA8zRMqFF7PR9bf9fKWsD82htbeA",
         "ath": 0.007152306233374491,
         "ath_timestamp": 1787695200,
@@ -486,11 +652,11 @@
         "dexId": "meteora",
         "pairAddress": "8aSEvHmtHY6jcwugAA8zRMqFF7PR9bf9fKWsD82htbeA",
         "txns_24h": {
-          "buys": 907,
-          "sells": 900
+          "buys": 909,
+          "sells": 872
         },
-        "fdv_usd": 6633267,
-        "total_reserve_in_usd": 107423.47,
+        "fdv_usd": 6332072,
+        "total_reserve_in_usd": 105030.27,
         "tags": [
           "moonshot"
         ],
@@ -500,8 +666,18 @@
         },
         "metrics": {
           "uniqueWallets": 1,
-          "inflow24h": 1663.4423777855427,
+          "inflow24h": 59.351078898524065,
           "trades": [
+            {
+              "timestamp": "2026-08-26T02:53:57.000Z",
+              "type": "SELL",
+              "amount": 248448.196324752,
+              "usdValue": 1604.0912988870186,
+              "wallet": {
+                "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+                "name": "Ansem"
+              }
+            },
             {
               "timestamp": "2026-08-25T19:53:22.000Z",
               "type": "BUY",
@@ -522,12 +698,12 @@
             "tokens": [
               {
                 "token_address": "2oGLxYuNBJRcepT1mEV6KnETaLD7Bf6qq3CM6skasBfe",
-                "balance": 248448.196324752,
-                "token_price": 0.006634,
+                "balance": 0,
+                "token_price": 0.006333,
                 "token_decimals": 9,
                 "token_symbol": "PUPS",
                 "token_name": "PUPS",
-                "value": 1648.2053344184048
+                "value": 0
               }
             ]
           }
@@ -542,11 +718,11 @@
         "created_time": 1786426414,
         "website": "https://x.com/i/trending/2087045795241472046?s=20",
         "twitter": "https://x.com/iluhchobani/status/2087049768820212139",
-        "holder": 4994,
-        "market_cap": 126548,
-        "price": 0.0001324,
-        "price_change_24h": -5.03,
-        "volume_24h": 175866.72,
+        "holder": 5041,
+        "market_cap": 119610,
+        "price": 0.0001251,
+        "price_change_24h": -7.69,
+        "volume_24h": 181614.38,
         "pool_address": "solana_J3hKH2nE88wRie1ShpE53Jd7KE12E2LMG7CNLb4BJFTN",
         "ath": 0.0002037,
         "ath_timestamp": 1787668410,
@@ -554,11 +730,11 @@
         "dexId": "pumpswap",
         "pairAddress": "J3hKH2nE88wRie1ShpE53Jd7KE12E2LMG7CNLb4BJFTN",
         "txns_24h": {
-          "buys": 1284,
-          "sells": 1211
+          "buys": 1339,
+          "sells": 1229
         },
-        "fdv_usd": 126548,
-        "total_reserve_in_usd": 49855.83,
+        "fdv_usd": 119610,
+        "total_reserve_in_usd": 48489.32,
         "tags": [
           "moonshot"
         ],
@@ -601,7 +777,7 @@
               {
                 "token_address": "GCa9TZMK9Q3VUSkhZgX76YAQBjqQd1dPxkBnZojFpump",
                 "balance": 0,
-                "token_price": 0.0001324,
+                "token_price": 0.0001251,
                 "token_decimals": 6,
                 "token_symbol": "Plumber",
                 "token_name": "Plumber",
