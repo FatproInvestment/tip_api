@@ -1,36 +1,130 @@
 {
   "success": true,
-  "timestamp": "2026-09-02T09:55:48.030Z",
+  "timestamp": "2026-09-02T13:57:39.350Z",
   "data": [
+    {
+      "address": "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump",
+      "symbol": "OTC",
+      "name": "OTC",
+      "decimals": 6,
+      "icon": "https://desperate-moccasin-minnow.myfilebase.com/ipfs/QmP1qukvUAheQpqCccr4qsrWrytkJiGCxzgYMcaAWGGGCw",
+      "created_time": 1787923888,
+      "website": "https://otcdesks.cash/",
+      "twitter": "https://x.com/OTCDesks",
+      "holder": 9270,
+      "market_cap": 3123307,
+      "price": 0.004291,
+      "price_change_24h": -15.01,
+      "volume_24h": 5187406.73,
+      "pool_address": "solana_DA4pM4xSDY4M9V4CgAKKBVH1pw1yscTQQa5nEkGHuKpt",
+      "ath": 0.010445869797645255,
+      "ath_timestamp": 1788220800,
+      "ath_pool": "DA4pM4xSDY4M9V4CgAKKBVH1pw1yscTQQa5nEkGHuKpt",
+      "dexId": "pumpswap",
+      "pairAddress": "DA4pM4xSDY4M9V4CgAKKBVH1pw1yscTQQa5nEkGHuKpt",
+      "txns_24h": {
+        "buys": 268170,
+        "sells": 19279
+      },
+      "fdv_usd": 3123307,
+      "total_reserve_in_usd": 250563.44,
+      "tags": [
+        "moonshot"
+      ],
+      "first_signal": {
+        "timestamp": 1788216386,
+        "price": 0.002496
+      },
+      "metrics": {
+        "uniqueWallets": 2,
+        "inflow24h": 6.100842541498309,
+        "trades": [
+          {
+            "timestamp": "2026-09-02T10:39:37.000Z",
+            "type": "BUY",
+            "amount": 224819.394652,
+            "usdValue": 980.0115324270766,
+            "wallet": {
+              "address": "CNudZYFgpbT26fidsiNrWfHeGTBMMeVWqruZXsEkcUPc",
+              "name": "Luce46x"
+            }
+          },
+          {
+            "timestamp": "2026-09-01T20:38:27.000Z",
+            "type": "SELL",
+            "amount": 247817.934874,
+            "usdValue": 973.9106898855783,
+            "wallet": {
+              "address": "BieeZkdnBAgNYknzo3RH2vku7FcPkFZMZmRJANh2TpW",
+              "name": "degenai71x"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "CNudZYFgpbT26fidsiNrWfHeGTBMMeVWqruZXsEkcUPc",
+          "name": "Luce46x",
+          "score": 0.5,
+          "tokens": [
+            {
+              "token_address": "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump",
+              "balance": 3576595.38172,
+              "token_price": 0.004291,
+              "token_decimals": 6,
+              "token_symbol": "OTC",
+              "token_name": "OTC",
+              "value": 15347.170782960518
+            }
+          ]
+        },
+        {
+          "address": "BieeZkdnBAgNYknzo3RH2vku7FcPkFZMZmRJANh2TpW",
+          "name": "degenai71x",
+          "score": 0.5,
+          "tokens": [
+            {
+              "token_address": "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump",
+              "balance": 0,
+              "token_price": 0.004291,
+              "token_decimals": 6,
+              "token_symbol": "OTC",
+              "token_name": "OTC",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
     {
       "address": "ANM35KbUcfKdEVBXzSjZBoT6ceSwYRs3fuc79fp7kRqP",
       "symbol": "Pumpcat",
       "name": "Pump Cat",
       "decimals": 6,
       "icon": "",
-      "created_time": 1788311605,
+      "created_time": 1788310931,
       "website": "",
       "twitter": "",
-      "holder": 0,
-      "market_cap": 152574,
-      "price": 0.0001545,
-      "price_change_24h": 275,
-      "volume_24h": 6550844.57,
+      "holder": 2983,
+      "market_cap": 137420,
+      "price": 0.0001391,
+      "price_change_24h": 238,
+      "volume_24h": 6662525.13,
       "pool_address": "solana_D6VVbDNcakyAvuGk8D4bjz9LHtQQugHdsx57fRTSsqNG",
-      "ath": 0.0001545,
-      "ath_timestamp": null,
-      "ath_pool": "",
+      "ath": 0.0006155589208183883,
+      "ath_timestamp": 1788328800,
+      "ath_pool": "D6VVbDNcakyAvuGk8D4bjz9LHtQQugHdsx57fRTSsqNG",
       "dexId": "pumpswap",
       "pairAddress": "D6VVbDNcakyAvuGk8D4bjz9LHtQQugHdsx57fRTSsqNG",
       "boosts": {
         "active": 10
       },
       "txns_24h": {
-        "buys": 48710,
-        "sells": 39573
+        "buys": 50158,
+        "sells": 40912
       },
-      "fdv_usd": 152574,
-      "total_reserve_in_usd": 38284.64,
+      "fdv_usd": 137420,
+      "total_reserve_in_usd": 36508.07,
       "tags": [],
       "first_signal": {
         "timestamp": 1788327903,
@@ -111,11 +205,11 @@
             {
               "token_address": "ANM35KbUcfKdEVBXzSjZBoT6ceSwYRs3fuc79fp7kRqP",
               "balance": 1982765.980705,
-              "token_price": 0.0001545,
+              "token_price": 0.0001391,
               "token_decimals": 6,
               "token_symbol": "Pumpcat",
               "token_name": "Pump Cat",
-              "value": 306.33734401892247
+              "value": 275.80274791606547
             }
           ]
         },
@@ -127,7 +221,7 @@
             {
               "token_address": "ANM35KbUcfKdEVBXzSjZBoT6ceSwYRs3fuc79fp7kRqP",
               "balance": 0,
-              "token_price": 0.0001545,
+              "token_price": 0.0001391,
               "token_decimals": 6,
               "token_symbol": "Pumpcat",
               "token_name": "Pump Cat",
@@ -143,26 +237,26 @@
       "name": "GoPro - Backpack Securities",
       "decimals": 6,
       "icon": "https://backpack.exchange/api/stock-logo/GPRO",
-      "created_time": 1788267309,
+      "created_time": 1788227802,
       "website": "",
       "twitter": "",
-      "holder": 0,
-      "market_cap": 103966,
-      "price": 1.19,
-      "price_change_24h": -23.49,
-      "volume_24h": 9587307.98,
+      "holder": 6057,
+      "market_cap": 110053,
+      "price": 1.26,
+      "price_change_24h": -25.33,
+      "volume_24h": 8107179.82,
       "pool_address": "solana_8aRfdGqA8FWrNrCG3CodWrMwTb1f94psGvSE3Ld7WpuF",
-      "ath": 1.28,
-      "ath_timestamp": 1788327908,
+      "ath": 1.3222607017841845,
+      "ath_timestamp": 1788328800,
       "ath_pool": "8aRfdGqA8FWrNrCG3CodWrMwTb1f94psGvSE3Ld7WpuF",
       "dexId": "raydium",
       "pairAddress": "8aRfdGqA8FWrNrCG3CodWrMwTb1f94psGvSE3Ld7WpuF",
       "txns_24h": {
-        "buys": 31898,
-        "sells": 29616
+        "buys": 26338,
+        "sells": 26726
       },
-      "fdv_usd": 103966,
-      "total_reserve_in_usd": 110323.63,
+      "fdv_usd": 110053,
+      "total_reserve_in_usd": 144540.39,
       "tags": [
         "moonshot"
       ],
@@ -205,293 +299,11 @@
             {
               "token_address": "GPRR2u6NS5yBQHWGauoJ9HXgjrTH8dDsrBfTV5zAYvDH",
               "balance": 0,
-              "token_price": 1.19,
+              "token_price": 1.26,
               "token_decimals": 6,
               "token_symbol": "GPRO",
               "token_name": "GoPro - Backpack Securities",
               "value": 0
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "address": "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump",
-      "symbol": "OTC",
-      "name": "OTC",
-      "decimals": 6,
-      "icon": "https://desperate-moccasin-minnow.myfilebase.com/ipfs/QmP1qukvUAheQpqCccr4qsrWrytkJiGCxzgYMcaAWGGGCw",
-      "created_time": 1787923991,
-      "website": "",
-      "twitter": "",
-      "holder": 0,
-      "market_cap": 3696741,
-      "price": 0.005077,
-      "price_change_24h": -33.19,
-      "volume_24h": 5832017.85,
-      "pool_address": "solana_DA4pM4xSDY4M9V4CgAKKBVH1pw1yscTQQa5nEkGHuKpt",
-      "ath": 0.010445869797645255,
-      "ath_timestamp": 1788220800,
-      "ath_pool": "DA4pM4xSDY4M9V4CgAKKBVH1pw1yscTQQa5nEkGHuKpt",
-      "dexId": "pumpswap",
-      "pairAddress": "DA4pM4xSDY4M9V4CgAKKBVH1pw1yscTQQa5nEkGHuKpt",
-      "txns_24h": {
-        "buys": 270353,
-        "sells": 21300
-      },
-      "fdv_usd": 3696741,
-      "total_reserve_in_usd": 271871.22,
-      "tags": [
-        "moonshot"
-      ],
-      "first_signal": {
-        "timestamp": 1788216386,
-        "price": 0.002496
-      },
-      "metrics": {
-        "uniqueWallets": 2,
-        "inflow24h": -1456.2981947761155,
-        "trades": [
-          {
-            "timestamp": "2026-09-01T20:38:27.000Z",
-            "type": "SELL",
-            "amount": 247817.934874,
-            "usdValue": 973.9106898855783,
-            "wallet": {
-              "address": "BieeZkdnBAgNYknzo3RH2vku7FcPkFZMZmRJANh2TpW",
-              "name": "degenai71x"
-            }
-          },
-          {
-            "timestamp": "2026-09-01T13:44:34.000Z",
-            "type": "SELL",
-            "amount": 270351.070412,
-            "usdValue": 1404.6948951229867,
-            "wallet": {
-              "address": "BieeZkdnBAgNYknzo3RH2vku7FcPkFZMZmRJANh2TpW",
-              "name": "degenai71x"
-            }
-          },
-          {
-            "timestamp": "2026-09-01T13:42:50.000Z",
-            "type": "BUY",
-            "amount": 381598.032413,
-            "usdValue": 2030.572417722145,
-            "wallet": {
-              "address": "CNudZYFgpbT26fidsiNrWfHeGTBMMeVWqruZXsEkcUPc",
-              "name": "Luce46x"
-            }
-          },
-          {
-            "timestamp": "2026-09-01T12:23:50.000Z",
-            "type": "SELL",
-            "amount": 172723.001761,
-            "usdValue": 1108.2650274896955,
-            "wallet": {
-              "address": "BieeZkdnBAgNYknzo3RH2vku7FcPkFZMZmRJANh2TpW",
-              "name": "degenai71x"
-            }
-          }
-        ]
-      },
-      "walletPortfolios": [
-        {
-          "address": "BieeZkdnBAgNYknzo3RH2vku7FcPkFZMZmRJANh2TpW",
-          "name": "degenai71x",
-          "score": 0.5,
-          "tokens": [
-            {
-              "token_address": "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump",
-              "balance": 0,
-              "token_price": 0.005077,
-              "token_decimals": 6,
-              "token_symbol": "OTC",
-              "token_name": "OTC",
-              "value": 0
-            }
-          ]
-        },
-        {
-          "address": "CNudZYFgpbT26fidsiNrWfHeGTBMMeVWqruZXsEkcUPc",
-          "name": "Luce46x",
-          "score": 0.5,
-          "tokens": [
-            {
-              "token_address": "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump",
-              "balance": 3351775.987068,
-              "token_price": 0.005077,
-              "token_decimals": 6,
-              "token_symbol": "OTC",
-              "token_name": "OTC",
-              "value": 17016.966686344236
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "address": "BKXtSJWJk8s6DGEv71a3HohqHMhzn1iXLAzxMm6ZXjmy",
-      "symbol": "GPRO",
-      "name": "GPRO",
-      "decimals": 6,
-      "icon": "",
-      "created_time": 1788222600,
-      "website": "",
-      "twitter": "",
-      "holder": 0,
-      "market_cap": 303695,
-      "price": 0.0003084,
-      "price_change_24h": -90.96,
-      "volume_24h": 9705547.09,
-      "pool_address": "solana_3BJjyr6E33WqjdnjoqSkbPLFYNHEFSXyZxVJV4wSYA3U",
-      "ath": 0.00621944926554936,
-      "ath_timestamp": 1788246000,
-      "ath_pool": "3GFtPrTvwzvWBHhL1wrMttnUKSgyDfW7zDuyJ6WDPMZ5",
-      "dexId": "pumpswap",
-      "pairAddress": "3BJjyr6E33WqjdnjoqSkbPLFYNHEFSXyZxVJV4wSYA3U",
-      "txns_24h": {
-        "buys": 49902,
-        "sells": 39167
-      },
-      "fdv_usd": 303695,
-      "total_reserve_in_usd": 67971.45,
-      "tags": [],
-      "first_signal": {
-        "timestamp": 1788243498,
-        "price": 0.003595
-      },
-      "metrics": {
-        "uniqueWallets": 3,
-        "inflow24h": 11908.724333976625,
-        "trades": [
-          {
-            "timestamp": "2026-09-01T15:47:23.000Z",
-            "type": "SELL",
-            "amount": 7924935.090291,
-            "usdValue": 5059.307812715629,
-            "wallet": {
-              "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
-              "name": "Ansem"
-            }
-          },
-          {
-            "timestamp": "2026-09-01T13:41:20.000Z",
-            "type": "SELL",
-            "amount": 1665936.146115,
-            "usdValue": 2046.459902909117,
-            "wallet": {
-              "address": "CNudZYFgpbT26fidsiNrWfHeGTBMMeVWqruZXsEkcUPc",
-              "name": "Luce46x"
-            }
-          },
-          {
-            "timestamp": "2026-09-01T13:39:54.000Z",
-            "type": "BUY",
-            "amount": 2210512.900191,
-            "usdValue": 2997.6398224908444,
-            "wallet": {
-              "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
-              "name": "Ansem"
-            }
-          },
-          {
-            "timestamp": "2026-09-01T13:05:15.000Z",
-            "type": "BUY",
-            "amount": 2335316.317425,
-            "usdValue": 10414.233921360143,
-            "wallet": {
-              "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
-              "name": "Ansem"
-            }
-          },
-          {
-            "timestamp": "2026-09-01T12:53:12.000Z",
-            "type": "SELL",
-            "amount": 144864.012705,
-            "usdValue": 546.8835453712006,
-            "wallet": {
-              "address": "CNudZYFgpbT26fidsiNrWfHeGTBMMeVWqruZXsEkcUPc",
-              "name": "Luce46x"
-            }
-          },
-          {
-            "timestamp": "2026-09-01T12:24:03.000Z",
-            "type": "SELL",
-            "amount": 409681.778907,
-            "usdValue": 1047.421103295941,
-            "wallet": {
-              "address": "BieeZkdnBAgNYknzo3RH2vku7FcPkFZMZmRJANh2TpW",
-              "name": "degenai71x"
-            }
-          },
-          {
-            "timestamp": "2026-09-01T11:44:14.000Z",
-            "type": "BUY",
-            "amount": 72757.52252,
-            "usdValue": 284.98376763029586,
-            "wallet": {
-              "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
-              "name": "Ansem"
-            }
-          },
-          {
-            "timestamp": "2026-09-01T11:41:17.000Z",
-            "type": "BUY",
-            "amount": 1937748.986425,
-            "usdValue": 6911.939186787229,
-            "wallet": {
-              "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
-              "name": "Ansem"
-            }
-          }
-        ]
-      },
-      "walletPortfolios": [
-        {
-          "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
-          "name": "Ansem",
-          "score": 3,
-          "tokens": [
-            {
-              "token_address": "BKXtSJWJk8s6DGEv71a3HohqHMhzn1iXLAzxMm6ZXjmy",
-              "balance": 0,
-              "token_price": 0.0003084,
-              "token_decimals": 6,
-              "token_symbol": "GPRO",
-              "token_name": "GPRO",
-              "value": 0
-            }
-          ]
-        },
-        {
-          "address": "CNudZYFgpbT26fidsiNrWfHeGTBMMeVWqruZXsEkcUPc",
-          "name": "Luce46x",
-          "score": 0.5,
-          "tokens": [
-            {
-              "token_address": "BKXtSJWJk8s6DGEv71a3HohqHMhzn1iXLAzxMm6ZXjmy",
-              "balance": 0,
-              "token_price": 0.0003084,
-              "token_decimals": 6,
-              "token_symbol": "GPRO",
-              "token_name": "GPRO",
-              "value": 0
-            }
-          ]
-        },
-        {
-          "address": "BieeZkdnBAgNYknzo3RH2vku7FcPkFZMZmRJANh2TpW",
-          "name": "degenai71x",
-          "score": 0.5,
-          "tokens": [
-            {
-              "token_address": "BKXtSJWJk8s6DGEv71a3HohqHMhzn1iXLAzxMm6ZXjmy",
-              "balance": 568177.581857,
-              "token_price": 0.0003084,
-              "token_decimals": 6,
-              "token_symbol": "GPRO",
-              "token_name": "GPRO",
-              "value": 175.2259662446988
             }
           ]
         }
@@ -506,29 +318,29 @@
         "name": "Pump Cat",
         "decimals": 6,
         "icon": "",
-        "created_time": 1788311605,
+        "created_time": 1788310931,
         "website": "",
         "twitter": "",
-        "holder": 0,
-        "market_cap": 152574,
-        "price": 0.0001545,
-        "price_change_24h": 275,
-        "volume_24h": 6550844.57,
+        "holder": 2983,
+        "market_cap": 137420,
+        "price": 0.0001391,
+        "price_change_24h": 238,
+        "volume_24h": 6662525.13,
         "pool_address": "solana_D6VVbDNcakyAvuGk8D4bjz9LHtQQugHdsx57fRTSsqNG",
-        "ath": 0.0001545,
-        "ath_timestamp": null,
-        "ath_pool": "",
+        "ath": 0.0006155589208183883,
+        "ath_timestamp": 1788328800,
+        "ath_pool": "D6VVbDNcakyAvuGk8D4bjz9LHtQQugHdsx57fRTSsqNG",
         "dexId": "pumpswap",
         "pairAddress": "D6VVbDNcakyAvuGk8D4bjz9LHtQQugHdsx57fRTSsqNG",
         "boosts": {
           "active": 10
         },
         "txns_24h": {
-          "buys": 48710,
-          "sells": 39573
+          "buys": 50158,
+          "sells": 40912
         },
-        "fdv_usd": 152574,
-        "total_reserve_in_usd": 38284.64,
+        "fdv_usd": 137420,
+        "total_reserve_in_usd": 36508.07,
         "tags": [],
         "first_signal": {
           "timestamp": 1788327903,
@@ -609,11 +421,11 @@
               {
                 "token_address": "ANM35KbUcfKdEVBXzSjZBoT6ceSwYRs3fuc79fp7kRqP",
                 "balance": 1982765.980705,
-                "token_price": 0.0001545,
+                "token_price": 0.0001391,
                 "token_decimals": 6,
                 "token_symbol": "Pumpcat",
                 "token_name": "Pump Cat",
-                "value": 306.33734401892247
+                "value": 275.80274791606547
               }
             ]
           },
@@ -625,7 +437,7 @@
               {
                 "token_address": "ANM35KbUcfKdEVBXzSjZBoT6ceSwYRs3fuc79fp7kRqP",
                 "balance": 0,
-                "token_price": 0.0001545,
+                "token_price": 0.0001391,
                 "token_decimals": 6,
                 "token_symbol": "Pumpcat",
                 "token_name": "Pump Cat",
@@ -641,26 +453,26 @@
         "name": "GoPro - Backpack Securities",
         "decimals": 6,
         "icon": "https://backpack.exchange/api/stock-logo/GPRO",
-        "created_time": 1788267309,
+        "created_time": 1788227802,
         "website": "",
         "twitter": "",
-        "holder": 0,
-        "market_cap": 103966,
-        "price": 1.19,
-        "price_change_24h": -23.49,
-        "volume_24h": 9587307.98,
+        "holder": 6057,
+        "market_cap": 110053,
+        "price": 1.26,
+        "price_change_24h": -25.33,
+        "volume_24h": 8107179.82,
         "pool_address": "solana_8aRfdGqA8FWrNrCG3CodWrMwTb1f94psGvSE3Ld7WpuF",
-        "ath": 1.28,
-        "ath_timestamp": 1788327908,
+        "ath": 1.3222607017841845,
+        "ath_timestamp": 1788328800,
         "ath_pool": "8aRfdGqA8FWrNrCG3CodWrMwTb1f94psGvSE3Ld7WpuF",
         "dexId": "raydium",
         "pairAddress": "8aRfdGqA8FWrNrCG3CodWrMwTb1f94psGvSE3Ld7WpuF",
         "txns_24h": {
-          "buys": 31898,
-          "sells": 29616
+          "buys": 26338,
+          "sells": 26726
         },
-        "fdv_usd": 103966,
-        "total_reserve_in_usd": 110323.63,
+        "fdv_usd": 110053,
+        "total_reserve_in_usd": 144540.39,
         "tags": [
           "moonshot"
         ],
@@ -703,7 +515,7 @@
               {
                 "token_address": "GPRR2u6NS5yBQHWGauoJ9HXgjrTH8dDsrBfTV5zAYvDH",
                 "balance": 0,
-                "token_price": 1.19,
+                "token_price": 1.26,
                 "token_decimals": 6,
                 "token_symbol": "GPRO",
                 "token_name": "GoPro - Backpack Securities",
@@ -714,22 +526,21 @@
         ]
       }
     ],
-    "buys": [],
-    "sells": [
+    "buys": [
       {
         "address": "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump",
         "symbol": "OTC",
         "name": "OTC",
         "decimals": 6,
         "icon": "https://desperate-moccasin-minnow.myfilebase.com/ipfs/QmP1qukvUAheQpqCccr4qsrWrytkJiGCxzgYMcaAWGGGCw",
-        "created_time": 1787923991,
-        "website": "",
-        "twitter": "",
-        "holder": 0,
-        "market_cap": 3696741,
-        "price": 0.005077,
-        "price_change_24h": -33.19,
-        "volume_24h": 5832017.85,
+        "created_time": 1787923888,
+        "website": "https://otcdesks.cash/",
+        "twitter": "https://x.com/OTCDesks",
+        "holder": 9270,
+        "market_cap": 3123307,
+        "price": 0.004291,
+        "price_change_24h": -15.01,
+        "volume_24h": 5187406.73,
         "pool_address": "solana_DA4pM4xSDY4M9V4CgAKKBVH1pw1yscTQQa5nEkGHuKpt",
         "ath": 0.010445869797645255,
         "ath_timestamp": 1788220800,
@@ -737,11 +548,11 @@
         "dexId": "pumpswap",
         "pairAddress": "DA4pM4xSDY4M9V4CgAKKBVH1pw1yscTQQa5nEkGHuKpt",
         "txns_24h": {
-          "buys": 270353,
-          "sells": 21300
+          "buys": 268170,
+          "sells": 19279
         },
-        "fdv_usd": 3696741,
-        "total_reserve_in_usd": 271871.22,
+        "fdv_usd": 3123307,
+        "total_reserve_in_usd": 250563.44,
         "tags": [
           "moonshot"
         ],
@@ -751,8 +562,18 @@
         },
         "metrics": {
           "uniqueWallets": 2,
-          "inflow24h": -1456.2981947761155,
+          "inflow24h": 6.100842541498309,
           "trades": [
+            {
+              "timestamp": "2026-09-02T10:39:37.000Z",
+              "type": "BUY",
+              "amount": 224819.394652,
+              "usdValue": 980.0115324270766,
+              "wallet": {
+                "address": "CNudZYFgpbT26fidsiNrWfHeGTBMMeVWqruZXsEkcUPc",
+                "name": "Luce46x"
+              }
+            },
             {
               "timestamp": "2026-09-01T20:38:27.000Z",
               "type": "SELL",
@@ -762,56 +583,10 @@
                 "address": "BieeZkdnBAgNYknzo3RH2vku7FcPkFZMZmRJANh2TpW",
                 "name": "degenai71x"
               }
-            },
-            {
-              "timestamp": "2026-09-01T13:44:34.000Z",
-              "type": "SELL",
-              "amount": 270351.070412,
-              "usdValue": 1404.6948951229867,
-              "wallet": {
-                "address": "BieeZkdnBAgNYknzo3RH2vku7FcPkFZMZmRJANh2TpW",
-                "name": "degenai71x"
-              }
-            },
-            {
-              "timestamp": "2026-09-01T13:42:50.000Z",
-              "type": "BUY",
-              "amount": 381598.032413,
-              "usdValue": 2030.572417722145,
-              "wallet": {
-                "address": "CNudZYFgpbT26fidsiNrWfHeGTBMMeVWqruZXsEkcUPc",
-                "name": "Luce46x"
-              }
-            },
-            {
-              "timestamp": "2026-09-01T12:23:50.000Z",
-              "type": "SELL",
-              "amount": 172723.001761,
-              "usdValue": 1108.2650274896955,
-              "wallet": {
-                "address": "BieeZkdnBAgNYknzo3RH2vku7FcPkFZMZmRJANh2TpW",
-                "name": "degenai71x"
-              }
             }
           ]
         },
         "walletPortfolios": [
-          {
-            "address": "BieeZkdnBAgNYknzo3RH2vku7FcPkFZMZmRJANh2TpW",
-            "name": "degenai71x",
-            "score": 0.5,
-            "tokens": [
-              {
-                "token_address": "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump",
-                "balance": 0,
-                "token_price": 0.005077,
-                "token_decimals": 6,
-                "token_symbol": "OTC",
-                "token_name": "OTC",
-                "value": 0
-              }
-            ]
-          },
           {
             "address": "CNudZYFgpbT26fidsiNrWfHeGTBMMeVWqruZXsEkcUPc",
             "name": "Luce46x",
@@ -819,164 +594,12 @@
             "tokens": [
               {
                 "token_address": "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump",
-                "balance": 3351775.987068,
-                "token_price": 0.005077,
+                "balance": 3576595.38172,
+                "token_price": 0.004291,
                 "token_decimals": 6,
                 "token_symbol": "OTC",
                 "token_name": "OTC",
-                "value": 17016.966686344236
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "address": "BKXtSJWJk8s6DGEv71a3HohqHMhzn1iXLAzxMm6ZXjmy",
-        "symbol": "GPRO",
-        "name": "GPRO",
-        "decimals": 6,
-        "icon": "",
-        "created_time": 1788222600,
-        "website": "",
-        "twitter": "",
-        "holder": 0,
-        "market_cap": 303695,
-        "price": 0.0003084,
-        "price_change_24h": -90.96,
-        "volume_24h": 9705547.09,
-        "pool_address": "solana_3BJjyr6E33WqjdnjoqSkbPLFYNHEFSXyZxVJV4wSYA3U",
-        "ath": 0.00621944926554936,
-        "ath_timestamp": 1788246000,
-        "ath_pool": "3GFtPrTvwzvWBHhL1wrMttnUKSgyDfW7zDuyJ6WDPMZ5",
-        "dexId": "pumpswap",
-        "pairAddress": "3BJjyr6E33WqjdnjoqSkbPLFYNHEFSXyZxVJV4wSYA3U",
-        "txns_24h": {
-          "buys": 49902,
-          "sells": 39167
-        },
-        "fdv_usd": 303695,
-        "total_reserve_in_usd": 67971.45,
-        "tags": [],
-        "first_signal": {
-          "timestamp": 1788243498,
-          "price": 0.003595
-        },
-        "metrics": {
-          "uniqueWallets": 3,
-          "inflow24h": 11908.724333976625,
-          "trades": [
-            {
-              "timestamp": "2026-09-01T15:47:23.000Z",
-              "type": "SELL",
-              "amount": 7924935.090291,
-              "usdValue": 5059.307812715629,
-              "wallet": {
-                "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
-                "name": "Ansem"
-              }
-            },
-            {
-              "timestamp": "2026-09-01T13:41:20.000Z",
-              "type": "SELL",
-              "amount": 1665936.146115,
-              "usdValue": 2046.459902909117,
-              "wallet": {
-                "address": "CNudZYFgpbT26fidsiNrWfHeGTBMMeVWqruZXsEkcUPc",
-                "name": "Luce46x"
-              }
-            },
-            {
-              "timestamp": "2026-09-01T13:39:54.000Z",
-              "type": "BUY",
-              "amount": 2210512.900191,
-              "usdValue": 2997.6398224908444,
-              "wallet": {
-                "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
-                "name": "Ansem"
-              }
-            },
-            {
-              "timestamp": "2026-09-01T13:05:15.000Z",
-              "type": "BUY",
-              "amount": 2335316.317425,
-              "usdValue": 10414.233921360143,
-              "wallet": {
-                "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
-                "name": "Ansem"
-              }
-            },
-            {
-              "timestamp": "2026-09-01T12:53:12.000Z",
-              "type": "SELL",
-              "amount": 144864.012705,
-              "usdValue": 546.8835453712006,
-              "wallet": {
-                "address": "CNudZYFgpbT26fidsiNrWfHeGTBMMeVWqruZXsEkcUPc",
-                "name": "Luce46x"
-              }
-            },
-            {
-              "timestamp": "2026-09-01T12:24:03.000Z",
-              "type": "SELL",
-              "amount": 409681.778907,
-              "usdValue": 1047.421103295941,
-              "wallet": {
-                "address": "BieeZkdnBAgNYknzo3RH2vku7FcPkFZMZmRJANh2TpW",
-                "name": "degenai71x"
-              }
-            },
-            {
-              "timestamp": "2026-09-01T11:44:14.000Z",
-              "type": "BUY",
-              "amount": 72757.52252,
-              "usdValue": 284.98376763029586,
-              "wallet": {
-                "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
-                "name": "Ansem"
-              }
-            },
-            {
-              "timestamp": "2026-09-01T11:41:17.000Z",
-              "type": "BUY",
-              "amount": 1937748.986425,
-              "usdValue": 6911.939186787229,
-              "wallet": {
-                "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
-                "name": "Ansem"
-              }
-            }
-          ]
-        },
-        "walletPortfolios": [
-          {
-            "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
-            "name": "Ansem",
-            "score": 3,
-            "tokens": [
-              {
-                "token_address": "BKXtSJWJk8s6DGEv71a3HohqHMhzn1iXLAzxMm6ZXjmy",
-                "balance": 0,
-                "token_price": 0.0003084,
-                "token_decimals": 6,
-                "token_symbol": "GPRO",
-                "token_name": "GPRO",
-                "value": 0
-              }
-            ]
-          },
-          {
-            "address": "CNudZYFgpbT26fidsiNrWfHeGTBMMeVWqruZXsEkcUPc",
-            "name": "Luce46x",
-            "score": 0.5,
-            "tokens": [
-              {
-                "token_address": "BKXtSJWJk8s6DGEv71a3HohqHMhzn1iXLAzxMm6ZXjmy",
-                "balance": 0,
-                "token_price": 0.0003084,
-                "token_decimals": 6,
-                "token_symbol": "GPRO",
-                "token_name": "GPRO",
-                "value": 0
+                "value": 15347.170782960518
               }
             ]
           },
@@ -986,18 +609,19 @@
             "score": 0.5,
             "tokens": [
               {
-                "token_address": "BKXtSJWJk8s6DGEv71a3HohqHMhzn1iXLAzxMm6ZXjmy",
-                "balance": 568177.581857,
-                "token_price": 0.0003084,
+                "token_address": "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump",
+                "balance": 0,
+                "token_price": 0.004291,
                 "token_decimals": 6,
-                "token_symbol": "GPRO",
-                "token_name": "GPRO",
-                "value": 175.2259662446988
+                "token_symbol": "OTC",
+                "token_name": "OTC",
+                "value": 0
               }
             ]
           }
         ]
       }
-    ]
+    ],
+    "sells": []
   }
 }
