@@ -1,7 +1,104 @@
 {
   "success": true,
-  "timestamp": "2026-09-02T22:31:50.266Z",
+  "timestamp": "2026-09-03T00:32:43.953Z",
   "data": [
+    {
+      "address": "XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W",
+      "symbol": "SPYx",
+      "name": "SP500 xStock",
+      "decimals": 8,
+      "icon": "https://xstocks-metadata.backed.fi/logos/tokens/SPYx.png",
+      "created_time": 1749634911,
+      "website": "",
+      "twitter": "",
+      "holder": 35457,
+      "market_cap": 54932713,
+      "price": 769.25,
+      "price_change_24h": 0.39,
+      "volume_24h": 1511938,
+      "pool_address": "solana_7a8xxAJBELDo6P9dikSYctdw6ce8F4mWr3ahcAD8Ao49",
+      "ath": 769.25,
+      "ath_pool": "",
+      "dexId": "raydium",
+      "pairAddress": "4pCZCVEiYyT4efNdXUdL2tJF8VGMgiMXrZWq6FiNXhRw",
+      "txns_24h": {
+        "buys": 2653,
+        "sells": 2908
+      },
+      "fdv_usd": 769260,
+      "total_reserve_in_usd": 360481.08,
+      "tags": [
+        "moonshot"
+      ],
+      "first_signal": {
+        "timestamp": 1788395563,
+        "price": 769.25
+      },
+      "metrics": {
+        "uniqueWallets": 1,
+        "inflow24h": -301.4168856380725,
+        "trades": [
+          {
+            "timestamp": "2026-09-02T23:31:36.000Z",
+            "type": "SELL",
+            "amount": 0.41089402,
+            "usdValue": 316.28173298741103,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-09-02T23:31:29.000Z",
+            "type": "SWAP",
+            "amount": 0.38804239,
+            "usdValue": 248.86007029745159,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-09-02T23:31:29.000Z",
+            "type": "BUY",
+            "amount": 0.38804239,
+            "usdValue": 300.31225777029744,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-09-02T18:10:57.000Z",
+            "type": "SELL",
+            "amount": 0.04768605,
+            "usdValue": 36.58734012350731,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+          "name": "cooker",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W",
+              "balance": 0,
+              "token_price": 769.25,
+              "token_decimals": 8,
+              "token_symbol": "SPYx",
+              "token_name": "SP500 xStock",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
     {
       "address": "ANM35KbUcfKdEVBXzSjZBoT6ceSwYRs3fuc79fp7kRqP",
       "symbol": "Pumpcat",
@@ -11,11 +108,11 @@
       "created_time": 1788310931,
       "website": "",
       "twitter": "",
-      "holder": 2590,
-      "market_cap": 107075,
-      "price": 0.0001084,
-      "price_change_24h": 163,
-      "volume_24h": 7054427.45,
+      "holder": 2540,
+      "market_cap": 134421,
+      "price": 0.0001361,
+      "price_change_24h": 230,
+      "volume_24h": 7075316.08,
       "pool_address": "solana_D6VVbDNcakyAvuGk8D4bjz9LHtQQugHdsx57fRTSsqNG",
       "ath": 0.0006155589208183883,
       "ath_timestamp": 1788328800,
@@ -23,11 +120,11 @@
       "dexId": "pumpswap",
       "pairAddress": "D6VVbDNcakyAvuGk8D4bjz9LHtQQugHdsx57fRTSsqNG",
       "txns_24h": {
-        "buys": 53196,
-        "sells": 43522
+        "buys": 53438,
+        "sells": 43776
       },
-      "fdv_usd": 107075,
-      "total_reserve_in_usd": 32666.33,
+      "fdv_usd": 134421,
+      "total_reserve_in_usd": 36939.74,
       "tags": [],
       "first_signal": {
         "timestamp": 1788327903,
@@ -138,11 +235,11 @@
             {
               "token_address": "ANM35KbUcfKdEVBXzSjZBoT6ceSwYRs3fuc79fp7kRqP",
               "balance": 1264760.734351,
-              "token_price": 0.0001084,
+              "token_price": 0.0001361,
               "token_decimals": 6,
               "token_symbol": "Pumpcat",
               "token_name": "Pump Cat",
-              "value": 137.1000636036484
+              "value": 172.13393594517112
             }
           ]
         },
@@ -154,7 +251,7 @@
             {
               "token_address": "ANM35KbUcfKdEVBXzSjZBoT6ceSwYRs3fuc79fp7kRqP",
               "balance": 0,
-              "token_price": 0.0001084,
+              "token_price": 0.0001361,
               "token_decimals": 6,
               "token_symbol": "Pumpcat",
               "token_name": "Pump Cat",
@@ -173,11 +270,11 @@
       "created_time": 1788268566,
       "website": "",
       "twitter": "https://x.com/Moxeeyy/status/2094776164615159889",
-      "holder": 5100,
-      "market_cap": 602080,
-      "price": 0.0006084,
-      "price_change_24h": 281,
-      "volume_24h": 8037777.8,
+      "holder": 5084,
+      "market_cap": 703096,
+      "price": 0.0007105,
+      "price_change_24h": 520,
+      "volume_24h": 8246252.19,
       "pool_address": "solana_6imhRyMYu5xoGJ5W7yveymB5o5yfyAvXxveozWpbU5ix",
       "ath": 0.0017040963894408353,
       "ath_timestamp": 1788372000,
@@ -188,11 +285,11 @@
         "active": 110
       },
       "txns_24h": {
-        "buys": 43401,
-        "sells": 31169
+        "buys": 40718,
+        "sells": 32362
       },
-      "fdv_usd": 602080,
-      "total_reserve_in_usd": 90655.63,
+      "fdv_usd": 703096,
+      "total_reserve_in_usd": 98796.87,
       "tags": [],
       "first_signal": {
         "timestamp": 1788370449,
@@ -313,7 +410,7 @@
             {
               "token_address": "HmJDgky11u77hpBss6D8sjNpYPD5B6fWgSVDj58jpump",
               "balance": 0,
-              "token_price": 0.0006084,
+              "token_price": 0.0007105,
               "token_decimals": 6,
               "token_symbol": "SOLCAT",
               "token_name": "Solcat",
@@ -329,7 +426,7 @@
             {
               "token_address": "HmJDgky11u77hpBss6D8sjNpYPD5B6fWgSVDj58jpump",
               "balance": 0,
-              "token_price": 0.0006084,
+              "token_price": 0.0007105,
               "token_decimals": 6,
               "token_symbol": "SOLCAT",
               "token_name": "Solcat",
@@ -348,23 +445,23 @@
       "created_time": 1788227802,
       "website": "",
       "twitter": "",
-      "holder": 6725,
-      "market_cap": 146150,
-      "price": 1.67,
-      "price_change_24h": 42.58,
-      "volume_24h": 1913863.38,
-      "pool_address": "solana_8aRfdGqA8FWrNrCG3CodWrMwTb1f94psGvSE3Ld7WpuF",
-      "ath": 1.984259951185273,
-      "ath_timestamp": 1788375600,
+      "holder": 6778,
+      "market_cap": 167558,
+      "price": 1.92,
+      "price_change_24h": 64.71,
+      "volume_24h": 2001535.38,
+      "pool_address": "solana_89JnLM3Jh4jD8qAcbmmR3TxXixs1jbdMiSfBxsVhrQDZ",
+      "ath": 2.08547047601173,
+      "ath_timestamp": 1788379200,
       "ath_pool": "8aRfdGqA8FWrNrCG3CodWrMwTb1f94psGvSE3Ld7WpuF",
       "dexId": "raydium",
       "pairAddress": "8aRfdGqA8FWrNrCG3CodWrMwTb1f94psGvSE3Ld7WpuF",
       "txns_24h": {
-        "buys": 7088,
-        "sells": 9040
+        "buys": 7395,
+        "sells": 9439
       },
-      "fdv_usd": 146150,
-      "total_reserve_in_usd": 65004.6,
+      "fdv_usd": 167558,
+      "total_reserve_in_usd": 70657.41,
       "tags": [
         "moonshot"
       ],
@@ -417,7 +514,7 @@
             {
               "token_address": "GPRR2u6NS5yBQHWGauoJ9HXgjrTH8dDsrBfTV5zAYvDH",
               "balance": 0,
-              "token_price": 1.67,
+              "token_price": 1.92,
               "token_decimals": 6,
               "token_symbol": "GPRO",
               "token_name": "GoPro - Backpack Securities",
@@ -433,7 +530,7 @@
             {
               "token_address": "GPRR2u6NS5yBQHWGauoJ9HXgjrTH8dDsrBfTV5zAYvDH",
               "balance": 0,
-              "token_price": 1.67,
+              "token_price": 1.92,
               "token_decimals": 6,
               "token_symbol": "GPRO",
               "token_name": "GoPro - Backpack Securities",
@@ -447,6 +544,103 @@
   "groups": {
     "latestSignals": [
       {
+        "address": "XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W",
+        "symbol": "SPYx",
+        "name": "SP500 xStock",
+        "decimals": 8,
+        "icon": "https://xstocks-metadata.backed.fi/logos/tokens/SPYx.png",
+        "created_time": 1749634911,
+        "website": "",
+        "twitter": "",
+        "holder": 35457,
+        "market_cap": 54932713,
+        "price": 769.25,
+        "price_change_24h": 0.39,
+        "volume_24h": 1511938,
+        "pool_address": "solana_7a8xxAJBELDo6P9dikSYctdw6ce8F4mWr3ahcAD8Ao49",
+        "ath": 769.25,
+        "ath_pool": "",
+        "dexId": "raydium",
+        "pairAddress": "4pCZCVEiYyT4efNdXUdL2tJF8VGMgiMXrZWq6FiNXhRw",
+        "txns_24h": {
+          "buys": 2653,
+          "sells": 2908
+        },
+        "fdv_usd": 769260,
+        "total_reserve_in_usd": 360481.08,
+        "tags": [
+          "moonshot"
+        ],
+        "first_signal": {
+          "timestamp": 1788395563,
+          "price": 769.25
+        },
+        "metrics": {
+          "uniqueWallets": 1,
+          "inflow24h": -301.4168856380725,
+          "trades": [
+            {
+              "timestamp": "2026-09-02T23:31:36.000Z",
+              "type": "SELL",
+              "amount": 0.41089402,
+              "usdValue": 316.28173298741103,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-09-02T23:31:29.000Z",
+              "type": "SWAP",
+              "amount": 0.38804239,
+              "usdValue": 248.86007029745159,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-09-02T23:31:29.000Z",
+              "type": "BUY",
+              "amount": 0.38804239,
+              "usdValue": 300.31225777029744,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-09-02T18:10:57.000Z",
+              "type": "SELL",
+              "amount": 0.04768605,
+              "usdValue": 36.58734012350731,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+            "name": "cooker",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W",
+                "balance": 0,
+                "token_price": 769.25,
+                "token_decimals": 8,
+                "token_symbol": "SPYx",
+                "token_name": "SP500 xStock",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
         "address": "HmJDgky11u77hpBss6D8sjNpYPD5B6fWgSVDj58jpump",
         "symbol": "SOLCAT",
         "name": "Solcat",
@@ -455,11 +649,11 @@
         "created_time": 1788268566,
         "website": "",
         "twitter": "https://x.com/Moxeeyy/status/2094776164615159889",
-        "holder": 5100,
-        "market_cap": 602080,
-        "price": 0.0006084,
-        "price_change_24h": 281,
-        "volume_24h": 8037777.8,
+        "holder": 5084,
+        "market_cap": 703096,
+        "price": 0.0007105,
+        "price_change_24h": 520,
+        "volume_24h": 8246252.19,
         "pool_address": "solana_6imhRyMYu5xoGJ5W7yveymB5o5yfyAvXxveozWpbU5ix",
         "ath": 0.0017040963894408353,
         "ath_timestamp": 1788372000,
@@ -470,11 +664,11 @@
           "active": 110
         },
         "txns_24h": {
-          "buys": 43401,
-          "sells": 31169
+          "buys": 40718,
+          "sells": 32362
         },
-        "fdv_usd": 602080,
-        "total_reserve_in_usd": 90655.63,
+        "fdv_usd": 703096,
+        "total_reserve_in_usd": 98796.87,
         "tags": [],
         "first_signal": {
           "timestamp": 1788370449,
@@ -595,7 +789,7 @@
               {
                 "token_address": "HmJDgky11u77hpBss6D8sjNpYPD5B6fWgSVDj58jpump",
                 "balance": 0,
-                "token_price": 0.0006084,
+                "token_price": 0.0007105,
                 "token_decimals": 6,
                 "token_symbol": "SOLCAT",
                 "token_name": "Solcat",
@@ -611,7 +805,7 @@
               {
                 "token_address": "HmJDgky11u77hpBss6D8sjNpYPD5B6fWgSVDj58jpump",
                 "balance": 0,
-                "token_price": 0.0006084,
+                "token_price": 0.0007105,
                 "token_decimals": 6,
                 "token_symbol": "SOLCAT",
                 "token_name": "Solcat",
@@ -630,11 +824,11 @@
         "created_time": 1788310931,
         "website": "",
         "twitter": "",
-        "holder": 2590,
-        "market_cap": 107075,
-        "price": 0.0001084,
-        "price_change_24h": 163,
-        "volume_24h": 7054427.45,
+        "holder": 2540,
+        "market_cap": 134421,
+        "price": 0.0001361,
+        "price_change_24h": 230,
+        "volume_24h": 7075316.08,
         "pool_address": "solana_D6VVbDNcakyAvuGk8D4bjz9LHtQQugHdsx57fRTSsqNG",
         "ath": 0.0006155589208183883,
         "ath_timestamp": 1788328800,
@@ -642,11 +836,11 @@
         "dexId": "pumpswap",
         "pairAddress": "D6VVbDNcakyAvuGk8D4bjz9LHtQQugHdsx57fRTSsqNG",
         "txns_24h": {
-          "buys": 53196,
-          "sells": 43522
+          "buys": 53438,
+          "sells": 43776
         },
-        "fdv_usd": 107075,
-        "total_reserve_in_usd": 32666.33,
+        "fdv_usd": 134421,
+        "total_reserve_in_usd": 36939.74,
         "tags": [],
         "first_signal": {
           "timestamp": 1788327903,
@@ -757,11 +951,11 @@
               {
                 "token_address": "ANM35KbUcfKdEVBXzSjZBoT6ceSwYRs3fuc79fp7kRqP",
                 "balance": 1264760.734351,
-                "token_price": 0.0001084,
+                "token_price": 0.0001361,
                 "token_decimals": 6,
                 "token_symbol": "Pumpcat",
                 "token_name": "Pump Cat",
-                "value": 137.1000636036484
+                "value": 172.13393594517112
               }
             ]
           },
@@ -773,7 +967,7 @@
               {
                 "token_address": "ANM35KbUcfKdEVBXzSjZBoT6ceSwYRs3fuc79fp7kRqP",
                 "balance": 0,
-                "token_price": 0.0001084,
+                "token_price": 0.0001361,
                 "token_decimals": 6,
                 "token_symbol": "Pumpcat",
                 "token_name": "Pump Cat",
@@ -792,23 +986,23 @@
         "created_time": 1788227802,
         "website": "",
         "twitter": "",
-        "holder": 6725,
-        "market_cap": 146150,
-        "price": 1.67,
-        "price_change_24h": 42.58,
-        "volume_24h": 1913863.38,
-        "pool_address": "solana_8aRfdGqA8FWrNrCG3CodWrMwTb1f94psGvSE3Ld7WpuF",
-        "ath": 1.984259951185273,
-        "ath_timestamp": 1788375600,
+        "holder": 6778,
+        "market_cap": 167558,
+        "price": 1.92,
+        "price_change_24h": 64.71,
+        "volume_24h": 2001535.38,
+        "pool_address": "solana_89JnLM3Jh4jD8qAcbmmR3TxXixs1jbdMiSfBxsVhrQDZ",
+        "ath": 2.08547047601173,
+        "ath_timestamp": 1788379200,
         "ath_pool": "8aRfdGqA8FWrNrCG3CodWrMwTb1f94psGvSE3Ld7WpuF",
         "dexId": "raydium",
         "pairAddress": "8aRfdGqA8FWrNrCG3CodWrMwTb1f94psGvSE3Ld7WpuF",
         "txns_24h": {
-          "buys": 7088,
-          "sells": 9040
+          "buys": 7395,
+          "sells": 9439
         },
-        "fdv_usd": 146150,
-        "total_reserve_in_usd": 65004.6,
+        "fdv_usd": 167558,
+        "total_reserve_in_usd": 70657.41,
         "tags": [
           "moonshot"
         ],
@@ -861,7 +1055,7 @@
               {
                 "token_address": "GPRR2u6NS5yBQHWGauoJ9HXgjrTH8dDsrBfTV5zAYvDH",
                 "balance": 0,
-                "token_price": 1.67,
+                "token_price": 1.92,
                 "token_decimals": 6,
                 "token_symbol": "GPRO",
                 "token_name": "GoPro - Backpack Securities",
@@ -877,7 +1071,7 @@
               {
                 "token_address": "GPRR2u6NS5yBQHWGauoJ9HXgjrTH8dDsrBfTV5zAYvDH",
                 "balance": 0,
-                "token_price": 1.67,
+                "token_price": 1.92,
                 "token_decimals": 6,
                 "token_symbol": "GPRO",
                 "token_name": "GoPro - Backpack Securities",
