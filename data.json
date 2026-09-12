@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2026-09-12T17:17:14.250Z",
+  "timestamp": "2026-09-12T19:24:42.427Z",
   "data": [
     {
       "address": "JE3HT7SbCgXDQWV6xp3oiiAisDzq4HyZ8wyEVBDCs45Z",
@@ -11,11 +11,11 @@
       "created_time": 1788993633,
       "website": "",
       "twitter": "https://x.com/ddddddd8a/status/2097817459398955187",
-      "holder": 3015,
-      "market_cap": 785888,
-      "price": 0.0007858,
-      "price_change_24h": -31.01,
-      "volume_24h": 1037811.33,
+      "holder": 2993,
+      "market_cap": 1383480,
+      "price": 0.001383,
+      "price_change_24h": 15.79,
+      "volume_24h": 1248907.31,
       "pool_address": "solana_AXTq4JHNYHSnooqjoDmtL9WW5eEgnkkMSWq76Kznidnz",
       "ath": 0.004335318607274534,
       "ath_timestamp": 1789023600,
@@ -23,11 +23,11 @@
       "dexId": "raydium",
       "pairAddress": "AXTq4JHNYHSnooqjoDmtL9WW5eEgnkkMSWq76Kznidnz",
       "txns_24h": {
-        "buys": 4759,
-        "sells": 2983
+        "buys": 5379,
+        "sells": 3675
       },
-      "fdv_usd": 785888,
-      "total_reserve_in_usd": 86327.64,
+      "fdv_usd": 1383480,
+      "total_reserve_in_usd": 117322.72,
       "tags": [],
       "first_signal": {
         "timestamp": 1789022085,
@@ -35,8 +35,38 @@
       },
       "metrics": {
         "uniqueWallets": 2,
-        "inflow24h": 5173.902960102009,
+        "inflow24h": 6229.189989046878,
         "trades": [
+          {
+            "timestamp": "2026-09-12T18:37:29.000Z",
+            "type": "BUY",
+            "amount": 66777.386405,
+            "usdValue": 101.7656283951139,
+            "wallet": {
+              "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+              "name": "Ansem"
+            }
+          },
+          {
+            "timestamp": "2026-09-12T18:37:13.000Z",
+            "type": "BUY",
+            "amount": 1263532.531714,
+            "usdValue": 1639.162665512347,
+            "wallet": {
+              "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+              "name": "Ansem"
+            }
+          },
+          {
+            "timestamp": "2026-09-12T17:39:39.000Z",
+            "type": "SELL",
+            "amount": 219794.051255,
+            "usdValue": 304.237086,
+            "wallet": {
+              "address": "8KPzQg5DEJAGknj1AC8F7W4cmdXBzkHym6DydFwh4ynK",
+              "name": "神中神"
+            }
+          },
           {
             "timestamp": "2026-09-12T15:59:46.000Z",
             "type": "BUY",
@@ -86,46 +116,10 @@
               "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
               "name": "Ansem"
             }
-          },
-          {
-            "timestamp": "2026-09-11T19:03:49.000Z",
-            "type": "BUY",
-            "amount": 17385.175875,
-            "usdValue": 18.132077,
-            "wallet": {
-              "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
-              "name": "Ansem"
-            }
-          },
-          {
-            "timestamp": "2026-09-11T19:03:38.000Z",
-            "type": "BUY",
-            "amount": 351128.33569,
-            "usdValue": 363.2721019625926,
-            "wallet": {
-              "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
-              "name": "Ansem"
-            }
           }
         ]
       },
       "walletPortfolios": [
-        {
-          "address": "8KPzQg5DEJAGknj1AC8F7W4cmdXBzkHym6DydFwh4ynK",
-          "name": "神中神",
-          "score": 1,
-          "tokens": [
-            {
-              "token_address": "JE3HT7SbCgXDQWV6xp3oiiAisDzq4HyZ8wyEVBDCs45Z",
-              "balance": 319794.051255,
-              "token_price": 0.0007858,
-              "token_decimals": 6,
-              "token_symbol": "PENIS",
-              "token_name": "Peniscoin",
-              "value": 251.29416547617902
-            }
-          ]
-        },
         {
           "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
           "name": "Ansem",
@@ -133,12 +127,156 @@
           "tokens": [
             {
               "token_address": "JE3HT7SbCgXDQWV6xp3oiiAisDzq4HyZ8wyEVBDCs45Z",
-              "balance": 7802982.34809,
-              "token_price": 0.0007858,
+              "balance": 9133292.266209,
+              "token_price": 0.001383,
               "token_decimals": 6,
               "token_symbol": "PENIS",
               "token_name": "Peniscoin",
-              "value": 6131.583529129122
+              "value": 12631.343204167048
+            }
+          ]
+        },
+        {
+          "address": "8KPzQg5DEJAGknj1AC8F7W4cmdXBzkHym6DydFwh4ynK",
+          "name": "神中神",
+          "score": 1,
+          "tokens": [
+            {
+              "token_address": "JE3HT7SbCgXDQWV6xp3oiiAisDzq4HyZ8wyEVBDCs45Z",
+              "balance": 100000,
+              "token_price": 0.001383,
+              "token_decimals": 6,
+              "token_symbol": "PENIS",
+              "token_name": "Peniscoin",
+              "value": 138.29999999999998
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "address": "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump",
+      "symbol": "baton",
+      "name": "baton",
+      "decimals": 6,
+      "icon": "https://axiomtrading.sfo3.cdn.digitaloceanspaces.com/41UrTGwAokUi5y9qXvHtG82fYsHgCnQE7oFtLhYRwYMP.webp",
+      "created_time": 1788985931,
+      "website": "https://x.com/connortrenches/status/2097774013242052853",
+      "twitter": "https://x.com/connortrenches/status/2097774013242052853",
+      "holder": 8415,
+      "market_cap": 13069061,
+      "price": 0.01308,
+      "price_change_24h": 153,
+      "volume_24h": 9681791.75,
+      "pool_address": "solana_Cb7ZRgPLhji3Th7htXyKEqbXvNjPpeTvckXuWakBUhXu",
+      "ath": 0.009350300609505263,
+      "ath_timestamp": 1789171200,
+      "ath_pool": "Cb7ZRgPLhji3Th7htXyKEqbXvNjPpeTvckXuWakBUhXu",
+      "dexId": "pumpswap",
+      "pairAddress": "Cb7ZRgPLhji3Th7htXyKEqbXvNjPpeTvckXuWakBUhXu",
+      "txns_24h": {
+        "buys": 19899,
+        "sells": 18079
+      },
+      "fdv_usd": 13069029,
+      "total_reserve_in_usd": 510508.72,
+      "tags": [
+        "moonshot"
+      ],
+      "first_signal": {
+        "timestamp": 1789147235,
+        "price": 0.00573
+      },
+      "metrics": {
+        "uniqueWallets": 1,
+        "inflow24h": 84455.17919860575,
+        "trades": [
+          {
+            "timestamp": "2026-09-12T17:29:18.000Z",
+            "type": "BUY",
+            "amount": 878299.82182,
+            "usdValue": 15316.338390648301,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-09-12T17:29:13.000Z",
+            "type": "BUY",
+            "amount": 889877.441719,
+            "usdValue": 15319.125076397673,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-09-12T17:29:10.000Z",
+            "type": "BUY",
+            "amount": 856842.31243,
+            "usdValue": 15308.269619491883,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-09-12T17:29:06.000Z",
+            "type": "BUY",
+            "amount": 887637.451094,
+            "usdValue": 15298.684755017262,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-09-12T17:29:02.000Z",
+            "type": "BUY",
+            "amount": 610798.457254,
+            "usdValue": 10227.621927182967,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-09-12T17:28:59.000Z",
+            "type": "BUY",
+            "amount": 626322.177831,
+            "usdValue": 10212.421086867666,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-09-12T17:28:54.000Z",
+            "type": "BUY",
+            "amount": 171777.930336,
+            "usdValue": 2772.718343,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+          "name": "cooker",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump",
+              "balance": 2673556.196979,
+              "token_price": 0.01308,
+              "token_decimals": 6,
+              "token_symbol": "baton",
+              "token_name": "baton",
+              "value": 34970.115056485316
             }
           ]
         }
@@ -153,11 +291,11 @@
       "created_time": 1784833616,
       "website": "",
       "twitter": "",
-      "holder": 65382,
-      "market_cap": 224785060,
-      "price": 0.2632,
-      "price_change_24h": -15.44,
-      "volume_24h": 4370659.01,
+      "holder": 65517,
+      "market_cap": 217391337,
+      "price": 0.2546,
+      "price_change_24h": -12.47,
+      "volume_24h": 4386661.45,
       "pool_address": "solana_zxTpi4BtaWX3mgdAPoezkMD1hxx8CdeCfrqXMWvSCLX",
       "ath": 0.3494348792217194,
       "ath_timestamp": 1789084800,
@@ -165,11 +303,11 @@
       "dexId": "orca",
       "pairAddress": "AfrddTGYwCVEQB1gxCAhR8i48o6qtxYqksdVkeLudEhg",
       "txns_24h": {
-        "buys": 3191,
-        "sells": 2090
+        "buys": 3194,
+        "sells": 2015
       },
-      "fdv_usd": 263297659,
-      "total_reserve_in_usd": 1353017.6,
+      "fdv_usd": 254637164,
+      "total_reserve_in_usd": 1311594.01,
       "tags": [
         "moonshot"
       ],
@@ -178,8 +316,8 @@
         "price": 0.00892
       },
       "metrics": {
-        "uniqueWallets": 6,
-        "inflow24h": 10105.500188573344,
+        "uniqueWallets": 5,
+        "inflow24h": 12062.483107000484,
         "trades": [
           {
             "timestamp": "2026-09-12T14:02:22.000Z",
@@ -420,36 +558,6 @@
               "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
               "name": "cooker"
             }
-          },
-          {
-            "timestamp": "2026-09-11T19:08:06.000Z",
-            "type": "SELL",
-            "amount": 1567.260341992,
-            "usdValue": 452.9464565858253,
-            "wallet": {
-              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-              "name": "cooker"
-            }
-          },
-          {
-            "timestamp": "2026-09-11T18:22:16.000Z",
-            "type": "SELL",
-            "amount": 104.296331323,
-            "usdValue": 30.7752718413151,
-            "wallet": {
-              "address": "Gf9XgdmvNHt8fUTFsWAccNbKeyDXsgJyZN8iFJKg5Pbd",
-              "name": "XueZhang"
-            }
-          },
-          {
-            "timestamp": "2026-09-11T18:19:20.000Z",
-            "type": "SELL",
-            "amount": 5000,
-            "usdValue": 1473.26119,
-            "wallet": {
-              "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
-              "name": "Chillguy32x"
-            }
           }
         ]
       },
@@ -462,11 +570,11 @@
             {
               "token_address": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
               "balance": 172746.163056636,
-              "token_price": 0.2632,
+              "token_price": 0.2546,
               "token_decimals": 9,
               "token_symbol": "STONK",
               "token_name": "STONK",
-              "value": 45466.79011650659
+              "value": 43981.17311421952
             }
           ]
         },
@@ -477,12 +585,12 @@
           "tokens": [
             {
               "token_address": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
-              "balance": 47.453576256,
-              "token_price": 0.2632,
+              "balance": 49.37062487,
+              "token_price": 0.2546,
               "token_decimals": 9,
               "token_symbol": "STONK",
               "token_name": "STONK",
-              "value": 12.489781270579199
+              "value": 12.569761091902
             }
           ]
         },
@@ -493,12 +601,12 @@
           "tokens": [
             {
               "token_address": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
-              "balance": 470.691633253,
-              "token_price": 0.2632,
+              "balance": 622.964968519,
+              "token_price": 0.2546,
               "token_decimals": 9,
               "token_symbol": "STONK",
               "token_name": "STONK",
-              "value": 123.8860378721896
+              "value": 158.6068809849374
             }
           ]
         },
@@ -509,12 +617,12 @@
           "tokens": [
             {
               "token_address": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
-              "balance": 524.087669939,
-              "token_price": 0.2632,
+              "balance": 662.974253635,
+              "token_price": 0.2546,
               "token_decimals": 9,
               "token_symbol": "STONK",
               "token_name": "STONK",
-              "value": 137.93987472794478
+              "value": 168.793244975471
             }
           ]
         },
@@ -526,27 +634,11 @@
             {
               "token_address": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
               "balance": 72320.252624867,
-              "token_price": 0.2632,
+              "token_price": 0.2546,
               "token_decimals": 9,
               "token_symbol": "STONK",
               "token_name": "STONK",
-              "value": 19034.690490864996
-            }
-          ]
-        },
-        {
-          "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
-          "name": "Chillguy32x",
-          "score": 1,
-          "tokens": [
-            {
-              "token_address": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
-              "balance": 395859.924714715,
-              "token_price": 0.2632,
-              "token_decimals": 9,
-              "token_symbol": "STONK",
-              "token_name": "STONK",
-              "value": 104190.33218491299
+              "value": 18412.73631829114
             }
           ]
         }
@@ -561,11 +653,11 @@
       "created_time": 1749634870,
       "website": "",
       "twitter": "",
-      "holder": 36169,
-      "market_cap": 365814,
-      "price": 365.81,
-      "price_change_24h": 0.12,
-      "volume_24h": 531988.96,
+      "holder": 36952,
+      "market_cap": 367675,
+      "price": 367.67,
+      "price_change_24h": 0.86,
+      "volume_24h": 1050261.81,
       "pool_address": "solana_8aDaBQkTrS6HVMjyc6EZebgdiaXhLYGriDWKWWp1NpFF",
       "ath": 385.8307295470184,
       "ath_timestamp": 1788393600,
@@ -573,11 +665,11 @@
       "dexId": "raydium",
       "pairAddress": "8aDaBQkTrS6HVMjyc6EZebgdiaXhLYGriDWKWWp1NpFF",
       "txns_24h": {
-        "buys": 4081,
-        "sells": 3950
+        "buys": 7340,
+        "sells": 7290
       },
-      "fdv_usd": 365814,
-      "total_reserve_in_usd": 2117198.9,
+      "fdv_usd": 367675,
+      "total_reserve_in_usd": 2145070.62,
       "tags": [
         "moonshot"
       ],
@@ -620,7 +712,7 @@
             {
               "token_address": "XsDoVfqeBukxuZHWhdvWHBhgEHjGNst4MLodqsJHzoB",
               "balance": 0,
-              "token_price": 365.81,
+              "token_price": 367.67,
               "token_decimals": 8,
               "token_symbol": "TSLAx",
               "token_name": "Tesla xStock",
@@ -639,11 +731,11 @@
       "created_time": 1749634911,
       "website": "",
       "twitter": "",
-      "holder": 71057,
-      "market_cap": 58356012,
-      "price": 766.065,
+      "holder": 71885,
+      "market_cap": 768092,
+      "price": 768.092,
       "price_change_24h": -1.4,
-      "volume_24h": 8587623.35,
+      "volume_24h": 8886044.27,
       "pool_address": "solana_7a8xxAJBELDo6P9dikSYctdw6ce8F4mWr3ahcAD8Ao49",
       "ath": 830.0927720456611,
       "ath_timestamp": 1788998400,
@@ -651,11 +743,11 @@
       "dexId": "raydium",
       "pairAddress": "7a8xxAJBELDo6P9dikSYctdw6ce8F4mWr3ahcAD8Ao49",
       "txns_24h": {
-        "buys": 23269,
-        "sells": 31691
+        "buys": 20614,
+        "sells": 29115
       },
-      "fdv_usd": 766065,
-      "total_reserve_in_usd": 3753576.14,
+      "fdv_usd": 768092,
+      "total_reserve_in_usd": 3696569.89,
       "tags": [
         "moonshot"
       ],
@@ -664,8 +756,8 @@
         "price": 769.25
       },
       "metrics": {
-        "uniqueWallets": 2,
-        "inflow24h": 233.87024269648074,
+        "uniqueWallets": 1,
+        "inflow24h": 322.36453769648074,
         "trades": [
           {
             "timestamp": "2026-09-12T10:58:43.000Z",
@@ -706,16 +798,6 @@
               "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
               "name": "cooker"
             }
-          },
-          {
-            "timestamp": "2026-09-11T18:22:12.000Z",
-            "type": "SELL",
-            "amount": 0.11504601,
-            "usdValue": 88.494295,
-            "wallet": {
-              "address": "Gf9XgdmvNHt8fUTFsWAccNbKeyDXsgJyZN8iFJKg5Pbd",
-              "name": "XueZhang"
-            }
           }
         ]
       },
@@ -728,27 +810,11 @@
             {
               "token_address": "XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W",
               "balance": 0.00900605,
-              "token_price": 766.065,
+              "token_price": 768.092,
               "token_decimals": 8,
               "token_symbol": "SPYx",
               "token_name": "SP500 xStock",
-              "value": 6.89921969325
-            }
-          ]
-        },
-        {
-          "address": "Gf9XgdmvNHt8fUTFsWAccNbKeyDXsgJyZN8iFJKg5Pbd",
-          "name": "XueZhang",
-          "score": 1,
-          "tokens": [
-            {
-              "token_address": "XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W",
-              "balance": 0.02533724,
-              "token_price": 766.065,
-              "token_decimals": 8,
-              "token_symbol": "SPYx",
-              "token_name": "SP500 xStock",
-              "value": 19.409972760600002
+              "value": 6.9174749566
             }
           ]
         }
@@ -763,11 +829,11 @@
       "created_time": 1752153028,
       "website": "",
       "twitter": "",
-      "holder": 223827,
-      "market_cap": 3125169011,
-      "price": 0.003745,
-      "price_change_24h": 2.86,
-      "volume_24h": 14776619.93,
+      "holder": 229584,
+      "market_cap": 3222197115,
+      "price": 0.003861,
+      "price_change_24h": 7.46,
+      "volume_24h": 22462372.24,
       "pool_address": "solana_2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
       "ath": 0.005429505787889138,
       "ath_timestamp": 1787443200,
@@ -775,11 +841,11 @@
       "dexId": "pumpswap",
       "pairAddress": "2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
       "txns_24h": {
-        "buys": 87385,
-        "sells": 72217
+        "buys": 132544,
+        "sells": 118162
       },
-      "fdv_usd": 3125169011,
-      "total_reserve_in_usd": 20897429.31,
+      "fdv_usd": 3222197115,
+      "total_reserve_in_usd": 21241352.5,
       "tags": [
         "moonshot"
       ],
@@ -789,8 +855,18 @@
       },
       "metrics": {
         "uniqueWallets": 3,
-        "inflow24h": -1597.2286820215215,
+        "inflow24h": -1277.5974149614813,
         "trades": [
+          {
+            "timestamp": "2026-09-12T18:37:23.000Z",
+            "type": "SELL",
+            "amount": 24215.882361,
+            "usdValue": 93.8456030159098,
+            "wallet": {
+              "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+              "name": "Ansem"
+            }
+          },
           {
             "timestamp": "2026-09-12T10:55:00.000Z",
             "type": "SELL",
@@ -960,46 +1036,10 @@
               "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
               "name": "cooker"
             }
-          },
-          {
-            "timestamp": "2026-09-11T19:08:02.000Z",
-            "type": "SELL",
-            "amount": 18851.058423,
-            "usdValue": 67.28953879392911,
-            "wallet": {
-              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-              "name": "cooker"
-            }
-          },
-          {
-            "timestamp": "2026-09-11T19:03:22.000Z",
-            "type": "SELL",
-            "amount": 97570.034366,
-            "usdValue": 346.1873312820212,
-            "wallet": {
-              "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
-              "name": "Ansem"
-            }
           }
         ]
       },
       "walletPortfolios": [
-        {
-          "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-          "name": "cooker",
-          "score": 2,
-          "tokens": [
-            {
-              "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-              "balance": 16942.891657,
-              "token_price": 0.003745,
-              "token_decimals": 6,
-              "token_symbol": "PUMP",
-              "token_name": "Pump",
-              "value": 63.451129255465
-            }
-          ]
-        },
         {
           "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
           "name": "Ansem",
@@ -1007,12 +1047,28 @@
           "tokens": [
             {
               "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-              "balance": 9288.377377,
-              "token_price": 0.003745,
+              "balance": 4135.808199,
+              "token_price": 0.003861,
               "token_decimals": 6,
               "token_symbol": "PUMP",
               "token_name": "Pump",
-              "value": 34.784973276865
+              "value": 15.968355456339
+            }
+          ]
+        },
+        {
+          "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+          "name": "cooker",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+              "balance": 82081.603602,
+              "token_price": 0.003861,
+              "token_decimals": 6,
+              "token_symbol": "PUMP",
+              "token_name": "Pump",
+              "value": 316.917071507322
             }
           ]
         },
@@ -1023,12 +1079,12 @@
           "tokens": [
             {
               "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-              "balance": 45735.714413,
-              "token_price": 0.003745,
+              "balance": 57828.972291,
+              "token_price": 0.003861,
               "token_decimals": 6,
               "token_symbol": "PUMP",
               "token_name": "Pump",
-              "value": 171.280250476685
+              "value": 223.277662015551
             }
           ]
         }
@@ -1043,11 +1099,11 @@
       "created_time": 1749634431,
       "website": "",
       "twitter": "",
-      "holder": 8119,
-      "market_cap": 11702748,
-      "price": 175.58,
-      "price_change_24h": -1.57,
-      "volume_24h": 269386.36,
+      "holder": 8112,
+      "market_cap": 11690443,
+      "price": 175.4,
+      "price_change_24h": -0.07,
+      "volume_24h": 202387.77,
       "pool_address": "solana_w7SGmPeXoMCsjvXqgsAmUn56uypyDsjAtsxeVkaiqxa",
       "ath": 186.967047090883,
       "ath_timestamp": 1788822000,
@@ -1055,11 +1111,11 @@
       "dexId": "raydium",
       "pairAddress": "w7SGmPeXoMCsjvXqgsAmUn56uypyDsjAtsxeVkaiqxa",
       "txns_24h": {
-        "buys": 2238,
-        "sells": 2210
+        "buys": 2039,
+        "sells": 1888
       },
-      "fdv_usd": 175589,
-      "total_reserve_in_usd": 949734.01,
+      "fdv_usd": 175405,
+      "total_reserve_in_usd": 948973.56,
       "tags": [
         "moonshot"
       ],
@@ -1102,7 +1158,7 @@
             {
               "token_address": "Xs7ZdzSHLU9ftNJsii5fCeJhoRWSC32SQGzGQtePxNu",
               "balance": 0,
-              "token_price": 175.58,
+              "token_price": 175.4,
               "token_decimals": 8,
               "token_symbol": "COINx",
               "token_name": "Coinbase xStock",
@@ -1121,11 +1177,11 @@
       "created_time": 1780322268,
       "website": "",
       "twitter": "",
-      "holder": 27552,
-      "market_cap": 40560769,
-      "price": 150.22,
-      "price_change_24h": 0.98,
-      "volume_24h": 711955.03,
+      "holder": 27506,
+      "market_cap": 40543912,
+      "price": 150.16,
+      "price_change_24h": 0.56,
+      "volume_24h": 680921.33,
       "pool_address": "solana_AHNN6JmvaGG6XUoSg7sEr38gRYDB2jTbUvqXVuqaRHpq",
       "ath": 157.02239250333446,
       "ath_timestamp": 1789171200,
@@ -1133,11 +1189,11 @@
       "dexId": "raydium",
       "pairAddress": "AHNN6JmvaGG6XUoSg7sEr38gRYDB2jTbUvqXVuqaRHpq",
       "txns_24h": {
-        "buys": 6507,
-        "sells": 5703
+        "buys": 6307,
+        "sells": 5623
       },
-      "fdv_usd": 1511255635,
-      "total_reserve_in_usd": 955668.81,
+      "fdv_usd": 1510627550,
+      "total_reserve_in_usd": 943466.49,
       "tags": [
         "moonshot"
       ],
@@ -1230,7 +1286,7 @@
             {
               "token_address": "Xs3oZwbHvqis4NYcf4YKWmEia2eC84wSiVrcYcTqpH8",
               "balance": 0,
-              "token_price": 150.22,
+              "token_price": 150.16,
               "token_decimals": 8,
               "token_symbol": "SPCXx",
               "token_name": "SpaceX xStock",
@@ -1249,11 +1305,11 @@
       "created_time": 1788733204,
       "website": "",
       "twitter": "",
-      "holder": 18589,
+      "holder": 18622,
       "market_cap": 262,
-      "price": 0.08498,
-      "price_change_24h": -0.73,
-      "volume_24h": 2226084.31,
+      "price": 0.08475,
+      "price_change_24h": 0.4,
+      "volume_24h": 1835000.78,
       "pool_address": "solana_7s9GwyhHTmszPpzYtLaUDFW3LYfuS6XCnFWrGqUk5X4n",
       "ath": 0.0883002354837595,
       "ath_timestamp": 1789084800,
@@ -1261,11 +1317,11 @@
       "dexId": "raydium",
       "pairAddress": "7s9GwyhHTmszPpzYtLaUDFW3LYfuS6XCnFWrGqUk5X4n",
       "txns_24h": {
-        "buys": 22331,
-        "sells": 18426
+        "buys": 18415,
+        "sells": 14622
       },
       "fdv_usd": 262,
-      "total_reserve_in_usd": 208764.61,
+      "total_reserve_in_usd": 207677.55,
       "tags": [
         "moonshot"
       ],
@@ -1618,11 +1674,11 @@
             {
               "token_address": "DoGEV7LASBkQbibMc5k5vKnTZoMg423GpJ5QtJEGfm7R",
               "balance": 474.9811369,
-              "token_price": 0.08498,
+              "token_price": 0.08475,
               "token_decimals": 8,
               "token_symbol": "DOGE",
               "token_name": "Dogecoin",
-              "value": 40.363897013762
+              "value": 40.254651352275005
             }
           ]
         },
@@ -1634,7 +1690,7 @@
             {
               "token_address": "DoGEV7LASBkQbibMc5k5vKnTZoMg423GpJ5QtJEGfm7R",
               "balance": 0,
-              "token_price": 0.08498,
+              "token_price": 0.08475,
               "token_decimals": 8,
               "token_symbol": "DOGE",
               "token_name": "Dogecoin",
@@ -1653,11 +1709,11 @@
       "created_time": 1749634957,
       "website": "",
       "twitter": "",
-      "holder": 20737,
-      "market_cap": 10220764,
-      "price": 398.65,
-      "price_change_24h": -0.39,
-      "volume_24h": 1269234.21,
+      "holder": 20936,
+      "market_cap": 10218583,
+      "price": 398.57,
+      "price_change_24h": 0.05,
+      "volume_24h": 1227145.35,
       "pool_address": "solana_78ReVNMLGRWmjtf2HmBoHUe2pRcsctXTTbxJnbhchyze",
       "ath": 406.0312573559237,
       "ath_timestamp": 1789084800,
@@ -1665,11 +1721,11 @@
       "dexId": "raydium",
       "pairAddress": "78ReVNMLGRWmjtf2HmBoHUe2pRcsctXTTbxJnbhchyze",
       "txns_24h": {
-        "buys": 8257,
-        "sells": 7484
+        "buys": 8048,
+        "sells": 7718
       },
-      "fdv_usd": 398660,
-      "total_reserve_in_usd": 509916.11,
+      "fdv_usd": 398575,
+      "total_reserve_in_usd": 526764.95,
       "tags": [
         "moonshot"
       ],
@@ -1722,7 +1778,7 @@
             {
               "token_address": "Xsv9hRk1z5ystj9MhnA7Lq4vjSsLwzL2nxrwmwtD3re",
               "balance": 0,
-              "token_price": 398.65,
+              "token_price": 398.57,
               "token_decimals": 8,
               "token_symbol": "GLDx",
               "token_name": "Gold xStock",
@@ -1741,11 +1797,11 @@
       "created_time": 1758210391,
       "website": "",
       "twitter": "",
-      "holder": 3705,
-      "market_cap": 4806585,
-      "price": 0.004808,
-      "price_change_24h": 51.43,
-      "volume_24h": 1077181.35,
+      "holder": 3727,
+      "market_cap": 4254436,
+      "price": 0.004256,
+      "price_change_24h": 35.58,
+      "volume_24h": 1095141.41,
       "pool_address": "solana_7dNW2mhCtqoZcDuyRbj5LMoeFsS9TpaCdSkk4qMstGPm",
       "ath": 0.005608538515812511,
       "ath_timestamp": 1789171200,
@@ -1753,11 +1809,11 @@
       "dexId": "raydium",
       "pairAddress": "7dNW2mhCtqoZcDuyRbj5LMoeFsS9TpaCdSkk4qMstGPm",
       "txns_24h": {
-        "buys": 6046,
-        "sells": 5312
+        "buys": 6297,
+        "sells": 5684
       },
-      "fdv_usd": 4806585,
-      "total_reserve_in_usd": 388494.84,
+      "fdv_usd": 4254436,
+      "total_reserve_in_usd": 364616.95,
       "tags": [],
       "first_signal": {
         "timestamp": 1789171120,
@@ -1765,8 +1821,18 @@
       },
       "metrics": {
         "uniqueWallets": 2,
-        "inflow24h": 17388.427681382498,
+        "inflow24h": 15751.51047042602,
         "trades": [
+          {
+            "timestamp": "2026-09-12T18:37:06.000Z",
+            "type": "SELL",
+            "amount": 400000,
+            "usdValue": 1636.91721095648,
+            "wallet": {
+              "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+              "name": "Ansem"
+            }
+          },
           {
             "timestamp": "2026-09-12T15:49:53.000Z",
             "type": "SELL",
@@ -1837,12 +1903,12 @@
           "tokens": [
             {
               "token_address": "4N4DnNo3qpPks9aQCkcWkzoir8tnvT6diS4TnnZibonk",
-              "balance": 4155283.5973812,
-              "token_price": 0.004808,
+              "balance": 3755283.5973812,
+              "token_price": 0.004256,
               "token_decimals": 9,
               "token_symbol": "KITTY",
               "token_name": "Hello Kitty",
-              "value": 19978.603536208808
+              "value": 15982.486990454388
             }
           ]
         },
@@ -1854,11 +1920,11 @@
             {
               "token_address": "4N4DnNo3qpPks9aQCkcWkzoir8tnvT6diS4TnnZibonk",
               "balance": 2404.258480544,
-              "token_price": 0.004808,
+              "token_price": 0.004256,
               "token_decimals": 9,
               "token_symbol": "KITTY",
               "token_name": "Hello Kitty",
-              "value": 11.559674774455551
+              "value": 10.232524093195265
             }
           ]
         }
@@ -1873,11 +1939,11 @@
       "created_time": 1760128263,
       "website": "",
       "twitter": "",
-      "holder": 72585,
-      "market_cap": 109263880,
-      "price": 1140.18,
-      "price_change_24h": -3.13,
-      "volume_24h": 8924611.51,
+      "holder": 77647,
+      "market_cap": 27831,
+      "price": 1126.92,
+      "price_change_24h": -3.76,
+      "volume_24h": 12307348.65,
       "pool_address": "solana_GTHKH8s82ZR8GTSFZ1dUu6wfdxhy59wpMShxzG5zjiPm",
       "ath": 1302.7524344904164,
       "ath_timestamp": 1788912000,
@@ -1885,11 +1951,11 @@
       "dexId": "orca",
       "pairAddress": "GTHKH8s82ZR8GTSFZ1dUu6wfdxhy59wpMShxzG5zjiPm",
       "txns_24h": {
-        "buys": 27075,
-        "sells": 25543
+        "buys": 53083,
+        "sells": 49446
       },
-      "fdv_usd": 28159,
-      "total_reserve_in_usd": 2140445.02,
+      "fdv_usd": 27831,
+      "total_reserve_in_usd": 2132125.84,
       "tags": [
         "moonshot"
       ],
@@ -1992,11 +2058,11 @@
             {
               "token_address": "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS",
               "balance": 0.054093,
-              "token_price": 1140.18,
+              "token_price": 1126.92,
               "token_decimals": 8,
               "token_symbol": "ZEC",
               "token_name": "Zcash",
-              "value": 61.675756740000004
+              "value": 60.958483560000005
             }
           ]
         },
@@ -2007,12 +2073,12 @@
           "tokens": [
             {
               "token_address": "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS",
-              "balance": 0.96033698,
-              "token_price": 1140.18,
+              "balance": 1.09413162,
+              "token_price": 1126.92,
               "token_decimals": 8,
               "token_symbol": "ZEC",
               "token_name": "Zcash",
-              "value": 1094.9570178564002
+              "value": 1232.9988052104
             }
           ]
         }
@@ -2027,11 +2093,11 @@
       "created_time": 1787188020,
       "website": "",
       "twitter": "",
-      "holder": 9076,
-      "market_cap": 11445514,
-      "price": 0.01144,
-      "price_change_24h": -22.61,
-      "volume_24h": 1558097.3,
+      "holder": 9020,
+      "market_cap": 9407356,
+      "price": 0.009407,
+      "price_change_24h": -24.35,
+      "volume_24h": 1442186.14,
       "pool_address": "solana_Ad7pbBvVRNofo96WR6eHwmU2o4naZ6Lao1J98hW8a1TQ",
       "ath": 0.016452428555603374,
       "ath_timestamp": 1789138800,
@@ -2039,11 +2105,11 @@
       "dexId": "raydium",
       "pairAddress": "Ad7pbBvVRNofo96WR6eHwmU2o4naZ6Lao1J98hW8a1TQ",
       "txns_24h": {
-        "buys": 3163,
-        "sells": 1643
+        "buys": 3039,
+        "sells": 1504
       },
-      "fdv_usd": 11445514,
-      "total_reserve_in_usd": 540340.44,
+      "fdv_usd": 9407356,
+      "total_reserve_in_usd": 494165.15,
       "tags": [
         "moonshot"
       ],
@@ -2106,11 +2172,11 @@
             {
               "token_address": "8RNUw4N655VSrZKuhGdywhbSMDTrheguFPfxbpE2NZHQ",
               "balance": 12409498.600809386,
-              "token_price": 0.01144,
+              "token_price": 0.009407,
               "token_decimals": 9,
               "token_symbol": "PURR",
               "token_name": "Hypurr",
-              "value": 141964.66399325937
+              "value": 116736.1533378139
             }
           ]
         }
@@ -2125,11 +2191,11 @@
       "created_time": 1788757068,
       "website": "",
       "twitter": "",
-      "holder": 2278,
-      "market_cap": 161888,
+      "holder": 2236,
+      "market_cap": 161787,
       "price": 3.2,
-      "price_change_24h": -0.63,
-      "volume_24h": 262529.3,
+      "price_change_24h": -0.73,
+      "volume_24h": 241427.07,
       "pool_address": "solana_5Ejo18ASfVPDSZCawxC1euc6Grw7KXStqE1Ea4fYNanm",
       "ath": 3.2968913611222765,
       "ath_timestamp": 1789084800,
@@ -2137,11 +2203,11 @@
       "dexId": "raydium",
       "pairAddress": "5Ejo18ASfVPDSZCawxC1euc6Grw7KXStqE1Ea4fYNanm",
       "txns_24h": {
-        "buys": 1842,
-        "sells": 1735
+        "buys": 1754,
+        "sells": 1595
       },
-      "fdv_usd": 161888,
-      "total_reserve_in_usd": 82031.32,
+      "fdv_usd": 161787,
+      "total_reserve_in_usd": 81057.18,
       "tags": [
         "moonshot"
       ],
@@ -2433,11 +2499,11 @@
       "created_time": 1787610111,
       "website": "",
       "twitter": "",
-      "holder": 9681,
+      "holder": 9487,
       "market_cap": 0,
       "price": 23.92,
-      "price_change_24h": -3.65,
-      "volume_24h": 14491821.76,
+      "price_change_24h": -3.66,
+      "volume_24h": 14665481.81,
       "pool_address": "solana_f2qSBho9ZzGxAxMbbXwc74PbfTH5F3ZYHJTXC5LuyZ7",
       "ath": 24.918723118007602,
       "ath_timestamp": 1789167600,
@@ -2445,11 +2511,11 @@
       "dexId": "raydium",
       "pairAddress": "f2qSBho9ZzGxAxMbbXwc74PbfTH5F3ZYHJTXC5LuyZ7",
       "txns_24h": {
-        "buys": 67831,
-        "sells": 62033
+        "buys": 68253,
+        "sells": 62624
       },
       "fdv_usd": "0.0",
-      "total_reserve_in_usd": 302244.97,
+      "total_reserve_in_usd": 355168.78,
       "tags": [
         "moonshot"
       ],
@@ -2664,11 +2730,11 @@
         "created_time": 1758210391,
         "website": "",
         "twitter": "",
-        "holder": 3705,
-        "market_cap": 4806585,
-        "price": 0.004808,
-        "price_change_24h": 51.43,
-        "volume_24h": 1077181.35,
+        "holder": 3727,
+        "market_cap": 4254436,
+        "price": 0.004256,
+        "price_change_24h": 35.58,
+        "volume_24h": 1095141.41,
         "pool_address": "solana_7dNW2mhCtqoZcDuyRbj5LMoeFsS9TpaCdSkk4qMstGPm",
         "ath": 0.005608538515812511,
         "ath_timestamp": 1789171200,
@@ -2676,11 +2742,11 @@
         "dexId": "raydium",
         "pairAddress": "7dNW2mhCtqoZcDuyRbj5LMoeFsS9TpaCdSkk4qMstGPm",
         "txns_24h": {
-          "buys": 6046,
-          "sells": 5312
+          "buys": 6297,
+          "sells": 5684
         },
-        "fdv_usd": 4806585,
-        "total_reserve_in_usd": 388494.84,
+        "fdv_usd": 4254436,
+        "total_reserve_in_usd": 364616.95,
         "tags": [],
         "first_signal": {
           "timestamp": 1789171120,
@@ -2688,8 +2754,18 @@
         },
         "metrics": {
           "uniqueWallets": 2,
-          "inflow24h": 17388.427681382498,
+          "inflow24h": 15751.51047042602,
           "trades": [
+            {
+              "timestamp": "2026-09-12T18:37:06.000Z",
+              "type": "SELL",
+              "amount": 400000,
+              "usdValue": 1636.91721095648,
+              "wallet": {
+                "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+                "name": "Ansem"
+              }
+            },
             {
               "timestamp": "2026-09-12T15:49:53.000Z",
               "type": "SELL",
@@ -2760,12 +2836,12 @@
             "tokens": [
               {
                 "token_address": "4N4DnNo3qpPks9aQCkcWkzoir8tnvT6diS4TnnZibonk",
-                "balance": 4155283.5973812,
-                "token_price": 0.004808,
+                "balance": 3755283.5973812,
+                "token_price": 0.004256,
                 "token_decimals": 9,
                 "token_symbol": "KITTY",
                 "token_name": "Hello Kitty",
-                "value": 19978.603536208808
+                "value": 15982.486990454388
               }
             ]
           },
@@ -2777,11 +2853,11 @@
               {
                 "token_address": "4N4DnNo3qpPks9aQCkcWkzoir8tnvT6diS4TnnZibonk",
                 "balance": 2404.258480544,
-                "token_price": 0.004808,
+                "token_price": 0.004256,
                 "token_decimals": 9,
                 "token_symbol": "KITTY",
                 "token_name": "Hello Kitty",
-                "value": 11.559674774455551
+                "value": 10.232524093195265
               }
             ]
           }
@@ -2796,11 +2872,11 @@
         "created_time": 1787610111,
         "website": "",
         "twitter": "",
-        "holder": 9681,
+        "holder": 9487,
         "market_cap": 0,
         "price": 23.92,
-        "price_change_24h": -3.65,
-        "volume_24h": 14491821.76,
+        "price_change_24h": -3.66,
+        "volume_24h": 14665481.81,
         "pool_address": "solana_f2qSBho9ZzGxAxMbbXwc74PbfTH5F3ZYHJTXC5LuyZ7",
         "ath": 24.918723118007602,
         "ath_timestamp": 1789167600,
@@ -2808,11 +2884,11 @@
         "dexId": "raydium",
         "pairAddress": "f2qSBho9ZzGxAxMbbXwc74PbfTH5F3ZYHJTXC5LuyZ7",
         "txns_24h": {
-          "buys": 67831,
-          "sells": 62033
+          "buys": 68253,
+          "sells": 62624
         },
         "fdv_usd": "0.0",
-        "total_reserve_in_usd": 302244.97,
+        "total_reserve_in_usd": 355168.78,
         "tags": [
           "moonshot"
         ],
@@ -3026,11 +3102,11 @@
         "created_time": 1788993633,
         "website": "",
         "twitter": "https://x.com/ddddddd8a/status/2097817459398955187",
-        "holder": 3015,
-        "market_cap": 785888,
-        "price": 0.0007858,
-        "price_change_24h": -31.01,
-        "volume_24h": 1037811.33,
+        "holder": 2993,
+        "market_cap": 1383480,
+        "price": 0.001383,
+        "price_change_24h": 15.79,
+        "volume_24h": 1248907.31,
         "pool_address": "solana_AXTq4JHNYHSnooqjoDmtL9WW5eEgnkkMSWq76Kznidnz",
         "ath": 0.004335318607274534,
         "ath_timestamp": 1789023600,
@@ -3038,11 +3114,11 @@
         "dexId": "raydium",
         "pairAddress": "AXTq4JHNYHSnooqjoDmtL9WW5eEgnkkMSWq76Kznidnz",
         "txns_24h": {
-          "buys": 4759,
-          "sells": 2983
+          "buys": 5379,
+          "sells": 3675
         },
-        "fdv_usd": 785888,
-        "total_reserve_in_usd": 86327.64,
+        "fdv_usd": 1383480,
+        "total_reserve_in_usd": 117322.72,
         "tags": [],
         "first_signal": {
           "timestamp": 1789022085,
@@ -3050,8 +3126,38 @@
         },
         "metrics": {
           "uniqueWallets": 2,
-          "inflow24h": 5173.902960102009,
+          "inflow24h": 6229.189989046878,
           "trades": [
+            {
+              "timestamp": "2026-09-12T18:37:29.000Z",
+              "type": "BUY",
+              "amount": 66777.386405,
+              "usdValue": 101.7656283951139,
+              "wallet": {
+                "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+                "name": "Ansem"
+              }
+            },
+            {
+              "timestamp": "2026-09-12T18:37:13.000Z",
+              "type": "BUY",
+              "amount": 1263532.531714,
+              "usdValue": 1639.162665512347,
+              "wallet": {
+                "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+                "name": "Ansem"
+              }
+            },
+            {
+              "timestamp": "2026-09-12T17:39:39.000Z",
+              "type": "SELL",
+              "amount": 219794.051255,
+              "usdValue": 304.237086,
+              "wallet": {
+                "address": "8KPzQg5DEJAGknj1AC8F7W4cmdXBzkHym6DydFwh4ynK",
+                "name": "神中神"
+              }
+            },
             {
               "timestamp": "2026-09-12T15:59:46.000Z",
               "type": "BUY",
@@ -3101,46 +3207,10 @@
                 "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
                 "name": "Ansem"
               }
-            },
-            {
-              "timestamp": "2026-09-11T19:03:49.000Z",
-              "type": "BUY",
-              "amount": 17385.175875,
-              "usdValue": 18.132077,
-              "wallet": {
-                "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
-                "name": "Ansem"
-              }
-            },
-            {
-              "timestamp": "2026-09-11T19:03:38.000Z",
-              "type": "BUY",
-              "amount": 351128.33569,
-              "usdValue": 363.2721019625926,
-              "wallet": {
-                "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
-                "name": "Ansem"
-              }
             }
           ]
         },
         "walletPortfolios": [
-          {
-            "address": "8KPzQg5DEJAGknj1AC8F7W4cmdXBzkHym6DydFwh4ynK",
-            "name": "神中神",
-            "score": 1,
-            "tokens": [
-              {
-                "token_address": "JE3HT7SbCgXDQWV6xp3oiiAisDzq4HyZ8wyEVBDCs45Z",
-                "balance": 319794.051255,
-                "token_price": 0.0007858,
-                "token_decimals": 6,
-                "token_symbol": "PENIS",
-                "token_name": "Peniscoin",
-                "value": 251.29416547617902
-              }
-            ]
-          },
           {
             "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
             "name": "Ansem",
@@ -3148,12 +3218,156 @@
             "tokens": [
               {
                 "token_address": "JE3HT7SbCgXDQWV6xp3oiiAisDzq4HyZ8wyEVBDCs45Z",
-                "balance": 7802982.34809,
-                "token_price": 0.0007858,
+                "balance": 9133292.266209,
+                "token_price": 0.001383,
                 "token_decimals": 6,
                 "token_symbol": "PENIS",
                 "token_name": "Peniscoin",
-                "value": 6131.583529129122
+                "value": 12631.343204167048
+              }
+            ]
+          },
+          {
+            "address": "8KPzQg5DEJAGknj1AC8F7W4cmdXBzkHym6DydFwh4ynK",
+            "name": "神中神",
+            "score": 1,
+            "tokens": [
+              {
+                "token_address": "JE3HT7SbCgXDQWV6xp3oiiAisDzq4HyZ8wyEVBDCs45Z",
+                "balance": 100000,
+                "token_price": 0.001383,
+                "token_decimals": 6,
+                "token_symbol": "PENIS",
+                "token_name": "Peniscoin",
+                "value": 138.29999999999998
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "address": "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump",
+        "symbol": "baton",
+        "name": "baton",
+        "decimals": 6,
+        "icon": "https://axiomtrading.sfo3.cdn.digitaloceanspaces.com/41UrTGwAokUi5y9qXvHtG82fYsHgCnQE7oFtLhYRwYMP.webp",
+        "created_time": 1788985931,
+        "website": "https://x.com/connortrenches/status/2097774013242052853",
+        "twitter": "https://x.com/connortrenches/status/2097774013242052853",
+        "holder": 8415,
+        "market_cap": 13069061,
+        "price": 0.01308,
+        "price_change_24h": 153,
+        "volume_24h": 9681791.75,
+        "pool_address": "solana_Cb7ZRgPLhji3Th7htXyKEqbXvNjPpeTvckXuWakBUhXu",
+        "ath": 0.009350300609505263,
+        "ath_timestamp": 1789171200,
+        "ath_pool": "Cb7ZRgPLhji3Th7htXyKEqbXvNjPpeTvckXuWakBUhXu",
+        "dexId": "pumpswap",
+        "pairAddress": "Cb7ZRgPLhji3Th7htXyKEqbXvNjPpeTvckXuWakBUhXu",
+        "txns_24h": {
+          "buys": 19899,
+          "sells": 18079
+        },
+        "fdv_usd": 13069029,
+        "total_reserve_in_usd": 510508.72,
+        "tags": [
+          "moonshot"
+        ],
+        "first_signal": {
+          "timestamp": 1789147235,
+          "price": 0.00573
+        },
+        "metrics": {
+          "uniqueWallets": 1,
+          "inflow24h": 84455.17919860575,
+          "trades": [
+            {
+              "timestamp": "2026-09-12T17:29:18.000Z",
+              "type": "BUY",
+              "amount": 878299.82182,
+              "usdValue": 15316.338390648301,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-09-12T17:29:13.000Z",
+              "type": "BUY",
+              "amount": 889877.441719,
+              "usdValue": 15319.125076397673,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-09-12T17:29:10.000Z",
+              "type": "BUY",
+              "amount": 856842.31243,
+              "usdValue": 15308.269619491883,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-09-12T17:29:06.000Z",
+              "type": "BUY",
+              "amount": 887637.451094,
+              "usdValue": 15298.684755017262,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-09-12T17:29:02.000Z",
+              "type": "BUY",
+              "amount": 610798.457254,
+              "usdValue": 10227.621927182967,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-09-12T17:28:59.000Z",
+              "type": "BUY",
+              "amount": 626322.177831,
+              "usdValue": 10212.421086867666,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-09-12T17:28:54.000Z",
+              "type": "BUY",
+              "amount": 171777.930336,
+              "usdValue": 2772.718343,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+            "name": "cooker",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump",
+                "balance": 2673556.196979,
+                "token_price": 0.01308,
+                "token_decimals": 6,
+                "token_symbol": "baton",
+                "token_name": "baton",
+                "value": 34970.115056485316
               }
             ]
           }
@@ -3168,11 +3382,11 @@
         "created_time": 1787188020,
         "website": "",
         "twitter": "",
-        "holder": 9076,
-        "market_cap": 11445514,
-        "price": 0.01144,
-        "price_change_24h": -22.61,
-        "volume_24h": 1558097.3,
+        "holder": 9020,
+        "market_cap": 9407356,
+        "price": 0.009407,
+        "price_change_24h": -24.35,
+        "volume_24h": 1442186.14,
         "pool_address": "solana_Ad7pbBvVRNofo96WR6eHwmU2o4naZ6Lao1J98hW8a1TQ",
         "ath": 0.016452428555603374,
         "ath_timestamp": 1789138800,
@@ -3180,11 +3394,11 @@
         "dexId": "raydium",
         "pairAddress": "Ad7pbBvVRNofo96WR6eHwmU2o4naZ6Lao1J98hW8a1TQ",
         "txns_24h": {
-          "buys": 3163,
-          "sells": 1643
+          "buys": 3039,
+          "sells": 1504
         },
-        "fdv_usd": 11445514,
-        "total_reserve_in_usd": 540340.44,
+        "fdv_usd": 9407356,
+        "total_reserve_in_usd": 494165.15,
         "tags": [
           "moonshot"
         ],
@@ -3247,11 +3461,11 @@
               {
                 "token_address": "8RNUw4N655VSrZKuhGdywhbSMDTrheguFPfxbpE2NZHQ",
                 "balance": 12409498.600809386,
-                "token_price": 0.01144,
+                "token_price": 0.009407,
                 "token_decimals": 9,
                 "token_symbol": "PURR",
                 "token_name": "Hypurr",
-                "value": 141964.66399325937
+                "value": 116736.1533378139
               }
             ]
           }
@@ -3259,130 +3473,6 @@
       }
     ],
     "sells": [
-      {
-        "address": "XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W",
-        "symbol": "SPYx",
-        "name": "SP500 xStock",
-        "decimals": 8,
-        "icon": "https://xstocks-metadata.backed.fi/logos/tokens/SPYx.png",
-        "created_time": 1749634911,
-        "website": "",
-        "twitter": "",
-        "holder": 71057,
-        "market_cap": 58356012,
-        "price": 766.065,
-        "price_change_24h": -1.4,
-        "volume_24h": 8587623.35,
-        "pool_address": "solana_7a8xxAJBELDo6P9dikSYctdw6ce8F4mWr3ahcAD8Ao49",
-        "ath": 830.0927720456611,
-        "ath_timestamp": 1788998400,
-        "ath_pool": "6truu3rZuiB9rKQg4VYC3Dt3QwV7DgwGqXrYUcrvnDDE",
-        "dexId": "raydium",
-        "pairAddress": "7a8xxAJBELDo6P9dikSYctdw6ce8F4mWr3ahcAD8Ao49",
-        "txns_24h": {
-          "buys": 23269,
-          "sells": 31691
-        },
-        "fdv_usd": 766065,
-        "total_reserve_in_usd": 3753576.14,
-        "tags": [
-          "moonshot"
-        ],
-        "first_signal": {
-          "timestamp": 1788395563,
-          "price": 769.25
-        },
-        "metrics": {
-          "uniqueWallets": 2,
-          "inflow24h": 233.87024269648074,
-          "trades": [
-            {
-              "timestamp": "2026-09-12T10:58:43.000Z",
-              "type": "SELL",
-              "amount": 0.13937174,
-              "usdValue": 107.09654191462863,
-              "wallet": {
-                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-                "name": "cooker"
-              }
-            },
-            {
-              "timestamp": "2026-09-12T10:58:11.000Z",
-              "type": "SWAP",
-              "amount": 0.65349692,
-              "usdValue": -1,
-              "wallet": {
-                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-                "name": "cooker"
-              }
-            },
-            {
-              "timestamp": "2026-09-12T10:58:09.000Z",
-              "type": "BUY",
-              "amount": 0.66250297,
-              "usdValue": 510.330632,
-              "wallet": {
-                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-                "name": "cooker"
-              }
-            },
-            {
-              "timestamp": "2026-09-11T21:35:02.000Z",
-              "type": "SELL",
-              "amount": 0.10653887,
-              "usdValue": 81.86955238889064,
-              "wallet": {
-                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-                "name": "cooker"
-              }
-            },
-            {
-              "timestamp": "2026-09-11T18:22:12.000Z",
-              "type": "SELL",
-              "amount": 0.11504601,
-              "usdValue": 88.494295,
-              "wallet": {
-                "address": "Gf9XgdmvNHt8fUTFsWAccNbKeyDXsgJyZN8iFJKg5Pbd",
-                "name": "XueZhang"
-              }
-            }
-          ]
-        },
-        "walletPortfolios": [
-          {
-            "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-            "name": "cooker",
-            "score": 2,
-            "tokens": [
-              {
-                "token_address": "XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W",
-                "balance": 0.00900605,
-                "token_price": 766.065,
-                "token_decimals": 8,
-                "token_symbol": "SPYx",
-                "token_name": "SP500 xStock",
-                "value": 6.89921969325
-              }
-            ]
-          },
-          {
-            "address": "Gf9XgdmvNHt8fUTFsWAccNbKeyDXsgJyZN8iFJKg5Pbd",
-            "name": "XueZhang",
-            "score": 1,
-            "tokens": [
-              {
-                "token_address": "XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W",
-                "balance": 0.02533724,
-                "token_price": 766.065,
-                "token_decimals": 8,
-                "token_symbol": "SPYx",
-                "token_name": "SP500 xStock",
-                "value": 19.409972760600002
-              }
-            ]
-          }
-        ]
-      },
       {
         "address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
         "symbol": "PUMP",
@@ -3392,11 +3482,11 @@
         "created_time": 1752153028,
         "website": "",
         "twitter": "",
-        "holder": 223827,
-        "market_cap": 3125169011,
-        "price": 0.003745,
-        "price_change_24h": 2.86,
-        "volume_24h": 14776619.93,
+        "holder": 229584,
+        "market_cap": 3222197115,
+        "price": 0.003861,
+        "price_change_24h": 7.46,
+        "volume_24h": 22462372.24,
         "pool_address": "solana_2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
         "ath": 0.005429505787889138,
         "ath_timestamp": 1787443200,
@@ -3404,11 +3494,11 @@
         "dexId": "pumpswap",
         "pairAddress": "2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
         "txns_24h": {
-          "buys": 87385,
-          "sells": 72217
+          "buys": 132544,
+          "sells": 118162
         },
-        "fdv_usd": 3125169011,
-        "total_reserve_in_usd": 20897429.31,
+        "fdv_usd": 3222197115,
+        "total_reserve_in_usd": 21241352.5,
         "tags": [
           "moonshot"
         ],
@@ -3418,8 +3508,18 @@
         },
         "metrics": {
           "uniqueWallets": 3,
-          "inflow24h": -1597.2286820215215,
+          "inflow24h": -1277.5974149614813,
           "trades": [
+            {
+              "timestamp": "2026-09-12T18:37:23.000Z",
+              "type": "SELL",
+              "amount": 24215.882361,
+              "usdValue": 93.8456030159098,
+              "wallet": {
+                "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+                "name": "Ansem"
+              }
+            },
             {
               "timestamp": "2026-09-12T10:55:00.000Z",
               "type": "SELL",
@@ -3589,25 +3689,135 @@
                 "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
                 "name": "cooker"
               }
-            },
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+            "name": "Ansem",
+            "score": 3,
+            "tokens": [
+              {
+                "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+                "balance": 4135.808199,
+                "token_price": 0.003861,
+                "token_decimals": 6,
+                "token_symbol": "PUMP",
+                "token_name": "Pump",
+                "value": 15.968355456339
+              }
+            ]
+          },
+          {
+            "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+            "name": "cooker",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+                "balance": 82081.603602,
+                "token_price": 0.003861,
+                "token_decimals": 6,
+                "token_symbol": "PUMP",
+                "token_name": "Pump",
+                "value": 316.917071507322
+              }
+            ]
+          },
+          {
+            "address": "6Ee7NNNNCfbSXKD1u81616Qyj1jK34DyWvvH5BCEsMFU",
+            "name": "JustFollow!",
+            "score": 1,
+            "tokens": [
+              {
+                "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+                "balance": 57828.972291,
+                "token_price": 0.003861,
+                "token_decimals": 6,
+                "token_symbol": "PUMP",
+                "token_name": "Pump",
+                "value": 223.277662015551
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "address": "XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W",
+        "symbol": "SPYx",
+        "name": "SP500 xStock",
+        "decimals": 8,
+        "icon": "https://xstocks-metadata.backed.fi/logos/tokens/SPYx.png",
+        "created_time": 1749634911,
+        "website": "",
+        "twitter": "",
+        "holder": 71885,
+        "market_cap": 768092,
+        "price": 768.092,
+        "price_change_24h": -1.4,
+        "volume_24h": 8886044.27,
+        "pool_address": "solana_7a8xxAJBELDo6P9dikSYctdw6ce8F4mWr3ahcAD8Ao49",
+        "ath": 830.0927720456611,
+        "ath_timestamp": 1788998400,
+        "ath_pool": "6truu3rZuiB9rKQg4VYC3Dt3QwV7DgwGqXrYUcrvnDDE",
+        "dexId": "raydium",
+        "pairAddress": "7a8xxAJBELDo6P9dikSYctdw6ce8F4mWr3ahcAD8Ao49",
+        "txns_24h": {
+          "buys": 20614,
+          "sells": 29115
+        },
+        "fdv_usd": 768092,
+        "total_reserve_in_usd": 3696569.89,
+        "tags": [
+          "moonshot"
+        ],
+        "first_signal": {
+          "timestamp": 1788395563,
+          "price": 769.25
+        },
+        "metrics": {
+          "uniqueWallets": 1,
+          "inflow24h": 322.36453769648074,
+          "trades": [
             {
-              "timestamp": "2026-09-11T19:08:02.000Z",
+              "timestamp": "2026-09-12T10:58:43.000Z",
               "type": "SELL",
-              "amount": 18851.058423,
-              "usdValue": 67.28953879392911,
+              "amount": 0.13937174,
+              "usdValue": 107.09654191462863,
               "wallet": {
                 "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
                 "name": "cooker"
               }
             },
             {
-              "timestamp": "2026-09-11T19:03:22.000Z",
-              "type": "SELL",
-              "amount": 97570.034366,
-              "usdValue": 346.1873312820212,
+              "timestamp": "2026-09-12T10:58:11.000Z",
+              "type": "SWAP",
+              "amount": 0.65349692,
+              "usdValue": -1,
               "wallet": {
-                "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
-                "name": "Ansem"
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-09-12T10:58:09.000Z",
+              "type": "BUY",
+              "amount": 0.66250297,
+              "usdValue": 510.330632,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-09-11T21:35:02.000Z",
+              "type": "SELL",
+              "amount": 0.10653887,
+              "usdValue": 81.86955238889064,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
               }
             }
           ]
@@ -3619,45 +3829,13 @@
             "score": 2,
             "tokens": [
               {
-                "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-                "balance": 16942.891657,
-                "token_price": 0.003745,
-                "token_decimals": 6,
-                "token_symbol": "PUMP",
-                "token_name": "Pump",
-                "value": 63.451129255465
-              }
-            ]
-          },
-          {
-            "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
-            "name": "Ansem",
-            "score": 3,
-            "tokens": [
-              {
-                "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-                "balance": 9288.377377,
-                "token_price": 0.003745,
-                "token_decimals": 6,
-                "token_symbol": "PUMP",
-                "token_name": "Pump",
-                "value": 34.784973276865
-              }
-            ]
-          },
-          {
-            "address": "6Ee7NNNNCfbSXKD1u81616Qyj1jK34DyWvvH5BCEsMFU",
-            "name": "JustFollow!",
-            "score": 1,
-            "tokens": [
-              {
-                "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-                "balance": 45735.714413,
-                "token_price": 0.003745,
-                "token_decimals": 6,
-                "token_symbol": "PUMP",
-                "token_name": "Pump",
-                "value": 171.280250476685
+                "token_address": "XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W",
+                "balance": 0.00900605,
+                "token_price": 768.092,
+                "token_decimals": 8,
+                "token_symbol": "SPYx",
+                "token_name": "SP500 xStock",
+                "value": 6.9174749566
               }
             ]
           }
@@ -3672,11 +3850,11 @@
         "created_time": 1780322268,
         "website": "",
         "twitter": "",
-        "holder": 27552,
-        "market_cap": 40560769,
-        "price": 150.22,
-        "price_change_24h": 0.98,
-        "volume_24h": 711955.03,
+        "holder": 27506,
+        "market_cap": 40543912,
+        "price": 150.16,
+        "price_change_24h": 0.56,
+        "volume_24h": 680921.33,
         "pool_address": "solana_AHNN6JmvaGG6XUoSg7sEr38gRYDB2jTbUvqXVuqaRHpq",
         "ath": 157.02239250333446,
         "ath_timestamp": 1789171200,
@@ -3684,11 +3862,11 @@
         "dexId": "raydium",
         "pairAddress": "AHNN6JmvaGG6XUoSg7sEr38gRYDB2jTbUvqXVuqaRHpq",
         "txns_24h": {
-          "buys": 6507,
-          "sells": 5703
+          "buys": 6307,
+          "sells": 5623
         },
-        "fdv_usd": 1511255635,
-        "total_reserve_in_usd": 955668.81,
+        "fdv_usd": 1510627550,
+        "total_reserve_in_usd": 943466.49,
         "tags": [
           "moonshot"
         ],
@@ -3781,7 +3959,7 @@
               {
                 "token_address": "Xs3oZwbHvqis4NYcf4YKWmEia2eC84wSiVrcYcTqpH8",
                 "balance": 0,
-                "token_price": 150.22,
+                "token_price": 150.16,
                 "token_decimals": 8,
                 "token_symbol": "SPCXx",
                 "token_name": "SpaceX xStock",
@@ -3800,11 +3978,11 @@
         "created_time": 1788733204,
         "website": "",
         "twitter": "",
-        "holder": 18589,
+        "holder": 18622,
         "market_cap": 262,
-        "price": 0.08498,
-        "price_change_24h": -0.73,
-        "volume_24h": 2226084.31,
+        "price": 0.08475,
+        "price_change_24h": 0.4,
+        "volume_24h": 1835000.78,
         "pool_address": "solana_7s9GwyhHTmszPpzYtLaUDFW3LYfuS6XCnFWrGqUk5X4n",
         "ath": 0.0883002354837595,
         "ath_timestamp": 1789084800,
@@ -3812,11 +3990,11 @@
         "dexId": "raydium",
         "pairAddress": "7s9GwyhHTmszPpzYtLaUDFW3LYfuS6XCnFWrGqUk5X4n",
         "txns_24h": {
-          "buys": 22331,
-          "sells": 18426
+          "buys": 18415,
+          "sells": 14622
         },
         "fdv_usd": 262,
-        "total_reserve_in_usd": 208764.61,
+        "total_reserve_in_usd": 207677.55,
         "tags": [
           "moonshot"
         ],
@@ -4169,11 +4347,11 @@
               {
                 "token_address": "DoGEV7LASBkQbibMc5k5vKnTZoMg423GpJ5QtJEGfm7R",
                 "balance": 474.9811369,
-                "token_price": 0.08498,
+                "token_price": 0.08475,
                 "token_decimals": 8,
                 "token_symbol": "DOGE",
                 "token_name": "Dogecoin",
-                "value": 40.363897013762
+                "value": 40.254651352275005
               }
             ]
           },
@@ -4185,7 +4363,7 @@
               {
                 "token_address": "DoGEV7LASBkQbibMc5k5vKnTZoMg423GpJ5QtJEGfm7R",
                 "balance": 0,
-                "token_price": 0.08498,
+                "token_price": 0.08475,
                 "token_decimals": 8,
                 "token_symbol": "DOGE",
                 "token_name": "Dogecoin",
@@ -4204,11 +4382,11 @@
         "created_time": 1749634957,
         "website": "",
         "twitter": "",
-        "holder": 20737,
-        "market_cap": 10220764,
-        "price": 398.65,
-        "price_change_24h": -0.39,
-        "volume_24h": 1269234.21,
+        "holder": 20936,
+        "market_cap": 10218583,
+        "price": 398.57,
+        "price_change_24h": 0.05,
+        "volume_24h": 1227145.35,
         "pool_address": "solana_78ReVNMLGRWmjtf2HmBoHUe2pRcsctXTTbxJnbhchyze",
         "ath": 406.0312573559237,
         "ath_timestamp": 1789084800,
@@ -4216,11 +4394,11 @@
         "dexId": "raydium",
         "pairAddress": "78ReVNMLGRWmjtf2HmBoHUe2pRcsctXTTbxJnbhchyze",
         "txns_24h": {
-          "buys": 8257,
-          "sells": 7484
+          "buys": 8048,
+          "sells": 7718
         },
-        "fdv_usd": 398660,
-        "total_reserve_in_usd": 509916.11,
+        "fdv_usd": 398575,
+        "total_reserve_in_usd": 526764.95,
         "tags": [
           "moonshot"
         ],
@@ -4273,7 +4451,7 @@
               {
                 "token_address": "Xsv9hRk1z5ystj9MhnA7Lq4vjSsLwzL2nxrwmwtD3re",
                 "balance": 0,
-                "token_price": 398.65,
+                "token_price": 398.57,
                 "token_decimals": 8,
                 "token_symbol": "GLDx",
                 "token_name": "Gold xStock",
@@ -4292,11 +4470,11 @@
         "created_time": 1760128263,
         "website": "",
         "twitter": "",
-        "holder": 72585,
-        "market_cap": 109263880,
-        "price": 1140.18,
-        "price_change_24h": -3.13,
-        "volume_24h": 8924611.51,
+        "holder": 77647,
+        "market_cap": 27831,
+        "price": 1126.92,
+        "price_change_24h": -3.76,
+        "volume_24h": 12307348.65,
         "pool_address": "solana_GTHKH8s82ZR8GTSFZ1dUu6wfdxhy59wpMShxzG5zjiPm",
         "ath": 1302.7524344904164,
         "ath_timestamp": 1788912000,
@@ -4304,11 +4482,11 @@
         "dexId": "orca",
         "pairAddress": "GTHKH8s82ZR8GTSFZ1dUu6wfdxhy59wpMShxzG5zjiPm",
         "txns_24h": {
-          "buys": 27075,
-          "sells": 25543
+          "buys": 53083,
+          "sells": 49446
         },
-        "fdv_usd": 28159,
-        "total_reserve_in_usd": 2140445.02,
+        "fdv_usd": 27831,
+        "total_reserve_in_usd": 2132125.84,
         "tags": [
           "moonshot"
         ],
@@ -4411,11 +4589,11 @@
               {
                 "token_address": "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS",
                 "balance": 0.054093,
-                "token_price": 1140.18,
+                "token_price": 1126.92,
                 "token_decimals": 8,
                 "token_symbol": "ZEC",
                 "token_name": "Zcash",
-                "value": 61.675756740000004
+                "value": 60.958483560000005
               }
             ]
           },
@@ -4426,12 +4604,12 @@
             "tokens": [
               {
                 "token_address": "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS",
-                "balance": 0.96033698,
-                "token_price": 1140.18,
+                "balance": 1.09413162,
+                "token_price": 1126.92,
                 "token_decimals": 8,
                 "token_symbol": "ZEC",
                 "token_name": "Zcash",
-                "value": 1094.9570178564002
+                "value": 1232.9988052104
               }
             ]
           }
@@ -4446,11 +4624,11 @@
         "created_time": 1788757068,
         "website": "",
         "twitter": "",
-        "holder": 2278,
-        "market_cap": 161888,
+        "holder": 2236,
+        "market_cap": 161787,
         "price": 3.2,
-        "price_change_24h": -0.63,
-        "volume_24h": 262529.3,
+        "price_change_24h": -0.73,
+        "volume_24h": 241427.07,
         "pool_address": "solana_5Ejo18ASfVPDSZCawxC1euc6Grw7KXStqE1Ea4fYNanm",
         "ath": 3.2968913611222765,
         "ath_timestamp": 1789084800,
@@ -4458,11 +4636,11 @@
         "dexId": "raydium",
         "pairAddress": "5Ejo18ASfVPDSZCawxC1euc6Grw7KXStqE1Ea4fYNanm",
         "txns_24h": {
-          "buys": 1842,
-          "sells": 1735
+          "buys": 1754,
+          "sells": 1595
         },
-        "fdv_usd": 161888,
-        "total_reserve_in_usd": 82031.32,
+        "fdv_usd": 161787,
+        "total_reserve_in_usd": 81057.18,
         "tags": [
           "moonshot"
         ],
