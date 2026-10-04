@@ -1,7 +1,531 @@
 {
   "success": true,
-  "timestamp": "2026-10-04T19:51:09.522Z",
+  "timestamp": "2026-10-04T22:33:08.784Z",
   "data": [
+    {
+      "address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+      "symbol": "PUMP",
+      "name": "Pump",
+      "decimals": 6,
+      "icon": "https://ipfs.io/ipfs/bafkreibyb3hcn7gglvdqpmklfev3fut3eqv3kje54l3to3xzxxbgpt5wjm",
+      "created_time": 1752153028,
+      "website": "",
+      "twitter": "",
+      "holder": 301763,
+      "market_cap": 3021720025,
+      "price": 0.006503,
+      "price_change_24h": 1.94,
+      "volume_24h": 6557369.34,
+      "pool_address": "solana_2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
+      "ath": 0.006606674189973372,
+      "ath_timestamp": 1791072000,
+      "ath_pool": "2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
+      "dexId": "pumpswap",
+      "pairAddress": "2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
+      "txns_24h": {
+        "buys": 6875,
+        "sells": 7541
+      },
+      "fdv_usd": 5397200651,
+      "total_reserve_in_usd": 29255214.16,
+      "tags": [
+        "moonshot"
+      ],
+      "first_signal": {
+        "timestamp": 1752515714,
+        "price": 0.005381
+      },
+      "metrics": {
+        "uniqueWallets": 2,
+        "inflow24h": -44964.508314073304,
+        "trades": [
+          {
+            "timestamp": "2026-10-04T22:31:21.000Z",
+            "type": "SELL",
+            "amount": 128737.420319,
+            "usdValue": 836.6424765640799,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-04T22:31:15.000Z",
+            "type": "SWAP",
+            "amount": 21212.942447,
+            "usdValue": 138.10287848858832,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-04T22:31:15.000Z",
+            "type": "BUY",
+            "amount": 21212.942447,
+            "usdValue": 138.2699770198979,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-04T22:31:08.000Z",
+            "type": "SWAP",
+            "amount": 56023.567463,
+            "usdValue": 347.9737453862779,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-04T22:31:08.000Z",
+            "type": "BUY",
+            "amount": 56023.567463,
+            "usdValue": 365.27363852390306,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-04T22:31:08.000Z",
+            "type": "SWAP",
+            "amount": 56027.305505,
+            "usdValue": 383.0928374991387,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-04T22:31:08.000Z",
+            "type": "BUY",
+            "amount": 56027.305505,
+            "usdValue": 365.27363852390306,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-04T22:29:45.000Z",
+            "type": "SWAP",
+            "amount": 20346.317735,
+            "usdValue": 130.76389917456598,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-04T22:29:45.000Z",
+            "type": "BUY",
+            "amount": 20346.317735,
+            "usdValue": 132.64507359434336,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-04T22:29:41.000Z",
+            "type": "SWAP",
+            "amount": 56034.621862,
+            "usdValue": 299.83116169407253,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-04T22:29:41.000Z",
+            "type": "BUY",
+            "amount": 56034.621862,
+            "usdValue": 365.3152460521244,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-04T22:26:25.000Z",
+            "type": "SELL",
+            "amount": 1827790.152463,
+            "usdValue": 11894.55788952065,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-04T22:19:12.000Z",
+            "type": "SELL",
+            "amount": 101750.397675,
+            "usdValue": 660.7517083662992,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-04T22:19:10.000Z",
+            "type": "SWAP",
+            "amount": 92671.273239,
+            "usdValue": 666.9199931927049,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-04T22:19:07.000Z",
+            "type": "BUY",
+            "amount": 93772.033212,
+            "usdValue": 610.5528175015023,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-04T22:12:18.000Z",
+            "type": "SWAP",
+            "amount": 93702.50252,
+            "usdValue": 609.0914602458384,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-04T22:12:18.000Z",
+            "type": "BUY",
+            "amount": 93702.50252,
+            "usdValue": 609.7274022997768,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-04T22:03:38.000Z",
+            "type": "SELL",
+            "amount": 105983.248432,
+            "usdValue": 687.790875365164,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-04T22:03:30.000Z",
+            "type": "SWAP",
+            "amount": 93479.632726,
+            "usdValue": 650.4214568592058,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-04T22:03:30.000Z",
+            "type": "BUY",
+            "amount": 93479.632726,
+            "usdValue": 608.9033379738154,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-04T22:01:48.000Z",
+            "type": "SELL",
+            "amount": 111870.388955,
+            "usdValue": 723.0439992671726,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-04T22:01:42.000Z",
+            "type": "SWAP",
+            "amount": 93705.425027,
+            "usdValue": 607.1285806969479,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-04T22:01:42.000Z",
+            "type": "BUY",
+            "amount": 93705.425027,
+            "usdValue": 607.488263293184,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-04T22:01:40.000Z",
+            "type": "SELL",
+            "amount": 93557.883574,
+            "usdValue": 604.6424080994356,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-04T22:01:39.000Z",
+            "type": "SWAP",
+            "amount": 93737.26377,
+            "usdValue": 644.2888164339986,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-04T22:01:39.000Z",
+            "type": "BUY",
+            "amount": 93737.26377,
+            "usdValue": 607.484824864574,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-04T21:57:31.000Z",
+            "type": "SELL",
+            "amount": 1040960.779769,
+            "usdValue": 6682.421046671094,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-04T21:57:30.000Z",
+            "type": "SELL",
+            "amount": 1134227.172103,
+            "usdValue": 7289.142283251335,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-04T21:57:27.000Z",
+            "type": "SELL",
+            "amount": 1283414.817152,
+            "usdValue": 8249.167371129932,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-04T21:51:45.000Z",
+            "type": "SELL",
+            "amount": 62052.393458,
+            "usdValue": 401.0941070744624,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-04T21:51:35.000Z",
+            "type": "SELL",
+            "amount": 59319.974121,
+            "usdValue": 383.4248954031576,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-04T21:51:33.000Z",
+            "type": "SWAP",
+            "amount": 56211.268833,
+            "usdValue": 390.7820195139943,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-04T21:51:33.000Z",
+            "type": "BUY",
+            "amount": 56211.268833,
+            "usdValue": 364.50042351469864,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-04T21:44:17.000Z",
+            "type": "SELL",
+            "amount": 39966.625337,
+            "usdValue": 258.2264393021712,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-04T21:44:16.000Z",
+            "type": "SWAP",
+            "amount": 37494.687975,
+            "usdValue": 242.75131129319453,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-04T21:44:16.000Z",
+            "type": "BUY",
+            "amount": 37494.687975,
+            "usdValue": 242.814073303972,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-04T21:39:25.000Z",
+            "type": "SELL",
+            "amount": 214685.760419,
+            "usdValue": 1385.3932915947544,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-04T21:39:15.000Z",
+            "type": "SWAP",
+            "amount": 93815.766222,
+            "usdValue": 602.0215697729438,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-04T21:39:15.000Z",
+            "type": "BUY",
+            "amount": 93815.766222,
+            "usdValue": 607.2400767227135,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-04T21:39:13.000Z",
+            "type": "SWAP",
+            "amount": 93828.338815,
+            "usdValue": 622.8232056807526,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-04T21:39:13.000Z",
+            "type": "BUY",
+            "amount": 93828.338815,
+            "usdValue": 607.078636364469,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-04T17:06:14.000Z",
+            "type": "SELL",
+            "amount": 272837.036854,
+            "usdValue": 1823.429559457034,
+            "wallet": {
+              "address": "Gf9XgdmvNHt8fUTFsWAccNbKeyDXsgJyZN8iFJKg5Pbd",
+              "name": "XueZhang"
+            }
+          },
+          {
+            "timestamp": "2026-10-04T17:05:47.000Z",
+            "type": "SELL",
+            "amount": 108599.372891,
+            "usdValue": 727.0902383819765,
+            "wallet": {
+              "address": "Gf9XgdmvNHt8fUTFsWAccNbKeyDXsgJyZN8iFJKg5Pbd",
+              "name": "XueZhang"
+            }
+          },
+          {
+            "timestamp": "2026-10-04T17:03:27.000Z",
+            "type": "SELL",
+            "amount": 331424.027291,
+            "usdValue": 2223.8926360039804,
+            "wallet": {
+              "address": "Gf9XgdmvNHt8fUTFsWAccNbKeyDXsgJyZN8iFJKg5Pbd",
+              "name": "XueZhang"
+            }
+          },
+          {
+            "timestamp": "2026-10-04T14:59:10.000Z",
+            "type": "SELL",
+            "amount": 4835.370016,
+            "usdValue": 30.371582241264456,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+          "name": "cooker",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+              "balance": 15484.527148,
+              "token_price": 0.006503,
+              "token_decimals": 6,
+              "token_symbol": "PUMP",
+              "token_name": "Pump",
+              "value": 100.69588004344399
+            }
+          ]
+        },
+        {
+          "address": "Gf9XgdmvNHt8fUTFsWAccNbKeyDXsgJyZN8iFJKg5Pbd",
+          "name": "XueZhang",
+          "score": 1,
+          "tokens": [
+            {
+              "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+              "balance": 44416.801632,
+              "token_price": 0.006503,
+              "token_decimals": 6,
+              "token_symbol": "PUMP",
+              "token_name": "Pump",
+              "value": 288.842461012896
+            }
+          ]
+        }
+      ]
+    },
     {
       "address": "Xs3oZwbHvqis4NYcf4YKWmEia2eC84wSiVrcYcTqpH8",
       "symbol": "SPCXx",
@@ -11,11 +535,11 @@
       "created_time": 1780322268,
       "website": "",
       "twitter": "",
-      "holder": 82275,
-      "market_cap": 1602116833,
-      "price": 159.25,
-      "price_change_24h": -0.32,
-      "volume_24h": 2461293.64,
+      "holder": 82944,
+      "market_cap": 1612282975,
+      "price": 160.26,
+      "price_change_24h": 0.31,
+      "volume_24h": 2528823.44,
       "pool_address": "solana_ASAxmEaTT1HFe3mVC3zbKDE4tuB28W7732XQrEMBM5W2",
       "ath": 162.12061403550865,
       "ath_timestamp": 1790899200,
@@ -23,11 +547,11 @@
       "dexId": "raydium",
       "pairAddress": "DNcGcbmmmvjrmVsT4DTMh2FLrbBchxXd66njTKo6zDAc",
       "txns_24h": {
-        "buys": 13107,
-        "sells": 11636
+        "buys": 13648,
+        "sells": 11898
       },
-      "fdv_usd": 1602116833,
-      "total_reserve_in_usd": 1254808.52,
+      "fdv_usd": 1612282975,
+      "total_reserve_in_usd": 1297539.92,
       "tags": [
         "moonshot"
       ],
@@ -36,9 +560,49 @@
         "price": 149.94
       },
       "metrics": {
-        "uniqueWallets": 1,
-        "inflow24h": -195.37863475263606,
+        "uniqueWallets": 2,
+        "inflow24h": -1083.0909463246703,
         "trades": [
+          {
+            "timestamp": "2026-10-04T22:00:49.000Z",
+            "type": "SELL",
+            "amount": 2.55426983,
+            "usdValue": 406.283275,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-04T22:00:45.000Z",
+            "type": "SWAP",
+            "amount": 2.27957419,
+            "usdValue": 383.48129271687077,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-04T22:00:45.000Z",
+            "type": "BUY",
+            "amount": 2.27957419,
+            "usdValue": 362.952932,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-04T21:51:46.000Z",
+            "type": "SELL",
+            "amount": 2.91410743,
+            "usdValue": 460.9006758551634,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
           {
             "timestamp": "2026-10-04T18:18:33.000Z",
             "type": "SELL",
@@ -83,6 +647,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+          "name": "cooker",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "Xs3oZwbHvqis4NYcf4YKWmEia2eC84wSiVrcYcTqpH8",
+              "balance": 0.06216337,
+              "token_price": 160.26,
+              "token_decimals": 8,
+              "token_symbol": "SPCXx",
+              "token_name": "SpaceX xStock",
+              "value": 9.9623016762
+            }
+          ]
+        },
+        {
           "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
           "name": "OGmoodeng",
           "score": 2,
@@ -90,7 +670,7 @@
             {
               "token_address": "Xs3oZwbHvqis4NYcf4YKWmEia2eC84wSiVrcYcTqpH8",
               "balance": 0,
-              "token_price": 159.25,
+              "token_price": 160.26,
               "token_decimals": 8,
               "token_symbol": "SPCXx",
               "token_name": "SpaceX xStock",
@@ -109,11 +689,11 @@
       "created_time": 1790300078,
       "website": "",
       "twitter": "",
-      "holder": 3216,
-      "market_cap": 4270734,
-      "price": 0.00427,
-      "price_change_24h": -20.45,
-      "volume_24h": 250857.69,
+      "holder": 3229,
+      "market_cap": 4757297,
+      "price": 0.004757,
+      "price_change_24h": -21.34,
+      "volume_24h": 250754.31,
       "pool_address": "solana_EAsWkdoY1n8j6hmfEKVQHoz8yfFs7VhUnsZoBGtFu8Jw",
       "ath": 0.008969745009189173,
       "ath_timestamp": 1790899200,
@@ -121,11 +701,11 @@
       "dexId": "meteora",
       "pairAddress": "DtrBpr4MYiD2S8wRYcKgiDTQGU5R5UaW89CBY9vv5Be8",
       "txns_24h": {
-        "buys": 421,
-        "sells": 283
+        "buys": 418,
+        "sells": 295
       },
-      "fdv_usd": 4270734,
-      "total_reserve_in_usd": 102594.29,
+      "fdv_usd": 4757297,
+      "total_reserve_in_usd": 100741.51,
       "tags": [
         "moonshot"
       ],
@@ -158,11 +738,11 @@
             {
               "token_address": "8t5C4AWDg4CroMChxdo7rG2e8nJM31QG2GG7Czx9X7x2",
               "balance": 6266564.136504,
-              "token_price": 0.00427,
+              "token_price": 0.004757,
               "token_decimals": 6,
               "token_symbol": "SNDK",
               "token_name": "Sand Kitten",
-              "value": 26758.22886287208
+              "value": 29810.045597349526
             }
           ]
         }
@@ -177,23 +757,23 @@
       "created_time": 1791049546,
       "website": "",
       "twitter": "",
-      "holder": 3951,
-      "market_cap": 3655116,
-      "price": 0.003737,
-      "price_change_24h": 543,
-      "volume_24h": 8719627.15,
+      "holder": 3939,
+      "market_cap": 2060069,
+      "price": 0.002106,
+      "price_change_24h": 652,
+      "volume_24h": 8598185.95,
       "pool_address": "solana_DreMAMRc83uJtbvWuWrDqDaQUGHDbFGopmbTYbM3tJFW",
-      "ath": 0.002852,
-      "ath_timestamp": 1791132960,
+      "ath": 0.003825129686395228,
+      "ath_timestamp": 1791140400,
       "ath_pool": "DreMAMRc83uJtbvWuWrDqDaQUGHDbFGopmbTYbM3tJFW",
       "dexId": "pumpswap",
       "pairAddress": "DreMAMRc83uJtbvWuWrDqDaQUGHDbFGopmbTYbM3tJFW",
       "txns_24h": {
-        "buys": 34068,
-        "sells": 30662
+        "buys": 32677,
+        "sells": 29797
       },
-      "fdv_usd": 3655116,
-      "total_reserve_in_usd": 209812.95,
+      "fdv_usd": 2060069,
+      "total_reserve_in_usd": 158080.41,
       "tags": [],
       "first_signal": {
         "timestamp": 1791132955,
@@ -254,11 +834,11 @@
             {
               "token_address": "3Dgwn5E7H5a8k6iGrz3qirkaJqUaJrKHEZ2xPcLRpump",
               "balance": 4818731.250187,
-              "token_price": 0.003737,
+              "token_price": 0.002106,
               "token_decimals": 6,
               "token_symbol": "knightcat",
               "token_name": "Knight Cat",
-              "value": 18007.59868194882
+              "value": 10148.248012893822
             }
           ]
         },
@@ -270,7 +850,7 @@
             {
               "token_address": "3Dgwn5E7H5a8k6iGrz3qirkaJqUaJrKHEZ2xPcLRpump",
               "balance": 0,
-              "token_price": 0.003737,
+              "token_price": 0.002106,
               "token_decimals": 6,
               "token_symbol": "knightcat",
               "token_name": "Knight Cat",
@@ -289,11 +869,11 @@
       "created_time": 1760128263,
       "website": "",
       "twitter": "",
-      "holder": 132699,
-      "market_cap": 32973,
-      "price": 1335.12,
-      "price_change_24h": 1.87,
-      "volume_24h": 4451059.6,
+      "holder": 132978,
+      "market_cap": 33375,
+      "price": 1351.39,
+      "price_change_24h": 3.69,
+      "volume_24h": 4931988.35,
       "pool_address": "solana_GTHKH8s82ZR8GTSFZ1dUu6wfdxhy59wpMShxzG5zjiPm",
       "ath": 1686.985078973817,
       "ath_timestamp": 1790380800,
@@ -301,11 +881,11 @@
       "dexId": "orca",
       "pairAddress": "GTHKH8s82ZR8GTSFZ1dUu6wfdxhy59wpMShxzG5zjiPm",
       "txns_24h": {
-        "buys": 8225,
-        "sells": 8488
+        "buys": 10172,
+        "sells": 10006
       },
-      "fdv_usd": 32973,
-      "total_reserve_in_usd": 3177744.09,
+      "fdv_usd": 33375,
+      "total_reserve_in_usd": 3236412.71,
       "tags": [
         "moonshot"
       ],
@@ -358,7 +938,7 @@
             {
               "token_address": "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS",
               "balance": 0,
-              "token_price": 1335.12,
+              "token_price": 1351.39,
               "token_decimals": 8,
               "token_symbol": "ZEC",
               "token_name": "Zcash",
@@ -374,11 +954,11 @@
             {
               "token_address": "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS",
               "balance": 0.00049634,
-              "token_price": 1335.12,
+              "token_price": 1351.39,
               "token_decimals": 8,
               "token_symbol": "ZEC",
               "token_name": "Zcash",
-              "value": 0.6626734607999999
+              "value": 0.6707489126
             }
           ]
         }
@@ -396,23 +976,23 @@
         "created_time": 1791049546,
         "website": "",
         "twitter": "",
-        "holder": 3951,
-        "market_cap": 3655116,
-        "price": 0.003737,
-        "price_change_24h": 543,
-        "volume_24h": 8719627.15,
+        "holder": 3939,
+        "market_cap": 2060069,
+        "price": 0.002106,
+        "price_change_24h": 652,
+        "volume_24h": 8598185.95,
         "pool_address": "solana_DreMAMRc83uJtbvWuWrDqDaQUGHDbFGopmbTYbM3tJFW",
-        "ath": 0.002852,
-        "ath_timestamp": 1791132960,
+        "ath": 0.003825129686395228,
+        "ath_timestamp": 1791140400,
         "ath_pool": "DreMAMRc83uJtbvWuWrDqDaQUGHDbFGopmbTYbM3tJFW",
         "dexId": "pumpswap",
         "pairAddress": "DreMAMRc83uJtbvWuWrDqDaQUGHDbFGopmbTYbM3tJFW",
         "txns_24h": {
-          "buys": 34068,
-          "sells": 30662
+          "buys": 32677,
+          "sells": 29797
         },
-        "fdv_usd": 3655116,
-        "total_reserve_in_usd": 209812.95,
+        "fdv_usd": 2060069,
+        "total_reserve_in_usd": 158080.41,
         "tags": [],
         "first_signal": {
           "timestamp": 1791132955,
@@ -473,11 +1053,11 @@
               {
                 "token_address": "3Dgwn5E7H5a8k6iGrz3qirkaJqUaJrKHEZ2xPcLRpump",
                 "balance": 4818731.250187,
-                "token_price": 0.003737,
+                "token_price": 0.002106,
                 "token_decimals": 6,
                 "token_symbol": "knightcat",
                 "token_name": "Knight Cat",
-                "value": 18007.59868194882
+                "value": 10148.248012893822
               }
             ]
           },
@@ -489,7 +1069,7 @@
               {
                 "token_address": "3Dgwn5E7H5a8k6iGrz3qirkaJqUaJrKHEZ2xPcLRpump",
                 "balance": 0,
-                "token_price": 0.003737,
+                "token_price": 0.002106,
                 "token_decimals": 6,
                 "token_symbol": "knightcat",
                 "token_name": "Knight Cat",
@@ -510,11 +1090,11 @@
         "created_time": 1790300078,
         "website": "",
         "twitter": "",
-        "holder": 3216,
-        "market_cap": 4270734,
-        "price": 0.00427,
-        "price_change_24h": -20.45,
-        "volume_24h": 250857.69,
+        "holder": 3229,
+        "market_cap": 4757297,
+        "price": 0.004757,
+        "price_change_24h": -21.34,
+        "volume_24h": 250754.31,
         "pool_address": "solana_EAsWkdoY1n8j6hmfEKVQHoz8yfFs7VhUnsZoBGtFu8Jw",
         "ath": 0.008969745009189173,
         "ath_timestamp": 1790899200,
@@ -522,11 +1102,11 @@
         "dexId": "meteora",
         "pairAddress": "DtrBpr4MYiD2S8wRYcKgiDTQGU5R5UaW89CBY9vv5Be8",
         "txns_24h": {
-          "buys": 421,
-          "sells": 283
+          "buys": 418,
+          "sells": 295
         },
-        "fdv_usd": 4270734,
-        "total_reserve_in_usd": 102594.29,
+        "fdv_usd": 4757297,
+        "total_reserve_in_usd": 100741.51,
         "tags": [
           "moonshot"
         ],
@@ -559,11 +1139,11 @@
               {
                 "token_address": "8t5C4AWDg4CroMChxdo7rG2e8nJM31QG2GG7Czx9X7x2",
                 "balance": 6266564.136504,
-                "token_price": 0.00427,
+                "token_price": 0.004757,
                 "token_decimals": 6,
                 "token_symbol": "SNDK",
                 "token_name": "Sand Kitten",
-                "value": 26758.22886287208
+                "value": 29810.045597349526
               }
             ]
           }
@@ -571,6 +1151,530 @@
       }
     ],
     "sells": [
+      {
+        "address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+        "symbol": "PUMP",
+        "name": "Pump",
+        "decimals": 6,
+        "icon": "https://ipfs.io/ipfs/bafkreibyb3hcn7gglvdqpmklfev3fut3eqv3kje54l3to3xzxxbgpt5wjm",
+        "created_time": 1752153028,
+        "website": "",
+        "twitter": "",
+        "holder": 301763,
+        "market_cap": 3021720025,
+        "price": 0.006503,
+        "price_change_24h": 1.94,
+        "volume_24h": 6557369.34,
+        "pool_address": "solana_2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
+        "ath": 0.006606674189973372,
+        "ath_timestamp": 1791072000,
+        "ath_pool": "2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
+        "dexId": "pumpswap",
+        "pairAddress": "2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
+        "txns_24h": {
+          "buys": 6875,
+          "sells": 7541
+        },
+        "fdv_usd": 5397200651,
+        "total_reserve_in_usd": 29255214.16,
+        "tags": [
+          "moonshot"
+        ],
+        "first_signal": {
+          "timestamp": 1752515714,
+          "price": 0.005381
+        },
+        "metrics": {
+          "uniqueWallets": 2,
+          "inflow24h": -44964.508314073304,
+          "trades": [
+            {
+              "timestamp": "2026-10-04T22:31:21.000Z",
+              "type": "SELL",
+              "amount": 128737.420319,
+              "usdValue": 836.6424765640799,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T22:31:15.000Z",
+              "type": "SWAP",
+              "amount": 21212.942447,
+              "usdValue": 138.10287848858832,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T22:31:15.000Z",
+              "type": "BUY",
+              "amount": 21212.942447,
+              "usdValue": 138.2699770198979,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T22:31:08.000Z",
+              "type": "SWAP",
+              "amount": 56023.567463,
+              "usdValue": 347.9737453862779,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T22:31:08.000Z",
+              "type": "BUY",
+              "amount": 56023.567463,
+              "usdValue": 365.27363852390306,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T22:31:08.000Z",
+              "type": "SWAP",
+              "amount": 56027.305505,
+              "usdValue": 383.0928374991387,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T22:31:08.000Z",
+              "type": "BUY",
+              "amount": 56027.305505,
+              "usdValue": 365.27363852390306,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T22:29:45.000Z",
+              "type": "SWAP",
+              "amount": 20346.317735,
+              "usdValue": 130.76389917456598,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T22:29:45.000Z",
+              "type": "BUY",
+              "amount": 20346.317735,
+              "usdValue": 132.64507359434336,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T22:29:41.000Z",
+              "type": "SWAP",
+              "amount": 56034.621862,
+              "usdValue": 299.83116169407253,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T22:29:41.000Z",
+              "type": "BUY",
+              "amount": 56034.621862,
+              "usdValue": 365.3152460521244,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T22:26:25.000Z",
+              "type": "SELL",
+              "amount": 1827790.152463,
+              "usdValue": 11894.55788952065,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T22:19:12.000Z",
+              "type": "SELL",
+              "amount": 101750.397675,
+              "usdValue": 660.7517083662992,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T22:19:10.000Z",
+              "type": "SWAP",
+              "amount": 92671.273239,
+              "usdValue": 666.9199931927049,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T22:19:07.000Z",
+              "type": "BUY",
+              "amount": 93772.033212,
+              "usdValue": 610.5528175015023,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T22:12:18.000Z",
+              "type": "SWAP",
+              "amount": 93702.50252,
+              "usdValue": 609.0914602458384,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T22:12:18.000Z",
+              "type": "BUY",
+              "amount": 93702.50252,
+              "usdValue": 609.7274022997768,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T22:03:38.000Z",
+              "type": "SELL",
+              "amount": 105983.248432,
+              "usdValue": 687.790875365164,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T22:03:30.000Z",
+              "type": "SWAP",
+              "amount": 93479.632726,
+              "usdValue": 650.4214568592058,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T22:03:30.000Z",
+              "type": "BUY",
+              "amount": 93479.632726,
+              "usdValue": 608.9033379738154,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T22:01:48.000Z",
+              "type": "SELL",
+              "amount": 111870.388955,
+              "usdValue": 723.0439992671726,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T22:01:42.000Z",
+              "type": "SWAP",
+              "amount": 93705.425027,
+              "usdValue": 607.1285806969479,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T22:01:42.000Z",
+              "type": "BUY",
+              "amount": 93705.425027,
+              "usdValue": 607.488263293184,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T22:01:40.000Z",
+              "type": "SELL",
+              "amount": 93557.883574,
+              "usdValue": 604.6424080994356,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T22:01:39.000Z",
+              "type": "SWAP",
+              "amount": 93737.26377,
+              "usdValue": 644.2888164339986,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T22:01:39.000Z",
+              "type": "BUY",
+              "amount": 93737.26377,
+              "usdValue": 607.484824864574,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T21:57:31.000Z",
+              "type": "SELL",
+              "amount": 1040960.779769,
+              "usdValue": 6682.421046671094,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T21:57:30.000Z",
+              "type": "SELL",
+              "amount": 1134227.172103,
+              "usdValue": 7289.142283251335,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T21:57:27.000Z",
+              "type": "SELL",
+              "amount": 1283414.817152,
+              "usdValue": 8249.167371129932,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T21:51:45.000Z",
+              "type": "SELL",
+              "amount": 62052.393458,
+              "usdValue": 401.0941070744624,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T21:51:35.000Z",
+              "type": "SELL",
+              "amount": 59319.974121,
+              "usdValue": 383.4248954031576,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T21:51:33.000Z",
+              "type": "SWAP",
+              "amount": 56211.268833,
+              "usdValue": 390.7820195139943,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T21:51:33.000Z",
+              "type": "BUY",
+              "amount": 56211.268833,
+              "usdValue": 364.50042351469864,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T21:44:17.000Z",
+              "type": "SELL",
+              "amount": 39966.625337,
+              "usdValue": 258.2264393021712,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T21:44:16.000Z",
+              "type": "SWAP",
+              "amount": 37494.687975,
+              "usdValue": 242.75131129319453,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T21:44:16.000Z",
+              "type": "BUY",
+              "amount": 37494.687975,
+              "usdValue": 242.814073303972,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T21:39:25.000Z",
+              "type": "SELL",
+              "amount": 214685.760419,
+              "usdValue": 1385.3932915947544,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T21:39:15.000Z",
+              "type": "SWAP",
+              "amount": 93815.766222,
+              "usdValue": 602.0215697729438,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T21:39:15.000Z",
+              "type": "BUY",
+              "amount": 93815.766222,
+              "usdValue": 607.2400767227135,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T21:39:13.000Z",
+              "type": "SWAP",
+              "amount": 93828.338815,
+              "usdValue": 622.8232056807526,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T21:39:13.000Z",
+              "type": "BUY",
+              "amount": 93828.338815,
+              "usdValue": 607.078636364469,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T17:06:14.000Z",
+              "type": "SELL",
+              "amount": 272837.036854,
+              "usdValue": 1823.429559457034,
+              "wallet": {
+                "address": "Gf9XgdmvNHt8fUTFsWAccNbKeyDXsgJyZN8iFJKg5Pbd",
+                "name": "XueZhang"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T17:05:47.000Z",
+              "type": "SELL",
+              "amount": 108599.372891,
+              "usdValue": 727.0902383819765,
+              "wallet": {
+                "address": "Gf9XgdmvNHt8fUTFsWAccNbKeyDXsgJyZN8iFJKg5Pbd",
+                "name": "XueZhang"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T17:03:27.000Z",
+              "type": "SELL",
+              "amount": 331424.027291,
+              "usdValue": 2223.8926360039804,
+              "wallet": {
+                "address": "Gf9XgdmvNHt8fUTFsWAccNbKeyDXsgJyZN8iFJKg5Pbd",
+                "name": "XueZhang"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T14:59:10.000Z",
+              "type": "SELL",
+              "amount": 4835.370016,
+              "usdValue": 30.371582241264456,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+            "name": "cooker",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+                "balance": 15484.527148,
+                "token_price": 0.006503,
+                "token_decimals": 6,
+                "token_symbol": "PUMP",
+                "token_name": "Pump",
+                "value": 100.69588004344399
+              }
+            ]
+          },
+          {
+            "address": "Gf9XgdmvNHt8fUTFsWAccNbKeyDXsgJyZN8iFJKg5Pbd",
+            "name": "XueZhang",
+            "score": 1,
+            "tokens": [
+              {
+                "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+                "balance": 44416.801632,
+                "token_price": 0.006503,
+                "token_decimals": 6,
+                "token_symbol": "PUMP",
+                "token_name": "Pump",
+                "value": 288.842461012896
+              }
+            ]
+          }
+        ]
+      },
       {
         "address": "Xs3oZwbHvqis4NYcf4YKWmEia2eC84wSiVrcYcTqpH8",
         "symbol": "SPCXx",
@@ -580,11 +1684,11 @@
         "created_time": 1780322268,
         "website": "",
         "twitter": "",
-        "holder": 82275,
-        "market_cap": 1602116833,
-        "price": 159.25,
-        "price_change_24h": -0.32,
-        "volume_24h": 2461293.64,
+        "holder": 82944,
+        "market_cap": 1612282975,
+        "price": 160.26,
+        "price_change_24h": 0.31,
+        "volume_24h": 2528823.44,
         "pool_address": "solana_ASAxmEaTT1HFe3mVC3zbKDE4tuB28W7732XQrEMBM5W2",
         "ath": 162.12061403550865,
         "ath_timestamp": 1790899200,
@@ -592,11 +1696,11 @@
         "dexId": "raydium",
         "pairAddress": "DNcGcbmmmvjrmVsT4DTMh2FLrbBchxXd66njTKo6zDAc",
         "txns_24h": {
-          "buys": 13107,
-          "sells": 11636
+          "buys": 13648,
+          "sells": 11898
         },
-        "fdv_usd": 1602116833,
-        "total_reserve_in_usd": 1254808.52,
+        "fdv_usd": 1612282975,
+        "total_reserve_in_usd": 1297539.92,
         "tags": [
           "moonshot"
         ],
@@ -605,9 +1709,49 @@
           "price": 149.94
         },
         "metrics": {
-          "uniqueWallets": 1,
-          "inflow24h": -195.37863475263606,
+          "uniqueWallets": 2,
+          "inflow24h": -1083.0909463246703,
           "trades": [
+            {
+              "timestamp": "2026-10-04T22:00:49.000Z",
+              "type": "SELL",
+              "amount": 2.55426983,
+              "usdValue": 406.283275,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T22:00:45.000Z",
+              "type": "SWAP",
+              "amount": 2.27957419,
+              "usdValue": 383.48129271687077,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T22:00:45.000Z",
+              "type": "BUY",
+              "amount": 2.27957419,
+              "usdValue": 362.952932,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-04T21:51:46.000Z",
+              "type": "SELL",
+              "amount": 2.91410743,
+              "usdValue": 460.9006758551634,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
             {
               "timestamp": "2026-10-04T18:18:33.000Z",
               "type": "SELL",
@@ -652,6 +1796,22 @@
         },
         "walletPortfolios": [
           {
+            "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+            "name": "cooker",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "Xs3oZwbHvqis4NYcf4YKWmEia2eC84wSiVrcYcTqpH8",
+                "balance": 0.06216337,
+                "token_price": 160.26,
+                "token_decimals": 8,
+                "token_symbol": "SPCXx",
+                "token_name": "SpaceX xStock",
+                "value": 9.9623016762
+              }
+            ]
+          },
+          {
             "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
             "name": "OGmoodeng",
             "score": 2,
@@ -659,7 +1819,7 @@
               {
                 "token_address": "Xs3oZwbHvqis4NYcf4YKWmEia2eC84wSiVrcYcTqpH8",
                 "balance": 0,
-                "token_price": 159.25,
+                "token_price": 160.26,
                 "token_decimals": 8,
                 "token_symbol": "SPCXx",
                 "token_name": "SpaceX xStock",
@@ -678,11 +1838,11 @@
         "created_time": 1760128263,
         "website": "",
         "twitter": "",
-        "holder": 132699,
-        "market_cap": 32973,
-        "price": 1335.12,
-        "price_change_24h": 1.87,
-        "volume_24h": 4451059.6,
+        "holder": 132978,
+        "market_cap": 33375,
+        "price": 1351.39,
+        "price_change_24h": 3.69,
+        "volume_24h": 4931988.35,
         "pool_address": "solana_GTHKH8s82ZR8GTSFZ1dUu6wfdxhy59wpMShxzG5zjiPm",
         "ath": 1686.985078973817,
         "ath_timestamp": 1790380800,
@@ -690,11 +1850,11 @@
         "dexId": "orca",
         "pairAddress": "GTHKH8s82ZR8GTSFZ1dUu6wfdxhy59wpMShxzG5zjiPm",
         "txns_24h": {
-          "buys": 8225,
-          "sells": 8488
+          "buys": 10172,
+          "sells": 10006
         },
-        "fdv_usd": 32973,
-        "total_reserve_in_usd": 3177744.09,
+        "fdv_usd": 33375,
+        "total_reserve_in_usd": 3236412.71,
         "tags": [
           "moonshot"
         ],
@@ -747,7 +1907,7 @@
               {
                 "token_address": "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS",
                 "balance": 0,
-                "token_price": 1335.12,
+                "token_price": 1351.39,
                 "token_decimals": 8,
                 "token_symbol": "ZEC",
                 "token_name": "Zcash",
@@ -763,11 +1923,11 @@
               {
                 "token_address": "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS",
                 "balance": 0.00049634,
-                "token_price": 1335.12,
+                "token_price": 1351.39,
                 "token_decimals": 8,
                 "token_symbol": "ZEC",
                 "token_name": "Zcash",
-                "value": 0.6626734607999999
+                "value": 0.6707489126
               }
             ]
           }
