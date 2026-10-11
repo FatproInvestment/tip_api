@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2026-10-11T18:11:08.766Z",
+  "timestamp": "2026-10-11T21:54:01.874Z",
   "data": [
     {
       "address": "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh",
@@ -11,11 +11,11 @@
       "created_time": 1749634799,
       "website": "",
       "twitter": "",
-      "holder": 181323,
-      "market_cap": 44864832,
-      "price": 231.69,
-      "price_change_24h": 0.36,
-      "volume_24h": 997364.5,
+      "holder": 182001,
+      "market_cap": 231595,
+      "price": 231.59,
+      "price_change_24h": 0.3,
+      "volume_24h": 955635.58,
       "pool_address": "solana_49iMatQtoyabsYAQc8GafVq6aeBFVDxSRH44oiatyyw6",
       "ath": 244.65078239432071,
       "ath_timestamp": 1791244800,
@@ -23,11 +23,11 @@
       "dexId": "raydium",
       "pairAddress": "49iMatQtoyabsYAQc8GafVq6aeBFVDxSRH44oiatyyw6",
       "txns_24h": {
-        "buys": 6213,
-        "sells": 6338
+        "buys": 5565,
+        "sells": 5846
       },
-      "fdv_usd": 231698,
-      "total_reserve_in_usd": 3253173.32,
+      "fdv_usd": 231595,
+      "total_reserve_in_usd": 3341219.28,
       "tags": [
         "moonshot"
       ],
@@ -36,9 +36,19 @@
         "price": 231.68
       },
       "metrics": {
-        "uniqueWallets": 1,
-        "inflow24h": -157.3481775567283,
+        "uniqueWallets": 2,
+        "inflow24h": -880.000016907377,
         "trades": [
+          {
+            "timestamp": "2026-10-11T21:43:42.000Z",
+            "type": "SELL",
+            "amount": 3.12393508,
+            "usdValue": 722.6518393506489,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
           {
             "timestamp": "2026-10-11T07:40:57.000Z",
             "type": "SELL",
@@ -263,6 +273,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+          "name": "cooker",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh",
+              "balance": 0,
+              "token_price": 231.59,
+              "token_decimals": 8,
+              "token_symbol": "NVDAx",
+              "token_name": "NVIDIA xStock",
+              "value": 0
+            }
+          ]
+        },
+        {
           "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
           "name": "OGmoodeng",
           "score": 2,
@@ -270,7 +296,7 @@
             {
               "token_address": "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh",
               "balance": 0,
-              "token_price": 231.69,
+              "token_price": 231.59,
               "token_decimals": 8,
               "token_symbol": "NVDAx",
               "token_name": "NVIDIA xStock",
@@ -289,11 +315,11 @@
       "created_time": 1760128263,
       "website": "",
       "twitter": "",
-      "holder": 142502,
-      "market_cap": 128525756,
-      "price": 1284.93,
-      "price_change_24h": 4.93,
-      "volume_24h": 4016623.71,
+      "holder": 142347,
+      "market_cap": 30977,
+      "price": 1254.3,
+      "price_change_24h": 2.2,
+      "volume_24h": 4431157.62,
       "pool_address": "solana_2TAgfogn8JRwwTnsGKUa6WUT5Xdv1iMEzfEDMor68X9C",
       "ath": 1686.985078973817,
       "ath_timestamp": 1790380800,
@@ -301,11 +327,11 @@
       "dexId": "orca",
       "pairAddress": "2TAgfogn8JRwwTnsGKUa6WUT5Xdv1iMEzfEDMor68X9C",
       "txns_24h": {
-        "buys": 7047,
-        "sells": 6749
+        "buys": 6968,
+        "sells": 6551
       },
-      "fdv_usd": 31733,
-      "total_reserve_in_usd": 3407551.86,
+      "fdv_usd": 30977,
+      "total_reserve_in_usd": 3354155.95,
       "tags": [
         "moonshot"
       ],
@@ -315,7 +341,7 @@
       },
       "metrics": {
         "uniqueWallets": 1,
-        "inflow24h": -371.31927048708883,
+        "inflow24h": -369.2249863332043,
         "trades": [
           {
             "timestamp": "2026-10-11T06:54:10.000Z",
@@ -546,16 +572,6 @@
               "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
               "name": "OGmoodeng"
             }
-          },
-          {
-            "timestamp": "2026-10-10T18:33:10.000Z",
-            "type": "SELL",
-            "amount": 0.00170884,
-            "usdValue": 2.0942841538845154,
-            "wallet": {
-              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-              "name": "OGmoodeng"
-            }
           }
         ]
       },
@@ -568,7 +584,7 @@
             {
               "token_address": "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS",
               "balance": 0,
-              "token_price": 1284.93,
+              "token_price": 1254.3,
               "token_decimals": 8,
               "token_symbol": "ZEC",
               "token_name": "Zcash",
@@ -587,23 +603,23 @@
       "created_time": 1768948835,
       "website": "https://www.hextrust.com/services/wrapping/wxrp",
       "twitter": "https://x.com/Hex_Trust",
-      "holder": 18660,
-      "market_cap": 1856904,
-      "price": 1.5,
-      "price_change_24h": 2.06,
-      "volume_24h": 1.28,
+      "holder": 18731,
+      "market_cap": 1,
+      "price": 1.48,
+      "price_change_24h": 1.12,
+      "volume_24h": 345998.16,
       "pool_address": "solana_D41vQSqdboLAhnhr22Ggdf62xp47dvjJjq7QDWoixto3",
       "ath": 3.2095315669398645,
       "ath_timestamp": 1790899200,
       "ath_pool": "Bm18BMMbu9jb3dpyb7Jd69v6iDHYCDmMfG3yTqQ5jcPf",
-      "dexId": "meteora",
-      "pairAddress": "D71DGSxpwPggfC3Ds3GxUE2zbhPCiom1syrM5u9P3epG",
+      "dexId": "raydium",
+      "pairAddress": "D41vQSqdboLAhnhr22Ggdf62xp47dvjJjq7QDWoixto3",
       "txns_24h": {
-        "buys": 4,
-        "sells": 0
+        "buys": 2521,
+        "sells": 2714
       },
-      "fdv_usd": 1856904,
-      "total_reserve_in_usd": 183.8,
+      "fdv_usd": 1,
+      "total_reserve_in_usd": 44187.45,
       "tags": [
         "moonshot"
       ],
@@ -686,7 +702,7 @@
             {
               "token_address": "6UpQcMAb5xMzxc7ZfPaVMgx3KqsvKZdT5U718BzD5We2",
               "balance": 0,
-              "token_price": 1.5,
+              "token_price": 1.48,
               "token_decimals": 6,
               "token_symbol": "wXRP",
               "token_name": "Wrapped XRP",
@@ -705,11 +721,11 @@
       "created_time": 1752153028,
       "website": "",
       "twitter": "",
-      "holder": 335438,
-      "market_cap": 2671408699,
-      "price": 0.005767,
-      "price_change_24h": 3.21,
-      "volume_24h": 6096793.85,
+      "holder": 340084,
+      "market_cap": 2551673648,
+      "price": 0.005508,
+      "price_change_24h": 0.54,
+      "volume_24h": 7030299.98,
       "pool_address": "solana_2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
       "ath": 0.0067982976853724056,
       "ath_timestamp": 1791072000,
@@ -717,11 +733,11 @@
       "dexId": "orca",
       "pairAddress": "BofA2ViUSudPBTUms2KRuG6AHNeMawjNfwqTJDgx5BKW",
       "txns_24h": {
-        "buys": 25365,
-        "sells": 23110
+        "buys": 29949,
+        "sells": 27882
       },
-      "fdv_usd": 5766955517,
-      "total_reserve_in_usd": 2243192.32,
+      "fdv_usd": 5508475144,
+      "total_reserve_in_usd": 2211707.45,
       "tags": [
         "moonshot"
       ],
@@ -730,9 +746,29 @@
         "price": 0.005381
       },
       "metrics": {
-        "uniqueWallets": 1,
-        "inflow24h": -708.2646125380859,
+        "uniqueWallets": 2,
+        "inflow24h": -107.91161650350985,
         "trades": [
+          {
+            "timestamp": "2026-10-11T21:49:59.000Z",
+            "type": "SELL",
+            "amount": 182.158094,
+            "usdValue": 1.0041290381377797,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-11T19:29:00.000Z",
+            "type": "SELL",
+            "amount": 3698.222107,
+            "usdValue": 21.069249473883428,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
           {
             "timestamp": "2026-10-11T03:05:41.000Z",
             "type": "SELL",
@@ -762,260 +798,26 @@
               "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
               "name": "OGmoodeng"
             }
-          },
-          {
-            "timestamp": "2026-10-10T21:46:22.000Z",
-            "type": "SELL",
-            "amount": 18507.876347,
-            "usdValue": 101.08154142113615,
-            "wallet": {
-              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-              "name": "OGmoodeng"
-            }
-          },
-          {
-            "timestamp": "2026-10-10T21:46:03.000Z",
-            "type": "SELL",
-            "amount": 2627.927018,
-            "usdValue": 14.223948907052412,
-            "wallet": {
-              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-              "name": "OGmoodeng"
-            }
-          },
-          {
-            "timestamp": "2026-10-10T21:45:15.000Z",
-            "type": "SWAP",
-            "amount": 18208.136382,
-            "usdValue": 99.50022256382337,
-            "wallet": {
-              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-              "name": "OGmoodeng"
-            }
-          },
-          {
-            "timestamp": "2026-10-10T21:45:15.000Z",
-            "type": "BUY",
-            "amount": 18293.959898,
-            "usdValue": 100.03131215213473,
-            "wallet": {
-              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-              "name": "OGmoodeng"
-            }
-          },
-          {
-            "timestamp": "2026-10-10T21:31:17.000Z",
-            "type": "SELL",
-            "amount": 21688.271832,
-            "usdValue": 120.253149,
-            "wallet": {
-              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-              "name": "OGmoodeng"
-            }
-          },
-          {
-            "timestamp": "2026-10-10T21:30:55.000Z",
-            "type": "SWAP",
-            "amount": 1982.368107,
-            "usdValue": 11.030643303587658,
-            "wallet": {
-              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-              "name": "OGmoodeng"
-            }
-          },
-          {
-            "timestamp": "2026-10-10T21:30:55.000Z",
-            "type": "BUY",
-            "amount": 1982.368107,
-            "usdValue": 11.03064330358766,
-            "wallet": {
-              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-              "name": "OGmoodeng"
-            }
-          },
-          {
-            "timestamp": "2026-10-10T21:30:08.000Z",
-            "type": "SWAP",
-            "amount": 19703.850701,
-            "usdValue": 109.860297,
-            "wallet": {
-              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-              "name": "OGmoodeng"
-            }
-          },
-          {
-            "timestamp": "2026-10-10T21:30:08.000Z",
-            "type": "BUY",
-            "amount": 19703.850701,
-            "usdValue": 109.860297,
-            "wallet": {
-              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-              "name": "OGmoodeng"
-            }
-          },
-          {
-            "timestamp": "2026-10-10T21:30:05.000Z",
-            "type": "SELL",
-            "amount": 21262.119499,
-            "usdValue": 117.868829,
-            "wallet": {
-              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-              "name": "OGmoodeng"
-            }
-          },
-          {
-            "timestamp": "2026-10-10T21:29:35.000Z",
-            "type": "SWAP",
-            "amount": 1981.827598,
-            "usdValue": 11.021294399999999,
-            "wallet": {
-              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-              "name": "OGmoodeng"
-            }
-          },
-          {
-            "timestamp": "2026-10-10T21:29:35.000Z",
-            "type": "BUY",
-            "amount": 1981.827598,
-            "usdValue": 11.016850253155347,
-            "wallet": {
-              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-              "name": "OGmoodeng"
-            }
-          },
-          {
-            "timestamp": "2026-10-10T21:29:08.000Z",
-            "type": "SWAP",
-            "amount": 19818.573411,
-            "usdValue": 110.212944,
-            "wallet": {
-              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-              "name": "OGmoodeng"
-            }
-          },
-          {
-            "timestamp": "2026-10-10T21:29:08.000Z",
-            "type": "BUY",
-            "amount": 19818.573411,
-            "usdValue": 110.20873435250986,
-            "wallet": {
-              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-              "name": "OGmoodeng"
-            }
-          },
-          {
-            "timestamp": "2026-10-10T21:29:05.000Z",
-            "type": "SELL",
-            "amount": 23559.448859,
-            "usdValue": 130.606866,
-            "wallet": {
-              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-              "name": "OGmoodeng"
-            }
-          },
-          {
-            "timestamp": "2026-10-10T21:28:47.000Z",
-            "type": "SWAP",
-            "amount": 1981.891189,
-            "usdValue": 11.0133680858855,
-            "wallet": {
-              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-              "name": "OGmoodeng"
-            }
-          },
-          {
-            "timestamp": "2026-10-10T21:28:47.000Z",
-            "type": "BUY",
-            "amount": 1981.891189,
-            "usdValue": 11.018300016955488,
-            "wallet": {
-              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-              "name": "OGmoodeng"
-            }
-          },
-          {
-            "timestamp": "2026-10-10T21:28:05.000Z",
-            "type": "SWAP",
-            "amount": 19701.619374,
-            "usdValue": 109.851808,
-            "wallet": {
-              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-              "name": "OGmoodeng"
-            }
-          },
-          {
-            "timestamp": "2026-10-10T21:28:05.000Z",
-            "type": "BUY",
-            "amount": 19701.619374,
-            "usdValue": 109.851808,
-            "wallet": {
-              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-              "name": "OGmoodeng"
-            }
-          },
-          {
-            "timestamp": "2026-10-10T21:27:59.000Z",
-            "type": "SELL",
-            "amount": 22993.390556,
-            "usdValue": 127.470994,
-            "wallet": {
-              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-              "name": "OGmoodeng"
-            }
-          },
-          {
-            "timestamp": "2026-10-10T21:27:33.000Z",
-            "type": "SWAP",
-            "amount": 2972.853824,
-            "usdValue": 16.5319416,
-            "wallet": {
-              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-              "name": "OGmoodeng"
-            }
-          },
-          {
-            "timestamp": "2026-10-10T21:27:33.000Z",
-            "type": "BUY",
-            "amount": 2972.853824,
-            "usdValue": 16.530697824190774,
-            "wallet": {
-              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-              "name": "OGmoodeng"
-            }
-          },
-          {
-            "timestamp": "2026-10-10T21:27:23.000Z",
-            "type": "SELL",
-            "amount": 2062.341129,
-            "usdValue": 11.442948318352045,
-            "wallet": {
-              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-              "name": "OGmoodeng"
-            }
-          },
-          {
-            "timestamp": "2026-10-10T21:26:07.000Z",
-            "type": "SWAP",
-            "amount": 19239.118026,
-            "usdValue": 106.90655568,
-            "wallet": {
-              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-              "name": "OGmoodeng"
-            }
-          },
-          {
-            "timestamp": "2026-10-10T21:26:07.000Z",
-            "type": "BUY",
-            "amount": 19239.118026,
-            "usdValue": 106.90233383070614,
-            "wallet": {
-              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-              "name": "OGmoodeng"
-            }
           }
         ]
       },
       "walletPortfolios": [
+        {
+          "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+          "name": "cooker",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+              "balance": 3260.986694,
+              "token_price": 0.005508,
+              "token_decimals": 6,
+              "token_symbol": "PUMP",
+              "token_name": "Pump",
+              "value": 17.961514710552
+            }
+          ]
+        },
         {
           "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
           "name": "OGmoodeng",
@@ -1024,7 +826,7 @@
             {
               "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
               "balance": 0,
-              "token_price": 0.005767,
+              "token_price": 0.005508,
               "token_decimals": 6,
               "token_symbol": "PUMP",
               "token_name": "Pump",
@@ -1043,11 +845,11 @@
       "created_time": 1757292535,
       "website": "",
       "twitter": "https://x.com/i/communities/1964847225126748559",
-      "holder": 19993,
-      "market_cap": 2313900,
-      "price": 0.002314,
-      "price_change_24h": 26.29,
-      "volume_24h": 654807.05,
+      "holder": 19943,
+      "market_cap": 2090387,
+      "price": 0.002091,
+      "price_change_24h": 9.53,
+      "volume_24h": 662903.78,
       "pool_address": "solana_DMAFL613XTipuA3jFNYczavWT7XsiYf9cR3qmRMZQhB6",
       "ath": 0.044470507921312574,
       "ath_timestamp": 1763424000,
@@ -1055,11 +857,11 @@
       "dexId": "pumpswap",
       "pairAddress": "DMAFL613XTipuA3jFNYczavWT7XsiYf9cR3qmRMZQhB6",
       "txns_24h": {
-        "buys": 3686,
-        "sells": 4014
+        "buys": 3744,
+        "sells": 4051
       },
-      "fdv_usd": 2313900,
-      "total_reserve_in_usd": 391386.83,
+      "fdv_usd": 2090387,
+      "total_reserve_in_usd": 369181.84,
       "tags": [
         "moonshot"
       ],
@@ -1112,7 +914,7 @@
             {
               "token_address": "9AvytnUKsLxPxFHFqS6VLxaxt5p6BhYNr53SD2Chpump",
               "balance": 0,
-              "token_price": 0.002314,
+              "token_price": 0.002091,
               "token_decimals": 6,
               "token_symbol": "67",
               "token_name": "The Official 67 Coin",
@@ -1131,11 +933,11 @@
       "created_time": 1745713919,
       "website": "",
       "twitter": "",
-      "holder": 33577,
-      "market_cap": 33531068,
-      "price": 0.03353,
-      "price_change_24h": 7.31,
-      "volume_24h": 216499.91,
+      "holder": 33774,
+      "market_cap": 32856578,
+      "price": 0.03286,
+      "price_change_24h": 0.55,
+      "volume_24h": 259517.34,
       "pool_address": "solana_5wNu5QhdpRGrL37ffcd6TMMqZugQgxwafgz477rShtHy",
       "ath": 0.05587524997529878,
       "ath_timestamp": 1790294400,
@@ -1143,11 +945,11 @@
       "dexId": "pumpswap",
       "pairAddress": "5wNu5QhdpRGrL37ffcd6TMMqZugQgxwafgz477rShtHy",
       "txns_24h": {
-        "buys": 895,
-        "sells": 864
+        "buys": 1097,
+        "sells": 951
       },
-      "fdv_usd": 33530294,
-      "total_reserve_in_usd": 1946217.84,
+      "fdv_usd": 32855820,
+      "total_reserve_in_usd": 1911997.85,
       "tags": [
         "moonshot"
       ],
@@ -1310,178 +1112,10 @@
             {
               "token_address": "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump",
               "balance": 0,
-              "token_price": 0.03353,
+              "token_price": 0.03286,
               "token_decimals": 6,
               "token_symbol": "neet",
               "token_name": "NotInEmploymentEducationTraining",
-              "value": 0
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "address": "XsoBhf2ufR8fTyNSjqfU71DYGaE6Z3SUGAidpzriAA4",
-      "symbol": "PLTRx",
-      "name": "Palantir xStock",
-      "decimals": 8,
-      "icon": "https://xstocks-metadata.backed.fi/logos/tokens/PLTRx.png",
-      "created_time": 1749634846,
-      "website": "",
-      "twitter": "",
-      "holder": 9944,
-      "market_cap": 30393646,
-      "price": 208.35,
-      "price_change_24h": -0.05,
-      "volume_24h": 2505.18,
-      "pool_address": "solana_BEv9D7kzD2aPKuZWHeDHHgkrR4GcUVPqgbGTDo2hssR8",
-      "ath": 263.0685886348096,
-      "ath_timestamp": 1788811200,
-      "ath_pool": "5bY2fh9rgTYaBDxFGFJmddhaDkm5zwiWP6b2ZsjJZyP",
-      "dexId": "orca",
-      "pairAddress": "5bY2fh9rgTYaBDxFGFJmddhaDkm5zwiWP6b2ZsjJZyP",
-      "txns_24h": {
-        "buys": 23,
-        "sells": 40
-      },
-      "fdv_usd": 30393646,
-      "total_reserve_in_usd": 121594.61,
-      "tags": [
-        "moonshot"
-      ],
-      "first_signal": {
-        "timestamp": 1788742570,
-        "price": 175.31
-      },
-      "metrics": {
-        "uniqueWallets": 1,
-        "inflow24h": -311.88694399999997,
-        "trades": [
-          {
-            "timestamp": "2026-10-10T19:34:07.000Z",
-            "type": "SELL",
-            "amount": 0.43669472,
-            "usdValue": 91.035886,
-            "wallet": {
-              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-              "name": "OGmoodeng"
-            }
-          },
-          {
-            "timestamp": "2026-10-10T19:33:17.000Z",
-            "type": "SWAP",
-            "amount": 0.47044017,
-            "usdValue": 99.357786,
-            "wallet": {
-              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-              "name": "OGmoodeng"
-            }
-          },
-          {
-            "timestamp": "2026-10-10T19:33:17.000Z",
-            "type": "BUY",
-            "amount": 0.47044017,
-            "usdValue": 99.357786,
-            "wallet": {
-              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-              "name": "OGmoodeng"
-            }
-          },
-          {
-            "timestamp": "2026-10-10T19:32:49.000Z",
-            "type": "SELL",
-            "amount": 0.47238003,
-            "usdValue": 98.474711,
-            "wallet": {
-              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-              "name": "OGmoodeng"
-            }
-          },
-          {
-            "timestamp": "2026-10-10T19:32:25.000Z",
-            "type": "SWAP",
-            "amount": 0.52258093,
-            "usdValue": 110.368908,
-            "wallet": {
-              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-              "name": "OGmoodeng"
-            }
-          },
-          {
-            "timestamp": "2026-10-10T19:32:25.000Z",
-            "type": "BUY",
-            "amount": 0.52258093,
-            "usdValue": 110.368908,
-            "wallet": {
-              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-              "name": "OGmoodeng"
-            }
-          },
-          {
-            "timestamp": "2026-10-10T19:32:19.000Z",
-            "type": "SELL",
-            "amount": 0.58703568,
-            "usdValue": 122.376347,
-            "wallet": {
-              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-              "name": "OGmoodeng"
-            }
-          },
-          {
-            "timestamp": "2026-10-10T19:31:59.000Z",
-            "type": "SWAP",
-            "amount": 0.04023276,
-            "usdValue": 8.498112,
-            "wallet": {
-              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-              "name": "OGmoodeng"
-            }
-          },
-          {
-            "timestamp": "2026-10-10T19:31:59.000Z",
-            "type": "BUY",
-            "amount": 0.04023276,
-            "usdValue": 8.498112,
-            "wallet": {
-              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-              "name": "OGmoodeng"
-            }
-          },
-          {
-            "timestamp": "2026-10-10T19:31:26.000Z",
-            "type": "SWAP",
-            "amount": 0.52247867,
-            "usdValue": 110.347578,
-            "wallet": {
-              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-              "name": "OGmoodeng"
-            }
-          },
-          {
-            "timestamp": "2026-10-10T19:31:26.000Z",
-            "type": "BUY",
-            "amount": 0.52247867,
-            "usdValue": 110.347578,
-            "wallet": {
-              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-              "name": "OGmoodeng"
-            }
-          }
-        ]
-      },
-      "walletPortfolios": [
-        {
-          "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-          "name": "OGmoodeng",
-          "score": 2,
-          "tokens": [
-            {
-              "token_address": "XsoBhf2ufR8fTyNSjqfU71DYGaE6Z3SUGAidpzriAA4",
-              "balance": 0,
-              "token_price": 208.35,
-              "token_decimals": 8,
-              "token_symbol": "PLTRx",
-              "token_name": "Palantir xStock",
               "value": 0
             }
           ]
@@ -1494,6 +1128,130 @@
     "buys": [],
     "sells": [
       {
+        "address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+        "symbol": "PUMP",
+        "name": "Pump",
+        "decimals": 6,
+        "icon": "https://ipfs.io/ipfs/bafkreibyb3hcn7gglvdqpmklfev3fut3eqv3kje54l3to3xzxxbgpt5wjm",
+        "created_time": 1752153028,
+        "website": "",
+        "twitter": "",
+        "holder": 340084,
+        "market_cap": 2551673648,
+        "price": 0.005508,
+        "price_change_24h": 0.54,
+        "volume_24h": 7030299.98,
+        "pool_address": "solana_2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
+        "ath": 0.0067982976853724056,
+        "ath_timestamp": 1791072000,
+        "ath_pool": "2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
+        "dexId": "orca",
+        "pairAddress": "BofA2ViUSudPBTUms2KRuG6AHNeMawjNfwqTJDgx5BKW",
+        "txns_24h": {
+          "buys": 29949,
+          "sells": 27882
+        },
+        "fdv_usd": 5508475144,
+        "total_reserve_in_usd": 2211707.45,
+        "tags": [
+          "moonshot"
+        ],
+        "first_signal": {
+          "timestamp": 1752515714,
+          "price": 0.005381
+        },
+        "metrics": {
+          "uniqueWallets": 2,
+          "inflow24h": -107.91161650350985,
+          "trades": [
+            {
+              "timestamp": "2026-10-11T21:49:59.000Z",
+              "type": "SELL",
+              "amount": 182.158094,
+              "usdValue": 1.0041290381377797,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-11T19:29:00.000Z",
+              "type": "SELL",
+              "amount": 3698.222107,
+              "usdValue": 21.069249473883428,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-11T03:05:41.000Z",
+              "type": "SELL",
+              "amount": 15743.088121,
+              "usdValue": 85.806424,
+              "wallet": {
+                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+                "name": "OGmoodeng"
+              }
+            },
+            {
+              "timestamp": "2026-10-11T03:01:49.000Z",
+              "type": "SWAP",
+              "amount": 16063.271502,
+              "usdValue": 87.96508800000001,
+              "wallet": {
+                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+                "name": "OGmoodeng"
+              }
+            },
+            {
+              "timestamp": "2026-10-11T03:01:49.000Z",
+              "type": "BUY",
+              "amount": 16063.271502,
+              "usdValue": 87.93327400851136,
+              "wallet": {
+                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+                "name": "OGmoodeng"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+            "name": "cooker",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+                "balance": 3260.986694,
+                "token_price": 0.005508,
+                "token_decimals": 6,
+                "token_symbol": "PUMP",
+                "token_name": "Pump",
+                "value": 17.961514710552
+              }
+            ]
+          },
+          {
+            "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+            "name": "OGmoodeng",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+                "balance": 0,
+                "token_price": 0.005508,
+                "token_decimals": 6,
+                "token_symbol": "PUMP",
+                "token_name": "Pump",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
         "address": "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh",
         "symbol": "NVDAx",
         "name": "NVIDIA xStock",
@@ -1502,11 +1260,11 @@
         "created_time": 1749634799,
         "website": "",
         "twitter": "",
-        "holder": 181323,
-        "market_cap": 44864832,
-        "price": 231.69,
-        "price_change_24h": 0.36,
-        "volume_24h": 997364.5,
+        "holder": 182001,
+        "market_cap": 231595,
+        "price": 231.59,
+        "price_change_24h": 0.3,
+        "volume_24h": 955635.58,
         "pool_address": "solana_49iMatQtoyabsYAQc8GafVq6aeBFVDxSRH44oiatyyw6",
         "ath": 244.65078239432071,
         "ath_timestamp": 1791244800,
@@ -1514,11 +1272,11 @@
         "dexId": "raydium",
         "pairAddress": "49iMatQtoyabsYAQc8GafVq6aeBFVDxSRH44oiatyyw6",
         "txns_24h": {
-          "buys": 6213,
-          "sells": 6338
+          "buys": 5565,
+          "sells": 5846
         },
-        "fdv_usd": 231698,
-        "total_reserve_in_usd": 3253173.32,
+        "fdv_usd": 231595,
+        "total_reserve_in_usd": 3341219.28,
         "tags": [
           "moonshot"
         ],
@@ -1527,9 +1285,19 @@
           "price": 231.68
         },
         "metrics": {
-          "uniqueWallets": 1,
-          "inflow24h": -157.3481775567283,
+          "uniqueWallets": 2,
+          "inflow24h": -880.000016907377,
           "trades": [
+            {
+              "timestamp": "2026-10-11T21:43:42.000Z",
+              "type": "SELL",
+              "amount": 3.12393508,
+              "usdValue": 722.6518393506489,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
             {
               "timestamp": "2026-10-11T07:40:57.000Z",
               "type": "SELL",
@@ -1754,6 +1522,22 @@
         },
         "walletPortfolios": [
           {
+            "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+            "name": "cooker",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh",
+                "balance": 0,
+                "token_price": 231.59,
+                "token_decimals": 8,
+                "token_symbol": "NVDAx",
+                "token_name": "NVIDIA xStock",
+                "value": 0
+              }
+            ]
+          },
+          {
             "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
             "name": "OGmoodeng",
             "score": 2,
@@ -1761,7 +1545,7 @@
               {
                 "token_address": "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh",
                 "balance": 0,
-                "token_price": 231.69,
+                "token_price": 231.59,
                 "token_decimals": 8,
                 "token_symbol": "NVDAx",
                 "token_name": "NVIDIA xStock",
@@ -1780,23 +1564,23 @@
         "created_time": 1768948835,
         "website": "https://www.hextrust.com/services/wrapping/wxrp",
         "twitter": "https://x.com/Hex_Trust",
-        "holder": 18660,
-        "market_cap": 1856904,
-        "price": 1.5,
-        "price_change_24h": 2.06,
-        "volume_24h": 1.28,
+        "holder": 18731,
+        "market_cap": 1,
+        "price": 1.48,
+        "price_change_24h": 1.12,
+        "volume_24h": 345998.16,
         "pool_address": "solana_D41vQSqdboLAhnhr22Ggdf62xp47dvjJjq7QDWoixto3",
         "ath": 3.2095315669398645,
         "ath_timestamp": 1790899200,
         "ath_pool": "Bm18BMMbu9jb3dpyb7Jd69v6iDHYCDmMfG3yTqQ5jcPf",
-        "dexId": "meteora",
-        "pairAddress": "D71DGSxpwPggfC3Ds3GxUE2zbhPCiom1syrM5u9P3epG",
+        "dexId": "raydium",
+        "pairAddress": "D41vQSqdboLAhnhr22Ggdf62xp47dvjJjq7QDWoixto3",
         "txns_24h": {
-          "buys": 4,
-          "sells": 0
+          "buys": 2521,
+          "sells": 2714
         },
-        "fdv_usd": 1856904,
-        "total_reserve_in_usd": 183.8,
+        "fdv_usd": 1,
+        "total_reserve_in_usd": 44187.45,
         "tags": [
           "moonshot"
         ],
@@ -1879,348 +1663,10 @@
               {
                 "token_address": "6UpQcMAb5xMzxc7ZfPaVMgx3KqsvKZdT5U718BzD5We2",
                 "balance": 0,
-                "token_price": 1.5,
+                "token_price": 1.48,
                 "token_decimals": 6,
                 "token_symbol": "wXRP",
                 "token_name": "Wrapped XRP",
-                "value": 0
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-        "symbol": "PUMP",
-        "name": "Pump",
-        "decimals": 6,
-        "icon": "https://ipfs.io/ipfs/bafkreibyb3hcn7gglvdqpmklfev3fut3eqv3kje54l3to3xzxxbgpt5wjm",
-        "created_time": 1752153028,
-        "website": "",
-        "twitter": "",
-        "holder": 335438,
-        "market_cap": 2671408699,
-        "price": 0.005767,
-        "price_change_24h": 3.21,
-        "volume_24h": 6096793.85,
-        "pool_address": "solana_2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
-        "ath": 0.0067982976853724056,
-        "ath_timestamp": 1791072000,
-        "ath_pool": "2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
-        "dexId": "orca",
-        "pairAddress": "BofA2ViUSudPBTUms2KRuG6AHNeMawjNfwqTJDgx5BKW",
-        "txns_24h": {
-          "buys": 25365,
-          "sells": 23110
-        },
-        "fdv_usd": 5766955517,
-        "total_reserve_in_usd": 2243192.32,
-        "tags": [
-          "moonshot"
-        ],
-        "first_signal": {
-          "timestamp": 1752515714,
-          "price": 0.005381
-        },
-        "metrics": {
-          "uniqueWallets": 1,
-          "inflow24h": -708.2646125380859,
-          "trades": [
-            {
-              "timestamp": "2026-10-11T03:05:41.000Z",
-              "type": "SELL",
-              "amount": 15743.088121,
-              "usdValue": 85.806424,
-              "wallet": {
-                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-                "name": "OGmoodeng"
-              }
-            },
-            {
-              "timestamp": "2026-10-11T03:01:49.000Z",
-              "type": "SWAP",
-              "amount": 16063.271502,
-              "usdValue": 87.96508800000001,
-              "wallet": {
-                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-                "name": "OGmoodeng"
-              }
-            },
-            {
-              "timestamp": "2026-10-11T03:01:49.000Z",
-              "type": "BUY",
-              "amount": 16063.271502,
-              "usdValue": 87.93327400851136,
-              "wallet": {
-                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-                "name": "OGmoodeng"
-              }
-            },
-            {
-              "timestamp": "2026-10-10T21:46:22.000Z",
-              "type": "SELL",
-              "amount": 18507.876347,
-              "usdValue": 101.08154142113615,
-              "wallet": {
-                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-                "name": "OGmoodeng"
-              }
-            },
-            {
-              "timestamp": "2026-10-10T21:46:03.000Z",
-              "type": "SELL",
-              "amount": 2627.927018,
-              "usdValue": 14.223948907052412,
-              "wallet": {
-                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-                "name": "OGmoodeng"
-              }
-            },
-            {
-              "timestamp": "2026-10-10T21:45:15.000Z",
-              "type": "SWAP",
-              "amount": 18208.136382,
-              "usdValue": 99.50022256382337,
-              "wallet": {
-                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-                "name": "OGmoodeng"
-              }
-            },
-            {
-              "timestamp": "2026-10-10T21:45:15.000Z",
-              "type": "BUY",
-              "amount": 18293.959898,
-              "usdValue": 100.03131215213473,
-              "wallet": {
-                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-                "name": "OGmoodeng"
-              }
-            },
-            {
-              "timestamp": "2026-10-10T21:31:17.000Z",
-              "type": "SELL",
-              "amount": 21688.271832,
-              "usdValue": 120.253149,
-              "wallet": {
-                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-                "name": "OGmoodeng"
-              }
-            },
-            {
-              "timestamp": "2026-10-10T21:30:55.000Z",
-              "type": "SWAP",
-              "amount": 1982.368107,
-              "usdValue": 11.030643303587658,
-              "wallet": {
-                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-                "name": "OGmoodeng"
-              }
-            },
-            {
-              "timestamp": "2026-10-10T21:30:55.000Z",
-              "type": "BUY",
-              "amount": 1982.368107,
-              "usdValue": 11.03064330358766,
-              "wallet": {
-                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-                "name": "OGmoodeng"
-              }
-            },
-            {
-              "timestamp": "2026-10-10T21:30:08.000Z",
-              "type": "SWAP",
-              "amount": 19703.850701,
-              "usdValue": 109.860297,
-              "wallet": {
-                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-                "name": "OGmoodeng"
-              }
-            },
-            {
-              "timestamp": "2026-10-10T21:30:08.000Z",
-              "type": "BUY",
-              "amount": 19703.850701,
-              "usdValue": 109.860297,
-              "wallet": {
-                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-                "name": "OGmoodeng"
-              }
-            },
-            {
-              "timestamp": "2026-10-10T21:30:05.000Z",
-              "type": "SELL",
-              "amount": 21262.119499,
-              "usdValue": 117.868829,
-              "wallet": {
-                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-                "name": "OGmoodeng"
-              }
-            },
-            {
-              "timestamp": "2026-10-10T21:29:35.000Z",
-              "type": "SWAP",
-              "amount": 1981.827598,
-              "usdValue": 11.021294399999999,
-              "wallet": {
-                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-                "name": "OGmoodeng"
-              }
-            },
-            {
-              "timestamp": "2026-10-10T21:29:35.000Z",
-              "type": "BUY",
-              "amount": 1981.827598,
-              "usdValue": 11.016850253155347,
-              "wallet": {
-                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-                "name": "OGmoodeng"
-              }
-            },
-            {
-              "timestamp": "2026-10-10T21:29:08.000Z",
-              "type": "SWAP",
-              "amount": 19818.573411,
-              "usdValue": 110.212944,
-              "wallet": {
-                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-                "name": "OGmoodeng"
-              }
-            },
-            {
-              "timestamp": "2026-10-10T21:29:08.000Z",
-              "type": "BUY",
-              "amount": 19818.573411,
-              "usdValue": 110.20873435250986,
-              "wallet": {
-                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-                "name": "OGmoodeng"
-              }
-            },
-            {
-              "timestamp": "2026-10-10T21:29:05.000Z",
-              "type": "SELL",
-              "amount": 23559.448859,
-              "usdValue": 130.606866,
-              "wallet": {
-                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-                "name": "OGmoodeng"
-              }
-            },
-            {
-              "timestamp": "2026-10-10T21:28:47.000Z",
-              "type": "SWAP",
-              "amount": 1981.891189,
-              "usdValue": 11.0133680858855,
-              "wallet": {
-                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-                "name": "OGmoodeng"
-              }
-            },
-            {
-              "timestamp": "2026-10-10T21:28:47.000Z",
-              "type": "BUY",
-              "amount": 1981.891189,
-              "usdValue": 11.018300016955488,
-              "wallet": {
-                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-                "name": "OGmoodeng"
-              }
-            },
-            {
-              "timestamp": "2026-10-10T21:28:05.000Z",
-              "type": "SWAP",
-              "amount": 19701.619374,
-              "usdValue": 109.851808,
-              "wallet": {
-                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-                "name": "OGmoodeng"
-              }
-            },
-            {
-              "timestamp": "2026-10-10T21:28:05.000Z",
-              "type": "BUY",
-              "amount": 19701.619374,
-              "usdValue": 109.851808,
-              "wallet": {
-                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-                "name": "OGmoodeng"
-              }
-            },
-            {
-              "timestamp": "2026-10-10T21:27:59.000Z",
-              "type": "SELL",
-              "amount": 22993.390556,
-              "usdValue": 127.470994,
-              "wallet": {
-                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-                "name": "OGmoodeng"
-              }
-            },
-            {
-              "timestamp": "2026-10-10T21:27:33.000Z",
-              "type": "SWAP",
-              "amount": 2972.853824,
-              "usdValue": 16.5319416,
-              "wallet": {
-                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-                "name": "OGmoodeng"
-              }
-            },
-            {
-              "timestamp": "2026-10-10T21:27:33.000Z",
-              "type": "BUY",
-              "amount": 2972.853824,
-              "usdValue": 16.530697824190774,
-              "wallet": {
-                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-                "name": "OGmoodeng"
-              }
-            },
-            {
-              "timestamp": "2026-10-10T21:27:23.000Z",
-              "type": "SELL",
-              "amount": 2062.341129,
-              "usdValue": 11.442948318352045,
-              "wallet": {
-                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-                "name": "OGmoodeng"
-              }
-            },
-            {
-              "timestamp": "2026-10-10T21:26:07.000Z",
-              "type": "SWAP",
-              "amount": 19239.118026,
-              "usdValue": 106.90655568,
-              "wallet": {
-                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-                "name": "OGmoodeng"
-              }
-            },
-            {
-              "timestamp": "2026-10-10T21:26:07.000Z",
-              "type": "BUY",
-              "amount": 19239.118026,
-              "usdValue": 106.90233383070614,
-              "wallet": {
-                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-                "name": "OGmoodeng"
-              }
-            }
-          ]
-        },
-        "walletPortfolios": [
-          {
-            "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-            "name": "OGmoodeng",
-            "score": 2,
-            "tokens": [
-              {
-                "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-                "balance": 0,
-                "token_price": 0.005767,
-                "token_decimals": 6,
-                "token_symbol": "PUMP",
-                "token_name": "Pump",
                 "value": 0
               }
             ]
@@ -2236,11 +1682,11 @@
         "created_time": 1757292535,
         "website": "",
         "twitter": "https://x.com/i/communities/1964847225126748559",
-        "holder": 19993,
-        "market_cap": 2313900,
-        "price": 0.002314,
-        "price_change_24h": 26.29,
-        "volume_24h": 654807.05,
+        "holder": 19943,
+        "market_cap": 2090387,
+        "price": 0.002091,
+        "price_change_24h": 9.53,
+        "volume_24h": 662903.78,
         "pool_address": "solana_DMAFL613XTipuA3jFNYczavWT7XsiYf9cR3qmRMZQhB6",
         "ath": 0.044470507921312574,
         "ath_timestamp": 1763424000,
@@ -2248,11 +1694,11 @@
         "dexId": "pumpswap",
         "pairAddress": "DMAFL613XTipuA3jFNYczavWT7XsiYf9cR3qmRMZQhB6",
         "txns_24h": {
-          "buys": 3686,
-          "sells": 4014
+          "buys": 3744,
+          "sells": 4051
         },
-        "fdv_usd": 2313900,
-        "total_reserve_in_usd": 391386.83,
+        "fdv_usd": 2090387,
+        "total_reserve_in_usd": 369181.84,
         "tags": [
           "moonshot"
         ],
@@ -2305,7 +1751,7 @@
               {
                 "token_address": "9AvytnUKsLxPxFHFqS6VLxaxt5p6BhYNr53SD2Chpump",
                 "balance": 0,
-                "token_price": 0.002314,
+                "token_price": 0.002091,
                 "token_decimals": 6,
                 "token_symbol": "67",
                 "token_name": "The Official 67 Coin",
@@ -2324,11 +1770,11 @@
         "created_time": 1745713919,
         "website": "",
         "twitter": "",
-        "holder": 33577,
-        "market_cap": 33531068,
-        "price": 0.03353,
-        "price_change_24h": 7.31,
-        "volume_24h": 216499.91,
+        "holder": 33774,
+        "market_cap": 32856578,
+        "price": 0.03286,
+        "price_change_24h": 0.55,
+        "volume_24h": 259517.34,
         "pool_address": "solana_5wNu5QhdpRGrL37ffcd6TMMqZugQgxwafgz477rShtHy",
         "ath": 0.05587524997529878,
         "ath_timestamp": 1790294400,
@@ -2336,11 +1782,11 @@
         "dexId": "pumpswap",
         "pairAddress": "5wNu5QhdpRGrL37ffcd6TMMqZugQgxwafgz477rShtHy",
         "txns_24h": {
-          "buys": 895,
-          "sells": 864
+          "buys": 1097,
+          "sells": 951
         },
-        "fdv_usd": 33530294,
-        "total_reserve_in_usd": 1946217.84,
+        "fdv_usd": 32855820,
+        "total_reserve_in_usd": 1911997.85,
         "tags": [
           "moonshot"
         ],
@@ -2503,178 +1949,10 @@
               {
                 "token_address": "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump",
                 "balance": 0,
-                "token_price": 0.03353,
+                "token_price": 0.03286,
                 "token_decimals": 6,
                 "token_symbol": "neet",
                 "token_name": "NotInEmploymentEducationTraining",
-                "value": 0
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "address": "XsoBhf2ufR8fTyNSjqfU71DYGaE6Z3SUGAidpzriAA4",
-        "symbol": "PLTRx",
-        "name": "Palantir xStock",
-        "decimals": 8,
-        "icon": "https://xstocks-metadata.backed.fi/logos/tokens/PLTRx.png",
-        "created_time": 1749634846,
-        "website": "",
-        "twitter": "",
-        "holder": 9944,
-        "market_cap": 30393646,
-        "price": 208.35,
-        "price_change_24h": -0.05,
-        "volume_24h": 2505.18,
-        "pool_address": "solana_BEv9D7kzD2aPKuZWHeDHHgkrR4GcUVPqgbGTDo2hssR8",
-        "ath": 263.0685886348096,
-        "ath_timestamp": 1788811200,
-        "ath_pool": "5bY2fh9rgTYaBDxFGFJmddhaDkm5zwiWP6b2ZsjJZyP",
-        "dexId": "orca",
-        "pairAddress": "5bY2fh9rgTYaBDxFGFJmddhaDkm5zwiWP6b2ZsjJZyP",
-        "txns_24h": {
-          "buys": 23,
-          "sells": 40
-        },
-        "fdv_usd": 30393646,
-        "total_reserve_in_usd": 121594.61,
-        "tags": [
-          "moonshot"
-        ],
-        "first_signal": {
-          "timestamp": 1788742570,
-          "price": 175.31
-        },
-        "metrics": {
-          "uniqueWallets": 1,
-          "inflow24h": -311.88694399999997,
-          "trades": [
-            {
-              "timestamp": "2026-10-10T19:34:07.000Z",
-              "type": "SELL",
-              "amount": 0.43669472,
-              "usdValue": 91.035886,
-              "wallet": {
-                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-                "name": "OGmoodeng"
-              }
-            },
-            {
-              "timestamp": "2026-10-10T19:33:17.000Z",
-              "type": "SWAP",
-              "amount": 0.47044017,
-              "usdValue": 99.357786,
-              "wallet": {
-                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-                "name": "OGmoodeng"
-              }
-            },
-            {
-              "timestamp": "2026-10-10T19:33:17.000Z",
-              "type": "BUY",
-              "amount": 0.47044017,
-              "usdValue": 99.357786,
-              "wallet": {
-                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-                "name": "OGmoodeng"
-              }
-            },
-            {
-              "timestamp": "2026-10-10T19:32:49.000Z",
-              "type": "SELL",
-              "amount": 0.47238003,
-              "usdValue": 98.474711,
-              "wallet": {
-                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-                "name": "OGmoodeng"
-              }
-            },
-            {
-              "timestamp": "2026-10-10T19:32:25.000Z",
-              "type": "SWAP",
-              "amount": 0.52258093,
-              "usdValue": 110.368908,
-              "wallet": {
-                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-                "name": "OGmoodeng"
-              }
-            },
-            {
-              "timestamp": "2026-10-10T19:32:25.000Z",
-              "type": "BUY",
-              "amount": 0.52258093,
-              "usdValue": 110.368908,
-              "wallet": {
-                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-                "name": "OGmoodeng"
-              }
-            },
-            {
-              "timestamp": "2026-10-10T19:32:19.000Z",
-              "type": "SELL",
-              "amount": 0.58703568,
-              "usdValue": 122.376347,
-              "wallet": {
-                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-                "name": "OGmoodeng"
-              }
-            },
-            {
-              "timestamp": "2026-10-10T19:31:59.000Z",
-              "type": "SWAP",
-              "amount": 0.04023276,
-              "usdValue": 8.498112,
-              "wallet": {
-                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-                "name": "OGmoodeng"
-              }
-            },
-            {
-              "timestamp": "2026-10-10T19:31:59.000Z",
-              "type": "BUY",
-              "amount": 0.04023276,
-              "usdValue": 8.498112,
-              "wallet": {
-                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-                "name": "OGmoodeng"
-              }
-            },
-            {
-              "timestamp": "2026-10-10T19:31:26.000Z",
-              "type": "SWAP",
-              "amount": 0.52247867,
-              "usdValue": 110.347578,
-              "wallet": {
-                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-                "name": "OGmoodeng"
-              }
-            },
-            {
-              "timestamp": "2026-10-10T19:31:26.000Z",
-              "type": "BUY",
-              "amount": 0.52247867,
-              "usdValue": 110.347578,
-              "wallet": {
-                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-                "name": "OGmoodeng"
-              }
-            }
-          ]
-        },
-        "walletPortfolios": [
-          {
-            "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
-            "name": "OGmoodeng",
-            "score": 2,
-            "tokens": [
-              {
-                "token_address": "XsoBhf2ufR8fTyNSjqfU71DYGaE6Z3SUGAidpzriAA4",
-                "balance": 0,
-                "token_price": 208.35,
-                "token_decimals": 8,
-                "token_symbol": "PLTRx",
-                "token_name": "Palantir xStock",
                 "value": 0
               }
             ]
