@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2026-10-15T14:30:42.044Z",
+  "timestamp": "2026-10-15T18:31:21.779Z",
   "data": [
     {
       "address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
@@ -11,11 +11,11 @@
       "created_time": 1752153028,
       "website": "",
       "twitter": "",
-      "holder": 351311,
-      "market_cap": 3593578893,
-      "price": 0.00434,
-      "price_change_24h": -9.89,
-      "volume_24h": 17498383.24,
+      "holder": 351861,
+      "market_cap": 2107242029,
+      "price": 0.00455,
+      "price_change_24h": -3.2,
+      "volume_24h": 17443202.38,
       "pool_address": "solana_2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
       "ath": 0.0067982976853724056,
       "ath_timestamp": 1791072000,
@@ -23,11 +23,11 @@
       "dexId": "pumpswap",
       "pairAddress": "2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
       "txns_24h": {
-        "buys": 8298,
-        "sells": 6150
+        "buys": 8373,
+        "sells": 5712
       },
-      "fdv_usd": 3593578893,
-      "total_reserve_in_usd": 23177574.13,
+      "fdv_usd": 3767441712,
+      "total_reserve_in_usd": 23735456.5,
       "tags": [
         "moonshot"
       ],
@@ -170,7 +170,7 @@
             {
               "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
               "balance": 0,
-              "token_price": 0.00434,
+              "token_price": 0.00455,
               "token_decimals": 6,
               "token_symbol": "PUMP",
               "token_name": "Pump",
@@ -185,12 +185,12 @@
           "tokens": [
             {
               "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-              "balance": 46600.372661,
-              "token_price": 0.00434,
+              "balance": 47898.068306,
+              "token_price": 0.00455,
               "token_decimals": 6,
               "token_symbol": "PUMP",
               "token_name": "Pump",
-              "value": 202.24561734874
+              "value": 217.93621079230002
             }
           ]
         }
@@ -205,11 +205,11 @@
       "created_time": 1749634799,
       "website": "",
       "twitter": "",
-      "holder": 185040,
-      "market_cap": 216594,
-      "price": 216.59,
-      "price_change_24h": -3.53,
-      "volume_24h": 3570148.49,
+      "holder": 185632,
+      "market_cap": 217335,
+      "price": 217.33,
+      "price_change_24h": -1.7,
+      "volume_24h": 3616905.49,
       "pool_address": "solana_49iMatQtoyabsYAQc8GafVq6aeBFVDxSRH44oiatyyw6",
       "ath": 244.65078239432071,
       "ath_timestamp": 1791244800,
@@ -217,11 +217,11 @@
       "dexId": "raydium",
       "pairAddress": "49iMatQtoyabsYAQc8GafVq6aeBFVDxSRH44oiatyyw6",
       "txns_24h": {
-        "buys": 8694,
-        "sells": 9771
+        "buys": 8239,
+        "sells": 9320
       },
-      "fdv_usd": 216594,
-      "total_reserve_in_usd": 3078861.11,
+      "fdv_usd": 217335,
+      "total_reserve_in_usd": 3089330.4,
       "tags": [
         "moonshot"
       ],
@@ -230,9 +230,19 @@
         "price": 231.68
       },
       "metrics": {
-        "uniqueWallets": 1,
-        "inflow24h": -5.762967161593302e-06,
+        "uniqueWallets": 2,
+        "inflow24h": -69.55392276296716,
         "trades": [
+          {
+            "timestamp": "2026-10-15T14:44:53.000Z",
+            "type": "SELL",
+            "amount": 0.32015756,
+            "usdValue": 69.553917,
+            "wallet": {
+              "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+              "name": "Chillguy32x"
+            }
+          },
           {
             "timestamp": "2026-10-14T18:41:38.000Z",
             "type": "SWAP",
@@ -257,6 +267,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+          "name": "Chillguy32x",
+          "score": 1,
+          "tokens": [
+            {
+              "token_address": "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh",
+              "balance": 0,
+              "token_price": 217.33,
+              "token_decimals": 8,
+              "token_symbol": "NVDAx",
+              "token_name": "NVIDIA xStock",
+              "value": 0
+            }
+          ]
+        },
+        {
           "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
           "name": "OGmoodeng",
           "score": 2,
@@ -264,7 +290,7 @@
             {
               "token_address": "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh",
               "balance": 0,
-              "token_price": 216.59,
+              "token_price": 217.33,
               "token_decimals": 8,
               "token_symbol": "NVDAx",
               "token_name": "NVIDIA xStock",
@@ -278,6 +304,111 @@
   "groups": {
     "latestSignals": [],
     "buys": [],
-    "sells": []
+    "sells": [
+      {
+        "address": "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh",
+        "symbol": "NVDAx",
+        "name": "NVIDIA xStock",
+        "decimals": 8,
+        "icon": "https://xstocks-metadata.backed.fi/logos/tokens/NVDAx.png",
+        "created_time": 1749634799,
+        "website": "",
+        "twitter": "",
+        "holder": 185632,
+        "market_cap": 217335,
+        "price": 217.33,
+        "price_change_24h": -1.7,
+        "volume_24h": 3616905.49,
+        "pool_address": "solana_49iMatQtoyabsYAQc8GafVq6aeBFVDxSRH44oiatyyw6",
+        "ath": 244.65078239432071,
+        "ath_timestamp": 1791244800,
+        "ath_pool": "49iMatQtoyabsYAQc8GafVq6aeBFVDxSRH44oiatyyw6",
+        "dexId": "raydium",
+        "pairAddress": "49iMatQtoyabsYAQc8GafVq6aeBFVDxSRH44oiatyyw6",
+        "txns_24h": {
+          "buys": 8239,
+          "sells": 9320
+        },
+        "fdv_usd": 217335,
+        "total_reserve_in_usd": 3089330.4,
+        "tags": [
+          "moonshot"
+        ],
+        "first_signal": {
+          "timestamp": 1788736057,
+          "price": 231.68
+        },
+        "metrics": {
+          "uniqueWallets": 2,
+          "inflow24h": -69.55392276296716,
+          "trades": [
+            {
+              "timestamp": "2026-10-15T14:44:53.000Z",
+              "type": "SELL",
+              "amount": 0.32015756,
+              "usdValue": 69.553917,
+              "wallet": {
+                "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+                "name": "Chillguy32x"
+              }
+            },
+            {
+              "timestamp": "2026-10-14T18:41:38.000Z",
+              "type": "SWAP",
+              "amount": 0.00047029,
+              "usdValue": 0.10386947925602064,
+              "wallet": {
+                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+                "name": "OGmoodeng"
+              }
+            },
+            {
+              "timestamp": "2026-10-14T18:41:38.000Z",
+              "type": "BUY",
+              "amount": 0.00047029,
+              "usdValue": 0.10386371628885904,
+              "wallet": {
+                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+                "name": "OGmoodeng"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "AZqazPiH4ovf9FBmkdWy7NXbb6R78X98CbvdZaqnpMHh",
+            "name": "Chillguy32x",
+            "score": 1,
+            "tokens": [
+              {
+                "token_address": "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh",
+                "balance": 0,
+                "token_price": 217.33,
+                "token_decimals": 8,
+                "token_symbol": "NVDAx",
+                "token_name": "NVIDIA xStock",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+            "name": "OGmoodeng",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh",
+                "balance": 0,
+                "token_price": 217.33,
+                "token_decimals": 8,
+                "token_symbol": "NVDAx",
+                "token_name": "NVIDIA xStock",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 }
