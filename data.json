@@ -1,7 +1,95 @@
 {
   "success": true,
-  "timestamp": "2026-10-15T23:50:09.042Z",
+  "timestamp": "2026-10-16T01:43:05.685Z",
   "data": [
+    {
+      "address": "XsDoVfqeBukxuZHWhdvWHBhgEHjGNst4MLodqsJHzoB",
+      "symbol": "TSLAx",
+      "name": "Tesla xStock",
+      "decimals": 8,
+      "icon": "https://xstocks-metadata.backed.fi/logos/tokens/TSLAx.png",
+      "created_time": 1749634870,
+      "website": "",
+      "twitter": "",
+      "holder": 53032,
+      "market_cap": 68997734,
+      "price": 367.091,
+      "price_change_24h": 0.87,
+      "volume_24h": 4615936.08,
+      "pool_address": "solana_8aDaBQkTrS6HVMjyc6EZebgdiaXhLYGriDWKWWp1NpFF",
+      "ath": 415.4503207767762,
+      "ath_timestamp": 1789344000,
+      "ath_pool": "8aDaBQkTrS6HVMjyc6EZebgdiaXhLYGriDWKWWp1NpFF",
+      "dexId": "raydium",
+      "pairAddress": "8aDaBQkTrS6HVMjyc6EZebgdiaXhLYGriDWKWWp1NpFF",
+      "txns_24h": {
+        "buys": 21852,
+        "sells": 19879
+      },
+      "fdv_usd": 367091,
+      "total_reserve_in_usd": 2353046.46,
+      "tags": [
+        "moonshot"
+      ],
+      "first_signal": {
+        "timestamp": 1787775449,
+        "price": 346.092
+      },
+      "metrics": {
+        "uniqueWallets": 1,
+        "inflow24h": -10.397022638675393,
+        "trades": [
+          {
+            "timestamp": "2026-10-16T01:27:15.000Z",
+            "type": "SELL",
+            "amount": 0.02880458,
+            "usdValue": 10.407511,
+            "wallet": {
+              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+              "name": "OGmoodeng"
+            }
+          },
+          {
+            "timestamp": "2026-10-16T01:26:32.000Z",
+            "type": "SWAP",
+            "amount": 0.02901893,
+            "usdValue": 10.486312638675392,
+            "wallet": {
+              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+              "name": "OGmoodeng"
+            }
+          },
+          {
+            "timestamp": "2026-10-16T01:26:32.000Z",
+            "type": "BUY",
+            "amount": 0.02901893,
+            "usdValue": 10.496801,
+            "wallet": {
+              "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+              "name": "OGmoodeng"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+          "name": "OGmoodeng",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "XsDoVfqeBukxuZHWhdvWHBhgEHjGNst4MLodqsJHzoB",
+              "balance": 0,
+              "token_price": 367.091,
+              "token_decimals": 8,
+              "token_symbol": "TSLAx",
+              "token_name": "Tesla xStock",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
     {
       "address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "symbol": "PUMP",
@@ -11,11 +99,11 @@
       "created_time": 1752153028,
       "website": "",
       "twitter": "",
-      "holder": 354614,
-      "market_cap": 2101205704,
-      "price": 0.004537,
-      "price_change_24h": -4.79,
-      "volume_24h": 17358597.74,
+      "holder": 354497,
+      "market_cap": 2091862131,
+      "price": 0.004517,
+      "price_change_24h": -5.17,
+      "volume_24h": 17230132.57,
       "pool_address": "solana_2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
       "ath": 0.0067982976853724056,
       "ath_timestamp": 1791072000,
@@ -23,11 +111,11 @@
       "dexId": "pumpswap",
       "pairAddress": "2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
       "txns_24h": {
-        "buys": 8717,
-        "sells": 5762
+        "buys": 8954,
+        "sells": 5865
       },
-      "fdv_usd": 3756378273,
-      "total_reserve_in_usd": 23703199.38,
+      "fdv_usd": 3739590258,
+      "total_reserve_in_usd": 23650797.94,
       "tags": [
         "moonshot"
       ],
@@ -270,7 +358,7 @@
             {
               "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
               "balance": 0,
-              "token_price": 0.004537,
+              "token_price": 0.004517,
               "token_decimals": 6,
               "token_symbol": "PUMP",
               "token_name": "Pump",
@@ -286,11 +374,11 @@
             {
               "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
               "balance": 47898.068306,
-              "token_price": 0.004537,
+              "token_price": 0.004517,
               "token_decimals": 6,
               "token_symbol": "PUMP",
               "token_name": "Pump",
-              "value": 217.313535904322
+              "value": 216.355574538202
             }
           ]
         }
@@ -305,15 +393,15 @@
       "created_time": 1787608117,
       "website": "",
       "twitter": "",
-      "holder": 1671,
+      "holder": 1654,
       "market_cap": 272747,
       "price": 77.92,
       "price_change_24h": -0.28,
       "volume_24h": 2656.67,
       "pool_address": "solana_8LvCYrEwnrxFTxhdLMLc82u9obda4hoJPmH8HQxXmirU",
       "ath": 77.92,
-      "ath_timestamp": null,
-      "ath_pool": "",
+      "ath_timestamp": 1792108210,
+      "ath_pool": "2p8QjDfsFrzFi6JuQCxHY7jyvc8VDrvGfa9Aq8KcAmLs",
       "dexId": "raydium",
       "pairAddress": "2p8QjDfsFrzFi6JuQCxHY7jyvc8VDrvGfa9Aq8KcAmLs",
       "txns_24h": {
@@ -416,15 +504,15 @@
         "created_time": 1787608117,
         "website": "",
         "twitter": "",
-        "holder": 1671,
+        "holder": 1654,
         "market_cap": 272747,
         "price": 77.92,
         "price_change_24h": -0.28,
         "volume_24h": 2656.67,
         "pool_address": "solana_8LvCYrEwnrxFTxhdLMLc82u9obda4hoJPmH8HQxXmirU",
         "ath": 77.92,
-        "ath_timestamp": null,
-        "ath_pool": "",
+        "ath_timestamp": 1792108210,
+        "ath_pool": "2p8QjDfsFrzFi6JuQCxHY7jyvc8VDrvGfa9Aq8KcAmLs",
         "dexId": "raydium",
         "pairAddress": "2p8QjDfsFrzFi6JuQCxHY7jyvc8VDrvGfa9Aq8KcAmLs",
         "txns_24h": {
@@ -519,6 +607,94 @@
     "buys": [],
     "sells": [
       {
+        "address": "XsDoVfqeBukxuZHWhdvWHBhgEHjGNst4MLodqsJHzoB",
+        "symbol": "TSLAx",
+        "name": "Tesla xStock",
+        "decimals": 8,
+        "icon": "https://xstocks-metadata.backed.fi/logos/tokens/TSLAx.png",
+        "created_time": 1749634870,
+        "website": "",
+        "twitter": "",
+        "holder": 53032,
+        "market_cap": 68997734,
+        "price": 367.091,
+        "price_change_24h": 0.87,
+        "volume_24h": 4615936.08,
+        "pool_address": "solana_8aDaBQkTrS6HVMjyc6EZebgdiaXhLYGriDWKWWp1NpFF",
+        "ath": 415.4503207767762,
+        "ath_timestamp": 1789344000,
+        "ath_pool": "8aDaBQkTrS6HVMjyc6EZebgdiaXhLYGriDWKWWp1NpFF",
+        "dexId": "raydium",
+        "pairAddress": "8aDaBQkTrS6HVMjyc6EZebgdiaXhLYGriDWKWWp1NpFF",
+        "txns_24h": {
+          "buys": 21852,
+          "sells": 19879
+        },
+        "fdv_usd": 367091,
+        "total_reserve_in_usd": 2353046.46,
+        "tags": [
+          "moonshot"
+        ],
+        "first_signal": {
+          "timestamp": 1787775449,
+          "price": 346.092
+        },
+        "metrics": {
+          "uniqueWallets": 1,
+          "inflow24h": -10.397022638675393,
+          "trades": [
+            {
+              "timestamp": "2026-10-16T01:27:15.000Z",
+              "type": "SELL",
+              "amount": 0.02880458,
+              "usdValue": 10.407511,
+              "wallet": {
+                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+                "name": "OGmoodeng"
+              }
+            },
+            {
+              "timestamp": "2026-10-16T01:26:32.000Z",
+              "type": "SWAP",
+              "amount": 0.02901893,
+              "usdValue": 10.486312638675392,
+              "wallet": {
+                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+                "name": "OGmoodeng"
+              }
+            },
+            {
+              "timestamp": "2026-10-16T01:26:32.000Z",
+              "type": "BUY",
+              "amount": 0.02901893,
+              "usdValue": 10.496801,
+              "wallet": {
+                "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+                "name": "OGmoodeng"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
+            "name": "OGmoodeng",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "XsDoVfqeBukxuZHWhdvWHBhgEHjGNst4MLodqsJHzoB",
+                "balance": 0,
+                "token_price": 367.091,
+                "token_decimals": 8,
+                "token_symbol": "TSLAx",
+                "token_name": "Tesla xStock",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
         "address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
         "symbol": "PUMP",
         "name": "Pump",
@@ -527,11 +703,11 @@
         "created_time": 1752153028,
         "website": "",
         "twitter": "",
-        "holder": 354614,
-        "market_cap": 2101205704,
-        "price": 0.004537,
-        "price_change_24h": -4.79,
-        "volume_24h": 17358597.74,
+        "holder": 354497,
+        "market_cap": 2091862131,
+        "price": 0.004517,
+        "price_change_24h": -5.17,
+        "volume_24h": 17230132.57,
         "pool_address": "solana_2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
         "ath": 0.0067982976853724056,
         "ath_timestamp": 1791072000,
@@ -539,11 +715,11 @@
         "dexId": "pumpswap",
         "pairAddress": "2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
         "txns_24h": {
-          "buys": 8717,
-          "sells": 5762
+          "buys": 8954,
+          "sells": 5865
         },
-        "fdv_usd": 3756378273,
-        "total_reserve_in_usd": 23703199.38,
+        "fdv_usd": 3739590258,
+        "total_reserve_in_usd": 23650797.94,
         "tags": [
           "moonshot"
         ],
@@ -786,7 +962,7 @@
               {
                 "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
                 "balance": 0,
-                "token_price": 0.004537,
+                "token_price": 0.004517,
                 "token_decimals": 6,
                 "token_symbol": "PUMP",
                 "token_name": "Pump",
@@ -802,11 +978,11 @@
               {
                 "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
                 "balance": 47898.068306,
-                "token_price": 0.004537,
+                "token_price": 0.004517,
                 "token_decimals": 6,
                 "token_symbol": "PUMP",
                 "token_name": "Pump",
-                "value": 217.313535904322
+                "value": 216.355574538202
               }
             ]
           }
