@@ -1,9 +1,185 @@
 {
   "success": true,
-  "timestamp": "2026-10-24T14:11:05.296Z",
-  "data": [],
+  "timestamp": "2026-10-24T17:24:39.609Z",
+  "data": [
+    {
+      "address": "WENAZ2WyPbmgvUcKfQ8hyMDfBQP9bZ65hsZ5KTFrRGZ",
+      "symbol": "WEN",
+      "name": "The Wendy's Company - Backpack Securities",
+      "decimals": 6,
+      "icon": "https://backpack.exchange/api/stock-logo/WEN",
+      "created_time": 1787621117,
+      "website": "",
+      "twitter": "",
+      "holder": 4451,
+      "market_cap": 114182.153358861,
+      "price": 6.51,
+      "price_change_24h": 3.85,
+      "volume_24h": 91892.45,
+      "pool_address": "solana_6p7NkAXTiwBJJijzpPnhNqNULXv49uDLbeRj4h3DpJCt",
+      "ath": 6.51,
+      "ath_pool": "",
+      "dexId": "raydium",
+      "pairAddress": "6p7NkAXTiwBJJijzpPnhNqNULXv49uDLbeRj4h3DpJCt",
+      "txns_24h": {
+        "buys": 983,
+        "sells": 757
+      },
+      "fdv_usd": "114182.153358861",
+      "total_reserve_in_usd": 64428.77,
+      "tags": [
+        "moonshot"
+      ],
+      "first_signal": {
+        "timestamp": 1792862678,
+        "price": 6.51
+      },
+      "metrics": {
+        "uniqueWallets": 1,
+        "inflow24h": -483.84143370256015,
+        "trades": [
+          {
+            "timestamp": "2026-10-24T17:01:09.000Z",
+            "type": "SELL",
+            "amount": 79.305888,
+            "usdValue": 486.52425664792923,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-24T17:00:57.000Z",
+            "type": "SWAP",
+            "amount": 79.35703,
+            "usdValue": 498.9804428622891,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-24T17:00:57.000Z",
+            "type": "BUY",
+            "amount": 79.731077,
+            "usdValue": 501.66326580765826,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+          "name": "cooker",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "WENAZ2WyPbmgvUcKfQ8hyMDfBQP9bZ65hsZ5KTFrRGZ",
+              "balance": 0,
+              "token_price": 6.51,
+              "token_decimals": 6,
+              "token_symbol": "WEN",
+              "token_name": "The Wendy's Company - Backpack Securities",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "groups": {
-    "latestSignals": [],
+    "latestSignals": [
+      {
+        "address": "WENAZ2WyPbmgvUcKfQ8hyMDfBQP9bZ65hsZ5KTFrRGZ",
+        "symbol": "WEN",
+        "name": "The Wendy's Company - Backpack Securities",
+        "decimals": 6,
+        "icon": "https://backpack.exchange/api/stock-logo/WEN",
+        "created_time": 1787621117,
+        "website": "",
+        "twitter": "",
+        "holder": 4451,
+        "market_cap": 114182.153358861,
+        "price": 6.51,
+        "price_change_24h": 3.85,
+        "volume_24h": 91892.45,
+        "pool_address": "solana_6p7NkAXTiwBJJijzpPnhNqNULXv49uDLbeRj4h3DpJCt",
+        "ath": 6.51,
+        "ath_pool": "",
+        "dexId": "raydium",
+        "pairAddress": "6p7NkAXTiwBJJijzpPnhNqNULXv49uDLbeRj4h3DpJCt",
+        "txns_24h": {
+          "buys": 983,
+          "sells": 757
+        },
+        "fdv_usd": "114182.153358861",
+        "total_reserve_in_usd": 64428.77,
+        "tags": [
+          "moonshot"
+        ],
+        "first_signal": {
+          "timestamp": 1792862678,
+          "price": 6.51
+        },
+        "metrics": {
+          "uniqueWallets": 1,
+          "inflow24h": -483.84143370256015,
+          "trades": [
+            {
+              "timestamp": "2026-10-24T17:01:09.000Z",
+              "type": "SELL",
+              "amount": 79.305888,
+              "usdValue": 486.52425664792923,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-24T17:00:57.000Z",
+              "type": "SWAP",
+              "amount": 79.35703,
+              "usdValue": 498.9804428622891,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-24T17:00:57.000Z",
+              "type": "BUY",
+              "amount": 79.731077,
+              "usdValue": 501.66326580765826,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+            "name": "cooker",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "WENAZ2WyPbmgvUcKfQ8hyMDfBQP9bZ65hsZ5KTFrRGZ",
+                "balance": 0,
+                "token_price": 6.51,
+                "token_decimals": 6,
+                "token_symbol": "WEN",
+                "token_name": "The Wendy's Company - Backpack Securities",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "buys": [],
     "sells": []
   }
