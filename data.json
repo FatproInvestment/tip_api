@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2026-10-24T17:24:39.609Z",
+  "timestamp": "2026-10-24T19:35:23.239Z",
   "data": [
     {
       "address": "WENAZ2WyPbmgvUcKfQ8hyMDfBQP9bZ65hsZ5KTFrRGZ",
@@ -11,33 +11,53 @@
       "created_time": 1787621117,
       "website": "",
       "twitter": "",
-      "holder": 4451,
-      "market_cap": 114182.153358861,
-      "price": 6.51,
-      "price_change_24h": 3.85,
-      "volume_24h": 91892.45,
+      "holder": 5606,
+      "market_cap": 121355.556871757,
+      "price": 6.97,
+      "price_change_24h": 12.76,
+      "volume_24h": 387570.81,
       "pool_address": "solana_6p7NkAXTiwBJJijzpPnhNqNULXv49uDLbeRj4h3DpJCt",
-      "ath": 6.51,
+      "ath": 6.97,
       "ath_pool": "",
       "dexId": "raydium",
       "pairAddress": "6p7NkAXTiwBJJijzpPnhNqNULXv49uDLbeRj4h3DpJCt",
       "txns_24h": {
-        "buys": 983,
-        "sells": 757
+        "buys": 4546,
+        "sells": 3660
       },
-      "fdv_usd": "114182.153358861",
-      "total_reserve_in_usd": 64428.77,
+      "fdv_usd": "121518.631775127",
+      "total_reserve_in_usd": 66865.34,
       "tags": [
         "moonshot"
       ],
       "first_signal": {
-        "timestamp": 1792862678,
-        "price": 6.51
+        "timestamp": 1792870522,
+        "price": 6.97
       },
       "metrics": {
         "uniqueWallets": 1,
-        "inflow24h": -483.84143370256015,
+        "inflow24h": -489.5041248120981,
         "trades": [
+          {
+            "timestamp": "2026-10-24T18:47:20.000Z",
+            "type": "SWAP",
+            "amount": 220.310695,
+            "usdValue": 1519.7125453214032,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-24T18:47:20.000Z",
+            "type": "BUY",
+            "amount": 220.310695,
+            "usdValue": 1514.0498542118653,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
           {
             "timestamp": "2026-10-24T17:01:09.000Z",
             "type": "SELL",
@@ -78,12 +98,100 @@
           "tokens": [
             {
               "token_address": "WENAZ2WyPbmgvUcKfQ8hyMDfBQP9bZ65hsZ5KTFrRGZ",
-              "balance": 0,
-              "token_price": 6.51,
+              "balance": 0.855945,
+              "token_price": 6.97,
               "token_decimals": 6,
               "token_symbol": "WEN",
               "token_name": "The Wendy's Company - Backpack Securities",
-              "value": 0
+              "value": 5.96593665
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "address": "TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo",
+      "symbol": "TTWO",
+      "name": "Take-Two Interactive Software - Backpack Securities",
+      "decimals": 6,
+      "icon": "https://backpack.exchange/api/stock-logo/TTWO",
+      "created_time": 1785715631,
+      "website": "",
+      "twitter": "",
+      "holder": 75366,
+      "market_cap": 88,
+      "price": 204.71,
+      "price_change_24h": -0.2,
+      "volume_24h": 4446392.62,
+      "pool_address": "solana_6PTm7MkUmtsLU7w6dWrMHJAt8PnzoCgcZdKyTKEhUAPL",
+      "ath": 247.92439954384366,
+      "ath_timestamp": 1791676800,
+      "ath_pool": "FDamUzyiEA7Cq1VNiQcbhuHpfCmmcJfgA6DwQQ1hhLd2",
+      "dexId": "raydium",
+      "pairAddress": "6PTm7MkUmtsLU7w6dWrMHJAt8PnzoCgcZdKyTKEhUAPL",
+      "txns_24h": {
+        "buys": 28238,
+        "sells": 23607
+      },
+      "fdv_usd": 88,
+      "total_reserve_in_usd": 2062229.09,
+      "tags": [
+        "moonshot"
+      ],
+      "first_signal": {
+        "timestamp": 1789295771,
+        "price": 218.49
+      },
+      "metrics": {
+        "uniqueWallets": 1,
+        "inflow24h": -540.9422600562339,
+        "trades": [
+          {
+            "timestamp": "2026-10-24T18:44:57.000Z",
+            "type": "SELL",
+            "amount": 2.641644,
+            "usdValue": 541.0819172036878,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-24T18:44:56.000Z",
+            "type": "SWAP",
+            "amount": 2.459593,
+            "usdValue": 504.6750714570316,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-10-24T18:44:56.000Z",
+            "type": "BUY",
+            "amount": 2.459593,
+            "usdValue": 504.8147286044854,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+          "name": "cooker",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo",
+              "balance": 0.000212,
+              "token_price": 204.71,
+              "token_decimals": 6,
+              "token_symbol": "TTWO",
+              "token_name": "Take-Two Interactive Software - Backpack Securities",
+              "value": 0.04339852
             }
           ]
         }
@@ -101,33 +209,53 @@
         "created_time": 1787621117,
         "website": "",
         "twitter": "",
-        "holder": 4451,
-        "market_cap": 114182.153358861,
-        "price": 6.51,
-        "price_change_24h": 3.85,
-        "volume_24h": 91892.45,
+        "holder": 5606,
+        "market_cap": 121355.556871757,
+        "price": 6.97,
+        "price_change_24h": 12.76,
+        "volume_24h": 387570.81,
         "pool_address": "solana_6p7NkAXTiwBJJijzpPnhNqNULXv49uDLbeRj4h3DpJCt",
-        "ath": 6.51,
+        "ath": 6.97,
         "ath_pool": "",
         "dexId": "raydium",
         "pairAddress": "6p7NkAXTiwBJJijzpPnhNqNULXv49uDLbeRj4h3DpJCt",
         "txns_24h": {
-          "buys": 983,
-          "sells": 757
+          "buys": 4546,
+          "sells": 3660
         },
-        "fdv_usd": "114182.153358861",
-        "total_reserve_in_usd": 64428.77,
+        "fdv_usd": "121518.631775127",
+        "total_reserve_in_usd": 66865.34,
         "tags": [
           "moonshot"
         ],
         "first_signal": {
-          "timestamp": 1792862678,
-          "price": 6.51
+          "timestamp": 1792870522,
+          "price": 6.97
         },
         "metrics": {
           "uniqueWallets": 1,
-          "inflow24h": -483.84143370256015,
+          "inflow24h": -489.5041248120981,
           "trades": [
+            {
+              "timestamp": "2026-10-24T18:47:20.000Z",
+              "type": "SWAP",
+              "amount": 220.310695,
+              "usdValue": 1519.7125453214032,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-24T18:47:20.000Z",
+              "type": "BUY",
+              "amount": 220.310695,
+              "usdValue": 1514.0498542118653,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
             {
               "timestamp": "2026-10-24T17:01:09.000Z",
               "type": "SELL",
@@ -168,12 +296,12 @@
             "tokens": [
               {
                 "token_address": "WENAZ2WyPbmgvUcKfQ8hyMDfBQP9bZ65hsZ5KTFrRGZ",
-                "balance": 0,
-                "token_price": 6.51,
+                "balance": 0.855945,
+                "token_price": 6.97,
                 "token_decimals": 6,
                 "token_symbol": "WEN",
                 "token_name": "The Wendy's Company - Backpack Securities",
-                "value": 0
+                "value": 5.96593665
               }
             ]
           }
@@ -181,6 +309,95 @@
       }
     ],
     "buys": [],
-    "sells": []
+    "sells": [
+      {
+        "address": "TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo",
+        "symbol": "TTWO",
+        "name": "Take-Two Interactive Software - Backpack Securities",
+        "decimals": 6,
+        "icon": "https://backpack.exchange/api/stock-logo/TTWO",
+        "created_time": 1785715631,
+        "website": "",
+        "twitter": "",
+        "holder": 75366,
+        "market_cap": 88,
+        "price": 204.71,
+        "price_change_24h": -0.2,
+        "volume_24h": 4446392.62,
+        "pool_address": "solana_6PTm7MkUmtsLU7w6dWrMHJAt8PnzoCgcZdKyTKEhUAPL",
+        "ath": 247.92439954384366,
+        "ath_timestamp": 1791676800,
+        "ath_pool": "FDamUzyiEA7Cq1VNiQcbhuHpfCmmcJfgA6DwQQ1hhLd2",
+        "dexId": "raydium",
+        "pairAddress": "6PTm7MkUmtsLU7w6dWrMHJAt8PnzoCgcZdKyTKEhUAPL",
+        "txns_24h": {
+          "buys": 28238,
+          "sells": 23607
+        },
+        "fdv_usd": 88,
+        "total_reserve_in_usd": 2062229.09,
+        "tags": [
+          "moonshot"
+        ],
+        "first_signal": {
+          "timestamp": 1789295771,
+          "price": 218.49
+        },
+        "metrics": {
+          "uniqueWallets": 1,
+          "inflow24h": -540.9422600562339,
+          "trades": [
+            {
+              "timestamp": "2026-10-24T18:44:57.000Z",
+              "type": "SELL",
+              "amount": 2.641644,
+              "usdValue": 541.0819172036878,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-24T18:44:56.000Z",
+              "type": "SWAP",
+              "amount": 2.459593,
+              "usdValue": 504.6750714570316,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            },
+            {
+              "timestamp": "2026-10-24T18:44:56.000Z",
+              "type": "BUY",
+              "amount": 2.459593,
+              "usdValue": 504.8147286044854,
+              "wallet": {
+                "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+                "name": "cooker"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+            "name": "cooker",
+            "score": 2,
+            "tokens": [
+              {
+                "token_address": "TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo",
+                "balance": 0.000212,
+                "token_price": 204.71,
+                "token_decimals": 6,
+                "token_symbol": "TTWO",
+                "token_name": "Take-Two Interactive Software - Backpack Securities",
+                "value": 0.04339852
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 }
