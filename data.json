@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2026-10-29T20:32:25.199Z",
+  "timestamp": "2026-10-30T00:11:05.696Z",
   "data": [
     {
       "address": "Xsa62P5mvPszXL1krVUnU5ar38bBSVcWAB6fmPCo5Zu",
@@ -11,11 +11,11 @@
       "created_time": 1749634720,
       "website": "",
       "twitter": "",
-      "holder": 43516,
-      "market_cap": 620141,
-      "price": 620.14,
-      "price_change_24h": 0.34,
-      "volume_24h": 1435837.51,
+      "holder": 43410,
+      "market_cap": 623104,
+      "price": 623.1,
+      "price_change_24h": 0.74,
+      "volume_24h": 1415830.88,
       "pool_address": "solana_3L7KbPVaAQA4UTecaGQYsm6UCq5F3sZM9zAYkxqYt63j",
       "ath": 786.1494063015867,
       "ath_timestamp": 1790294400,
@@ -23,11 +23,11 @@
       "dexId": "raydium",
       "pairAddress": "3L7KbPVaAQA4UTecaGQYsm6UCq5F3sZM9zAYkxqYt63j",
       "txns_24h": {
-        "buys": 11648,
-        "sells": 10398
+        "buys": 11635,
+        "sells": 10384
       },
-      "fdv_usd": 620141,
-      "total_reserve_in_usd": 1069912.5,
+      "fdv_usd": 623104,
+      "total_reserve_in_usd": 1096262.23,
       "tags": [
         "moonshot"
       ],
@@ -37,8 +37,18 @@
       },
       "metrics": {
         "uniqueWallets": 1,
-        "inflow24h": -0.8567804494027769,
+        "inflow24h": -407.59387487644636,
         "trades": [
+          {
+            "timestamp": "2026-10-29T22:29:44.000Z",
+            "type": "SELL",
+            "amount": 0.65504374,
+            "usdValue": 406.73709442704364,
+            "wallet": {
+              "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+              "name": "Ansem"
+            }
+          },
           {
             "timestamp": "2026-10-29T20:01:11.000Z",
             "type": "SWAP",
@@ -69,12 +79,12 @@
           "tokens": [
             {
               "token_address": "Xsa62P5mvPszXL1krVUnU5ar38bBSVcWAB6fmPCo5Zu",
-              "balance": 0.00153266,
-              "token_price": 620.14,
+              "balance": 0.00224953,
+              "token_price": 623.1,
               "token_decimals": 8,
               "token_symbol": "METAx",
               "token_name": "Meta xStock",
-              "value": 0.9504637723999999
+              "value": 1.4016821430000002
             }
           ]
         }
@@ -84,6 +94,95 @@
   "groups": {
     "latestSignals": [],
     "buys": [],
-    "sells": []
+    "sells": [
+      {
+        "address": "Xsa62P5mvPszXL1krVUnU5ar38bBSVcWAB6fmPCo5Zu",
+        "symbol": "METAx",
+        "name": "Meta xStock",
+        "decimals": 8,
+        "icon": "https://xstocks-metadata.backed.fi/logos/tokens/METAx.png",
+        "created_time": 1749634720,
+        "website": "",
+        "twitter": "",
+        "holder": 43410,
+        "market_cap": 623104,
+        "price": 623.1,
+        "price_change_24h": 0.74,
+        "volume_24h": 1415830.88,
+        "pool_address": "solana_3L7KbPVaAQA4UTecaGQYsm6UCq5F3sZM9zAYkxqYt63j",
+        "ath": 786.1494063015867,
+        "ath_timestamp": 1790294400,
+        "ath_pool": "3L7KbPVaAQA4UTecaGQYsm6UCq5F3sZM9zAYkxqYt63j",
+        "dexId": "raydium",
+        "pairAddress": "3L7KbPVaAQA4UTecaGQYsm6UCq5F3sZM9zAYkxqYt63j",
+        "txns_24h": {
+          "buys": 11635,
+          "sells": 10384
+        },
+        "fdv_usd": 623104,
+        "total_reserve_in_usd": 1096262.23,
+        "tags": [
+          "moonshot"
+        ],
+        "first_signal": {
+          "timestamp": 1788686436,
+          "price": 617.33
+        },
+        "metrics": {
+          "uniqueWallets": 1,
+          "inflow24h": -407.59387487644636,
+          "trades": [
+            {
+              "timestamp": "2026-10-29T22:29:44.000Z",
+              "type": "SELL",
+              "amount": 0.65504374,
+              "usdValue": 406.73709442704364,
+              "wallet": {
+                "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+                "name": "Ansem"
+              }
+            },
+            {
+              "timestamp": "2026-10-29T20:01:11.000Z",
+              "type": "SWAP",
+              "amount": 0.72762944,
+              "usdValue": 457.052601615685,
+              "wallet": {
+                "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+                "name": "Ansem"
+              }
+            },
+            {
+              "timestamp": "2026-10-29T20:01:11.000Z",
+              "type": "BUY",
+              "amount": 0.72762944,
+              "usdValue": 456.1958211662822,
+              "wallet": {
+                "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+                "name": "Ansem"
+              }
+            }
+          ]
+        },
+        "walletPortfolios": [
+          {
+            "address": "AVAZvHLR2PcWpDf8BXY4rVxNHYRBytycHkcB5z5QNXYm",
+            "name": "Ansem",
+            "score": 3,
+            "tokens": [
+              {
+                "token_address": "Xsa62P5mvPszXL1krVUnU5ar38bBSVcWAB6fmPCo5Zu",
+                "balance": 0.00224953,
+                "token_price": 623.1,
+                "token_decimals": 8,
+                "token_symbol": "METAx",
+                "token_name": "Meta xStock",
+                "value": 1.4016821430000002
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 }
