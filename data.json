@@ -1,7 +1,131 @@
 {
   "success": true,
-  "timestamp": "2026-11-10T10:05:22.018Z",
+  "timestamp": "2026-11-10T17:41:16.283Z",
   "data": [
+    {
+      "address": "Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump",
+      "symbol": "HODL",
+      "name": "HODL",
+      "decimals": 6,
+      "icon": "https://ipfs.io/ipfs/QmWZy1zRNaV3B6Vg637yVZ5Hm7aWq2CERhi4wqxczPmP6w",
+      "created_time": 1770925652,
+      "website": "https://github.com/GameKyuubi",
+      "twitter": "https://x.com/solanadegen/status/2022034438440554718?s=46&t=jHy6m7rr4hpv-0k4HoPOyA",
+      "holder": 6370,
+      "market_cap": 5581943,
+      "price": 0.005582,
+      "price_change_24h": 55.29,
+      "volume_24h": 1017921.88,
+      "pool_address": "solana_DTdtHUx79bmNMnesv3au7pzBKAkB3mUUi8GwUdZ6Suw",
+      "ath": 0.004214130101183647,
+      "ath_timestamp": 1794279600,
+      "ath_pool": "DTdtHUx79bmNMnesv3au7pzBKAkB3mUUi8GwUdZ6Suw",
+      "dexId": "pumpswap",
+      "pairAddress": "DTdtHUx79bmNMnesv3au7pzBKAkB3mUUi8GwUdZ6Suw",
+      "txns_24h": {
+        "buys": 4792,
+        "sells": 5455
+      },
+      "fdv_usd": 5581943,
+      "total_reserve_in_usd": 366878.38,
+      "tags": [
+        "moonshot"
+      ],
+      "first_signal": {
+        "timestamp": 1794277445,
+        "price": 0.004067
+      },
+      "metrics": {
+        "uniqueWallets": 2,
+        "inflow24h": 6981.676987586556,
+        "trades": [
+          {
+            "timestamp": "2026-11-10T17:14:29.000Z",
+            "type": "BUY",
+            "amount": 1133514.9214,
+            "usdValue": 6993,
+            "wallet": {
+              "address": "6Ee7NNNNCfbSXKD1u81616Qyj1jK34DyWvvH5BCEsMFU",
+              "name": "JustFollow!"
+            }
+          },
+          {
+            "timestamp": "2026-11-09T21:52:34.000Z",
+            "type": "SELL",
+            "amount": 65817.950787,
+            "usdValue": 270.53483332012524,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-11-09T21:51:52.000Z",
+            "type": "SWAP",
+            "amount": 5208.318734,
+            "usdValue": 21.597657835449173,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-11-09T21:51:52.000Z",
+            "type": "BUY",
+            "amount": 5208.318734,
+            "usdValue": 21.597657835449173,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          },
+          {
+            "timestamp": "2026-11-09T21:51:49.000Z",
+            "type": "BUY",
+            "amount": 62608.481364,
+            "usdValue": 259.2118209066808,
+            "wallet": {
+              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+              "name": "cooker"
+            }
+          }
+        ]
+      },
+      "walletPortfolios": [
+        {
+          "address": "6Ee7NNNNCfbSXKD1u81616Qyj1jK34DyWvvH5BCEsMFU",
+          "name": "JustFollow!",
+          "score": 1,
+          "tokens": [
+            {
+              "token_address": "Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump",
+              "balance": 1133514.9214,
+              "token_price": 0.005582,
+              "token_decimals": 6,
+              "token_symbol": "HODL",
+              "token_name": "HODL",
+              "value": 6327.2802912548
+            }
+          ]
+        },
+        {
+          "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
+          "name": "cooker",
+          "score": 2,
+          "tokens": [
+            {
+              "token_address": "Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump",
+              "balance": 0,
+              "token_price": 0.005582,
+              "token_decimals": 6,
+              "token_symbol": "HODL",
+              "token_name": "HODL",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
     {
       "address": "Tqj8yFmagrg7oorpQkVGYR52r96RFTamvWfth9bpump",
       "symbol": "KINS",
@@ -11,11 +135,11 @@
       "created_time": 1779471284,
       "website": "https://kintara.gg/",
       "twitter": "https://x.com/PlayKintara/status/2057876357221114027",
-      "holder": 20237,
-      "market_cap": 708327,
-      "price": 0.0007143,
-      "price_change_24h": 46.72,
-      "volume_24h": 36393.6,
+      "holder": 20225,
+      "market_cap": 652259,
+      "price": 0.0006577,
+      "price_change_24h": 24.13,
+      "volume_24h": 55604.28,
       "pool_address": "solana_F42tZnKPavq1VUcrL6ymhc6YqVpt84fWwgzbNTv2wb3W",
       "ath": 0.022867229191639218,
       "ath_timestamp": 1781740800,
@@ -23,11 +147,11 @@
       "dexId": "pumpswap",
       "pairAddress": "F42tZnKPavq1VUcrL6ymhc6YqVpt84fWwgzbNTv2wb3W",
       "txns_24h": {
-        "buys": 287,
-        "sells": 500
+        "buys": 544,
+        "sells": 753
       },
-      "fdv_usd": 708327,
-      "total_reserve_in_usd": 126147.01,
+      "fdv_usd": 652259,
+      "total_reserve_in_usd": 118934.23,
       "tags": [
         "moonshot"
       ],
@@ -60,11 +184,11 @@
             {
               "token_address": "Tqj8yFmagrg7oorpQkVGYR52r96RFTamvWfth9bpump",
               "balance": 9578441.944453,
-              "token_price": 0.0007143,
+              "token_price": 0.0006577,
               "token_decimals": 6,
               "token_symbol": "KINS",
               "token_name": "Kintara",
-              "value": 6841.881080922777
+              "value": 6299.7412668667375
             }
           ]
         }
@@ -79,11 +203,11 @@
       "created_time": 1749634799,
       "website": "",
       "twitter": "",
-      "holder": 202726,
-      "market_cap": 40136997,
-      "price": 182.52,
-      "price_change_24h": 1.82,
-      "volume_24h": 6903463.52,
+      "holder": 202951,
+      "market_cap": 36712504,
+      "price": 166.95,
+      "price_change_24h": -6.33,
+      "volume_24h": 5647089.85,
       "pool_address": "solana_49iMatQtoyabsYAQc8GafVq6aeBFVDxSRH44oiatyyw6",
       "ath": 244.6507823943207,
       "ath_timestamp": 1791244800,
@@ -91,11 +215,11 @@
       "dexId": "raydium",
       "pairAddress": "49iMatQtoyabsYAQc8GafVq6aeBFVDxSRH44oiatyyw6",
       "txns_24h": {
-        "buys": 24220,
-        "sells": 26194
+        "buys": 16088,
+        "sells": 18362
       },
-      "fdv_usd": 182528,
-      "total_reserve_in_usd": 2693154.3,
+      "fdv_usd": 166955,
+      "total_reserve_in_usd": 2570675.93,
       "tags": [
         "moonshot"
       ],
@@ -148,109 +272,11 @@
             {
               "token_address": "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh",
               "balance": 0.0220329,
-              "token_price": 182.52,
+              "token_price": 166.95,
               "token_decimals": 8,
               "token_symbol": "NVDAx",
               "token_name": "NVIDIA xStock",
-              "value": 4.021444908
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "address": "Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump",
-      "symbol": "HODL",
-      "name": "HODL",
-      "decimals": 6,
-      "icon": "https://ipfs.io/ipfs/QmWZy1zRNaV3B6Vg637yVZ5Hm7aWq2CERhi4wqxczPmP6w",
-      "created_time": 1770925652,
-      "website": "https://github.com/GameKyuubi",
-      "twitter": "https://x.com/solanadegen/status/2022034438440554718?s=46&t=jHy6m7rr4hpv-0k4HoPOyA",
-      "holder": 6383,
-      "market_cap": 3555475,
-      "price": 0.003555,
-      "price_change_24h": 111,
-      "volume_24h": 1596518.23,
-      "pool_address": "solana_DTdtHUx79bmNMnesv3au7pzBKAkB3mUUi8GwUdZ6Suw",
-      "ath": 0.004067,
-      "ath_timestamp": 1794277449,
-      "ath_pool": "DTdtHUx79bmNMnesv3au7pzBKAkB3mUUi8GwUdZ6Suw",
-      "dexId": "pumpswap",
-      "pairAddress": "DTdtHUx79bmNMnesv3au7pzBKAkB3mUUi8GwUdZ6Suw",
-      "txns_24h": {
-        "buys": 7951,
-        "sells": 7510
-      },
-      "fdv_usd": 3555475,
-      "total_reserve_in_usd": 298265.58,
-      "tags": [
-        "moonshot"
-      ],
-      "first_signal": {
-        "timestamp": 1794277445,
-        "price": 0.004067
-      },
-      "metrics": {
-        "uniqueWallets": 1,
-        "inflow24h": -11.323012413444417,
-        "trades": [
-          {
-            "timestamp": "2026-11-09T21:52:34.000Z",
-            "type": "SELL",
-            "amount": 65817.950787,
-            "usdValue": 270.53483332012524,
-            "wallet": {
-              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-              "name": "cooker"
-            }
-          },
-          {
-            "timestamp": "2026-11-09T21:51:52.000Z",
-            "type": "SWAP",
-            "amount": 5208.318734,
-            "usdValue": 21.597657835449173,
-            "wallet": {
-              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-              "name": "cooker"
-            }
-          },
-          {
-            "timestamp": "2026-11-09T21:51:52.000Z",
-            "type": "BUY",
-            "amount": 5208.318734,
-            "usdValue": 21.597657835449173,
-            "wallet": {
-              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-              "name": "cooker"
-            }
-          },
-          {
-            "timestamp": "2026-11-09T21:51:49.000Z",
-            "type": "BUY",
-            "amount": 62608.481364,
-            "usdValue": 259.2118209066808,
-            "wallet": {
-              "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-              "name": "cooker"
-            }
-          }
-        ]
-      },
-      "walletPortfolios": [
-        {
-          "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
-          "name": "cooker",
-          "score": 2,
-          "tokens": [
-            {
-              "token_address": "Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump",
-              "balance": 0,
-              "token_price": 0.003555,
-              "token_decimals": 6,
-              "token_symbol": "HODL",
-              "token_name": "HODL",
-              "value": 0
+              "value": 3.678392655
             }
           ]
         }
@@ -268,23 +294,23 @@
         "created_time": 1770925652,
         "website": "https://github.com/GameKyuubi",
         "twitter": "https://x.com/solanadegen/status/2022034438440554718?s=46&t=jHy6m7rr4hpv-0k4HoPOyA",
-        "holder": 6383,
-        "market_cap": 3555475,
-        "price": 0.003555,
-        "price_change_24h": 111,
-        "volume_24h": 1596518.23,
+        "holder": 6370,
+        "market_cap": 5581943,
+        "price": 0.005582,
+        "price_change_24h": 55.29,
+        "volume_24h": 1017921.88,
         "pool_address": "solana_DTdtHUx79bmNMnesv3au7pzBKAkB3mUUi8GwUdZ6Suw",
-        "ath": 0.004067,
-        "ath_timestamp": 1794277449,
+        "ath": 0.004214130101183647,
+        "ath_timestamp": 1794279600,
         "ath_pool": "DTdtHUx79bmNMnesv3au7pzBKAkB3mUUi8GwUdZ6Suw",
         "dexId": "pumpswap",
         "pairAddress": "DTdtHUx79bmNMnesv3au7pzBKAkB3mUUi8GwUdZ6Suw",
         "txns_24h": {
-          "buys": 7951,
-          "sells": 7510
+          "buys": 4792,
+          "sells": 5455
         },
-        "fdv_usd": 3555475,
-        "total_reserve_in_usd": 298265.58,
+        "fdv_usd": 5581943,
+        "total_reserve_in_usd": 366878.38,
         "tags": [
           "moonshot"
         ],
@@ -293,9 +319,19 @@
           "price": 0.004067
         },
         "metrics": {
-          "uniqueWallets": 1,
-          "inflow24h": -11.323012413444417,
+          "uniqueWallets": 2,
+          "inflow24h": 6981.676987586556,
           "trades": [
+            {
+              "timestamp": "2026-11-10T17:14:29.000Z",
+              "type": "BUY",
+              "amount": 1133514.9214,
+              "usdValue": 6993,
+              "wallet": {
+                "address": "6Ee7NNNNCfbSXKD1u81616Qyj1jK34DyWvvH5BCEsMFU",
+                "name": "JustFollow!"
+              }
+            },
             {
               "timestamp": "2026-11-09T21:52:34.000Z",
               "type": "SELL",
@@ -340,6 +376,22 @@
         },
         "walletPortfolios": [
           {
+            "address": "6Ee7NNNNCfbSXKD1u81616Qyj1jK34DyWvvH5BCEsMFU",
+            "name": "JustFollow!",
+            "score": 1,
+            "tokens": [
+              {
+                "token_address": "Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump",
+                "balance": 1133514.9214,
+                "token_price": 0.005582,
+                "token_decimals": 6,
+                "token_symbol": "HODL",
+                "token_name": "HODL",
+                "value": 6327.2802912548
+              }
+            ]
+          },
+          {
             "address": "8deJ9xeUvXSJwicYptA9mHsU2rN2pDx37KWzkDkEXhU6",
             "name": "cooker",
             "score": 2,
@@ -347,7 +399,7 @@
               {
                 "token_address": "Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump",
                 "balance": 0,
-                "token_price": 0.003555,
+                "token_price": 0.005582,
                 "token_decimals": 6,
                 "token_symbol": "HODL",
                 "token_name": "HODL",
@@ -368,11 +420,11 @@
         "created_time": 1779471284,
         "website": "https://kintara.gg/",
         "twitter": "https://x.com/PlayKintara/status/2057876357221114027",
-        "holder": 20237,
-        "market_cap": 708327,
-        "price": 0.0007143,
-        "price_change_24h": 46.72,
-        "volume_24h": 36393.6,
+        "holder": 20225,
+        "market_cap": 652259,
+        "price": 0.0006577,
+        "price_change_24h": 24.13,
+        "volume_24h": 55604.28,
         "pool_address": "solana_F42tZnKPavq1VUcrL6ymhc6YqVpt84fWwgzbNTv2wb3W",
         "ath": 0.022867229191639218,
         "ath_timestamp": 1781740800,
@@ -380,11 +432,11 @@
         "dexId": "pumpswap",
         "pairAddress": "F42tZnKPavq1VUcrL6ymhc6YqVpt84fWwgzbNTv2wb3W",
         "txns_24h": {
-          "buys": 287,
-          "sells": 500
+          "buys": 544,
+          "sells": 753
         },
-        "fdv_usd": 708327,
-        "total_reserve_in_usd": 126147.01,
+        "fdv_usd": 652259,
+        "total_reserve_in_usd": 118934.23,
         "tags": [
           "moonshot"
         ],
@@ -417,11 +469,11 @@
               {
                 "token_address": "Tqj8yFmagrg7oorpQkVGYR52r96RFTamvWfth9bpump",
                 "balance": 9578441.944453,
-                "token_price": 0.0007143,
+                "token_price": 0.0006577,
                 "token_decimals": 6,
                 "token_symbol": "KINS",
                 "token_name": "Kintara",
-                "value": 6841.881080922777
+                "value": 6299.7412668667375
               }
             ]
           }
@@ -438,11 +490,11 @@
         "created_time": 1749634799,
         "website": "",
         "twitter": "",
-        "holder": 202726,
-        "market_cap": 40136997,
-        "price": 182.52,
-        "price_change_24h": 1.82,
-        "volume_24h": 6903463.52,
+        "holder": 202951,
+        "market_cap": 36712504,
+        "price": 166.95,
+        "price_change_24h": -6.33,
+        "volume_24h": 5647089.85,
         "pool_address": "solana_49iMatQtoyabsYAQc8GafVq6aeBFVDxSRH44oiatyyw6",
         "ath": 244.6507823943207,
         "ath_timestamp": 1791244800,
@@ -450,11 +502,11 @@
         "dexId": "raydium",
         "pairAddress": "49iMatQtoyabsYAQc8GafVq6aeBFVDxSRH44oiatyyw6",
         "txns_24h": {
-          "buys": 24220,
-          "sells": 26194
+          "buys": 16088,
+          "sells": 18362
         },
-        "fdv_usd": 182528,
-        "total_reserve_in_usd": 2693154.3,
+        "fdv_usd": 166955,
+        "total_reserve_in_usd": 2570675.93,
         "tags": [
           "moonshot"
         ],
@@ -507,11 +559,11 @@
               {
                 "token_address": "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh",
                 "balance": 0.0220329,
-                "token_price": 182.52,
+                "token_price": 166.95,
                 "token_decimals": 8,
                 "token_symbol": "NVDAx",
                 "token_name": "NVIDIA xStock",
-                "value": 4.021444908
+                "value": 3.678392655
               }
             ]
           }
