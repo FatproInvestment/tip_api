@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2026-11-12T03:58:39.607Z",
+  "timestamp": "2026-11-12T12:11:45.681Z",
   "data": [
     {
       "address": "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8",
@@ -11,11 +11,11 @@
       "created_time": 1793282207,
       "website": "",
       "twitter": "https://x.com/stankonsf",
-      "holder": 5145,
-      "market_cap": 1930740,
-      "price": 0.00193,
-      "price_change_24h": -49.43,
-      "volume_24h": 703994.06,
+      "holder": 5110,
+      "market_cap": 1761483,
+      "price": 0.001761,
+      "price_change_24h": -64.01,
+      "volume_24h": 691170.98,
       "pool_address": "solana_91iHWaWXneUyoNDJhSno7ezxQg1VW5P6PdarNGyFfPCz",
       "ath": 0.0024229229015954898,
       "ath_timestamp": 1794441600,
@@ -23,11 +23,11 @@
       "dexId": "raydium",
       "pairAddress": "6hYFMyE2BYYScTErqUeCKhihQ5X9j2WD2z9waTdwy38N",
       "txns_24h": {
-        "buys": 3803,
-        "sells": 3871
+        "buys": 3963,
+        "sells": 3824
       },
-      "fdv_usd": 1930740,
-      "total_reserve_in_usd": 78313.56,
+      "fdv_usd": 1761483,
+      "total_reserve_in_usd": 76301.08,
       "tags": [
         "moonshot"
       ],
@@ -110,7 +110,7 @@
             {
               "token_address": "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8",
               "balance": 0,
-              "token_price": 0.00193,
+              "token_price": 0.001761,
               "token_decimals": 6,
               "token_symbol": "STANK",
               "token_name": "STANK",
@@ -129,11 +129,11 @@
       "created_time": 1752153028,
       "website": "",
       "twitter": "",
-      "holder": 442331,
-      "market_cap": 1587249931,
-      "price": 0.003462,
-      "price_change_24h": -3.05,
-      "volume_24h": 3788064.17,
+      "holder": 442831,
+      "market_cap": 1551552951,
+      "price": 0.003384,
+      "price_change_24h": -5.84,
+      "volume_24h": 3555132.66,
       "pool_address": "solana_2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
       "ath": 0.006798297685372405,
       "ath_timestamp": 1791072000,
@@ -141,11 +141,11 @@
       "dexId": "orca",
       "pairAddress": "BofA2ViUSudPBTUms2KRuG6AHNeMawjNfwqTJDgx5BKW",
       "txns_24h": {
-        "buys": 10043,
-        "sells": 9950
+        "buys": 11979,
+        "sells": 11115
       },
-      "fdv_usd": 3462040321,
-      "total_reserve_in_usd": 2240671.52,
+      "fdv_usd": 3384179625,
+      "total_reserve_in_usd": 2189733.2,
       "tags": [
         "moonshot"
       ],
@@ -154,9 +154,19 @@
         "price": 0.005381
       },
       "metrics": {
-        "uniqueWallets": 1,
-        "inflow24h": -16.54092613958624,
+        "uniqueWallets": 2,
+        "inflow24h": -151.58381757961072,
         "trades": [
+          {
+            "timestamp": "2026-11-12T11:23:16.000Z",
+            "type": "SELL",
+            "amount": 39440.270525,
+            "usdValue": 135.04289144002448,
+            "wallet": {
+              "address": "CNudZYFgpbT26fidsiNrWfHeGTBMMeVWqruZXsEkcUPc",
+              "name": "Luce46x"
+            }
+          },
           {
             "timestamp": "2026-11-11T21:12:14.000Z",
             "type": "SELL",
@@ -221,6 +231,22 @@
       },
       "walletPortfolios": [
         {
+          "address": "CNudZYFgpbT26fidsiNrWfHeGTBMMeVWqruZXsEkcUPc",
+          "name": "Luce46x",
+          "score": 0.5,
+          "tokens": [
+            {
+              "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+              "balance": 0,
+              "token_price": 0.003384,
+              "token_decimals": 6,
+              "token_symbol": "PUMP",
+              "token_name": "Pump",
+              "value": 0
+            }
+          ]
+        },
+        {
           "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
           "name": "OGmoodeng",
           "score": 2,
@@ -228,7 +254,7 @@
             {
               "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
               "balance": 0,
-              "token_price": 0.003462,
+              "token_price": 0.003384,
               "token_decimals": 6,
               "token_symbol": "PUMP",
               "token_name": "Pump",
@@ -250,11 +276,11 @@
         "created_time": 1793282207,
         "website": "",
         "twitter": "https://x.com/stankonsf",
-        "holder": 5145,
-        "market_cap": 1930740,
-        "price": 0.00193,
-        "price_change_24h": -49.43,
-        "volume_24h": 703994.06,
+        "holder": 5110,
+        "market_cap": 1761483,
+        "price": 0.001761,
+        "price_change_24h": -64.01,
+        "volume_24h": 691170.98,
         "pool_address": "solana_91iHWaWXneUyoNDJhSno7ezxQg1VW5P6PdarNGyFfPCz",
         "ath": 0.0024229229015954898,
         "ath_timestamp": 1794441600,
@@ -262,11 +288,11 @@
         "dexId": "raydium",
         "pairAddress": "6hYFMyE2BYYScTErqUeCKhihQ5X9j2WD2z9waTdwy38N",
         "txns_24h": {
-          "buys": 3803,
-          "sells": 3871
+          "buys": 3963,
+          "sells": 3824
         },
-        "fdv_usd": 1930740,
-        "total_reserve_in_usd": 78313.56,
+        "fdv_usd": 1761483,
+        "total_reserve_in_usd": 76301.08,
         "tags": [
           "moonshot"
         ],
@@ -349,7 +375,7 @@
               {
                 "token_address": "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8",
                 "balance": 0,
-                "token_price": 0.00193,
+                "token_price": 0.001761,
                 "token_decimals": 6,
                 "token_symbol": "STANK",
                 "token_name": "STANK",
@@ -371,11 +397,11 @@
         "created_time": 1752153028,
         "website": "",
         "twitter": "",
-        "holder": 442331,
-        "market_cap": 1587249931,
-        "price": 0.003462,
-        "price_change_24h": -3.05,
-        "volume_24h": 3788064.17,
+        "holder": 442831,
+        "market_cap": 1551552951,
+        "price": 0.003384,
+        "price_change_24h": -5.84,
+        "volume_24h": 3555132.66,
         "pool_address": "solana_2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
         "ath": 0.006798297685372405,
         "ath_timestamp": 1791072000,
@@ -383,11 +409,11 @@
         "dexId": "orca",
         "pairAddress": "BofA2ViUSudPBTUms2KRuG6AHNeMawjNfwqTJDgx5BKW",
         "txns_24h": {
-          "buys": 10043,
-          "sells": 9950
+          "buys": 11979,
+          "sells": 11115
         },
-        "fdv_usd": 3462040321,
-        "total_reserve_in_usd": 2240671.52,
+        "fdv_usd": 3384179625,
+        "total_reserve_in_usd": 2189733.2,
         "tags": [
           "moonshot"
         ],
@@ -396,9 +422,19 @@
           "price": 0.005381
         },
         "metrics": {
-          "uniqueWallets": 1,
-          "inflow24h": -16.54092613958624,
+          "uniqueWallets": 2,
+          "inflow24h": -151.58381757961072,
           "trades": [
+            {
+              "timestamp": "2026-11-12T11:23:16.000Z",
+              "type": "SELL",
+              "amount": 39440.270525,
+              "usdValue": 135.04289144002448,
+              "wallet": {
+                "address": "CNudZYFgpbT26fidsiNrWfHeGTBMMeVWqruZXsEkcUPc",
+                "name": "Luce46x"
+              }
+            },
             {
               "timestamp": "2026-11-11T21:12:14.000Z",
               "type": "SELL",
@@ -463,6 +499,22 @@
         },
         "walletPortfolios": [
           {
+            "address": "CNudZYFgpbT26fidsiNrWfHeGTBMMeVWqruZXsEkcUPc",
+            "name": "Luce46x",
+            "score": 0.5,
+            "tokens": [
+              {
+                "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+                "balance": 0,
+                "token_price": 0.003384,
+                "token_decimals": 6,
+                "token_symbol": "PUMP",
+                "token_name": "Pump",
+                "value": 0
+              }
+            ]
+          },
+          {
             "address": "8yJFWmVTQq69p6VJxGwpzW7ii7c5J9GRAtHCNMMQPydj",
             "name": "OGmoodeng",
             "score": 2,
@@ -470,7 +522,7 @@
               {
                 "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
                 "balance": 0,
-                "token_price": 0.003462,
+                "token_price": 0.003384,
                 "token_decimals": 6,
                 "token_symbol": "PUMP",
                 "token_name": "Pump",
